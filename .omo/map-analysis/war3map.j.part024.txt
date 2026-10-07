@@ -1,0 +1,1800 @@
+endif
+endif
+endif
+set rDv=ds
+set WDv=Player(6)
+set pDv=bj_ALLIANCE_UNALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Player(6)
+set WDv=ds
+set pDv=bj_ALLIANCE_UNALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Gs
+set WDv=Player(0)
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Gs
+set WDv=Player(1)
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Gs
+set WDv=Player(2)
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Gs
+set WDv=Player(3)
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Gs
+set WDv=Player(4)
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Gs
+set WDv=Player(5)
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Gs
+set WDv=Player(6)
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Player(0)
+set WDv=Gs
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Player(1)
+set WDv=Gs
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Player(2)
+set WDv=Gs
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Player(3)
+set WDv=Gs
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Player(4)
+set WDv=Gs
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Player(5)
+set WDv=Gs
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+set rDv=Player(6)
+set WDv=Gs
+set pDv=bj_ALLIANCE_ALLIED
+set mDv=false
+if rDv==WDv then
+set mDv=true
+endif
+if not mDv then
+if pDv==bj_ALLIANCE_UNALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_UNALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_UNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_ALLIED_ADVUNITS then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+elseif not mDv then
+if pDv==bj_ALLIANCE_NEUTRAL_VISION then
+if not mDv then
+call SetPlayerAllianceStateAllyBJ(rDv,WDv,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_VISION,true)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_SHARED_ADVANCED_CONTROL,false)
+call SetPlayerAlliance(rDv,WDv,ALLIANCE_PASSIVE,true)
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+call SetFloatGameState(GAME_STATE_TIME_OF_DAY,12.01)
+call SuspendTimeOfDay(true)
+call SetTimeOfDayScale(0.)
+call FogEnable(false)
+call FogMaskEnable(true)
+set gP[0]=em
+set gP[1]=Am
+set gP[2]=fm
+set gP[3]=PY
+set uP[0]=jm
+set uP[1]=bm
+set uP[2]=nm
+set uP[3]=Fm
+set AP[0]=Yd
+set AP[1]=dd
+set AP[2]=Gd
+set AP[3]=qd
+set IP[0]=Hm
+set IP[1]=tm
+set IP[2]=Im
+set IP[3]=Cm
+set XP[0]=eY
+set XP[1]=tY
+set XP[2]=xY
+set XP[3]=bY
+set fP[0]=lY
+set fP[1]=NY
+set fP[2]=wY
+set fP[3]=DY
+set nP[0]=HY
+set nP[1]=oY
+set nP[2]=jY
+set nP[3]=KY
+set TP[0]=kY
+set TP[1]=QY
+set TP[2]=UY
+set TP[3]=BY
+set OP[0]=cY
+set OP[1]=sd
+set OP[2]=Pd
+set OP[3]=pd
+set aP[0]=Ji
+set aP[1]=ei
+set aP[2]=ti
+set aP[3]=xi
+set CP[0]=rm
+set CP[1]=Wm
+set CP[2]=im
+set CP[3]=mm
+set LP[0]=Ym
+set LP[1]=dm
+set LP[2]=Gm
+set LP[3]=qm
+set FP[0]=yd
+set FP[1]=ld
+set FP[2]=Nd
+set FP[3]=wd
+set rDv=null
+set WDv=null
+set YDv=null
+endfunction
+function dER takes nothing returns boolean
+local integer YER=hj
+set Wj[YER]=GetTriggerPlayer()
+set Zo[YER]=GetTriggerUnit()
+set Ao[YER]=GetEventTargetUnit()
+return false
+endfunction
+function dFv takes nothing returns nothing
+local integer pFv=GetPlayerId(GetTriggerPlayer())
+local integer rFv=S2I(BlzGetTriggerSyncData())
+local integer WFv=LoadInteger(fp,rFv,3)
+local player iFv
+local integer mFv
+local player YFv
+if WFv==0 then
+call AVs(pFv,rFv)
+set iFv=Player(pFv)
+set mFv=XbR()
+call GroupEnumUnitsOfPlayer(xW[mFv],iFv,fW)
+call GroupClear(xW[mFv])
+call FpR(mFv)
+set iFv=Player(pFv)
+set H=iFv
+call TriggerEvaluate(B)
+set iFv=Player(pFv)
+set mFv=XbR()
+call GroupEnumUnitsOfPlayer(xW[mFv],iFv,Filter(cA))
+call GroupClear(xW[mFv])
+call FpR(mFv)
+call ADv(pFv)
+elseif WFv==1 then
+if Ls[pFv]<LoadInteger(fp,rFv,1) then
+call QkR(Player(pFv),"|cffFF0000베리가 부족합니다.|r",wi,-50.,0.,2.,1.)
+else
+set Ls[pFv]=Ls[pFv]-LoadInteger(fp,rFv,1)
+call AVs(pFv,rFv)
+set YFv=Player(pFv)
+set mFv=XbR()
+call GroupEnumUnitsOfPlayer(xW[mFv],YFv,fW)
+call GroupClear(xW[mFv])
+call FpR(mFv)
+set YFv=Player(pFv)
+set H=YFv
+call TriggerEvaluate(B)
+call ADv(pFv)
+endif
+endif
+set iFv=null
+set YFv=null
+endfunction
+function dGR takes nothing returns nothing
+local player mGR=Player(Jv)
+local integer YGR=xv
+call SetPlayerState(mGR,PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(mGR,PLAYER_STATE_RESOURCE_FOOD_USED)-YGR)
+set mGR=null
+endfunction
+function dHs takes nothing returns nothing
+local unit WHs=GetEnumUnit()
+local unit YHs=LoadUnitHandle(gj,0,Op*$1f4)
+local real mHs=.09*.01
+local unitstate iHs=UNIT_STATE_MAX_LIFE
+call yDs(YHs,WHs,mHs*GetUnitState(WHs,iHs)*I2R(GetUnitUserData(LoadUnitHandle(gj,0,Op*$1f4))),1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+set WHs=null
+set iHs=null
+set YHs=null
+endfunction
+function dHv takes nothing returns nothing
+local unit YHv=GetEnumUnit()
+if IsUnitType(YHv,UNIT_TYPE_DEAD) or GetWidgetLife(YHv)<=.405 then
+set kR=true
+endif
+set YHv=null
+endfunction
+function Qls takes integer hls returns nothing
+local integer cls=eV[hls]
+local string kls="◎ 보상 : |cffff8200"+GetObjectName($65303138)+"|r 2개\n"
+if GetLocalPlayer()==Player(hls) then
+call pns(cls+1,"BTN\\BTN_Quest_2.blp","유닛조합(불멸)")
+call yuv(cls+1,"BTN\\BTN_Quest_2.blp","|cffffdead퀘스트 :: 유닛조합(불멸)|r","|cffF361A6'불멸' 등급 유닛을 1개 이상 조합|r",kls,"|cff04ffc4조건 충족시 자동으로 퀘스트가 완료됩니다.|r")
+endif
+endfunction
+function dKR takes nothing returns nothing
+local integer YKR=GetPlayerId(yr)
+set eV[YKR]=lr
+set EV[YKR]=true
+call Qls(YKR)
+if not JV then
+set JV=true
+call TriggerAddCondition(Ys,Condition(x4))
+endif
+endfunction
+function dLR takes nothing returns nothing
+local unit YLR=GetAttacker()
+call TriggerExecute(Re)
+if GetUnitState(YLR,UNIT_STATE_MANA)==55. then
+call SetUnitState(YLR,UNIT_STATE_MANA,.0)
+call TriggerExecute(ve)
+endif
+set YLR=null
+endfunction
+function dLs takes nothing returns nothing
+local integer YLs
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call dSs(Op,0,GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+call frR(Op,0,u5R(WN[GetPlayerId(LoadPlayerHandle(Bj,0,Op*$1f4))]))
+if LoadInteger(Tj,0,Op*$1f4)==0 then
+call AWR(Op,.02,3)
+else
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call AWR(Op,.02,1)
+endif
+elseif vo[Op]==1 then
+set bj_lastPlayedSound=vPR("SE\\uta_b3.wav",null,$7f,1.,true,2000.,2500.)
+call StopSound(bj_lastPlayedSound,false,false)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call ForGroup(xW[WN[GetPlayerId(LoadPlayerHandle(Bj,0,Op*$1f4))]],wf)
+call AWR(Op,.67,2)
+elseif vo[Op]==2 then
+set YLs=XbR()
+call dEv(YLs,400.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(Df),Sf)
+call Vbv(YLs)
+if AAv(LoadUnitHandle(gj,0,Op*$1f4+1)) then
+if SPs(LoadUnitHandle(gj,0,Op*$1f4+1)) then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),GetUnitState(LoadUnitHandle(gj,0,Op*$1f4+1),UNIT_STATE_LIFE)*.10*I2R(LoadInteger(Tj,0,Op*$1f4))*(.79+.01*I2R(GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41313153))),1.,1.,ATTACK_TYPE_MELEE,DAMAGE_TYPE_UNIVERSAL)
+endif
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),1550000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+call AWR(Op,.03,3)
+elseif vo[Op]==3 then
+call SetUnitUserData(LoadUnitHandle(gj,0,Op*$1f4),0)
+call qjR(Op)
+endif
+endfunction
+function dNs takes nothing returns nothing
+local integer YNs=0
+call hjR(GetExpiredTimer())
+set Tp=true
+loop
+exitwhen YNs>=bj_MAX_PLAYERS
+if GetPlayerState(Player(YNs),PLAYER_STATE_RESOURCE_GOLD)>0 then
+call SetPlayerState(Player(YNs),PLAYER_STATE_RESOURCE_GOLD,0)
+set Tp=false
+endif
+if GetPlayerState(Player(YNs),PLAYER_STATE_RESOURCE_LUMBER)>0 then
+call SetPlayerState(Player(YNs),PLAYER_STATE_RESOURCE_LUMBER,0)
+set Tp=false
+endif
+set YNs=YNs+1
+endloop
+if Tp then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,5.,"현재 온라인입니다.")
+else
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,5.,"현재 싱글모드 입니다. 세이브/로드가 불가능합니다.")
+endif
+endfunction
+function dNv takes nothing returns nothing
+call TriggerExecute(yZ)
+endfunction
+function dOR takes nothing returns nothing
+local unit YOR
+if GetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(GetOwningPlayer(GetTriggerUnit()),0.,0.,5.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call IssueImmediateOrder(GetTriggerUnit(),"stop")
+set YOR=null
+return
+endif
+set YOR=GetTriggerUnit()
+call IncUnitAbilityLevel(YOR,$41304b46)
+call UnitRemoveAbility(GetTriggerUnit(),GetSpellAbilityId())
+call SetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+set YOR=null
+endfunction
+function dQs takes nothing returns nothing
+local integer YQs
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call frR(Op,8,GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4))))
+call frR(Op,10,GetUnitCurrentOrder(LoadUnitHandle(gj,0,Op*$1f4)))
+call IssueTargetOrder(Sy[LoadInteger(Tj,0,Op*$1f4+8)],"frostarmor",LoadUnitHandle(gj,0,Op*$1f4))
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),true)
+call rRR(Op,2,CreateUnitAtLoc(ds,$65303241,LoadLocationHandle(Aj,0,Op*$1f4),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+2),2.15,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+2),0.,0.)
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+2),2.)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"spell one")
+call bTs(Op,3,I2R(GetHeroStatBJ(bj_HEROSTAT_STR,LoadUnitHandle(gj,0,Op*$1f4),true))*15000.)
+call hSv(Op,.03,1)
+elseif vo[Op]==1 then
+set bj_lastPlayedSound=vPR("SE\\sab6.wav",null,$7f,1.8,true,1000.,1450.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"spell one")
+call Cxs(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)),.77,15.)
+call hSv(Op,.72,1)
+elseif vo[Op]==2 then
+set bj_lastPlayedSound=vPR("SE\\sab5.wav",null,$67,.9,true,1000.,1450.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call Tjs(LoadUnitHandle(gj,0,Op*$1f4+2))
+call Cxs(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)),.3,60.)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"spell slam")
+call rRR(Op,3,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+3),2.05)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+3),3.75,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+3),$42487765,2.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+3),100.,0.)
+call mUs("!FireFist2.mdx",LoadUnitHandle(gj,0,Op*$1f4+3),"origin")
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),150.,LoadReal(aj,0,Op*$1f4)))
+call EqR(LoadUnitHandle(gj,0,Op*$1f4+3),LoadLocationHandle(Aj,0,Op*$1f4+2),.12,.03)
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)-180.))
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.3,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,2.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,9999.)
+call mUs("flamestrike3.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call hSv(Op,.11,1)
+elseif vo[Op]==3 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.05)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.75,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,2.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),100.,0.)
+call mUs("!FireFist2.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),45)
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.25)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,2.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,0.)
+call mUs("FreezingRing.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.6,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,2.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,0.)
+call mUs("slam.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call UnitAddAbility(LoadUnitHandle(gj,0,Op*$1f4+10),$41313643)
+call IssuePointOrderById(Sy[LoadInteger(Tj,0,Op*$1f4+8)],OrderId("dreadlordinferno"),GetLocationX(LoadLocationHandle(Aj,0,Op*$1f4+1)),GetLocationY(LoadLocationHandle(Aj,0,Op*$1f4+1)))
+set YQs=XbR()
+call dEv(YQs,475.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(mO),dO)
+call Vbv(YQs)
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),4250000.,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+call hSv(Op,.34,1)
+elseif vo[Op]==4 then
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),false)
+call g9R(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),LoadInteger(Tj,0,Op*$1f4+10))
+call qjR(Op)
+endif
+endfunction
+function dSv takes nothing returns nothing
+local location pSv=GetUnitLoc(GetEnumUnit())
+local unit rSv
+local string WSv
+local unitstate iSv
+local unit mSv
+local unit YSv
+if GetUnitTurnSpeed(GetEnumUnit())!=.49 then
+call SetUnitTurnSpeed(GetEnumUnit(),.49)
+set rSv=CreateUnitAtLoc(ds,$68304335,pSv,bj_UNIT_FACING)
+call SetUnitScale(rSv,1.4,1.,1.)
+call UnitApplyTimedLife(rSv,$42487765,1.)
+call SetUnitFlyHeight(rSv,120.,.0)
+set WSv="dmlianr.mdx"
+if Nv then
+set WSv=""
+endif
+call DestroyEffect(AddSpecialEffectTarget(WSv,rSv,"origin"))
+set YSv=LoadUnitHandle(gj,0,Op*$1f4)
+set rSv=GetEnumUnit()
+set iSv=UNIT_STATE_MAX_LIFE
+set mSv=GetEnumUnit()
+call yDs(YSv,rSv,GetUnitState(mSv,iSv)*.03,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call wVv(GetEnumUnit(),5)
+set rSv=GetEnumUnit()
+if GetUnitAbilityLevel(rSv,$4130564a)==0 then
+call UnitAddAbility(rSv,$4130564a)
+endif
+call SetUnitAbilityLevel(rSv,$4130564a,GetUnitAbilityLevel(rSv,$4130564a)+1)
+call SetUnitVertexColor(GetEnumUnit(),$8a,$8a,$8a,$ff)
+endif
+call RemoveLocation(pSv)
+set pSv=null
+set rSv=null
+set iSv=null
+set mSv=null
+set YSv=null
+endfunction
+function dTs takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+endfunction
+function nYs takes integer uYs returns nothing
+local integer AYs=GetPlayerId(GetTriggerPlayer())
+local integer IYs
+local integer XYs
+if uYs<=5 then
+if GetLocalPlayer()==Player(AYs) then
+set IYs=Zi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,IYs),false)
+set IYs=ii
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,IYs),false)
+set IYs=mi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,IYs),false)
+set IYs=vi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,IYs),false)
+set IYs=Ri
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,IYs),false)
+set IYs=si
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,IYs),true)
+set IYs=1
+loop
+exitwhen IYs>40
+set Si[IYs]=LoadInteger(oi,uYs,IYs)
+if Si[IYs]==0 then
+call rhs(UJ[IYs],false)
+else
+call lIs(UJ[IYs],LoadStr(ji,0,Si[IYs]))
+call qHR(BJ[IYs],I2S(LoadInteger(dv,Fs[AYs],Si[IYs]))+"회")
+call rhs(UJ[IYs],true)
+endif
+set IYs=IYs+1
+endloop
+endif
+elseif uYs<=14 then
+if GetLocalPlayer()==Player(AYs) then
+set XYs=ii
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,XYs),false)
+set XYs=mi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,XYs),false)
+set XYs=Zi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,XYs),true)
+if uYs==6 then
+set Di=Di+1
+elseif uYs==7 then
+set Di=Di+2
+elseif uYs==8 then
+set Di=Di+3
+elseif uYs==9 then
+set Di=Di+4
+elseif uYs==10 then
+set Di=Di+5
+elseif uYs==11 then
+set Di=Di+6
+elseif uYs==12 then
+set Di=Di+7
+elseif uYs==13 then
+set Di=Di+8
+elseif uYs==14 then
+set Di=Di+9
+endif
+set XYs=Vi[Di]
+set IYs=1
+loop
+exitwhen IYs>45
+set Si[IYs]=LoadInteger(oi,XYs,IYs)
+if Si[IYs]==0 then
+call rhs(sJ[IYs],false)
+else
+call lIs(sJ[IYs],LoadStr(ji,0,Si[IYs]))
+call rhs(sJ[IYs],true)
+call mUR(AYs)
+endif
+set IYs=IYs+1
+endloop
+endif
+elseif uYs<=19 then
+if GetLocalPlayer()==Player(AYs) then
+set XYs=uYs-14
+set IYs=1
+loop
+exitwhen IYs>35
+set Si[IYs]=LoadInteger(oi,XYs,IYs)
+if Si[IYs]==0 then
+call rhs(UJ[IYs],false)
+else
+call lIs(UJ[IYs],LoadStr(ji,0,Si[IYs]))
+call qHR(BJ[IYs],I2S(LoadInteger(dv,Fs[AYs],Si[IYs]))+"회")
+call rhs(UJ[IYs],true)
+endif
+set IYs=IYs+1
+endloop
+endif
+endif
+endfunction
+function dVR takes nothing returns nothing
+local hashtable YVR=Pv
+local framehandle iVR=BlzGetTriggerFrame()
+local integer WVR
+local integer mVR
+call SaveFrameHandle(pv,0,GetHandleId(iVR),iVR)
+set WVR=LoadInteger(YVR,0,GetHandleId(iVR))
+set iVR=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(iVR),iVR)
+set mVR=GetHandleId(iVR)
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,mVR),false)
+set iVR=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(iVR),iVR)
+set mVR=GetHandleId(iVR)
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,mVR),true)
+call nYs(WVR)
+set iVR=null
+set YVR=null
+endfunction
+function dVv takes nothing returns boolean
+return GetEventDamageSource()==LoadUnitHandle(gj,0,Op*$1f4) and GetEventDamage()>0.
+endfunction
+function dXs takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(GetAttacker()))
+endfunction
+function dYs takes nothing returns nothing
+local integer YYs
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call frR(Op,0,0)

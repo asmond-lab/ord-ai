@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ord-ai"
+version = "0.1.0"
+description = "Offline ORDR training-map bridge and PyTorch actor-critic learner"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.1",
+    "pydantic>=2.10",
+    "safetensors>=0.5",
+    "torch>=2.6",
+    "typer>=0.15",
+    "watchdog>=6",
+]
+
+[project.scripts]
+ord-ai = "ord_ai.cli:app"
+
+[dependency-groups]
+dev = ["basedpyright>=1.21", "pytest>=8", "ruff>=0.8"]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ord_ai"]
+
+[tool.basedpyright]
+typeCheckingMode = "all"
+pythonVersion = "3.12"
+pythonPlatform = "Windows"
+include = ["src", "tests"]
+exclude = ["**/__pycache__", ".venv", "build", "dist"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["COM812", "ISC001", "D203", "D213", "CPY001", "FBT001", "FBT002"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["S101", "ARG", "PLR2004", "SLF001", "D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra", "--strict-config", "--strict-markers"]
+filterwarnings = ["error"]

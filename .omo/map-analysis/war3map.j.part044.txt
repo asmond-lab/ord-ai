@@ -1,0 +1,1800 @@
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$474f4c44)
+call SaveInteger(Hv,Mv,uv,$474f4c44)
+call SaveInteger(ov,Mv,uv,$2710)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$574f4f44)
+call SaveInteger(Hv,Mv,uv,$574f4f44)
+call SaveInteger(ov,Mv,uv,7)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveBoolean(cv,$41313956,1,true)
+set Mv=$41313956
+set gv=0
+set uv=0
+call SaveInteger(kv,$41313956,0,$554e4954)
+call SaveInteger(Qv,Mv,gv,$68304343)
+call SaveInteger(Uv,Mv,gv,1)
+set gv=gv+1
+call SaveInteger(cv,Mv,2,gv)
+call SaveInteger(Bv,Mv,uv,$4b494e47)
+call SaveInteger(Hv,Mv,uv,$68304343)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$5049434b)
+call SaveInteger(Hv,Mv,uv,$41383030)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$6830394b)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303349)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303557)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303647)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$474f4c44)
+call SaveInteger(Hv,Mv,uv,$474f4c44)
+call SaveInteger(ov,Mv,uv,$2710)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$574f4f44)
+call SaveInteger(Hv,Mv,uv,$574f4f44)
+call SaveInteger(ov,Mv,uv,7)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveBoolean(cv,$41314144,1,true)
+set Mv=$41314144
+set gv=0
+set uv=0
+call SaveInteger(kv,$41314144,0,$554e4954)
+call SaveInteger(Qv,Mv,gv,$6830384d)
+call SaveInteger(Uv,Mv,gv,1)
+set gv=gv+1
+call SaveInteger(cv,Mv,2,gv)
+call SaveInteger(Bv,Mv,uv,$4b494e47)
+call SaveInteger(Hv,Mv,uv,$6830384d)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$6830365a)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303337)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303535)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303647)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$474f4c44)
+call SaveInteger(Hv,Mv,uv,$474f4c44)
+call SaveInteger(ov,Mv,uv,$2710)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$574f4f44)
+call SaveInteger(Hv,Mv,uv,$574f4f44)
+call SaveInteger(ov,Mv,uv,7)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveBoolean(cv,$41305936,1,true)
+set Mv=$41305936
+set gv=0
+set uv=0
+call SaveInteger(kv,$41305936,0,$554e4954)
+call SaveInteger(Qv,Mv,gv,$68303952)
+call SaveInteger(Uv,Mv,gv,1)
+set gv=gv+1
+call SaveInteger(cv,Mv,2,gv)
+call SaveInteger(Bv,Mv,uv,$4b494e47)
+call SaveInteger(Hv,Mv,uv,$68303952)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303659)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303837)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303336)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303055)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303647)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$474f4c44)
+call SaveInteger(Hv,Mv,uv,$474f4c44)
+call SaveInteger(ov,Mv,uv,$2710)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$574f4f44)
+call SaveInteger(Hv,Mv,uv,$574f4f44)
+call SaveInteger(ov,Mv,uv,7)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveBoolean(cv,$41313954,1,true)
+set Mv=$41313954
+set gv=0
+set uv=0
+call SaveInteger(kv,$41313954,0,$554e4954)
+call SaveInteger(Qv,Mv,gv,$68303849)
+call SaveInteger(Uv,Mv,gv,1)
+set gv=gv+1
+call SaveInteger(cv,Mv,2,gv)
+call SaveInteger(Bv,Mv,uv,$4b494e47)
+call SaveInteger(Hv,Mv,uv,$68303849)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$5049434b)
+call SaveInteger(Hv,Mv,uv,$41383030)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303731)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303556)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303448)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303647)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$474f4c44)
+call SaveInteger(Hv,Mv,uv,$474f4c44)
+call SaveInteger(ov,Mv,uv,$2710)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$574f4f44)
+call SaveInteger(Hv,Mv,uv,$574f4f44)
+call SaveInteger(ov,Mv,uv,7)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveBoolean(cv,$4130594b,1,true)
+set Mv=$4130594b
+set gv=0
+set uv=0
+call SaveInteger(kv,$4130594b,0,$554e4954)
+call SaveInteger(Qv,Mv,gv,$68304246)
+call SaveInteger(Uv,Mv,gv,1)
+set gv=gv+1
+call SaveInteger(cv,Mv,2,gv)
+call SaveInteger(Bv,Mv,uv,$4b494e47)
+call SaveInteger(Hv,Mv,uv,$68304246)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303732)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303252)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303354)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$6830314e)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303647)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$474f4c44)
+call SaveInteger(Hv,Mv,uv,$474f4c44)
+call SaveInteger(ov,Mv,uv,$2710)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$574f4f44)
+call SaveInteger(Hv,Mv,uv,$574f4f44)
+call SaveInteger(ov,Mv,uv,7)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveBoolean(cv,$41313056,1,true)
+set Mv=$41313056
+set gv=0
+set uv=0
+call SaveInteger(kv,$41313056,0,$554e4954)
+call SaveInteger(Qv,Mv,gv,$68303833)
+call SaveInteger(Uv,Mv,gv,1)
+set gv=gv+1
+call SaveInteger(cv,Mv,2,gv)
+call SaveInteger(Bv,Mv,uv,$4b494e47)
+call SaveInteger(Hv,Mv,uv,$68303833)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303635)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303357)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303431)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$6830434b)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303647)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$474f4c44)
+call SaveInteger(Hv,Mv,uv,$474f4c44)
+call SaveInteger(ov,Mv,uv,$2710)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$574f4f44)
+call SaveInteger(Hv,Mv,uv,$574f4f44)
+call SaveInteger(ov,Mv,uv,7)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveBoolean(cv,$41313243,1,true)
+set Mv=$41313243
+set gv=0
+set uv=0
+call SaveInteger(kv,$41313243,0,$554e4954)
+call SaveInteger(Qv,Mv,gv,$68304243)
+call SaveInteger(Uv,Mv,gv,1)
+set gv=gv+1
+call SaveInteger(cv,Mv,2,gv)
+call SaveInteger(Bv,Mv,uv,$4b494e47)
+call SaveInteger(Hv,Mv,uv,$68304243)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303657)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68304148)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303330)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303647)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$474f4c44)
+call SaveInteger(Hv,Mv,uv,$474f4c44)
+call SaveInteger(ov,Mv,uv,$2710)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$574f4f44)
+call SaveInteger(Hv,Mv,uv,$574f4f44)
+call SaveInteger(ov,Mv,uv,7)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveBoolean(cv,$41305147,1,true)
+set Mv=$41305147
+set gv=0
+set uv=0
+call SaveInteger(kv,$41305147,0,$554e4954)
+call SaveInteger(Qv,Mv,gv,$68304332)
+call SaveInteger(Uv,Mv,gv,1)
+set gv=gv+1
+call SaveInteger(cv,Mv,2,gv)
+call SaveInteger(Bv,Mv,uv,$4b494e47)
+call SaveInteger(Hv,Mv,uv,$68304332)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$5049434b)
+call SaveInteger(Hv,Mv,uv,$41383030)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303654)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303259)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303359)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$554e4954)
+call SaveInteger(Hv,Mv,uv,$68303647)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$474f4c44)
+call SaveInteger(Hv,Mv,uv,$474f4c44)
+call SaveInteger(ov,Mv,uv,$2710)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$574f4f44)
+call SaveInteger(Hv,Mv,uv,$574f4f44)
+call SaveInteger(ov,Mv,uv,7)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveBoolean(cv,$54455354,1,true)
+set Mv=$54455354
+set gv=0
+set uv=0
+call SaveInteger(kv,$54455354,0,$554e4954)
+call SaveInteger(Qv,Mv,gv,$68304243)
+call SaveInteger(Uv,Mv,gv,1)
+set gv=gv+1
+call SaveInteger(cv,Mv,2,gv)
+call SaveInteger(Bv,Mv,uv,$4954454d)
+call SaveInteger(Hv,Mv,uv,$636e6f62)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$4954454d)
+call SaveInteger(Hv,Mv,uv,$62726163)
+call SaveInteger(ov,Mv,uv,1)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+call SaveInteger(Bv,Mv,uv,$474f4c44)
+call SaveInteger(Hv,Mv,uv,$474f4c44)
+call SaveInteger(ov,Mv,uv,$2710)
+set uv=uv+1
+call SaveInteger(cv,Mv,3,uv)
+endfunction
+function yHR takes nothing returns nothing
+call yDs(GetAttacker(),GetEnumUnit(),192500.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call wVv(GetEnumUnit(),1)
+endfunction
+function yIv takes nothing returns nothing
+local unit iIv=GetAttacker()
+local unit mIv=GetTriggerUnit()
+local real qIv=GetUnitFacing(iIv)
+local unit YIv
+local location dIv
+local location GIv
+local unitstate ZIv
+if wWR(1,$64)<=10 then
+set dIv=GetUnitLoc(iIv)
+set dIv=PolarProjectionBJ(dIv,175.,qIv)
+set GIv=GetUnitLoc(mIv)
+set YIv=CreateUnitAtLoc(ds,$65303249,dIv,qIv)
+call SetUnitFlyHeight(YIv,0.,10000.)
+set YIv=CreateUnitAtLoc(ds,$65303434,dIv,qIv)
+call SetUnitVertexColor(YIv,$ff,$64,18,PercentToInt(100.,$ff))
+call UnitApplyTimedLife(YIv,$42487765,1.)
+set YIv=CreateUnitAtLoc(ds,$65303435,dIv,qIv)
+call SetUnitVertexColor(YIv,$ff,$64,18,PercentToInt(100.,$ff))
+call SetUnitAnimation(YIv,"death")
+call SetUnitTimeScale(YIv,2.)
+call UnitDamagePointLoc(iIv,0.,450.,GIv,200000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if GetUnitAbilityLevel(mIv,$41393033)>0 then
+set ZIv=UNIT_STATE_MAX_LIFE
+call yDs(iIv,mIv,GetUnitState(mIv,ZIv)*4.*.01,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+call RemoveLocation(dIv)
+call RemoveLocation(GIv)
+endif
+set iIv=null
+set mIv=null
+set YIv=null
+set dIv=null
+set GIv=null
+set ZIv=null
+endfunction
+function yKR takes nothing returns nothing
+local hashtable ZKR=Pv
+local framehandle qKR=BlzGetTriggerFrame()
+local integer GKR
+call SaveFrameHandle(pv,0,GetHandleId(qKR),qKR)
+set GKR=LoadInteger(ZKR,0,GetHandleId(qKR))
+call vAv(NJ[GKR],115.,37.)
+set qKR=null
+set ZKR=null
+endfunction
+function yLs takes nothing returns nothing
+call ZQv(1)
+if vo[Op]==1 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4),31)
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4),2.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303832,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303833,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303535,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,.0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.05,1.,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303534,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,.0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.05,1.,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303834,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303458,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,.0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.05,1.,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303835,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call qjR(Op)
+endif
+endfunction
+function yLv takes nothing returns boolean
+return true
+endfunction
+function yNR takes nothing returns nothing
+local integer mNR
+local unit YNR
+local location dNR
+local player GNR
+local real qNR
+local real ZNR
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$54523034
+set GNR=GetTriggerPlayer()
+set qNR=GetStartLocationX(GetPlayerStartLocation(GNR))
+set GNR=GetTriggerPlayer()
+set ZNR=GetStartLocationY(GetPlayerStartLocation(GNR))
+set Ws=qNR
+set is=ZNR
+set rs=true
+if not ODv() then
+set YNR=null
+set dNR=null
+set GNR=null
+return
+endif
+set YNR=FirstOfGroup(ms)
+set mNR=GetPlayerId(GetOwningPlayer(YNR))
+set dNR=GetStartLocationLoc(mNR)
+if yy[mNR]==null then
+set yy[mNR]=CreateUnitAtLoc(Player(mNR),$68303456,dNR,bj_UNIT_FACING)
+call UnitAddAbility(yy[mNR],$4130524a)
+call UnitAddAbility(yy[mNR],$41304c35)
+endif
+call StartSound(vPR("SE\\DP.mp3",null,$7f,1.,false,0.,0.))
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffc0c0c0돈키호테 도플라밍고 : |r|cff00fa9a승자만이 정의다!|r")
+call RemoveLocation(dNR)
+set YNR=null
+set dNR=null
+set GNR=null
+endfunction
+function yOR takes nothing returns nothing
+local integer ZOR
+call ZQv(1)
+if vo[Op]==1 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+set bj_lastPlayedSound=vPR("SE\\Kujo JotaroR1.wav",null,$64,1.,true,1000.,3000.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call frR(Op,8,GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4))))
+call frR(Op,10,GetUnitCurrentOrder(LoadUnitHandle(gj,0,Op*$1f4)))
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),true)
+call Ehs(Op,.03)
+elseif vo[Op]==2 then
+call SetUnitLifeBJ(LoadUnitHandle(gj,0,Op*$1f4),GetUnitStateSwap(UNIT_STATE_LIFE,LoadUnitHandle(gj,0,Op*$1f4))+5.)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"spell slam")
+call SetUnitTimeScalePercent(LoadUnitHandle(gj,0,Op*$1f4),115.)
+call WQs(Op,1,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4),150.,GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))-135.))
+call rRR(Op,14,CreateUnitAtLoc(ds,$68303953,LoadLocationHandle(Aj,0,Op*$1f4+1),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call rRR(Op,10,CreateUnitAtLoc(ds,$6830345a,LoadLocationHandle(Aj,0,Op*$1f4+1),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.,1.,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e43,LoadLocationHandle(Aj,0,Op*$1f4+1),GetRandomReal(0.,360.)))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call Ehs(Op,.85)
+elseif vo[Op]==3 then
+call SetUnitTimeScalePercent(LoadUnitHandle(gj,0,Op*$1f4),100.)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+14),"death")
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e44,LoadLocationHandle(Aj,0,Op*$1f4+1),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e45,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+10),100.,100.,100.,25.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.,1.,1.)
+call Ehs(Op,.19)
+elseif vo[Op]==4 then
+call SetUnitTimeScalePercent(LoadUnitHandle(gj,0,Op*$1f4),100.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e46,LoadLocationHandle(Aj,0,Op*$1f4),bj_UNIT_FACING))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call rRR(Op,15,CreateUnitAtLoc(ds,$65304b30,LoadLocationHandle(Aj,0,Op*$1f4+1),GetRandomReal(0.,360.)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304a31,LoadLocationHandle(Aj,0,Op*$1f4+1),GetRandomReal(0.,360.)))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$c8,$c8,$c8,$b4)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e47,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call Ehs(Op,.03)
+elseif vo[Op]<=14 then
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+14),100.,100.,100.,(I2R(vo[Op])-4.)*10.)
+call Ehs(Op,.02)
+elseif vo[Op]>14 and vo[Op]<=17 then
+if vo[Op]==15 then
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e31,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,.0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.5,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e48,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call KillUnit(LoadUnitHandle(gj,0,Op*$1f4+14))
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),false)
+call g9R(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),LoadInteger(Tj,0,Op*$1f4+10))
+endif
+call IssuePointOrderById(kD[LoadInteger(Tj,0,Op*$1f4+8)],OrderId("dreadlordinferno"),GetLocationX(LoadLocationHandle(Aj,0,Op*$1f4)),GetLocationY(LoadLocationHandle(Aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e49,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.5,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e49,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.5,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e49,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call Ehs(Op,1.)
+elseif vo[Op]==18 then
+set bj_lastPlayedSound=vPR("SE\\Kujo JotaroR2.wav",null,$64,1.,true,1000.,3000.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call IssuePointOrderById(kD[LoadInteger(Tj,0,Op*$1f4+8)],OrderId("dreadlordinferno"),GetLocationX(LoadLocationHandle(Aj,0,Op*$1f4)),GetLocationY(LoadLocationHandle(Aj,0,Op*$1f4)))
+call Ehs(Op,1.)
+elseif vo[Op]==19 then
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+15)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304a31,LoadLocationHandle(Aj,0,Op*$1f4+1),GetRandomReal(0.,360.)))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$c8,$c8,$c8,$b4)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call KillUnit(LoadUnitHandle(gj,0,Op*$1f4+15))
+set bj_lastPlayedSound=vPR("SE\\KujoJotrao_S.wav",null,$64,1.,true,1000.,3000.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+set ZOR=XbR()
+call dEv(ZOR,850.,LoadLocationHandle(Aj,0,Op*$1f4),Condition(QF),UF)
+call Vbv(ZOR)
+call qjR(Op)
+endif
+endfunction
+function yOv takes nothing returns nothing
+local integer YOv=XbR()
+local unit GOv=GetTriggerUnit()
+local player ZOv=GetTriggerPlayer()
+local unit dOv
+local integer qOv
+call GroupEnumUnitsOfPlayer(xW[YOv],ZOv,Filter(sf))
+set qOv=cUv(YOv)
+if qOv<3 then
+call DisplayTimedTextToPlayer(ZOv,0.,0.,5.,"업그레이드에 필요한 |cffffd700랜덤위습|r이 부족합니다. 필요 개수 : |cffFF00003개|r")
+call IssueImmediateOrder(GOv,"stop")
+set dOv=null
+set GOv=null
+set ZOv=null
+return
+endif
+if GetPlayerState(ZOv,PLAYER_STATE_RESOURCE_LUMBER)<2 then
+call DisplayTimedTextToPlayer(ZOv,0.,0.,5.,"업그레이드에 필요한 |cff7ad823목재|r가 부족합니다. 필요 개수 : |cffFF00002개|r")
+call IssueImmediateOrder(GOv,"stop")
+set dOv=null
+set GOv=null
+set ZOv=null
+return
+endif
+set qOv=0
+loop
+exitwhen qOv>=3
+set dOv=mOv(YOv)
+call GroupRemoveUnit(xW[YOv],dOv)
+call Tjs(dOv)
+set qOv=qOv+1
+endloop
+call Vbv(YOv)
+call SetPlayerState(ZOv,PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(ZOv,PLAYER_STATE_RESOURCE_LUMBER)-2)
+if 90-GetUnitAbilityLevel(GOv,$41304c45)*9<wWR(1,$64) then
+call DisplayTimedTextToPlayer(ZOv,0.,0.,5.,"|cffFF0000강화에 실패했습니다!|r")
+set dOv=null
+set GOv=null
+set ZOv=null
+return
+endif
+call DisplayTimedTextToPlayer(ZOv,0.,0.,5.,"|c00c6fbfb강화에 성공했습니다!|r")
+call IncUnitAbilityLevel(GOv,$41304c45)
+set YOv=GetUnitAbilityLevel(GOv,$41304c45)
+if YOv==3 then
+call IncUnitAbilityLevel(GOv,$41304c39)
+endif
+if YOv==5 then
+call UnitAddAbility(GOv,$41304c46)
+endif
+if YOv==7 then
+call IncUnitAbilityLevel(GOv,$41304c43)
+endif
+if YOv==9 then
+call SetUnitAbilityLevel(GOv,$41304c46,2)
+endif
+if YOv==10 then
+call SetUnitAbilityLevel(GOv,$41304c46,3)
+call SetPlayerAbilityAvailable(ZOv,$41304c44,false)
+endif
+set dOv=null
+set GOv=null
+set ZOv=null
+endfunction
+function yQR takes nothing returns boolean
+if GetUnitAbilityLevel(GetFilterUnit(),$4130374f)>0 or GetUnitAbilityLevel(GetFilterUnit(),$41393035)>0 or GetUnitAbilityLevel(GetFilterUnit(),$41393036)>0 or GetUnitAbilityLevel(GetFilterUnit(),$41393037)>0 or GetUnitAbilityLevel(GetFilterUnit(),$41393039)>0 then
+call uSs(GetFilterUnit())
+endif
+return false
+endfunction
+function yQs takes nothing returns boolean
+local integer ZQs=hj
+set Wj[ZQs]=null
+return false
+endfunction
+function yQv takes nothing returns boolean
+return true
+endfunction
+function ySv takes nothing returns nothing
+local unit qSv=GetTriggerUnit()
+local player ZSv=GetOwningPlayer(qSv)
+if GetPlayerState(ZSv,PLAYER_STATE_RESOURCE_FOOD_USED)<1 then
+call DisplayTimedTextToPlayer(ZSv,0.,0.,5.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call DisplayTimedTextToPlayer(ZSv,0.,0.,5.,"|cffFF0000분신|r : "+I2S(sy[GetPlayerId(ZSv)])+"|r")
+call IssueImmediateOrder(qSv,"stop")
+set qSv=null
+set ZSv=null
+return
+endif
+set sy[GetPlayerId(ZSv)]=sy[GetPlayerId(ZSv)]+1
+call DisplayTimedTextToPlayer(ZSv,0.,0.,5.,"|cffFF8200|cff1e90ff특성포인트|r 1개가 소모됩니다!|r")
+call DisplayTimedTextToPlayer(ZSv,0.,0.,5.,"|cffFF0000분신|r : "+I2S(sy[GetPlayerId(ZSv)])+"|r")
+call SetPlayerState(ZSv,PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(ZSv,PLAYER_STATE_RESOURCE_FOOD_USED)-1)
+set qSv=null
+set ZSv=null
+endfunction
+function yTR takes nothing returns nothing
+local unit mTR=GetAttacker()
+local unit YTR=GetTriggerUnit()
+local location dTR=GetUnitLoc(YTR)
+local unitstate GTR=UNIT_STATE_MANA
+local unitstate qTR
+local unitstate ZTR
+if GetUnitState(mTR,GTR)==125. then
+call SetUnitAnimationByIndex(mTR,9)
+call SetUnitState(mTR,UNIT_STATE_MANA,0.)
+call TriggerExecute(fD)
+else
+set GTR=UNIT_STATE_MANA
+set qTR=UNIT_STATE_MANA
+call SetUnitState(mTR,GTR,GetUnitState(mTR,qTR)+1.)
+endif
+if wWR(1,16)<=1 then
+call TriggerExecute(CD)
+endif
+if wWR(1,$64)<=15 then
+call TriggerExecute(LD)
+endif
+if wWR(1,$2710)<=$1db then
+call CreateUnitAtLoc(ds,$65304b41,dTR,GetRandomReal(0.,360.))
+if SPs(YTR) then
+set ZTR=UNIT_STATE_LIFE
+call yDs(mTR,YTR,GetUnitState(YTR,ZTR)*2.,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+else
+call yDs(mTR,YTR,2000000.,1.,1.50,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+endif
+call RemoveLocation(dTR)
+set mTR=null
+set YTR=null
+set dTR=null
+set GTR=null
+set qTR=null
+set ZTR=null
+endfunction
+function yTs takes nothing returns boolean
+local integer ZTs=PK
+set Wj[ZTs]=Wj[sK]
+set Zo[ZTs]=Zo[sK]
+set sj[ZTs]=sj[sK]
+set Ko[ZTs]=Ko[sK]
+return false
+endfunction
+function P9s takes nothing returns nothing
+local string O7s=""
+local unitstate L7s=UNIT_STATE_MAX_LIFE
+local unit F7s=GetTriggerUnit()
+local real a7s=GetUnitState(F7s,L7s)
+local integer C7s=0
+local real f7s
+local integer v9s
+local integer R9s
+local player s9s
+loop
+exitwhen C7s>=4
+if as[C7s]then
+call wIs(C7s)
+else
+call Yms(C7s)
+endif
+set C7s=C7s+1
+endloop
+call PauseTimer(QQ)
+set UQ=false
+set v9s=0
+set R9s=0
+loop
+exitwhen v9s>=4
+if ks[v9s] and GetPlayerSlotState(Player(v9s))==PLAYER_SLOT_STATE_PLAYING and GetPlayerController(Player(v9s))==MAP_CONTROL_USER then
+set R9s=R9s+1
+endif
+set v9s=v9s+1
+endloop
+if R9s==2 then
+set BQ=30
+elseif R9s==3 then
+set BQ=25
+else
+set BQ=20
+endif
+set C7s=0
+loop
+exitwhen C7s>=4
+if ks[C7s]then
+set f7s=100.*(kQ[C7s]/a7s)
+set KQ[C7s]=f7s>=I2R(BQ)
+set R9s=R2I(($12c-mR[10])*f7s*5./100.)
+call DisplayTimedTextToPlayer(Player(C7s),0.,0.,5.,"|cffffd700자신이 가한데미지는 "+R2SW(f7s,0,2)+"% 입니다.")
+if R9s>0 then
+call DisplayTimedTextToPlayer(Player(C7s),0.,0.,10.,"|cffdc143c[클리어점수]|r 스토리 파괴 : |cffffd700"+I2S(R9s)+"점|r")
+call Nss(C7s,R9s)
+endif
+if HQ<=kQ[C7s]then
+set HQ=kQ[C7s]
+set oQ=C7s
+set jQ=f7s
+endif
+endif
+set C7s=C7s+1
+endloop
+set JP[oQ]=JP[oQ]+1
+set WR[10]=Player(oQ)
+set iR[10]=jQ*1.
+set C7s=0
+loop
+exitwhen C7s>=4
+if ks[C7s]then
+set s9s=Player(C7s)
+call SetPlayerState(s9s,PLAYER_STATE_RESOURCE_GOLD,GetPlayerState(s9s,PLAYER_STATE_RESOURCE_GOLD)+$30d4)
+set s9s=Player(C7s)
+call SetPlayerState(s9s,PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(s9s,PLAYER_STATE_RESOURCE_LUMBER)+4)
+call FqR(Player(C7s),3)
+call mAR(Player(C7s),2)
+call kFv(C7s,1)
+endif
+set C7s=C7s+1
+endloop
+set C7s=0
+loop
+exitwhen C7s>=4
+if ks[C7s] and KQ[C7s]then
+call DisplayTimedTextToPlayer(Player(C7s),0.,0.,10.,"기여도 "+I2S(BQ)+"% 이상으로 |cff7ad823목재 1개|r 추가 획득!")
+set s9s=Player(C7s)
+call SetPlayerState(s9s,PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(s9s,PLAYER_STATE_RESOURCE_LUMBER)+1)
+endif
+set C7s=C7s+1
+endloop
+call yRR(Player(oQ),1)
+call FqR(Player(oQ),1)
+set O7s=O7s+"|cffFF0000"+GetObjectName($6e303043)+"|r 스토리 진행 완료! 모든 플레이어에게 보상을 지급합니다.\n"
+set O7s=O7s+"|cffffdead◎|r 재화 : |cffffd70012500 골드|r, |cff7ad8234 목재|r\n"
+set O7s=O7s+"|cffffdead◎|r 유닛 : |cffff8200"+GetObjectName($65303138)+"|r 3개, |cff9553ec"+GetObjectName($65303137)+"|r 2개\n"
+set O7s=O7s+"|cffffdead◎|r MVP : "+GetPlayerName(Player(oQ))+" (기여도 : |cffFF0000"+R2SW(jQ,0,2)+"%|r)\n"
+set O7s=O7s+"|cffffdead　▶|r 해당 플레이어에게 |cffffd700"+GetObjectName($65304958)+"|r 1기, |cffff8200"+GetObjectName($65303138)+"|r 1개를 추가 지급합니다!"
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,O7s)
+set L7s=null
+set F7s=null
+set s9s=null
+endfunction
+function yUR takes nothing returns nothing
+call hjR(SQ)
+set mR[10]=DQ
+call P9s()
+call TriggerEvaluate(h)
+call TriggerEvaluate(LoadTriggerHandle(T,8,11))
+endfunction
+function yUs takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(GetAttacker()))
+endfunction
+function yUv takes nothing returns boolean
+local unit qUv=GetFilterUnit()
+local integer ZUv=0
+loop
+exitwhen ZUv>=7
+if GetUnitAbilityLevel(qUv,$41393035)>0 then
+call UnitRemoveAbility(qUv,tev(GetUnitTypeId(qUv)))
+else
+call UnitRemoveAbility(qUv,Fp[ZUv])
+endif
+set ZUv=ZUv+1
+endloop
+call n4R(GetFilterUnit(),LW,GetUnitTypeId(GetFilterUnit()))
+call eZs(GetFilterUnit())
+set qUv=null
+return false
+endfunction
+function yVv takes nothing returns nothing
+call Cheat("greedisgood")
+call TimerStart(BRs(0),1.,false,ex)
+endfunction
+function yas takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+endfunction
+function yav takes nothing returns boolean
+return GetEventDamageSource()==LoadUnitHandle(gj,0,Op*$1f4+2) and GetEventDamage()>0.
+endfunction
+function ycv takes nothing returns nothing
+call ZQv(1)
+if vo[Op]==1 then
+if Cq[GetPlayerId(LoadPlayerHandle(Bj,0,Op*$1f4))]!=null then
+call SetUnitX(LoadUnitHandle(gj,0,Op*$1f4+2),GetUnitX(LoadUnitHandle(gj,0,Op*$1f4)))
+call SetUnitY(LoadUnitHandle(gj,0,Op*$1f4+2),GetUnitY(LoadUnitHandle(gj,0,Op*$1f4)))
+if Fq[GetPlayerId(LoadPlayerHandle(Bj,0,Op*$1f4))] and IsUnitInRange(Cq[GetPlayerId(LoadPlayerHandle(Bj,0,Op*$1f4))],LoadUnitHandle(gj,0,Op*$1f4),650.) then
+call PauseUnit(LoadUnitHandle(gj,0,Op*$1f4+1),false)
+else
+call PauseUnit(LoadUnitHandle(gj,0,Op*$1f4+1),true)
+endif
+call AWR(Op,.02,1)
+else
+call DestroyEffect(LoadEffectHandle(tj,0,Op*$1f4))
+call Tjs(LoadUnitHandle(gj,0,Op*$1f4+2))
+call qjR(Op)
+endif
+endif
+endfunction
+function yeR takes nothing returns nothing
+local integer ieR=GetPlayerId(GetTriggerPlayer())
+local unit meR
+local player YeR
+local location deR
+local player GeR
+local real qeR
+local real ZeR
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$54523132
+set GeR=GetTriggerPlayer()
+set qeR=GetStartLocationX(GetPlayerStartLocation(GeR))
+set GeR=GetTriggerPlayer()
+set ZeR=GetStartLocationY(GetPlayerStartLocation(GeR))
+set Ws=qeR
+set is=ZeR
+set rs=true
+if not ODv() then
+set meR=null
+set YeR=null
+set deR=null
+set GeR=null
+return
+endif
+set meR=FirstOfGroup(ms)
+set YeR=GetOwningPlayer(meR)
+set deR=GetUnitLoc(meR)
+set lZ[ieR]=meR
+if not gR[ieR]then
+set gR[ieR]=true
+set uR=uR+1
+endif
+set NZ[ieR]=CreateUnitAtLoc(Player(ieR),$68303456,deR,bj_UNIT_FACING)
+call UnitAddAbility(NZ[ieR],$41313637)
+call UnitAddAbility(NZ[ieR],$41304c57)
+call StartSound(vPR("SE\\Brook.mp3",null,$7f,1.,false,0.,0.))
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffc0c0c0브룩 : |r|cff00fa9a(다 같이) 요호호호~|r")
+set Js[ieR]=Js[ieR]+3
+call DisplayTimedTextToPlayer(YeR,0.,0.,5.,"|cffF15F5F[시스템]|r "+GetUnitName(meR)+" 의 효과로 자신의 라인존 |cff87cefa마법방어력 3%|r 감소!")
+call RemoveLocation(deR)
+set meR=null
+set YeR=null
+set deR=null
+set GeR=null
+endfunction
+function yis takes nothing returns nothing
+local unit Zis=GetEnumUnit()
+call B7v(Zis,3)
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),Zis,500000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+set Zis=null
+endfunction
+function yjR takes nothing returns nothing
+local integer ZjR
+call ZQv(1)
+if vo[Op]==1 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call frR(Op,10,GetUnitCurrentOrder(LoadUnitHandle(gj,0,Op*$1f4)))
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),true)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"spell slam")
+call Ehs(Op,.5)
+elseif vo[Op]==2 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))+180.))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,$c8,$9b,$ff)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),9.,1.,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),35)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),10.,0.)
+call mUs("Thunder_nami1.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call UnitAddAbility(LoadUnitHandle(gj,0,Op*$1f4+10),$4131364e)
+call IssuePointOrderById(LoadUnitHandle(gj,0,Op*$1f4+10),OrderId("dreadlordinferno"),GetLocationX(LoadLocationHandle(Aj,0,Op*$1f4+1)),GetLocationY(LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$c8,$c8,$ff,$ff)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),wWR(20,45))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.5,1.,1.)
+call mUs("E_BlueLightBurst5.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$c8,$c8,$ff,$ff)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),wWR(20,45))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.5,1.,1.)
+call mUs("WARRR2111.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call mUs("effect_shengguang3.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+set bj_lastPlayedSound=vPR("SE\\Boney_mana2.wav",null,$64,1.,true,1000.,3000.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+set ZjR=XbR()
+call dEv(ZjR,600.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(ia),ma)
+call Vbv(ZjR)
+call Ehs(Op,.7)
+elseif vo[Op]==3 then
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),false)
+call g9R(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),LoadInteger(Tj,0,Op*$1f4+10))
+call qjR(Op)
+endif
+endfunction
+function yls takes nothing returns boolean
+local integer Zls=hj
+set Wj[Zls]=GetTriggerPlayer()
+set Zo[Zls]=GetTriggerUnit()
+set no[Zls]=GetRescuer()
+return false
+endfunction
+function ynv takes nothing returns nothing
+local integer mnv
+local unit Ynv
+local location dnv
+local player Gnv
+local real qnv
+local real Znv
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$54523135
+set Gnv=GetTriggerPlayer()
+set qnv=GetStartLocationX(GetPlayerStartLocation(Gnv))
+set Gnv=GetTriggerPlayer()
+set Znv=GetStartLocationY(GetPlayerStartLocation(Gnv))
+set Ws=qnv
+set is=Znv
+set rs=true
+if not ODv() then
+set Ynv=null
+set dnv=null
+set Gnv=null
+return
+endif
+set Ynv=FirstOfGroup(ms)
+set mnv=GetPlayerId(GetOwningPlayer(Ynv))
+set dnv=GetStartLocationLoc(mnv)
+if not AAv(hZ[mnv]) then
+set hZ[mnv]=CreateUnitAtLoc(GetOwningPlayer(Ynv),$68303456,dnv,bj_UNIT_FACING)
+call UnitAddAbility(hZ[mnv],$41313335)
+call UnitAddAbility(hZ[mnv],$41305545)
+call UnitAddAbility(hZ[mnv],$41313454)
+set cZ[mnv]=CreateUnitAtLoc(GetOwningPlayer(Ynv),$68303456,dnv,bj_UNIT_FACING)
+call UnitAddAbility(cZ[mnv],$41313456)
+endif
+set VZ=Ynv
+call TriggerExecute(DZ)
+call TriggerExecute(SZ)
+call StartSound(vPR("SE\\Shanks.mp3",null,$7f,1.,false,0.,0.))
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffc0c0c0샹크스 : |r|cff00fa9a이 전쟁을 끝내러 왔다!|r")
+call RemoveLocation(dnv)
+set Ynv=null
+set dnv=null
+set Gnv=null
+endfunction
+function yos takes nothing returns nothing
+set SN[0]=GetTriggerUnit()
+set SN[1]=GetSpellTargetUnit()
+call TriggerExecute(wN)
+set SN[0]=null
+set SN[1]=null
+endfunction
+function yps takes nothing returns boolean
+call TriggerEvaluate(LoadTriggerHandle(T,7,GetUnitTypeId(GetTriggerUnit())))
+if GetUnitAbilityLevel(GetTriggerUnit(),$41393030)>0 then
+call TriggerEvaluate(G)
+else
+call TriggerEvaluate(q)
+endif
+return false
+endfunction
+function yqR takes nothing returns boolean
+local integer ZqR=PK
+set Wj[ZqR]=Wj[sK]
+set Zo[ZqR]=Zo[sK]
+set Jo[ZqR]=Jo[sK]
+return false
+endfunction
+function yqs takes nothing returns nothing
+local integer Zqs=GetPlayerId(GetTriggerPlayer())
+if GetPlayerState(GetTriggerPlayer(),PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(GetOwningPlayer(GetTriggerUnit()),0.,0.,6.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call IssueImmediateOrder(GetTriggerUnit(),"stop")
+return
+endif
+call UnitRemoveAbility(GetTriggerUnit(),$41305333)
+call UnitRemoveAbility(mq[Zqs],$41303558)
+call UnitAddAbility(GetTriggerUnit(),$41305338)
+call UnitAddAbility(mq[Zqs],$41305337)
+call AddUnitAnimationProperties(GetTriggerUnit(),"alternate",true)
+call UnitRemoveAbility(GetTriggerUnit(),GetSpellAbilityId())
+call SetPlayerState(GetTriggerPlayer(),PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(GetTriggerPlayer(),PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+endfunction
+function yts takes nothing returns boolean
+return GetEventDamageSource()==LoadUnitHandle(gj,0,Op*$1f4) and GetEventDamage()>0.
+endfunction
+function ytv takes nothing returns nothing
+local unit Ytv=GetAttacker()
+local unit dtv=GetTriggerUnit()
+local location qtv=GetUnitLoc(dtv)
+local unit Gtv
+local unitstate Ztv
+if wWR(1,$64)<=12 then
+call SetUnitAnimation(Ytv,"spell")
+set Gtv=CreateUnitAtLoc(ds,$65303432,qtv,GetUnitFacing(Ytv)+180.)
+call SetUnitAnimationByIndex(Gtv,1)
+set Gtv=CreateUnitAtLoc(ds,$65303433,qtv,GetUnitFacing(Ytv)+180.)
+call SetUnitAnimationByIndex(Gtv,1)
+call yDs(Ytv,dtv,345000.,1.,2.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call YIs(Ytv,.0,315.,qtv,100000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if SPs(dtv) then
+set Ztv=UNIT_STATE_LIFE
+call yDs(Ytv,dtv,GetUnitState(dtv,Ztv)*.34,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+endif
+call RemoveLocation(qtv)
+set Ytv=null
+set dtv=null
+set Gtv=null
+set qtv=null
+set Ztv=null
+endfunction
+function yuR takes nothing returns nothing
+local unitstate quR=UNIT_STATE_LIFE
+local unit ZuR=GetEnumUnit()
+local real GuR=GetUnitState(ZuR,quR)*.04
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),GetEnumUnit(),2650000.+GuR,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+set quR=null
+set ZuR=null
+endfunction
+function yws takes nothing returns boolean
+local integer Zws=hj
+set Zo[Zws]=GetTriggerUnit()
+set Zj[Zws]=GetTriggeringRegion()
+set Uo[Zws]=GetLeavingUnit()
+return false
+endfunction
+function ywv takes nothing returns nothing
+local integer Ywv=GetPlayerId(GetTriggerPlayer())
+local unit dwv=GetTriggerUnit()
+local rect Gwv=Zv[Ywv]
+local real qwv=GetUnitX(dwv)
+local real Zwv=GetUnitY(dwv)
+if GetRectMinX(Gwv)>qwv or qwv>GetRectMaxX(Gwv) or GetRectMinY(Gwv)>Zwv or Zwv>GetRectMaxY(Gwv) then
+set dwv=null
+set Gwv=null
+return
+endif
+set ip[Ywv]=not ip[Ywv]
+set dwv=GetTriggerUnit()
+if ip[Ywv]then
+call SetUnitAnimation(dwv,"death")
+call DisplayTimedTextToPlayer(Player(Ywv),0.,0.,3.,"|cffff0000[자동꺼내기 OFF]|r 흔함 유닛이 창고로 들어갑니다.")
+else
+call SetUnitAnimation(dwv,"stand")
+call DisplayTimedTextToPlayer(Player(Ywv),0.,0.,3.,"|cff00ff22[자동꺼내기 ON]|r 흔함 유닛이 창고로 들어가지 않습니다.")
+endif
+set dwv=null
+set Gwv=null
+endfunction
+function F2R takes nothing returns nothing
+set v=InitHashtable()
+set R=InitHashtable()
+set s=InitHashtable()
+set P=InitHashtable()
+set r=InitHashtable()
+set i=InitHashtable()
+set m=CreateTrigger()
+set Y=CreateTrigger()
+set d=CreateTrigger()
+set G=CreateTrigger()
+set q=CreateTrigger()
+set Z=CreateTrigger()
+set y=CreateTrigger()
+set l=CreateTrigger()
+set N=CreateTrigger()
+set w=CreateTrigger()
+set D=CreateTrigger()
+set S=CreateTrigger()
+set V=CreateTrigger()
+set h=CreateTrigger()
+set c=CreateTrigger()
+set Q=CreateTrigger()
+set B=CreateTrigger()
+set o=CreateTrigger()
+set K=CreateTrigger()
+set J=CreateTrigger()
+set t=CreateTrigger()
+set b=CreateTrigger()
+set g=CreateTrigger()
+set A=CreateTrigger()
+set X=CreateTrigger()
+set n=CreateTrigger()
+set T=InitHashtable()
+set O=CreateTrigger()
+set F=CreateTimer()
+set sv=.6/1080.
+set Pv=InitHashtable()
+set pv=InitHashtable()
+set Wv=InitHashtable()
+set iv=InitHashtable()
+set mv=InitHashtable()
+set Yv=InitHashtable()
+set dv=InitHashtable()
+set Sv=InitHashtable()
+set cv=InitHashtable()
+set kv=InitHashtable()
+set Qv=InitHashtable()
+set Uv=InitHashtable()
+set Bv=InitHashtable()
+set Hv=InitHashtable()
+set ov=InitHashtable()
+set jv=InitHashtable()
+set nv=CreateTrigger()
+set Tv=CreateTrigger()
+set Cv=InitHashtable()
+set Lv=CreateTrigger()
+set Fv=CreateTrigger()
+set vR=CreateTrigger()
+set RR=CreateTrigger()
+set PR=""
+set pR=InitHashtable()
+call InitHashtable()
+set wR=InitHashtable()
+set DR=CreateGroup()
+set JR=InitHashtable()
+set eR=InitHashtable()
+set OR=InitHashtable()
+set LR=CreateTrigger()
+set vs=""
+set ms=CreateGroup()
+set Ys=CreateTrigger()
+set ds=Player(4)
+set Gs=Player(8)
+set xp=CreateTrigger()
+set np=InitHashtable()
+set fp=InitHashtable()
+set qr=CreateTrigger()
+set Nr=InitHashtable()
+set cr=InitHashtable()
+set kr=CreateGroup()
+set kW=InitHashtable()
+set eW=CreateTrigger()
+set gW=InitHashtable()
+set TW=InitHashtable()
+set oi=InitHashtable()
+set ji=InitHashtable()
+set Ki=InitHashtable()
+set kd=null
+set jd=CreateTrigger()
+set td=CreateTrigger()
+set bd=CreateTrigger()
+set Md=CreateTrigger()
+set gd=CreateTrigger()
+set ud=CreateTrigger()
+set Ad=CreateTrigger()
+set Od=CreateTrigger()
+set ad=CreateTrigger()
+set Fd=InitHashtable()
+set sG=CreateTrigger()
+set PG=CreateTrigger()
+set ZG=CreateTrigger()
+set yG=CreateTrigger()
+set SG=CreateTrigger()
+set CG=CreateTrigger()
+set LG=CreateTrigger()
+set FG=CreateTrigger()
+set vq=CreateTrigger()
+set Rq=CreateTrigger()
+set oq=CreateTrigger()
+set jq=CreateTrigger()
+set Kq=CreateTrigger()
+set Jq=CreateTrigger()
+set tq=CreateTrigger()
+set xq=CreateTrigger()
+set bq=CreateTrigger()
+set Mq=CreateTrigger()
+set fq=CreateTrigger()
+set vZ=CreateTrigger()
+set RZ=CreateTrigger()
+set sZ=CreateTrigger()
+set PZ=CreateTrigger()
+set pZ=CreateTrigger()
+set rZ=CreateTrigger()
+set WZ=CreateTrigger()
+set CZ=InitHashtable()
+set ly=CreateTrigger()
+set Ny=CreateTrigger()
+set wy=CreateTrigger()
+set Jy=CreateTrigger()
+set ey=CreateTrigger()
+set ty=CreateTrigger()
+set xy=CreateTrigger()
+set by=CreateTrigger()
+set My=CreateTrigger()
+set gy=CreateTrigger()
+set uy=CreateTrigger()
+set Wl=CreateTrigger()
+set ll=CreateTrigger()
+set Nl=CreateTrigger()
+set wl=CreateTrigger()
+set nl=CreateTrigger()
+set Tl=CreateTrigger()
+set Ol=CreateTrigger()
+set al=CreateTrigger()
+set hw=DialogCreate()
+set ow=CreateUnitPool()
+set uw=CreateTrigger()
+set Aw=CreateTrigger()
+set Iw=CreateTrigger()
+set Xw=CreateTrigger()
+set Ow=CreateTrigger()
+set aw=CreateTrigger()
+set fw=CreateTrigger()
+set dD=CreateTrigger()
+set GD=CreateTrigger()
+set ZD=CreateTrigger()
+set yD=CreateTrigger()
+set lD=CreateTrigger()
+set ND=CreateTrigger()
+set wD=CreateTrigger()
+set SD=CreateTrigger()
+set VD=CreateTrigger()
+set hD=CreateTrigger()
+set cD=CreateTrigger()
+set QD=CreateTrigger()
+set UD=CreateTrigger()
+set BD=CreateTrigger()
+set jD=CreateTrigger()
+set KD=CreateTrigger()
+set ED=CreateTrigger()
+set JD=CreateTrigger()
+set eD=CreateTrigger()
+set MD=CreateTrigger()
+set gD=CreateTrigger()
+set uD=CreateTrigger()
+set AD=CreateTrigger()
+set XD=CreateTrigger()
+set nD=CreateTrigger()
+set TD=CreateTrigger()
+set OD=CreateTrigger()
+set aD=CreateTrigger()
+set fD=CreateTrigger()
+set CD=CreateTrigger()
+set LD=CreateTrigger()
+set FD=CreateTrigger()
+set vS=CreateTrigger()
+set RS=CreateTrigger()
+set sS=CreateTrigger()
+set pS=CreateTrigger()
+set rS=CreateTrigger()
+set WS=CreateTrigger()
+set iS=CreateTrigger()
+set dS=CreateTrigger()
+set GS=CreateTrigger()
+set qS=CreateTrigger()
+set ZS=CreateTrigger()
+set NS=CreateTrigger()
+set wS=CreateTrigger()
+set DS=CreateTrigger()
+set US=CreateTrigger()
+set BS=CreateTrigger()
+set HS=CreateTrigger()
+set oS=CreateTrigger()
+set TS=CreateUnitPool()
+set OS=CreateUnitPool()
+set aS=CreateUnitPool()
+set fS=CreateUnitPool()
+set CS=CreateUnitPool()
+set LS=CreateUnitPool()
+set FS=CreateUnitPool()
+set sc=CreateTimer()
+set Zc=CreateTimer()
+set Qc=CreateTimer()
+set xc=CreateTimer()
+set Cc=CreateTimer()
+set dk=CreateTimer()
+set kk=CreateTimer()
+set bk=CreateTimer()
+set Lk=CreateTimer()
+set GQ=CreateTimer()
+set QQ=CreateTimer()
+set MQ=CreateTimer()
+set FQ=CreateTimer()
+set yU=CreateTimer()
+set hU=CreateUnitPool()
+set HU=CreateUnitPool()
+set oU=CreateUnitPool()
+set jU=CreateUnitPool()
+set KU=CreateUnitPool()
+set EU=CreateUnitPool()
+set sB=CreateTimer()
+set KB=CreateTrigger()
+call InitHashtable()
+call InitHashtable()
+call CreateTrigger()
+set OH=InitHashtable()
+set yj=CreateTimer()
+set Sj=InitHashtable()
+set kj=CreateTrigger()
+set Qj=InitHashtable()
+set Bj=InitHashtable()
+set oj=InitHashtable()
+set Kj=InitHashtable()
+set Jj=InitHashtable()
+set tj=InitHashtable()
+set bj=InitHashtable()
+set gj=InitHashtable()
+set Aj=InitHashtable()
+set Xj=InitHashtable()
+set Tj=InitHashtable()
+set aj=InitHashtable()
+set Cj=InitHashtable()
+set Fj=InitHashtable()
+set RK=InitHashtable()
+set LJ=CreateTrigger()
+set FJ=CreateTrigger()
+set ve=CreateTrigger()
+set Re=CreateTrigger()
+set se=CreateTrigger()
+set Pe=CreateTrigger()
+set pe=CreateTrigger()
+set re=CreateTrigger()
+set We=CreateTrigger()
+set ie=CreateTrigger()
+set me=CreateTrigger()
+set de=CreateTrigger()
+set Ge=CreateTrigger()
+set ye=CreateTrigger()
+set le=CreateTrigger()
+set Ne=CreateTrigger()
+set we=CreateTrigger()
+set De=CreateTrigger()
+set Se=CreateTrigger()
+set he=CreateTrigger()
+set ce=CreateTrigger()
+set ke=CreateTrigger()
+set Qe=CreateTrigger()
+set Ue=CreateTrigger()
+set Be=CreateTrigger()
+set He=CreateTrigger()
+set oe=CreateTrigger()
+set je=CreateTrigger()
+set Ke=CreateTrigger()
+set Ee=CreateTrigger()
+set Je=CreateTrigger()
+set Gx=function Chv
+set qx=function yps
+set Zx=function Vwv
+set yx=function cks
+set lx=function cbs
+set Nx=function O4v
+set wx=function Kys
+set Dx=function Sfv
+set Sx=function X9v
+set Vx=function tdR
+set hx=function exv
+set cx=function vJR
+set kx=function Ixv
+set Qx=function ePs
+set Ux=function Vts
+set Bx=function IQs
+set Hx=function VcR
+set ox=function rrR
+set jx=function rBs
+set Kx=function Bys
+set Ex=function dDv
+set Jx=function xtR
+set ex=function dNs
+set tx=function yVv
+set xx=function YAs
+set bx=function CFs
+set Mx=function Lvs
+set gx=function Brs
+set ux=function cxR
+set Ax=function XDR
+set Ix=function nBR
+set Xx=function fXv
+set nx=function Ctv
+set Tx=function bds
+set Ox=function BlR
+set ax=function yws
+set fx=function SIR
+set Cx=function QUv
+set Lx=function jJR
+set Fx=function dER
+set vb=function Yrs
+set Rb=function Vls
+set sb=function rcv
+set Pb=function djs
+set pb=function U9s
+set rb=function pFR
+set Wb=function CiR
+set ib=function yls
+set mb=function pDR
+set Yb=function LSR
+set db=function KrR
+set Gb=function Vns
+set qb=function uIR
+set Zb=function pUs
+set yb=function KNs
+set lb=function MYR
+set Nb=function IIs
+set wb=function IfR
+set Db=function XgR
+set Sb=function UeR
+set Vb=function A8v
+set hb=function h4R
+set cb=function Lnv
+set kb=function EFv
+set Qb=function K1v
+set Ub=function PFv
+set Bb=function a5s
+set Hb=function f3v
+set ob=function Zas
+set jb=function CPs
+set Kb=function sQs
+set Eb=function qWR
+set Jb=function gUs
+set eb=function cns
+set tb=function JAs
+set xb=function Cts
+set bb=function oXR
+set Mb=function HVR
+set gb=function IqR
+set ub=function Rys
+set Ab=function YKv
+set Ib=function ecR
+set Xb=function xEv
+set nb=function ods
+set Tb=function C1s
+set Ob=function Eus
+set ab=function FDR
+set fb=function ups
+set Cb=function WIv
+set Lb=function n1R
+set Fb=function MnR
+set vM=function Q2R
+set RM=function DHv
+set sM=function NLv
+set PM=function O6R
+set pM=function LAs
+set rM=function eRs
+set WM=function Rks
+set iM=function fDv
+set mM=function MhR
+set YM=function H0v
+set dM=function frs
+set GM=function isR
+set qM=function lks
+set ZM=function x5v
+set yM=function D5s
+set lM=function N2s
+set NM=function Nts
+set wM=function qgs
+set DM=function Nnv
+set SM=function J5R
+set VM=function iqs
+set hM=function eIR
+set cM=function l0R
+set kM=function Kts
+set QM=function keR
+set UM=function QWR
+set BM=function ZKv
+set HM=function yTs
+set oM=function vWs
+set jM=function WPR
+set KM=function NQv
+set EM=function ZvR
+set JM=function JWR
+set eM=function jlR
+set tM=function E8s
+set xM=function xxv
+set bM=function JOR
+set MM=function Agv
+set gM=function Q6s
+set uM=function DaR
+set AM=function Ybv
+set IM=function C5R
+set XM=function yqR
+set nM=function NIv
+set TM=function sLv
+set OM=function vFs
+set aM=function g0R
+set fM=function p3R
+set CM=function MXv
+set LM=function nVs
+set FM=function aHs
+set vg=function COs
+set Rg=function t7s
+set sg=function vjs
+set Pg=function n6s
+set pg=function ZLv
+set rg=function YhR
+set Wg=function SLR
+set ig=function JOs
+set mg=function Oev
+set Yg=function lhR
+set dg=function qQs
+set Gg=function ONs
+set qg=function h5R
+set Zg=function pQv
+set yg=function hLR
+set lg=function Etv
+set Ng=function Z9s
+set wg=function YNv
+set Dg=function gwv
+set Sg=function MJs
+set Vg=function QLR
+set hg=function hIv
+set cg=function m0s
+set kg=function a0v
+set Qg=function vXs
+set Ug=function aJs
+set Bg=function tOR
+set Hg=function HQv
+set og=function bUs
+set jg=function BHs
+set Kg=function xuR
+set Eg=function b5R
+set Jg=function TQv
+set eg=function oIR
+set tg=function lPR
+set xg=function X5R
+set bg=function Uss
+set Mg=function vds
+set gg=function LIs
+set ug=function h9s
+set Ag=function miR
+set Ig=function VaR
+set Xg=function N8s
+set ng=function bav
+set Tg=function RNv
+set Og=function eER
+set ag=function yQs
+set fg=function GgR
+set Cg=function Gos
+set Lg=function twv
+set Fg=function BER
+set vu=function hOs
+set Ru=function UbR
+set su=function HFR
+set Pu=function WVv
+set pu=function OYs
+set ru=function V4v
+set Wu=function qPR
+set iu=function Btv
+set mu=function QlR
+set Yu=function DHs
+set du=function OEs
+set Gu=function fQv
+set qu=function OeR
+set Zu=function nNs
+set yu=function S1s
+set lu=function YFs
+set Nu=function qwR
+set wu=function Qwv
+set Du=function OiR
+set Su=function PTv
+set Vu=function Awv
+set hu=function mTs
+set cu=function RUR
+set ku=function MHs
+set Qu=function xcs
+set Uu=function E8v
+set Bu=function sgs
+set Hu=function C1R
+set ou=function XtR
+set ju=function KxR
+set Ku=function VBR
+set Eu=function r2R
+set Ju=function nFR
+set eu=function lNv
+set tu=function jUR
+set xu=function kYR
+set bu=function sov
+set Mu=function E1R
+set gu=function Tks
+set uu=function QBs
+set Au=function r1s
+set Iu=function LAR
+set Xu=function Zhv
+set nu=function ZQR
+set Tu=function ggv
+set Ou=function uNv
+set au=function PNv
+set fu=function F8R
+set Cu=function GOs
+set Lu=function I5v
+set Fu=function cWR
+set vA=function qCv
+set RA=function gYs
+set sA=function gSR
+set PA=function WRR
+set pA=function Y6s
+set rA=function OfR
+set WA=function cKv
+set iA=function AHR
+set mA=function sCv
+set YA=function SBs
+set dA=function p8s
+set GA=function mks
+set qA=function Bas
+set ZA=function pav
+set yA=function EJR
+set lA=function DSs
+set NA=function Mls
+set wA=function jls
+set DA=function UcR
+set SA=function yUv
+set VA=function p3v
+set hA=function T2R
+set cA=function kKR
+set kA=function ebR
+set QA=function nFv
+set UA=function FQR
+set BA=function TkR
+set HA=function c6s
+set oA=function qFv
+set jA=function Pos
+set KA=function kCs
+set EA=function gmR
+set JA=function dVR
+set eA=function BXs
+set tA=function Wgs
+set xA=function RvR
+set bA=function ikR
+set MA=function maR
+set gA=function aov
+set uA=function wnR
+set AA=function iLs
+set IA=function bqR
+set XA=function A2s
+set nA=function ZTv
+set TA=function rTR
+set OA=function Ads
+set aA=function xQv
+set fA=function WOv
+set CA=function yKR
+set LA=function t1v
+set FA=function MJv
+set vI=function hJv
+set RI=function gus
+set sI=function yDv
+set PI=function guv
+set pI=function PRs
+set rI=function Oav
+set WI=function aDR
+set iI=function Tfs
+set mI=function pEv
+set YI=function xYR
+set dI=function Y2R
+set GI=function hfv
+set qI=function fls
+set ZI=function cus
+set yI=function dFv
+set lI=function Bqs
+set NI=function RXv
+set wI=function TcR
+set DI=function FMR
+set SI=function p9s
+set VI=function ANv
+set hI=function S5R
+set cI=function UoR
+set kI=function dVv
+set QI=function Uls
+set UI=function rKv
+set BI=function vFv
+set HI=function qgR
+set oI=function iXR
+set jI=function c1v
+set KI=function GHs
+set EI=function ZPR
+set JI=function Zkv
+set eI=function lUR
+set tI=function ANR
+set xI=function gnR
+set bI=function JTs
+set MI=function kTv
+set gI=function AVv
+set uI=function yav
+set AI=function CdR
+set II=function kFs
+set XI=function IZR

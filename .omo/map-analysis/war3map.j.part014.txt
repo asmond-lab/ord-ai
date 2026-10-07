@@ -1,0 +1,1800 @@
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),150.,0.)
+call mUs("flamestrike3.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)-180.))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),135.,.0)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),1)
+call mUs("E_WarStompCaster.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+set s9v=XbR()
+call dEv(s9v,425.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(OI),fI)
+call Vbv(s9v)
+call hSv(Op,.65,1)
+endif
+if vo[Op]==3 then
+call qjR(Op)
+endif
+endfunction
+function cUv takes integer hUv returns integer
+set bj_groupCountUnits=0
+call ForGroup(xW[hUv],Lu)
+return bj_groupCountUnits
+endfunction
+function PAR takes nothing returns nothing
+local integer auR=GetPlayerId(GetOwningPlayer(GetTriggerUnit()))
+local real fuR=GetUnitX(GetTriggerUnit())
+local real CuR=GetUnitY(GetTriggerUnit())
+local integer LuR=GetUnitTypeId(GetTriggerUnit())
+local string FuR=GetUnitName(GetTriggerUnit())
+local boolean RAR=false
+local integer OuR
+local integer vAR
+local unit sAR
+if Kp[auR]!=2 then
+set RAR=true
+endif
+if RAR then
+set OuR=XbR()
+call GroupEnumUnitsOfPlayer(xW[OuR],Player(auR),Filter(i1))
+set vAR=cUv(OuR)
+if vAR<=0 then
+call DisplayTimedTextToPlayer(Player(auR),0.,0.,5.,"|cffff0000[오류]|r |cffFF8200행운의 토큰|r이 부족합니다. 필요 개수 : |cffFF00001개|r")
+call IssueImmediateOrder(GetTriggerUnit(),"stop")
+set sAR=null
+return
+endif
+call Tjs(mOv(OuR))
+call Vbv(OuR)
+endif
+set sAR=GetTriggerUnit()
+call ShowUnit(sAR,false)
+call KillUnit(sAR)
+loop
+set OuR=wWR(0,13)
+exitwhen DB[OuR]!=LuR
+endloop
+set bj_lastCreatedUnit=CreateUnit(Player(auR),DB[OuR],fuR,CuR,bj_UNIT_FACING)
+call IssueImmediateOrder(bj_lastCreatedUnit,"holdposition")
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,5.,GetPlayerName(Player(auR))+"님이 |cffff8200랜덤유닛 리롤|r 을(를) 사용하여 \n"+FuR+" → "+GetUnitName(bj_lastCreatedUnit)+" 으로 변환되었습니다!")
+set sAR=null
+endfunction
+function PAv takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+endfunction
+function PCv takes nothing returns nothing
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),GetEnumUnit(),3000000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if GetUnitAbilityLevel(GetEnumUnit(),$41303450)-1==40 then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),GetEnumUnit(),3000000.,2.,2.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+endif
+endfunction
+function PFv takes nothing returns boolean
+local integer sFv=hj
+set Wj[sFv]=GetTriggerPlayer()
+set Zo[sFv]=GetTriggerUnit()
+set Lo[sFv]=GetManipulatedItem()
+set co[sFv]=GetManipulatingUnit()
+return false
+endfunction
+function PKR takes nothing returns boolean
+return GetUnitRace(GetTriggerUnit())==RACE_ORC
+endfunction
+function PKv takes nothing returns nothing
+local unit sKv=GetEnumUnit()
+call yDs(LoadUnitHandle(gj,0,Op*$1f4+3),sKv,25000.+LoadReal(aj,0,Op*$1f4+2)*.80,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+set sKv=null
+endfunction
+function PLR takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4+1),LoadLocationHandle(Aj,0,Op*$1f4)))
+call CUv(Op,LoadUnitHandle(gj,0,Op*$1f4+1),EVENT_UNIT_DAMAGED,Condition(Gn),4)
+call AWR(Op,.9,3)
+elseif vo[Op]==3 then
+call OPR(Op)
+call qjR(Op)
+elseif vo[Op]==4 then
+if GetUnitAbilityLevelSwapped($41304852,LoadUnitHandle(gj,0,Op*$1f4))<5 then
+call IncUnitAbilityLevelSwapped($41304852,LoadUnitHandle(gj,0,Op*$1f4))
+endif
+if GetUnitAbilityLevelSwapped($41304852,LoadUnitHandle(gj,0,Op*$1f4))==4 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304b49,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call IssueTargetOrderById(LoadUnitHandle(gj,0,Op*$1f4+10),OrderId("bloodlust"),LoadUnitHandle(gj,0,Op*$1f4))
+endif
+if GetUnitAbilityLevelSwapped($41304852,LoadUnitHandle(gj,0,Op*$1f4))==5 then
+call SetUnitAbilityLevelSwapped($41304852,LoadUnitHandle(gj,0,Op*$1f4),1)
+endif
+call qjR(Op)
+endif
+endfunction
+function PLs takes nothing returns nothing
+local integer LCs=GetPlayerId(GetOwningPlayer(GetTriggerUnit()))
+local player RLs=Player(LCs)
+local real FCs=GetStartLocationX(GetPlayerStartLocation(RLs))
+local real vLs
+local unit sLs
+set RLs=Player(LCs)
+set vLs=GetStartLocationY(GetPlayerStartLocation(RLs))
+if GetUnitTypeId(GetTriggerUnit())!=$65303141 then
+set RLs=null
+set sLs=null
+return
+endif
+set sLs=GetTriggerUnit()
+call ShowUnit(sLs,false)
+call KillUnit(sLs)
+set bj_lastCreatedUnit=CreateUnit(Player(LCs),$68304252,FCs,vLs,bj_UNIT_FACING)
+call IssueImmediateOrder(bj_lastCreatedUnit,"holdposition")
+call DisplayTextToPlayer(Player(LCs),0.,0.,GetUnitName(bj_lastCreatedUnit)+" 획득!")
+set RLs=null
+set sLs=null
+endfunction
+function PLv takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+endfunction
+function PNs takes nothing returns nothing
+local unit vNs=CreateUnit(Player(5),$6e303035,GetRectCenterX(JY),GetRectCenterY(JY),bj_UNIT_FACING)
+local code RNs
+local trigger sNs
+call UnitAddAbility(vNs,$41393034)
+call SetUnitAbilityLevel(vNs,$41303451,EP)
+set RNs=c2
+set sNs=CreateTrigger()
+call TriggerRegisterUnitEvent(sNs,vNs,EVENT_UNIT_DAMAGED)
+call TriggerAddCondition(sNs,Condition(RNs))
+set nc=BRs(0)
+call TimerStart(nc,1.,true,k2)
+set KP=KP+1
+set vNs=null
+set sNs=null
+endfunction
+function PNv takes nothing returns nothing
+local unit sNv=GetAttacker()
+if GetUnitUserData(sNv)>=3 then
+call SetUnitAnimation(sNv,"spell slam")
+endif
+call TriggerExecute(eW)
+set sNv=null
+endfunction
+function PPs takes nothing returns nothing
+local unit sPs
+if GetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(GetOwningPlayer(GetTriggerUnit()),0.,0.,5.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+set sPs=GetTriggerUnit()
+call IssueImmediateOrder(sPs,"stop")
+set sPs=null
+return
+endif
+set sPs=GetTriggerUnit()
+call IncUnitAbilityLevel(sPs,$41304430)
+set sPs=GetTriggerUnit()
+call IncUnitAbilityLevel(sPs,$41304853)
+call UnitRemoveAbility(GetTriggerUnit(),GetSpellAbilityId())
+call SetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+set sPs=null
+endfunction
+function PRs takes nothing returns nothing
+local framehandle sRs=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(sRs),sRs)
+set sRs=null
+endfunction
+function PSv takes nothing returns nothing
+local unit LDv=GetAttacker()
+local integer FDv
+local location vSv
+local unit RSv
+local unit sSv
+if GetUnitState(LDv,UNIT_STATE_LIFE)==100. then
+call SetUnitState(LDv,UNIT_STATE_LIFE,1.)
+call TriggerExecute(Qe)
+set LDv=null
+set vSv=null
+set RSv=null
+set sSv=null
+return
+else
+call SetUnitState(LDv,UNIT_STATE_LIFE,(GetUnitState(LDv,UNIT_STATE_LIFE)+1.)*1.)
+if GetUnitAbilityLevel(LDv,$42303546)<=0 then
+if wWR(1,$64)<=14 then
+set FDv=GetPlayerId(GetOwningPlayer(LDv))
+set vSv=GetUnitLoc(LDv)
+call CreateUnitAtLoc(ds,$65303845,vSv,GetUnitFacing(LDv))
+set sSv=P4v(FDv)
+set RSv=CreateUnitAtLoc(ds,$65303548,vSv,GetUnitFacing(LDv))
+call SetUnitVertexColor(RSv,$64,$c8,$ff,$ff)
+call SetUnitScale(RSv,2.,1.,1.)
+call SetUnitFlyHeight(RSv,20.,10000.)
+call IssueTargetOrder(sSv,"frostarmor",LDv)
+call IssueTargetOrder(sSv,"innerfire",LDv)
+call RemoveLocation(vSv)
+call IssueImmediateOrder(LDv,"stop")
+call IssueImmediateOrder(LDv,"metamorphosis")
+call TriggerExecute(Ue)
+set LDv=null
+set vSv=null
+set RSv=null
+set sSv=null
+return
+endif
+endif
+if GetUnitUserData(LDv)>=10 then
+call SetUnitUserData(LDv,0)
+call TriggerExecute(Be)
+elseif wWR(1,$64)<=8 then
+call TriggerExecute(oe)
+elseif wWR(1,$64)<=15 then
+call TriggerExecute(Ke)
+else
+call TriggerExecute(Je)
+endif
+endif
+set LDv=null
+set vSv=null
+set RSv=null
+set sSv=null
+endfunction
+function PTs takes nothing returns nothing
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),GetEnumUnit(),150000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call IssueTargetOrder(Il[LoadInteger(Tj,0,Op*$1f4+8)],"slow",GetEnumUnit())
+endfunction
+function S9s takes nothing returns nothing
+local integer N9s=GetPlayerId(GetTriggerPlayer())
+local integer w9s
+local framehandle D9s
+if GetLocalPlayer()==Player(N9s) then
+set D9s=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(D9s),D9s)
+set w9s=GetHandleId(D9s)
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,w9s),false)
+set D9s=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(D9s),D9s)
+set w9s=GetHandleId(D9s)
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,w9s),true)
+call sTs()
+set w9s=NW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,w9s),false)
+set w9s=qW
+call BlzFrameSetText(LoadFrameHandle(pv,0,w9s),"기록지침")
+set w9s=qK
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,w9s),false)
+set w9s=lW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,w9s),true)
+set w9s=GW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,w9s),false)
+set cW=false
+endif
+set D9s=null
+endfunction
+function PTv takes nothing returns nothing
+call S9s()
+endfunction
+function PUR takes nothing returns nothing
+local integer sUR
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+if wWR(1,$64)<=20 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304641,LoadLocationHandle(Aj,0,Op*$1f4),bj_UNIT_FACING))
+if GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4),$41305449)==1 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304b56,LoadLocationHandle(Aj,0,Op*$1f4+1),AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4+1),LoadLocationHandle(Aj,0,Op*$1f4))))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call IssueTargetOrderById(LoadUnitHandle(gj,0,Op*$1f4+10),OrderId("sleep"),LoadUnitHandle(gj,0,Op*$1f4))
+elseif GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4),$41305449)==2 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304b46,LoadLocationHandle(Aj,0,Op*$1f4+1),AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4+1),LoadLocationHandle(Aj,0,Op*$1f4))))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call IssueTargetOrderById(LoadUnitHandle(gj,0,Op*$1f4+10),OrderId("sleep"),LoadUnitHandle(gj,0,Op*$1f4))
+endif
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304639,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call IssuePointOrderById(LoadUnitHandle(gj,0,Op*$1f4+10),OrderId("dreadlordinferno"),GetLocationX(LoadLocationHandle(Aj,0,Op*$1f4)),GetLocationY(LoadLocationHandle(Aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)+45.))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),.0,5200.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.,1.,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),45)
+call mUs("ice2.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)-45.))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),.0,5200.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.,1.,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),45)
+call mUs("ice2.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)-45.))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),.0,5200.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.5,1.,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),30)
+call mUs("FrostNova.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+set sUR=XbR()
+call dEv(sUR,800.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(ga),ua)
+call Vbv(sUR)
+call AWR(Op,.35,2)
+else
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),1000000.,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304639,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call IssuePointOrderById(LoadUnitHandle(gj,0,Op*$1f4+10),OrderId("dreadlordinferno"),GetLocationX(LoadLocationHandle(Aj,0,Op*$1f4)),GetLocationY(LoadLocationHandle(Aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)+45.))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),.0,5200.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.,1.,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),45)
+call mUs("ice2.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)-45.))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),.0,5200.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.,1.,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),45)
+call mUs("ice2.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)-45.))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),.0,5200.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.5,1.,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),30)
+call mUs("FrostNova.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+set sUR=XbR()
+call dEv(sUR,800.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(ga),ua)
+call Vbv(sUR)
+call qjR(Op)
+endif
+elseif vo[Op]==2 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$68303648,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)-45.))
+call SetUnitUserData(LoadUnitHandle(gj,0,Op*$1f4+10),GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4))))
+call qjR(Op)
+endif
+endfunction
+function PVv takes nothing returns nothing
+local real sVv
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),D0v(45.,175.),GetRandomReal(0.,360.)))
+if (not igR(LoadUnitHandle(gj,0,Op*$1f4+1)))and GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41393033)<=0 and GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41393034)<=0 then
+call frR(Op,0,0)
+else
+call frR(Op,0,1)
+endif
+call AWR(Op,.03,1)
+elseif vo[Op]==1 then
+call YIs(LoadUnitHandle(gj,0,Op*$1f4),0.,400.,LoadLocationHandle(Aj,0,Op*$1f4+1),250000.,1.,1.,ATTACK_TYPE_PIERCE,DAMAGE_TYPE_NORMAL)
+if LoadInteger(Tj,0,Op*$1f4)==1 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303945,LoadLocationHandle(Aj,0,Op*$1f4+2),bj_UNIT_FACING))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303946,LoadLocationHandle(Aj,0,Op*$1f4+2),bj_UNIT_FACING))
+if igR(LoadUnitHandle(gj,0,Op*$1f4+1)) then
+set sVv=250000.+GetUnitState(LoadUnitHandle(gj,0,Op*$1f4+1),UNIT_STATE_MAX_LIFE)*.01*4.25
+elseif GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41393034)>0 then
+set sVv=350000.
+elseif GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41393033)>0 then
+set sVv=500000.+GetUnitState(LoadUnitHandle(gj,0,Op*$1f4+1),UNIT_STATE_MAX_LIFE)*.01*14.25
+endif
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),sVv,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+call frR(Op,0,0)
+call AWR(Op,.11,1)
+else
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303945,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303946,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call AWR(Op,.11,2)
+endif
+elseif vo[Op]==2 then
+call qjR(Op)
+endif
+endfunction
+function PaR takes nothing returns nothing
+local timer COR=GetExpiredTimer()
+local integer LOR=LoadInteger(GR,0,GetHandleId(COR))
+local integer FOR=st[LOR]
+local real vaR=GetUnitX(kU[FOR])
+local real RaR=GetUnitY(kU[FOR])
+local boolean saR
+if Rt[LOR]==$64 then
+call Tjs(kU[FOR])
+call DestroyEffect(cU[FOR])
+call DestroyTextTag(UU[FOR])
+call hjR(COR)
+set bj_lastCreatedUnit=CreateUnit(Player(FOR),GetUnitTypeId(kU[FOR]),vaR,RaR,bj_UNIT_FACING)
+call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Other\\Levelup\\LevelupCaster.mdx",bj_lastCreatedUnit,"origin"))
+call DisplayTextToPlayer(Player(FOR),0.,0.,"|cff04ffc4[알림]|r 진화체 경험치 획득 완료! 유닛이 활성화됩니다.")
+set kU[FOR]=null
+set saR=false
+if LOR==0 then
+set saR=true
+elseif Fe[LOR]!=-1 then
+set saR=true
+endif
+if not saR then
+set Fe[LOR]=Ce
+endif
+if not saR then
+set Ce=LOR
+endif
+else
+call SetUnitVertexColor(kU[FOR],PercentTo255(Rt[LOR]),PercentTo255(Rt[LOR]),PercentTo255(Rt[LOR]),$ff)
+set Rt[LOR]=Rt[LOR]+1
+endif
+set COR=null
+endfunction
+function Pas takes nothing returns nothing
+local real vas
+local real Ras
+local unit sas
+call L2R()
+set ss=GetOwningPlayer(GetSpellAbilityUnit())
+if IsUnitType(GetSpellAbilityUnit(),UNIT_TYPE_UNDEAD) then
+if GetUnitAbilityLevel(GetSpellAbilityUnit(),$4130544a)>0 then
+set vas=GetRectCenterX(aP[GetPlayerId(GetOwningPlayer(GetSpellAbilityUnit()))])
+set Ras=GetRectCenterY(aP[GetPlayerId(GetOwningPlayer(GetSpellAbilityUnit()))])
+else
+set vas=GetUnitX(GetSpellAbilityUnit())
+set Ras=GetUnitY(GetSpellAbilityUnit())
+endif
+else
+set vas=GetUnitX(GetSpellAbilityUnit())
+set Ras=GetUnitY(GetSpellAbilityUnit())
+endif
+set Ws=vas
+set is=Ras
+set rs=true
+set Rs=GetSpellAbilityId()
+set sas=GetSpellAbilityUnit()
+set Ps=sas
+set ps=GetUnitTypeId(sas)
+if not ODv() then
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303044 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000포트거스.D.에이스 : |r|cffFA8072응! 난 루피의 형이야.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303036 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000니코 로빈 : |r|cffFA8072고대 왕국의 비밀을 밝혀내겠어.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303057 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000브룩 : |r|cffFA8072요호호호호홋!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130304c then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000페로나 : |r|cffFA8072난 네거티브 프린세스.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303050 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000이나즈마 : |r|cffFA8072길이야 없으면 만들면 되죠.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e37 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000후쿠로 : |r|cffFA8072쨔바랍!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e35 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000블루노 : |r|cffFA8072나는 문문 열매 능력자.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303056 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000우솝 : |r|cffFA8072내 이름은 저격왕!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303249 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000토니토니 쵸파 : |r|cffFA8072럼블볼 강화!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303148 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000프랑키 : |r|cffFA8072너희의 동료가 되겠어.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303045 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000베포 : |r|cffFA8072여인섬에는 여자곰도 있어?|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130314c then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000하찌 : |r|cffFA8072어인류검술 육도류!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303152 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000타시기 : |r|cffFA8072조로! 그 검은 너에게 어울리지 않는다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303132 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000몽키.D.루피 : |r|cffFA8072기어 세컨드!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303135 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000나미 : |r|cffFA8072크리마 텍트!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303332 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000롤로노아 조로 : |r|cffFA8072귀기. 구검류!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303138 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000버기 : |r|cffFA8072맛봐라. 특제 마기탄!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303142 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000상디 : |r|cffFA8072요리사는 손을 청결히 유지해야 하지.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4131395a then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000스모커 : |r|cffFA8072내가 해군이고 네가 해적인 이상 난 널 잡을거다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303234 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000마르코 : |r|cffFA8072내가 1번대 대장 마르코다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303141 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000챠카 : |r|cffFA8072우리는 알라바스타의 수호신!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e41 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000카포네 갱 벳지 : |r|cffFA8072이게 아빠의 삶의 현장이란다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130314f then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000로브 루치 : |r|cffFA8072정의를 위해서다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303345 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000니코 로빈 : |r|cffFA8072나는 오하라의 생존자다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303158 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000트라팔가 로우 : |r|cffFA8072나는 선의다! 밀짚모자를 태워!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303137 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000바솔로뮤 쿠마 : |r|cffFA8072여행을 떠난다면 어디로 가고 싶은가.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130304b then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000모리아 : |r|cffFA8072저 시체는 내꺼!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303139 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000헤르메포 : |r|cffFA8072일에는 순서가 있는 법이야.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130305a then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000이나즈마 : |r|cffFA8072어서 가세요! 몽키.D.루피!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303149 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000봉쿠레 : |r|cffFA8072우리는 친~구~|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303144 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000에넬 : |r|cffFA8072난 하늘섬의 신이다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130314b then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000우솝 : |r|cffFA8072화염탄 발사!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303242 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000X-드레이크 : |r|cffFA8072해군 따위 관둔지 오래!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303143 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000킬러 : |r|cffFA8072...|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303042 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000토니토니 쵸파 : |r|cffFA8072럼블볼 가드포인트!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303134 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000토니토니 쵸파 : |r|cffFA8072럼블볼 두뇌강화!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41314131 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000스쿼드 : |r|cffFA8072아버지... 내가 무슨 짓을...!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303330 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000유스타스 키드 : |r|cffFA8072난 그 녀석이 설치고 다니는 걸 가만히 놔둘 수 없다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130314e then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000바질 호킨스 : |r|cffFA8072운명은 이미 정해졌다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303053 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000포트거스.D.에이스 : |r|cffFA8072내가 2번대 대장이다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303145 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000징베 : |r|cffFA8072에이스. 그대의 동생은 내 목숨과 바꿔서라도 지키겠소!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303259 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000프랑키 : |r|cffFA8072로빈! 니가 왼팔에 와야 완성이야!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303151 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000크로커다일 : |r|cffFA8072사막의 힘!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e38 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000캡틴 크로 : |r|cffFA8072낯짝 한번 볼만하군.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303150 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000아론 : |r|cffFA8072우리 어인들은 최고의 종족이다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303239 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000압살롬 : |r|cffFA8072너... 내 반려자가 되어라.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41305850 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000X-드레이크 : |r|cffFA8072난 사실 해군이다. 너희들과 함께 싸우게 해다오!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303257 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000몽키.D.거프 : |r|cffFA8072여길 지나가고 싶다면 나를 먼저 쓰러트리고 가라! 몽키.D.루피!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303136 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000류마 : |r|cffFA8072곤란하군요. 패자를 마음대로 건드리면...|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130324d then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000도플라밍고 : |r|cffFA8072네놈들과의 거래가 재미없어지면 난 언제든지 칠무해를 그만두겠어.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303252 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000롤로노아 조로 : |r|cffFA8072나 자신의 야망은 내가 이루어 가겠다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303049 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000마르코 : |r|cffFA8072동물계 환수종! 불사조!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303146 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000검은수염 : |r|cffFA8072제하하하하! 사람의 꿈은 끝나지 않아!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303238 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000오즈 : |r|cffFA8072고기! 배고프다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130314d then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000마젤란 : |r|cffFA8072살려두지 않겠다! 탈옥수들!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130324b then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000모몬가 : |r|cffFA80721과 0은 다르다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303046 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000몽키.D.루피 : |r|cffFA8072기어 서드!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303246 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000바르토로메오 : |r|cffFA8072루피 선배를 동경한 나머지 결국엔 바다에 나와버린 것이다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303133 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000바제스 : |r|cffFA8072선장! 출발하자고!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130494f then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000바질 호킨스 : |r|cffFA8072오늘 넌 죽음의 상이 나와 있어.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303347 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000반 더 데켄 : |r|cffFA8072시라호시 나랑 살래 아니면 죽을래!?|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303041 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000베이비5 : |r|cffFA8072이번에야말로 남편감을...!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303051 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000벤 베크만 : |r|cffFA8072하여간 선장 이 양반은 참...|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e36 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000키자루 : |r|cffFA8072이런 이런 이런, 곤란하군.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e44 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000보아 핸콕 : |r|cffFA8072누구냐! 내가 가는 길에 감히 고양이를 둔 것이!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41314130 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000브룩 : |r|cffFA8072잠의노래~ 프람~|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130324a then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000네펠타리 비비 : |r|cffFA8072크로커다일의 의도대로 흘러가게 두지 않겠어요!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303058 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000사보 : |r|cffFA8072내 동생은 해적왕이 될 녀석이야! 잘 부탁해!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303052 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000아카이누 : |r|cffFA8072둘 다 살려 보내지 않겠다고 했을텐데?|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e46 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000상디 : |r|cffFA8072신은 음식을 만들고 악마는 향신료를 만들지.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303342 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000샹크스 : |r|cffFA8072왼팔은 새로운 시대에 걸고 왔다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303256 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000센토마루 : |r|cffFA8072키자루 아저씨는 또 어디로 간거야?|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130324c then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000슈가 : |r|cffFA8072기분 나빠.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303339 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000시류 : |r|cffFA8072검은수염... 너 같은 남자와의 만남을 기다렸다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130314a then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000엠포리오 이완코브 : |r|cffFA8072드래곤이 이스트 블루를 바라보던 이유가 너였나.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e42 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000와이퍼 : |r|cffFA8072대지는 지지않는다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303157 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000우솝 : |r|cffFA8072필살 초록성! 데빌!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303055 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000유스타스 키드 : |r|cffFA8072어디 한번 덤벼보시지!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303038 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000제프 : |r|cffFA8072수많은 무기보다 가슴속에 품은 한자루의 창이 더 강할 때도 있지.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303241 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000다이아몬드 죠즈 : |r|cffFA8072막았다! 세계 제일의 참격을!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303254 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000쥬라클 미호크 : |r|cffFA8072힘뿐인 검에 강함 따윈 없다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303043 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000카쿠 : |r|cffFA8072람각 주단!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e43 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000아오키지 : |r|cffFA8072역시 너희들, 지금 죽여 두는 게 좋을 것 같군.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130324e then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000크로커다일 : |r|cffFA8072곧 있으면 알라바스타 전체가 내 것이다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303253 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000킨에몬 : |r|cffFA8072졸자! 해적들의 도움 따위 절대 받지 않소!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303130 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000토니토니 쵸파 : |r|cffFA8072럼블볼 혼포인트!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130325a then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000트라팔가 로우 : |r|cffFA8072내가 할 수 있는 조치는 다 했다. 이젠 기적을 믿는 수밖에...|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303156 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000페로나 : |r|cffFA8072홀로홀로홀로홀로~ 여기서 도망칠 생각은 꿈도 꾸지 말라구!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304b32 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000돈키호테 도플라밍고 : |r|cffFA8072세계의 창조주로서 성지 마리조아로 간 일족이 돈키호테 일족이다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304b33 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000베이비5 : |r|cffFA8072돌아가면... 죽여버리겠어!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304b34 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000네펠타리 비비 : |r|cffFA8072다시 만나게 되면 나를 동료라고 불러주지 않을래?|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304b35 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000포트거스.D.에이스 : |r|cffFA8072동료들에겐 손대지 마라! 나 혼자 싸우겠다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304b36 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000카쿠 : |r|cffFA8072사각이지만 사각이 없지.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304b37 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000캐럿 : |r|cffFA8072오늘 밤은 만월이려나~|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303337 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000토니토니 쵸파 : |r|cffFA8072럼블볼 유력강화!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303147 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000겟코 모리아 : |r|cffFA8072세상이란 건 튀어나와 있는 말뚝 따윈 처박히는 법이야!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130304e then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000포트거스.D.에이스 : |r|cffFA8072고마워. 이런 날 사랑해줘서...|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41305853 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000네코마무시 : |r|cffFA8072나는 네코마무시! 세상의 개벽을 기다리는 사나이!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303343 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000라분 : |r|cffFA8072(이 산... 이 산만 넘어가면 친구들을 볼 수 있어!)|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303250 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000로브 루치 : |r|cffFA8072왕국의 병사로서 약한 건 죄. 따라서 정의의 이름으로 처분했다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e48 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000롤로노아 조로 : |r|cffFA8072하... 들린다. 검의 소리가...|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303244 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000마르코 : |r|cffFA8072한번에 킹은 잡을 수 없지!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303336 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000검은수염 : |r|cffFA8072에이스! 내 동료가 되지 않겠나?|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303054 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000몽키.D.루피 : |r|cffFA8072후욱... 후욱...|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303344 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000블랙마리아 : |r|cffFA8072재밌게 놀다가렴. 여긴 즐거운 곳이란다~|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303059 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000몽키.D.드래곤 : |r|cffFA8072바람아 불어라! 운명의 폭풍우는 왔도다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130304a then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000바르토로메오 : |r|cffFA8072루피 선배를 위해서라면 내 목숨까지 바칠 수 있당께!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303237 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000바솔로뮤 쿠마 : |r|cffFA8072보니의 병이 나을 수만 있다면 어떤 운명이든 받아들이겠어.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303047 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000빈스모크 레이쥬 : |r|cffFA8072이 독은 잘 먹겠습니다~|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303155 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000상디 : |r|cffFA8072여자의 거짓말은 용서해야 남자다.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303243 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000샬롯 크래커 : |r|cffFA8072노력해도 이길 수 없는 녀석이 있음을 아는 게 진정한 '성장'이란 거다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$4130304d then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000센고쿠 : |r|cffFA8072인의란 이름의 '정의'는 사라지지 않는다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e49 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000슈가 : |r|cffFA8072계약이야. 내 명령에 목숨이 다할 때까지 따를 것.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303348 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000스모커 : |r|cffFA8072상부에게 전해주겠나. 엿이나 처먹으라고.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303039 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000시저 크라운 : |r|cffFA8072슈로로로로! 나의 과학력은 세계 최고다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303258 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000금사자 시키 : |r|cffFA8072로져! 왜 나만 두고 떠난거냐...|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303153 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000실버즈 레일리 : |r|cffFA8072검을 쓰는 건 오랜만이군.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303247 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000흰수염 : |r|cffFA8072바보같은 아들을 그래도 사랑하마.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303035 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000울티 : |r|cffFA8072너희 선장이 해적왕이 될 수 없다고 말해!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e47 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000제파 : |r|cffFA8072나는 영웅을 키워내고 싶어.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41304e45 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000징베 : |r|cffFA8072어디서 그 힘을 얻었는지 모르겠지만 궁극의 경지를 깨우치진 못했군.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303236 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000카르가라 : |r|cffFA8072샨도라의 등불을 밝혀라!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303154 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000코비 : |r|cffFA8072목숨이 아깝습니다! 지금부터 쓰러질 병사들은 마치 바보같지 않습니까!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41313038 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000킹 : |r|cffFA8072와노쿠니 땅에 발을 들일 순 없다!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303248 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000트라팔가 로우 : |r|cffFA8072톱니바퀴를 부쉈다! 이제 누구도 돌이킬 수 없어.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41303048 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000후지토라 잇쇼우 : |r|cffFA8072헤아려야 할 것은 적의 수보다 아군의 수가 먼저 아닙니까.|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41314343 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000히바리 : |r|cffFA8072지도 코비 선배한테 신세 많이 졌구만유!|r")
+set sas=null
+return
+endif
+if GetSpellAbilityId()==$41313133 then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000샬롯 브륄레 : |r|cffFA8072예쁜 얼굴을 보면 갈기갈기 찢어버리고 싶다니까!|r")
+set sas=null
+return
+endif
+set sas=null
+endfunction
+function Pbv takes nothing returns nothing
+local unit fxv=GetAttacker()
+local unit Cxv=GetTriggerUnit()
+local location Fxv=GetUnitLoc(Cxv)
+local unitstate Rbv=UNIT_STATE_MANA
+local unitstate vbv=UNIT_STATE_MANA
+local unit Lxv
+local boolean sbv
+call SetUnitState(fxv,Rbv,GetUnitState(fxv,vbv)+1.)
+if GetUnitAbilityLevel(fxv,$42303256)>0 then
+set Rbv=UNIT_STATE_MANA
+if GetUnitState(fxv,Rbv)==100. then
+call SetUnitState(fxv,UNIT_STATE_MANA,0.)
+set Lxv=CreateUnitAtLoc(ds,$65303342,Fxv,GetUnitFacing(fxv))
+call SetUnitScale(Lxv,3.85,1.,1.)
+call SetUnitAnimationByIndex(Lxv,1)
+set Lxv=CreateUnitAtLoc(ds,$6530334e,Fxv,GetUnitFacing(fxv))
+call IssuePointOrderById(Lxv,OrderId("dreadlordinferno"),GetLocationX(Fxv),GetLocationY(Fxv))
+call YIs(fxv,.0,600.,Fxv,1850000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+elseif wWR(1,$64)<=10 then
+set Lxv=CreateUnitAtLoc(ds,$6530334f,Fxv,0.)
+call IssuePointOrderById(Lxv,OrderId("dreadlordinferno"),GetLocationX(Fxv),GetLocationY(Fxv))
+call YIs(fxv,.0,600.,Fxv,200000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+if GetUnitPropWindow(Cxv)*bj_RADTODEG!=64. then
+set sbv=GetUnitAbilityLevel(Cxv,$41393032)>0 or GetUnitAbilityLevel(Cxv,$41393131)>0 or GetUnitAbilityLevel(Cxv,$41393033)>0
+else
+set sbv=false
+endif
+if sbv then
+call SetUnitPropWindowBJ(Cxv,64.)
+set Lxv=CreateUnitAtLoc(ds,$65303342,Fxv,GetUnitFacing(fxv))
+call SetUnitScale(Lxv,3.85,1.,1.)
+call SetUnitAnimationByIndex(Lxv,1)
+set Lxv=CreateUnitAtLoc(ds,$6530334e,Fxv,GetUnitFacing(fxv))
+call IssuePointOrderById(Lxv,OrderId("dreadlordinferno"),GetLocationX(Fxv),GetLocationY(Fxv))
+call YIs(fxv,.0,600.,Fxv,1850000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if GetUnitAbilityLevel(Cxv,$41393033)>0 then
+set Rbv=UNIT_STATE_MAX_LIFE
+call yDs(fxv,Cxv,GetUnitState(Cxv,Rbv)*.45,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+endif
+call RemoveLocation(Fxv)
+set fxv=null
+set Cxv=null
+set Lxv=null
+set Fxv=null
+set vbv=null
+set Rbv=null
+endfunction
+function Pcv takes nothing returns nothing
+local unit vcv=GetAttacker()
+local unit Rcv=GetTriggerUnit()
+local location scv=GetUnitLoc(Rcv)
+call UnitDamagePointLoc(vcv,.0,400.,scv,52500.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call RemoveLocation(scv)
+set vcv=null
+set Rcv=null
+set scv=null
+endfunction
+function Pks takes nothing returns nothing
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),GetEnumUnit(),1000000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endfunction
+function i5v takes integer W5v returns integer
+if W5v==$68303438 then
+return $65
+elseif W5v==$68303432 then
+return 81
+elseif W5v==$68303254 then
+return 85
+elseif W5v==$68303535 then
+return $6a
+elseif W5v==$68303543 then
+return $68
+elseif W5v==$68303538 then
+return 80
+elseif W5v==$48303938 then
+return $67
+elseif W5v==$48303856 then
+return $66
+elseif W5v==$4830354e then
+return $69
+elseif W5v==$48303941 then
+return 83
+elseif W5v==$48303936 then
+return 84
+elseif W5v==$48303939 then
+return $6c
+elseif W5v==$48304244 then
+return $6b
+elseif W5v==$48303855 then
+return 86
+elseif W5v==$68303441 then
+return 82
+endif
+return 0
+endfunction
+function gXs takes player JXs,integer eXs returns boolean
+local integer xXs=i5v(eXs)
+local string tXs
+local boolean bXs
+local boolean MXs
+if xXs==0 then
+return false
+endif
+set tXs=wv[GetPlayerId(JXs)]
+if LoadBoolean(TW,StringHash(tXs),xXs) then
+set MXs=true
+else
+if eXs==$48303855 then
+set xXs=GetPlayerId(JXs)
+set bXs=Cp[xXs]==39 or Cp[xXs]==40 or Cp[xXs]==42 or Cp[xXs]==43 or Cp[xXs]==44 or Cp[xXs]==45 or Cp[xXs]==46
+else
+set bXs=false
+endif
+set MXs=bXs
+endif
+return MXs
+endfunction
+function lFs takes integer dFs returns nothing
+local integer GFs=0
+local integer yFs=15
+local integer qFs
+local integer ZFs
+if GetLocalPlayer()==Player(dFs) then
+loop
+exitwhen GFs>=yFs
+set qFs=Bi*40+Hi*yFs+GFs
+set ZFs=Qi[qFs]
+set ki[GFs]=ZFs
+if qFs>=Bi*40+Ui[Bi] or ZFs==0 then
+call rhs(qJ[GFs],false)
+else
+call lIs(qJ[GFs],LoadStr(ji,0,ZFs))
+call rhs(yJ[GFs],not gXs(Player(dFs),ZFs))
+call rhs(qJ[GFs],true)
+endif
+set GFs=GFs+1
+endloop
+endif
+endfunction
+function Xfs takes integer ufs returns nothing
+local integer Afs=GetPlayerId(GetTriggerPlayer())
+local integer Ifs
+if GetLocalPlayer()==Player(Afs) then
+set Ifs=Zi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=ii
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=mi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=Yi
+if Ifs!=0 then
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+endif
+set Ifs=vi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=Ri
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),true)
+endif
+if ufs==1 or ufs==4 then
+if GetLocalPlayer()==Player(Afs) then
+set Ifs=Pi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),true)
+set Ifs=pi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=ri
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=Wi
+if Ifs!=0 then
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+endif
+endif
+elseif ufs==2 or ufs==5 then
+if GetLocalPlayer()==Player(Afs) then
+set Ifs=Pi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=pi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),true)
+set Ifs=ri
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=Wi
+if Ifs!=0 then
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+endif
+endif
+elseif ufs==3 or ufs==6 then
+if GetLocalPlayer()==Player(Afs) then
+set Ifs=Pi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=pi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=ri
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),true)
+set Ifs=Wi
+if Ifs!=0 then
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+endif
+endif
+elseif ufs==7 or ufs==8 then
+if GetLocalPlayer()==Player(Afs) then
+call lFs(Afs)
+set Ifs=Pi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=pi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=ri
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+set Ifs=Wi
+if Ifs!=0 then
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),true)
+endif
+set Ifs=Yi
+if Ifs!=0 then
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Ifs),false)
+endif
+endif
+endif
+endfunction
+function Pos takes nothing returns nothing
+local hashtable sos=Pv
+local framehandle vos=BlzGetTriggerFrame()
+local integer FHs
+local integer Ros
+call SaveFrameHandle(pv,0,GetHandleId(vos),vos)
+set FHs=LoadInteger(sos,0,GetHandleId(vos))
+set vos=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(vos),vos)
+set Ros=GetHandleId(vos)
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,Ros),false)
+set vos=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(vos),vos)
+set Ros=GetHandleId(vos)
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,Ros),true)
+call Xfs(FHs)
+set vos=null
+set sos=null
+endfunction
+function Puv takes nothing returns nothing
+set WB[1]=$6f303049
+set WB[2]=$6f303034
+set WB[3]=$6f303041
+set WB[4]=$6f303039
+set WB[5]=$6f303038
+set WB[6]=$6f303044
+set WB[7]=$6f303036
+set WB[8]=$6f303035
+set WB[9]=$6f303042
+set WB[11]=$6f303033
+set WB[12]=$6f303043
+set WB[13]=$6f303046
+set WB[14]=$6f30304d
+set WB[15]=$6f303048
+set WB[16]=$6f303047
+set WB[17]=$6f30304e
+set WB[18]=$6f303045
+set WB[19]=$6f30304f
+set WB[21]=$6f303050
+set WB[22]=$6f303051
+set WB[23]=$6f303052
+set WB[24]=$6f303053
+set WB[25]=$6f303054
+set WB[26]=$6f303037
+set WB[27]=$6f303055
+set WB[28]=$6f303056
+set WB[29]=$6f303058
+set WB[31]=$6f303147
+set WB[32]=$6f303130
+set WB[33]=$6f303131
+set WB[34]=$6f303132
+set WB[35]=$6f303137
+set WB[36]=$6f303138
+set WB[37]=$6f303139
+set WB[38]=$6f303141
+set WB[39]=$6f303135
+set WB[41]=$6f303142
+set WB[42]=$6f303146
+set WB[43]=$6f303145
+set WB[44]=$6f303144
+set WB[45]=$6f30314f
+set WB[46]=$6f303148
+set WB[47]=$6f30314c
+set WB[48]=$6f30314d
+set WB[49]=$6f303154
+set WB[51]=$6f303155
+set WB[52]=$6f30314e
+set WB[53]=$6f303151
+set WB[54]=$6f303152
+set WB[55]=$6f303153
+set WB[56]=$6f303238
+set WB[57]=$6f30305a
+set WB[58]=$6f303230
+set WB[59]=$6f303231
+set WB[60]=$6f303247
+set WB[61]=$6f303236
+set WB[62]=$6f303235
+set WB[63]=$6f303237
+set WB[64]=$6f30304b
+set WB[65]=$6f303248
+set iB[10]=$6f303156
+set iB[20]=$6f303157
+set iB[30]=$6f303158
+set iB[40]=$6f303159
+set iB[50]=$6f30315a
+set iB[55]=$6f303031
+set iB[60]=$6f303243
+set iB[65]=$6f303242
+set mB[1]=$68303033
+set mB[2]=$68303032
+set mB[3]=$68303031
+set mB[4]=$68303037
+set mB[5]=$68303034
+set mB[6]=$68303038
+set mB[7]=$68303035
+set mB[8]=$68303039
+set mB[9]=$68303036
+set YB[0]=$6830304d
+set YB[1]=$68303041
+set YB[2]=$6830304f
+set YB[3]=$68303043
+set YB[4]=$68303044
+set YB[5]=$68303049
+set YB[6]=$6830304e
+set YB[7]=$68303045
+set YB[8]=$68303047
+set YB[9]=$6830304a
+set YB[10]=$6830304b
+set YB[11]=$6830304c
+set YB[12]=$68303046
+set dB[0]=$6830314b
+set dB[1]=$68303051
+set dB[2]=$68303042
+set dB[3]=$68303050
+set dB[4]=$68303053
+set dB[5]=$68303052
+set dB[6]=$68303057
+set dB[7]=$68303054
+set dB[8]=$68303055
+set dB[9]=$68303137
+set dB[10]=$68303136
+set dB[11]=$68303135
+set dB[12]=$68303134
+set dB[13]=$68303133
+set dB[14]=$68303146
+set dB[15]=$68303132
+set dB[16]=$68303131
+set dB[17]=$68303130
+set dB[18]=$6830305a
+set dB[19]=$68303059
+set dB[20]=$68303058
+set dB[21]=$68303138
+set dB[22]=$68303139
+set dB[23]=$68303143
+set dB[24]=$68303056
+set dB[25]=$68303141
+set dB[26]=$68303142
+set dB[27]=$68303144
+set dB[28]=$68303145
+set dB[29]=$68303148
+set dB[30]=$68303147
+set dB[31]=$6830314a
+set dB[32]=$68303149
+set GB[0]=$68303958
+set GB[1]=$68303151
+set GB[2]=$68303235
+set GB[3]=$6830314c
+set GB[4]=$68303232
+set GB[5]=$68303231
+set GB[6]=$68303230
+set GB[7]=$6830315a
+set GB[8]=$68303159
+set GB[9]=$68303158
+set GB[10]=$68303157
+set GB[11]=$68303156
+set GB[12]=$68303155
+set GB[13]=$68303154
+set GB[14]=$6830324d
+set GB[15]=$68303153
+set GB[16]=$68303152
+set GB[17]=$6830314d
+set GB[18]=$6830314e
+set GB[19]=$6830314f
+set GB[20]=$6830354c
+set GB[21]=$68303150
+set GB[22]=$68303249
+set GB[23]=$68303239
+set GB[24]=$68303238
+set GB[25]=$68303237
+set GB[26]=$68303236
+set GB[27]=$68303241
+set GB[28]=$68303234
+set GB[29]=$68303243
+set GB[30]=$68303244
+set GB[31]=$68303247
+set GB[32]=$68303246
+set GB[33]=$68303245
+set GB[34]=$68303448
+set GB[35]=$68303233
+set GB[36]=$68303242
+set GB[37]=$68303248
+set GB[38]=$6830324a
+set GB[39]=$6830324b
+set GB[40]=$6830324c
+set GB[41]=$6830354b
+set GB[42]=$68303558
+set qB[0]=$68303259
+set qB[1]=$6830324e
+set qB[2]=$68303330
+set qB[3]=$68303250
+set qB[4]=$6830395a
+set qB[5]=$68303251
+set qB[6]=$68303252
+set qB[7]=$68303253
+set qB[8]=$68303254
+set qB[9]=$68303255
+set qB[10]=$68303257
+set qB[11]=$68304148
+set qB[12]=$6830334b
+set qB[13]=$6830325a
+set qB[14]=$6830324f
+set qB[15]=$68303332
+set qB[16]=$68303333
+set qB[17]=$68303334
+set qB[18]=$68303348
+set qB[19]=$68303335
+set qB[20]=$68303336
+set qB[21]=$68303337
+set qB[22]=$68303256
+set qB[23]=$68303432
+set qB[24]=$68303338
+set qB[25]=$68303339
+set qB[26]=$68303341
+set qB[27]=$68303837
+set qB[28]=$68303342
+set qB[29]=$68303353
+set qB[30]=$68303331
+set qB[31]=$68303349
+set qB[32]=$68303347
+set qB[33]=$68303346
+set qB[34]=$68303345
+set qB[35]=$68303258
+set qB[36]=$68303343
+set qB[37]=$6830434d
+set qB[38]=$68303853
+set ZB[0]=$68303437
+set ZB[1]=$68303434
+set ZB[2]=$68303357
+set ZB[3]=$68303354
+set ZB[4]=$6830334e
+set ZB[5]=$68303436
+set ZB[6]=$68303352
+set ZB[7]=$6830334f
+set ZB[8]=$6830334d
+set ZB[9]=$68303435
+set ZB[10]=$68303535
+set ZB[11]=$6830334a
+set ZB[12]=$6830335a
+set ZB[13]=$68303359
+set ZB[14]=$68303433
+set ZB[15]=$6830374c
+set ZB[16]=$68303431
+set yB[0]=$68303355
+set yB[1]=$68303351
+set yB[2]=$68303350
+set yB[3]=$6830334c
+set yB[4]=$68303358
+set yB[5]=$68303630
+set lB[0]=$68303553
+set lB[1]=$6830374e
+set lB[2]=$68303557
+set lB[3]=$6830434b
+set lB[4]=$6830374a
+set NB[0]=$68303545
+set NB[1]=$6830384f
+set NB[2]=$68303749
+set NB[3]=$68303834
+set NB[4]=$68303430
+set NB[5]=$68303851
+set NB[6]=$68303549
+set NB[7]=$68303546
+set NB[8]=$68304149
+set NB[9]=$68303547
+set QB[0]=$68303356
+set QB[1]=$68303438
+set QB[2]=$68304349
+set QB[3]=$68303455
+set QB[4]=$68303956
+set QB[5]=$68303556
+set UB[0]=$68303959
+set UB[1]=$68304133
+set UB[2]=$68304130
+set UB[3]=$68304131
+set wB[0]=$68303548
+set wB[1]=$6830384e
+set wB[2]=$68303551
+set wB[3]=$6830354f
+set wB[4]=$68303550
+set wB[5]=$68303552
+set wB[6]=$68303954
+set wB[7]=$68304247
+set VB[0]=$48303939
+set VB[1]=$48303946
+set VB[2]=$48303856
+set VB[3]=$48304232
+set VB[4]=$48303938
+set VB[5]=$48303942
+set VB[6]=$48303859
+set VB[7]=$48303949
+set VB[8]=$48303948
+set VB[9]=$48303941
+set VB[10]=$48303931
+set hB[0]=$48303934
+set hB[1]=$48303855
+set hB[2]=$48304234
+set hB[3]=$48304244
+set hB[4]=$48303936
+set hB[5]=$48304258
+set hB[6]=$48303932
+set hB[7]=$4830385a
+set hB[8]=$48303945
+set hB[9]=$48303930
+set cB[0]=$48303935
+set cB[1]=$48303937
+set cB[2]=$48304235
+set cB[3]=$48303858
+set cB[4]=$4830424c
+set cB[5]=$4830354e
+set cB[6]=$48303857
+set cB[7]=$4830434f
+set cB[8]=$48304141
+set BB[0]=$6830344a
+set BB[1]=$68303442
+set BB[2]=$68303443
+set BB[3]=$68303444
+set BB[4]=$68303445
+set BB[5]=$68303446
+set BB[6]=$68303439
+set BB[7]=$68303441
+set BB[8]=$68303447
+set BB[9]=$68303831
+set HB[0]=$68303451
+set oB[0]=$6830374d
+set kB[0]=$68303543
+set kB[1]=$68303539
+set kB[2]=$68303538
+set kB[3]=$68303637
+set kB[4]=$68303537
+set kB[5]=$6830434a
+set kB[6]=$68303852
+set kB[7]=$68303541
+set kB[8]=$68303542
+set kB[9]=$4830424b
+set kB[10]=$68303641
+set DB[0]=$68303655
+set DB[1]=$68303656
+set DB[2]=$68303730
+set DB[3]=$68303654
+set DB[4]=$6830394c
+set DB[5]=$6830365a
+set DB[6]=$68303733
+set DB[7]=$6830394b
+set DB[8]=$68303659
+set DB[9]=$68303731
+set DB[10]=$68303732
+set DB[11]=$68303657
+set DB[12]=$68303635
+set DB[13]=$68303658
+set SB[0]=$6830394d
+set SB[1]=$68303957
+set SB[2]=$68304132
+set SB[3]=$68304332
+set SB[4]=$6830394e
+set SB[5]=$6830384d
+set SB[6]=$68304136
+set SB[7]=$68304343
+set SB[8]=$68303952
+set SB[9]=$68303849
+set SB[10]=$68304246
+set SB[11]=$68304243
+set SB[12]=$68303833
+set SB[13]=$68304143
+endfunction
+function Pws takes nothing returns nothing
+local string Rws=GetEventPlayerChatStringMatched()
+local integer sws=S2I(SubString(GetEventPlayerChatString(),StringLength(Rws),StringLength(GetEventPlayerChatString())))
+if sws<50 or sws>$c8 then
+return
+endif
+if sws>$96 then
+call SetCameraFieldForPlayer(GetTriggerPlayer(),CAMERA_FIELD_FARZ,6500.,0.)
+else
+call SetCameraFieldForPlayer(GetTriggerPlayer(),CAMERA_FIELD_FARZ,5000.,1.)
+endif
+call SetCameraFieldForPlayer(GetTriggerPlayer(),CAMERA_FIELD_TARGET_DISTANCE,25.*I2R(sws),1.)
+endfunction
+function PyR takes nothing returns nothing
+call x1s(PLAYER_STATE_RESOURCE_GOLD,"골드","|cffffd700")
+endfunction
+function Q1s takes nothing returns nothing
+local unit V1s=GetAttacker()
+local unit c1s=GetTriggerUnit()
+local location k1s=GetUnitLoc(c1s)
+local unit h1s
+if wWR(1,$64)<=14 then
+set h1s=CreateUnitAtLoc(ds,$65303133,k1s,bj_UNIT_FACING)
+call SetUnitScale(h1s,1.6,1.,1.)
+call SetUnitFlyHeight(h1s,30.,0.)
+call CreateUnitAtLoc(ds,$65303257,k1s,bj_UNIT_FACING)
+call YIs(V1s,0.,500.,k1s,500000.,1.,1.50,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+call UnitDamagePointLoc(V1s,0.,500.,k1s,50000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if GetUnitAbilityLevel(c1s,$41393032)<=0 and GetUnitAbilityLevel(c1s,$41393131)<=0 and GetUnitAbilityLevel(c1s,$41393033)<=0 and GetUnitAbilityLevel(c1s,$41393034)<=0 then
+call yDs(V1s,c1s,GetUnitState(c1s,UNIT_STATE_MAX_LIFE)*3.*.01,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+else
+call yDs(V1s,c1s,300000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if GetUnitTypeId(c1s)==$6f30304a then
+call yDs(V1s,c1s,5000000.,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+endif
+endif
+endif
+call RemoveLocation(k1s)
+set V1s=null
+set h1s=null
+set c1s=null
+set k1s=null
+endfunction
+function Q2R takes nothing returns nothing
+local integer h2R=cj
+local integer c2R
+local integer k2R
+if vK[h2R]==-1 then
+return
+endif
+set c2R=vK[h2R]
+loop
+exitwhen c2R==-1
+call RemoveSavedString(RK,0,h2R*$1f4+c2R)
+set k2R=LoadInteger(Qj,0,h2R*$1b74+$197e+c2R+2)-2
+call RemoveSavedInteger(Qj,0,h2R*$1b74+$197e+c2R+2)
+set c2R=k2R
+endloop
+endfunction
+function Q4s takes nothing returns nothing
+local integer k4s
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,1,GetRandomReal(0.,360.))
+call frR(Op,0,0)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303836,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4+1)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303837,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4+1)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303838,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4+1)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303837,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4+1)))
+set bj_lastPlayedSound=vPR("SE\\king_sound.wav",null,$7f,1.1,true,1000.,1400.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call mxv(LoadUnitHandle(gj,0,Op*$1f4+1),3)
+set k4s=XbR()
+call dEv(k4s,675.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(Hn),on)
+call Vbv(k4s)
+if SPs(LoadUnitHandle(gj,0,Op*$1f4+1)) then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),10000000.,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+else
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),100000.,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+endif
+call hSv(Op,.04,1)
+elseif vo[Op]==1 then
+call bTs(Op,1,LoadReal(aj,0,Op*$1f4+1)+D0v(30.,90.))
+if LoadInteger(Tj,0,Op*$1f4)==1 then
+call qjR(Op)
+else
+call frR(Op,0,LoadInteger(Tj,0,Op*$1f4)+1)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303049,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4+1)))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$6530304a,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4+1)))
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+10),5.,5.,100.,0.)
+call AWR(Op,.07,1)
+endif
+endif
+endfunction
+function Q5R takes nothing returns nothing
+local integer c5R=GetUnitAbilityLevel(GetTriggerUnit(),$41393031)
+local player k5R
+if c5R==0 then
+set k5R=null
+return
+endif
+set c5R=c5R-1
+if not ks[c5R]then
+set k5R=null
+return
+endif
+call DisplayTimedTextToPlayer(Player(c5R),0.,0.,5.,GetObjectName($6f303159)+"|cffff8200 처치!|r")
+call DisplayTimedTextToPlayer(Player(c5R),0.,0.,5.,"보상 : |cffffd700"+I2S($fa0)+" 골드|r, |cff7ad823"+I2S(4)+" 목재|r")
+set k5R=Player(c5R)
+call SetPlayerState(k5R,PLAYER_STATE_RESOURCE_GOLD,GetPlayerState(k5R,PLAYER_STATE_RESOURCE_GOLD)+$fa0)
+set k5R=Player(c5R)
+call SetPlayerState(k5R,PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(k5R,PLAYER_STATE_RESOURCE_LUMBER)+4)
+set k5R=null
+endfunction
+function Q6R takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())

@@ -1,0 +1,1757 @@
+set Kt=CreateTrigger()
+call TriggerAddCondition(Kt,Condition(gyv))
+set Et=CreateTrigger()
+call TriggerAddCondition(Et,Condition(uyv))
+set Jt=CreateTrigger()
+call TriggerAddCondition(Jt,Condition(Ayv))
+set et=CreateTrigger()
+call TriggerAddCondition(et,Condition(Iyv))
+set tt=CreateTrigger()
+call TriggerAddCondition(tt,Condition(Xyv))
+set xt=CreateTrigger()
+call TriggerAddCondition(xt,Condition(nyv))
+set bt=CreateTrigger()
+call TriggerAddCondition(bt,Condition(Tyv))
+set Mt=CreateTrigger()
+call TriggerAddCondition(Mt,Condition(Oyv))
+set gt=CreateTrigger()
+call TriggerAddCondition(gt,Condition(ayv))
+set ut=CreateTrigger()
+call TriggerAddCondition(ut,Condition(fyv))
+set At=CreateTrigger()
+call TriggerAddCondition(At,Condition(Cyv))
+set It=CreateTrigger()
+call TriggerAddCondition(It,Condition(Lyv))
+set Xt=CreateTrigger()
+call TriggerAddCondition(Xt,Condition(Fyv))
+set nt=CreateTrigger()
+call TriggerAddCondition(nt,Condition(vlv))
+set Yt=CreateTrigger()
+call TriggerAddCondition(Yt,Condition(Rlv))
+set dt=CreateTrigger()
+call TriggerAddCondition(dt,Condition(slv))
+set mt=CreateTrigger()
+call TriggerAddCondition(mt,Condition(Plv))
+set Tt[1]=CreateTrigger()
+call TriggerAddAction(Tt[1],plv)
+call TriggerAddCondition(Tt[1],Condition(plv))
+call ExecuteFunc("ocs")
+call ExecuteFunc("LTs")
+call ExecuteFunc("HfR")
+call ExecuteFunc("YyR")
+call ExecuteFunc("qTs")
+call ExecuteFunc("sfs")
+call ExecuteFunc("Qtv")
+call ExecuteFunc("RTv")
+call ExecuteFunc("C2s")
+call ExecuteFunc("NSv")
+call ExecuteFunc("xbR")
+call ExecuteFunc("mwv")
+call ExecuteFunc("j0R")
+call ExecuteFunc("y4v")
+call ExecuteFunc("dov")
+call ExecuteFunc("bis")
+call ExecuteFunc("Slv")
+call ExecuteFunc("FdR")
+call ExecuteFunc("iTR")
+call ExecuteFunc("NOv")
+call ExecuteFunc("w3R")
+call ExecuteFunc("Q0R")
+call ExecuteFunc("IPs")
+call ExecuteFunc("JCR")
+call ExecuteFunc("xxR")
+call ExecuteFunc("Its")
+call ExecuteFunc("xOR")
+call ExecuteFunc("Mks")
+call ExecuteFunc("POs")
+call ExecuteFunc("paR")
+call ExecuteFunc("Ofs")
+call ExecuteFunc("nrR")
+call ExecuteFunc("ntv")
+call ExecuteFunc("wIv")
+call ExecuteFunc("Hhv")
+call ExecuteFunc("xcv")
+call ExecuteFunc("UQv")
+call ExecuteFunc("suR")
+call ExecuteFunc("Zgs")
+call ExecuteFunc("YUR")
+call ExecuteFunc("pLv")
+call ExecuteFunc("Bts")
+call ExecuteFunc("Ais")
+call ExecuteFunc("ljv")
+call ExecuteFunc("bIR")
+call ExecuteFunc("fnv")
+call ExecuteFunc("fds")
+call ExecuteFunc("E4s")
+endfunction
+function bov takes nothing returns nothing
+call SaveInteger(i,$48303947,0,$48303948)
+call SaveInteger(i,$48304233,0,$48304232)
+call SaveInteger(i,$48303943,0,$48303942)
+call SaveInteger(i,$48303944,0,$48303945)
+call SaveInteger(i,$48304245,0,$48304244)
+call SaveInteger(i,$48304236,0,$48303931)
+call SaveInteger(i,$48303933,0,$48303931)
+call SaveInteger(i,$4830434c,0,$48303857)
+call SaveInteger(i,$4830424f,0,$4830424c)
+call SaveInteger(i,$48304259,0,$48304258)
+call SaveInteger(i,$48304256,0,$48303859)
+call SaveInteger(i,$48304254,0,$48303946)
+call SaveInteger(i,$48304231,0,$48303937)
+call SaveInteger(i,$4830384a,0,$48304235)
+call SaveInteger(i,$68303459,0,$68303451)
+call SaveInteger(i,$6830424d,0,$68303445)
+call SaveInteger(i,$68304144,0,$6830374d)
+call SaveInteger(i,$68304257,0,$6830374d)
+call SaveInteger(i,$68304146,0,$68303637)
+call SaveInteger(i,$68303951,0,$6830384f)
+call SaveInteger(i,$68304345,0,$6830394d)
+call SaveInteger(i,$48303842,0,$48303856)
+call SaveInteger(i,$48303845,0,$48303938)
+call SaveInteger(i,$48304135,0,$4830354e)
+call SaveInteger(i,$48304159,0,$48303941)
+call SaveInteger(i,$4830424e,0,$48303936)
+call SaveInteger(i,$48304339,0,$48303939)
+call SaveInteger(i,$48304330,0,$48304244)
+call SaveInteger(i,$4830425a,0,$48304244)
+call SaveInteger(i,$6830375a,0,$68303538)
+call SaveInteger(i,$68303955,0,$68303543)
+call SaveInteger(i,$68304156,0,$68303441)
+call SaveInteger(i,$48304331,0,$48303855)
+endfunction
+function dWR takes nothing returns nothing
+call ForForce(bj_FORCE_PLAYER[0],Sx)
+endfunction
+function ers takes nothing returns nothing
+local boolean Jrs=false
+local string Krs=StringCase("방울도라지#3556",false)
+local integer Ers=0
+if Krs=="" then
+set Jrs=true
+endif
+if not Jrs then
+loop
+exitwhen Jrs or((not Jrs)and Ers>=fR)
+if not Jrs then
+if aR[Ers]==Krs then
+if not Jrs then
+set Jrs=true
+endif
+endif
+endif
+if not Jrs then
+set Ers=Ers+1
+endif
+endloop
+endif
+if not Jrs then
+set aR[fR]=Krs
+set fR=fR+1
+endif
+endfunction
+function heR takes nothing returns nothing
+local code SeR=du
+local trigger VeR=CreateTrigger()
+call TriggerRegisterTimerEvent(VeR,.5,false)
+call TriggerAddCondition(VeR,Condition(SeR))
+call TriggerAddCondition(Y,Condition(Gu))
+call KdR("UIEM_PICK",qu)
+set VeR=null
+endfunction
+function iFs takes nothing returns nothing
+endfunction
+function iMv takes nothing returns nothing
+set ap[0]=InitHashtable()
+set ap[1]=InitHashtable()
+set ap[2]=InitHashtable()
+set ap[3]=InitHashtable()
+set Lp[0]=17
+set Lp[1]=18
+set Lp[2]=19
+set Lp[3]=20
+set Lp[4]=21
+set Lp[5]=22
+set Lp[6]=23
+set Fp[0]=$41304a58
+set Fp[1]=$41304a59
+set Fp[2]=$41304a5a
+set Fp[3]=$41305533
+set Fp[4]=$41305535
+set Fp[5]=$4158595a
+set Fp[6]=$4130555a
+call SaveInteger(fp,17,1,50)
+call SaveInteger(fp,18,1,50)
+call SaveInteger(fp,19,1,50)
+call SaveInteger(fp,20,1,$64)
+call SaveInteger(fp,21,1,$64)
+call SaveInteger(fp,22,1,$64)
+call SaveInteger(fp,23,1,$96)
+call SaveStr(fp,17,2,"흰색 날개")
+call SaveStr(fp,18,2,"검은색 날개")
+call SaveStr(fp,19,2,"파란색 날개")
+call SaveStr(fp,20,2,"물 날개")
+call SaveStr(fp,21,2,"불 날개")
+call SaveStr(fp,22,2,"개인 오라")
+call SaveStr(fp,23,2,"배틀 오라")
+set vr[0]=24
+set vr[1]=25
+set vr[2]=26
+set vr[3]=27
+set vr[4]=28
+set vr[5]=29
+set vr[6]=30
+set vr[7]=31
+set vr[8]=32
+set vr[9]=33
+set vr[10]=34
+set vr[11]=35
+set vr[12]=36
+set vr[13]=37
+set vr[14]=40
+set vr[15]=41
+set vr[16]=42
+set vr[17]=43
+set vr[18]=44
+set vr[19]=38
+set vr[20]=0
+set vr[21]=0
+set vr[22]=45
+set vr[23]=46
+set vr[24]=39
+call SaveStr(fp,24,2,"|cffd6d6d6[견습]|r")
+call SaveStr(fp,25,2,"|cff7fff5f[루키]|r")
+call SaveStr(fp,26,2,"|cff6d6d6d[최악의세대]|r")
+call SaveStr(fp,27,2,"|cff4f86ff[3D2Y]|r")
+call SaveStr(fp,28,2,"|cff00a03d[대선단]|r")
+call SaveStr(fp,29,2,"|cff6f00ff[오황]|r")
+call SaveStr(fp,30,2,"|cffa4d1ff[D.]|r")
+call SaveStr(fp,31,2,"|cff327744[혁명군]|r")
+call SaveStr(fp,32,2,"|cfff9fc75[사황]|r")
+call SaveStr(fp,33,2,"|cff799bf2[레벨리]|r")
+call SaveStr(fp,34,2,"|cfff5f0c5[천룡인]|r")
+call SaveStr(fp,35,2,"|cffdc143c[해적왕]|r")
+call SaveInteger(fp,24,1,5)
+call SaveInteger(fp,25,1,15)
+call SaveInteger(fp,26,1,25)
+call SaveInteger(fp,27,1,35)
+call SaveInteger(fp,28,1,70)
+call SaveInteger(fp,29,1,$64)
+call SaveInteger(fp,30,1,$96)
+call SaveInteger(fp,31,1,$c8)
+call SaveInteger(fp,32,1,$fa)
+call SaveInteger(fp,33,1,$12c)
+call SaveInteger(fp,34,1,$15e)
+call SaveInteger(fp,35,1,$190)
+call SaveStr(fp,24,4,"클리어 횟수 누적 |cff7fff5f5회|r")
+call SaveStr(fp,25,4,"클리어 횟수 누적 |cff7fff5f15회|r")
+call SaveStr(fp,26,4,"클리어 횟수 누적 |cff7fff5f25회|r")
+call SaveStr(fp,27,4,"클리어 횟수 누적 |cff7fff5f35회|r")
+call SaveStr(fp,28,4,"클리어 횟수 누적 |cff7fff5f70회|r")
+call SaveStr(fp,29,4,"클리어 횟수 누적 |cff7fff5f100회|r")
+call SaveStr(fp,30,4,"클리어 횟수 누적 |cff7fff5f150회|r")
+call SaveStr(fp,31,4,"클리어 횟수 누적 |cff7fff5f200회|r")
+call SaveStr(fp,32,4,"클리어 횟수 누적 |cff7fff5f250회|r")
+call SaveStr(fp,33,4,"클리어 횟수 누적 |cff7fff5f300회|r")
+call SaveStr(fp,34,4,"클리어 횟수 누적 |cff7fff5f350회|r")
+call SaveStr(fp,35,4,"클리어 횟수 누적 |cff7fff5f400회|r")
+call SaveStr(fp,24,5,"항해 경험이 없는 신참 해적에게 주어지는 칭호")
+call SaveStr(fp,25,5,"항해를 막 시작한 신예 해적에게 주어지는 칭호")
+call SaveStr(fp,26,5,"세계정부조차 주시하는 위협적인 해적에게\n주어지는 칭호")
+call SaveStr(fp,27,5,"큰 시련을 겪고 돌아온 자에게 주어지는 칭호")
+call SaveStr(fp,28,5,"강대한 세력을 이끄는 자에게 주어지는 칭호")
+call SaveStr(fp,29,5,"신세계에서 절대적인 영향력을 지닌 자에게\n주어지는 칭호")
+call SaveStr(fp,30,5,"‘D의 의지’를 품은 자에게만 주어지는 칭호")
+call SaveStr(fp,31,5,"세계의 질서를 뒤엎고자 하는 자에게\n주어지는 칭호")
+call SaveStr(fp,32,5,"신세계의 질서를 쥐고 흔드는 네 명의 제왕에게\n주어지는 칭호")
+call SaveStr(fp,33,5,"전 세계에 영향력을 끼치는 자에게 주어지는 칭호")
+call SaveStr(fp,34,5,"신의 후예로 여겨지는 자에게 주어지는 칭호")
+call SaveStr(fp,35,5,"모든 바다를 정복하고, ‘라프텔’에 도달한 자에게만\n주어지는 궁극의 칭호")
+call SaveStr(fp,36,2,"|cff64ff85[새싹]|r")
+call SaveStr(fp,37,2,"|cffdb7093[신세계]|r")
+call SaveStr(fp,38,2,"|cdd707070[패배자]|r")
+call SaveStr(fp,39,2,"|cffffd700[VIP]|r")
+call SaveInteger(fp,36,3,1)
+call SaveInteger(fp,37,3,1)
+call SaveInteger(fp,38,3,2)
+call SaveInteger(fp,39,3,1)
+call SaveInteger(fp,36,1,30)
+call SaveInteger(fp,37,1,$64)
+call SaveInteger(fp,38,1,0)
+call SaveInteger(fp,39,1,$1f4)
+call SaveStr(fp,36,4,"30 베리")
+call SaveStr(fp,37,4,"100 베리")
+call SaveStr(fp,39,4,"500 베리")
+call SaveStr(fp,36,5,"귀여운 뉴비를 증명하는 칭호\n|cff8C8C8C\"모코코와 헷갈리지 말것\"\n|cffff00ff★|r '제한' 등급 전용오라 적용|r")
+call SaveStr(fp,37,5,"시즌2의 시작을 알리는 자에게\n주어지는 칭호\n|cffff00ff★|r '제한' 등급 전용오라 적용|r\n|cffff00ff★|r 왜곡 날개 적용")
+call SaveStr(fp,38,5,"이벤트 칭호\n|cffff00ff★|r '제한' 등급 전용오라 적용|r\n|cffff00ff★|r 왜곡 날개 적용")
+call SaveStr(fp,39,5,"스킨을 미리 체험할 수 있는 VIP 칭호\n|cffff00ff★|r 시라호시 스킨 적용\n|cffff00ff★|r '제한' 등급 전용오라 적용|r\n|cffff00ff★|r 왜곡 날개 적용|r\n VIP 스킨은 주기적으로 변경됩니다.")
+call SaveBoolean(fp,36,6,true)
+call SaveBoolean(fp,37,6,true)
+call SaveBoolean(fp,38,6,true)
+call SaveBoolean(fp,39,6,true)
+call SaveStr(fp,40,2,"|cffc7ffd9[ORDR]|r")
+call SaveStr(fp,41,2,"|cff76b9fd[모험가]|r")
+call SaveStr(fp,42,2,"|cff816bff[패왕]|r")
+call SaveStr(fp,43,2,"|cffe200b1[류오]|r")
+call SaveStr(fp,44,2,"|cffffd92e[명왕]|r")
+call SaveStr(fp,45,2,"|cff816bff[패왕|cffAE0E36★★|r]|r")
+call SaveStr(fp,46,2,"|cffffffff[톤타타]|r")
+call SaveInteger(fp,40,3,2)
+call SaveInteger(fp,41,3,2)
+call SaveInteger(fp,42,3,2)
+call SaveInteger(fp,43,3,2)
+call SaveInteger(fp,44,3,2)
+call SaveInteger(fp,45,3,2)
+call SaveInteger(fp,46,3,2)
+call SaveInteger(fp,40,1,0)
+call SaveInteger(fp,41,1,0)
+call SaveInteger(fp,42,1,0)
+call SaveInteger(fp,43,1,0)
+call SaveInteger(fp,44,1,0)
+call SaveInteger(fp,45,1,0)
+call SaveInteger(fp,46,1,0)
+call SaveStr(fp,40,4,"획득불가")
+call SaveStr(fp,41,4,"획득불가")
+call SaveStr(fp,42,4,"획득불가")
+call SaveStr(fp,43,4,"획득불가")
+call SaveStr(fp,44,4,"획득불가")
+call SaveStr(fp,38,4,"획득불가")
+call SaveStr(fp,45,4,"획득불가")
+call SaveStr(fp,46,4,"획득불가")
+call SaveStr(fp,40,5,"ORDR팀 공식 칭호\n|cffff00ff★|r 모든 칭호 효과 적용|r")
+call SaveStr(fp,41,5,"시즌1을 함께한 모험가에게 \n주어지는 칭호\n|cffff00ff★|r '제한' 등급 전용오라 적용|r\n|cffff00ff★|r 왜곡 날개 적용")
+call SaveStr(fp,42,5,"대회 16강 진출자에게 주어지는 칭호\n|cffff00ff★|r 모든 칭호 효과 적용|r")
+call SaveStr(fp,43,5,"대회 준우승자에게 주어지는 칭호\n|cffff00ff★|r 모든 칭호 효과 적용|r")
+call SaveStr(fp,44,5,"ORDR 1차 대회 우승자에게 \n주어지는 칭호\n|cffff00ff★|r 모든 칭호 효과 적용|r")
+call SaveStr(fp,45,5,"대회 16강 3회 진출자에게 \n주어지는 칭호\n|cffff00ff★|r 모든 칭호 효과 적용|r")
+call SaveStr(fp,46,5,"ORDR 3차 대회 우승자에게 \n주어지는 칭호\n|cffff00ff★|r 모든 칭호 효과 적용|r")
+call SaveBoolean(fp,40,6,true)
+call SaveBoolean(fp,41,6,true)
+call SaveBoolean(fp,42,6,true)
+call SaveBoolean(fp,43,6,true)
+call SaveBoolean(fp,44,6,true)
+call SaveBoolean(fp,45,6,true)
+call SaveBoolean(fp,46,6,true)
+set Rr[0]=$48303939
+set Rr[1]=$48303946
+set Rr[2]=$48303856
+set Rr[3]=$48303948
+set Rr[4]=$48303938
+set Rr[5]=$48304232
+set Rr[6]=$48303942
+set Rr[7]=$48303859
+set Rr[8]=$48303949
+set Rr[9]=$48303941
+set Rr[10]=$48303931
+set Rr[11]=$48303934
+set Rr[12]=$48303855
+set Rr[13]=$48304234
+set Rr[14]=$48304244
+set Rr[15]=$48303936
+set Rr[16]=$48304258
+set Rr[17]=$48303932
+set Rr[18]=$4830385a
+set Rr[19]=$48303945
+set Rr[20]=$48303930
+set Rr[21]=$48303935
+set Rr[22]=$48303937
+set Rr[23]=$48304235
+set Rr[24]=$48303858
+set Rr[25]=$4830424c
+set Rr[26]=$4830354e
+set Rr[27]=$48303857
+set Rr[28]=$4830434f
+set Rr[$92]=$48304141
+set Rr[29]=$6830344a
+set Rr[30]=$68303451
+set Rr[31]=$68303442
+set Rr[32]=$68303443
+set Rr[33]=$68303444
+set Rr[34]=$68303445
+set Rr[35]=$68303446
+set Rr[36]=$68303439
+set Rr[37]=$68303441
+set Rr[38]=$68303447
+set Rr[39]=$6830374d
+set Rr[$90]=$68303831
+set Rr[40]=$4830424b
+set Rr[41]=$68303543
+set Rr[42]=$68303539
+set Rr[43]=$68303538
+set Rr[44]=$68303637
+set Rr[45]=$68303537
+set Rr[46]=$6830434a
+set Rr[47]=$68303852
+set Rr[48]=$68303541
+set Rr[49]=$68303542
+set Rr[$91]=$68303641
+set Rr[50]=$68303545
+set Rr[51]=$6830384f
+set Rr[52]=$68303749
+set Rr[53]=$68303834
+set Rr[54]=$68303430
+set Rr[55]=$68303851
+set Rr[56]=$68303549
+set Rr[57]=$68303546
+set Rr[58]=$68304149
+set Rr[59]=$68303547
+set Rr[60]=$68304246
+set Rr[61]=$6830394e
+set Rr[62]=$68303952
+set Rr[63]=$68303957
+set Rr[64]=$68304132
+set Rr[65]=$68303849
+set Rr[66]=$68304243
+set Rr[67]=$68304143
+set Rr[68]=$68304136
+set Rr[69]=$68304343
+set Rr[70]=$6830394d
+set Rr[71]=$6830384d
+set Rr[72]=$68303833
+set Rr[$94]=$68304332
+set Rr[74]=$68303553
+set Rr[75]=$6830374e
+set Rr[76]=$68303557
+set Rr[77]=$6830434b
+set Rr[78]=$6830374a
+set Rr[80]=$6830334b
+set Rr[81]=$6830324e
+set Rr[82]=$6830324f
+set Rr[83]=$68303250
+set Rr[84]=$6830395a
+set Rr[85]=$68303251
+set Rr[86]=$68303252
+set Rr[87]=$68303253
+set Rr[88]=$68303254
+set Rr[89]=$68303255
+set Rr[90]=$68303257
+set Rr[91]=$68303258
+set Rr[92]=$68303259
+set Rr[93]=$6830325a
+set Rr[94]=$68303330
+set Rr[95]=$68303332
+set Rr[96]=$68303333
+set Rr[97]=$68303334
+set Rr[98]=$68303348
+set Rr[99]=$68303335
+set Rr[$64]=$68303336
+set Rr[$65]=$68303337
+set Rr[$66]=$68303256
+set Rr[$67]=$68303432
+set Rr[$68]=$68303338
+set Rr[$69]=$68303339
+set Rr[$6a]=$68303341
+set Rr[$6b]=$68303837
+set Rr[$6c]=$68303342
+set Rr[$6d]=$68303353
+set Rr[$6e]=$68303331
+set Rr[$6f]=$68303349
+set Rr[$70]=$68303347
+set Rr[$71]=$68303346
+set Rr[$72]=$68303345
+set Rr[$73]=$68304148
+set Rr[$74]=$68303343
+set Rr[$75]=$6830434d
+set Rr[$76]=$68303437
+set Rr[$77]=$68303434
+set Rr[$78]=$68303357
+set Rr[$79]=$68303354
+set Rr[$7a]=$6830334e
+set Rr[$7b]=$68303436
+set Rr[$7c]=$68303352
+set Rr[$7d]=$6830334f
+set Rr[$7e]=$6830334d
+set Rr[$7f]=$68303435
+set Rr[$80]=$68303535
+set Rr[$81]=$6830334a
+set Rr[$82]=$6830335a
+set Rr[$83]=$68303359
+set Rr[$84]=$68303433
+set Rr[$85]=$6830374c
+set Rr[$86]=$68303431
+set Rr[$87]=$68303355
+set Rr[$88]=$68303351
+set Rr[$89]=$68303350
+set Rr[$8a]=$6830334c
+set Rr[$8b]=$68303358
+set Rr[$8c]=$68303356
+set Rr[$8d]=$68303438
+set Rr[$8e]=$68304349
+set Rr[$8f]=$68303455
+set Rr[$93]=$68303956
+set Rr[79]=$68303556
+endfunction
+function jRR takes nothing returns nothing
+local code HRR=ZA
+local trigger oRR=CreateTrigger()
+call TriggerRegisterTimerEvent(oRR,.5,false)
+call TriggerAddCondition(oRR,Condition(HRR))
+call TriggerAddCondition(Y,Condition(yA))
+set oRR=null
+endfunction
+function jhv takes nothing returns nothing
+call TimerStart(F,.03125,true,wx)
+call PauseTimer(F)
+endfunction
+function mtv takes nothing returns nothing
+call SaveInteger(kW,0,0,$41473030)
+call SaveInteger(kW,0,1,$41473031)
+call SaveInteger(kW,0,2,$41473032)
+call SaveInteger(kW,0,3,$41473033)
+call SaveInteger(kW,0,4,$41473034)
+call SaveInteger(kW,0,5,$41473035)
+call SaveInteger(kW,0,6,$41473036)
+call SaveInteger(kW,0,7,$41473037)
+call SaveInteger(kW,0,8,$41473038)
+call SaveInteger(kW,0,9,$41473039)
+call SaveInteger(kW,0,10,$41473130)
+call SaveInteger(kW,1,0,$41473230)
+call SaveInteger(kW,1,1,$41473231)
+call SaveInteger(kW,1,2,$41473232)
+call SaveInteger(kW,1,3,$41473233)
+call SaveInteger(kW,1,4,$41473234)
+call SaveInteger(kW,1,5,$41473235)
+call SaveInteger(kW,1,6,$41473236)
+call SaveInteger(kW,1,7,$41473237)
+call SaveInteger(kW,1,8,$41473238)
+call SaveInteger(kW,1,9,$41473239)
+call SaveInteger(kW,1,10,$41473330)
+set QW[UW]=$41493034
+set UW=UW+1
+set QW[UW]=$41493035
+set UW=UW+1
+set QW[UW]=$41493036
+set UW=UW+1
+set QW[UW]=$41493037
+set UW=UW+1
+set QW[UW]=$41493038
+set UW=UW+1
+set QW[UW]=$41493039
+set UW=UW+1
+set QW[UW]=$41493130
+set UW=UW+1
+set QW[UW]=$41493131
+set UW=UW+1
+set QW[UW]=$41493132
+set UW=UW+1
+set QW[UW]=$41493133
+set UW=UW+1
+set QW[UW]=$41493134
+set UW=UW+1
+set QW[UW]=$41493135
+set UW=UW+1
+set BW[HW]=$41493030
+set HW=HW+1
+set BW[HW]=$41493031
+set HW=HW+1
+set BW[HW]=$41493032
+set HW=HW+1
+set BW[HW]=$41493033
+set HW=HW+1
+set BW[HW]=$41493136
+set HW=HW+1
+set BW[HW]=$41493137
+set HW=HW+1
+set BW[HW]=$41493138
+set HW=HW+1
+set BW[HW]=$41493139
+set HW=HW+1
+set BW[HW]=$41493230
+set HW=HW+1
+set BW[HW]=$41493231
+set HW=HW+1
+call TriggerAddCondition(Y,Condition(Iu))
+endfunction
+function oys takes nothing returns nothing
+endfunction
+function puR takes nothing returns nothing
+local trigger PuR=CreateTrigger()
+call TriggerAddAction(PuR,lA)
+call TriggerExecute(PuR)
+call TriggerClearActions(PuR)
+call TriggerAddAction(PuR,NA)
+call TriggerExecute(PuR)
+call TriggerClearActions(PuR)
+call TriggerAddAction(PuR,wA)
+call TriggerExecute(PuR)
+call TriggerClearActions(PuR)
+call DestroyTrigger(PuR)
+set PuR=null
+endfunction
+function qiR takes nothing returns nothing
+local trigger YiR=CreateTrigger()
+local player diR=Player(5)
+local playerunitevent GiR=EVENT_PLAYER_UNIT_ATTACKED
+call TriggerRegisterPlayerUnitEvent(YiR,diR,GiR,null)
+set diR=Player(6)
+set GiR=EVENT_PLAYER_UNIT_ATTACKED
+call TriggerRegisterPlayerUnitEvent(YiR,diR,GiR,null)
+call TriggerAddCondition(YiR,Condition(Gx))
+set YiR=null
+set diR=null
+set GiR=null
+endfunction
+function qqR takes nothing returns nothing
+set XR[0]=$68303033
+set XR[1]=$68303032
+set XR[2]=$68303031
+set XR[3]=$68303037
+set XR[4]=$68303034
+set XR[5]=$68303038
+set XR[6]=$68303035
+set XR[7]=$68303039
+set XR[8]=$68303036
+endfunction
+function rHR takes nothing returns nothing
+local trigger pHR=CreateTrigger()
+call TriggerRegisterTimerEvent(pHR,.0,false)
+call TriggerAddAction(pHR,Dx)
+set pHR=null
+endfunction
+function rKR takes nothing returns nothing
+local trigger pKR=CreateTrigger()
+call SetMapFlag(MAP_LOCK_RESOURCE_TRADING,true)
+call TriggerRegisterTimerEvent(pKR,.02,false)
+call TriggerAddAction(pKR,Ex)
+set pKR=CreateTrigger()
+call TriggerRegisterTimerEvent(pKR,2.,false)
+call TriggerAddAction(pKR,Jx)
+set pKR=null
+endfunction
+function rQR takes nothing returns nothing
+local trigger pQR=CreateTrigger()
+call TriggerRegisterTimerEvent(pQR,0.,false)
+call TriggerAddAction(pQR,Vx)
+set pQR=null
+endfunction
+function vGR takes nothing returns nothing
+call SaveReal(OR,0,$68303033,.0)
+call SaveReal(OR,1,$68303033,.0)
+call SaveReal(OR,0,$68303032,256.)
+call SaveReal(OR,1,$68303032,.0)
+call SaveReal(OR,0,$68303031,512.)
+call SaveReal(OR,1,$68303031,.0)
+call SaveReal(OR,0,$68303037,768.)
+call SaveReal(OR,1,$68303037,.0)
+call SaveReal(OR,0,$68303034,1024.)
+call SaveReal(OR,1,$68303034,.0)
+call SaveReal(OR,0,$68303038,1280.)
+call SaveReal(OR,1,$68303038,.0)
+call SaveReal(OR,0,$68303035,1536.)
+call SaveReal(OR,1,$68303035,.0)
+call SaveReal(OR,0,$68303039,1792.)
+call SaveReal(OR,1,$68303039,.0)
+call SaveReal(OR,0,$68303036,2048.)
+call SaveReal(OR,1,$68303036,.0)
+endfunction
+function ECs takes integer BCs,integer HCs,integer oCs,integer jCs,real KCs returns nothing
+set UR[QR]=BCs
+set BR[QR]=oCs
+set HR[QR]=jCs
+set oR[QR]=0
+if HCs==0 then
+set jR[QR]=BCs
+else
+set jR[QR]=HCs
+endif
+set KR[QR]=KCs
+set QR=QR+1
+endfunction
+function vvs takes nothing returns nothing
+local integer T6s=$4130514a
+local integer O6s=0
+local integer a6s=1
+local integer f6s=11
+local real C6s=.0000
+local real L6s=-5.0000
+local integer F6s=1
+loop
+exitwhen F6s>f6s
+call ECs(T6s,O6s,a6s,F6s,C6s+L6s*I2R(F6s-1))
+set F6s=F6s+1
+endloop
+call ECs($41313547,$4230324d,1,1,-35.0000)
+call ECs($4131344b,$4230314c,1,1,-40.0000)
+call ECs($41313436,0,1,1,-20.0000)
+call ECs($41313355,$42303834,1,1,-35.0000)
+call ECs($41313332,$42303043,1,1,-5.0000)
+call ECs($41313241,0,1,1,-25.0000)
+call ECs($41313241,0,1,2,-25.0000)
+call ECs($41313141,$42303659,1,1,-25.0000)
+call ECs($41313132,$42303041,1,1,-35.0000)
+call ECs($41313059,$4230374a,1,1,-15.0000)
+call ECs($41313049,0,1,1,-50.0000)
+call ECs($41305958,$42303732,1,1,-15.0000)
+call ECs($41305844,$42303059,1,1,-25.0000)
+call ECs($41305838,$42303041,1,1,-20.0000)
+call ECs($4130574e,0,1,1,-5.0000)
+call ECs($4130574e,0,1,2,-20.0000)
+call ECs($4130574e,0,1,3,-40.0000)
+call ECs($4130574e,0,1,4,-50.0000)
+call ECs($41305732,$4230364b,1,1,-44.0000)
+call ECs($41305652,$42303554,1,1,-30.0000)
+call ECs($4130554c,$42303646,1,1,-35.0000)
+call ECs($4130544e,$42303642,1,1,-35.0000)
+call ECs($41305446,$42303249,1,1,-38.0000)
+call ECs($41305439,$42303639,1,1,-15.0000)
+call ECs($4130535a,$4230324f,1,1,-15.0000)
+call ECs($41305342,$42303631,1,1,-45.0000)
+call ECs($41305337,$42303659,1,1,-25.0000)
+call ECs($41305238,$42303551,1,1,-11.0000)
+call ECs($41305145,0,1,1,-30.0000)
+call ECs($41305145,0,1,2,-35.0000)
+call ECs($41305145,0,1,3,-42.0000)
+call ECs($4130504d,$42303542,1,1,-7.0000)
+call ECs($4130504b,$42303131,1,1,-25.0000)
+call ECs($41304f52,$42303531,1,1,-22.0000)
+call ECs($41304f49,$42303235,1,1,-50.0000)
+call ECs($41304f37,$42303453,1,1,-3.0000)
+call ECs($41304f30,$42303452,1,1,-6.0000)
+call ECs($41304e52,0,1,1,-35.0000)
+call ECs($41304e52,0,1,2,-40.0000)
+call ECs($41304e4a,$42303445,1,1,-30.0000)
+call ECs($41304d5a,$42303442,1,1,-25.0000)
+call ECs($41304d34,$42303242,1,1,-35.0000)
+call ECs($41304c4d,$42303354,1,1,-25.0000)
+call ECs($41304b55,$4230334a,1,1,-30.0000)
+call ECs($41304a50,$42303341,1,1,-60.0000)
+call ECs($41304a37,$42303055,1,1,-20.0000)
+call ECs($4130484b,$42303257,1,1,-22.0000)
+call ECs($41304839,$42303255,1,1,-20.0000)
+call ECs($41304835,$42303252,1,1,-12.0000)
+call ECs($41304757,$42303251,1,1,-25.0000)
+call ECs($41304755,$42303250,1,1,-18.0000)
+call ECs($4130474e,$4230324f,1,1,-15.0000)
+call ECs($4130474a,$4230324d,1,1,-25.0000)
+call ECs($41304734,$42303249,1,1,-18.0000)
+call ECs($41304657,$42303148,1,1,-10.0000)
+call ECs($4130464d,$42303131,1,1,-10.0000)
+call ECs($4130454f,$42303247,1,1,-3.0000)
+call ECs($4130444e,$42303242,1,1,-20.0000)
+call ECs($41304446,$42303239,1,1,-11.0000)
+call ECs($41304355,$42303235,1,1,-18.0000)
+call ECs($41304346,$42303231,1,1,-60.0000)
+call ECs($41304245,$42303155,1,1,-20.0000)
+call ECs($41304230,$42303151,1,1,-45.0000)
+call ECs($41304150,$4230314c,1,1,-33.0000)
+call ECs($41303950,$42303631,1,1,-45.0000)
+call ECs($4130394b,$42303144,1,1,-10.0000)
+call ECs($41303948,$42303142,1,1,-12.0000)
+call ECs($41303857,$42303137,1,1,-25.0000)
+call ECs($41303855,$42303136,1,1,-30.0000)
+call ECs($4130384e,$42303131,1,1,-3.0000)
+call ECs($41303758,0,1,1,-20.0000)
+call ECs($41303758,0,1,2,-25.0000)
+call ECs($41303651,$42303055,1,1,-20.0000)
+call ECs($41303649,$42303050,1,1,-15.0000)
+call ECs($41303645,$4230304e,1,1,-27.0000)
+call ECs($41303630,$4230304b,1,1,-20.0000)
+call ECs($41303558,$42303659,1,1,-20.0000)
+call ECs($41303334,$42303838,1,1,-40.0000)
+call ECs($41303331,$42303030,1,1,-25.0000)
+set T6s=$41305331
+set O6s=0
+set a6s=2
+set f6s=11
+set C6s=.0000
+set L6s=5.0000
+set F6s=1
+loop
+exitwhen F6s>f6s
+call ECs(T6s,O6s,a6s,F6s,C6s+L6s*I2R(F6s-1))
+set F6s=F6s+1
+endloop
+call ECs($41313849,$42303238,2,1,99.0000)
+call ECs($41313733,0,2,1,45.0000)
+call ECs($41313733,0,2,2,60.0000)
+call ECs($4131345a,$4230324e,2,1,25.0000)
+call ECs($41313431,$42303833,2,1,30.0000)
+call ECs($41313255,$4230334f,2,1,20.0000)
+call ECs($4131304e,$4230374d,2,1,40.0000)
+call ECs($41313044,$42303034,2,1,35.0000)
+call ECs($41313039,$42303744,2,1,20.0000)
+call ECs($41313030,$42303651,2,1,10.0000)
+call ECs($41305a55,$42303743,2,1,30.0000)
+call ECs($41305a39,$4230374c,2,1,45.0000)
+call ECs($41305954,$42303356,2,1,20.0000)
+call ECs($41305856,$42303157,2,1,30.0000)
+call ECs($41305839,$42303058,2,1,40.0000)
+call ECs($41305757,$42303658,2,1,50.0000)
+call ECs($41305756,$42303655,2,1,20.0000)
+call ECs($41305742,$4230364c,2,1,20.0000)
+call ECs($4130564b,$42303638,2,1,7.0000)
+call ECs($4130554a,$42303450,2,1,30.0000)
+call ECs($41305437,$42303635,2,1,40.0000)
+call ECs($41305352,$42303444,2,1,15.0000)
+call ECs($4130534b,$42303651,2,1,10.0000)
+call ECs($41305259,0,2,1,70.0000)
+call ECs($41305259,0,2,2,40.0000)
+call ECs($41305239,$42303552,2,1,25.0000)
+call ECs($41305237,$42303550,2,1,20.0000)
+call ECs($41305154,$4230354e,2,1,35.0000)
+call ECs($41305143,0,2,1,30.0000)
+call ECs($41305143,0,2,2,35.0000)
+call ECs($41305143,0,2,3,42.0000)
+call ECs($4130504f,$42303543,2,1,7.0000)
+call ECs($41305039,$42303536,2,1,10.0000)
+call ECs($41304f51,0,2,1,30.0000)
+call ECs($41304f42,$42303458,2,1,45.0000)
+call ECs($41304f31,$4230344f,2,1,7.0000)
+call ECs($41304e50,0,2,1,50.0000)
+call ECs($41304e33,$42303443,2,1,25.0000)
+call ECs($41304e30,0,2,1,70.0000)
+call ECs($41304d54,0,2,1,45.0000)
+call ECs($41304d4d,$42303434,2,1,30.0000)
+call ECs($41304d48,0,2,1,200.0000)
+call ECs($41304d35,$42303243,2,1,35.0000)
+call ECs($41304d30,0,2,1,50.0000)
+call ECs($41304c58,0,2,1,30.0000)
+call ECs($41304c35,0,2,1,250.0000)
+call ECs($41304b59,$4230334d,2,1,7.0000)
+call ECs($41304b53,$42303348,2,1,30.0000)
+call ECs($41304b4f,$42303346,2,1,45.0000)
+call ECs($41304b4a,0,2,1,75.0000)
+call ECs($41304a51,$42303342,2,1,50.0000)
+call ECs($41305058,0,2,1,60.0000)
+call ECs($41305058,0,2,2,30.0000)
+call ECs($41304a46,0,2,1,33.0000)
+call ECs($41304a30,$42303430,2,1,45.0000)
+call ECs($41304949,0,2,1,10.0000)
+call ECs($41304949,0,2,2,20.0000)
+call ECs($41304941,$42303332,2,1,45.0000)
+call ECs($41304933,0,2,1,50.0000)
+call ECs($41304854,0,2,1,45.0000)
+call ECs($41304854,0,2,2,45.0000)
+call ECs($41304848,0,2,1,35.0000)
+call ECs($41304846,0,2,1,25.0000)
+call ECs($41304841,0,2,1,30.0000)
+call ECs($41304754,0,2,1,50.0000)
+call ECs($4130474c,$4230324e,2,1,20.0000)
+call ECs($41304746,$42303158,2,1,10.0000)
+call ECs($41304739,$42303032,2,1,35.0000)
+call ECs($41304652,0,2,1,70.0000)
+call ECs($41304652,0,2,2,80.0000)
+call ECs($4130444f,$42303243,2,1,25.0000)
+call ECs($41304353,$42303234,2,1,99.0000)
+call ECs($4130434e,$42303047,2,1,55.0000)
+call ECs($41304348,0,2,1,70.0000)
+call ECs($41304331,$4230315a,2,1,40.0000)
+call ECs($4130424e,$42303158,2,1,12.0000)
+call ECs($4130424c,$42303035,2,1,45.0000)
+call ECs($41304154,$4230314d,2,1,30.0000)
+call ECs($41304148,$4230314b,2,1,30.0000)
+call ECs($41304134,$42303147,2,1,30.0000)
+call ECs($4130394e,$42303146,2,1,10.0000)
+call ECs($41303932,$42303139,2,1,35.0000)
+call ECs($41303848,$42303034,2,1,5.0000)
+call ECs($41303846,$42303132,2,1,5.0000)
+call ECs($41303845,$42303031,2,1,5.0000)
+call ECs($41303839,$42303130,2,1,5.0000)
+call ECs($41303732,$42303057,2,1,20.0000)
+call ECs($41303658,$42303132,2,1,50.0000)
+call ECs($41303650,$42303637,2,1,35.0000)
+call ECs($4130364e,$42303053,2,1,10.0000)
+call ECs($4130364d,$42303052,2,1,25.0000)
+call ECs($41303557,$42303048,2,1,10.0000)
+call ECs($4130354b,$42303047,2,1,25.0000)
+call ECs($41303547,$42303844,2,1,40.0000)
+call ECs($41303435,$42303130,2,1,42.0000)
+call ECs($41303357,$42303031,2,1,15.0000)
+call ECs($41303353,$42303034,2,1,15.0000)
+call ECs($41303352,$42303035,2,1,20.0000)
+call ECs($41303255,$42303031,2,1,40.0000)
+call ECs($41303233,$42303032,2,1,10.0000)
+call ECs($41303230,0,2,1,10.0000)
+call ECs($41303443,0,3,1,33.0000)
+call ECs($41303455,0,3,1,50.0000)
+call ECs($41303455,0,3,2,50.0000)
+call ECs($41303648,$42303050,3,1,35.0000)
+call ECs($41303838,$42303130,3,1,5.0000)
+call ECs($4130414c,$42303130,3,1,42.0000)
+call ECs($41304248,0,3,1,30.0000)
+call ECs($41304346,$42303231,3,1,325.0000)
+call ECs($41304538,0,3,1,12.0000)
+call ECs($41304743,0,3,1,10.0000)
+call ECs($4130474a,$4230324d,3,1,20.0000)
+call ECs($41304936,0,3,1,45.0000)
+call ECs($41304937,0,3,1,45.0000)
+call ECs($4130495a,0,3,1,45.0000)
+call ECs($4130495a,0,3,2,45.0000)
+call ECs($41304b44,0,3,1,40.0000)
+call ECs($41304b44,0,3,2,40.0000)
+call ECs($41304d31,0,3,1,30.0000)
+call ECs($41304d36,0,3,1,30.0000)
+call ECs($41304e4f,0,3,1,60.0000)
+call ECs($41305034,0,3,1,50.0000)
+call ECs($41305345,0,3,1,55.0000)
+call ECs($41305434,0,3,1,35.0000)
+call ECs($41305434,0,3,2,35.0000)
+call ECs($41305434,0,3,3,35.0000)
+call ECs($41305434,0,3,4,35.0000)
+call ECs($41305448,0,3,1,60.0000)
+call ECs($41305947,0,3,1,70.0000)
+call ECs($41305a4b,0,3,1,50.0000)
+call ECs($4131304a,$42303747,3,1,30.0000)
+call ECs($41313154,0,3,1,50.0000)
+call ECs($41313433,0,3,1,30.0000)
+call ECs($41313547,$4230324d,3,1,25.0000)
+call ECs($4131354a,0,3,1,25.0000)
+call ECs($4131354a,0,3,2,25.0000)
+call ECs($41313951,0,3,2,35.0000)
+call ECs($4130474a,$4230324d,4,1,-15.0000)
+call ECs($41313547,$4230324d,4,1,-15.0000)
+set C6s=-30.0000
+call ECs($41303555,$42303045,4,1,C6s)
+set oR[QR-1]=$68304148
+call ECs($41303734,0,4,1,-20.0000)
+call ECs($41304838,0,4,1,-20.0000)
+call ECs($41305333,$42303045,4,1,-10.0000)
+call ECs($41305338,$42303045,4,1,-10.0000)
+call ECs($41304253,0,1,1,-5.0000)
+endfunction
+function wss takes nothing returns nothing
+set qv[0]=bi
+set qv[1]=Mi
+set qv[2]=gi
+set qv[3]=ui
+set Zv[0]=km
+set Zv[1]=Qm
+set Zv[2]=Um
+set Zv[3]=Bm
+set yv[0]=hY
+set yv[1]=FY
+set yv[2]=vd
+set yv[3]=Rd
+set lv[0]=Ai
+set lv[1]=Ii
+set lv[2]=Xi
+set lv[3]=ni
+endfunction
+function yCs takes nothing returns nothing
+set OW=Filter(DA)
+set aW=Filter(SA)
+set fW=Filter(VA)
+endfunction
+function yJs takes nothing returns nothing
+local code qJs
+local trigger ZJs
+call DisableTrigger(qr)
+call TriggerRegisterTimerEvent(qr,.02,true)
+call TriggerAddAction(qr,fg)
+set qJs=Cg
+set ZJs=CreateTrigger()
+call TriggerRegisterTimerEvent(ZJs,.5,false)
+call TriggerAddCondition(ZJs,Condition(qJs))
+set ZJs=null
+endfunction
+function yjv takes nothing returns nothing
+local trigger Zjv=CreateTrigger()
+call TriggerAddAction(Zjv,hx)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(0),"CODE_LOAD",false)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(1),"CODE_LOAD",false)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(2),"CODE_LOAD",false)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(3),"CODE_LOAD",false)
+set Zjv=CreateTrigger()
+call TriggerAddAction(Zjv,cx)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(0),"CODE_LADD",false)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(1),"CODE_LADD",false)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(2),"CODE_LADD",false)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(3),"CODE_LADD",false)
+set Zjv=CreateTrigger()
+call TriggerAddAction(Zjv,kx)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(0),"CODE_SAVE",false)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(1),"CODE_SAVE",false)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(2),"CODE_SAVE",false)
+call BlzTriggerRegisterPlayerSyncEvent(Zjv,Player(3),"CODE_SAVE",false)
+set Zjv=null
+endfunction
+function Ais takes nothing returns nothing
+call dfs(He)
+call TriggerAddAction(He,vL)
+endfunction
+function Bts takes nothing returns nothing
+call dfs(Be)
+call TriggerAddAction(Be,LC)
+endfunction
+function C2s takes nothing returns nothing
+local code f2s=Tb
+call TriggerAddCondition(kj,Condition(f2s))
+endfunction
+function E4s takes nothing returns nothing
+call dfs(Je)
+call TriggerAddAction(Je,dL)
+endfunction
+function FdR takes nothing returns nothing
+local trigger LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Rg))
+set Wt[GetHandleId(EVENT_GAME_VICTORY)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(sg))
+set Wt[GetHandleId(EVENT_GAME_TIMER_EXPIRED)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Pg))
+set Wt[GetHandleId(EVENT_GAME_ENTER_REGION)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(pg))
+set Wt[GetHandleId(EVENT_GAME_LEAVE_REGION)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(rg))
+set Wt[GetHandleId(EVENT_PLAYER_STATE_LIMIT)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Wg))
+set Wt[GetHandleId(EVENT_PLAYER_CHAT)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(ig))
+set Wt[GetHandleId(EVENT_UNIT_DAMAGED)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(mg))
+set Wt[GetHandleId(EVENT_UNIT_ACQUIRED_TARGET)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Yg))
+set Wt[GetHandleId(EVENT_UNIT_TARGET_IN_RANGE)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(dg))
+set Wt[GetHandleId(EVENT_DIALOG_BUTTON_CLICK)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Gg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_START)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(qg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_CHANGE_OWNER)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Zg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_SELL)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(yg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_SELL_ITEM)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(lg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_ATTACKED)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Ng))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_RESCUED)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(wg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_DEATH)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Dg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_DECAY)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Sg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_DETECTED)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Vg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_CANCEL)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(hg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(cg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_START)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(kg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_CANCEL)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Qg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_FINISH)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Ug))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_START)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Bg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_CANCEL)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Hg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_FINISH)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(og))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_ORDER)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(jg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Kg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Eg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_SUMMON)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Jg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_DROP_ITEM)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(eg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_PICKUP_ITEM)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(tg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(xg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(bg))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_LOADED)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Mg))
+set Wt[GetHandleId(EVENT_PLAYER_HERO_LEVEL)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(gg))
+set Wt[GetHandleId(EVENT_PLAYER_HERO_SKILL)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(ug))
+set Wt[GetHandleId(EVENT_PLAYER_HERO_REVIVABLE)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Ag))
+set Wt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_START)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Ig))
+set Wt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_CANCEL)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Xg))
+set Wt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_FINISH)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_CHANGE_OWNER)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_CHANGE_OWNER)]
+set Wt[GetHandleId(EVENT_UNIT_SELL)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_SELL)]
+set Wt[GetHandleId(EVENT_UNIT_SELL_ITEM)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_SELL_ITEM)]
+set Wt[GetHandleId(EVENT_UNIT_ATTACKED)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_ATTACKED)]
+set Wt[GetHandleId(EVENT_UNIT_RESCUED)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_RESCUED)]
+set Wt[GetHandleId(EVENT_UNIT_DEATH)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_DEATH)]
+set Wt[GetHandleId(EVENT_UNIT_DECAY)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_DECAY)]
+set Wt[GetHandleId(EVENT_UNIT_DETECTED)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_DETECTED)]
+set Wt[GetHandleId(EVENT_UNIT_CONSTRUCT_CANCEL)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_CANCEL)]
+set Wt[GetHandleId(EVENT_UNIT_CONSTRUCT_FINISH)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)]
+set Wt[GetHandleId(EVENT_UNIT_TRAIN_START)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_START)]
+set Wt[GetHandleId(EVENT_UNIT_TRAIN_CANCEL)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_CANCEL)]
+set Wt[GetHandleId(EVENT_UNIT_TRAIN_FINISH)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_FINISH)]
+set Wt[GetHandleId(EVENT_UNIT_RESEARCH_START)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_START)]
+set Wt[GetHandleId(EVENT_UNIT_RESEARCH_CANCEL)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_CANCEL)]
+set Wt[GetHandleId(EVENT_UNIT_RESEARCH_FINISH)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_FINISH)]
+set Wt[GetHandleId(EVENT_UNIT_ISSUED_ORDER)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_ORDER)]
+set Wt[GetHandleId(EVENT_UNIT_ISSUED_POINT_ORDER)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER)]
+set Wt[GetHandleId(EVENT_UNIT_ISSUED_TARGET_ORDER)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER)]
+set Wt[GetHandleId(EVENT_UNIT_SUMMON)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_SUMMON)]
+set Wt[GetHandleId(EVENT_UNIT_DROP_ITEM)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_DROP_ITEM)]
+set Wt[GetHandleId(EVENT_UNIT_PICKUP_ITEM)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_PICKUP_ITEM)]
+set Wt[GetHandleId(EVENT_UNIT_USE_ITEM)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]
+set Wt[GetHandleId(EVENT_UNIT_USE_ITEM)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]
+set Wt[GetHandleId(EVENT_UNIT_LOADED)]=Wt[GetHandleId(EVENT_PLAYER_UNIT_LOADED)]
+set Wt[GetHandleId(EVENT_UNIT_HERO_LEVEL)]=Wt[GetHandleId(EVENT_PLAYER_HERO_LEVEL)]
+set Wt[GetHandleId(EVENT_UNIT_HERO_SKILL)]=Wt[GetHandleId(EVENT_PLAYER_HERO_SKILL)]
+set Wt[GetHandleId(EVENT_UNIT_HERO_REVIVABLE)]=Wt[GetHandleId(EVENT_PLAYER_HERO_REVIVABLE)]
+set Wt[GetHandleId(EVENT_UNIT_HERO_REVIVE_START)]=Wt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_START)]
+set Wt[GetHandleId(EVENT_UNIT_HERO_REVIVE_CANCEL)]=Wt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_CANCEL)]
+set Wt[GetHandleId(EVENT_UNIT_HERO_REVIVE_FINISH)]=Wt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_FINISH)]
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(ng))
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_HIDDEN)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_SELECTED)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_DESELECTED)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_UPGRADE_START)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_UPGRADE_CANCEL)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_UPGRADE_FINISH)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_HIDDEN)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_SELECTED)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_DESELECTED)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_UPGRADE_START)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_UPGRADE_CANCEL)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_UPGRADE_FINISH)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Tg))
+set Wt[GetHandleId(EVENT_PLAYER_ALLIANCE_CHANGED)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_DEFEAT)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_VICTORY)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_LEAVE)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_END_CINEMATIC)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(Og))
+set Wt[GetHandleId(EVENT_UNIT_SPELL_CHANNEL)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_SPELL_CAST)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_SPELL_EFFECT)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_SPELL_FINISH)]=LdR
+set Wt[GetHandleId(EVENT_UNIT_SPELL_ENDCAST)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_CHANNEL)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_CAST)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_EFFECT)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_FINISH)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_ENDCAST)]=LdR
+set LdR=CreateTrigger()
+call TriggerAddCondition(LdR,Condition(ag))
+set Wt[GetHandleId(EVENT_PLAYER_ARROW_LEFT_DOWN)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_ARROW_LEFT_UP)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_ARROW_RIGHT_DOWN)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_ARROW_RIGHT_UP)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_ARROW_DOWN_DOWN)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_ARROW_DOWN_UP)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_ARROW_UP_DOWN)]=LdR
+set Wt[GetHandleId(EVENT_PLAYER_ARROW_UP_UP)]=LdR
+set LdR=null
+endfunction
+function HfR takes nothing returns nothing
+local code BfR=gb
+call TriggerAddCondition(kj,Condition(BfR))
+endfunction
+function Hhv takes nothing returns nothing
+call dfs(we)
+call TriggerAddAction(we,Mf)
+endfunction
+function IPs takes nothing returns nothing
+call dfs(Re)
+call TriggerAddAction(Re,fn)
+endfunction
+function Its takes nothing returns nothing
+call dfs(pe)
+call TriggerAddAction(pe,Ca)
+endfunction
+function JCR takes nothing returns nothing
+call dfs(se)
+call TriggerAddAction(se,Ya)
+endfunction
+function LTs takes nothing returns nothing
+local trigger CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(nx))
+set pt[GetHandleId(EVENT_GAME_VICTORY)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Tx))
+set pt[GetHandleId(EVENT_GAME_TIMER_EXPIRED)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Ox))
+set pt[GetHandleId(EVENT_GAME_ENTER_REGION)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(ax))
+set pt[GetHandleId(EVENT_GAME_LEAVE_REGION)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(fx))
+set pt[GetHandleId(EVENT_PLAYER_STATE_LIMIT)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Cx))
+set pt[GetHandleId(EVENT_PLAYER_CHAT)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Lx))
+set pt[GetHandleId(EVENT_UNIT_DAMAGED)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Fx))
+set pt[GetHandleId(EVENT_UNIT_ACQUIRED_TARGET)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(vb))
+set pt[GetHandleId(EVENT_UNIT_TARGET_IN_RANGE)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Rb))
+set pt[GetHandleId(EVENT_DIALOG_BUTTON_CLICK)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(sb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_START)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Pb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_CHANGE_OWNER)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(pb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_SELL)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(rb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_SELL_ITEM)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Wb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_ATTACKED)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(ib))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_RESCUED)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(mb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_DEATH)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Yb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_DECAY)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(db))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_DETECTED)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Gb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_CANCEL)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(qb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Zb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_START)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(yb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_CANCEL)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(lb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_FINISH)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Nb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_START)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(wb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_CANCEL)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Db))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_FINISH)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Sb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_ORDER)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Vb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(hb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(cb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_SUMMON)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(kb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_DROP_ITEM)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Qb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_PICKUP_ITEM)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Ub))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Bb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Hb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_LOADED)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(ob))
+set pt[GetHandleId(EVENT_PLAYER_HERO_LEVEL)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(jb))
+set pt[GetHandleId(EVENT_PLAYER_HERO_SKILL)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Kb))
+set pt[GetHandleId(EVENT_PLAYER_HERO_REVIVABLE)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Eb))
+set pt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_START)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Jb))
+set pt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_CANCEL)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(eb))
+set pt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_FINISH)]=CTs
+set pt[GetHandleId(EVENT_UNIT_CHANGE_OWNER)]=pt[GetHandleId(EVENT_PLAYER_UNIT_CHANGE_OWNER)]
+set pt[GetHandleId(EVENT_UNIT_SELL)]=pt[GetHandleId(EVENT_PLAYER_UNIT_SELL)]
+set pt[GetHandleId(EVENT_UNIT_SELL_ITEM)]=pt[GetHandleId(EVENT_PLAYER_UNIT_SELL_ITEM)]
+set pt[GetHandleId(EVENT_UNIT_ATTACKED)]=pt[GetHandleId(EVENT_PLAYER_UNIT_ATTACKED)]
+set pt[GetHandleId(EVENT_UNIT_RESCUED)]=pt[GetHandleId(EVENT_PLAYER_UNIT_RESCUED)]
+set pt[GetHandleId(EVENT_UNIT_DEATH)]=pt[GetHandleId(EVENT_PLAYER_UNIT_DEATH)]
+set pt[GetHandleId(EVENT_UNIT_DECAY)]=pt[GetHandleId(EVENT_PLAYER_UNIT_DECAY)]
+set pt[GetHandleId(EVENT_UNIT_DETECTED)]=pt[GetHandleId(EVENT_PLAYER_UNIT_DETECTED)]
+set pt[GetHandleId(EVENT_UNIT_CONSTRUCT_CANCEL)]=pt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_CANCEL)]
+set pt[GetHandleId(EVENT_UNIT_CONSTRUCT_FINISH)]=pt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)]
+set pt[GetHandleId(EVENT_UNIT_TRAIN_START)]=pt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_START)]
+set pt[GetHandleId(EVENT_UNIT_TRAIN_CANCEL)]=pt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_CANCEL)]
+set pt[GetHandleId(EVENT_UNIT_TRAIN_FINISH)]=pt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_FINISH)]
+set pt[GetHandleId(EVENT_UNIT_RESEARCH_START)]=pt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_START)]
+set pt[GetHandleId(EVENT_UNIT_RESEARCH_CANCEL)]=pt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_CANCEL)]
+set pt[GetHandleId(EVENT_UNIT_RESEARCH_FINISH)]=pt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_FINISH)]
+set pt[GetHandleId(EVENT_UNIT_ISSUED_ORDER)]=pt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_ORDER)]
+set pt[GetHandleId(EVENT_UNIT_ISSUED_POINT_ORDER)]=pt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER)]
+set pt[GetHandleId(EVENT_UNIT_ISSUED_TARGET_ORDER)]=pt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER)]
+set pt[GetHandleId(EVENT_UNIT_SUMMON)]=pt[GetHandleId(EVENT_PLAYER_UNIT_SUMMON)]
+set pt[GetHandleId(EVENT_UNIT_DROP_ITEM)]=pt[GetHandleId(EVENT_PLAYER_UNIT_DROP_ITEM)]
+set pt[GetHandleId(EVENT_UNIT_PICKUP_ITEM)]=pt[GetHandleId(EVENT_PLAYER_UNIT_PICKUP_ITEM)]
+set pt[GetHandleId(EVENT_UNIT_USE_ITEM)]=pt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]
+set pt[GetHandleId(EVENT_UNIT_USE_ITEM)]=pt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]
+set pt[GetHandleId(EVENT_UNIT_LOADED)]=pt[GetHandleId(EVENT_PLAYER_UNIT_LOADED)]
+set pt[GetHandleId(EVENT_UNIT_HERO_LEVEL)]=pt[GetHandleId(EVENT_PLAYER_HERO_LEVEL)]
+set pt[GetHandleId(EVENT_UNIT_HERO_SKILL)]=pt[GetHandleId(EVENT_PLAYER_HERO_SKILL)]
+set pt[GetHandleId(EVENT_UNIT_HERO_REVIVABLE)]=pt[GetHandleId(EVENT_PLAYER_HERO_REVIVABLE)]
+set pt[GetHandleId(EVENT_UNIT_HERO_REVIVE_START)]=pt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_START)]
+set pt[GetHandleId(EVENT_UNIT_HERO_REVIVE_CANCEL)]=pt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_CANCEL)]
+set pt[GetHandleId(EVENT_UNIT_HERO_REVIVE_FINISH)]=pt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_FINISH)]
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(tb))
+set pt[GetHandleId(EVENT_PLAYER_UNIT_HIDDEN)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_UNIT_SELECTED)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_UNIT_DESELECTED)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_UNIT_UPGRADE_START)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_UNIT_UPGRADE_CANCEL)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_UNIT_UPGRADE_FINISH)]=CTs
+set pt[GetHandleId(EVENT_UNIT_HIDDEN)]=CTs
+set pt[GetHandleId(EVENT_UNIT_SELECTED)]=CTs
+set pt[GetHandleId(EVENT_UNIT_DESELECTED)]=CTs
+set pt[GetHandleId(EVENT_UNIT_UPGRADE_START)]=CTs
+set pt[GetHandleId(EVENT_UNIT_UPGRADE_CANCEL)]=CTs
+set pt[GetHandleId(EVENT_UNIT_UPGRADE_FINISH)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(xb))
+set pt[GetHandleId(EVENT_PLAYER_ALLIANCE_CHANGED)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_DEFEAT)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_VICTORY)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_LEAVE)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_END_CINEMATIC)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(bb))
+set pt[GetHandleId(EVENT_UNIT_SPELL_CHANNEL)]=CTs
+set pt[GetHandleId(EVENT_UNIT_SPELL_CAST)]=CTs
+set pt[GetHandleId(EVENT_UNIT_SPELL_EFFECT)]=CTs
+set pt[GetHandleId(EVENT_UNIT_SPELL_FINISH)]=CTs
+set pt[GetHandleId(EVENT_UNIT_SPELL_ENDCAST)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_CHANNEL)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_CAST)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_EFFECT)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_FINISH)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_ENDCAST)]=CTs
+set CTs=CreateTrigger()
+call TriggerAddCondition(CTs,Condition(Mb))
+set pt[GetHandleId(EVENT_PLAYER_ARROW_LEFT_DOWN)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_ARROW_LEFT_UP)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_ARROW_RIGHT_DOWN)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_ARROW_RIGHT_UP)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_ARROW_DOWN_DOWN)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_ARROW_DOWN_UP)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_ARROW_UP_DOWN)]=CTs
+set pt[GetHandleId(EVENT_PLAYER_ARROW_UP_UP)]=CTs
+set CTs=null
+endfunction
+function Mks takes nothing returns nothing
+call dfs(We)
+call TriggerAddAction(We,Rf)
+endfunction
+function NOv takes nothing returns nothing
+call dfs(LJ)
+call TriggerAddAction(LJ,jn)
+endfunction
+function NSv takes nothing returns nothing
+local code lSv=Ob
+call TriggerAddCondition(kj,Condition(lSv))
+endfunction
+function Ofs takes nothing returns nothing
+call dfs(de)
+call TriggerAddAction(de,Qf)
+call dfs(Ge)
+call TriggerAddAction(Ge,Uf)
+endfunction
+function POs takes nothing returns nothing
+call dfs(ie)
+call TriggerAddAction(ie,Vf)
+endfunction
+function Q0R takes nothing returns nothing
+call dfs(ve)
+call TriggerAddAction(ve,In)
+endfunction
+function Qtv takes nothing returns nothing
+local code ktv=Xb
+call TriggerAddCondition(kj,Condition(ktv))
+endfunction
+function RTv takes nothing returns nothing
+local code vTv=nb
+call TriggerAddCondition(kj,Condition(vTv))
+endfunction
+function Slv takes nothing returns nothing
+local trigger Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(RM))
+set rt[GetHandleId(EVENT_GAME_VICTORY)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(sM))
+set rt[GetHandleId(EVENT_GAME_TIMER_EXPIRED)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(PM))
+set rt[GetHandleId(EVENT_GAME_ENTER_REGION)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(pM))
+set rt[GetHandleId(EVENT_GAME_LEAVE_REGION)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(rM))
+set rt[GetHandleId(EVENT_PLAYER_STATE_LIMIT)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(WM))
+set rt[GetHandleId(EVENT_PLAYER_CHAT)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(iM))
+set rt[GetHandleId(EVENT_UNIT_DAMAGED)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(mM))
+set rt[GetHandleId(EVENT_UNIT_ACQUIRED_TARGET)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(YM))
+set rt[GetHandleId(EVENT_UNIT_TARGET_IN_RANGE)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(dM))
+set rt[GetHandleId(EVENT_DIALOG_BUTTON_CLICK)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(GM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_START)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(qM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_CHANGE_OWNER)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(ZM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_SELL)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(yM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_SELL_ITEM)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(lM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_ATTACKED)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(NM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_RESCUED)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(wM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_DEATH)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(DM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_DECAY)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(SM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_DETECTED)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(VM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_CANCEL)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(hM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(cM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_START)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(kM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_CANCEL)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(QM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_FINISH)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(UM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_START)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(BM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_CANCEL)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(HM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_FINISH)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(oM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_ORDER)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(jM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(KM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(EM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_SUMMON)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(JM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_DROP_ITEM)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(eM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_PICKUP_ITEM)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(tM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(xM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(bM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_LOADED)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(MM))
+set rt[GetHandleId(EVENT_PLAYER_HERO_LEVEL)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(gM))
+set rt[GetHandleId(EVENT_PLAYER_HERO_SKILL)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(uM))
+set rt[GetHandleId(EVENT_PLAYER_HERO_REVIVABLE)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(AM))
+set rt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_START)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(IM))
+set rt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_CANCEL)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(XM))
+set rt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_FINISH)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_CHANGE_OWNER)]=rt[GetHandleId(EVENT_PLAYER_UNIT_CHANGE_OWNER)]
+set rt[GetHandleId(EVENT_UNIT_SELL)]=rt[GetHandleId(EVENT_PLAYER_UNIT_SELL)]
+set rt[GetHandleId(EVENT_UNIT_SELL_ITEM)]=rt[GetHandleId(EVENT_PLAYER_UNIT_SELL_ITEM)]
+set rt[GetHandleId(EVENT_UNIT_ATTACKED)]=rt[GetHandleId(EVENT_PLAYER_UNIT_ATTACKED)]
+set rt[GetHandleId(EVENT_UNIT_RESCUED)]=rt[GetHandleId(EVENT_PLAYER_UNIT_RESCUED)]
+set rt[GetHandleId(EVENT_UNIT_DEATH)]=rt[GetHandleId(EVENT_PLAYER_UNIT_DEATH)]
+set rt[GetHandleId(EVENT_UNIT_DECAY)]=rt[GetHandleId(EVENT_PLAYER_UNIT_DECAY)]
+set rt[GetHandleId(EVENT_UNIT_DETECTED)]=rt[GetHandleId(EVENT_PLAYER_UNIT_DETECTED)]
+set rt[GetHandleId(EVENT_UNIT_CONSTRUCT_CANCEL)]=rt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_CANCEL)]
+set rt[GetHandleId(EVENT_UNIT_CONSTRUCT_FINISH)]=rt[GetHandleId(EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)]
+set rt[GetHandleId(EVENT_UNIT_TRAIN_START)]=rt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_START)]
+set rt[GetHandleId(EVENT_UNIT_TRAIN_CANCEL)]=rt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_CANCEL)]
+set rt[GetHandleId(EVENT_UNIT_TRAIN_FINISH)]=rt[GetHandleId(EVENT_PLAYER_UNIT_TRAIN_FINISH)]
+set rt[GetHandleId(EVENT_UNIT_RESEARCH_START)]=rt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_START)]
+set rt[GetHandleId(EVENT_UNIT_RESEARCH_CANCEL)]=rt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_CANCEL)]
+set rt[GetHandleId(EVENT_UNIT_RESEARCH_FINISH)]=rt[GetHandleId(EVENT_PLAYER_UNIT_RESEARCH_FINISH)]
+set rt[GetHandleId(EVENT_UNIT_ISSUED_ORDER)]=rt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_ORDER)]
+set rt[GetHandleId(EVENT_UNIT_ISSUED_POINT_ORDER)]=rt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER)]
+set rt[GetHandleId(EVENT_UNIT_ISSUED_TARGET_ORDER)]=rt[GetHandleId(EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER)]
+set rt[GetHandleId(EVENT_UNIT_SUMMON)]=rt[GetHandleId(EVENT_PLAYER_UNIT_SUMMON)]
+set rt[GetHandleId(EVENT_UNIT_DROP_ITEM)]=rt[GetHandleId(EVENT_PLAYER_UNIT_DROP_ITEM)]
+set rt[GetHandleId(EVENT_UNIT_PICKUP_ITEM)]=rt[GetHandleId(EVENT_PLAYER_UNIT_PICKUP_ITEM)]
+set rt[GetHandleId(EVENT_UNIT_USE_ITEM)]=rt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]
+set rt[GetHandleId(EVENT_UNIT_USE_ITEM)]=rt[GetHandleId(EVENT_PLAYER_UNIT_USE_ITEM)]
+set rt[GetHandleId(EVENT_UNIT_LOADED)]=rt[GetHandleId(EVENT_PLAYER_UNIT_LOADED)]
+set rt[GetHandleId(EVENT_UNIT_HERO_LEVEL)]=rt[GetHandleId(EVENT_PLAYER_HERO_LEVEL)]
+set rt[GetHandleId(EVENT_UNIT_HERO_SKILL)]=rt[GetHandleId(EVENT_PLAYER_HERO_SKILL)]
+set rt[GetHandleId(EVENT_UNIT_HERO_REVIVABLE)]=rt[GetHandleId(EVENT_PLAYER_HERO_REVIVABLE)]
+set rt[GetHandleId(EVENT_UNIT_HERO_REVIVE_START)]=rt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_START)]
+set rt[GetHandleId(EVENT_UNIT_HERO_REVIVE_CANCEL)]=rt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_CANCEL)]
+set rt[GetHandleId(EVENT_UNIT_HERO_REVIVE_FINISH)]=rt[GetHandleId(EVENT_PLAYER_HERO_REVIVE_FINISH)]
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(nM))
+set rt[GetHandleId(EVENT_PLAYER_UNIT_HIDDEN)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_UNIT_SELECTED)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_UNIT_DESELECTED)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_UNIT_UPGRADE_START)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_UNIT_UPGRADE_CANCEL)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_UNIT_UPGRADE_FINISH)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_HIDDEN)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_SELECTED)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_DESELECTED)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_UPGRADE_START)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_UPGRADE_CANCEL)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_UPGRADE_FINISH)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(TM))
+set rt[GetHandleId(EVENT_PLAYER_ALLIANCE_CHANGED)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_DEFEAT)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_VICTORY)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_LEAVE)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_END_CINEMATIC)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(OM))
+set rt[GetHandleId(EVENT_UNIT_SPELL_CHANNEL)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_SPELL_CAST)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_SPELL_EFFECT)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_SPELL_FINISH)]=Dlv
+set rt[GetHandleId(EVENT_UNIT_SPELL_ENDCAST)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_CHANNEL)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_CAST)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_EFFECT)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_FINISH)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_UNIT_SPELL_ENDCAST)]=Dlv
+set Dlv=CreateTrigger()
+call TriggerAddCondition(Dlv,Condition(aM))
+set rt[GetHandleId(EVENT_PLAYER_ARROW_LEFT_DOWN)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_ARROW_LEFT_UP)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_ARROW_RIGHT_DOWN)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_ARROW_RIGHT_UP)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_ARROW_DOWN_DOWN)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_ARROW_DOWN_UP)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_ARROW_UP_DOWN)]=Dlv
+set rt[GetHandleId(EVENT_PLAYER_ARROW_UP_UP)]=Dlv
+set Dlv=null
+endfunction
+function UQv takes nothing returns nothing
+call dfs(Se)
+call TriggerAddAction(Se,Of)
+endfunction
+function YUR takes nothing returns nothing
+call dfs(ke)
+call TriggerAddAction(ke,TC)
+call dfs(Qe)
+call TriggerAddAction(Qe,OC)
+endfunction
+function YyR takes nothing returns nothing
+local code myR=ub
+call TriggerAddCondition(kj,Condition(myR))
+endfunction
+function Zgs takes nothing returns nothing
+call dfs(ce)
+call TriggerAddAction(ce,RC)
+endfunction
+function bIR takes nothing returns nothing
+call dfs(je)
+call TriggerAddAction(je,pL)
+endfunction
+function bis takes nothing returns nothing
+local code xis=vM
+call TriggerAddCondition(kj,Condition(xis))
+endfunction
+function dov takes nothing returns nothing
+local code Yov=Fb
+call TriggerAddCondition(kj,Condition(Yov))
+endfunction
+function fds takes nothing returns nothing
+call dfs(Ee)
+call TriggerAddAction(Ee,mL)
+endfunction
+function fnv takes nothing returns nothing
+call dfs(Ke)
+call TriggerAddAction(Ke,WL)
+endfunction
+function iTR takes nothing returns nothing
+call TimerStart(CreateTimer(),0.,false,Xx)
+endfunction
+function j0R takes nothing returns nothing
+local code o0R=Cb
+call TriggerAddCondition(kj,Condition(o0R))
+endfunction
+function ljv takes nothing returns nothing
+call dfs(oe)
+call TriggerAddAction(oe,sL)
+endfunction
+function mwv takes nothing returns nothing
+local code iwv=fb
+call TriggerAddCondition(kj,Condition(iwv))
+endfunction
+function nrR takes nothing returns nothing
+call dfs(ye)
+call TriggerAddAction(ye,of)
+endfunction
+function ntv takes nothing returns nothing
+call dfs(le)
+call TriggerAddAction(le,Ef)
+endfunction
+function ocs takes nothing returns nothing
+endfunction
+function pLv takes nothing returns nothing
+call dfs(Ue)
+call TriggerAddAction(Ue,fC)
+endfunction
+function paR takes nothing returns nothing
+call dfs(me)
+call TriggerAddAction(me,kf)
+endfunction
+function qTs takes nothing returns nothing
+local code GTs=Ab
+call TriggerAddCondition(kj,Condition(GTs))
+endfunction
+function sfs takes nothing returns nothing
+local code Rfs=Ib
+call TriggerAddCondition(kj,Condition(Rfs))
+endfunction
+function suR takes nothing returns nothing
+call dfs(he)
+call TriggerAddAction(he,Lf)
+endfunction
+function w3R takes nothing returns nothing
+call dfs(FJ)
+call TriggerAddAction(FJ,Kn)
+endfunction
+function wIv takes nothing returns nothing
+call dfs(Ne)
+call TriggerAddAction(Ne,tf)
+endfunction
+function xOR takes nothing returns nothing
+call dfs(re)
+call TriggerAddAction(re,Fa)
+endfunction
+function xbR takes nothing returns nothing
+local code tbR=ab
+call TriggerAddCondition(kj,Condition(tbR))
+endfunction
+function xcv takes nothing returns nothing
+call dfs(De)
+call TriggerAddAction(De,If)
+endfunction
+function xxR takes nothing returns nothing
+call dfs(Pe)
+call TriggerAddAction(Pe,fa)
+endfunction
+function y4v takes nothing returns nothing
+local code Z4v=Lb
+call TriggerAddCondition(kj,Condition(Z4v))
+endfunction

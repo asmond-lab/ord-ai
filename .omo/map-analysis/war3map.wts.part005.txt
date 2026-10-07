@@ -1,0 +1,1800 @@
+// 유닛: e0E1 (!0726_beam_yamato), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1198
+// 유닛: e0E2 (!0726_EffectFuzzystompBlue), Name (이름 (unam))
+{
+!0726_EffectFuzzystompBlue
+}
+
+STRING 1199
+// 유닛: e0E0 (!0726,!0905_tx-11), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1200
+// 유닛: e0E1 (!0726_beam_yamato), Name (이름 (unam))
+{
+!0726_beam_yamato
+}
+
+STRING 1201
+// 유닛: e0DZ (!0304,!0801_!@FS), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1202
+// 유닛: e0E0 (!0726,!0905_tx-11), Name (이름 (unam))
+{
+!0726,!0905_tx-11
+}
+
+STRING 1203
+// 유닛: e0DY (!0726_shockblastblue), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1204
+// 유닛: e0DZ (!0304,!0801_!@FS), Name (이름 (unam))
+{
+!0304,!0801_!@FS
+}
+
+STRING 1205
+// 유닛: e0DX (!0725_BY_Fire_type3__16), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1206
+// 유닛: e0DY (!0726_shockblastblue), Name (이름 (unam))
+{
+!0726_shockblastblue
+}
+
+STRING 1207
+// 유닛: e0DW (!0725_VFX_Burn_DBluePup), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1208
+// 유닛: e0DX (!0725_BY_Fire_type3__16), Name (이름 (unam))
+{
+!0725_BY_Fire_type3__16
+}
+
+STRING 1209
+// 유닛: e0DV (!0725_by17__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1210
+// 유닛: e0DW (!0725_VFX_Burn_DBluePup), Name (이름 (unam))
+{
+!0725_VFX_Burn_DBluePup
+}
+
+STRING 1211
+// 유닛: e0DU (!0725_BY_Wood_ArcLightning_big), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1212
+// 유닛: e0DV (!0725_by17__90), Name (이름 (unam))
+{
+!0725_by17__90
+}
+
+STRING 1213
+// 유닛: e0DT (!0725_BY_Wood_Effect_Dash__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1214
+// 유닛: e0DU (!0725_BY_Wood_ArcLightning_big), Name (이름 (unam))
+{
+!0725_BY_Wood_ArcLightning_big
+}
+
+STRING 1215
+// 유닛: e0DS (!0725_BY_Wood_Effect_Dash), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1216
+// 유닛: e0DT (!0725_BY_Wood_Effect_Dash__90), Name (이름 (unam))
+{
+!0725_BY_Wood_Effect_Dash__90
+}
+
+STRING 1217
+// 유닛: e0DR (!0725_AZ_Flash Release Pink), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1218
+// 유닛: e0DS (!0725_BY_Wood_Effect_Dash), Name (이름 (unam))
+{
+!0725_BY_Wood_Effect_Dash
+}
+
+STRING 1219
+// 유닛: e0DQ (!0725_BY_Wood_Effect_Order_MoBai_Dev_DiLieQuan), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1220
+// 유닛: e0DR (!0725_AZ_Flash Release Pink), Name (이름 (unam))
+{
+!0725_AZ_Flash Release Pink
+}
+
+STRING 1221
+// 유닛: e0DP (!0725_BY_Wood_Thundergodwrath_2_2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1222
+// 유닛: e0DQ (!0725_BY_Wood_Effect_Order_MoBai_Dev_DiLieQuan), Name (이름 (unam))
+{
+!0725_BY_Wood_Effect_Order_MoBai_Dev_DiLieQuan
+}
+
+STRING 1223
+// 유닛: e0DO (!0725_Effect Blessing of Elun), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1224
+// 유닛: e0DP (!0725_BY_Wood_Thundergodwrath_2_2), Name (이름 (unam))
+{
+!0725_BY_Wood_Thundergodwrath_2_2
+}
+
+STRING 1225
+// 유닛: e0DN (!0725,!0726_BY_Wood_Effect_Order_DanGe_DaoGuang_BaoZha_1_2_2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1226
+// 유닛: e0DO (!0725_Effect Blessing of Elun), Name (이름 (unam))
+{
+!0725_Effect Blessing of Elun
+}
+
+STRING 1227
+// 유닛: e0DM (!0725_BY_Wood_BaShenAn_JuQi_5 Pink2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1228
+// 유닛: e0DN (!0725,!0726_BY_Wood_Effect_Order_DanGe_DaoGuang_BaoZha_1_2_2), Name (이름 (unam))
+{
+!0725,!0726_BY_Wood_Effect_Order_DanGe_DaoGuang_BaoZha_1_2_2
+}
+
+STRING 1229
+// 유닛: e0DL (!0725_Effect Dota2 Impale Target Ground LordsRock), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1230
+// 유닛: e0DM (!0725_BY_Wood_BaShenAn_JuQi_5 Pink2), Name (이름 (unam))
+{
+!0725_BY_Wood_BaShenAn_JuQi_5 Pink2
+}
+
+STRING 1231
+// 유닛: e0DK (!0725,!0901_by_kid5d), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1232
+// 유닛: e0DL (!0725_Effect Dota2 Impale Target Ground LordsRock), Name (이름 (unam))
+{
+!0725_Effect Dota2 Impale Target Ground LordsRock
+}
+
+STRING 1233
+// 유닛: e0DJ (!0725_usop_fire2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1234
+// 유닛: e0DK (!0725,!0901_by_kid5d), Name (이름 (unam))
+{
+!0725,!0901_by_kid5d
+}
+
+STRING 1235
+// 유닛: e0DI (!0725_JN_HS_rulaibaozhakid), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1236
+// 유닛: e0DJ (!0725_usop_fire2), Name (이름 (unam))
+{
+!0725_usop_fire2
+}
+
+STRING 1237
+// 유닛: e0DH (!0725_Effect Ground_Scape2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1238
+// 유닛: e0DI (!0725_JN_HS_rulaibaozhakid), Name (이름 (unam))
+{
+!0725_JN_HS_rulaibaozhakid
+}
+
+STRING 1239
+// 유닛: e0DG (!0724_Effect Snake_casterart), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1240
+// 유닛: e0DH (!0725_Effect Ground_Scape2), Name (이름 (unam))
+{
+!0725_Effect Ground_Scape2
+}
+
+STRING 1241
+// 유닛: e0DF (!0724_Effect Interceptor Shell Explosion), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1242
+// 유닛: e0DG (!0724_Effect Snake_casterart), Name (이름 (unam))
+{
+!0724_Effect Snake_casterart
+}
+
+STRING 1243
+// 유닛: e0DE (!0724,!0809_AZ_Yin_Qsnake), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1244
+// 유닛: e0DF (!0724_Effect Interceptor Shell Explosion), Name (이름 (unam))
+{
+!0724_Effect Interceptor Shell Explosion
+}
+
+STRING 1245
+// 유닛: e0DD (!0724_slam), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1246
+// 유닛: e0DE (!0724,!0809_AZ_Yin_Qsnake), Name (이름 (unam))
+{
+!0724,!0809_AZ_Yin_Qsnake
+}
+
+STRING 1247
+// 유닛: e0DC (!0724_Effect az_snake_boom), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1248
+// 유닛: e0DD (!0724_slam), Name (이름 (unam))
+{
+!0724_slam
+}
+
+STRING 1249
+// 유닛: e0DB (!0724,!0910,!0911_Effect Warstomp Red), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1250
+// 유닛: e0DC (!0724_Effect az_snake_boom), Name (이름 (unam))
+{
+!0724_Effect az_snake_boom
+}
+
+STRING 1251
+// 유닛: e0DA (!0724_BY_Wood_GongChengSiPai_45), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1252
+// 유닛: e0DB (!0724,!0910,!0911_Effect Warstomp Red), Name (이름 (unam))
+{
+!0724,!0910,!0911_Effect Warstomp Red
+}
+
+STRING 1253
+// 유닛: e0D9 (!0724_EffectCobra2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1254
+// 유닛: e0DA (!0724_BY_Wood_GongChengSiPai_45), Name (이름 (unam))
+{
+!0724_BY_Wood_GongChengSiPai_45
+}
+
+STRING 1255
+// 유닛: e0D8 (!0723_dummy), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1256
+// 유닛: e0D9 (!0724_EffectCobra2), Name (이름 (unam))
+{
+!0724_EffectCobra2
+}
+
+STRING 1257
+// 유닛: e0D7 (!0723_Z_Ora_relily), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1258
+// 유닛: e0D8 (!0723_dummy), Name (이름 (unam))
+{
+!0723_dummy
+}
+
+STRING 1259
+// 유닛: e0D6 (!0723_AZ_XuanFeng02B2_jim), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1260
+// 유닛: e0D7 (!0723_Z_Ora_relily), Name (이름 (unam))
+{
+!0723_Z_Ora_relily
+}
+
+STRING 1261
+// 유닛: e0D5 (!0723,!0907_water_jinbe3), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1262
+// 유닛: e0D6 (!0723_AZ_XuanFeng02B2_jim), Name (이름 (unam))
+{
+!0723_AZ_XuanFeng02B2_jim
+}
+
+STRING 1263
+// 유닛: e0D4 (!0723_T-dustwave2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1264
+// 유닛: e0D5 (!0723,!0907_water_jinbe3), Name (이름 (unam))
+{
+!0723,!0907_water_jinbe3
+}
+
+STRING 1265
+// 유닛: e0D3 (!0723_SerpentScrew), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1266
+// 유닛: e0D4 (!0723_T-dustwave2), Name (이름 (unam))
+{
+!0723_T-dustwave2
+}
+
+STRING 1267
+// 유닛: e0D2 (!0723_AquaSpikeVersion2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1268
+// 유닛: e0D3 (!0723_SerpentScrew), Name (이름 (unam))
+{
+!0723_SerpentScrew
+}
+
+STRING 1269
+// 유닛: e0D1 (!0723_az_piercing2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1270
+// 유닛: e0D2 (!0723_AquaSpikeVersion2), Name (이름 (unam))
+{
+!0723_AquaSpikeVersion2
+}
+
+STRING 1271
+// 유닛: e0D0 (!0723_NagaDeath), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1272
+// 유닛: e0D1 (!0723_az_piercing2), Name (이름 (unam))
+{
+!0723_az_piercing2
+}
+
+STRING 1273
+// 유닛: e0CZ (!0722_vx15), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1274
+// 유닛: e0D0 (!0723_NagaDeath), Name (이름 (unam))
+{
+!0723_NagaDeath
+}
+
+STRING 1275
+// 유닛: e0CY (!0722_card-slash8), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1276
+// 유닛: e0CZ (!0722_vx15), Name (이름 (unam))
+{
+!0722_vx15
+}
+
+STRING 1277
+// 유닛: e0CX (!0722_Mr_War3_XZ4_zoro), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1278
+// 유닛: e0CY (!0722_card-slash8), Name (이름 (unam))
+{
+!0722_card-slash8
+}
+
+STRING 1279
+// 유닛: e0CW (!0722_az3__75), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1280
+// 유닛: e0CX (!0722_Mr_War3_XZ4_zoro), Name (이름 (unam))
+{
+!0722_Mr_War3_XZ4_zoro
+}
+
+STRING 1281
+// 유닛: e0CV (!0722_Hokins_doll), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1282
+// 유닛: e0CW (!0722_az3__75), Name (이름 (unam))
+{
+!0722_az3__75
+}
+
+STRING 1283
+// 유닛: e0CU (!0722_Strawman), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1284
+// 유닛: e0CV (!0722_Hokins_doll), Name (이름 (unam))
+{
+!0722_Hokins_doll
+}
+
+STRING 1285
+// 유닛: e0CT (!0722_card4__22), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1286
+// 유닛: e0CU (!0722_Strawman), Name (이름 (unam))
+{
+!0722_Strawman
+}
+
+STRING 1287
+// 유닛: e0CS (!0722_Mr.War3_XZ4__22), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1288
+// 유닛: e0CT (!0722_card4__22), Name (이름 (unam))
+{
+!0722_card4__22
+}
+
+STRING 1289
+// 유닛: e0CR (!0721_BlSkill01A__341), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1290
+// 유닛: e0CS (!0722_Mr.War3_XZ4__22), Name (이름 (unam))
+{
+!0722_Mr.War3_XZ4__22
+}
+
+STRING 1291
+// 유닛: e0CQ (!0721_BlSkill04A__341), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1292
+// 유닛: e0CR (!0721_BlSkill01A__341), Name (이름 (unam))
+{
+!0721_BlSkill01A__341
+}
+
+STRING 1293
+// 유닛: e0CP (!0721_Gikura_A__345), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1294
+// 유닛: e0CQ (!0721_BlSkill04A__341), Name (이름 (unam))
+{
+!0721_BlSkill04A__341
+}
+
+STRING 1295
+// 유닛: e0CO (!0607_ImperialFlamingWings_base), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1296
+// 유닛: e0CP (!0721_Gikura_A__345), Name (이름 (unam))
+{
+!0721_Gikura_A__345
+}
+
+STRING 1297
+// 유닛: e0CN (!0721,!0809_AZ_Earthshaker_C2__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1298
+// 유닛: e0CO (!0607_ImperialFlamingWings_base), Name (이름 (unam))
+{
+!0607_ImperialFlamingWings_base
+}
+
+STRING 1299
+// 유닛: e0CM (!0721_LucciAwk_kingun), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1300
+// 유닛: e0CN (!0721,!0809_AZ_Earthshaker_C2__90), Name (이름 (unam))
+{
+!0721,!0809_AZ_Earthshaker_C2__90
+}
+
+STRING 1301
+// 유닛: e0CL (!0711_by_kid4d_black), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1302
+// 유닛: e0CM (!0721_LucciAwk_kingun), Name (이름 (unam))
+{
+!0721_LucciAwk_kingun
+}
+
+STRING 1303
+// 유닛: e0CK (!0721_LucciAwk_e0FC), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1304
+// 유닛: e0CL (!0711_by_kid4d_black), Name (이름 (unam))
+{
+!0711_by_kid4d_black
+}
+
+STRING 1305
+// 유닛: e0CJ (!0721_LucciAwk_e0FDe0FH), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1306
+// 유닛: e0CK (!0721_LucciAwk_e0FC), Name (이름 (unam))
+{
+!0721_LucciAwk_e0FC
+}
+
+STRING 1307
+// 유닛: e0CI (!0720_AZ_Yin_Q4), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1308
+// 유닛: e0CJ (!0721_LucciAwk_e0FDe0FH), Name (이름 (unam))
+{
+!0721_LucciAwk_e0FDe0FH
+}
+
+STRING 1309
+// 유닛: e0CH (!0721_AZ_XuanFeng02B2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1310
+// 유닛: e0CI (!0720_AZ_Yin_Q4), Name (이름 (unam))
+{
+!0720_AZ_Yin_Q4
+}
+
+STRING 1311
+// 유닛: e0CG (!0720_SakuraRelease), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1312
+// 유닛: e0CH (!0721_AZ_XuanFeng02B2), Name (이름 (unam))
+{
+!0721_AZ_XuanFeng02B2
+}
+
+STRING 1313
+// 유닛: e0CF (!0720_pink_flare3), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1314
+// 유닛: e0CG (!0720_SakuraRelease), Name (이름 (unam))
+{
+!0720_SakuraRelease
+}
+
+STRING 1315
+// 유닛: e0CE (!0720_Mr.War3_XZ4), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1316
+// 유닛: e0CF (!0720_pink_flare3), Name (이름 (unam))
+{
+!0720_pink_flare3
+}
+
+STRING 1317
+// 유닛: e0CD (!0720,!0729_MirrorImageCaster), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1318
+// 유닛: e0CE (!0720_Mr.War3_XZ4), Name (이름 (unam))
+{
+!0720_Mr.War3_XZ4
+}
+
+STRING 1319
+// 유닛: e0CC (!0720_MCut_new), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1320
+// 유닛: e0CD (!0720,!0729_MirrorImageCaster), Name (이름 (unam))
+{
+!0720,!0729_MirrorImageCaster
+}
+
+STRING 1321
+// 유닛: e0CB (!0720_mcut_slash1), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1322
+// 유닛: e0CC (!0720_MCut_new), Name (이름 (unam))
+{
+!0720_MCut_new
+}
+
+STRING 1323
+// 유닛: e0CA (!0720_MoonSpear14), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1324
+// 유닛: e0CB (!0720_mcut_slash1), Name (이름 (unam))
+{
+!0720_mcut_slash1
+}
+
+STRING 1325
+// 유닛: e0C9 (!0719_valorblast2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1326
+// 유닛: e0CA (!0720_MoonSpear14), Name (이름 (unam))
+{
+!0720_MoonSpear14
+}
+
+STRING 1327
+// 유닛: e0C8 (!0719_E_ShockWaveRed), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1328
+// 유닛: e0C9 (!0719_valorblast2), Name (이름 (unam))
+{
+!0719_valorblast2
+}
+
+STRING 1329
+// 유닛: e0C7 (!0719_H_blackhole1), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1330
+// 유닛: e0C8 (!0719_E_ShockWaveRed), Name (이름 (unam))
+{
+!0719_E_ShockWaveRed
+}
+
+STRING 1331
+// 유닛: e0C6 (!0719_Dash_Sfx__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1332
+// 유닛: e0C7 (!0719_H_blackhole1), Name (이름 (unam))
+{
+!0719_H_blackhole1
+}
+
+STRING 1333
+// 유닛: e0C5 (!0719_E_Nitu), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1334
+// 유닛: e0C6 (!0719_Dash_Sfx__90), Name (이름 (unam))
+{
+!0719_Dash_Sfx__90
+}
+
+STRING 1335
+// 유닛: e0C4 (!0719_E_DTRing100), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1336
+// 유닛: e0C5 (!0719_E_Nitu), Name (이름 (unam))
+{
+!0719_E_Nitu
+}
+
+STRING 1337
+// 유닛: e0C3 (!0719_E_GlowlinePurple), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1338
+// 유닛: e0C4 (!0719_E_DTRing100), Name (이름 (unam))
+{
+!0719_E_DTRing100
+}
+
+STRING 1339
+// 유닛: e0C2 (!0719,!1210_E_RoundSlashblue), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1340
+// 유닛: e0C3 (!0719_E_GlowlinePurple), Name (이름 (unam))
+{
+!0719_E_GlowlinePurple
+}
+
+STRING 1341
+// 유닛: e0C1 (!0719_E_SuperShinyThingyPurple), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1342
+// 유닛: e0C0 (!0718_VolcanoDeath__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1343
+// 유닛: e0BZ (!0718_DoomDeath__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1344
+// 유닛: e0C1 (!0719_E_SuperShinyThingyPurple), Name (이름 (unam))
+{
+!0719_E_SuperShinyThingyPurple
+}
+
+STRING 1345
+// 유닛: e0BY (!0718_Zukokku), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1346
+// 유닛: e0C0 (!0718_VolcanoDeath__90), Name (이름 (unam))
+{
+!0718_VolcanoDeath__90
+}
+
+STRING 1347
+// 유닛: e0BX (!0718,!0910_!FireFist22), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1348
+// 유닛: e0BZ (!0718_DoomDeath__90), Name (이름 (unam))
+{
+!0718_DoomDeath__90
+}
+
+STRING 1349
+// 유닛: e0BW (!0718_slam__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1350
+// 유닛: e0BY (!0718_Zukokku), Name (이름 (unam))
+{
+!0718_Zukokku
+}
+
+STRING 1351
+// 유닛: e0BV (!0718,!0901_shadowassault(lightblue)2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1352
+// 유닛: e0BX (!0718,!0910_!FireFist22), Name (이름 (unam))
+{
+!0718,!0910_!FireFist22
+}
+
+STRING 1353
+// 유닛: e0BU (!0718_!tenpajyousai+sfx+by+deckai), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1354
+// 유닛: e0BW (!0718_slam__90), Name (이름 (unam))
+{
+!0718_slam__90
+}
+
+STRING 1355
+// 유닛: e0BT (!0718_%56), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1356
+// 유닛: e0BV (!0718,!0901_shadowassault(lightblue)2), Name (이름 (unam))
+{
+!0718,!0901_shadowassault(lightblue)2
+}
+
+STRING 1357
+// 유닛: e0BS (!0717_AZ22), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1358
+// 유닛: e0BU (!0718_!tenpajyousai+sfx+by+deckai), Name (이름 (unam))
+{
+!0718_!tenpajyousai+sfx+by+deckai
+}
+
+STRING 1359
+// 유닛: e0BR (!0717_Stomp-large), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1360
+// 유닛: e0BT (!0718_%56), Name (이름 (unam))
+{
+!0718_%56
+}
+
+STRING 1361
+// 유닛: e0BQ (!0717_MoonWrath8), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1362
+// 유닛: e0BS (!0717_AZ22), Name (이름 (unam))
+{
+!0717_AZ22
+}
+
+STRING 1363
+// 유닛: e0BP (!0717,!1210_Dimension SlashOriginal), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1364
+// 유닛: e0BR (!0717_Stomp-large), Name (이름 (unam))
+{
+!0717_Stomp-large
+}
+
+STRING 1365
+// 유닛: e0BO (!0716_[Spell]TownPortal2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1366
+// 유닛: e0BQ (!0717_MoonWrath8), Name (이름 (unam))
+{
+!0717_MoonWrath8
+}
+
+STRING 1367
+// 유닛: e0BN (!0716_LawGamma), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1368
+// 유닛: e0P1 (!1211_BlackHole), Name (이름 (unam))
+{
+!1211_BlackHole
+}
+
+STRING 1369
+// 유닛: e0BM (!0716,!0907_Slash_FlareAdditive0453), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1370
+// 유닛: e0BO (!0716_[Spell]TownPortal2), Name (이름 (unam))
+{
+!0716_[Spell]TownPortal2
+}
+
+STRING 1371
+// 유닛: e0BL (!0716_guangci_5743), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1372
+// 유닛: e0BN (!0716_LawGamma), Name (이름 (unam))
+{
+!0716_LawGamma
+}
+
+STRING 1373
+// 유닛: e0BK (!0716_DimensionSlashOriginal2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1374
+// 유닛: e0BM (!0716,!0907_Slash_FlareAdditive0453), Name (이름 (unam))
+{
+!0716,!0907_Slash_FlareAdditive0453
+}
+
+STRING 1375
+// 유닛: e0BJ (!0715,!0811_AZ), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1376
+// 유닛: e0BL (!0716_guangci_5743), Name (이름 (unam))
+{
+!0716_guangci_5743
+}
+
+STRING 1377
+// 유닛: e0BI (!0715_!lightfilar4), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1378
+// 유닛: e0BK (!0716_DimensionSlashOriginal2), Name (이름 (unam))
+{
+!0716_DimensionSlashOriginal2
+}
+
+STRING 1379
+// 유닛: e0BH (!0715,!0728_!beam5), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1380
+// 유닛: e0BJ (!0715,!0811_AZ), Name (이름 (unam))
+{
+!0715,!0811_AZ
+}
+
+STRING 1381
+// 유닛: e0BG (!0715_wind_dust11), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1382
+// 유닛: e0BI (!0715_!lightfilar4), Name (이름 (unam))
+{
+!0715_!lightfilar4
+}
+
+STRING 1383
+// 유닛: e0BF (!1204_Effect BY_Wood_Eff_Ord_Bh3_Int_Imp), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1384
+// 유닛: e0BH (!0715,!0728_!beam5), Name (이름 (unam))
+{
+!0715,!0728_!beam5
+}
+
+STRING 1385
+// 유닛: e0BE (!0715,!0725_BY_Wood_GongChengSiPai_46), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1386
+// 유닛: e0BG (!0715_wind_dust11), Name (이름 (unam))
+{
+!0715_wind_dust11
+}
+
+STRING 1387
+// 유닛: e0BD (!0715_Penance-Classic), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1388
+// 유닛: e0BC (!0715,!0728,!1204_Effect Yellow Flash 1), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1389
+// 유닛: e0BB (!0712_turtle), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1390
+// 유닛: e0BE (!0715,!0725_BY_Wood_GongChengSiPai_46), Name (이름 (unam))
+{
+!0715,!0725_BY_Wood_GongChengSiPai_46
+}
+
+STRING 1391
+// 유닛: e0BA (!0714_lava crack), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1392
+// 유닛: e0BD (!0715_Penance-Classic), Name (이름 (unam))
+{
+!0715_Penance-Classic
+}
+
+STRING 1393
+// 유닛: e0B9 (!0714_Gatekeepers_Pact), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1394
+// 유닛: e0O2 (!1206_Effect Blessing of Moon White), Name (이름 (unam))
+{
+!1206_Effect Blessing of Moon White
+}
+
+STRING 1395
+// 유닛: e0B8 (!0714,!0724_013), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1396
+// 유닛: e0BB (!0712_turtle), Name (이름 (unam))
+{
+!0712_turtle
+}
+
+STRING 1397
+// 유닛: e0B7 (!0714_E_FireEX), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1398
+// 유닛: e0BA (!0714_lava crack), Name (이름 (unam))
+{
+!0714_lava crack
+}
+
+STRING 1399
+// 유닛: e0B6 (!0713_icestomp2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1400
+// 유닛: e0B9 (!0714_Gatekeepers_Pact), Name (이름 (unam))
+{
+!0714_Gatekeepers_Pact
+}
+
+STRING 1401
+// 유닛: e0B5 (!0713_FrozenDT), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1402
+// 유닛: e0B8 (!0714,!0724_013), Name (이름 (unam))
+{
+!0714,!0724_013
+}
+
+STRING 1403
+// 유닛: e0B4 (!0713_iceage_ice), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1404
+// 유닛: e0B7 (!0714_E_FireEX), Name (이름 (unam))
+{
+!0714_E_FireEX
+}
+
+STRING 1405
+// 유닛: e0B3 (!0713_freezingsplinter3), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1406
+// 유닛: e0B6 (!0713_icestomp2), Name (이름 (unam))
+{
+!0713_icestomp2
+}
+
+STRING 1407
+// 유닛: e0B2 (!0713_ice_bird), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1408
+// 유닛: e0B5 (!0713_FrozenDT), Name (이름 (unam))
+{
+!0713_FrozenDT
+}
+
+STRING 1409
+// 유닛: e0B1 (!0713_iceice6), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1410
+// 유닛: e0B4 (!0713_iceage_ice), Name (이름 (unam))
+{
+!0713_iceage_ice
+}
+
+STRING 1411
+// 유닛: e0B0 (!0713_A_Ice_niddile), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1412
+// 유닛: e0B3 (!0713_freezingsplinter3), Name (이름 (unam))
+{
+!0713_freezingsplinter3
+}
+
+STRING 1413
+// 유닛: e0AZ (!0712,!0723_Shiva'sWrath), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1414
+// 유닛: e0B2 (!0713_ice_bird), Name (이름 (unam))
+{
+!0713_ice_bird
+}
+
+STRING 1415
+// 유닛: e0AY (!0712_000F5), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1416
+// 유닛: e0B1 (!0713_iceice6), Name (이름 (unam))
+{
+!0713_iceice6
+}
+
+STRING 1417
+// 유닛: e0AX (!0712_SupremeGeiser), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1418
+// 유닛: e0B0 (!0713_A_Ice_niddile), Name (이름 (unam))
+{
+!0713_A_Ice_niddile
+}
+
+STRING 1419
+// 유닛: e0AW (!0712_GreaterGeiser), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1420
+// 유닛: e0AZ (!0712,!0723_Shiva'sWrath), Name (이름 (unam))
+{
+!0712,!0723_Shiva'sWrath
+}
+
+STRING 1421
+// 유닛: e0AV (!0711_impact_wave2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1422
+// 유닛: e0AY (!0712_000F5), Name (이름 (unam))
+{
+!0712_000F5
+}
+
+STRING 1423
+// 유닛: e0AU (!0711_dtbluenoringblend), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1424
+// 유닛: e0AX (!0712_SupremeGeiser), Name (이름 (unam))
+{
+!0712_SupremeGeiser
+}
+
+STRING 1425
+// 유닛: e0AT (!0711_Valkhellgate7), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1426
+// 유닛: e0AW (!0712_GreaterGeiser), Name (이름 (unam))
+{
+!0712_GreaterGeiser
+}
+
+STRING 1427
+// 유닛: e0AS (!0711_cosmic field2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1428
+// 유닛: e0AV (!0711_impact_wave2), Name (이름 (unam))
+{
+!0711_impact_wave2
+}
+
+STRING 1429
+// 유닛: e0AR (!0711_ThunderclapCasterBlack), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1430
+// 유닛: e0AU (!0711_dtbluenoringblend), Name (이름 (unam))
+{
+!0711_dtbluenoringblend
+}
+
+STRING 1431
+// 유닛: e0AQ (!0711,!0811,!0904,!0909_by_kid4d), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1432
+// 유닛: e0AT (!0711_Valkhellgate7), Name (이름 (unam))
+{
+!0711_Valkhellgate7
+}
+
+STRING 1433
+// 유닛: e0AP (!0711_BY_Wood_Sand_YueKongJi_nocrack_black), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1434
+// 유닛: e0AS (!0711_cosmic field2), Name (이름 (unam))
+{
+!0711_cosmic field2
+}
+
+STRING 1435
+// 유닛: e0AO (!0711,!0911_zise-smoke1), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1436
+// 유닛: e0AR (!0711_ThunderclapCasterBlack), Name (이름 (unam))
+{
+!0711_ThunderclapCasterBlack
+}
+
+STRING 1437
+// 유닛: e0AN (!0711_zise-smoke_tr3), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1438
+// 유닛: e0AQ (!0711,!0811,!0904,!0909_by_kid4d), Name (이름 (unam))
+{
+!0711,!0811,!0904,!0909_by_kid4d
+}
+
+STRING 1439
+// 유닛: e0AM (!0801_sun4), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1440
+// 유닛: e0AP (!0711_BY_Wood_Sand_YueKongJi_nocrack_black), Name (이름 (unam))
+{
+!0711_BY_Wood_Sand_YueKongJi_nocrack_black
+}
+
+STRING 1441
+// 유닛: e0AL (!0710_Lightningbolt), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1442
+// 유닛: e0AO (!0711,!0911_zise-smoke1), Name (이름 (unam))
+{
+!0711,!0911_zise-smoke1
+}
+
+STRING 1443
+// 유닛: e0AK (!0710_Shanks_Kamu_CastHaki), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1444
+// 유닛: e0AN (!0711_zise-smoke_tr3), Name (이름 (unam))
+{
+!0711_zise-smoke_tr3
+}
+
+STRING 1445
+// 유닛: e0AJ (!0710_BY_Lightning01), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1446
+// 유닛: e0AM (!0801_sun4), Name (이름 (unam))
+{
+!0801_sun4
+}
+
+STRING 1447
+// 유닛: e0AI (!0710_Effect_Garpu), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1448
+// 유닛: e0AL (!0710_Lightningbolt), Name (이름 (unam))
+{
+!0710_Lightningbolt
+}
+
+STRING 1449
+// 유닛: e0AH (!0802_ubercloud5), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1450
+// 유닛: e0AK (!0710_Shanks_Kamu_CastHaki), Name (이름 (unam))
+{
+!0710_Shanks_Kamu_CastHaki
+}
+
+STRING 1451
+// 유닛: e0AG (!0710_Shanks_Kamu_Slash), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1452
+// 유닛: e0AJ (!0710_BY_Lightning01), Name (이름 (unam))
+{
+!0710_BY_Lightning01
+}
+
+STRING 1453
+// 유닛: e0AF (!0710_orgia mode red), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1454
+// 유닛: e0AI (!0710_Effect_Garpu), Name (이름 (unam))
+{
+!0710_Effect_Garpu
+}
+
+STRING 1455
+// 유닛: e0AE (!0709_MusicTarget), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1456
+// 유닛: e0AH (!0802_ubercloud5), Name (이름 (unam))
+{
+!0802_ubercloud5
+}
+
+STRING 1457
+// 유닛: e0AD (!0709_az-slash-blue), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1458
+// 유닛: e0AG (!0710_Shanks_Kamu_Slash), Name (이름 (unam))
+{
+!0710_Shanks_Kamu_Slash
+}
+
+STRING 1459
+// 유닛: e0AC (!0709_arua6__270), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1460
+// 유닛: e0AF (!0710_orgia mode red), Name (이름 (unam))
+{
+!0710_orgia mode red
+}
+
+STRING 1461
+// 유닛: e0AB (!0801_kongukan), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1462
+// 유닛: e0AE (!0709_MusicTarget), Name (이름 (unam))
+{
+!0709_MusicTarget
+}
+
+STRING 1463
+// 유닛: e0AA (!0802_Hancock), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1464
+// 유닛: e0AD (!0709_az-slash-blue), Name (이름 (unam))
+{
+!0709_az-slash-blue
+}
+
+STRING 1465
+// 유닛: e0A9 (!0708_exshexian), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1466
+// 유닛: e0AC (!0709_arua6__270), Name (이름 (unam))
+{
+!0709_arua6__270
+}
+
+STRING 1467
+// 유닛: e0A8 (!0708_EffectYellowLight), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1468
+// 유닛: e0AB (!0801_kongukan), Name (이름 (unam))
+{
+!0801_kongukan
+}
+
+STRING 1469
+// 유닛: e0A7 (!0708_EffectSkyRing), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1470
+// 유닛: e0AA (!0802_Hancock), Name (이름 (unam))
+{
+!0802_Hancock
+}
+
+STRING 1471
+// 유닛: e0A6 (!0708_mirrorzi_model_effects_jinsechongjipao), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1472
+// 유닛: e0A9 (!0708_exshexian), Name (이름 (unam))
+{
+!0708_exshexian
+}
+
+STRING 1473
+// 유닛: e0A5 (!0708_frakny_beamwave), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1474
+// 유닛: e0A8 (!0708_EffectYellowLight), Name (이름 (unam))
+{
+!0708_EffectYellowLight
+}
+
+STRING 1475
+// 유닛: e0A4 (!0708_EffectReviveHuman), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1476
+// 유닛: e0A7 (!0708_EffectSkyRing), Name (이름 (unam))
+{
+!0708_EffectSkyRing
+}
+
+STRING 1477
+// 유닛: e0A3 (!0708,!0719,!0907,!0910_@fire6), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1478
+// 유닛: e0A6 (!0708_mirrorzi_model_effects_jinsechongjipao), Name (이름 (unam))
+{
+!0708_mirrorzi_model_effects_jinsechongjipao
+}
+
+STRING 1479
+// 유닛: e0A2 (!0707_robinhand), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1480
+// 유닛: e0A5 (!0708_frakny_beamwave), Name (이름 (unam))
+{
+!0708_frakny_beamwave
+}
+
+STRING 1481
+// 유닛: e0A1 (!0708_Effect_Artillery_Franky), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1482
+// 유닛: e0A4 (!0708_EffectReviveHuman), Name (이름 (unam))
+{
+!0708_EffectReviveHuman
+}
+
+STRING 1483
+// 유닛: e0A0 (!0708_MoonWrath), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1484
+// 유닛: e0A3 (!0708,!0719,!0907,!0910_@fire6), Name (이름 (unam))
+{
+!0708,!0719,!0907,!0910_@fire6
+}
+
+STRING 1485
+// 유닛: e09Z (!0707_frozenshell), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1486
+// 유닛: e0A2 (!0707_robinhand), Name (이름 (unam))
+{
+!0707_robinhand
+}
+
+STRING 1487
+// 유닛: e09Y (!0707_Robin_dres9), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1488
+// 유닛: e0A1 (!0708_Effect_Artillery_Franky), Name (이름 (unam))
+{
+!0708_Effect_Artillery_Franky
+}
+
+STRING 1489
+// 유닛: e09X (!0707,!0911_BlinkPinkCaster), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1490
+// 유닛: e0A0 (!0708_MoonWrath), Name (이름 (unam))
+{
+!0708_MoonWrath
+}
+
+STRING 1491
+// 유닛: e09W (!0707_cf2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1492
+// 유닛: e09Z (!0707_frozenshell), Name (이름 (unam))
+{
+!0707_frozenshell
+}
+
+STRING 1493
+// 유닛: e09V (!0707_higante_base_attack), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1494
+// 유닛: e09Y (!0707_Robin_dres9), Name (이름 (unam))
+{
+!0707_Robin_dres9
+}
+
+STRING 1495
+// 유닛: e09U (!0707,!0728,!1212_hit-white-guangxiao), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 1496
+// 유닛: e09X (!0707,!0911_BlinkPinkCaster), Name (이름 (unam))
+{
+!0707,!0911_BlinkPinkCaster
+}
+
+STRING 1497

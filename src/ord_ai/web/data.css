@@ -1,0 +1,157 @@
+/* Data primitives: tables, badges, chart frames, minimap, facts, empty states, footer. */
+
+/* Data table. The wrapper owns horizontal scroll (and vertical scroll when --tall); edge
+   shadows appear only while there is more table to scroll to. */
+.table-scroll {
+  max-inline-size: 100%;
+  overflow: auto;
+  border-radius: var(--radius-sm);
+  background:
+    linear-gradient(to right, var(--surface-panel) 40%, transparent) left / var(--space-8) 100% no-repeat local,
+    linear-gradient(to left, var(--surface-panel) 40%, transparent) right / var(--space-8) 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, var(--scroll-shade), transparent) left / var(--space-3) 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, var(--scroll-shade), transparent) right / var(--space-3) 100% no-repeat scroll;
+}
+
+.table-scroll:focus-visible { outline-offset: -2px; }
+.table-scroll--tall { max-block-size: var(--table-max); }
+
+.table {
+  inline-size: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: var(--size-sm);
+  line-height: var(--leading-sm);
+}
+
+.table__caption {
+  padding: var(--space-4) var(--space-4) var(--space-3);
+  caption-side: top;
+  text-align: start;
+  font-size: var(--size-h3);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.table th, .table td {
+  padding: var(--space-2) var(--space-3);
+  text-align: start;
+  white-space: nowrap;
+  border-block-end: 1px solid var(--line);
+}
+
+@media (min-width: 768px) {
+  .table th, .table td { padding-inline: var(--space-4); }
+}
+
+.table thead th {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 1;
+  background: var(--surface-raised);
+  font-family: var(--font-sans);
+  font-size: var(--size-label);
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.table tbody th { font-weight: 500; }
+.table tbody tr:last-child > * { border-block-end: 0; }
+.table tr[aria-current="true"] > * { background: var(--wash-2); }
+.table .num { text-align: end; }
+.table .muted { color: var(--text-faint); }
+.table .empty-row { padding-block: var(--space-6); text-align: center; white-space: normal; color: var(--text-muted); }
+.run-name { margin-inline-end: var(--space-2); }
+
+/* Action distribution: name (wraps), inline SVG bar + count, acceptance. */
+.table--actions .action-name { min-inline-size: 7rem; max-inline-size: 16rem; white-space: normal; }
+.table--actions .tag { font-size: var(--size-caption); font-weight: 500; color: var(--text-muted); white-space: nowrap; }
+.bar-cell { display: grid; grid-template-columns: minmax(var(--space-6), 1fr) auto; align-items: center; gap: var(--space-2); min-inline-size: 5rem; }
+.bar { display: block; inline-size: 100%; block-size: var(--space-2); fill: var(--series-2); }
+.bar-cell .num { min-inline-size: 3ch; }
+
+/* Badge: status pill tinted from its own text color. */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 var(--space-2);
+  border-radius: var(--radius-full);
+  background: color-mix(in oklab, currentColor 16%, transparent);
+  font-size: var(--size-caption);
+  font-weight: 600;
+  line-height: var(--leading-body);
+  white-space: nowrap;
+}
+
+.tone-loss { color: var(--status-loss); }
+.tone-win, .tone-live { color: var(--status-win); }
+.tone-playing { color: var(--status-playing); }
+.tone-waiting, .tone-idle { color: var(--status-waiting); }
+.tone-current { color: var(--text-secondary); }
+
+/* Chart frame: a sunken well whose SVG is rebuilt at the well's pixel size. */
+.chart { display: grid; align-content: start; }
+.well { position: relative; overflow: hidden; background: var(--surface-well); box-shadow: var(--shadow-sunken); }
+.well--bars { block-size: var(--chart-bars); }
+.well--line { block-size: var(--chart-line); }
+.well--map { inline-size: min(100%, var(--map-max)); aspect-ratio: 1; justify-self: center; }
+.chart__svg { display: block; }
+.chart__svg .grid { stroke: var(--line); stroke-width: 1; shape-rendering: crispEdges; }
+.chart__svg .axis { stroke: var(--line-strong); stroke-width: 1; shape-rendering: crispEdges; }
+.chart__svg .tick { fill: var(--text-faint); font: 500 var(--size-caption) var(--font-mono); }
+.chart__svg .mark.tone-loss, .chart__svg .mark.tone-win, .chart__svg .mark.tone-playing, .chart__svg .mark.tone-waiting { fill: currentColor; }
+.chart__svg rect.mark { rx: var(--radius-xs); }
+.chart__svg .line { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.chart__svg .series-1 { stroke: var(--series-1); color: var(--series-1); }
+.chart__svg .series-2 { stroke: var(--series-2); color: var(--series-2); }
+.chart__svg .mark--terminal { fill: var(--status-loss); stroke: var(--surface-well); stroke-width: 2; }
+.chart__svg .mark--clipped { fill: currentColor; }
+.chart__svg .map-grid { stroke: var(--line); stroke-width: 1; opacity: 0.7; shape-rendering: crispEdges; }
+.chart__svg .blip { fill: var(--accent); stroke: var(--surface-well); stroke-width: 1.5; }
+
+.legend { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); margin: var(--space-3) 0 0; padding: 0; list-style: none; font-size: var(--size-caption); color: var(--text-muted); }
+.legend li { display: inline-flex; align-items: center; gap: var(--space-2); }
+.legend__swatch { inline-size: var(--space-3); block-size: var(--space-3); border-radius: var(--radius-xs); background: currentColor; }
+.legend__swatch--dot { border-radius: var(--radius-full); }
+.legend__swatch--clip { clip-path: polygon(50% 0, 100% 100%, 0 100%); border-radius: 0; }
+
+/* Text alternative under a chart. */
+.alt { margin-block-start: var(--space-3); font-size: var(--size-sm); }
+.alt summary { inline-size: fit-content; padding-block: var(--space-1); border-radius: var(--radius-xs); color: var(--link); cursor: pointer; transition: color var(--dur-micro) ease-out; }
+.alt summary:hover { color: var(--text-primary); }
+.alt[open] summary { margin-block-end: var(--space-2); }
+.alt .table-scroll { border: 1px solid var(--line); }
+
+/* Live facts. */
+.facts { display: grid; gap: var(--space-4) var(--space-5); grid-template-columns: repeat(auto-fit, minmax(min(8.5rem, 100%), 1fr)); margin: 0; }
+.facts div { display: grid; gap: var(--space-1); align-content: start; }
+.facts dt { font-size: var(--size-label); color: var(--text-muted); }
+.facts dd { margin: 0; font: 500 var(--size-value) / var(--leading-heading) var(--font-mono); font-variant-numeric: tabular-nums; }
+.facts .fact__note { font: 500 var(--size-caption) / var(--leading-label) var(--font-sans); color: var(--text-muted); }
+.facts .fact--wide { grid-column: 1 / -1; }
+.facts .fact--text dd { font-family: var(--font-sans); font-size: var(--size-body); }
+
+/* Empty state: says what is missing and where it would come from. */
+.empty {
+  padding: var(--space-6) var(--space-4);
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-md);
+  font-size: var(--size-sm);
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.panel .empty { border-radius: 0; }
+.empty code { white-space: nowrap; color: var(--text-secondary); }
+[hidden] { display: none !important; }
+
+.footer {
+  max-inline-size: var(--content-max);
+  margin-inline: auto;
+  padding: var(--space-6) var(--gutter) var(--space-10);
+  border-block-start: 1px solid var(--line);
+  font-size: var(--size-label);
+  color: var(--text-muted);
+}
+
+.footer code { color: var(--text-secondary); }

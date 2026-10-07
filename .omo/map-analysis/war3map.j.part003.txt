@@ -1,0 +1,1800 @@
+code bmv=null
+code Mmv=null
+code gmv=null
+code umv=null
+code Amv=null
+code Imv=null
+code Xmv=null
+code nmv=null
+code Tmv=null
+code Omv=null
+code amv=null
+code fmv=null
+code Cmv=null
+code Lmv=null
+code Fmv=null
+code vYv=null
+code RYv=null
+code sYv=null
+code PYv=null
+code pYv=null
+code rYv=null
+code WYv=null
+code iYv=null
+code mYv=null
+code YYv=null
+code dYv=null
+code GYv=null
+code qYv=null
+code ZYv=null
+code yYv=null
+code lYv=null
+code NYv=null
+code wYv=null
+code DYv=null
+code SYv=null
+code VYv=null
+code hYv=null
+code cYv=null
+code kYv=null
+code QYv=null
+code UYv=null
+code BYv=null
+code HYv=null
+code oYv=null
+code jYv=null
+code KYv=null
+code EYv=null
+code JYv=null
+code eYv=null
+code tYv=null
+code xYv=null
+code bYv=null
+code MYv=null
+code gYv=null
+code uYv=null
+code AYv=null
+code IYv=null
+code XYv=null
+code nYv=null
+code TYv=null
+code OYv=null
+code aYv=null
+code fYv=null
+code CYv=null
+code LYv=null
+code FYv=null
+code vdv=null
+code Rdv=null
+code sdv=null
+code Pdv=null
+code pdv=null
+code rdv=null
+code Wdv=null
+code idv=null
+code mdv=null
+code Ydv=null
+code ddv=null
+code Gdv=null
+code qdv=null
+code Zdv=null
+code ydv=null
+code ldv=null
+code Ndv=null
+code wdv=null
+code Ddv=null
+code Sdv=null
+code Vdv=null
+code hdv=null
+code cdv=null
+code kdv=null
+code Qdv=null
+code Udv=null
+code Bdv=null
+code Hdv=null
+code odv=null
+code jdv=null
+code Kdv=null
+code Edv=null
+code Jdv=null
+code edv=null
+code tdv=null
+code xdv=null
+code bdv=null
+code Mdv=null
+code gdv=null
+code udv=null
+code Adv=null
+code Idv=null
+code Xdv=null
+code ndv=null
+code Tdv=null
+code Odv=null
+code adv=null
+code fdv=null
+code Cdv=null
+code Ldv=null
+code Fdv=null
+code vGv=null
+code RGv=null
+code sGv=null
+code PGv=null
+code pGv=null
+code rGv=null
+code WGv=null
+code iGv=null
+code mGv=null
+code YGv=null
+code dGv=null
+code GGv=null
+code qGv=null
+code ZGv=null
+code yGv=null
+code lGv=null
+code NGv=null
+code wGv=null
+code DGv=null
+code SGv=null
+code VGv=null
+code hGv=null
+code cGv=null
+code kGv=null
+code QGv=null
+code UGv=null
+code BGv=null
+code HGv=null
+code oGv=null
+code jGv=null
+code KGv=null
+code EGv=null
+code JGv=null
+code eGv=null
+code tGv=null
+code xGv=null
+code bGv=null
+code MGv=null
+code gGv=null
+code uGv=null
+code AGv=null
+code IGv=null
+code XGv=null
+code nGv=null
+code TGv=null
+code OGv=null
+code aGv=null
+code fGv=null
+code CGv=null
+code LGv=null
+code FGv=null
+code vqv=null
+code Rqv=null
+code sqv=null
+code Pqv=null
+code pqv=null
+code rqv=null
+code Wqv=null
+code iqv=null
+code mqv=null
+code Yqv=null
+code dqv=null
+code Gqv=null
+code qqv=null
+code Zqv=null
+code yqv=null
+code lqv=null
+code Nqv=null
+code wqv=null
+code Dqv=null
+code Sqv=null
+code Vqv=null
+code hqv=null
+code cqv=null
+code kqv=null
+code Qqv=null
+code Uqv=null
+code Bqv=null
+code Hqv=null
+code oqv=null
+code jqv=null
+code Kqv=null
+code Eqv=null
+code Jqv=null
+code eqv=null
+code tqv=null
+code xqv=null
+code bqv=null
+code Mqv=null
+code gqv=null
+code uqv=null
+code Aqv=null
+code Iqv=null
+code Xqv=null
+code nqv=null
+code Tqv=null
+code Oqv=null
+code aqv=null
+code fqv=null
+code Cqv=null
+code Lqv=null
+code Fqv=null
+code vZv=null
+code RZv=null
+code sZv=null
+code PZv=null
+code pZv=null
+code rZv=null
+code WZv=null
+code iZv=null
+code mZv=null
+code YZv=null
+code dZv=null
+code GZv=null
+code qZv=null
+code ZZv=null
+code yZv=null
+code lZv=null
+code NZv=null
+code wZv=null
+code DZv=null
+code SZv=null
+code VZv=null
+code hZv=null
+code cZv=null
+code kZv=null
+code QZv=null
+code UZv=null
+code BZv=null
+code HZv=null
+code oZv=null
+code jZv=null
+code KZv=null
+code EZv=null
+code JZv=null
+code eZv=null
+code tZv=null
+code xZv=null
+code bZv=null
+code MZv=null
+code gZv=null
+code uZv=null
+code AZv=null
+code IZv=null
+code XZv=null
+code nZv=null
+code TZv=null
+code OZv=null
+code aZv=null
+code fZv=null
+code CZv=null
+code LZv=null
+code FZv=null
+code vyv=null
+code Ryv=null
+code syv=null
+code Pyv=null
+code pyv=null
+code ryv=null
+code Wyv=null
+code iyv=null
+code myv=null
+code Yyv=null
+code dyv=null
+code Gyv=null
+code qyv=null
+code Zyv=null
+code yyv=null
+code lyv=null
+code Nyv=null
+code wyv=null
+code Dyv=null
+code Syv=null
+code Vyv=null
+code hyv=null
+code cyv=null
+code kyv=null
+code Qyv=null
+code Uyv=null
+code Byv=null
+code Hyv=null
+code oyv=null
+code jyv=null
+code Kyv=null
+code Eyv=null
+code Jyv=null
+code eyv=null
+code tyv=null
+code xyv=null
+code byv=null
+code Myv=null
+code gyv=null
+code uyv=null
+code Ayv=null
+code Iyv=null
+code Xyv=null
+code nyv=null
+code Tyv=null
+code Oyv=null
+code ayv=null
+code fyv=null
+code Cyv=null
+code Lyv=null
+code Fyv=null
+code vlv=null
+code Rlv=null
+code slv=null
+code Plv=null
+code plv=null
+endglobals
+function A1s takes nothing returns nothing
+call TriggerExecute(ON)
+endfunction
+function vAv takes integer Cuv,real Luv,real Fuv returns nothing
+call BlzFrameSetSize(LoadFrameHandle(pv,0,Cuv),Luv/1920.*.8,Fuv/1080.*.6)
+endfunction
+function A2s takes nothing returns nothing
+local hashtable u2s=Pv
+local framehandle g2s=BlzGetTriggerFrame()
+local integer M2s
+call SaveFrameHandle(pv,0,GetHandleId(g2s),g2s)
+set M2s=LoadInteger(u2s,0,GetHandleId(g2s))
+call vAv(nJ[M2s],155.,55.)
+set g2s=null
+set u2s=null
+endfunction
+function TWs takes integer XWs,integer nWs returns integer
+if XWs<nWs then
+return XWs
+else
+return nWs
+endif
+endfunction
+function kFR takes integer cFR returns integer
+if cFR<0 then
+return -cFR
+else
+return cFR
+endif
+endfunction
+function wWR takes integer ZWR,integer yWR returns integer
+local integer lWR=TWs(ZWR,yWR)
+local integer NWR=kFR(yWR-ZWR)
+if Gv==0 then
+set Gv=GetRandomInt(1,$f4240)
+endif
+set Gv=ModuloInteger($10dcd*Gv+1,$7fffffff)
+return R2I(I2R(Gv)/I2R($7fffffff)*(NWR+1))+lWR
+endfunction
+function A2v takes nothing returns nothing
+local unit b2v=GetAttacker()
+local unit M2v=GetTriggerUnit()
+local location g2v=GetUnitLoc(M2v)
+local unit u2v
+if wWR(1,$64)<=10 then
+set u2v=CreateUnitAtLoc(ds,$6530304b,g2v,bj_UNIT_FACING)
+call SetUnitUserData(u2v,GetPlayerId(GetOwningPlayer(b2v)))
+call UnitDamagePointLoc(b2v,0.,400.,g2v,800.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+call RemoveLocation(g2v)
+set b2v=null
+set M2v=null
+set g2v=null
+set u2v=null
+endfunction
+function GMv takes real YMv,real dMv returns real
+if YMv<dMv then
+return YMv
+else
+return dMv
+endif
+endfunction
+function Kjs takes real jjs returns real
+if jjs<0. then
+return -jjs
+else
+return jjs
+endif
+endfunction
+function D0v takes real y0v,real l0v returns real
+local real N0v=GMv(y0v,l0v)
+local real w0v=Kjs(l0v-y0v)
+if Gv==0 then
+set Gv=GetRandomInt(1,$f4240)
+endif
+set Gv=ModuloInteger($10dcd*Gv+1,$7fffffff)
+return N0v+w0v*(I2R(Gv)/I2R($7fffffff))
+endfunction
+function yDs takes unit WDs,unit iDs,real mDs,real YDs,real dDs,attacktype GDs,damagetype qDs returns nothing
+local real ZDs=D0v(YDs,dDs)
+set ZDs=ZDs*mDs
+call UnitDamageTarget(WDs,iDs,ZDs,true,false,GDs,qDs,WEAPON_TYPE_WHOKNOWS)
+endfunction
+function A3R takes nothing returns nothing
+local unit M3R=GetAttacker()
+local unit g3R=GetTriggerUnit()
+local location u3R=GetUnitLoc(g3R)
+call yDs(M3R,g3R,20000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if wWR(1,$64)<=8 then
+call CreateUnitAtLoc(ds,$65303458,u3R,GetUnitFacing(M3R))
+call UnitDamagePointLoc(M3R,0.,550.,u3R,250000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+call RemoveLocation(u3R)
+set M3R=null
+set g3R=null
+set u3R=null
+endfunction
+function A5R takes nothing returns boolean
+return GetEventDamageSource()==LoadUnitHandle(gj,0,Op*$1f4) and GetEventDamage()>0.
+endfunction
+function A5s takes nothing returns nothing
+local unit M5s=GetTriggerUnit()
+local player g5s=GetOwningPlayer(M5s)
+local integer u5s=GetPlayerId(g5s)
+if GetPlayerState(g5s,PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(g5s,0.,0.,5.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call IssueImmediateOrder(M5s,"stop")
+set M5s=null
+set g5s=null
+return
+endif
+call UnitRemoveAbility(iy[u5s],$41304a31)
+call UnitAddAbility(iy[u5s],$41304a33)
+call UnitRemoveAbility(M5s,$41304459)
+call UnitAddAbility(M5s,$41313053)
+call IncUnitAbilityLevel(M5s,$4130495a)
+call IncUnitAbilityLevel(M5s,$41304b44)
+call SetPlayerAbilityAvailable(g5s,$41313054,false)
+call SetPlayerState(g5s,PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(g5s,PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+set M5s=null
+set g5s=null
+endfunction
+function A5v takes nothing returns nothing
+local player M5v=Player(Jv)
+local integer g5v=xv
+local integer u5v=GetPlayerId(M5v)
+set g5v=g5v+hs[u5v]-GetPlayerState(M5v,PLAYER_STATE_RESOURCE_LUMBER)
+if g5v>0 then
+call DisplayTextToPlayer(M5v,0.,0.,"|cff7ad823"+I2S(g5v)+"|r 목재 부족!|r")
+set bv=1
+endif
+set M5v=null
+endfunction
+function YIs takes unit FAs,real vIs,real RIs,location sIs,real PIs,real pIs,real rIs,attacktype WIs,damagetype iIs returns nothing
+local real mIs=D0v(pIs,rIs)
+set mIs=mIs*PIs
+call UnitDamagePointLoc(FAs,vIs,RIs,sIs,mIs,WIs,iIs)
+endfunction
+function A6s takes nothing returns nothing
+local unit x6s=GetAttacker()
+local unit b6s=GetTriggerUnit()
+local location M6s=GetUnitLoc(x6s)
+local location g6s=GetUnitLoc(b6s)
+local unitstate u6s
+if wWR(1,$3e8)<=45 then
+call TriggerExecute(Mw)
+endif
+if wWR(1,$64)<=20 then
+call CreateUnitAtLoc(ds,$65304c55,M6s,GetUnitFacing(x6s)+D0v(-110.,110.))
+call CreateUnitAtLoc(ds,$65304c56,M6s,GetUnitFacing(x6s)+D0v(-110.,110.))
+call YIs(x6s,.0,385.,g6s,200000.,1.,2.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if GetUnitAbilityLevel(b6s,$41393032)<=0 and GetUnitAbilityLevel(b6s,$41393131)<=0 and GetUnitAbilityLevel(b6s,$41393033)<=0 and GetUnitAbilityLevel(b6s,$41393034)<=0 then
+set u6s=UNIT_STATE_MAX_LIFE
+call yDs(x6s,b6s,GetUnitState(b6s,u6s)*.015,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+endif
+endif
+call RemoveLocation(M6s)
+call RemoveLocation(g6s)
+set x6s=null
+set b6s=null
+set M6s=null
+set g6s=null
+set u6s=null
+endfunction
+function A8s takes nothing returns nothing
+local real g8s=GetRectCenterX(Om)
+local real u8s=GetRectCenterY(Om)
+call IssuePointOrder(GetTriggerUnit(),"move",g8s,u8s)
+endfunction
+function A8v takes nothing returns boolean
+local integer u8v=hj
+set Wj[u8v]=GetTriggerPlayer()
+set Zo[u8v]=GetTriggerUnit()
+set ao[u8v]=GetIssuedOrderId()
+set Yo[u8v]=GetOrderPointX()
+set do[u8v]=GetOrderPointY()
+set oo[u8v]=GetOrderedUnit()
+return false
+endfunction
+function FpR takes integer LpR returns nothing
+if LpR==0 then
+return
+elseif HE[LpR]!=-1 then
+return
+endif
+set HE[LpR]=UE
+set UE=LpR
+endfunction
+function Vbv takes integer Sbv returns nothing
+call GroupClear(xW[Sbv])
+call FpR(Sbv)
+endfunction
+function XbR takes nothing returns integer
+local boolean AbR=false
+local integer ubR=UE
+local integer IbR
+if ubR!=0 then
+set UE=HE[ubR]
+else
+set BE=BE+1
+set ubR=BE
+endif
+if ubR>$1ffe then
+set IbR=0
+set AbR=true
+endif
+if not AbR then
+set HE[ubR]=-1
+endif
+if not AbR then
+set IbR=ubR
+set AbR=true
+endif
+if not AbR then
+set IbR=0
+endif
+set ubR=IbR
+if xW[ubR]==null then
+set xW[ubR]=CreateGroup()
+endif
+return ubR
+endfunction
+function dEv takes integer rEv,real WEv,location iEv,boolexpr mEv,code YEv returns nothing
+call GroupEnumUnitsInRangeOfLoc(xW[rEv],iEv,WEv,mEv)
+call ForGroup(xW[rEv],YEv)
+endfunction
+function A9v takes nothing returns nothing
+local unit b9v=GetAttacker()
+local unit M9v=GetTriggerUnit()
+local location u9v=GetUnitLoc(M9v)
+local integer x9v
+local unit g9v
+if wWR(1,$64)<=10 then
+set g9v=CreateUnitAtLoc(ds,$6530344a,u9v,GetUnitFacing(b9v))
+call IssuePointOrderById(g9v,OrderId("dreadlordinferno"),GetLocationX(u9v),GetLocationY(u9v))
+set x9v=XbR()
+call dEv(x9v,550.,u9v,Condition(jX),KX)
+call Vbv(x9v)
+endif
+if wWR(1,$64)<=3 then
+call CreateUnitAtLoc(ds,$6530344b,u9v,bj_UNIT_FACING)
+call YIs(b9v,.75,225.,u9v,350000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+call RemoveLocation(u9v)
+set b9v=null
+set M9v=null
+set g9v=null
+set u9v=null
+endfunction
+function AAs takes nothing returns boolean
+local boolean MAs=false
+local unit gAs=GetFilterUnit()
+local player uAs=GetOwningPlayer(gAs)
+if ks[GetPlayerId(uAs)]then
+if GetUnitPointValue(gAs)>$64 then
+set MAs=true
+endif
+endif
+set gAs=null
+set uAs=null
+return MAs
+endfunction
+function BRs takes integer URs returns timer
+if qR==0 then
+if not ZR then
+call TriggerEvaluate(Tt[1])
+set qR=qR-1
+else
+set Pt[0]=CreateTimer()
+endif
+else
+set qR=qR-1
+endif
+call SaveInteger(GR,0,GetHandleId(Pt[qR]),URs)
+return Pt[qR]
+endfunction
+function ABR takes nothing returns nothing
+local unit MBR=CreateUnit(Player(5),$6e303031,GetRectCenterX(JY),GetRectCenterY(JY),bj_UNIT_FACING)
+local code gBR
+local trigger uBR
+call UnitAddAbility(MBR,$41393034)
+call SetUnitAbilityLevel(MBR,$41303451,EP)
+set gBR=M2
+set uBR=CreateTrigger()
+call TriggerRegisterUnitEvent(uBR,MBR,EVENT_UNIT_DAMAGED)
+call TriggerAddCondition(uBR,Condition(gBR))
+set WQ=BRs(0)
+call TimerStart(WQ,1.,true,g2)
+set KP=KP+1
+set MBR=null
+set uBR=null
+endfunction
+function L2R takes nothing returns nothing
+set Rs=0
+set ss=null
+set Ps=null
+set ps=0
+set rs=false
+set Ws=.0
+set is=.0
+call GroupClear(ms)
+endfunction
+function HGs takes integer wGs,integer DGs,integer SGs returns nothing
+local integer VGs=Kv
+local integer hGs=Ev
+local integer cGs=Jv
+local integer kGs=ev
+local integer QGs=tv
+local integer UGs=xv
+local integer BGs=bv
+set Kv=wGs
+set Ev=DGs
+set Jv=SGs
+set ev=LoadInteger(Bv,wGs,DGs)
+set tv=LoadInteger(Hv,wGs,DGs)
+set xv=LoadInteger(ov,wGs,DGs)
+set bv=0
+call TriggerEvaluate(LoadTriggerHandle(jv,2,ev))
+set Kv=VGs
+set Ev=hGs
+set Jv=cGs
+set ev=kGs
+set tv=QGs
+set xv=UGs
+set bv=BGs
+endfunction
+function G9s takes integer i9s,integer m9s returns nothing
+local integer Y9s=LoadInteger(cv,i9s,3)
+local integer d9s=0
+loop
+exitwhen d9s==Y9s
+call HGs(i9s,d9s,m9s)
+set d9s=d9s+1
+endloop
+endfunction
+function UDs takes integer lDs,integer NDs,integer wDs returns nothing
+local integer DDs=Kv
+local integer SDs=Ev
+local integer VDs=Jv
+local integer hDs=ev
+local integer cDs=tv
+local integer kDs=xv
+local integer QDs=bv
+set Kv=lDs
+set Ev=NDs
+set Jv=wDs
+set ev=LoadInteger(kv,lDs,NDs)
+set tv=LoadInteger(Qv,lDs,NDs)
+set xv=LoadInteger(Uv,lDs,NDs)
+set bv=0
+call TriggerEvaluate(LoadTriggerHandle(jv,3,ev))
+set Kv=DDs
+set Ev=SDs
+set Jv=VDs
+set ev=hDs
+set tv=cDs
+set xv=kDs
+set bv=QDs
+endfunction
+function T8R takes integer A8R,integer I8R returns nothing
+local integer X8R=LoadInteger(cv,A8R,2)
+local integer n8R=0
+loop
+exitwhen n8R==X8R
+call UDs(A8R,n8R,I8R)
+set n8R=n8R+1
+endloop
+endfunction
+function Cjv takes integer Mjv,integer gjv,integer ujv returns integer
+local integer Ajv=Kv
+local integer Ijv=Ev
+local integer Xjv=Jv
+local integer njv=ev
+local integer Tjv=tv
+local integer Ojv=xv
+local integer ajv=bv
+local integer fjv
+set Kv=Mjv
+set Ev=gjv
+set Jv=ujv
+set ev=LoadInteger(Bv,Mjv,gjv)
+set tv=LoadInteger(Hv,Mjv,gjv)
+set xv=LoadInteger(ov,Mjv,gjv)
+set bv=0
+call TriggerEvaluate(LoadTriggerHandle(jv,1,ev))
+set fjv=bv
+set Kv=Ajv
+set Ev=Ijv
+set Jv=Xjv
+set ev=njv
+set tv=Tjv
+set xv=Ojv
+set bv=ajv
+return fjv
+endfunction
+function tcv takes integer ocv,integer jcv returns boolean
+local integer Kcv
+local integer Ecv
+local integer Jcv
+local boolean ecv
+if not LoadBoolean(cv,ocv,1) then
+return false
+endif
+set Kcv=LoadInteger(cv,ocv,3)
+set Ecv=0
+set ecv=true
+loop
+exitwhen Ecv==Kcv
+set Jcv=Cjv(ocv,Ecv,jcv)
+if Jcv!=0 then
+set ecv=false
+exitwhen Jcv==2
+endif
+set Ecv=Ecv+1
+endloop
+return ecv
+endfunction
+function ODv takes nothing returns boolean
+local string nDv
+local integer TDv
+if Rs==0 or ss==null then
+set nDv="Fusion: 필수 설정이 제공되지 않았습니다."
+set TDv=0
+loop
+call DisplayTimedTextToPlayer(Player(TDv),0.,0.,60.,nDv)
+set TDv=TDv+1
+exitwhen TDv==bj_MAX_PLAYERS
+endloop
+return false
+endif
+set TDv=GetPlayerId(ss)
+if not tcv(Rs,TDv) then
+return false
+endif
+call G9s(Rs,TDv)
+call T8R(Rs,TDv)
+call TriggerEvaluate(Ys)
+return true
+endfunction
+function ABs takes nothing returns nothing
+local player MBs
+local real gBs
+local real uBs
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$59593138
+set MBs=GetTriggerPlayer()
+set gBs=GetStartLocationX(GetPlayerStartLocation(MBs))
+set MBs=GetTriggerPlayer()
+set uBs=GetStartLocationY(GetPlayerStartLocation(MBs))
+set Ws=gBs
+set is=uBs
+set rs=true
+if not ODv() then
+set MBs=null
+return
+endif
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000캐럿 : |r|cffFA8072내 당근!|r")
+if GetLocalPlayer()==GetTriggerPlayer() then
+call StartSound(Ip)
+endif
+set MBs=null
+endfunction
+function ACs takes nothing returns nothing
+if wWR(1,$64)<=15 then
+call TriggerExecute(xd)
+endif
+endfunction
+function u2R takes player J2R,integer e2R,integer t2R,real x2R,real b2R,real M2R returns nothing
+local integer g2R=0
+if not ks[GetPlayerId(J2R)]then
+return
+endif
+loop
+exitwhen g2R>=t2R
+call CreateUnit(J2R,e2R,x2R,b2R,M2R)
+set g2R=g2R+1
+endloop
+endfunction
+function FqR takes player aqR,integer fqR returns nothing
+local real CqR=GetRectCenterX(yY)
+local real LqR=GetRectCenterY(yY)
+call u2R(aqR,$65303138,fqR,CqR,LqR,bj_UNIT_FACING)
+endfunction
+function d0s takes integer Y0s returns nothing
+if Y0s==0 then
+return
+elseif hH[Y0s]!=-1 then
+return
+endif
+set hH[Y0s]=SH
+set SH=Y0s
+endfunction
+function pJs takes integer PJs returns nothing
+set I=PJs
+call TriggerEvaluate(A)
+call d0s(PJs)
+endfunction
+function Nss takes integer Gss,integer qss returns nothing
+local integer Zss
+local boolean yss
+local integer lss
+set gs[Gss]=gs[Gss]+qss
+set yss=false
+set Zss=SH
+if Zss!=0 then
+set SH=hH[Zss]
+else
+set VH=VH+1
+set Zss=VH
+endif
+if Zss>$1ffe then
+set lss=0
+set yss=true
+endif
+if not yss then
+set hH[Zss]=-1
+endif
+if not yss then
+set lss=Zss
+set yss=true
+endif
+if not yss then
+set lss=0
+endif
+set QH=lss
+set cH[QH]=Player(Gss)
+set kH[QH]=gs[Gss]
+call pJs(QH)
+endfunction
+function QyR takes integer SyR,integer VyR,integer hyR returns integer
+local integer cyR
+local integer kyR
+if hyR==0 then
+set cyR=jW[SyR]-1
+set kyR=oW[SyR*$1f4+VyR]
+set oW[SyR*$1f4+VyR]=oW[SyR*$1f4+cyR]
+set jW[SyR]=cyR
+else
+set cyR=EW[SyR]-1
+set kyR=KW[SyR*$1f4+VyR]
+set KW[SyR*$1f4+VyR]=KW[SyR*$1f4+cyR]
+set EW[SyR]=cyR
+endif
+return kyR
+endfunction
+function sER takes player FKR,integer vER returns nothing
+local integer RER=GetPlayerId(FKR)
+if vER==$41493030 then
+call UnitAddAbility(vp[RER],$41304b4d)
+elseif vER==$41493031 then
+call UnitAddAbility(vp[RER],$41304e58)
+elseif vER==$41493032 then
+call UnitAddAbility(vp[RER],$41304e5a)
+elseif vER==$41493033 then
+call UnitAddAbility(vp[RER],$41304f30)
+elseif vER==$41493034 then
+call UnitAddAbility(vp[RER],$41304f31)
+elseif vER==$41493035 then
+call UnitAddAbility(vp[RER],$41304f32)
+elseif vER==$41493036 then
+call UnitAddAbility(vp[RER],$41304f33)
+elseif vER==$41493037 then
+call UnitAddAbility(vp[RER],$41304f34)
+elseif vER==$41493038 then
+call UnitAddAbility(vp[RER],$41304f35)
+elseif vER==$41493039 then
+call UnitAddAbility(vp[RER],$41304f36)
+elseif vER==$41493130 then
+call IncUnitAbilityLevel(sp[RER],$41303544)
+call DisplayTimedTextToPlayer(FKR,0.,0.,5.,"|cffa548fc[아이템]|r |cffff8200기록지침 :: |r|ce32bb454[탐색]|r 스킬이 강화되었습니다.")
+elseif vER==$41493133 then
+set xs[RER]=xs[RER]+1.
+set hP[RER]=hP[RER]+2
+if $68303843==GetUnitTypeId(pp[RER]) then
+call AddUnitToStock(pp[RER],$6830414b,hP[RER],7)
+endif
+call DisplayTimedTextToPlayer(FKR,0.,0.,5.,"|cffa548fc[아이템]|r 라인존 골드 획득량이 |cffffd700100%|r 증가했습니다.")
+call DisplayTimedTextToPlayer(FKR,0.,0.,5.,"|cffa548fc[아이템]|r 목재 구입 재고량이 |cffffd7002|r 증가합니다.")
+elseif vER==$41493134 then
+call UnitAddAbility(vp[RER],$41304f37)
+elseif vER==$41493135 then
+call SetPlayerTechResearched(Player(RER),$52303335,1)
+call DisplayTimedTextToPlayer(FKR,0.,0.,5.,"|cffa548fc[아이템]|r '도움소' 마나 재생이 |cffffd700초당 0.2|r 증가합니다.")
+elseif vER==$41493138 then
+call SetPlayerTechResearched(Player(RER),$52303341,1)
+call DisplayTimedTextToPlayer(FKR,0.,0.,5.,"|cffa548fc[아이템]|r '도움소' 마나 재생이 |cffffd700초당 0.5|r 증가합니다.")
+elseif vER==$41493139 then
+set Js[RER]=Js[RER]+5
+call DisplayTimedTextToPlayer(FKR,0.,0.,5.,"|cffa548fc[아이템]|r 자신의 라인존 |cff87cefa마법방어력 5%|r 감소합니다.")
+elseif vER==$41493230 then
+set es[RER]=es[RER]+5
+call DisplayTimedTextToPlayer(FKR,0.,0.,5.,"|cffa548fc[아이템]|r 자신의 라인존 |cff66cdaa폭발형 데미지 5%|r 증가합니다.")
+endif
+endfunction
+function vus takes player Lgs,integer Fgs returns nothing
+call SetPlayerAbilityAvailable(Lgs,Fgs,true)
+call SaveBoolean(kW,GetPlayerId(Lgs),Fgs,true)
+call sER(Lgs,Fgs)
+endfunction
+function Bos takes player Vos,integer hos returns integer
+local integer cos=GetPlayerId(Vos)
+local integer kos=-1
+local boolean Uos=false
+local integer Qos=0
+loop
+exitwhen Qos>=jW[cos]
+if oW[cos*$1f4+Qos]==hos then
+set kos=hos
+set Uos=true
+call QyR(cos,Qos,0)
+set Is[cos]=Is[cos]+1
+exitwhen true
+endif
+set Qos=Qos+1
+endloop
+if not Uos then
+set Qos=0
+loop
+exitwhen Qos>=EW[cos]
+if KW[cos*$1f4+Qos]==hos then
+set kos=hos
+set Uos=true
+call QyR(cos,Qos,1)
+set Xs[cos]=Xs[cos]+1
+exitwhen true
+endif
+set Qos=Qos+1
+endloop
+endif
+if Uos then
+call vus(Vos,kos)
+set j=Vos
+call TriggerEvaluate(o)
+return kos
+endif
+return -1
+endfunction
+function kFv takes integer hFv,integer cFv returns nothing
+if Kp[hFv]==1 then
+set cFv=cFv+1
+endif
+set SP[hFv]=SP[hFv]+cFv
+call AddUnitToStock(pp[hFv],$48304157,SP[hFv],16)
+endfunction
+function PwR takes nothing returns nothing
+local integer fNR=0
+local player CNR
+local integer LNR
+local real FNR
+local real vwR
+local boolean RwR
+local boolean swR
+loop
+exitwhen fNR>=4
+if ks[fNR]then
+set CNR=Player(fNR)
+call SetPlayerState(CNR,PLAYER_STATE_RESOURCE_GOLD,GetPlayerState(CNR,PLAYER_STATE_RESOURCE_GOLD)+$1f40)
+set CNR=Player(fNR)
+call SetPlayerState(CNR,PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(CNR,PLAYER_STATE_RESOURCE_LUMBER)+4)
+set CNR=Player(fNR)
+set FNR=GetRectCenterX(OY)
+set vwR=GetRectCenterY(OY)
+call u2R(CNR,$65303139,3,FNR,vwR,bj_UNIT_FACING)
+call SetPlayerTechResearched(Player(fNR),$5230314f,1)
+call kFv(fNR,1)
+if wWR(1,$64)<=5 then
+set CNR=Player(fNR)
+set RwR=false
+if not HaveSavedBoolean(kW,GetPlayerId(CNR),$41493032) then
+set swR=false
+set RwR=true
+endif
+if not RwR then
+set swR=LoadBoolean(kW,GetPlayerId(CNR),$41493032)
+set RwR=true
+endif
+if not RwR then
+set swR=false
+endif
+if not swR then
+set LNR=Bos(Player(fNR),$41493032)
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,GetPlayerName(Player(fNR))+"|r 님이 "+GetObjectName($6e303038)+" 를 파괴하여 "+GetObjectName(LNR)+" 획득!")
+endif
+endif
+endif
+set fNR=fNR+1
+endloop
+set CNR=null
+endfunction
+function Yms takes integer mms returns nothing
+if uW[mms]!=null and GetLocalPlayer()==Player(mms) then
+call LeaderboardDisplay(uW[mms],false)
+endif
+endfunction
+function U4v takes integer Q4v returns real
+if IR>0 then
+return tR[Q4v]+8.
+endif
+return tR[Q4v]
+endfunction
+function xCv takes integer tCv returns real
+if uR>0 then
+return xR[tCv]+5.
+endif
+return xR[tCv]
+endfunction
+function ics takes integer Wcs returns nothing
+set AW[Wcs]=LeaderboardGetItemCount(uW[Wcs])
+if IW[Wcs]then
+call LeaderboardAddItem(uW[Wcs],"|cffffcc00[유틸리티 정보 - 수동 갱신]|r",0,Player(Wcs))
+else
+call LeaderboardAddItem(uW[Wcs],"|cffffcc00[유틸 갱신 버튼을 눌러주세요]|r",0,Player(Wcs))
+endif
+call LeaderboardAddItem(uW[Wcs],"방어력 감소 합계 : |cffffcc00"+R2SW(U4v(Wcs),1,1)+"|r",0,Player(Wcs))
+call LeaderboardAddItem(uW[Wcs],"발동형 방어력 감소 : |cffffcc00"+R2SW(MR[Wcs],1,1)+"|r",0,Player(Wcs))
+call LeaderboardAddItem(uW[Wcs],"오라형 이동속도 감소 : |cffffcc00"+R2SW(xCv(Wcs),1,1)+"%|r",0,Player(Wcs))
+call LeaderboardAddItem(uW[Wcs],"발동형 이동속도 감소 : |cffffcc00"+R2SW(bR[Wcs],1,1)+"%|r",0,Player(Wcs))
+endfunction
+function wIs takes integer NIs returns nothing
+if uW[NIs]==null then
+set uW[NIs]=CreateLeaderboard()
+call LeaderboardSetStyle(uW[NIs],true,true,false,false)
+endif
+call PlayerSetLeaderboard(Player(NIs),uW[NIs])
+call LeaderboardSetLabel(uW[NIs],"유틸보드")
+call LeaderboardClear(uW[NIs])
+call LeaderboardAddItem(uW[NIs],"|cffaaaaaa현재 진행 중인 스토리 기여도 없음|r",0,Player(NIs))
+call ics(NIs)
+call LeaderboardSetSizeByItemCount(uW[NIs],LeaderboardGetItemCount(uW[NIs]))
+if GetLocalPlayer()==Player(NIs) then
+call LeaderboardDisplay(uW[NIs],as[NIs])
+endif
+endfunction
+function PQR takes nothing returns nothing
+local string OkR=""
+local unitstate LkR=UNIT_STATE_MAX_LIFE
+local unit FkR=GetTriggerUnit()
+local real akR=GetUnitState(FkR,LkR)
+local integer CkR=0
+local real fkR
+local integer vQR
+local integer RQR
+local player sQR
+loop
+exitwhen CkR>=4
+if as[CkR]then
+call wIs(CkR)
+else
+call Yms(CkR)
+endif
+set CkR=CkR+1
+endloop
+call PauseTimer(bk)
+set Mk=false
+set vQR=0
+set RQR=0
+loop
+exitwhen vQR>=4
+if ks[vQR] and GetPlayerSlotState(Player(vQR))==PLAYER_SLOT_STATE_PLAYING and GetPlayerController(Player(vQR))==MAP_CONTROL_USER then
+set RQR=RQR+1
+endif
+set vQR=vQR+1
+endloop
+if RQR==2 then
+set gk=30
+elseif RQR==3 then
+set gk=25
+else
+set gk=20
+endif
+set CkR=0
+loop
+exitwhen CkR>=4
+if ks[CkR]then
+set fkR=100.*(xk[CkR]/akR)
+set Xk[CkR]=fkR>=I2R(gk)
+set RQR=R2I(($12c-mR[7])*fkR*5./100.)
+call DisplayTimedTextToPlayer(Player(CkR),0.,0.,5.,"|cffffd700자신이 가한데미지는 "+R2SW(fkR,0,2)+"% 입니다.")
+if RQR>0 then
+call DisplayTimedTextToPlayer(Player(CkR),0.,0.,10.,"|cffdc143c[클리어점수]|r 스토리 파괴 : |cffffd700"+I2S(RQR)+"점|r")
+call Nss(CkR,RQR)
+endif
+if uk<=xk[CkR]then
+set uk=xk[CkR]
+set Ak=CkR
+set Ik=fkR
+endif
+endif
+set CkR=CkR+1
+endloop
+set JP[Ak]=JP[Ak]+1
+set WR[7]=Player(Ak)
+set iR[7]=Ik*1.
+call PwR()
+set CkR=0
+loop
+exitwhen CkR>=4
+if ks[CkR] and Xk[CkR]then
+call DisplayTimedTextToPlayer(Player(CkR),0.,0.,10.,"기여도 "+I2S(gk)+"% 이상으로 |cff7ad823목재 1개|r 추가 획득!")
+set sQR=Player(CkR)
+call SetPlayerState(sQR,PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(sQR,PLAYER_STATE_RESOURCE_LUMBER)+1)
+endif
+set CkR=CkR+1
+endloop
+call FqR(Player(Ak),1)
+set OkR=OkR+"|cffFF0000"+GetObjectName($6e303038)+"|r 스토리 진행 완료! 모든 플레이어에게 보상을 지급합니다.\n"
+set OkR=OkR+"|cffffdead◎|r 재화 : |cffffd7008000 골드|r, |cff7ad8234 목재|r\n"
+set OkR=OkR+"|cffffdead◎|r 유닛 : |cffff00ff"+GetObjectName($65303139)+"|r 3개\n"
+set OkR=OkR+"|cffffdead◎|r MVP : "+GetPlayerName(Player(Ak))+" (기여도 : |cffFF0000"+R2SW(Ik,0,2)+"%|r)\n"
+set OkR=OkR+"|cffffdead　▶|r 해당 플레이어에게 |cffff8200"+GetObjectName($65303138)+"|r 1개를 추가 지급합니다!"
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,OkR)
+set LkR=null
+set FkR=null
+set sQR=null
+endfunction
+function hjR takes timer VjR returns nothing
+if VjR==null then
+return
+endif
+if qR==$1ffe then
+call DestroyTimer(VjR)
+else
+call PauseTimer(VjR)
+if LoadInteger(GR,0,GetHandleId(VjR))==$28829022 then
+return
+endif
+call SaveInteger(GR,0,GetHandleId(VjR),$28829022)
+set Pt[qR]=VjR
+set qR=qR+1
+endif
+endfunction
+function ADR takes nothing returns nothing
+call hjR(Ek)
+set mR[7]=Kk
+call PQR()
+call TriggerEvaluate(h)
+call TriggerEvaluate(LoadTriggerHandle(T,8,8))
+endfunction
+function AFs takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+endfunction
+function AHR takes nothing returns nothing
+local integer uHR
+if GetLocalPlayer()==U then
+set uHR=eE[0]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,uHR),true)
+endif
+endfunction
+function AWR takes integer MWR,real gWR,integer uWR returns nothing
+if po[MWR]==null then
+return
+endif
+set Ro[MWR]=uWR
+set ro[MWR]=false
+call TimerStart(po[MWR],gWR,false,Mx)
+endfunction
+function Ehs takes integer jhs,real Khs returns nothing
+call AWR(jhs,Khs,vo[jhs]+1)
+endfunction
+function IuR takes unit uuR,sound AuR returns nothing
+if AuR!=null then
+if GetLocalPlayer()==GetOwningPlayer(uuR) then
+call AttachSoundToUnit(AuR,uuR)
+call SetSoundVolume(AuR,$7f)
+call StartSound(AuR)
+endif
+endif
+endfunction
+function XUR takes integer AUR,integer IUR returns nothing
+if LoadInteger(Qj,0,AUR*$1b74+$dba+IUR+2)-2==-2 then
+call SaveInteger(Qj,0,AUR*$1b74+$dba+IUR+2,uj[AUR]+2)
+set uj[AUR]=IUR
+endif
+endfunction
+function ZyR takes integer dyR,integer GyR,location qyR returns nothing
+call XUR(dyR,GyR)
+call RemoveSavedHandle(Aj,0,dyR*$1f4+GyR)
+call SaveLocationHandle(Aj,0,dyR*$1f4+GyR,qyR)
+endfunction
+function WQs takes integer PQs,integer pQs,location rQs returns nothing
+call RemoveLocation(LoadLocationHandle(Aj,0,PQs*$1f4+pQs))
+call ZyR(PQs,pQs,rQs)
+endfunction
+function xys takes integer tys returns nothing
+endfunction
+function pvs takes nothing returns integer
+local integer Rvs
+local boolean svs
+local integer Pvs
+set LH=true
+set svs=false
+set Rvs=aH
+if Rvs!=0 then
+set aH=CH[Rvs]
+else
+set fH=fH+1
+set Rvs=fH
+endif
+if Rvs>$1ffe then
+set Pvs=0
+set svs=true
+endif
+if not svs then
+set FH[Rvs]=$28829022
+endif
+if not svs then
+set vo[Rvs]=$28829022
+endif
+if not svs then
+set Vj[Rvs]=0
+endif
+if not svs then
+set Uj[Rvs]=-1
+endif
+if not svs then
+set Hj[Rvs]=-1
+endif
+if not svs then
+set jj[Rvs]=-1
+endif
+if not svs then
+set Ej[Rvs]=-1
+endif
+if not svs then
+set ej[Rvs]=-1
+endif
+if not svs then
+set xj[Rvs]=-1
+endif
+if not svs then
+set Mj[Rvs]=-1
+endif
+if not svs then
+set uj[Rvs]=-1
+endif
+if not svs then
+set Ij[Rvs]=-1
+endif
+if not svs then
+set nj[Rvs]=-1
+endif
+if not svs then
+set Oj[Rvs]=-1
+endif
+if not svs then
+set fj[Rvs]=-1
+endif
+if not svs then
+set Lj[Rvs]=-1
+endif
+if not svs then
+set vK[Rvs]=-1
+endif
+if not svs then
+set CH[Rvs]=-1
+endif
+if not svs then
+set Pvs=Rvs
+set svs=true
+endif
+if not svs then
+set Pvs=0
+endif
+set Rvs=Pvs
+set Op=Rvs
+set Po[Rvs]=GetTriggerEventId()
+set po[Rvs]=BRs(Rvs)
+set so[Rvs]=GetTriggeringTrigger()
+call TimerStart(po[Rvs],0.,false,gx)
+set hj=Rvs
+call TriggerEvaluate(pt[GetHandleId(Po[Rvs])])
+call xys(Rvs)
+return Rvs
+endfunction
+function ZQv takes integer GQv returns nothing
+local integer qQv
+if Op!=0 and vo[Op]==$28829022 then
+set vo[Op]=GQv
+return
+elseif LH then
+return
+endif
+set qQv=pvs()
+set vo[qQv]=GQv
+endfunction
+function TPs takes integer nPs returns nothing
+set Yx=nPs
+call TriggerEvaluate(Zt)
+endfunction
+function Zos takes integer qos returns nothing
+if qos==0 then
+return
+elseif CH[qos]!=-1 then
+return
+endif
+set Yx=qos
+call TriggerEvaluate(qt)
+set CH[qos]=aH
+set aH=qos
+endfunction
+function qjR takes integer GjR returns nothing
+if po[GjR]==null then
+return
+endif
+set hj=GjR
+call TriggerEvaluate(Wt[GetHandleId(Po[GjR])])
+call hjR(po[GjR])
+set po[GjR]=null
+call TPs(GjR)
+call Zos(GjR)
+endfunction
+function N5s takes integer y5s,integer l5s returns nothing
+if LoadInteger(Qj,0,y5s*$1b74+$bc4+l5s+2)-2==-2 then
+call SaveInteger(Qj,0,y5s*$1b74+$bc4+l5s+2,Mj[y5s]+2)
+set Mj[y5s]=l5s
+endif
+endfunction
+function rRR takes integer sRR,integer PRR,unit pRR returns nothing
+call N5s(sRR,PRR)
+call RemoveSavedHandle(gj,0,sRR*$1f4+PRR)
+call SaveUnitHandle(gj,0,sRR*$1f4+PRR,pRR)
+endfunction
+function vPR takes string nsR,string TsR,integer OsR,real asR,boolean fsR,real CsR,real LsR returns sound
+local integer FsR=GetSoundFileDuration(nsR)
+set rR=LoadSoundHandle(pR,StringHash(TsR),StringHash(nsR))
+if rR==null then
+if fsR then
+set rR=CreateSound(nsR,false,true,false,10,10,"DefaultEAXON")
+call SetSoundDuration(rR,FsR)
+call SetSoundChannel(rR,0)
+call SetSoundVolume(rR,OsR)
+call SetSoundPitch(rR,asR)
+call SetSoundDistances(rR,CsR,LsR)
+call SetSoundDistanceCutoff(rR,(CsR+LsR)/2.)
+call SetSoundConeAngles(rR,.0,.0,$7f)
+call SetSoundConeOrientation(rR,.0,.0,.0)
+else
+set rR=CreateSound(nsR,false,false,false,10,10,"DefaultEAXON")
+call SetSoundDuration(rR,FsR)
+call SetSoundChannel(rR,0)
+call SetSoundVolume(rR,OsR)
+call SetSoundPitch(rR,asR)
+endif
+call SaveSoundHandle(pR,StringHash(TsR),StringHash(nsR),rR)
+endif
+return rR
+endfunction
+function AIR takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303849,LoadLocationHandle(Aj,0,Op*$1f4),AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1))))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),150.,9999.)
+if wWR(1,2)==1 then
+set bj_lastPlayedSound=vPR("SE\\sandi_kick3.wav",null,$7f,1.,true,2000.,2500.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+else
+set bj_lastPlayedSound=vPR("SE\\sandi_kick5.wav",null,$7f,1.,true,2000.,2500.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+endif
+call Ehs(Op,.11)
+endif
+if vo[Op]==1 then
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),85.,GetRandomReal(0.,360.)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$6530384c,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call rRR(Op,10,CreateUnitAtLoc(ds,$6530374c,LoadLocationHandle(Aj,0,Op*$1f4+2),AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1))))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.1,1.,1.)
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.25)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303454,LoadLocationHandle(Aj,0,Op*$1f4+2),GetRandomReal(0.,360.)))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),99.,0.)
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,51,51,$ff)
+call YIs(LoadUnitHandle(gj,0,Op*$1f4),.0,475.,LoadLocationHandle(Aj,0,Op*$1f4+1),550000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),450000.,1.,1.50,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call qjR(Op)
+endif
+endfunction
+function FMv takes string OMv,boolean aMv,code fMv returns nothing
+local integer CMv=0
+local trigger LMv=CreateTrigger()
+call TriggerAddAction(LMv,fMv)
+loop
+exitwhen CMv>=4
+call TriggerRegisterPlayerChatEvent(LMv,Player(CMv),OMv,aMv)
+set CMv=CMv+1
+endloop
+set LMv=null
+endfunction
+function AKs takes nothing returns nothing
+call FMv("-오프라인모드",true,l4)
+call FMv("-offline",true,l4)
+endfunction
+function LyR takes player ayR,integer fyR returns integer
+local integer CyR=GetPlayerId(ayR)
+if fyR==0 then
+return us[CyR]
+elseif fyR==1 then
+return As[CyR]
+endif
+return 0
+endfunction
+function bjv takes player ojv,integer jjv,integer Kjv returns nothing
+local integer Ejv=GetPlayerId(ojv)
+local string Jjv
+local integer ejv
+local string tjv
+local integer xjv
+if jjv<=0 then
+set Jjv="|cffff0000[오류]|r index에 0보다 같거나 작은값이 입력되었습니다"
+set ejv=0
+loop
+call DisplayTimedTextToPlayer(Player(ejv),0.,0.,60.,Jjv)
+set ejv=ejv+1
+exitwhen ejv==bj_MAX_PLAYERS
+endloop
+return
+endif
+if jjv>10 then
+set Jjv="|cffff0000[오류]|r index에 10보다 큰값이 입력되었습니다. 최대값은 10 입니다"
+set ejv=0
+loop
+call DisplayTimedTextToPlayer(Player(ejv),0.,0.,60.,Jjv)
+set ejv=ejv+1
+exitwhen ejv==bj_MAX_PLAYERS
+endloop
+return
+endif
+if Kjv==0 then
+if us[Ejv]+jjv>10 then
+set tjv="|cffff0000[오류]|r 아이템 스택이 최대값인 10을 초과했습니다"
+set xjv=0
+loop
+call DisplayTimedTextToPlayer(Player(xjv),0.,0.,60.,tjv)
+set xjv=xjv+1
+exitwhen xjv==bj_MAX_PLAYERS
+endloop
+return
+endif
+call UnitRemoveAbility(sp[Ejv],LoadInteger(kW,0,us[Ejv]))
+set us[Ejv]=us[Ejv]+jjv
+call UnitAddAbility(sp[Ejv],LoadInteger(kW,0,us[Ejv]))
+call DisplayTimedTextToPlayer(ojv,0.,0.,5.,"|cff04ffc4[알림]|r |cffA6A6A6아이템 발굴|r 스택이 |cff1e90ff"+I2S(jjv)+"|r 증가했습니다.")
+call DisplayTimedTextToPlayer(ojv,0.,0.,5.,"현재 |cffA6A6A6아이템 발굴|r 스택 : |cff1e90ff"+I2S(LyR(ojv,0))+"|r")
+elseif Kjv==1 then
+if As[Ejv]+jjv>10 then
+set tjv="|cffff0000[오류]|r 유니크 아이템 스택이 최대값인 10을 초과했습니다"
+set xjv=0
+loop
+call DisplayTimedTextToPlayer(Player(xjv),0.,0.,60.,tjv)
+set xjv=xjv+1
+exitwhen xjv==bj_MAX_PLAYERS
+endloop
+return
+endif
+call UnitRemoveAbility(sp[Ejv],LoadInteger(kW,1,As[Ejv]))
+set As[Ejv]=As[Ejv]+jjv
+call UnitAddAbility(sp[Ejv],LoadInteger(kW,1,As[Ejv]))
+call DisplayTimedTextToPlayer(ojv,0.,0.,5.,"|cff04ffc4[알림]|r |cffFF8200유니크 아이템 발굴|r 스택이 |cff1e90ff"+I2S(jjv)+"|r 증가했습니다.")
+call DisplayTimedTextToPlayer(ojv,0.,0.,5.,"현재 |cffFF8200유니크 아이템 발굴|r 스택 : |cff1e90ff"+I2S(LyR(ojv,1))+"|r")
+endif
+endfunction
+function e4s takes nothing returns integer
+local integer J4s=ZH
+if J4s!=0 then
+set ZH=lH[J4s]
+else
+set yH=yH+1
+set J4s=yH
+endif
+if J4s>$1ffe then
+return 0
+endif
+set lH[J4s]=-1
+return J4s
+endfunction
+function sDR takes integer RDR returns nothing
+if RDR==0 then
+return
+elseif lH[RDR]!=-1 then
+return
+endif
+set lH[RDR]=ZH
+set ZH=RDR
+endfunction
+function rbv takes integer pbv returns nothing
+set u=pbv
+call TriggerEvaluate(g)
+call sDR(pbv)
+endfunction
+function jFv takes integer QFv,integer UFv returns nothing
+local player BFv
+local player HFv
+local real oFv
+if QFv==1 then
+if not RV[UFv]then
+call DisplayTimedTextToPlayer(Player(UFv),0.,0.,3.,"|cff04ffc4[알림]|r |cffffae00최고의도움 :: 최대출력|r 을(를) 선택하셨습니다.")
+endif
+call SetPlayerTechResearched(Player(UFv),$52303337,1)
+call DisplayTimedTextToPlayer(Player(UFv),0.,0.,3.,"|cffF15F5F[시스템]|r |cffffae00최고의도움 :: 최대출력|r 항법효과로 도움소 스킬이 강화됩니다.")
+call DisplayTimedTextToPlayer(Player(UFv),0.,0.,3.,"|cffF15F5F[시스템]|r |cffffae00최고의도움 :: 최대출력|r 항법효과로 도움소에 |cff51ddf5마나포션|r 스킬이 추가됩니다.")
+call SetUnitAbilityLevel(Wp[UFv],$4130425a,2)
+call SetUnitAbilityLevel(Wp[UFv],$41304259,2)
+call SetUnitAbilityLevel(Wp[UFv],$41303754,2)
+call SetUnitAbilityLevel(Wp[UFv],$41303758,2)
+call SetUnitAbilityLevel(Wp[UFv],$41303757,2)
+call UnitAddAbility(Wp[UFv],$41305559)
+set DH=e4s()
+set NH[DH]=Player(UFv)
+set wH[DH]="ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp"
+call rbv(DH)
+set Bp[UFv]="최대출력"
+set Bs[UFv]=true
+elseif QFv==2 then
+if not RV[UFv]then
+call DisplayTimedTextToPlayer(Player(UFv),0.,0.,3.,"|cff04ffc4[알림]|r |cffffae00최고의도움 :: 연금술|r 을(를) 선택하셨습니다.")
+endif
+call SetPlayerTechResearched(Player(UFv),$52303337,1)
+call DisplayTimedTextToPlayer(Player(UFv),0.,0.,3.,"|cffF15F5F[시스템]|r |cffffae00최고의도움 :: 연금술|r 항법효과로 도움소에 |cffff0000'연금술'|r 스킬이 추가됩니다.")
+call UnitAddAbility(Wp[UFv],$41304a32)
+set DH=e4s()
+set NH[DH]=Player(UFv)
+set wH[DH]="ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp"
+call rbv(DH)
+set Bp[UFv]="연금술"
+set Bs[UFv]=true
+elseif QFv==3 then
+if not RV[UFv]then
+call DisplayTimedTextToPlayer(Player(UFv),0.,0.,3.,"|cff04ffc4[알림]|r |cffffae00최고의도움 :: 역발상|r 을(를) 선택하셨습니다.")
+endif
+call DisplayTimedTextToPlayer(Player(UFv),0.,0.,3.,"|cffF15F5F[시스템]|r |cffffae00최고의도움 :: 역발상|r 항법효과로 도움소 마나소모가 |cffff0000150|r 이하 스킬 사용 가능")
+call UnitRemoveAbility(Wp[UFv],$4130425a)
+call UnitRemoveAbility(Wp[UFv],$41304259)
+call UnitRemoveAbility(Wp[UFv],$41303758)
+call UnitRemoveAbility(Wp[UFv],$41303754)
+call UnitRemoveAbility(Wp[UFv],$41303755)
+set HFv=Player(UFv)
+set BFv=Player(UFv)
+set oFv=GetStartLocationX(GetPlayerStartLocation(BFv))
+set BFv=Player(UFv)
+set bj_lastCreatedUnit=CreateUnit(HFv,$68303558,oFv,GetStartLocationY(GetPlayerStartLocation(BFv)),bj_UNIT_FACING)
+call DisplayTimedTextToPlayer(Player(UFv),0.,0.,3.,"|cffF15F5F[시스템]|r |cffffae00최고의도움 :: 역발상|r 항법효과로 "+GetUnitName(bj_lastCreatedUnit)+" 획득!")
+call bjv(Player(UFv),1,1)
+set DH=e4s()
+set NH[DH]=Player(UFv)
+set wH[DH]="ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp"
+call rbv(DH)
+set Bp[UFv]="역발상"
+set Bs[UFv]=true
+endif
+set Up[UFv]="최고의도움"
+set BFv=null
+set HFv=null
+endfunction
+function sTs takes nothing returns nothing
+local integer RTs=wW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,RTs),false)
+set RTs=DW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,RTs),false)
+set RTs=SW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,RTs),false)
+set RTs=VW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,RTs),false)
+set RTs=hW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,RTs),false)
+endfunction
+function m8R takes boolean W8R returns nothing
+local integer i8R
+if W8R then
+set i8R=GW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,i8R),true)
+set cW=true
+else
+call sTs()
+set i8R=NW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,i8R),false)
+set i8R=qW
+call BlzFrameSetText(LoadFrameHandle(pv,0,i8R),"기록지침")
+set i8R=lW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,i8R),true)
+set i8R=qK
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,i8R),false)
+set i8R=GW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,i8R),false)
+set cW=false
+endif
+endfunction
+function AKv takes nothing returns nothing
+local integer gKv=S2I(BlzGetTriggerSyncData())
+local integer uKv=GetPlayerId(GetTriggerPlayer())
+if Av<=20 then
+call DisplayTimedTextToPlayer(Player(uKv),0.,0.,5.,"|cff04ffc4[알림]|r 항법은 |cffFF000021 라운드|r부터 선택할 수 있습니다.")
+return
+endif
+if vV[uKv]then
+return
+endif
+set vV[uKv]=true
+call jFv(gKv,uKv)
+if GetLocalPlayer()==Player(uKv) then
+call m8R(false)
+endif
+endfunction
+function ANR takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(GetAttacker()))
+endfunction
+function ANv takes nothing returns nothing
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),GetEnumUnit(),3000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endfunction
+function LUR takes player fUR returns boolean
+local integer CUR=GetPlayerId(fUR)
+return Cp[CUR]==39 or Cp[CUR]==40 or Cp[CUR]==42 or Cp[CUR]==43 or Cp[CUR]==44 or Cp[CUR]==45 or Cp[CUR]==46
+endfunction
+function G7s takes unit W7s returns boolean
+local player i7s=GetOwningPlayer(W7s)
+local string m7s=wv[GetPlayerId(i7s)]
+local integer Y7s
+local boolean d7s
+if GetUnitTypeId(W7s)==$68303438 then
+set Y7s=$65
+elseif GetUnitTypeId(W7s)==$68303432 then
+set Y7s=81
+elseif GetUnitTypeId(W7s)==$68303254 then
+set Y7s=85
+elseif GetUnitTypeId(W7s)==$68303535 then
+set Y7s=$6a
+elseif GetUnitTypeId(W7s)==$68303543 then
+set Y7s=$68
+elseif GetUnitTypeId(W7s)==$68303538 then
+set Y7s=80
+elseif GetUnitTypeId(W7s)==$48303938 then
+set Y7s=$67
+elseif GetUnitTypeId(W7s)==$48303856 then
+set Y7s=$66
+elseif GetUnitTypeId(W7s)==$4830354e then
+set Y7s=$69
+elseif GetUnitTypeId(W7s)==$48303941 then
+set Y7s=83
+elseif GetUnitTypeId(W7s)==$48303936 then
+set Y7s=84
+elseif GetUnitTypeId(W7s)==$48303939 then
+set Y7s=$6c
+elseif GetUnitTypeId(W7s)==$48304244 then
+set Y7s=$6b
+elseif GetUnitTypeId(W7s)==$48303855 then
+set Y7s=86
+elseif GetUnitTypeId(W7s)==$68303441 then
+set Y7s=82
+else
+call DisplayTimedTextToPlayer(i7s,0.,0.,5.,"|cffff0000[Error]|r 해당 유닛은 스킨이 존재하지 않습니다.")
+set i7s=null
+return false
+endif
+set d7s=LoadBoolean(TW,StringHash(m7s),Y7s) or(GetUnitTypeId(W7s)==$48303855 and LUR(i7s))
+set i7s=null
+return d7s
+endfunction
+function APs takes nothing returns nothing
+local integer tPs
+local unit xPs
+local location bPs
+local player MPs
+local real gPs
+local real uPs
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$54523236
+set MPs=GetTriggerPlayer()
+set gPs=GetStartLocationX(GetPlayerStartLocation(MPs))
+set MPs=GetTriggerPlayer()
+set uPs=GetStartLocationY(GetPlayerStartLocation(MPs))
+set Ws=gPs
+set is=uPs
+set rs=true
+if not ODv() then
+set xPs=null
+set bPs=null
+set MPs=null
+return
+endif
+set xPs=FirstOfGroup(ms)
+set tPs=GetPlayerId(GetOwningPlayer(xPs))
+set bPs=GetStartLocationLoc(tPs)
+if Wy[tPs]==null then
+set Wy[tPs]=CreateUnitAtLoc(Player(tPs),$68303456,bPs,bj_UNIT_FACING)
+call UnitAddAbility(Wy[tPs],$41304c34)
+call UnitAddAbility(Wy[tPs],$41313057)
+set iy[tPs]=CreateUnitAtLoc(Player(tPs),$68304635,bPs,bj_UNIT_FACING)
+call UnitAddAbility(iy[tPs],$41304a31)
+endif
+call G7s(xPs)
+call StartSound(vPR("SE\\Law.mp3",null,$7f,1.,false,0.,0.))
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffc0c0c0트라팔가 로우 : |r|cff00fa9a지금부터 무슨 일이 일어나도 도망칠 곳은 없어! 정신 똑바로 차려, 너희들!|r")
+call RemoveLocation(bPs)
+set xPs=null
+set bPs=null
+set MPs=null
+endfunction
+function ARs takes nothing returns nothing
+local integer tRs
+local unit xRs
+local location bRs
+local player MRs
+local real gRs
+local real uRs
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$54523133
+set MRs=GetTriggerPlayer()
+set gRs=GetStartLocationX(GetPlayerStartLocation(MRs))
+set MRs=GetTriggerPlayer()
+set uRs=GetStartLocationY(GetPlayerStartLocation(MRs))
+set Ws=gRs
+set is=uRs
+set rs=true
+if not ODv() then
+set xRs=null
+set bRs=null
+set MRs=null
+return
+endif
+set xRs=FirstOfGroup(ms)
+set tRs=GetPlayerId(GetOwningPlayer(xRs))
+set bRs=GetStartLocationLoc(tRs)
+if Dy[tRs]==null then
+set Dy[tRs]=CreateUnitAtLoc(Player(tRs),$68303456,bRs,bj_UNIT_FACING)
+call UnitAddAbility(Dy[tRs],$41313642)
+call UnitAddAbility(Dy[tRs],$41304d38)
+set Sy[tRs]=CreateUnitAtLoc(Player(tRs),$68303456,bRs,bj_UNIT_FACING)
+call UnitAddAbility(Sy[tRs],$41313643)
+call UnitAddAbility(Sy[tRs],$41304d38)
+call UnitAddAbility(Sy[tRs],$41304d39)
+endif
+call StartSound(vPR("SE\\sabo.mp3",null,$7f,1.,false,0.,0.))
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffc0c0c0사보 : |r|cff00fa9a그 녀석의 의지는 우리들이 이어가는 거야!|r")
+call RemoveLocation(bRs)
+set xRs=null
+set bRs=null
+set MRs=null
+endfunction
+function ths takes integer Jhs,integer ehs returns nothing
+if LoadInteger(Qj,0,Jhs*$1b74+$11a6+ehs+2)-2==-2 then
+call SaveInteger(Qj,0,Jhs*$1b74+$11a6+ehs+2,nj[Jhs]+2)
+set nj[Jhs]=ehs
+endif
+endfunction
+function frR takes integer TrR,integer OrR,integer arR returns nothing
+call ths(TrR,OrR)
+call RemoveSavedInteger(Tj,0,TrR*$1f4+OrR)
+call SaveInteger(Tj,0,TrR*$1f4+OrR,arR)
+endfunction
+function g9R takes unit e9R,unit t9R,integer x9R returns nothing
+local real b9R=GetUnitX(e9R)-GetUnitX(t9R)
+local real M9R=GetUnitY(e9R)-GetUnitY(t9R)
+set b9R=SquareRoot(b9R*b9R+M9R*M9R)
+set M9R=GetUnitAcquireRange(e9R)+200.
+if x9R==0 or b9R>M9R or x9R==OrderId("holdposition") then
+call IssueImmediateOrder(e9R,"holdposition")
+return
+endif
+if (not IsUnitType(t9R,UNIT_TYPE_DEAD))and GetWidgetLife(t9R)>.405 and x9R==OrderId("attack") or(x9R==OrderId("smart") and IsUnitEnemy(t9R,GetOwningPlayer(e9R))) then
+call IssueTargetOrder(e9R,"attack",t9R)
+return
+endif
+call IssueImmediateOrder(e9R,"holdposition")
+endfunction
+function hSv takes integer DSv,real SSv,integer VSv returns nothing
+call AWR(DSv,SSv,vo[DSv]+VSv)
+endfunction

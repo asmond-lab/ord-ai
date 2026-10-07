@@ -1,0 +1,1800 @@
+}
+
+STRING 7997
+// 능력: A02K ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879모몬가|r - |cffff00ff희귀|r
+
+|c00b7b7f7징베|r - |cff0080ff특별|r
+|c00b7b7f7헤르메포|r - |cff0080ff특별|r
+|c00b7b7f7스모커|r - |cff0080ff특별|r
+}
+
+STRING 7998
+// 능력: A02J ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 비비 희귀함)
+}
+
+STRING 7999
+// 능력: A02I ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8000
+// 능력: A02J ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8001
+// 능력: A02I ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8002
+// 능력: A02J ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879네펠타리 비비|r - |cffff00ff희귀|r
+
+|c00b7b7f7챠카|r - |cff0080ff특별|r
+|c00b7b7f7크로커다일|r - |cff0080ff특별|r
+|c00b7b7f7나미 크리마텍트|r - |cff0080ff특별|r
+}
+
+STRING 8003
+// 능력: A02I ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 쵸파 안흔함)
+}
+
+STRING 8004
+// 능력: A02H ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8005
+// 능력: A02I ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8006
+// 능력: A02H ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8007
+// 능력: A02I ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cff7b68ee쵸파 럼블볼강화|r - |cff9553ec안흔함|r
+
+|cff20b2aa토니토니 쵸파|r - |cff00ff00흔함|r
+|cff20b2aa토니토니 쵸파|r - |cff00ff00흔함|r
+
+}
+
+STRING 8008
+// 능력: A02H ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 로우 전설적인)
+}
+
+STRING 8009
+// 능력: A02G ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8010
+// 능력: A02H ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8011
+// 능력: A02G ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8012
+// 능력: A02H ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700트라팔가 로우|r - |cffFF0000전설|r
+
+|c00e7b879트라팔가 로우|r - |cffff00ff희귀|r
+|c00e7b879유스타스 키드|r - |cffff00ff희귀|r
+|c00e7b879센토마루|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+}
+
+STRING 8013
+// 능력: A02G ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 흰수염 전설적인)
+}
+
+STRING 8014
+// 능력: A02F ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8015
+// 능력: A02G ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8016
+// 능력: A02F ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8017
+// 능력: A02G ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700흰수염|r - |cffFF0000전설|r
+
+|c00e7b879다이아몬드 죠즈|r - |cffff00ff희귀|r
+|c00e7b879마르코 불사조|r - |cffff00ff희귀|r
+|c00e7b879킨에몬|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+}
+
+STRING 8018
+// 능력: A02F ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 바르토로메오 희귀함)
+}
+
+STRING 8019
+// 능력: A02D ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8020
+// 능력: A02F ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8021
+// 능력: A02D ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8022
+// 능력: A02F ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879바르토로메오|r - |cffff00ff희귀|r
+
+|c00b7b7f7캡틴 크로|r - |cff0080ff특별|r
+|c00b7b7f7아론|r - |cff0080ff특별|r
+|c00b7b7f7파이러츠 도킹5|r - |cff0080ff특별|r
+}
+
+STRING 8023
+// 능력: A02E (!0227_용암용암열매), Name (이름 (anam))
+{
+!0227_용암용암열매
+}
+
+STRING 8024
+// 능력: A02E (!0227_용암용암열매), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff용암용암 열매 :: Lv.1|r
+}
+
+STRING 8025
+// 능력: A02E (!0227_용암용암열매), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D적을 녹여버릴 정도로 강한 마그마 공격을 합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 12% 확률 
+|cffffdead◎기본효과|r : 단일 적 |cff4374D91만 마법데미지|r
+
+|cffc68a12유성 화산|r
+|cffffdead◎발동조건|r : 공격시 10% 확률 
+|cffffdead◎범위|r : 700
+|cffffdead◎데미지|r : |cff4374D98000 마법데미지|r
+}
+
+STRING 8026
+// 능력: A02D ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 마르코 전설적인)
+}
+
+STRING 8027
+// 능력: A02C ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8028
+// 능력: A02D ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8029
+// 능력: A02C ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8030
+// 능력: A02D ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700마르코 환수종|r - |cffFF0000전설|r
+
+|c00e7b879마르코 불사조|r - |cffff00ff희귀|r
+|c00e7b879보아 핸콕|r - |cffff00ff희귀|r
+|c00e7b879베이비5|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+}
+
+STRING 8031
+// 능력: A02C ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 크래커 전설적인)
+}
+
+STRING 8032
+// 능력: A02B ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8033
+// 능력: A02C ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8034
+// 능력: A02B ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8035
+// 능력: A02C ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700샬롯 크래커|r - |cffFF0000전설|r
+
+|c00e7b879제프|r - |cffff00ff희귀|r
+|c00e7b879킨에몬|r - |cffff00ff희귀|r
+|c00e7b879슈가|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+}
+
+STRING 8036
+// 능력: A02B ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z X드레이크 특별함)
+}
+
+STRING 8037
+// 능력: A02A ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8038
+// 능력: A02B ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8039
+// 능력: A02A ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8040
+// 능력: A02B ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7X-드레이크|r - |cff0080ff특별|r
+
+|cff7b68ee타시기|r - |cff9553ec안흔함|r
+|cff7b68ee후쿠로|r - |cff9553ec안흔함|r
+|cff20b2aa토니토니 쵸파|r - |cff00ff00흔함|r
+
+}
+
+STRING 8041
+// 능력: A02A ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 죠즈 희귀함)
+}
+
+STRING 8042
+// 능력: A029 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8043
+// 능력: A02A ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8044
+// 능력: A029 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8045
+// 능력: A02A ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879다이아몬드 죠즈|r - |cffff00ff희귀|r
+
+|c00b7b7f7스쿼드|r - |cff0080ff특별|r
+|c00b7b7f7캡틴 크로|r - |cff0080ff특별|r
+|c00b7b7f7카포네 갱 벳지|r - |cff0080ff특별|r
+}
+
+STRING 8046
+// 능력: A029 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 압살롬 특별함)
+}
+
+STRING 8047
+// 능력: A028 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8048
+// 능력: A029 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8049
+// 능력: A028 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8050
+// 능력: A029 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7압살롬|r - |cff0080ff특별|r
+
+|cff7b68ee좀비|r - |cff9553ec안흔함|r
+|cff7b68ee좀비|r - |cff9553ec안흔함|r
+|cff7b68ee좀비|r - |cff9553ec안흔함|r
+|cff20b2aa나미|r - |cff00ff00흔함|r
+}
+
+STRING 8051
+// 능력: A028 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 마인오즈 희귀함)
+}
+
+STRING 8052
+// 능력: A027 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8053
+// 능력: A028 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8054
+// 능력: A027 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8055
+// 능력: A028 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879마인 오즈|r - |cffff00ff희귀|r
+
+|c00b7b7f7겟코 모리아|r - |cff0080ff특별|r
+|c00b7b7f7겟코 모리아|r - |cff0080ff특별|r
+|c00b7b7f7루피 기어세컨드|r - |cff0080ff특별|r
+}
+
+STRING 8056
+// 능력: A027 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 쿠마 전설적인)
+}
+
+STRING 8057
+// 능력: A026 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8058
+// 능력: A027 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8059
+// 능력: A026 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8060
+// 능력: A027 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700바솔로뮤 쿠마|r - |cffFF0000전설|r
+
+|c00e7b879센토마루|r - |cffff00ff희귀|r
+|c00e7b879베이비5|r - |cffff00ff희귀|r
+|c00e7b879쵸파 혼포인트|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+}
+
+STRING 8061
+// 능력: A026 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 카르가라 전설적인)
+}
+
+STRING 8062
+// 능력: A025 ([전설] 샹크스), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8063
+// 능력: A026 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8064
+// 능력: A025 ([전설] 샹크스), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8065
+// 능력: A026 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700카르가라|r - |cffFF0000전설|r
+
+|c00e7b879우솝 보잉열도|r - |cffff00ff희귀|r
+|c00e7b879브룩 음악가|r - |cffff00ff희귀|r
+|c00e7b879와이퍼|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+}
+
+STRING 8066
+// 능력: A024 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8067
+// 유닛: e0L5 (!0509,!1202_Effect BY_Wood_Eff_Ord_NiYa_Bh3_LiXingZaoWu), Name (이름 (unam))
+{
+!0509,!1202_Effect BY_Wood_Eff_Ord_NiYa_Bh3_LiXingZaoWu
+}
+
+STRING 8068
+// 능력: A024 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8069
+// 능력: A025 ([전설] 샹크스), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700샹크스|r - |cffFF0000전설|r
+
+|c00e7b879샹크스|r - |cffff00ff희귀|r
+|c00e7b879벤 베크만|r - |cffff00ff희귀|r
+|c00e7b879상디 디아블잠브|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+}
+
+STRING 8070
+// 능력: A024 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 마르코 특별함)
+}
+
+STRING 8071
+// 능력: A01X ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8072
+// 능력: A024 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8073
+// 능력: A01X ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8074
+// 능력: A024 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7마르코|r - |cff0080ff특별|r
+
+|cff7b68ee블루노|r - |cff9553ec안흔함|r
+|cff7b68ee포트거스.D.에이스|r - |cff9553ec안흔함|r
+|cff20b2aa상디|r - |cff00ff00흔함|r
+}
+
+STRING 8075
+// 능력: A023 (!0226_얼음얼음열매), EditorSuffix (에디터 접미사 (ansf))
+{
+(이동속도 감소)
+}
+
+STRING 8076
+// 능력: A023 (!0226_얼음얼음열매), Name (이름 (anam))
+{
+!0226_얼음얼음열매
+}
+
+STRING 8077
+// 능력: A023 (!0226_얼음얼음열매), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff얼음얼음 열매 :: Lv.1|r
+}
+
+STRING 8078
+// 능력: A023 (!0226_얼음얼음열매), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D얼음얼음 열매의 능력으로 적을 효율적으로 공격합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 10% 확률
+|cffffdead◎범위|r : 405
+|cffffdead◎데미지|r : |cff4374D99000 마법데미지|r
+|cffffdead◎추가효과|r : 0.95초 스턴
+
+|cffc68a12아이스타임|r
+|cffffdead◎기본효과|r : 800범위 적 이동속도 10% 감소
+}
+
+STRING 8079
+// 능력: A022 (!0224_특별간부), EditorSuffix (에디터 접미사 (ansf))
+{
+(마나젠)
+}
+
+STRING 8080
+// 능력: A022 (!0224_특별간부), Name (이름 (anam))
+{
+!0224_특별간부
+}
+
+STRING 8081
+// 능력: A022 (!0224_특별간부), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특별 간부|r
+}
+
+STRING 8082
+// 능력: A022 (!0224_특별간부), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D특별 간부의 지위로 아군의 사기를 상승시켜 줍니다.|r
+
+|cffffdead◎기본효과|r : 800범위 아군의 마나 초당 0.6 증가
+}
+
+STRING 8083
+// 능력: A021 (C_0000_복사용), EditorSuffix (에디터 접미사 (ansf))
+{
+(블링크)
+}
+
+STRING 8084
+// 능력: A021 (C_0000_복사용), Name (이름 (anam))
+{
+C_0000_복사용
+}
+
+STRING 8085
+// 능력: A021 (C_0000_복사용), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff수술수술열매 '워프'|r|cffffcc00(Q)|r
+}
+
+STRING 8086
+// 능력: A021 (C_0000_복사용), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D수술수술열매의 능력으로 단거리를 순간이동 할 수 있습니다.|r
+
+|cffffdead◎기본효과|r : 1000범위까지 순간이동
+|cffffdead◎쿨타임|r : 5초
+}
+
+STRING 8087
+// 능력: A020 (!0000_복사용), EditorSuffix (에디터 접미사 (ansf))
+{
+(이동속도 감소)
+}
+
+STRING 8088
+// 마법/효과: B08A (!0000_복사용), EditorName (이름 (오직 에디터) (fnam))
+{
+!0000_복사용
+}
+
+STRING 8089
+// 능력: A01Z (!0000_복사용), EditorSuffix (에디터 접미사 (ansf))
+{
+(배쉬)
+}
+
+STRING 8090
+// 능력: A0SG (!1214_배면귀), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로의 악마를 마주하고도 살아남은자는 극소수 입니다.|r
+
+|cffffdead◎기본효과|r : 스킬 대상의 방어력이 0 이하 일때, 대상에게 적용되는 스킬데미지가 추가로 증가합니다.
+|cffffdead　▶|r 두개골 부수기 : 대상의 방어력 -1 당 스킬데미지 5% 증가
+|cffffdead　▶|r 지진 멈추기 : 대상의 방어력 -1 당 스킬데미지 4% 증가
+|cffffdead　▶|r 번개 잡이 : 대상의 방어력 -1 당 스킬데미지 2% 증가
+|cffffdead◎추가효과|r : 875범위 적 이동속도 45% 감소
+}
+
+STRING 8091
+// 능력: A01Y (!0000_복사용), EditorSuffix (에디터 접미사 (ansf))
+{
+(방어력 감소)
+}
+
+STRING 8092
+// 능력: A11K (!0811_곤릴라디디오), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D바닥에서 솟구친 거대한 황금 더미가 적을 산산이 눌러부숩니다.|r
+
+|cffffdead◎발동조건|r : 체력 90 (공격시 +1)
+|cffffdead◎범위|r : 625
+|cffffdead◎데미지|r : |cff4374D9200만(x1~1.5) 마법데미지|r
+|cffffdead　▶|r 자신의 골드 보유량에 따라 |cff66cdaa최대 잃은체력 9% 추가 폭발형 데미지|r 
+|cffffdead　▶|r 골드 보유량이 많을수록 데미지 증가 폭 상승 (최대 25만 골드)
+|cffffdead◎추가효과|r : 해당 범위 2.4초 스턴
+}
+
+STRING 8093
+// 능력: A01X ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 로우 특별함)
+}
+
+STRING 8094
+// 능력: A01W ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8095
+// 능력: A01X ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8096
+// 능력: A01W ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8097
+// 능력: A01X ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7트라팔가 로우|r - |cff0080ff특별|r
+
+|cff7b68ee베포|r - |cff9553ec안흔함|r
+|cff7b68ee타시기|r - |cff9553ec안흔함|r
+|cff20b2aa버기|r - |cff00ff00흔함|r
+}
+
+STRING 8098
+// 능력: A01W ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 우솝 희귀함)
+}
+
+STRING 8099
+// 능력: A01V ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8100
+// 능력: A01W ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8101
+// 능력: A01V ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8102
+// 능력: A01W ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879우솝 보잉열도|r - |cffff00ff희귀|r
+
+|c00b7b7f7우솝 화염탄|r - |cff0080ff특별|r
+|c00b7b7f7카포네 갱 벳지|r - |cff0080ff특별|r
+|c00b7b7f7나미 크리마텍트|r - |cff0080ff특별|r
+}
+
+STRING 8103
+// 능력: A01V ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 페로나 희귀함)
+}
+
+STRING 8104
+// 능력: A01U ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8105
+// 능력: A01V ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8106
+// 능력: A01U ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8107
+// 능력: A01V ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879페로나|r - |cffff00ff희귀|r
+
+|c00b7b7f7압살롬|r - |cff0080ff특별|r
+|cff7b68ee페로나|r - |cff9553ec안흔함|r
+|c00b7b7f7상디 검은다리|r - |cff0080ff특별|r
+|c00b7b7f7쵸파 두뇌강화|r - |cff0080ff특별|r
+}
+
+STRING 8108
+// 능력: A01U ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 상디 전설적인)
+}
+
+STRING 8109
+// 능력: A01T ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8110
+// 능력: A01U ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8111
+// 능력: A01T ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8112
+// 능력: A01U ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700상디 슈트코스|r - |cffFF0000전설|r
+
+|c00e7b879상디 디아블잠브|r - |cffff00ff희귀|r
+|c00e7b879엠포리오 이완코브|r - |cffff00ff희귀|r
+|c00e7b879바질 호킨스|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+}
+
+STRING 8113
+// 능력: A01T ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 코비 전설적인)
+}
+
+STRING 8114
+// 능력: A01S ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8115
+// 능력: A01T ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8116
+// 능력: A01S ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8117
+// 능력: A01T ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700코비|r - |cffFF0000전설|r
+
+|c00e7b879시류|r - |cffff00ff희귀|r
+|c00e7b879샹크스|r - |cffff00ff희귀|r
+|c00e7b879제프|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+}
+
+STRING 8118
+// 능력: A01S ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 레일리 전설적인)
+}
+
+STRING 8119
+// 능력: A01D ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8120
+// 능력: A01S ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8121
+// 능력: A01D ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8122
+// 능력: A01S ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700실버즈 레일리|r - |cffFF0000전설|r
+
+|c00e7b879실버즈 레일리|r - |cffff00ff희귀|r
+|c00e7b879센토마루|r - |cffff00ff희귀|r
+|c00b7b7f7징베|r - |cff0080ff특별|r
+|cff7ad823목재 5|r
+}
+
+STRING 8123
+// 능력: A01R ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 타시기 안흔함)
+}
+
+STRING 8124
+// 능력: A01R ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8125
+// 능력: A01R ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8126
+// 능력: A01R ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8127
+// 능력: A01R ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cff7b68ee타시기|r - |cff9553ec안흔함|r
+
+|cff20b2aa해군 칼병|r - |cff00ff00흔함|r
+|cff20b2aa해군 총병|r - |cff00ff00흔함|r
+}
+
+STRING 8128
+// 능력: A01Q ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 크로커다일 특별함)
+}
+
+STRING 8129
+// 능력: A01Q ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8130
+// 능력: A01Q ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8131
+// 능력: A01Q ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8132
+// 능력: A01Q ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7크로커다일|r - |cff0080ff특별|r
+
+|cff7b68ee프랑키|r - |cff9553ec안흔함|r
+|cff7b68ee우솝 저격왕|r - |cff9553ec안흔함|r
+|cff20b2aa버기|r - |cff00ff00흔함|r
+
+}
+
+STRING 8133
+// 능력: A01P ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 아론 특별함)
+}
+
+STRING 8134
+// 능력: A01P ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8135
+// 능력: A01P ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8136
+// 능력: A01P ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8137
+// 능력: A01P ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7아론|r - |cff0080ff특별|r
+
+|cff7b68ee하찌|r - |cff9553ec안흔함|r
+|cff7b68ee하찌|r - |cff9553ec안흔함|r
+|cff20b2aa몽키.D.루피|r - |cff00ff00흔함|r
+}
+
+STRING 8138
+// 능력: A01O ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 루치 특별함)
+}
+
+STRING 8139
+// 능력: A01O ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8140
+// 능력: A01O ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8141
+// 능력: A01O ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8142
+// 능력: A01O ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7로브 루치|r - |cff0080ff특별|r
+
+|cff7b68ee후쿠로|r - |cff9553ec안흔함|r
+|cff7b68ee니코 로빈|r - |cff9553ec안흔함|r
+|cff20b2aa몽키.D.루피|r - |cff00ff00흔함|r
+}
+
+STRING 8143
+// 능력: A01N ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 바질호킨스 특별함)
+}
+
+STRING 8144
+// 능력: A01N ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8145
+// 능력: A01N ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8146
+// 능력: A01N ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8147
+// 능력: A01N ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7바질 호킨스|r - |cff0080ff특별|r
+
+|cff7b68ee페로나|r - |cff9553ec안흔함|r
+|cff7b68ee블루노|r - |cff9553ec안흔함|r
+|cff20b2aa우솝|r - |cff00ff00흔함|r
+}
+
+STRING 8148
+// 능력: A01M ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 마젤란 희귀함)
+}
+
+STRING 8149
+// 능력: A01M ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8150
+// 능력: A01M ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8151
+// 능력: A01M ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8152
+// 능력: A01M ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879마젤란|r - |cffff00ff희귀|r
+
+|c00b7b7f7징베|r - |cff0080ff특별|r
+|c00b7b7f7버기 마기탄|r - |cff0080ff특별|r
+|c00b7b7f7포트거스.D.에이스|r - |cff0080ff특별|r
+
+}
+
+STRING 8153
+// 능력: A01L ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 하찌 안흔함)
+}
+
+STRING 8154
+// 능력: A01L ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8155
+// 능력: A01L ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8156
+// 능력: A01L ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8157
+// 능력: A01L ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cff7b68ee하찌|r - |cff9553ec안흔함|r
+
+|cff20b2aa해군 총병|r - |cff00ff00흔함|r
+|cff20b2aa나미|r - |cff00ff00흔함|r
+}
+
+STRING 8158
+// 능력: A01K ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 우솝 특별함)
+}
+
+STRING 8159
+// 능력: A01K ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8160
+// 능력: A01K ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8161
+// 능력: A01K ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8162
+// 능력: A01K ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7우솝 화염탄|r - |cff0080ff특별|r
+
+|cff7b68ee우솝 저격왕|r - |cff9553ec안흔함|r
+|cff7b68ee우솝 저격왕|r - |cff9553ec안흔함|r
+}
+
+STRING 8163
+// 능력: A01J ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 이완코브 희귀함)
+}
+
+STRING 8164
+// 능력: A01J ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8165
+// 능력: A01J ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8166
+// 능력: A01J ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8167
+// 능력: A01J ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879엠포리오 이완코브|r - |cffff00ff희귀|r
+
+|c00b7b7f7이나즈마 혁명군|r - |cff0080ff특별|r
+|c00b7b7f7로빈 오하라|r - |cff0080ff특별|r
+|c00b7b7f7크로커다일|r - |cff0080ff특별|r
+}
+
+STRING 8168
+// 능력: A01I ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 봉쿠레 특별함)
+}
+
+STRING 8169
+// 능력: A01I ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8170
+// 능력: A01I ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8171
+// 능력: A01I ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8172
+// 능력: A01I ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7봉쿠레|r - |cff0080ff특별|r
+
+|cff7b68ee이나즈마|r - |cff9553ec안흔함|r
+|cff7b68ee니코 로빈|r - |cff9553ec안흔함|r
+|cff20b2aa나미|r - |cff00ff00흔함|r
+}
+
+STRING 8173
+// 능력: A01H ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 프랑키 안흔함)
+}
+
+STRING 8174
+// 능력: A01H ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8175
+// 능력: A01H ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8176
+// 능력: A01H ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8177
+// 능력: A01H ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cff7b68ee프랑키|r - |cff9553ec안흔함|r
+
+|cff20b2aa우솝|r - |cff00ff00흔함|r
+|cff20b2aa몽키.D.루피|r - |cff00ff00흔함|r
+}
+
+STRING 8178
+// 능력: A01G ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 모리아 전설적인)
+}
+
+STRING 8179
+// 능력: A01G ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8180
+// 능력: A01G ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8181
+// 능력: A01G ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8182
+// 능력: A01G ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700겟코 모리아|r - |cffFF0000전설|r
+
+|c00e7b879마인 오즈|r - |cffff00ff희귀|r
+|c00e7b879류마|r - |cffff00ff희귀|r
+|c00e7b879페로나|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+
+}
+
+STRING 8183
+// 능력: A01F ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 검은수염 희귀함)
+}
+
+STRING 8184
+// 능력: A01F ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8185
+// 능력: A01F ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8186
+// 능력: A01F ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8187
+// 능력: A01F ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879검은수염|r - |cffff00ff희귀|r
+
+|c00b7b7f7포트거스.D.에이스|r - |cff0080ff특별|r
+|c00b7b7f7스쿼드|r - |cff0080ff특별|r
+|c00b7b7f7X-드레이크|r - |cff0080ff특별|r
+
+}
+
+STRING 8188
+// 능력: A01E ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 징베 특별함)
+}
+
+STRING 8189
+// 능력: A01E ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8190
+// 능력: A01E ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8191
+// 능력: A01E ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8192
+// 능력: A01E ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7징베|r - |cff0080ff특별|r
+
+|cff7b68ee포트거스.D.에이스|r - |cff9553ec안흔함|r
+|cff7b68ee후쿠로|r - |cff9553ec안흔함|r
+|cff20b2aa버기|r - |cff00ff00흔함|r
+
+}
+
+STRING 8193
+// 능력: A01D ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 에넬 특별함)
+}
+
+STRING 8194
+// 능력: A011 ([제한] 마르코), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8195
+// 능력: A01D ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8196
+// 능력: A011 ([제한] 마르코), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 8197
+// 능력: A01D ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7에넬|r - |cff0080ff특별|r
+
+|cff7b68ee우솝 저격왕|r - |cff9553ec안흔함|r
+|cff7b68ee베포|r - |cff9553ec안흔함|r
+|cff20b2aa상디|r - |cff00ff00흔함|r
+}
+
+STRING 8198
+// 능력: A01C ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 킬러 특별함)
+}
+
+STRING 8199
+// 능력: A01C ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8200
+// 능력: A01C ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8201
+// 능력: A01C ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8202
+// 능력: A01C ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7킬러|r - |cff0080ff특별|r
+
+|cff7b68ee타시기|r - |cff9553ec안흔함|r
+|cff7b68ee브룩|r - |cff9553ec안흔함|r
+|cff20b2aa버기|r - |cff00ff00흔함|r
+}
+
+STRING 8203
+// 능력: A01B ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 상디 특별함)
+}
+
+STRING 8204
+// 능력: A01B ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8205
+// 능력: A01B ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8206
+// 능력: A01B ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8207
+// 능력: A01B ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7상디 검은다리|r - |cff0080ff특별|r
+
+|cff20b2aa상디|r - |cff00ff00흔함|r
+|cff20b2aa상디|r - |cff00ff00흔함|r
+|cff20b2aa상디|r - |cff00ff00흔함|r
+}
+
+STRING 8208
+// 능력: A01A ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 챠카 특별함)
+}
+
+STRING 8209
+// 능력: A01A ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8210
+// 능력: A01A ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8211
+// 능력: A01A ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8212
+// 능력: A01A ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7챠카|r - |cff0080ff특별|r
+
+|cff7b68ee블루노|r - |cff9553ec안흔함|r
+|cff7b68ee후쿠로|r - |cff9553ec안흔함|r
+|cff20b2aa토니토니 쵸파|r - |cff00ff00흔함|r
+
+}
+
+STRING 8213
+// 능력: A019 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 헤르메포 특별함)
+}
+
+STRING 8214
+// 능력: A019 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8215
+// 능력: A019 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8216
+// 능력: A019 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8217
+// 능력: A019 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7헤르메포|r - |cff0080ff특별|r
+
+|cff7b68ee브룩|r - |cff9553ec안흔함|r
+|cff20b2aa롤로노아 조로|r - |cff00ff00흔함|r
+|cff20b2aa상디|r - |cff00ff00흔함|r
+
+}
+
+STRING 8218
+// 능력: A018 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 버기 특별함)
+}
+
+STRING 8219
+// 능력: A018 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8220
+// 능력: A018 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8221
+// 능력: A018 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8222
+// 능력: A018 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7버기 마기탄|r - |cff0080ff특별|r
+
+|cff20b2aa버기|r - |cff00ff00흔함|r
+|cff20b2aa버기|r - |cff00ff00흔함|r
+|cff20b2aa버기|r - |cff00ff00흔함|r
+
+}
+
+STRING 8223
+// 능력: A017 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 쿠마 특별함)
+}
+
+STRING 8224
+// 능력: A017 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8225
+// 능력: A017 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8226
+// 능력: A017 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8227
+// 능력: A017 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7바솔로뮤 쿠마|r - |cff0080ff특별|r
+
+|cff7b68ee베포|r - |cff9553ec안흔함|r
+|cff7b68ee프랑키|r - |cff9553ec안흔함|r
+|cff20b2aa롤로노아 조로|r - |cff00ff00흔함|r
+}
+
+STRING 8228
+// 능력: A016 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 류마 희귀함)
+}
+
+STRING 8229
+// 능력: A016 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8230
+// 능력: A016 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8231
+// 능력: A016 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8232
+// 능력: A016 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879류마|r - |cffff00ff희귀|r
+
+|c00b7b7f7겟코 모리아|r - |cff0080ff특별|r
+|c00b7b7f7조로 귀기|r - |cff0080ff특별|r
+|cff7b68ee페로나|r - |cff9553ec안흔함|r
+|cff7b68ee우솝 저격왕|r - |cff9553ec안흔함|r
+|cff20b2aa해군 칼병|r - |cff00ff00흔함|r
+}
+
+STRING 8233
+// 능력: A015 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 나미 특별함)
+}
+
+STRING 8234
+// 능력: A015 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8235
+// 능력: A015 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8236
+// 능력: A015 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8237
+// 능력: A015 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7나미 크리마텍트|r - |cff0080ff특별|r
+
+|cff20b2aa나미|r - |cff00ff00흔함|r
+|cff20b2aa나미|r - |cff00ff00흔함|r
+|cff20b2aa나미|r - |cff00ff00흔함|r
+
+}
+
+STRING 8238
+// 능력: A014 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 쵸파 두뇌강화 특별함)
+}
+
+STRING 8239
+// 능력: A014 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8240
+// 능력: A014 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8241
+// 능력: A014 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8242
+// 능력: A014 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7쵸파 두뇌강화|r - |cff0080ff특별|r
+
+|cff7b68ee쵸파 럼블볼강화|r - |cff9553ec안흔함|r
+|cff7b68ee니코 로빈|r - |cff9553ec안흔함|r
+|cff20b2aa버기|r - |cff00ff00흔함|r
+}
+
+STRING 8243
+// 능력: A013 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 바제스 희귀함)
+}
+
+STRING 8244
+// 능력: A013 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8245
+// 능력: A013 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8246
+// 능력: A013 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8247
+// 능력: A013 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879바제스|r - |cffff00ff희귀|r
+
+|c00b7b7f7바질 호킨스|r - |cff0080ff특별|r
+|c00b7b7f7마르코|r - |cff0080ff특별|r
+|c00b7b7f7버기 마기탄|r - |cff0080ff특별|r
+
+}
+
+STRING 8248
+// 능력: A012 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(X 루피 특별함)
+}
+
+STRING 8249
+// 능력: A012 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+X
+}
+
+STRING 8250
+// 능력: A012 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 8251
+// 능력: A012 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(X)|r
+}
+
+STRING 8252
+// 능력: A012 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7루피 기어세컨드|r - |cff0080ff특별|r
+
+|cff20b2aa몽키.D.루피|r - |cff00ff00흔함|r
+|cff20b2aa몽키.D.루피|r - |cff00ff00흔함|r
+|cff20b2aa몽키.D.루피|r - |cff00ff00흔함|r
+
+}
+
+STRING 8253
+// 능력: A010 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 8254
+// 유닛: e0NV (!1205_Effect BYDG), Name (이름 (unam))
+{
+!1205_Effect BYDG
+}
+
+STRING 8255

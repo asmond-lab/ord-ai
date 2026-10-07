@@ -1,0 +1,1800 @@
+
+STRING 2387
+// 아이템: I008 (|cffFF8200유니언 아르마다 :: 방어력 감소 Lv.Max|r), Name (이름 (unam))
+{
+|cffFF8200유니언 아르마다 :: 방어력 감소 Lv.Max|r
+}
+
+STRING 2388
+// 아이템: I008 (|cffFF8200유니언 아르마다 :: 방어력 감소 Lv.Max|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200유니언 아르마다 :: 방어력 감소 Lv.Max|r
+}
+
+STRING 2389
+// 아이템: I008 (|cffFF8200유니언 아르마다 :: 방어력 감소 Lv.Max|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead　▶|r 최대 강화 수치에 도달 했습니다.
+}
+
+STRING 2390
+// 아이템: I007 (|cffFF8200유니언 아르마다 :: 공격속도 Lv.Max|r), Description (설명 (ides))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead　▶|r 최대 강화 수치에 도달 했습니다.
+}
+
+STRING 2391
+// 아이템: I007 (|cffFF8200유니언 아르마다 :: 공격속도 Lv.Max|r), Name (이름 (unam))
+{
+|cffFF8200유니언 아르마다 :: 공격속도 Lv.Max|r
+}
+
+STRING 2392
+// 아이템: I007 (|cffFF8200유니언 아르마다 :: 공격속도 Lv.Max|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200유니언 아르마다 :: 공격속도 Lv.Max|r
+}
+
+STRING 2393
+// 아이템: I007 (|cffFF8200유니언 아르마다 :: 공격속도 Lv.Max|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead　▶|r 최대 강화 수치에 도달 했습니다.
+}
+
+STRING 2394
+// 아이템: I006 (|cffFF8200유니언 아르마다 :: 공격력 Lv.Max|r), Description (설명 (ides))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead　▶|r 최대 강화 수치에 도달 했습니다.
+}
+
+STRING 2395
+// 아이템: I006 (|cffFF8200유니언 아르마다 :: 공격력 Lv.Max|r), Name (이름 (unam))
+{
+|cffFF8200유니언 아르마다 :: 공격력 Lv.Max|r
+}
+
+STRING 2396
+// 아이템: I006 (|cffFF8200유니언 아르마다 :: 공격력 Lv.Max|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200유니언 아르마다 :: 공격력 Lv.Max|r
+}
+
+STRING 2397
+// 아이템: I006 (|cffFF8200유니언 아르마다 :: 공격력 Lv.Max|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead　▶|r 최대 강화 수치에 도달 했습니다.
+}
+
+STRING 2398
+// 아이템: I005 (뼈), Name (이름 (unam))
+{
+뼈
+}
+
+STRING 2399
+// 아이템: I005 (뼈), Tip (도구 도움말 - 기본 (utip))
+{
+뼈
+}
+
+STRING 2400
+// 아이템: I005 (뼈), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffffdead◎기본효과|r : 샌즈는 기본 업그레이드 대신 뼈를 통해 강해집니다.  (최대30)
+
+|cffffdead　▶|r 공격속도 증가량 : 뼈 x 14%
+|cffffdead　▶|r 공격력 증가량 : 뼈 x 1000 
+}
+
+STRING 2401
+// 유닛: h0BU (|cffc0c0c0환전소|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(연속베팅)
+}
+
+STRING 2402
+// 아이템: I004 (흡수한 양분), Tip (도구 도움말 - 기본 (utip))
+{
+흡수한 양분
+}
+
+STRING 2403
+// 아이템: I004 (흡수한 양분), Ubertip (도구 도움말 - 확장 (utub))
+{
+흡수한 양분입니다
+}
+
+STRING 2404
+// 아이템: I003 (|cffFF8200흑도 슈스이|r), Description (설명 (ides))
+{
+|cffFAED7D와노쿠니의 명검 흑도-슈스이 입니다|r
+
+|cffffdead◎기본효과|r : 플레이어존 적 방어력 6 감소
+|cffffdead◎추가효과|r : 특정 유닛에 아이템 사용시 캐릭터 강화
+|cffffdead　▶|r 조로 초월 : 특성강화한 상태라면 '염왕 조로' 로 캐릭터 변경
+|cffffdead
+}
+
+STRING 2405
+// 아이템: I003 (|cffFF8200흑도 슈스이|r), Name (이름 (unam))
+{
+|cffFF8200흑도 슈스이|r
+}
+
+STRING 2406
+// 아이템: I003 (|cffFF8200흑도 슈스이|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200흑도 슈스이|r
+}
+
+STRING 2407
+// 아이템: I003 (|cffFF8200흑도 슈스이|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffFAED7D와노쿠니의 명검 흑도-슈스이 입니다|r
+
+|cffffdead◎기본효과|r : 플레이어존 적 방어력 6 감소
+|cffffdead◎추가효과|r : 특정 유닛에 아이템 사용시 캐릭터 강화
+|cffffdead　▶|r 조로 초월 : 특성강화한 상태라면 '염왕 조로' 로 캐릭터 변경
+|cffffdead　▶|r 류마 영원 : 스킬 변경 '일도양단 → 일백삼정비룡시극'
+}
+
+STRING 2408
+// 아이템: I002 (|cffFF8200불사조의 깃털|r), Description (설명 (ides))
+{
+|cffFAED7D꺼지지 않는 불사조의 깃털입니다|r
+
+|cffFFB2F5조합 아이템|r
+|cffffdead◎기본효과|r : 초당 체력회복 0.5 증가
+|cffffdead◎조합 유닛|r : |cff5997c9마르코|r - |cffdf9d30제한|r
+}
+
+STRING 2409
+// 아이템: I002 (|cffFF8200불사조의 깃털|r), Name (이름 (unam))
+{
+|cffFF8200불사조의 깃털|r
+}
+
+STRING 2410
+// 아이템: I002 (|cffFF8200불사조의 깃털|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200불사조의 깃털|r
+}
+
+STRING 2411
+// 아이템: I002 (|cffFF8200불사조의 깃털|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffFAED7D꺼지지 않는 불사조의 깃털입니다|r
+
+|cffFFB2F5조합 아이템|r
+|cffffdead◎기본효과|r : 초당 체력회복 0.5 증가
+|cffffdead◎조합 유닛|r : |cff5997c9마르코|r - |cffdf9d30제한|r
+}
+
+STRING 2412
+// 아이템: I001 (|cffFF8200우타의 헤드셋|r), Description (설명 (ides))
+{
+|cffFAED7D우타가 사용하는 헤드셋 입니다|r
+
+|cffFFB2F5조합 아이템|r
+|cffffdead◎기본효과|r : 공격속도 10% 증가
+|cffffdead◎조합 유닛|r : |CFFFFFA78우타|r - |CFFC15AF4영원|r
+}
+
+STRING 2413
+// 아이템: I001 (|cffFF8200우타의 헤드셋|r), Name (이름 (unam))
+{
+|cffFF8200우타의 헤드셋|r
+}
+
+STRING 2414
+// 아이템: I001 (|cffFF8200우타의 헤드셋|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200우타의 헤드셋|r
+}
+
+STRING 2415
+// 아이템: I001 (|cffFF8200우타의 헤드셋|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffFAED7D우타가 사용하는 헤드셋 입니다|r
+
+|cffFFB2F5조합 아이템|r
+|cffffdead◎기본효과|r : 공격속도 10% 증가
+|cffffdead◎조합 유닛|r : |CFFFFFA78우타|r - |CFFC15AF4영원|r
+}
+
+STRING 2416
+// 유닛: e0NU (!1205_Effect Pieces), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2417
+// 아이템: I000 (|cffFF8200태양신의 흔적|r), Name (이름 (unam))
+{
+|cffFF8200태양신의 흔적|r
+}
+
+STRING 2418
+// 아이템: I000 (|cffFF8200태양신의 흔적|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200태양신의 흔적|r
+}
+
+STRING 2419
+// 유닛: H0BN (|c00F3B001백개의 심장을 훔친 자|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(프리미엄)
+}
+
+STRING 2420
+// 파괴 가능한 물체: B101 (2D화면), EditorSuffix (에디터 접미사 (bsuf))
+{
+(리포지드)
+}
+
+STRING 2421
+// 파괴 가능한 물체: B101 (2D화면), Name (이름 (bnam))
+{
+2D화면
+}
+
+STRING 2422
+// 파괴 가능한 물체: B100 (2D화면), Name (이름 (bnam))
+{
+2D화면
+}
+
+STRING 2423
+// 파괴 가능한 물체: B009 (영역전개), Name (이름 (bnam))
+{
+영역전개
+}
+
+STRING 2424
+// 파괴 가능한 물체: B008 (영혼), Name (이름 (bnam))
+{
+영혼
+}
+
+STRING 2425
+// 파괴 가능한 물체: B007 ( 엘리베이터), Name (이름 (bnam))
+{
+ 엘리베이터
+}
+
+STRING 2426
+// 파괴 가능한 물체: B006 ( 폐문바닥), Name (이름 (bnam))
+{
+ 폐문바닥
+}
+
+STRING 2427
+// 파괴 가능한 물체: B005 (황금종), Name (이름 (bnam))
+{
+황금종
+}
+
+STRING 2428
+// 파괴 가능한 물체: B004 (정의의문), Name (이름 (bnam))
+{
+정의의문
+}
+
+STRING 2429
+// 파괴 가능한 물체: B003 ( 스테인글라스), Name (이름 (bnam))
+{
+ 스테인글라스
+}
+
+STRING 2430
+// 파괴 가능한 물체: B002 (보상위습포탈), Name (이름 (bnam))
+{
+보상위습포탈
+}
+
+STRING 2431
+// 파괴 가능한 물체: B001 (선위포탈), Name (이름 (bnam))
+{
+선위포탈
+}
+
+STRING 2432
+// 파괴 가능한 물체: B000 (위습포탈), Name (이름 (bnam))
+{
+위습포탈
+}
+
+STRING 2433
+// 장식물: NWrw ( 노로 젓는 배), Name (이름 (dnam))
+{
+ 노로 젓는 배
+}
+
+STRING 2434
+// 장식물: D014 ( 배치더미 (파란색)), Name (이름 (dnam))
+{
+ 배치더미 (파란색)
+}
+
+STRING 2435
+// 장식물: D013 ( 배치더미 (빨간색)), Name (이름 (dnam))
+{
+ 배치더미 (빨간색)
+}
+
+STRING 2436
+// 장식물: D012 ( 배치더미 (노란색)), Name (이름 (dnam))
+{
+ 배치더미 (노란색)
+}
+
+STRING 2437
+// 장식물: D011 ( 배치더미 (분홍색)), Name (이름 (dnam))
+{
+ 배치더미 (분홍색)
+}
+
+STRING 2438
+// 장식물: D010 ( 나무바닥1), Name (이름 (dnam))
+{
+ 나무바닥1
+}
+
+STRING 2439
+// 장식물: D00Z ( 바위절벽), Name (이름 (dnam))
+{
+ 바위절벽
+}
+
+STRING 2440
+// 장식물: D00Y ( 검은 글로우/), Name (이름 (dnam))
+{
+ 검은 글로우/
+}
+
+STRING 2441
+// 장식물: D00X ( 글로우 밝은보라), Name (이름 (dnam))
+{
+ 글로우 밝은보라
+}
+
+STRING 2442
+// 장식물: D00W ( 글로우 밝은파랑), Name (이름 (dnam))
+{
+ 글로우 밝은파랑
+}
+
+STRING 2443
+// 장식물: D00V ( 글로우 밝은빨강), Name (이름 (dnam))
+{
+ 글로우 밝은빨강
+}
+
+STRING 2444
+// 장식물: D00U ( 글로우 밝은노랑), Name (이름 (dnam))
+{
+ 글로우 밝은노랑
+}
+
+STRING 2445
+// 장식물: D00T ( 벽2), Name (이름 (dnam))
+{
+ 벽2
+}
+
+STRING 2446
+// 장식물: D00S ( 경로방해2), Name (이름 (dnam))
+{
+ 경로방해2
+}
+
+STRING 2447
+// 장식물: D00R ( 경로방해1), Name (이름 (dnam))
+{
+ 경로방해1
+}
+
+STRING 2448
+// 장식물: D00Q ( 글로우 주황), Name (이름 (dnam))
+{
+ 글로우 주황
+}
+
+STRING 2449
+// 장식물: D00P ( 글로우 파랑), Name (이름 (dnam))
+{
+ 글로우 파랑
+}
+
+STRING 2450
+// 장식물: D00O ( 글로우 초록), Name (이름 (dnam))
+{
+ 글로우 초록
+}
+
+STRING 2451
+// 장식물: D00N ( 풀1), Name (이름 (dnam))
+{
+ 풀1
+}
+
+STRING 2452
+// 장식물: D00M ( 야자나무2), Name (이름 (dnam))
+{
+ 야자나무2
+}
+
+STRING 2453
+// 장식물: D00L ( 야자나무), Name (이름 (dnam))
+{
+ 야자나무
+}
+
+STRING 2454
+// 장식물: D00K ( 영혼), Name (이름 (dnam))
+{
+ 영혼
+}
+
+STRING 2455
+// 장식물: D00J ( 안개), Name (이름 (dnam))
+{
+ 안개
+}
+
+STRING 2456
+// 장식물: D00I ( 구름3), Name (이름 (dnam))
+{
+ 구름3
+}
+
+STRING 2457
+// 장식물: D00H ( 황금종), Name (이름 (dnam))
+{
+ 황금종
+}
+
+STRING 2458
+// 장식물: D00G ( 롬바해적단배), Name (이름 (dnam))
+{
+ 롬바해적단배
+}
+
+STRING 2459
+// 장식물: D00F ( 포네그리프), Name (이름 (dnam))
+{
+ 포네그리프
+}
+
+STRING 2460
+// 장식물: D00E ( 검은 글로우), Name (이름 (dnam))
+{
+ 검은 글로우
+}
+
+STRING 2461
+// 장식물: D00D ( 구름2), Name (이름 (dnam))
+{
+ 구름2
+}
+
+STRING 2462
+// 장식물: D00C ( 고잉메리호), Name (이름 (dnam))
+{
+ 고잉메리호
+}
+
+STRING 2463
+// 장식물: D00B ( 나무 그림자), Name (이름 (dnam))
+{
+ 나무 그림자
+}
+
+STRING 2464
+// 장식물: D00A ( 폐문), Name (이름 (dnam))
+{
+ 폐문
+}
+
+STRING 2465
+// 장식물: D009 ( 폐문 바닥2), Name (이름 (dnam))
+{
+ 폐문 바닥2
+}
+
+STRING 2466
+// 장식물: D008 ( 나무), Name (이름 (dnam))
+{
+ 나무
+}
+
+STRING 2467
+// 장식물: D007 ( 벽), Name (이름 (dnam))
+{
+ 벽
+}
+
+STRING 2468
+// 장식물: D006 ( 배치더미), Name (이름 (dnam))
+{
+ 배치더미
+}
+
+STRING 2469
+// 장식물: D005 ( 글로우발판), Name (이름 (dnam))
+{
+ 글로우발판
+}
+
+STRING 2470
+// 장식물: D004 (스토리포탈(대형)), Name (이름 (dnam))
+{
+스토리포탈(대형)
+}
+
+STRING 2471
+// 장식물: D003 (스토리포탈), Name (이름 (dnam))
+{
+스토리포탈
+}
+
+STRING 2472
+// 장식물: D002 ( 구름), Name (이름 (dnam))
+{
+ 구름
+}
+
+STRING 2473
+// 장식물: D001 (위습동상), Name (이름 (dnam))
+{
+위습동상
+}
+
+STRING 2474
+// 장식물: D000 ( 불타는 화로), Name (이름 (dnam))
+{
+ 불타는 화로
+}
+
+STRING 2475
+// 능력: Aegr (마법 방어력), Name (이름 (anam))
+{
+마법 방어력
+}
+
+STRING 2476
+// 능력: AZZZ (데이터로드), EditorSuffix (에디터 접미사 (ansf))
+{
+(리포지드)
+}
+
+STRING 2477
+// 능력: AZZZ (데이터로드), Name (이름 (anam))
+{
+데이터로드
+}
+
+STRING 2478
+// 능력: AZZZ (데이터로드), Tip (도구 도움말 - 보통 (atp1))
+{
+임시텍스트
+}
+
+STRING 2479
+// 능력: AZZZ (데이터로드), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+임시텍스트
+}
+
+STRING 2480
+// 능력: AZZZ (데이터로드), Untip (도구 도움말 - 끄기 (aut1))
+{
+임시텍스트
+}
+
+STRING 2481
+// 능력: AZZZ (데이터로드), Unubertip (도구 도움말 - 끄기 - 확장 (auu1))
+{
+임시텍스트
+}
+
+STRING 2482
+// 능력: AZZY (디버그), Name (이름 (anam))
+{
+디버그
+}
+
+STRING 2483
+// 능력: AZZY (디버그), Tip (도구 도움말 - 보통 (atp1))
+{
+임시텍스트
+}
+
+STRING 2484
+// 능력: AZZY (디버그), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+임시텍스트
+}
+
+STRING 2485
+// 능력: AZZY (디버그), Untip (도구 도움말 - 끄기 (aut1))
+{
+임시텍스트
+}
+
+STRING 2486
+// 능력: AZZY (디버그), Unubertip (도구 도움말 - 끄기 - 확장 (auu1))
+{
+임시텍스트
+}
+
+STRING 2487
+// 능력: AKKK (프리미엄스킨), EditorSuffix (에디터 접미사 (ansf))
+{
+(채널)
+}
+
+STRING 2488
+// 능력: AKKK (프리미엄스킨), Name (이름 (anam))
+{
+프리미엄스킨
+}
+
+STRING 2489
+// 능력: AKKK (프리미엄스킨), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff프리미엄 스킨|r
+}
+
+STRING 2490
+// 능력: AKKK (프리미엄스킨), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D다른 모습으로 변신합니다.|r
+
+|cffffdead◎시전시간|r : 2초
+|cffffdead◎주의|r : 원래 모습으로 돌아오지 못합니다.
+|cffffdead　▶|r : 변신 전 적용한 특성 강화는 사라집니다.
+}
+
+STRING 2491
+// 능력: AI21 (|cffFF8200버스터콜 지령서|r), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2492
+// 능력: AI21 (|cffFF8200버스터콜 지령서|r), Name (이름 (anam))
+{
+|cffFF8200버스터콜 지령서|r
+}
+
+STRING 2493
+// 능력: AI21 (|cffFF8200버스터콜 지령서|r), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200버스터콜 지령서|r
+}
+
+STRING 2494
+// 능력: AI21 (|cffFF8200버스터콜 지령서|r), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D버스터콜 호출이 가능한 해군함정을 소환합니다.|r
+
+|cffFF8200사용 아이템|r
+|cffffdead◎사용효과|r : 사용시 버스터콜 스킬을 가진 군함 소환
+|cffffdead　▶|r 강화되지 않은 기본 버스터콜을 사용합니다.
+}
+
+STRING 2495
+// 능력: AI20 (|cffFF8200해루석 수갑|r), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2496
+// 능력: AI20 (|cffFF8200해루석 수갑|r), Name (이름 (anam))
+{
+|cffFF8200해루석 수갑|r
+}
+
+STRING 2497
+// 능력: AI20 (|cffFF8200해루석 수갑|r), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200해루석 수갑|r
+}
+
+STRING 2498
+// 능력: AI20 (|cffFF8200해루석 수갑|r), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D해루석을 사용한 수갑으로 적들을 억제합니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 자신의 라인존 폭발형 데미지 5% 증가
+}
+
+STRING 2499
+// 능력: AI19 (|cffFF8200취약지대|r), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2500
+// 능력: AI19 (|cffFF8200취약지대|r), Name (이름 (anam))
+{
+|cffFF8200취약지대|r
+}
+
+STRING 2501
+// 능력: AI19 (|cffFF8200취약지대|r), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200취약지대|r
+}
+
+STRING 2502
+// 능력: AI19 (|cffFF8200취약지대|r), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D취약지대를 설정합니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 라인존 몬스터 마법방어력 5% 감소
+}
+
+STRING 2503
+// 능력: AI18 (|cffFF8200고급공학도구|r), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2504
+// 능력: AI18 (|cffFF8200고급공학도구|r), Name (이름 (anam))
+{
+|cffFF8200고급공학도구|r
+}
+
+STRING 2505
+// 능력: AI18 (|cffFF8200고급공학도구|r), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200고급공학도구|r
+}
+
+STRING 2506
+// 능력: AI18 (|cffFF8200고급공학도구|r), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D더 뛰어난 공학도구로 도움소의 기능을 향상시킵니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 도움소 초당 마나회복 0.5 증가
+}
+
+STRING 2507
+// 능력: AI17 (|cffFF8200위습소환서|r), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2508
+// 능력: AI17 (|cffFF8200위습소환서|r), Name (이름 (anam))
+{
+|cffFF8200위습소환서|r
+}
+
+STRING 2509
+// 능력: AI17 (|cffFF8200위습소환서|r), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200위습 소환서|r
+}
+
+STRING 2510
+// 능력: AI17 (|cffFF8200위습소환서|r), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D소환 의식을 통해 뛰어난 위습을 소환합니다.|r
+
+|cffFF8200사용 아이템|r
+|cffffdead◎사용효과|r : 사용시 랜덤한 종류 (선택, 안흔함, 특별, 희귀) 위습 3개 획득
+|cffffdead　▶|r 최소 1개는 특별위습을 획득합니다
+}
+
+STRING 2511
+// 능력: AI16 (|cffFF8200폐선|r), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2512
+// 능력: AI16 (|cffFF8200폐선|r), Name (이름 (anam))
+{
+|cffFF8200폐선|r
+}
+
+STRING 2513
+// 능력: AI16 (|cffFF8200폐선|r), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200폐선|r
+}
+
+STRING 2514
+// 능력: AI16 (|cffFF8200폐선|r), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D폐선을 수리해서 사용합니다.|r
+
+|cffFF8200사용 아이템|r
+|cffffdead◎사용효과|r : 사용시 '해적선' 과 '고대의 배' 획득
+}
+
+STRING 2515
+// 능력: AI15 (초급공학도구), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2516
+// 능력: AI15 (초급공학도구), Name (이름 (anam))
+{
+초급공학도구
+}
+
+STRING 2517
+// 능력: AI15 (초급공학도구), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700초급공학도구|r
+}
+
+STRING 2518
+// 능력: AI15 (초급공학도구), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D공학도구로 도움소의 기능을 향상시킵니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 도움소 초당 마나회복 0.2 증가
+}
+
+STRING 2519
+// 능력: AI14 (표식새김), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2520
+// 능력: AI14 (표식새김), Name (이름 (anam))
+{
+표식새김
+}
+
+STRING 2521
+// 능력: AI14 (표식새김), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700표식새김|r
+}
+
+STRING 2522
+// 능력: AI14 (표식새김), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D상대방의 약점을 파악합니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 적 방어력 3 감소
+}
+
+STRING 2523
+// 능력: AI13 (수배서), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2524
+// 능력: AI13 (수배서), Name (이름 (anam))
+{
+수배서
+}
+
+STRING 2525
+// 능력: AI13 (수배서), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700수배서|r
+}
+
+STRING 2526
+// 능력: AI13 (수배서), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D현상금 사냥에 의욕이 생깁니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 라운드 유닛 처치시 골드 획득량 100% 증가
+|cffffdead◎추가효과|r : '목재구입' 재고 2 증가
+}
+
+STRING 2527
+// 능력: AI12 (목공도구), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2528
+// 능력: AI12 (목공도구), Name (이름 (anam))
+{
+목공도구
+}
+
+STRING 2529
+// 능력: AI12 (목공도구), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700목공도구|r
+}
+
+STRING 2530
+// 능력: AI12 (목공도구), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D목재를 가공합니다.|r
+
+|cffFF8200사용 아이템|r
+|cffffdead◎사용효과|r : 사용시 2~4 목재 획득
+}
+
+STRING 2531
+// 능력: AI11 (위습꾸러미), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2532
+// 능력: AI11 (위습꾸러미), Name (이름 (anam))
+{
+위습꾸러미
+}
+
+STRING 2533
+// 능력: AI11 (위습꾸러미), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700위습꾸러미|r
+}
+
+STRING 2534
+// 능력: AI11 (위습꾸러미), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D다양한 위습을 만나보세요!|r
+
+|cffFF8200사용 아이템|r
+|cffffdead◎사용효과|r : 사용시 랜덤한 종류(흔함, 선택, 안흔함)의 위습 3개 획득
+}
+
+STRING 2535
+// 능력: AI10 (탐사도구), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2536
+// 능력: AI10 (탐사도구), Name (이름 (anam))
+{
+탐사도구
+}
+
+STRING 2537
+// 능력: AI10 (탐사도구), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700탐사도구|r
+}
+
+STRING 2538
+// 능력: AI10 (탐사도구), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D탐색이 좀 더 수월해집니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 기록지침의 '탐색' 스킬의 쿨타임 20% 감소
+}
+
+STRING 2539
+// 능력: AI09 (무장도끼), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2540
+// 능력: AI09 (무장도끼), Name (이름 (anam))
+{
+무장도끼
+}
+
+STRING 2541
+// 능력: AI09 (무장도끼), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700무장도끼|r
+}
+
+STRING 2542
+// 능력: AI09 (무장도끼), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D검사라고 오해받던 강자가 사용하던 도끼입니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 공격력 5000 증가
+}
+
+STRING 2543
+// 능력: AI08 (가죽장갑), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2544
+// 능력: AI08 (가죽장갑), Name (이름 (anam))
+{
+가죽장갑
+}
+
+STRING 2545
+// 능력: AI08 (가죽장갑), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700가죽장갑|r
+}
+
+STRING 2546
+// 능력: AI08 (가죽장갑), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D왠지 모르지만 주먹이 빨라진거 같기도?|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 공격속도 4% 증가
+}
+
+STRING 2547
+// 능력: AI07 (하늘섬전사의 창), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2548
+// 능력: AI07 (하늘섬전사의 창), Name (이름 (anam))
+{
+하늘섬전사의 창
+}
+
+STRING 2549
+// 능력: AI07 (하늘섬전사의 창), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700하늘섬전사의 창|r
+}
+
+STRING 2550
+// 능력: AI07 (하늘섬전사의 창), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D하늘섬의 용맹한 전사가 사용하던 창입니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 공격력 7% 증가
+}
+
+STRING 2551
+// 능력: AI06 (약주), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2552
+// 능력: AI06 (약주), Name (이름 (anam))
+{
+약주
+}
+
+STRING 2553
+// 능력: AI06 (약주), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700약주|r
+}
+
+STRING 2554
+// 능력: AI06 (약주), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D흰수염이 즐겨 마시던 약주입니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 초당 체력회복 0.3 증가
+}
+
+STRING 2555
+// 능력: AI05 (거인족의 술잔), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2556
+// 능력: AI05 (거인족의 술잔), Name (이름 (anam))
+{
+거인족의 술잔
+}
+
+STRING 2557
+// 능력: AI05 (거인족의 술잔), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700거인족의 술잔|r
+}
+
+STRING 2558
+// 능력: AI05 (거인족의 술잔), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D거인족들이 파티를 할때 사용하던 술잔입니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 초당 마나회복 0.5 증가
+}
+
+STRING 2559
+// 능력: AI04 (둔화의 지팡이), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2560
+// 능력: AI04 (둔화의 지팡이), Name (이름 (anam))
+{
+둔화의 지팡이
+}
+
+STRING 2561
+// 능력: AI04 (둔화의 지팡이), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffffd700둔화의 지팡이|r
+}
+
+STRING 2562
+// 능력: AI04 (둔화의 지팡이), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D비바람을 조정해서 적군의 이동을 방해합니다.|r
+
+|cffA6A6A6기본 아이템|r
+|cffffdead◎기본효과|r : 적 이동속도 7% 감소
+}
+
+STRING 2563
+// 능력: AI03 (|cffFF8200흑도 슈스이|r), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2564
+// 능력: AI03 (|cffFF8200흑도 슈스이|r), Name (이름 (anam))
+{
+|cffFF8200흑도 슈스이|r
+}
+
+STRING 2565
+// 능력: AI03 (|cffFF8200흑도 슈스이|r), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200흑도 슈스이|r
+}
+
+STRING 2566
+// 능력: AI03 (|cffFF8200흑도 슈스이|r), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D와노쿠니의 명검 슈스이입니다.|r
+
+|cffFF8200사용 아이템|r
+|cffffdead◎기본효과|r : 적 방어력 6 감소
+|cffffdead◎사용효과|r : 특정 유닛에 아이템 사용시 캐릭터 강화
+|cffffdead　▶|r 조로 초월 : 특성강화를 사용한 상태라면 '염왕' 으로 캐릭터 변경
+|cffffdead　▶|r 류마 영원 : 스킬 변경 '일도양단' → '일백삼정비룡시극'
+}
+
+STRING 2567
+// 능력: AI02 (|cffFF8200불사조의 깃털|r), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2568
+// 능력: AI02 (|cffFF8200불사조의 깃털|r), Name (이름 (anam))
+{
+|cffFF8200불사조의 깃털|r
+}
+
+STRING 2569
+// 능력: AI02 (|cffFF8200불사조의 깃털|r), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200불사조의 깃털|r
+}
+
+STRING 2570
+// 능력: AI02 (|cffFF8200불사조의 깃털|r), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D꺼지지 않는 불사조의 깃털입니다.|r
+
+|cffFFB2F5조합 아이템|r
+|cffffdead◎기본효과|r : 초당 체력회복 0.5 증가
+|cffffdead◎조합 유닛|r : |cff5997c9마르코|r - |cffdf9d30제한|r
+}
+
+STRING 2571
+// 능력: AI01 (|cffFF8200태양신의 흔적|r), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2572
+// 능력: AI01 (|cffFF8200태양신의 흔적|r), Name (이름 (anam))
+{
+|cffFF8200태양신의 흔적|r
+}
+
+STRING 2573
+// 능력: AI01 (|cffFF8200태양신의 흔적|r), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200태양신의 흔적|r
+}
+
+STRING 2574
+// 아이템: I000 (|cffFF8200태양신의 흔적|r), Description (설명 (ides))
+{
+|cffFAED7D전설로만 내려오는 태양신의 흔적입니다.|r
+
+|cffFFB2F5조합 아이템|r
+|cffffdead◎기본효과|r : 공격력 14% 증가
+|cffffdead◎조합 유닛|r : |CFFFFFA78니카|r - |CFFC15AF4영원|r
+}
+
+STRING 2575
+// 능력: AI00 (|cffFF8200우타의 헤드셋|r), EditorSuffix (에디터 접미사 (ansf))
+{
+(아이템)
+}
+
+STRING 2576
+// 능력: AI00 (|cffFF8200우타의 헤드셋|r), Name (이름 (anam))
+{
+|cffFF8200우타의 헤드셋|r
+}
+
+STRING 2577
+// 능력: AI00 (|cffFF8200우타의 헤드셋|r), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200우타의 헤드셋|r
+}
+
+STRING 2578
+// 능력: AI00 (|cffFF8200우타의 헤드셋|r), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D우타가 사용하는 헤드셋입니다.|r
+
+|cffFFB2F5조합 아이템|r
+|cffffdead◎기본효과|r : 공격속도 10% 증가
+|cffffdead◎조합 유닛|r : |CFFFFFA78우타|r - |CFFC15AF4영원|r
+}
+
+STRING 2579
+// 능력: AG30 (유니크아이템 탐색 (10번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2580
+// 능력: AG30 (유니크아이템 탐색 (10번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2581
+// 능력: AG30 (유니크아이템 탐색 (10번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (10번)
+}
+
+STRING 2582
+// 능력: AG30 (유니크아이템 탐색 (10번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2583
+// 능력: AG30 (유니크아이템 탐색 (10번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2584
+// 능력: AG29 (유니크아이템 탐색 (9번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2585
+// 능력: AG29 (유니크아이템 탐색 (9번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2586
+// 능력: AG29 (유니크아이템 탐색 (9번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (9번)
+}
+
+STRING 2587
+// 능력: AG29 (유니크아이템 탐색 (9번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2588
+// 능력: AG29 (유니크아이템 탐색 (9번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2589
+// 능력: AG28 (유니크아이템 탐색 (8번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2590
+// 능력: AG28 (유니크아이템 탐색 (8번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2591
+// 능력: AG28 (유니크아이템 탐색 (8번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (8번)
+}
+
+STRING 2592
+// 능력: AG28 (유니크아이템 탐색 (8번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2593
+// 능력: AG28 (유니크아이템 탐색 (8번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2594
+// 능력: AG27 (유니크아이템 탐색 (7번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2595
+// 능력: AG27 (유니크아이템 탐색 (7번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2596
+// 능력: AG27 (유니크아이템 탐색 (7번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (7번)
+}
+
+STRING 2597
+// 능력: AG27 (유니크아이템 탐색 (7번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2598
+// 능력: AG27 (유니크아이템 탐색 (7번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2599
+// 능력: AG26 (유니크아이템 탐색 (6번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2600
+// 능력: AG26 (유니크아이템 탐색 (6번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2601
+// 능력: AG26 (유니크아이템 탐색 (6번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (6번)
+}
+
+STRING 2602
+// 능력: AG26 (유니크아이템 탐색 (6번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2603
+// 능력: AG26 (유니크아이템 탐색 (6번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2604
+// 능력: AG25 (유니크아이템 탐색 (5번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2605
+// 능력: AG25 (유니크아이템 탐색 (5번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2606
+// 능력: AG25 (유니크아이템 탐색 (5번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (5번)
+}
+
+STRING 2607
+// 능력: AG25 (유니크아이템 탐색 (5번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2608
+// 능력: AG25 (유니크아이템 탐색 (5번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2609
+// 능력: AG24 (유니크아이템 탐색 (4번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2610
+// 능력: AG24 (유니크아이템 탐색 (4번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2611
+// 능력: AG24 (유니크아이템 탐색 (4번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (4번)
+}
+
+STRING 2612
+// 능력: AG24 (유니크아이템 탐색 (4번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2613
+// 능력: AG24 (유니크아이템 탐색 (4번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2614
+// 능력: AG23 (유니크아이템 탐색 (3번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2615
+// 능력: AG23 (유니크아이템 탐색 (3번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2616
+// 능력: AG23 (유니크아이템 탐색 (3번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (3번)
+}
+
+STRING 2617
+// 능력: AG23 (유니크아이템 탐색 (3번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2618
+// 능력: AG23 (유니크아이템 탐색 (3번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2619
+// 능력: AG22 (유니크아이템 탐색 (2번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2620
+// 능력: AG22 (유니크아이템 탐색 (2번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2621
+// 능력: AG22 (유니크아이템 탐색 (2번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (2번)
+}
+
+STRING 2622
+// 능력: AG22 (유니크아이템 탐색 (2번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2623
+// 능력: AG22 (유니크아이템 탐색 (2번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2624
+// 능력: AG21 (유니크아이템 탐색 (1번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2625
+// 능력: AG21 (유니크아이템 탐색 (1번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2626
+// 능력: AG21 (유니크아이템 탐색 (1번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (1번)
+}
+
+STRING 2627
+// 능력: AG21 (유니크아이템 탐색 (1번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2628
+// 능력: AG21 (유니크아이템 탐색 (1번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2629
+// 능력: AG20 (유니크아이템 탐색 (0번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2630
+// 능력: AG20 (유니크아이템 탐색 (0번)), Hotkey (단축키 - 보통 (ahky))
+{
+E
+}
+
+STRING 2631
+// 능력: AG20 (유니크아이템 탐색 (0번)), Name (이름 (anam))
+{
+유니크아이템 탐색 (0번)
+}
+
+STRING 2632
+// 능력: AG20 (유니크아이템 탐색 (0번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffFF8200유니크 아이템 발굴|cffffcc00(E)|r
+}
+
+STRING 2633
+// 능력: AG20 (유니크아이템 탐색 (0번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니크 아이템 중 하나를 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 |cffFF8200유니크 아이템|r을 획득합니다.
+
+|cffffdead◈|r 유니크 아이템 발굴 스택은 '발굴 스택 교환' 또는 항법에서 획득할 수 있습니다.
+}
+
+STRING 2634
+// 능력: AG10 (일반아이템 탐색 (10번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2635
+// 능력: AG10 (일반아이템 탐색 (10번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2636
+// 능력: AG10 (일반아이템 탐색 (10번)), Name (이름 (anam))
+{
+일반아이템 탐색 (10번)
+}
+
+STRING 2637
+// 능력: AG10 (일반아이템 탐색 (10번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2638
+// 능력: AG10 (일반아이템 탐색 (10번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2639
+// 능력: AG09 (일반아이템 탐색 (9번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2640
+// 능력: AG09 (일반아이템 탐색 (9번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2641
+// 능력: AG09 (일반아이템 탐색 (9번)), Name (이름 (anam))
+{
+일반아이템 탐색 (9번)
+}
+
+STRING 2642
+// 능력: AG09 (일반아이템 탐색 (9번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2643
+// 능력: AG09 (일반아이템 탐색 (9번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2644
+// 능력: AG08 (일반아이템 탐색 (8번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2645
+// 능력: AG08 (일반아이템 탐색 (8번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2646
+// 능력: AG08 (일반아이템 탐색 (8번)), Name (이름 (anam))
+{
+일반아이템 탐색 (8번)
+}
+
+STRING 2647
+// 능력: AG08 (일반아이템 탐색 (8번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2648
+// 능력: AG08 (일반아이템 탐색 (8번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2649
+// 능력: AG07 (일반아이템 탐색 (7번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2650
+// 능력: AG07 (일반아이템 탐색 (7번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2651
+// 능력: AG07 (일반아이템 탐색 (7번)), Name (이름 (anam))
+{
+일반아이템 탐색 (7번)
+}
+
+STRING 2652
+// 능력: AG07 (일반아이템 탐색 (7번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2653
+// 능력: AG07 (일반아이템 탐색 (7번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2654
+// 능력: AG06 (일반아이템 탐색 (6번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2655
+// 능력: AG06 (일반아이템 탐색 (6번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}

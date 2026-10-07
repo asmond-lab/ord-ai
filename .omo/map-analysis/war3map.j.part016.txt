@@ -1,0 +1,1800 @@
+endloop
+set JP[IQ]=JP[IQ]+1
+set WR[11]=Player(IQ)
+set iR[11]=XQ*1.
+set Ybs=0
+loop
+exitwhen Ybs>=4
+if ks[Ybs]then
+set ybs=Player(Ybs)
+call SetPlayerState(ybs,PLAYER_STATE_RESOURCE_GOLD,GetPlayerState(ybs,PLAYER_STATE_RESOURCE_GOLD)+$2710)
+set ybs=Player(Ybs)
+call SetPlayerState(ybs,PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(ybs,PLAYER_STATE_RESOURCE_LUMBER)+3)
+set ybs=Player(Ybs)
+call SetPlayerState(ybs,PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(ybs,PLAYER_STATE_RESOURCE_FOOD_USED)+1)
+call FqR(Player(Ybs),3)
+set ybs=Player(Ybs)
+set mbs=GetRectCenterX(VY)
+set lbs=GetRectCenterY(VY)
+call u2R(ybs,$65303136,2,mbs,lbs,bj_UNIT_FACING)
+call SetPlayerTechResearched(Player(Ybs),$52303153,1)
+call kFv(Ybs,1)
+endif
+set Ybs=Ybs+1
+endloop
+set Ybs=0
+loop
+exitwhen Ybs>=4
+if ks[Ybs] and nQ[Ybs]then
+call DisplayTimedTextToPlayer(Player(Ybs),0.,0.,10.,"기여도 "+I2S(uQ)+"% 이상으로 |cff7ad823목재 1개|r 추가 획득!")
+set ybs=Player(Ybs)
+call SetPlayerState(ybs,PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(ybs,PLAYER_STATE_RESOURCE_LUMBER)+1)
+endif
+set Ybs=Ybs+1
+endloop
+call yRR(Player(IQ),1)
+call FqR(Player(IQ),1)
+set Wbs=Wbs+"|cffFF0000"+GetObjectName($6e303044)+"|r 스토리 진행 완료! 모든 플레이어에게 보상을 지급합니다.\n"
+set Wbs=Wbs+"|cffffdead◎|r 재화 : |cffffd70010000 골드|r, |cff7ad8233 목재|r, |cff1e90ff특성포인트|r 1개\n"
+set Wbs=Wbs+"|cffffdead◎|r 유닛 : |cffff8200"+GetObjectName($65303138)+"|r 3개, |cff0080ff"+GetObjectName($65303136)+"|r 2개\n"
+set Wbs=Wbs+"|cffffdead◎|r MVP : "+GetPlayerName(Player(IQ))+" (기여도 : |cffFF0000"+R2SW(XQ,0,2)+"%|r)\n"
+set Wbs=Wbs+"|cffffdead　▶|r 해당 플레이어에게 |cffffd700"+GetObjectName($65304958)+"|r 1기, |cffff8200"+GetObjectName($65303138)+"|r 1개를 추가 지급합니다!"
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,Wbs)
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,5.,"|cffF15F5F[시스템]|r 모리아 처치 미션 활성화")
+set dbs=null
+set Gbs=null
+set ybs=null
+endfunction
+function RXR takes nothing returns nothing
+call hjR(JQ)
+set mR[11]=EQ
+call Nbs()
+call TriggerEvaluate(h)
+call TriggerEvaluate(LoadTriggerHandle(T,8,12))
+endfunction
+function RXs takes nothing returns nothing
+call yDs(GetAttacker(),GetEnumUnit(),$30d40+(GetUnitAbilityLevel(GetEnumUnit(),$4130344d)-1)*$2710,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+endfunction
+function lds takes unit ids returns nothing
+local unit mds=null
+local location Yds=GetUnitLoc(ids)
+local integer yds=GetPlayerId(GetOwningPlayer(ids))
+local integer dds
+local integer Gds
+local integer qds
+local integer Zds
+if IsUnitType(ids,UNIT_TYPE_HERO) then
+set dds=GetHeroXP(ids)
+set Gds=GetHeroStatBJ(bj_HEROSTAT_STR,ids,false)
+set qds=GetHeroStatBJ(bj_HEROSTAT_AGI,ids,false)
+set Zds=GetHeroStatBJ(bj_HEROSTAT_INT,ids,false)
+if GetUnitTypeId(ids)==$48303938 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$48303845,Yds,bj_UNIT_FACING)
+elseif GetUnitTypeId(ids)==$48303856 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$48303842,Yds,bj_UNIT_FACING)
+elseif GetUnitTypeId(ids)==$4830354e then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$48304135,Yds,bj_UNIT_FACING)
+elseif GetUnitTypeId(ids)==$48303941 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$48304159,Yds,bj_UNIT_FACING)
+call SetUnitAnimation(mds,"morph")
+call QueueUnitAnimation(mds,"stand")
+elseif GetUnitTypeId(ids)==$48303936 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$4830424e,Yds,bj_UNIT_FACING)
+elseif GetUnitTypeId(ids)==$48303939 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$48304339,Yds,bj_UNIT_FACING)
+elseif GetUnitTypeId(ids)==$48304244 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$4830425a,Yds,bj_UNIT_FACING)
+elseif GetUnitTypeId(ids)==$48303855 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$48304331,Yds,bj_UNIT_FACING)
+call SetUnitAnimation(mds,"morph")
+call QueueUnitAnimation(mds,"stand")
+endif
+call SetHeroXP(mds,dds,false)
+call GroupAddUnit(xW[bp[yds]],mds)
+call ModifyHeroStat(bj_HEROSTAT_STR,mds,bj_MODIFYMETHOD_SET,Gds)
+call ModifyHeroStat(bj_HEROSTAT_AGI,mds,bj_MODIFYMETHOD_SET,qds)
+call ModifyHeroStat(bj_HEROSTAT_INT,mds,bj_MODIFYMETHOD_SET,Zds)
+elseif GetUnitTypeId(ids)==$68303438 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$68303846,Yds,bj_UNIT_FACING)
+call sIR(Vs[yds],mds,$68303438)
+elseif GetUnitTypeId(ids)==$68303432 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$68304138,Yds,bj_UNIT_FACING)
+call sIR(Vs[yds],mds,$68303432)
+elseif GetUnitTypeId(ids)==$68303254 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$68304251,Yds,bj_UNIT_FACING)
+call sIR(Vs[yds],mds,$68303254)
+elseif GetUnitTypeId(ids)==$68303535 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$68304137,Yds,bj_UNIT_FACING)
+call sIR(Vs[yds],mds,$68303535)
+elseif GetUnitTypeId(ids)==$68303538 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$6830375a,Yds,bj_UNIT_FACING)
+elseif GetUnitTypeId(ids)==$68303543 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$68303955,Yds,bj_UNIT_FACING)
+set Al=mds
+call TriggerExecute(ul)
+elseif GetUnitTypeId(ids)==$68303441 then
+set mds=CreateUnitAtLoc(GetOwningPlayer(ids),$68304156,Yds,bj_UNIT_FACING)
+endif
+call uSs(mds)
+call RemoveUnit(ids)
+call RemoveLocation(Yds)
+set mds=null
+set Yds=null
+endfunction
+function RXv takes nothing returns nothing
+local player TIv=GetTriggerPlayer()
+local integer OIv=S2I(BlzGetTriggerSyncData())
+local integer aIv
+local group fIv
+local unit CIv
+local boolean LIv
+local boolean FIv
+local boolean vXv
+if not gXs(TIv,OIv) then
+if OIv==$48303855 then
+call QkR(TIv,"|cffFF0000VIP 효과가 적용되는 칭호를 장착해야 이달의 스킨을 적용할 수 있습니다.|r",wi,-50.,0.,2.,1.)
+else
+call QkR(TIv,"|cffFF0000보유하지 않은 스킨입니다.|r",wi,-50.,0.,2.,1.)
+endif
+else
+set aIv=OIv
+set FIv=false
+set LIv=false
+if not gXs(TIv,OIv) then
+set vXv=false
+set FIv=true
+endif
+if not FIv then
+set fIv=CreateGroup()
+endif
+if not FIv then
+call GroupEnumUnitsOfPlayer(fIv,TIv,null)
+endif
+if not FIv then
+loop
+exitwhen FIv
+if not FIv then
+set CIv=FirstOfGroup(fIv)
+endif
+exitwhen (not FIv)and CIv==null
+if not FIv then
+call GroupRemoveUnit(fIv,CIv)
+endif
+if not FIv then
+if GetUnitTypeId(CIv)==aIv then
+if not FIv then
+call lds(CIv)
+endif
+if not FIv then
+set LIv=true
+endif
+endif
+endif
+endloop
+endif
+if not FIv then
+call DestroyGroup(fIv)
+endif
+if not FIv then
+set vXv=LIv
+set FIv=true
+endif
+if not FIv then
+set vXv=false
+endif
+if vXv then
+call QkR(TIv,"|cff1DDB16스킨을 적용했습니다.|r",wi,-50.,0.,2.,1.)
+set Ni[GetPlayerId(TIv)]=false
+if GetLocalPlayer()==TIv then
+call j9R()
+endif
+else
+call QkR(TIv,"|cffFF0000스킨을 적용할 대상 유닛이 없습니다.|r",wi,-50.,0.,2.,1.)
+endif
+endif
+set TIv=null
+set fIv=null
+set CIv=null
+endfunction
+function RYR takes nothing returns nothing
+local unitstate CmR
+local unit LmR
+local unit FmR
+local unit vYR
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),GetEnumUnit(),2350000.,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+set FmR=LoadUnitHandle(gj,0,Op*$1f4)
+set vYR=GetEnumUnit()
+set CmR=UNIT_STATE_LIFE
+set LmR=GetEnumUnit()
+call yDs(FmR,vYR,.01*GetUnitState(LmR,CmR),1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+set CmR=null
+set LmR=null
+set FmR=null
+set vYR=null
+endfunction
+function RfR takes nothing returns nothing
+local unit vfR=rp[GetPlayerId(GetOwningPlayer(GetAttacker()))]
+call yDs(vfR,GetEnumUnit(),1250000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call yDs(vfR,GetEnumUnit(),2750000.,1.,1.50,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+call mxv(GetEnumUnit(),5)
+set vfR=null
+endfunction
+function RiR takes nothing returns nothing
+local integer CWR=GetPlayerId(GetOwningPlayer(GetTriggerUnit()))
+local integer LWR=wWR($3a98,$7530)
+local integer FWR=wWR(14,20)
+local unit viR=GetTriggerUnit()
+call ShowUnit(viR,false)
+call KillUnit(viR)
+call SetPlayerState(Player(CWR),PLAYER_STATE_RESOURCE_GOLD,GetPlayerState(Player(CWR),PLAYER_STATE_RESOURCE_GOLD)+LWR)
+call SetPlayerState(Player(CWR),PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(Player(CWR),PLAYER_STATE_RESOURCE_LUMBER)+FWR)
+call DisplayTimedTextToPlayer(Player(CWR),0.,0.,5.,"[|cffffd700"+I2S(LWR)+" 골드|r] 획득")
+call DisplayTimedTextToPlayer(Player(CWR),0.,0.,5.,"[|cff7ad823"+I2S(FWR)+" 목재|r] 획득")
+set viR=null
+endfunction
+function RkR takes nothing returns nothing
+local unit acR=GetAttacker()
+local unit fcR=GetTriggerUnit()
+local location LcR=GetUnitLoc(fcR)
+local integer OcR
+local unit CcR
+local unitstate FcR
+local unitstate vkR
+if GetUnitState(acR,UNIT_STATE_MANA)==115. then
+call SetUnitState(acR,UNIT_STATE_MANA,.0)
+call CreateUnitAtLoc(ds,$6530344e,LcR,bj_UNIT_FACING)
+call CreateUnitAtLoc(ds,$6530344c,LcR,bj_UNIT_FACING)
+set CcR=CreateUnitAtLoc(ds,$65303450,LcR,bj_UNIT_FACING)
+call IssuePointOrderById(CcR,OrderId("dreadlordinferno"),GetLocationX(LcR),GetLocationY(LcR))
+set OcR=XbR()
+call dEv(OcR,600.,LcR,Condition(EX),JX)
+call Vbv(OcR)
+else
+set vkR=UNIT_STATE_MANA
+set FcR=UNIT_STATE_MANA
+call SetUnitState(acR,vkR,GetUnitState(acR,FcR)+1.)
+endif
+if wWR(1,$64)<=10 then
+set CcR=CreateUnitAtLoc(ds,$65303447,LcR,GetUnitFacing(acR)+180.)
+call SetUnitAnimationByIndex(CcR,1)
+call SetUnitFlyHeight(CcR,100.,10000.)
+call SetUnitVertexColor(CcR,0,0,0,PercentToInt(100.,$ff))
+call CreateUnitAtLoc(ds,$6530344f,LcR,bj_UNIT_FACING)
+call CreateUnitAtLoc(ds,$6530344c,LcR,bj_UNIT_FACING)
+set CcR=CreateUnitAtLoc(ds,$6530344d,LcR,GetUnitFacing(acR))
+call IssuePointOrderById(CcR,OrderId("dreadlordinferno"),GetLocationX(LcR),GetLocationY(LcR))
+call SetUnitTimeScale(CcR,1.15)
+call UnitDamagePointLoc(acR,0.,500.,LcR,200000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+call RemoveLocation(LcR)
+set acR=null
+set fcR=null
+set CcR=null
+set LcR=null
+set FcR=null
+set vkR=null
+endfunction
+function Rks takes nothing returns boolean
+local integer vks=PK
+set Wj[vks]=Wj[sK]
+set io[vks]=io[sK]
+set mo[vks]=mo[sK]
+return false
+endfunction
+function RrR takes nothing returns nothing
+local integer vrR
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+set vrR=XbR()
+call dEv(vrR,1000.,LoadLocationHandle(Aj,0,Op*$1f4),Condition(qa),Za)
+call Vbv(vrR)
+call qjR(Op)
+endif
+endfunction
+function Rss takes nothing returns nothing
+local unit CRs=GetTriggerUnit()
+local player LRs=GetOwningPlayer(CRs)
+local integer FRs=GetPlayerId(LRs)
+local location vss=GetStartLocationLoc(FRs)
+if GetPlayerState(LRs,PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(LRs,0.,0.,5.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call IssueImmediateOrder(CRs,"stop")
+set CRs=null
+set LRs=null
+set vss=null
+return
+endif
+set Gl=CRs
+call TriggerExecute(dl)
+call SetUnitAbilityLevel(CRs,$4131354a,2)
+call SetPlayerAbilityAvailable(LRs,$41313159,false)
+call SetPlayerStateBJ(LRs,PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(LRs,PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+call RemoveLocation(vss)
+set CRs=null
+set LRs=null
+set vss=null
+endfunction
+function Rts takes nothing returns nothing
+local player Les
+local real Fes
+local real vts
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$59593031
+set Les=GetTriggerPlayer()
+set Fes=GetStartLocationX(GetPlayerStartLocation(Les))
+set Les=GetTriggerPlayer()
+set vts=GetStartLocationY(GetPlayerStartLocation(Les))
+set Ws=Fes
+set is=vts
+set rs=true
+if not ODv() then
+set Les=null
+return
+endif
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000에넬 : |r|cffFA8072우린 이 배를 타고 '페어리 바스'에 갈 거다!|r")
+if GetLocalPlayer()==GetTriggerPlayer() then
+call StartSound(Ip)
+endif
+set Les=null
+endfunction
+function RuR takes nothing returns nothing
+local unit CgR=GetAttacker()
+local unit LgR=GetTriggerUnit()
+local real FgR
+local unitstate vuR
+if GetUnitAbilityLevel(CgR,$41304358)>=1 then
+if wWR(1,$64)<=20 then
+if GetUnitAbilityLevel(LgR,$41393032)>0 or GetUnitAbilityLevel(LgR,$41393131)>0 then
+set vuR=UNIT_STATE_LIFE
+set FgR=GetUnitState(LgR,vuR)*1.*.01
+call yDs(CgR,LgR,FgR,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+endif
+endif
+set CgR=null
+set LgR=null
+set vuR=null
+endfunction
+function Ibv takes integer Mbv,integer gbv,integer ubv returns nothing
+local integer Abv
+loop
+exitwhen gbv>=ubv
+if GetLocalPlayer()==Player(Mbv) then
+set Abv=bJ[gbv]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Abv),false)
+endif
+set gbv=gbv+1
+endloop
+endfunction
+function KTs takes integer BTs returns nothing
+local integer HTs=6
+local integer oTs=15
+local integer jTs
+loop
+exitwhen HTs>=oTs
+if GetLocalPlayer()==Player(BTs) then
+set jTs=HJ[HTs]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,jTs),false)
+endif
+set HTs=HTs+1
+endloop
+endfunction
+function qmR takes integer mmR,integer YmR,integer dmR returns nothing
+local integer GmR
+loop
+exitwhen YmR>=dmR
+if GetLocalPlayer()==Player(mmR) then
+set GmR=xJ[YmR]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,GmR),false)
+endif
+set YmR=YmR+1
+endloop
+endfunction
+function s2s takes integer F4s returns nothing
+local integer v2s=GetPlayerId(GetTriggerPlayer())
+local integer R2s
+if GetLocalPlayer()==Player(v2s) then
+set R2s=Zi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),false)
+set R2s=mi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),false)
+set R2s=ii
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),true)
+set R2s=qi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),false)
+set R2s=GJ[5]
+call BlzFrameSetText(LoadFrameHandle(pv,0,R2s),"유닛 등급 목록")
+call KTs(v2s)
+if F4s==0 then
+set Di=0
+set R2s=HJ[6]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),true)
+elseif F4s==1 then
+set Di=$3e8
+set R2s=HJ[6]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),true)
+elseif F4s==2 then
+set Di=$7d0
+set R2s=HJ[11]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),true)
+elseif F4s==3 then
+set Di=$bb8
+set R2s=HJ[13]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),true)
+elseif F4s==4 then
+set Di=$fa0
+set R2s=HJ[12]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),true)
+elseif F4s==5 then
+set Di=$1b58
+set R2s=GJ[5]
+call BlzFrameSetText(LoadFrameHandle(pv,0,R2s),"획득 경로")
+set R2s=qi
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),true)
+endif
+endif
+call Ibv(v2s,0,1)
+call qmR(v2s,0,6)
+if GetLocalPlayer()==Player(v2s) then
+set R2s=xJ[F4s]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,R2s),true)
+endif
+endfunction
+function RvR takes nothing returns nothing
+local hashtable vvR=Pv
+local framehandle L6R=BlzGetTriggerFrame()
+local integer C6R
+local integer F6R
+call SaveFrameHandle(pv,0,GetHandleId(L6R),L6R)
+set C6R=LoadInteger(vvR,0,GetHandleId(L6R))
+set L6R=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(L6R),L6R)
+set F6R=GetHandleId(L6R)
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,F6R),false)
+set L6R=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(L6R),L6R)
+set F6R=GetHandleId(L6R)
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,F6R),true)
+call s2s(C6R)
+set L6R=null
+set vvR=null
+endfunction
+function Rys takes nothing returns nothing
+local integer LZs=cj
+local integer FZs
+local integer vys
+if Hj[LZs]==-1 then
+return
+endif
+set FZs=Hj[LZs]
+loop
+exitwhen FZs==-1
+call RemoveSavedHandle(oj,0,LZs*$1f4+FZs)
+set vys=LoadInteger(Qj,0,LZs*$1b74+$1f6+FZs+2)-2
+call RemoveSavedInteger(Qj,0,LZs*$1b74+$1f6+FZs+2)
+set FZs=vys
+endloop
+endfunction
+function S1s takes nothing returns nothing
+local integer D1s=pK
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,D1s),"Interface\\FusionTextESCButtonOn.tga",0,true)
+endfunction
+function IJv takes integer uJv,integer AJv returns nothing
+set js[uJv]=js[uJv]+AJv
+call TriggerEvaluate(Z)
+endfunction
+function fRs takes integer IRs,integer XRs,real nRs returns nothing
+local real TRs=GetRectCenterX(IP[IRs])
+local real ORs=GetRectCenterY(IP[IRs])
+local unit aRs=CreateUnit(Player(6),WB[XRs],TRs,ORs,bj_UNIT_FACING)
+if IRs>=4 then
+set aRs=null
+return
+endif
+call SetUnitPathing(aRs,false)
+call SetUnitLifePercentBJ(aRs,nRs)
+call IJv(IRs,1)
+call UnitAddAbility(aRs,$41304946)
+call UnitAddAbility(aRs,$41393031)
+call SetUnitAbilityLevel(aRs,$41393031,IRs+1)
+call uFs(aRs,Js[IRs])
+call SetUnitAbilityLevel(aRs,$41313153,es[IRs])
+set aRs=null
+endfunction
+function u5R takes integer g5R returns integer
+set bj_groupCountUnits=0
+call ForGroup(xW[g5R],Fu)
+return bj_groupCountUnits
+endfunction
+function C9s takes integer u9s,real A9s,location I9s returns nothing
+local integer a9s=0
+local integer f9s=3
+local unit X9s
+local real n9s
+local real T9s
+local integer O9s
+call GroupEnumUnitsInRangeOfLoc(xW[fG],I9s,A9s*1.,Condition(kn))
+loop
+exitwhen a9s>=f9s
+if u5R(fG)<=0 then
+set X9s=null
+return
+endif
+set X9s=mOv(fG)
+set n9s=GetUnitStatePercent(X9s,UNIT_STATE_LIFE,UNIT_STATE_MAX_LIFE)*.85
+set T9s=GetUnitDefaultAcquireRange(X9s)
+set O9s=R2I(T9s)-wWR(3,5)
+call GroupRemoveUnit(xW[fG],X9s)
+call Tjs(X9s)
+if O9s>Av-7 then
+if O9s==39 then
+set O9s=O9s+2
+endif
+if ModuloInteger(O9s,10)==0 and O9s<=50 then
+set O9s=O9s+1
+endif
+call fRs(GetUnitAbilityLevelSwapped($41393031,X9s)-1,O9s,n9s)
+endif
+set a9s=a9s+1
+endloop
+set X9s=null
+endfunction
+function S2v takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call bTs(Op,1,GetRandomReal(0.,360.))
+call frR(Op,0,0)
+call rRR(Op,2,CreateUnitAtLoc(ds,$65303035,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4+1)))
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+2),"spell throw")
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+2),90.,90.,90.,55.)
+call WQs(Op,3,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),D0v(240.,290.),LoadReal(aj,0,Op*$1f4+1)))
+call EqR(LoadUnitHandle(gj,0,Op*$1f4+2),LoadLocationHandle(Aj,0,Op*$1f4+3),1.,.03)
+call EqR(LoadUnitHandle(gj,0,Op*$1f4+2),LoadLocationHandle(Aj,0,Op*$1f4+3),.40,.03)
+call Ehs(Op,.45)
+elseif vo[Op]==1 then
+call WQs(Op,2,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+2)))
+if LoadInteger(Tj,0,Op*$1f4)==0 then
+call WQs(Op,4,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+2),-125.,LoadReal(aj,0,Op*$1f4+1)+40.))
+elseif LoadInteger(Tj,0,Op*$1f4)==1 then
+call WQs(Op,4,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+2),-125.,LoadReal(aj,0,Op*$1f4+1)-40.))
+else
+call WQs(Op,4,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+2),-125.,LoadReal(aj,0,Op*$1f4+1)))
+endif
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303750,LoadLocationHandle(Aj,0,Op*$1f4+4),LoadReal(aj,0,Op*$1f4+1)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303751,LoadLocationHandle(Aj,0,Op*$1f4+4),LoadReal(aj,0,Op*$1f4+1)))
+set bj_lastPlayedSound=vPR("SE\\hit-gan5.wav",null,$7f,.9,true,1000.,2500.)
+call StopSound(bj_lastPlayedSound,false,false)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call UnitDamagePointLoc(LoadUnitHandle(gj,0,Op*$1f4),0.,500.,LoadLocationHandle(Aj,0,Op*$1f4+1),240000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if LoadInteger(Tj,0,Op*$1f4)==2 then
+if GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41393033)>0 then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),3000000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+else
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),300000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+if wWR(1,$64)<=15 then
+set fG=XbR()
+call C9s(GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4))),500.,LoadLocationHandle(Aj,0,Op*$1f4+1))
+call Vbv(fG)
+endif
+call AWR(Op,.2,2)
+else
+call AWR(Op,.13,1)
+call frR(Op,0,LoadInteger(Tj,0,Op*$1f4)+1)
+endif
+elseif vo[Op]==2 then
+call Tjs(LoadUnitHandle(gj,0,Op*$1f4+2))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303541,LoadLocationHandle(Aj,0,Op*$1f4+4),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.7,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),0.,10000.)
+call qjR(Op)
+endif
+endfunction
+function S4R takes nothing returns nothing
+local player N4R
+local real w4R
+local real D4R
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$49463036
+set N4R=GetTriggerPlayer()
+set w4R=GetStartLocationX(GetPlayerStartLocation(N4R))
+set N4R=GetTriggerPlayer()
+set D4R=GetStartLocationY(GetPlayerStartLocation(N4R))
+set Ws=w4R
+set is=D4R
+set rs=true
+if not ODv() then
+set N4R=null
+return
+endif
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|c00d19be7포트거스.D.에이스 : |r|cff9fefd1취소해라... 방금 그 말!|r")
+call StartSound(vPR("SE\\AceIF.mp3",null,$7f,1.,false,0.,0.))
+set N4R=null
+endfunction
+function S5R takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(GetAttacker()))
+endfunction
+function ccv takes unit hcv returns nothing
+if GetUnitUserData(hcv)<2 then
+call SetUnitUserData(hcv,GetUnitUserData(hcv)+1)
+set ID=hcv
+call TriggerExecute(MD)
+endif
+endfunction
+function S5s takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+set bj_lastPlayedSound=vPR("SE\\Byakuya02B.wav",null,$64,1.,true,1000.,3000.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303342,LoadLocationHandle(Aj,0,Op*$1f4),bj_UNIT_FACING))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call Ehs(Op,.03)
+elseif vo[Op]==1 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304f31,LoadLocationHandle(Aj,0,Op*$1f4),bj_UNIT_FACING))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,$ff,$ff,$7f)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304f32,LoadLocationHandle(Aj,0,Op*$1f4),bj_UNIT_FACING))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304f33,LoadLocationHandle(Aj,0,Op*$1f4),bj_UNIT_FACING))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304a31,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$7d,$7d,$7d,$7d)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),20.,.0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.,1.,1.)
+call g1v(Op,1,DjR("Effect Byakuya Wing.mdx",LoadUnitHandle(gj,0,Op*$1f4),"chest"))
+call g1v(Op,2,DjR("Effect JDP White.mdx",LoadUnitHandle(gj,0,Op*$1f4),"origin"))
+call Ehs(Op,1.)
+elseif vo[Op]==2 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304a31,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$7d,$7d,$7d,$7d)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,.4)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304a32,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$c8,$c8,$c8,$c8)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304a33,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$7d,$7d,$7d,$b4)
+call YIs(LoadUnitHandle(gj,0,Op*$1f4),0.,700.,LoadLocationHandle(Aj,0,Op*$1f4),5000000.,1.,1.50,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call Ehs(Op,.1)
+elseif vo[Op]<=7 then
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4),250.*I2R(vo[Op]-3),LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304a33,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)))
+if vo[Op]<=6 then
+call Ehs(Op,.03)
+else
+call DestroyEffect(LoadEffectHandle(tj,0,Op*$1f4+3))
+call Ehs(Op,.35)
+endif
+elseif vo[Op]==8 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304f33,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304f35,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304f36,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,$ff,$ff,$7f)
+call ccv(LoadUnitHandle(gj,0,Op*$1f4))
+call Ehs(Op,.5)
+else
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304f33,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call DestroyEffect(LoadEffectHandle(tj,0,Op*$1f4+1))
+call DestroyEffect(LoadEffectHandle(tj,0,Op*$1f4+2))
+call qjR(Op)
+endif
+endfunction
+function SAv takes nothing returns nothing
+local unit dAv=GetAttacker()
+local unit GAv=GetTriggerUnit()
+local location ZAv=GetUnitLoc(dAv)
+local location yAv=GetUnitLoc(GAv)
+local real lAv=AngleBetweenPoints(ZAv,yAv)
+local unit qAv
+local integer NAv
+local unitstate wAv
+local unitstate DAv
+if GetUnitAbilityLevel(dAv,$4230304d)<=0 then
+set qAv=CreateUnitAtLoc(ds,$65304b49,yAv,AngleBetweenPoints(yAv,ZAv))
+call SetUnitScale(qAv,1.25,1.,1.)
+call IssueTargetOrder(qAv,"frostarmor",dAv)
+call IssuePointOrderLoc(qAv,"stampede",yAv)
+call YIs(dAv,.4,750.,yAv,150000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call YIs(dAv,.8,750.,yAv,150000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call YIs(dAv,1.2,750.,yAv,150000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call YIs(dAv,1.6,750.,yAv,150000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call YIs(dAv,2.,750.,yAv,150000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+set wAv=UNIT_STATE_MANA
+if GetUnitState(dAv,wAv)==85. then
+call SetUnitAnimation(dAv,"spell slam")
+call SetUnitState(dAv,UNIT_STATE_MANA,0.)
+call CreateUnitAtLoc(ds,$6530354c,yAv,lAv+180.)
+call yDs(dAv,GAv,600000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call YIs(dAv,.0,750.,yAv,1200000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+set NAv=XbR()
+call dEv(NAv,750.,yAv,Condition(Wn),mn)
+call Vbv(NAv)
+else
+set wAv=UNIT_STATE_MANA
+set DAv=UNIT_STATE_MANA
+call SetUnitState(dAv,wAv,GetUnitState(dAv,DAv)+1.)
+endif
+call RemoveLocation(ZAv)
+call RemoveLocation(yAv)
+set dAv=null
+set GAv=null
+set qAv=null
+set ZAv=null
+set yAv=null
+set wAv=null
+set DAv=null
+endfunction
+function SBs takes nothing returns nothing
+local integer DBs=LoadInteger(gW,$6830304f,-1)
+local integer wBs
+call SaveInteger(gW,$6830304f,DBs,$41303036)
+call SaveInteger(gW,$6830304f,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303043,-1)
+call SaveInteger(gW,$68303043,DBs,$41303045)
+call SaveInteger(gW,$68303043,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303044,-1)
+call SaveInteger(gW,$68303044,DBs,$41303057)
+call SaveInteger(gW,$68303044,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830304d,-1)
+call SaveInteger(gW,$6830304d,DBs,$41304e35)
+call SaveInteger(gW,$6830304d,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830304b,-1)
+call SaveInteger(gW,$6830304b,DBs,$41303044)
+call SaveInteger(gW,$6830304b,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830304e,-1)
+call SaveInteger(gW,$6830304e,DBs,$41303056)
+call SaveInteger(gW,$6830304e,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303049,-1)
+call SaveInteger(gW,$68303049,DBs,$41303050)
+call SaveInteger(gW,$68303049,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303047,-1)
+call SaveInteger(gW,$68303047,DBs,$41303249)
+call SaveInteger(gW,$68303047,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303045,-1)
+call SaveInteger(gW,$68303045,DBs,$41303152)
+call SaveInteger(gW,$68303045,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830304a,-1)
+call SaveInteger(gW,$6830304a,DBs,$4130304c)
+call SaveInteger(gW,$6830304a,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830304c,-1)
+call SaveInteger(gW,$6830304c,DBs,$41303148)
+call SaveInteger(gW,$6830304c,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303046,-1)
+call SaveInteger(gW,$68303046,DBs,$4130314c)
+call SaveInteger(gW,$68303046,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303041,-1)
+call SaveInteger(gW,$68303041,DBs,$41304e37)
+call SaveInteger(gW,$68303041,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303630,-1)
+call SaveInteger(gW,$68303630,DBs,$59593236)
+call SaveInteger(gW,$68303630,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303144,-1)
+call SaveInteger(gW,$68303144,DBs,$41303042)
+call SaveInteger(gW,$68303144,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303143,-1)
+call SaveInteger(gW,$68303143,DBs,$41304e41)
+call SaveInteger(gW,$68303143,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303050,-1)
+call SaveInteger(gW,$68303050,DBs,$41303135)
+call SaveInteger(gW,$68303050,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303147,-1)
+call SaveInteger(gW,$68303147,DBs,$41303259)
+call SaveInteger(gW,$68303147,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303145,-1)
+call SaveInteger(gW,$68303145,DBs,$41303134)
+call SaveInteger(gW,$68303145,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303053,-1)
+call SaveInteger(gW,$68303053,DBs,$41303345)
+call SaveInteger(gW,$68303053,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303148,-1)
+call SaveInteger(gW,$68303148,DBs,$41303158)
+call SaveInteger(gW,$68303148,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303052,-1)
+call SaveInteger(gW,$68303052,DBs,$4130314f)
+call SaveInteger(gW,$68303052,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303055,-1)
+call SaveInteger(gW,$68303055,DBs,$41303132)
+call SaveInteger(gW,$68303055,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303054,-1)
+call SaveInteger(gW,$68303054,DBs,$41303234)
+call SaveInteger(gW,$68303054,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303136,-1)
+call SaveInteger(gW,$68303136,DBs,$4130314e)
+call SaveInteger(gW,$68303136,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303135,-1)
+call SaveInteger(gW,$68303135,DBs,$41303138)
+call SaveInteger(gW,$68303135,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303134,-1)
+call SaveInteger(gW,$68303134,DBs,$41303149)
+call SaveInteger(gW,$68303134,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303133,-1)
+call SaveInteger(gW,$68303133,DBs,$41303142)
+call SaveInteger(gW,$68303133,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303146,-1)
+call SaveInteger(gW,$68303146,DBs,$4131395a)
+call SaveInteger(gW,$68303146,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303132,-1)
+call SaveInteger(gW,$68303132,DBs,$41314131)
+call SaveInteger(gW,$68303132,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303131,-1)
+call SaveInteger(gW,$68303131,DBs,$41303150)
+call SaveInteger(gW,$68303131,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303130,-1)
+call SaveInteger(gW,$68303130,DBs,$41303239)
+call SaveInteger(gW,$68303130,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303051,-1)
+call SaveInteger(gW,$68303051,DBs,$41303144)
+call SaveInteger(gW,$68303051,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830314a,-1)
+call SaveInteger(gW,$6830314a,DBs,$41303053)
+call SaveInteger(gW,$6830314a,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830305a,-1)
+call SaveInteger(gW,$6830305a,DBs,$4130314b)
+call SaveInteger(gW,$6830305a,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303058,-1)
+call SaveInteger(gW,$68303058,DBs,$4130305a)
+call SaveInteger(gW,$68303058,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303057,-1)
+call SaveInteger(gW,$68303057,DBs,$41303332)
+call SaveInteger(gW,$68303057,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303138,-1)
+call SaveInteger(gW,$68303138,DBs,$41303145)
+call SaveInteger(gW,$68303138,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303139,-1)
+call SaveInteger(gW,$68303139,DBs,$41303141)
+call SaveInteger(gW,$68303139,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303137,-1)
+call SaveInteger(gW,$68303137,DBs,$41303137)
+call SaveInteger(gW,$68303137,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303056,-1)
+call SaveInteger(gW,$68303056,DBs,$41304e38)
+call SaveInteger(gW,$68303056,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303141,-1)
+call SaveInteger(gW,$68303141,DBs,$41303151)
+call SaveInteger(gW,$68303141,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303059,-1)
+call SaveInteger(gW,$68303059,DBs,$41303330)
+call SaveInteger(gW,$68303059,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303142,-1)
+call SaveInteger(gW,$68303142,DBs,$41303143)
+call SaveInteger(gW,$68303142,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303149,-1)
+call SaveInteger(gW,$68303149,DBs,$41303139)
+call SaveInteger(gW,$68303149,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830314b,-1)
+call SaveInteger(gW,$6830314b,DBs,$41303242)
+call SaveInteger(gW,$6830314b,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303042,-1)
+call SaveInteger(gW,$68303042,DBs,$4130304b)
+call SaveInteger(gW,$68303042,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303958,-1)
+call SaveInteger(gW,$68303958,DBs,$41305850)
+call SaveInteger(gW,$68303958,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303151,-1)
+call SaveInteger(gW,$68303151,DBs,$41303257)
+call SaveInteger(gW,$68303151,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303235,-1)
+call SaveInteger(gW,$68303235,DBs,$41303136)
+call SaveInteger(gW,$68303235,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830314c,-1)
+call SaveInteger(gW,$6830314c,DBs,$4130324d)
+call SaveInteger(gW,$6830314c,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303246,-1)
+call SaveInteger(gW,$68303246,DBs,$41303252)
+call SaveInteger(gW,$68303246,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303232,-1)
+call SaveInteger(gW,$68303232,DBs,$41303049)
+call SaveInteger(gW,$68303232,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303231,-1)
+call SaveInteger(gW,$68303231,DBs,$41303146)
+call SaveInteger(gW,$68303231,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303230,-1)
+call SaveInteger(gW,$68303230,DBs,$41303238)
+call SaveInteger(gW,$68303230,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830315a,-1)
+call SaveInteger(gW,$6830315a,DBs,$4130314d)
+call SaveInteger(gW,$6830315a,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303159,-1)
+call SaveInteger(gW,$68303159,DBs,$4130324b)
+call SaveInteger(gW,$68303159,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303158,-1)
+call SaveInteger(gW,$68303158,DBs,$41303046)
+call SaveInteger(gW,$68303158,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303157,-1)
+call SaveInteger(gW,$68303157,DBs,$41303246)
+call SaveInteger(gW,$68303157,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303156,-1)
+call SaveInteger(gW,$68303156,DBs,$41303133)
+call SaveInteger(gW,$68303156,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303155,-1)
+call SaveInteger(gW,$68303155,DBs,$4130494f)
+call SaveInteger(gW,$68303155,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303154,-1)
+call SaveInteger(gW,$68303154,DBs,$41303347)
+call SaveInteger(gW,$68303154,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830324d,-1)
+call SaveInteger(gW,$6830324d,DBs,$41303041)
+call SaveInteger(gW,$6830324d,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303153,-1)
+call SaveInteger(gW,$68303153,DBs,$41303051)
+call SaveInteger(gW,$68303153,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303152,-1)
+call SaveInteger(gW,$68303152,DBs,$41304e36)
+call SaveInteger(gW,$68303152,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830314d,-1)
+call SaveInteger(gW,$6830314d,DBs,$41304e44)
+call SaveInteger(gW,$6830314d,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830314e,-1)
+call SaveInteger(gW,$6830314e,DBs,$41314130)
+call SaveInteger(gW,$6830314e,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830314f,-1)
+call SaveInteger(gW,$6830314f,DBs,$4130324a)
+call SaveInteger(gW,$6830314f,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830354c,-1)
+call SaveInteger(gW,$6830354c,DBs,$41303058)
+call SaveInteger(gW,$6830354c,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303150,-1)
+call SaveInteger(gW,$68303150,DBs,$41303052)
+call SaveInteger(gW,$68303150,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303249,-1)
+call SaveInteger(gW,$68303249,DBs,$41304e46)
+call SaveInteger(gW,$68303249,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303239,-1)
+call SaveInteger(gW,$68303239,DBs,$41303342)
+call SaveInteger(gW,$68303239,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303238,-1)
+call SaveInteger(gW,$68303238,DBs,$41303256)
+call SaveInteger(gW,$68303238,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303237,-1)
+call SaveInteger(gW,$68303237,DBs,$4130324c)
+call SaveInteger(gW,$68303237,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303236,-1)
+call SaveInteger(gW,$68303236,DBs,$41303339)
+call SaveInteger(gW,$68303236,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303241,-1)
+call SaveInteger(gW,$68303241,DBs,$4130314a)
+call SaveInteger(gW,$68303241,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303234,-1)
+call SaveInteger(gW,$68303234,DBs,$41304e42)
+call SaveInteger(gW,$68303234,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303243,-1)
+call SaveInteger(gW,$68303243,DBs,$41303157)
+call SaveInteger(gW,$68303243,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303244,-1)
+call SaveInteger(gW,$68303244,DBs,$41303055)
+call SaveInteger(gW,$68303244,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303247,-1)
+call SaveInteger(gW,$68303247,DBs,$41303038)
+call SaveInteger(gW,$68303247,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303245,-1)
+call SaveInteger(gW,$68303245,DBs,$41303241)
+call SaveInteger(gW,$68303245,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303448,-1)
+call SaveInteger(gW,$68303448,DBs,$41303254)
+call SaveInteger(gW,$68303448,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303233,-1)
+call SaveInteger(gW,$68303233,DBs,$41303043)
+call SaveInteger(gW,$68303233,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303242,-1)
+call SaveInteger(gW,$68303242,DBs,$41304e43)
+call SaveInteger(gW,$68303242,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303248,-1)
+call SaveInteger(gW,$68303248,DBs,$4130324e)
+call SaveInteger(gW,$68303248,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830324a,-1)
+call SaveInteger(gW,$6830324a,DBs,$41303253)
+call SaveInteger(gW,$6830324a,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830324b,-1)
+call SaveInteger(gW,$6830324b,DBs,$41303130)
+call SaveInteger(gW,$6830324b,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830324c,-1)
+call SaveInteger(gW,$6830324c,DBs,$4130325a)
+call SaveInteger(gW,$6830324c,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830354b,-1)
+call SaveInteger(gW,$6830354b,DBs,$41303156)
+call SaveInteger(gW,$6830354b,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303558,-1)
+call SaveInteger(gW,$68303558,DBs,$55553031)
+call SaveInteger(gW,$68303558,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830334b,-1)
+call SaveInteger(gW,$6830334b,DBs,$41303337)
+call SaveInteger(gW,$6830334b,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830324e,-1)
+call SaveInteger(gW,$6830324e,DBs,$41303147)
+call SaveInteger(gW,$6830324e,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830324f,-1)
+call SaveInteger(gW,$6830324f,DBs,$4130304e)
+call SaveInteger(gW,$6830324f,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303250,-1)
+call SaveInteger(gW,$68303250,DBs,$4130304f)
+call SaveInteger(gW,$68303250,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830395a,-1)
+call SaveInteger(gW,$6830395a,DBs,$41305853)
+call SaveInteger(gW,$6830395a,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303251,-1)
+call SaveInteger(gW,$68303251,DBs,$41303343)
+call SaveInteger(gW,$68303251,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303252,-1)
+call SaveInteger(gW,$68303252,DBs,$41303250)
+call SaveInteger(gW,$68303252,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303253,-1)
+call SaveInteger(gW,$68303253,DBs,$41304e48)
+call SaveInteger(gW,$68303253,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303254,-1)
+call SaveInteger(gW,$68303254,DBs,$41303244)
+call SaveInteger(gW,$68303254,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303255,-1)
+call SaveInteger(gW,$68303255,DBs,$41303336)
+call SaveInteger(gW,$68303255,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303259,-1)
+call SaveInteger(gW,$68303259,DBs,$41303054)
+call SaveInteger(gW,$68303259,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303258,-1)
+call SaveInteger(gW,$68303258,DBs,$41303344)
+call SaveInteger(gW,$68303258,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303257,-1)
+call SaveInteger(gW,$68303257,DBs,$41303059)
+call SaveInteger(gW,$68303257,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830325a,-1)
+call SaveInteger(gW,$6830325a,DBs,$4130304a)
+call SaveInteger(gW,$6830325a,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303330,-1)
+call SaveInteger(gW,$68303330,DBs,$41303237)
+call SaveInteger(gW,$68303330,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303332,-1)
+call SaveInteger(gW,$68303332,DBs,$41304e39)
+call SaveInteger(gW,$68303332,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303333,-1)
+call SaveInteger(gW,$68303333,DBs,$41303047)
+call SaveInteger(gW,$68303333,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303334,-1)
+call SaveInteger(gW,$68303334,DBs,$41303155)
+call SaveInteger(gW,$68303334,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303348,-1)
+call SaveInteger(gW,$68303348,DBs,$41303243)
+call SaveInteger(gW,$68303348,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303335,-1)
+call SaveInteger(gW,$68303335,DBs,$41303235)
+call SaveInteger(gW,$68303335,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303336,-1)
+call SaveInteger(gW,$68303336,DBs,$4130304d)
+call SaveInteger(gW,$68303336,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303337,-1)
+call SaveInteger(gW,$68303337,DBs,$41304e49)
+call SaveInteger(gW,$68303337,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303256,-1)
+call SaveInteger(gW,$68303256,DBs,$41303348)
+call SaveInteger(gW,$68303256,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303432,-1)
+call SaveInteger(gW,$68303432,DBs,$41305547)
+call SaveInteger(gW,$68303432,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303338,-1)
+call SaveInteger(gW,$68303338,DBs,$41303039)
+call SaveInteger(gW,$68303338,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303339,-1)
+call SaveInteger(gW,$68303339,DBs,$41303258)
+call SaveInteger(gW,$68303339,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303341,-1)
+call SaveInteger(gW,$68303341,DBs,$41303153)
+call SaveInteger(gW,$68303341,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303837,-1)
+call SaveInteger(gW,$68303837,DBs,$41303251)
+call SaveInteger(gW,$68303837,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303342,-1)
+call SaveInteger(gW,$68303342,DBs,$41303247)
+call SaveInteger(gW,$68303342,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303353,-1)
+call SaveInteger(gW,$68303353,DBs,$41303035)
+call SaveInteger(gW,$68303353,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303349,-1)
+call SaveInteger(gW,$68303349,DBs,$41304e47)
+call SaveInteger(gW,$68303349,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303347,-1)
+call SaveInteger(gW,$68303347,DBs,$41304e45)
+call SaveInteger(gW,$68303347,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303346,-1)
+call SaveInteger(gW,$68303346,DBs,$41303236)
+call SaveInteger(gW,$68303346,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303345,-1)
+call SaveInteger(gW,$68303345,DBs,$41303154)
+call SaveInteger(gW,$68303345,-1,DBs+1)
+set DBs=LoadInteger(gW,$68304148,-1)
+call SaveInteger(gW,$68304148,DBs,$41313038)
+call SaveInteger(gW,$68304148,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303343,-1)
+call SaveInteger(gW,$68303343,DBs,$41303248)
+call SaveInteger(gW,$68303343,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303331,-1)
+call SaveInteger(gW,$68303331,DBs,$41303048)
+call SaveInteger(gW,$68303331,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830434d,-1)
+call SaveInteger(gW,$6830434d,DBs,$41314343)
+call SaveInteger(gW,$6830434d,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303853,-1)
+call SaveInteger(gW,$68303853,DBs,$41313133)
+call SaveInteger(gW,$68303853,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303358,-1)
+call SaveInteger(gW,$68303358,DBs,$59593031)
+call SaveInteger(gW,$68303358,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303358,-2)
+call SaveStr(gW,$68303358,wBs,"방주맥심조합")
+call SaveInteger(gW,$68303358,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303358,-2)
+call SaveStr(gW,$68303358,wBs,"maxim")
+call SaveInteger(gW,$68303358,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303434,-1)
+call SaveInteger(gW,$68303434,DBs,$59593032)
+call SaveInteger(gW,$68303434,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303434,-2)
+call SaveStr(gW,$68303434,wBs,"류마조합")
+call SaveInteger(gW,$68303434,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303434,-2)
+call SaveStr(gW,$68303434,wBs,"ryuma")
+call SaveInteger(gW,$68303434,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303357,-1)
+call SaveInteger(gW,$68303357,DBs,$59593033)
+call SaveInteger(gW,$68303357,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303357,-2)
+call SaveStr(gW,$68303357,wBs,"베르고조합")
+call SaveInteger(gW,$68303357,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303357,-2)
+call SaveStr(gW,$68303357,wBs,"vergo")
+call SaveInteger(gW,$68303357,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303355,-1)
+call SaveInteger(gW,$68303355,DBs,$59593034)
+call SaveInteger(gW,$68303355,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303355,-2)
+call SaveStr(gW,$68303355,wBs,"레드포스호조합")
+call SaveInteger(gW,$68303355,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303355,-2)
+call SaveStr(gW,$68303355,wBs,"redforce")
+call SaveInteger(gW,$68303355,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303354,-1)
+call SaveInteger(gW,$68303354,DBs,$59593035)
+call SaveInteger(gW,$68303354,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303354,-2)
+call SaveStr(gW,$68303354,wBs,"레베카조합")
+call SaveInteger(gW,$68303354,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303354,-2)
+call SaveStr(gW,$68303354,wBs,"rebecca")
+call SaveInteger(gW,$68303354,-2,wBs+1)
+set DBs=LoadInteger(gW,$6830334e,-1)
+call SaveInteger(gW,$6830334e,DBs,$59593036)
+call SaveInteger(gW,$6830334e,-1,DBs+1)
+set wBs=LoadInteger(gW,$6830334e,-2)
+call SaveStr(gW,$6830334e,wBs,"료쿠규조합")
+call SaveInteger(gW,$6830334e,-2,wBs+1)
+set wBs=LoadInteger(gW,$6830334e,-2)
+call SaveStr(gW,$6830334e,wBs,"ryokugyu")
+call SaveInteger(gW,$6830334e,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303351,-1)
+call SaveInteger(gW,$68303351,DBs,$59593037)
+call SaveInteger(gW,$68303351,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303351,-2)
+call SaveStr(gW,$68303351,wBs,"모비딕호조합")
+call SaveInteger(gW,$68303351,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303351,-2)
+call SaveStr(gW,$68303351,wBs,"mobydick")
+call SaveInteger(gW,$68303351,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303352,-1)
+call SaveInteger(gW,$68303352,DBs,$59593038)
+call SaveInteger(gW,$68303352,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303352,-2)
+call SaveStr(gW,$68303352,wBs,"반더데켄조합")
+call SaveInteger(gW,$68303352,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303352,-2)
+call SaveStr(gW,$68303352,wBs,"decken")
+call SaveInteger(gW,$68303352,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303350,-1)
+call SaveInteger(gW,$68303350,DBs,$59593039)
+call SaveInteger(gW,$68303350,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303350,-2)
+call SaveStr(gW,$68303350,wBs,"발라티에조합")
+call SaveInteger(gW,$68303350,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303350,-2)
+call SaveStr(gW,$68303350,wBs,"baratie")
+call SaveInteger(gW,$68303350,-2,wBs+1)
+set DBs=LoadInteger(gW,$6830334f,-1)
+call SaveInteger(gW,$6830334f,DBs,$59593130)
+call SaveInteger(gW,$6830334f,-1,DBs+1)
+set wBs=LoadInteger(gW,$6830334f,-2)
+call SaveStr(gW,$6830334f,wBs,"봉쿠레조합")
+call SaveInteger(gW,$6830334f,-2,wBs+1)
+set wBs=LoadInteger(gW,$6830334f,-2)
+call SaveStr(gW,$6830334f,wBs,"bonkurei")
+call SaveInteger(gW,$6830334f,-2,wBs+1)
+set DBs=LoadInteger(gW,$6830334d,-1)
+call SaveInteger(gW,$6830334d,DBs,$59593131)
+call SaveInteger(gW,$6830334d,-1,DBs+1)
+set wBs=LoadInteger(gW,$6830334d,-2)
+call SaveStr(gW,$6830334d,wBs,"사보조합")
+call SaveInteger(gW,$6830334d,-2,wBs+1)
+set wBs=LoadInteger(gW,$6830334d,-2)
+call SaveStr(gW,$6830334d,wBs,"sabo")
+call SaveInteger(gW,$6830334d,-2,wBs+1)
+set DBs=LoadInteger(gW,$6830334c,-1)
+call SaveInteger(gW,$6830334c,DBs,$59593132)
+call SaveInteger(gW,$6830334c,-1,DBs+1)
+set wBs=LoadInteger(gW,$6830334c,-2)
+call SaveStr(gW,$6830334c,wBs,"써니호조합")
+call SaveInteger(gW,$6830334c,-2,wBs+1)
+set wBs=LoadInteger(gW,$6830334c,-2)
+call SaveStr(gW,$6830334c,wBs,"sunny")
+call SaveInteger(gW,$6830334c,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303535,-1)
+call SaveInteger(gW,$68303535,DBs,$59593133)
+call SaveInteger(gW,$68303535,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303535,-2)
+call SaveStr(gW,$68303535,wBs,"스튜시조합")
+call SaveInteger(gW,$68303535,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303535,-2)
+call SaveStr(gW,$68303535,wBs,"stussy")
+call SaveInteger(gW,$68303535,-2,wBs+1)
+set DBs=LoadInteger(gW,$6830334a,-1)
+call SaveInteger(gW,$6830334a,DBs,$59593134)
+call SaveInteger(gW,$6830334a,-1,DBs+1)
+set wBs=LoadInteger(gW,$6830334a,-2)
+call SaveStr(gW,$6830334a,wBs,"시류조합")
+call SaveInteger(gW,$6830334a,-2,wBs+1)
+set wBs=LoadInteger(gW,$6830334a,-2)
+call SaveStr(gW,$6830334a,wBs,"shiryu")
+call SaveInteger(gW,$6830334a,-2,wBs+1)
+set DBs=LoadInteger(gW,$6830335a,-1)
+call SaveInteger(gW,$6830335a,DBs,$59593135)
+call SaveInteger(gW,$6830335a,-1,DBs+1)
+set wBs=LoadInteger(gW,$6830335a,-2)
+call SaveStr(gW,$6830335a,wBs,"아카이누조합")
+call SaveInteger(gW,$6830335a,-2,wBs+1)
+set wBs=LoadInteger(gW,$6830335a,-2)
+call SaveStr(gW,$6830335a,wBs,"akainu")
+call SaveInteger(gW,$6830335a,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303359,-1)
+call SaveInteger(gW,$68303359,DBs,$59593136)
+call SaveInteger(gW,$68303359,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303359,-2)
+call SaveStr(gW,$68303359,wBs,"이완코브조합")
+call SaveInteger(gW,$68303359,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303359,-2)
+call SaveStr(gW,$68303359,wBs,"ivankov")
+call SaveInteger(gW,$68303359,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303433,-1)
+call SaveInteger(gW,$68303433,DBs,$59593137)
+call SaveInteger(gW,$68303433,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303433,-2)
+call SaveStr(gW,$68303433,wBs,"검호조합")
+call SaveInteger(gW,$68303433,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303433,-2)
+call SaveStr(gW,$68303433,wBs,"mihawk")
+call SaveInteger(gW,$68303433,-2,wBs+1)
+set DBs=LoadInteger(gW,$6830374c,-1)
+call SaveInteger(gW,$6830374c,DBs,$59593138)
+call SaveInteger(gW,$6830374c,-1,DBs+1)
+set wBs=LoadInteger(gW,$6830374c,-2)
+call SaveStr(gW,$6830374c,wBs,"캐럿조합")
+call SaveInteger(gW,$6830374c,-2,wBs+1)
+set wBs=LoadInteger(gW,$6830374c,-2)
+call SaveStr(gW,$6830374c,wBs,"carrot")
+call SaveInteger(gW,$6830374c,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303431,-1)
+call SaveInteger(gW,$68303431,DBs,$59593230)
+call SaveInteger(gW,$68303431,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303431,-2)
+call SaveStr(gW,$68303431,wBs,"아오키지조합")
+call SaveInteger(gW,$68303431,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303431,-2)
+call SaveStr(gW,$68303431,wBs,"aokiji")
+call SaveInteger(gW,$68303431,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303436,-1)
+call SaveInteger(gW,$68303436,DBs,$59593232)
+call SaveInteger(gW,$68303436,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303436,-2)
+call SaveStr(gW,$68303436,wBs,"키쿠조합")
+call SaveInteger(gW,$68303436,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303436,-2)
+call SaveStr(gW,$68303436,wBs,"kiku")
+call SaveInteger(gW,$68303436,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303435,-1)
+call SaveInteger(gW,$68303435,DBs,$59593233)
+call SaveInteger(gW,$68303435,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303435,-2)
+call SaveStr(gW,$68303435,wBs,"킬러조합")
+call SaveInteger(gW,$68303435,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303435,-2)
+call SaveStr(gW,$68303435,wBs,"killer")
+call SaveInteger(gW,$68303435,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303437,-1)
+call SaveInteger(gW,$68303437,DBs,$59593235)
+call SaveInteger(gW,$68303437,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303437,-2)
+call SaveStr(gW,$68303437,wBs,"피셔타이거조합")
+call SaveInteger(gW,$68303437,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303437,-2)
+call SaveStr(gW,$68303437,wBs,"tiger")
+call SaveInteger(gW,$68303437,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303553,-1)
+call SaveInteger(gW,$68303553,DBs,$41304b32)
+call SaveInteger(gW,$68303553,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830374e,-1)
+call SaveInteger(gW,$6830374e,DBs,$41304b33)
+call SaveInteger(gW,$6830374e,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303557,-1)
+call SaveInteger(gW,$68303557,DBs,$41304b34)
+call SaveInteger(gW,$68303557,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830434b,-1)
+call SaveInteger(gW,$6830434b,DBs,$41304b36)
+call SaveInteger(gW,$6830434b,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830374a,-1)
+call SaveInteger(gW,$6830374a,DBs,$41304b37)
+call SaveInteger(gW,$6830374a,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303548,-1)
+call SaveInteger(gW,$68303548,DBs,$53503031)
+call SaveInteger(gW,$68303548,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830384e,-1)
+call SaveInteger(gW,$6830384e,DBs,$53503032)
+call SaveInteger(gW,$6830384e,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303551,-1)
+call SaveInteger(gW,$68303551,DBs,$53503033)
+call SaveInteger(gW,$68303551,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830354f,-1)
+call SaveInteger(gW,$6830354f,DBs,$53503034)
+call SaveInteger(gW,$6830354f,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303550,-1)
+call SaveInteger(gW,$68303550,DBs,$53503035)
+call SaveInteger(gW,$68303550,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303552,-1)
+call SaveInteger(gW,$68303552,DBs,$53503036)
+call SaveInteger(gW,$68303552,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303954,-1)
+call SaveInteger(gW,$68303954,DBs,$53503037)
+call SaveInteger(gW,$68303954,-1,DBs+1)
+set DBs=LoadInteger(gW,$68304247,-1)
+call SaveInteger(gW,$68304247,DBs,$53503038)
+call SaveInteger(gW,$68304247,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303549,-1)
+call SaveInteger(gW,$68303549,DBs,$41303037)
+call SaveInteger(gW,$68303549,-1,DBs+1)
+set DBs=LoadInteger(gW,$6830384f,-1)
+call SaveInteger(gW,$6830384f,DBs,$41303131)
+call SaveInteger(gW,$6830384f,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303749,-1)
+call SaveInteger(gW,$68303749,DBs,$41305330)
+call SaveInteger(gW,$68303749,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303834,-1)
+call SaveInteger(gW,$68303834,DBs,$41305548)
+call SaveInteger(gW,$68303834,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303430,-1)
+call SaveInteger(gW,$68303430,DBs,$41305250)
+call SaveInteger(gW,$68303430,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303851,-1)
+call SaveInteger(gW,$68303851,DBs,$41313850)
+call SaveInteger(gW,$68303851,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303545,-1)
+call SaveInteger(gW,$68303545,DBs,$41314135)
+call SaveInteger(gW,$68303545,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303546,-1)
+call SaveInteger(gW,$68303546,DBs,$4130324f)
+call SaveInteger(gW,$68303546,-1,DBs+1)
+set DBs=LoadInteger(gW,$68304149,-1)
+call SaveInteger(gW,$68304149,DBs,$41313041)
+call SaveInteger(gW,$68304149,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303547,-1)
+call SaveInteger(gW,$68303547,DBs,$41314136)
+call SaveInteger(gW,$68303547,-1,DBs+1)
+set DBs=LoadInteger(gW,$68303356,-1)
+call SaveInteger(gW,$68303356,DBs,$49463031)
+call SaveInteger(gW,$68303356,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303356,-2)
+call SaveStr(gW,$68303356,wBs,"혁명군대리사범")
+call SaveInteger(gW,$68303356,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303356,-2)
+call SaveStr(gW,$68303356,wBs,"koala")
+call SaveInteger(gW,$68303356,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303438,-1)
+call SaveInteger(gW,$68303438,DBs,$49463032)
+call SaveInteger(gW,$68303438,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303438,-2)
+call SaveStr(gW,$68303438,wBs,"고스트프린세스")
+call SaveInteger(gW,$68303438,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303438,-2)
+call SaveStr(gW,$68303438,wBs,"perona")
+call SaveInteger(gW,$68303438,-2,wBs+1)
+set DBs=LoadInteger(gW,$68304349,-1)
+call SaveInteger(gW,$68304349,DBs,$49463033)
+call SaveInteger(gW,$68304349,-1,DBs+1)
+set wBs=LoadInteger(gW,$68304349,-2)
+call SaveStr(gW,$68304349,wBs,"역재의사이보그")
+call SaveInteger(gW,$68304349,-2,wBs+1)
+set wBs=LoadInteger(gW,$68304349,-2)
+call SaveStr(gW,$68304349,wBs,"queen")
+call SaveInteger(gW,$68304349,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303455,-1)
+call SaveInteger(gW,$68303455,DBs,$49463034)
+call SaveInteger(gW,$68303455,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303455,-2)
+call SaveStr(gW,$68303455,wBs,"환혹의마리아네트")
+call SaveInteger(gW,$68303455,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303455,-2)
+call SaveStr(gW,$68303455,wBs,"blackmaria")
+call SaveInteger(gW,$68303455,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303956,-1)
+call SaveInteger(gW,$68303956,DBs,$49463035)
+call SaveInteger(gW,$68303956,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303956,-2)
+call SaveStr(gW,$68303956,wBs,"괴력의챔피언")
+call SaveInteger(gW,$68303956,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303956,-2)
+call SaveStr(gW,$68303956,wBs,"burgess")
+call SaveInteger(gW,$68303956,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303556,-1)
+call SaveInteger(gW,$68303556,DBs,$49463036)
+call SaveInteger(gW,$68303556,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303556,-2)
+call SaveStr(gW,$68303556,wBs,"해적왕의아들")
+call SaveInteger(gW,$68303556,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303556,-2)
+call SaveStr(gW,$68303556,wBs,"ace")
+call SaveInteger(gW,$68303556,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303959,-1)
+call SaveInteger(gW,$68303959,DBs,$53504831)
+call SaveInteger(gW,$68303959,-1,DBs+1)
+set DBs=LoadInteger(gW,$68304133,-1)
+call SaveInteger(gW,$68304133,DBs,$53504832)
+call SaveInteger(gW,$68304133,-1,DBs+1)
+set DBs=LoadInteger(gW,$68304130,-1)
+call SaveInteger(gW,$68304130,DBs,$53504833)
+call SaveInteger(gW,$68304130,-1,DBs+1)
+set DBs=LoadInteger(gW,$68304131,-1)
+call SaveInteger(gW,$68304131,DBs,$53504834)
+call SaveInteger(gW,$68304131,-1,DBs+1)
+set DBs=LoadInteger(gW,$48303856,-1)
+call SaveInteger(gW,$48303856,DBs,$54523031)
+call SaveInteger(gW,$48303856,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303856,-2)
+call SaveStr(gW,$48303856,wBs,"날씨는맑음")
+call SaveInteger(gW,$48303856,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303856,-2)
+call SaveStr(gW,$48303856,wBs,"nami tr")
+call SaveInteger(gW,$48303856,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303938,-1)
+call SaveInteger(gW,$48303938,DBs,$54523032)
+call SaveInteger(gW,$48303938,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303938,-2)
+call SaveStr(gW,$48303938,wBs,"악마의자식")
+call SaveInteger(gW,$48303938,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303938,-2)
+call SaveStr(gW,$48303938,wBs,"robin tr")
+call SaveInteger(gW,$48303938,-2,wBs+1)
+set DBs=LoadInteger(gW,$4830354e,-1)
+call SaveInteger(gW,$4830354e,DBs,$54523033)
+call SaveInteger(gW,$4830354e,-1,DBs+1)
+set wBs=LoadInteger(gW,$4830354e,-2)
+call SaveStr(gW,$4830354e,wBs,"해군의홍일점")
+call SaveInteger(gW,$4830354e,-2,wBs+1)
+set wBs=LoadInteger(gW,$4830354e,-2)
+call SaveStr(gW,$4830354e,wBs,"tashigi tr")
+call SaveInteger(gW,$4830354e,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303945,-1)
+call SaveInteger(gW,$48303945,DBs,$54523034)
+call SaveInteger(gW,$48303945,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303945,-2)
+call SaveStr(gW,$48303945,wBs,"어둠의조커")
+call SaveInteger(gW,$48303945,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303945,-2)
+call SaveStr(gW,$48303945,wBs,"joker tr")
+call SaveInteger(gW,$48303945,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303857,-1)
+call SaveInteger(gW,$48303857,DBs,$54523035)
+call SaveInteger(gW,$48303857,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303857,-2)
+call SaveStr(gW,$48303857,wBs,"검은정의를좇는하얀새")
+call SaveInteger(gW,$48303857,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303857,-2)
+call SaveStr(gW,$48303857,wBs,"lucci tr")
+call SaveInteger(gW,$48303857,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303946,-1)
+call SaveInteger(gW,$48303946,DBs,$54523036)
+call SaveInteger(gW,$48303946,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303946,-2)
+call SaveStr(gW,$48303946,wBs,"최강의검사")
+call SaveInteger(gW,$48303946,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303946,-2)
+call SaveStr(gW,$48303946,wBs,"zoro tr")
+call SaveInteger(gW,$48303946,-2,wBs+1)
+set DBs=LoadInteger(gW,$48304232,-1)
+call SaveInteger(gW,$48304232,DBs,$54523037)
+call SaveInteger(gW,$48304232,-1,DBs+1)
+set wBs=LoadInteger(gW,$48304232,-2)
+call SaveStr(gW,$48304232,wBs,"다섯번째황제")
+call SaveInteger(gW,$48304232,-2,wBs+1)
+set wBs=LoadInteger(gW,$48304232,-2)
+call SaveStr(gW,$48304232,wBs,"snakeman tr")
+call SaveInteger(gW,$48304232,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303930,-1)
+call SaveInteger(gW,$48303930,DBs,$54523038)
+call SaveInteger(gW,$48303930,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303930,-2)
+call SaveStr(gW,$48303930,wBs,"치밀하고비열한어둠")
+call SaveInteger(gW,$48303930,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303930,-2)
+call SaveStr(gW,$48303930,wBs,"teach tr")
+call SaveInteger(gW,$48303930,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303939,-1)
+call SaveInteger(gW,$48303939,DBs,$54523039)
+call SaveInteger(gW,$48303939,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303939,-2)
+call SaveStr(gW,$48303939,wBs,"해적왕이될사나이")
+call SaveInteger(gW,$48303939,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303939,-2)
+call SaveStr(gW,$48303939,wBs,"luffy tr")
+call SaveInteger(gW,$48303939,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303934,-1)
+call SaveInteger(gW,$48303934,DBs,$54523130)
+call SaveInteger(gW,$48303934,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303934,-2)
+call SaveStr(gW,$48303934,wBs,"운명의마술사")
+call SaveInteger(gW,$48303934,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303934,-2)
+call SaveStr(gW,$48303934,wBs,"hawkins tr")
+call SaveInteger(gW,$48303934,-2,wBs+1)
+set DBs=LoadInteger(gW,$48304235,-1)
+call SaveInteger(gW,$48304235,DBs,$54523131)
+call SaveInteger(gW,$48304235,-1,DBs+1)
+set wBs=LoadInteger(gW,$48304235,-2)
+call SaveStr(gW,$48304235,wBs,"해군대장노란원숭이")
+call SaveInteger(gW,$48304235,-2,wBs+1)
+set wBs=LoadInteger(gW,$48304235,-2)
+call SaveStr(gW,$48304235,wBs,"kizaru tr")
+call SaveInteger(gW,$48304235,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303949,-1)
+call SaveInteger(gW,$48303949,DBs,$54523132)
+call SaveInteger(gW,$48303949,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303949,-2)
+call SaveStr(gW,$48303949,wBs,"소울킹")
+call SaveInteger(gW,$48303949,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303949,-2)
+call SaveStr(gW,$48303949,wBs,"brook tr")
+call SaveInteger(gW,$48303949,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303932,-1)
+call SaveInteger(gW,$48303932,DBs,$54523133)
+call SaveInteger(gW,$48303932,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303932,-2)
+call SaveStr(gW,$48303932,wBs,"혁명군참모총장")
+call SaveInteger(gW,$48303932,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303932,-2)
+call SaveStr(gW,$48303932,wBs,"sabo tr")
+call SaveInteger(gW,$48303932,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303948,-1)
+call SaveInteger(gW,$48303948,DBs,$54523134)
+call SaveInteger(gW,$48303948,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303948,-2)
+call SaveStr(gW,$48303948,wBs,"지옥에서돌아온자")
+call SaveInteger(gW,$48303948,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303948,-2)
+call SaveStr(gW,$48303948,wBs,"sanji tr")
+call SaveInteger(gW,$48303948,-2,wBs+1)
+set DBs=LoadInteger(gW,$4830385a,-1)
+call SaveInteger(gW,$4830385a,DBs,$54523135)
+call SaveInteger(gW,$4830385a,-1,DBs+1)
+set wBs=LoadInteger(gW,$4830385a,-2)
+call SaveStr(gW,$4830385a,wBs,"정상해전종결자")
+call SaveInteger(gW,$4830385a,-2,wBs+1)
+set wBs=LoadInteger(gW,$4830385a,-2)
+call SaveStr(gW,$4830385a,wBs,"shanks tr")
+call SaveInteger(gW,$4830385a,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303855,-1)
+call SaveInteger(gW,$48303855,DBs,$54523136)
+call SaveInteger(gW,$48303855,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303855,-2)
+call SaveStr(gW,$48303855,wBs,"해왕류를다스리는인어공주")
+call SaveInteger(gW,$48303855,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303855,-2)
+call SaveStr(gW,$48303855,wBs,"shirahoshi tr")
+call SaveInteger(gW,$48303855,-2,wBs+1)
+set DBs=LoadInteger(gW,$4830424c,-1)
+call SaveInteger(gW,$4830424c,DBs,$54523137)
+call SaveInteger(gW,$4830424c,-1,DBs+1)
+set wBs=LoadInteger(gW,$4830424c,-2)
+call SaveStr(gW,$4830424c,wBs,"신해군대장초록소")
+call SaveInteger(gW,$4830424c,-2,wBs+1)
+set wBs=LoadInteger(gW,$4830424c,-2)
+call SaveStr(gW,$4830424c,wBs,"ryokugyu tr")
+call SaveInteger(gW,$4830424c,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303935,-1)
+call SaveInteger(gW,$48303935,DBs,$54523138)
+call SaveInteger(gW,$48303935,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303935,-2)
+call SaveStr(gW,$48303935,wBs,"해군원수붉은개")
+call SaveInteger(gW,$48303935,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303935,-2)
+call SaveStr(gW,$48303935,wBs,"akainu tr")
+call SaveInteger(gW,$48303935,-2,wBs+1)
+set DBs=LoadInteger(gW,$48304244,-1)
+call SaveInteger(gW,$48304244,DBs,$54523139)
+call SaveInteger(gW,$48304244,-1,DBs+1)
+set wBs=LoadInteger(gW,$48304244,-2)
+call SaveStr(gW,$48304244,wBs,"오니히메")
+call SaveInteger(gW,$48304244,-2,wBs+1)
+set wBs=LoadInteger(gW,$48304244,-2)
+call SaveStr(gW,$48304244,wBs,"yamato tr")
+call SaveInteger(gW,$48304244,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303942,-1)
+call SaveInteger(gW,$48303942,DBs,$54523230)
+call SaveInteger(gW,$48303942,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303942,-2)
+call SaveStr(gW,$48303942,wBs,"바다의전사")
+call SaveInteger(gW,$48303942,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303942,-2)
+call SaveStr(gW,$48303942,wBs,"usopp tr")
+call SaveInteger(gW,$48303942,-2,wBs+1)
+set DBs=LoadInteger(gW,$48304258,-1)
+call SaveInteger(gW,$48304258,DBs,$54523231)
+call SaveInteger(gW,$48304258,-1,DBs+1)
+set wBs=LoadInteger(gW,$48304258,-2)
+call SaveStr(gW,$48304258,wBs,"일그러진미래")
+call SaveInteger(gW,$48304258,-2,wBs+1)
+set wBs=LoadInteger(gW,$48304258,-2)
+call SaveStr(gW,$48304258,wBs,"bonney tr")
+call SaveInteger(gW,$48304258,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303941,-1)
+call SaveInteger(gW,$48303941,DBs,$54523232)
+call SaveInteger(gW,$48303941,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303941,-2)
+call SaveStr(gW,$48303941,wBs,"바다의협객")
+call SaveInteger(gW,$48303941,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303941,-2)
+call SaveStr(gW,$48303941,wBs,"jinbe tr")
+call SaveInteger(gW,$48303941,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303931,-1)
+call SaveInteger(gW,$48303931,DBs,$54523233)
+call SaveInteger(gW,$48303931,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303931,-2)
+call SaveStr(gW,$48303931,wBs,"순록의사!")
+call SaveInteger(gW,$48303931,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303931,-2)
+call SaveStr(gW,$48303931,wBs,"chopper tr")
+call SaveInteger(gW,$48303931,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303937,-1)
+call SaveInteger(gW,$48303937,DBs,$54523234)
+call SaveInteger(gW,$48303937,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303937,-2)
+call SaveStr(gW,$48303937,wBs,"전해군대장푸른꿩")
+call SaveInteger(gW,$48303937,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303937,-2)
+call SaveStr(gW,$48303937,wBs,"aokiji tr")
+call SaveInteger(gW,$48303937,-2,wBs+1)
+set DBs=LoadInteger(gW,$48304234,-1)
+call SaveInteger(gW,$48304234,DBs,$54523235)
+call SaveInteger(gW,$48304234,-1,DBs+1)
+set wBs=LoadInteger(gW,$48304234,-2)
+call SaveStr(gW,$48304234,wBs,"신세대의이단아")
+call SaveInteger(gW,$48304234,-2,wBs+1)
+set wBs=LoadInteger(gW,$48304234,-2)
+call SaveStr(gW,$48304234,wBs,"kid tr")
+call SaveInteger(gW,$48304234,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303936,-1)
+call SaveInteger(gW,$48303936,DBs,$54523236)
+call SaveInteger(gW,$48303936,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303936,-2)
+call SaveStr(gW,$48303936,wBs,"백개의심장을바친자")
+call SaveInteger(gW,$48303936,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303936,-2)
+call SaveStr(gW,$48303936,wBs,"law tr")
+call SaveInteger(gW,$48303936,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303859,-1)
+call SaveInteger(gW,$48303859,DBs,$54523237)
+call SaveInteger(gW,$48303859,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303859,-2)
+call SaveStr(gW,$48303859,wBs,"무적의아이언파이러츠")
+call SaveInteger(gW,$48303859,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303859,-2)
+call SaveStr(gW,$48303859,wBs,"franky tr")
+call SaveInteger(gW,$48303859,-2,wBs+1)
+set DBs=LoadInteger(gW,$48303858,-1)
+call SaveInteger(gW,$48303858,DBs,$54523238)
+call SaveInteger(gW,$48303858,-1,DBs+1)
+set wBs=LoadInteger(gW,$48303858,-2)
+call SaveStr(gW,$48303858,wBs,"분노하는맹호")
+call SaveInteger(gW,$48303858,-2,wBs+1)
+set wBs=LoadInteger(gW,$48303858,-2)
+call SaveStr(gW,$48303858,wBs,"fujitora tr")
+call SaveInteger(gW,$48303858,-2,wBs+1)
+set DBs=LoadInteger(gW,$4830434f,-1)
+call SaveInteger(gW,$4830434f,DBs,$54523239)
+call SaveInteger(gW,$4830434f,-1,DBs+1)
+set wBs=LoadInteger(gW,$4830434f,-2)
+call SaveStr(gW,$4830434f,wBs,"해군의미래")
+call SaveInteger(gW,$4830434f,-2,wBs+1)
+set wBs=LoadInteger(gW,$4830434f,-2)
+call SaveStr(gW,$4830434f,wBs,"koby tr")
+call SaveInteger(gW,$4830434f,-2,wBs+1)
+set DBs=LoadInteger(gW,$48304141,-1)
+call SaveInteger(gW,$48304141,DBs,$54523330)
+call SaveInteger(gW,$48304141,-1,DBs+1)
+set wBs=LoadInteger(gW,$48304141,-2)
+call SaveStr(gW,$48304141,wBs,"세계최고의과학자")
+call SaveInteger(gW,$48304141,-2,wBs+1)
+set wBs=LoadInteger(gW,$48304141,-2)
+call SaveStr(gW,$48304141,wBs,"vegapunk tr")
+call SaveInteger(gW,$48304141,-2,wBs+1)
+set DBs=LoadInteger(gW,$6830344a,-1)
+call SaveInteger(gW,$6830344a,DBs,$494d3031)
+call SaveInteger(gW,$6830344a,-1,DBs+1)
+set wBs=LoadInteger(gW,$6830344a,-2)
+call SaveStr(gW,$6830344a,wBs,"해적왕골D로져")
+call SaveInteger(gW,$6830344a,-2,wBs+1)
+set wBs=LoadInteger(gW,$6830344a,-2)
+call SaveStr(gW,$6830344a,wBs,"roger im")
+call SaveInteger(gW,$6830344a,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303442,-1)
+call SaveInteger(gW,$68303442,DBs,$494d3032)
+call SaveInteger(gW,$68303442,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303442,-2)
+call SaveStr(gW,$68303442,wBs,"천신금사자시키")
+call SaveInteger(gW,$68303442,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303442,-2)
+call SaveStr(gW,$68303442,wBs,"shiki im")
+call SaveInteger(gW,$68303442,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303443,-1)
+call SaveInteger(gW,$68303443,DBs,$494d3033)
+call SaveInteger(gW,$68303443,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303443,-2)
+call SaveStr(gW,$68303443,wBs,"해군영웅거프")
+call SaveInteger(gW,$68303443,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303443,-2)
+call SaveStr(gW,$68303443,wBs,"garp im")
+call SaveInteger(gW,$68303443,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303444,-1)
+call SaveInteger(gW,$68303444,DBs,$494d3034)
+call SaveInteger(gW,$68303444,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303444,-2)
+call SaveStr(gW,$68303444,wBs,"폭풍을몰아오는바람")
+call SaveInteger(gW,$68303444,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303444,-2)
+call SaveStr(gW,$68303444,wBs,"dragon im")
+call SaveInteger(gW,$68303444,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303451,-1)
+call SaveInteger(gW,$68303451,DBs,$494d3035)
+call SaveInteger(gW,$68303451,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303451,-2)
+call SaveStr(gW,$68303451,wBs,"탐식의강철풍선")
+call SaveInteger(gW,$68303451,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303451,-2)
+call SaveStr(gW,$68303451,wBs,"bigmom im")
+call SaveInteger(gW,$68303451,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303445,-1)
+call SaveInteger(gW,$68303445,DBs,$494d3036)
+call SaveInteger(gW,$68303445,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303445,-2)
+call SaveStr(gW,$68303445,wBs,"부처님센고쿠")
+call SaveInteger(gW,$68303445,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303445,-2)
+call SaveStr(gW,$68303445,wBs,"Sengoku im")
+call SaveInteger(gW,$68303445,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303446,-1)
+call SaveInteger(gW,$68303446,DBs,$494d3037)
+call SaveInteger(gW,$68303446,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303446,-2)
+call SaveStr(gW,$68303446,wBs,"산먹깨비")
+call SaveInteger(gW,$68303446,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303446,-2)
+call SaveStr(gW,$68303446,wBs,"gaban im")
+call SaveInteger(gW,$68303446,-2,wBs+1)
+set DBs=LoadInteger(gW,$68303439,-1)
+call SaveInteger(gW,$68303439,DBs,$494d3038)
+call SaveInteger(gW,$68303439,-1,DBs+1)
+set wBs=LoadInteger(gW,$68303439,-2)
+call SaveStr(gW,$68303439,wBs,"명왕실버즈레일리")
+call SaveInteger(gW,$68303439,-2,wBs+1)
+set wBs=LoadInteger(gW,$68303439,-2)

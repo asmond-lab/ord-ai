@@ -1,0 +1,1800 @@
+// 유닛: e01E (!0211_mihawkslashhit), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2098
+// 유닛: e01K (!0225_ph_dajian_daoguang012), Name (이름 (unam))
+{
+!0225_ph_dajian_daoguang012
+}
+
+STRING 2099
+// 유닛: e01D (!0210,!0911_az-xiapi), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2100
+// 유닛: e01J (!0222,!0705,!0710,!0719_WarStompCaster_nocrack), Name (이름 (unam))
+{
+!0222,!0705,!0710,!0719_WarStompCaster_nocrack
+}
+
+STRING 2101
+// 유닛: e01C (!0209_magellan003), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2102
+// 유닛: e01I (!0217_bulletdummy), Name (이름 (unam))
+{
+!0217_bulletdummy
+}
+
+STRING 2103
+// 유닛: e01B (!0207_Akiha Claw sakura), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2104
+// 유닛: e01H (!0216,!0705_Effect_AZ_T_Misslie), Name (이름 (unam))
+{
+!0216,!0705_Effect_AZ_T_Misslie
+}
+
+STRING 2105
+// 유닛: e014 (!0206,!0707,!0712,!0718,!1301_FreezingRing), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2106
+// 유닛: e01G (!0213_TauntCaster), Name (이름 (unam))
+{
+!0213_TauntCaster
+}
+
+STRING 2107
+// 유닛: e013 (!0206,!0403,!0603_WarStompCaster), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2108
+// 유닛: e01F (!0212_DefendCaster), Name (이름 (unam))
+{
+!0212_DefendCaster
+}
+
+STRING 2109
+// 유닛: e012 (!0205,!0518,!0530_kkslq8), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2110
+// 유닛: e01E (!0211_mihawkslashhit), Name (이름 (unam))
+{
+!0211_mihawkslashhit
+}
+
+STRING 2111
+// 유닛: e011 (!0205,!0529,!0719,!1203_ThunderClapCaster), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2112
+// 유닛: e01D (!0210,!0911_az-xiapi), Name (이름 (unam))
+{
+!0210,!0911_az-xiapi
+}
+
+STRING 2113
+// 유닛: e010 (!0204_Stomp), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2114
+// 유닛: e01C (!0209_magellan003), Name (이름 (unam))
+{
+!0209_magellan003
+}
+
+STRING 2115
+// 유닛: e00Z (!0203,!0510,!0711_AvengerMissile2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2116
+// 유닛: e01B (!0207_Akiha Claw sakura), Name (이름 (unam))
+{
+!0207_Akiha Claw sakura
+}
+
+STRING 2117
+// 유닛: e00Y (!0203,!0510,!0711_BlackHoles), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2118
+// 유닛: e01A (초월위습), Name (이름 (unam))
+{
+초월위습
+}
+
+STRING 2119
+// 유닛: e01A (초월위습), Tip (도구 도움말 - 기본 (utip))
+{
+초월위습
+}
+
+STRING 2120
+// 유닛: e019 (희귀위습), Name (이름 (unam))
+{
+희귀위습
+}
+
+STRING 2121
+// 유닛: e019 (희귀위습), Tip (도구 도움말 - 기본 (utip))
+{
+희귀위습
+}
+
+STRING 2122
+// 유닛: e018 (흔함선택위습), Name (이름 (unam))
+{
+흔함선택위습
+}
+
+STRING 2123
+// 유닛: e018 (흔함선택위습), Tip (도구 도움말 - 기본 (utip))
+{
+흔함선택위습
+}
+
+STRING 2124
+// 유닛: e017 (안흔함위습), Name (이름 (unam))
+{
+안흔함위습
+}
+
+STRING 2125
+// 유닛: e017 (안흔함위습), Tip (도구 도움말 - 기본 (utip))
+{
+안흔함위습
+}
+
+STRING 2126
+// 유닛: e016 (특별위습), Name (이름 (unam))
+{
+특별위습
+}
+
+STRING 2127
+// 유닛: e016 (특별위습), Tip (도구 도움말 - 기본 (utip))
+{
+특별위습
+}
+
+STRING 2128
+// 유닛: e015 (전설위습), Name (이름 (unam))
+{
+전설위습
+}
+
+STRING 2129
+// 유닛: e015 (전설위습), Tip (도구 도움말 - 기본 (utip))
+{
+전설위습
+}
+
+STRING 2130
+// 유닛: e014 (!0206,!0707,!0712,!0718,!1301_FreezingRing), Name (이름 (unam))
+{
+!0206,!0707,!0712,!0718,!1301_FreezingRing
+}
+
+STRING 2131
+// 유닛: e00X (!0202,!0234,!0411,!0719_fuzzystomp), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2132
+// 유닛: e013 (!0206,!0403,!0603_WarStompCaster), Name (이름 (unam))
+{
+!0206,!0403,!0603_WarStompCaster
+}
+
+STRING 2133
+// 유닛: e00W (!0202,!0602,!0704_WARRR2111), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2134
+// 유닛: e012 (!0205,!0518,!0530_kkslq8), Name (이름 (unam))
+{
+!0205,!0518,!0530_kkslq8
+}
+
+STRING 2135
+// 유닛: e00V (!0202_CatapultMissile3), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2136
+// 유닛: e0NU (!1205_Effect Pieces), Name (이름 (unam))
+{
+!1205_Effect Pieces
+}
+
+STRING 2137
+// 유닛: e00U (!0208,!0911_JDP_Blue2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2138
+// 유닛: e010 (!0204_Stomp), Name (이름 (unam))
+{
+!0204_Stomp
+}
+
+STRING 2139
+// 유닛: e00T (!0121,!0233_darkblade), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2140
+// 유닛: e00Z (!0203,!0510,!0711_AvengerMissile2), Name (이름 (unam))
+{
+!0203,!0510,!0711_AvengerMissile2
+}
+
+STRING 2141
+// 유닛: e00S (!0608_ch), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2142
+// 유닛: e00Y (!0203,!0510,!0711_BlackHoles), Name (이름 (unam))
+{
+!0203,!0510,!0711_BlackHoles
+}
+
+STRING 2143
+// 유닛: e00R (!0114_baSICSTRIKE2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2144
+// 유닛: e00X (!0202,!0234,!0411,!0719_fuzzystomp), Name (이름 (unam))
+{
+!0202,!0234,!0411,!0719_fuzzystomp
+}
+
+STRING 2145
+// 유닛: e00Q (!0114_LaserStrike14), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2146
+// 유닛: e00W (!0202,!0602,!0704_WARRR2111), Name (이름 (unam))
+{
+!0202,!0602,!0704_WARRR2111
+}
+
+STRING 2147
+// 유닛: e00P (!0113,!0410,!0714_DoomDeath4), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2148
+// 유닛: e00V (!0202_CatapultMissile3), Name (이름 (unam))
+{
+!0202_CatapultMissile3
+}
+
+STRING 2149
+// 유닛: e00O (!0608_az-slash-red), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2150
+// 유닛: e00U (!0208,!0911_JDP_Blue2), Name (이름 (unam))
+{
+!0208,!0911_JDP_Blue2
+}
+
+STRING 2151
+// 유닛: e00N (!0608_bloq3), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2152
+// 유닛: e00T (!0121,!0233_darkblade), Name (이름 (unam))
+{
+!0121,!0233_darkblade
+}
+
+STRING 2153
+// 유닛: e00M (!0608_AZ_BaoHunJue2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2154
+// 유닛: e00S (!0608_ch), Name (이름 (unam))
+{
+!0608_ch
+}
+
+STRING 2155
+// 유닛: e00L (!0608_chushou_by_wood_effect_blood_xuebao), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2156
+// 유닛: e00R (!0114_baSICSTRIKE2), Name (이름 (unam))
+{
+!0114_baSICSTRIKE2
+}
+
+STRING 2157
+// 유닛: e00K (!0104_Cyclone), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2158
+// 유닛: e00Q (!0114_LaserStrike14), Name (이름 (unam))
+{
+!0114_LaserStrike14
+}
+
+STRING 2159
+// 유닛: e00J (!0607,!0702_swordeff1), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2160
+// 유닛: e00P (!0113,!0410,!0714_DoomDeath4), Name (이름 (unam))
+{
+!0113,!0410,!0714_DoomDeath4
+}
+
+STRING 2161
+// 유닛: e00I (!0607,!0702,!1210_animeslashfinal), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2162
+// 유닛: e00O (!0608_az-slash-red), Name (이름 (unam))
+{
+!0608_az-slash-red
+}
+
+STRING 2163
+// 유닛: e00H (!0728_Bonney_Kuma), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2164
+// 유닛: e00N (!0608_bloq3), Name (이름 (unam))
+{
+!0608_bloq3
+}
+
+STRING 2165
+// 유닛: e00G (!0721_BY_Fire_type4), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2166
+// 유닛: e00M (!0608_AZ_BaoHunJue2), Name (이름 (unam))
+{
+!0608_AZ_BaoHunJue2
+}
+
+STRING 2167
+// 유닛: e00F (!0717_BirdCage), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2168
+// 유닛: e00L (!0608_chushou_by_wood_effect_blood_xuebao), Name (이름 (unam))
+{
+!0608_chushou_by_wood_effect_blood_xuebao
+}
+
+STRING 2169
+// 유닛: e00E (!0721_LucciAwk_e0FG), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2170
+// 유닛: e00K (!0104_Cyclone), Name (이름 (unam))
+{
+!0104_Cyclone
+}
+
+STRING 2171
+// 유닛: e00D (!0721_JudgementTarget), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2172
+// 유닛: e00J (!0607,!0702_swordeff1), Name (이름 (unam))
+{
+!0607,!0702_swordeff1
+}
+
+STRING 2173
+// 유닛: e00C (!0716_LawRoom), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2174
+// 유닛: e00B (!0610_BugiShip), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2175
+// 유닛: e00A (!0610_Alvida), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2176
+// 유닛: e00H (!0728_Bonney_Kuma), Name (이름 (unam))
+{
+!0728_Bonney_Kuma
+}
+
+STRING 2177
+// 유닛: e009 (!0805_DevilSlams2__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2178
+// 유닛: e00G (!0721_BY_Fire_type4), Name (이름 (unam))
+{
+!0721_BY_Fire_type4
+}
+
+STRING 2179
+// 유닛: e007 (!0716_White SlashB), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2180
+// 유닛: e00F (!0717_BirdCage), Name (이름 (unam))
+{
+!0717_BirdCage
+}
+
+STRING 2181
+// 유닛: e006 (!0716_[Spell]AliceShootingStar), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2182
+// 유닛: e00E (!0721_LucciAwk_e0FG), Name (이름 (unam))
+{
+!0721_LucciAwk_e0FG
+}
+
+STRING 2183
+// 유닛: e005 (!0604_Ain), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2184
+// 유닛: e00D (!0721_JudgementTarget), Name (이름 (unam))
+{
+!0721_JudgementTarget
+}
+
+STRING 2185
+// 유닛: e004 (!1303_Queen BR2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2186
+// 유닛: e00C (!0716_LawRoom), Name (이름 (unam))
+{
+!0716_LawRoom
+}
+
+STRING 2187
+// 유닛: e002 (!1301_ef-modelpack), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2188
+// 유닛: e00B (!0610_BugiShip), Name (이름 (unam))
+{
+!0610_BugiShip
+}
+
+STRING 2189
+// 유닛: e001 (!0424_PurgeBuffTarget), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2190
+// 유닛: e00A (!0610_Alvida), Name (이름 (unam))
+{
+!0610_Alvida
+}
+
+STRING 2191
+// 유닛: e000 (!1302_Flamestrike Mystic II3), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2192
+// 유닛: e009 (!0805_DevilSlams2__90), Name (이름 (unam))
+{
+!0805_DevilSlams2__90
+}
+
+STRING 2193
+// 유닛: e0KN (!0716_LawRoom2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2194
+// 유닛: e008 (!0718_FirePillar), Name (이름 (unam))
+{
+!0718_FirePillar
+}
+
+STRING 2195
+// 유닛: e007 (!0716_White SlashB), Name (이름 (unam))
+{
+!0716_White SlashB
+}
+
+STRING 2196
+// 유닛: e0L5 (!0509,!1202_Effect BY_Wood_Eff_Ord_NiYa_Bh3_LiXingZaoWu), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2197
+// 유닛: e006 (!0716_[Spell]AliceShootingStar), Name (이름 (unam))
+{
+!0716_[Spell]AliceShootingStar
+}
+
+STRING 2198
+// 유닛: e0MR (!0509,!1202_Effect Blue-Shandian-Qiquan), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2199
+// 유닛: e005 (!0604_Ain), Name (이름 (unam))
+{
+!0604_Ain
+}
+
+STRING 2200
+// 유닛: e0MS (!0509,!1202_Effect BY_Wood_Eff_Ord_NiYa_Bh3_QuanFeng), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2201
+// 유닛: e004 (!1303_Queen BR2), Name (이름 (unam))
+{
+!1303_Queen BR2
+}
+
+STRING 2202
+// 유닛: e0MT (!0725_kid), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2203
+// 유닛: e003 (라인몹이속더미), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(오라유닛)
+}
+
+STRING 2204
+// 유닛: e003 (라인몹이속더미), Name (이름 (unam))
+{
+라인몹이속더미
+}
+
+STRING 2205
+// 유닛: e002 (!1301_ef-modelpack), Name (이름 (unam))
+{
+!1301_ef-modelpack
+}
+
+STRING 2206
+// 유닛: e0NL (!1203_Conflagrate Blue__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2207
+// 유닛: e001 (!0424_PurgeBuffTarget), Name (이름 (unam))
+{
+!0424_PurgeBuffTarget
+}
+
+STRING 2208
+// 유닛: e0NS (!1204_Effect DT), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2209
+// 유닛: e000 (!1302_Flamestrike Mystic II3), Name (이름 (unam))
+{
+!1302_Flamestrike Mystic II3
+}
+
+STRING 2210
+// 유닛: e0NT (!1205_Effect Blue-Zhendi-Ryougi-Big), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 2211
+// 유닛: H0CO (|c00F3B001해군의 미래|r), Name (이름 (unam))
+{
+|c00F3B001해군의 미래|r
+}
+
+STRING 2212
+// 유닛: H0CO (|c00F3B001해군의 미래|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0코비|r - |cff00fa9a초월|r
+}
+
+STRING 2213
+// 유닛: H0CL (|c00F3B001검은 정의를 좇는 하얀 새|r), Name (이름 (unam))
+{
+|c00F3B001검은 정의를 좇는 하얀 새|r
+}
+
+STRING 2214
+// 유닛: H0CL (|c00F3B001검은 정의를 좇는 하얀 새|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0로브 루치|r - |cff00fa9a초월|r
+}
+
+STRING 2215
+// 유닛: H0C4 (|cffc0c0c0기록지침|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(기본)
+}
+
+STRING 2216
+// 유닛: H0C4 (|cffc0c0c0기록지침|r), Name (이름 (unam))
+{
+|cffc0c0c0기록지침|r
+}
+
+STRING 2217
+// 유닛: H0C4 (|cffc0c0c0기록지침|r), Propernames (적합한 이름 (upro))
+{
+기록지침
+}
+
+STRING 2218
+// 유닛: H0BY (|c00F3B001니카 같은 미래|r), Name (이름 (unam))
+{
+|c00F3B001니카 같은 미래|r
+}
+
+STRING 2219
+// 유닛: H0BY (|c00F3B001니카 같은 미래|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0주얼리 보니 - |cff00fa9a초월|r
+}
+
+STRING 2220
+// 유닛: H0BX (|c00F3B001일그러진 미래|r), Name (이름 (unam))
+{
+|c00F3B001일그러진 미래|r
+}
+
+STRING 2221
+// 유닛: H0BX (|c00F3B001일그러진 미래|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0주얼리 보니 - |cff00fa9a초월|r
+}
+
+STRING 2222
+// 유닛: H0BV (|c00F3B001프랑키 장군|r), Name (이름 (unam))
+{
+|c00F3B001프랑키 장군|r
+}
+
+STRING 2223
+// 유닛: H0BV (|c00F3B001프랑키 장군|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0프랑키|r - |cff00fa9a초월|r
+}
+
+STRING 2224
+// 유닛: H0BT (|c00F3B001염왕|r), Name (이름 (unam))
+{
+|c00F3B001염왕|r
+}
+
+STRING 2225
+// 유닛: H0BT (|c00F3B001염왕|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0롤로노아 조로|r - |cff00fa9a초월|r
+}
+
+STRING 2226
+// 유닛: H0BS (아이템도박-), Name (이름 (unam))
+{
+아이템도박-
+}
+
+STRING 2227
+// 유닛: H0BS (아이템도박-), Tip (도구 도움말 - 기본 (utip))
+{
+아이템 도박
+}
+
+STRING 2228
+// 유닛: H0BS (아이템도박-), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffff0000랜덤한 아이템중 한 가지를 획득합니다.|r
+ |cff32cd32도박회수는 6라운드/9라운드 스토리 클리어시 1회씩 증가합니다.
+}
+
+STRING 2229
+// 유닛: H0BO (|c00F3B001신 해군대장 초록 소|r), Name (이름 (unam))
+{
+|c00F3B001신 해군대장 초록 소|r
+}
+
+STRING 2230
+// 유닛: H0BO (|c00F3B001신 해군대장 초록 소|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0료쿠규|r - |cff00fa9a초월|r
+}
+
+STRING 2231
+// 유닛: H0BL (|c00F3B001신 해군대장 초록 소|r), Name (이름 (unam))
+{
+|c00F3B001신 해군대장 초록 소|r
+}
+
+STRING 2232
+// 유닛: H0BL (|c00F3B001신 해군대장 초록 소|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0료쿠규|r - |cff00fa9a초월|r
+}
+
+STRING 2233
+// 유닛: H0BK (|CFFFFFA78태양의 신|r), Name (이름 (unam))
+{
+|CFFFFFA78태양의 신|r
+}
+
+STRING 2234
+// 유닛: H0BK (|CFFFFFA78태양의 신|r), Propernames (적합한 이름 (upro))
+{
+|CFFFFFA78니카|r - |CFFC15AF4영원|r
+}
+
+STRING 2235
+// 유닛: H0BE (|c00F3B001오니히메 인수화|r), Name (이름 (unam))
+{
+|c00F3B001오니히메 인수화|r
+}
+
+STRING 2236
+// 유닛: H0BE (|c00F3B001오니히메 인수화|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0야마토 - |cff00fa9a초월|r
+}
+
+STRING 2237
+// 유닛: H0BD (|c00F3B001오니히메|r), Name (이름 (unam))
+{
+|c00F3B001오니히메|r
+}
+
+STRING 2238
+// 유닛: H0BD (|c00F3B001오니히메|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0야마토 - |cff00fa9a초월|r
+}
+
+STRING 2239
+// 유닛: H0B7 (능력치 증가), Hotkey (단축키 (uhot))
+{
+A
+}
+
+STRING 2240
+// 유닛: H0B7 (능력치 증가), Name (이름 (unam))
+{
+능력치 증가
+}
+
+STRING 2241
+// 유닛: H0B7 (능력치 증가), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200초월 영웅 능력치 증가|cffffcc00(A)|r
+}
+
+STRING 2242
+// 유닛: H0B7 (능력치 증가), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cff1e90ff초월 영웅 유닛의 능력치를 랜덤하게 1 증가시킵니다.|r
+}
+
+STRING 2243
+// 유닛: H0B6 (|c00F3B001몬스터포인트|r), Name (이름 (unam))
+{
+|c00F3B001몬스터포인트|r
+}
+
+STRING 2244
+// 유닛: H0B6 (|c00F3B001몬스터포인트|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0토니토니 쵸파|r - |cff00fa9a초월|r
+}
+
+STRING 2245
+// 유닛: H0B5 (|c00F3B001해군대장 노란 원숭이|r), Name (이름 (unam))
+{
+|c00F3B001해군대장 노란 원숭이|r
+}
+
+STRING 2246
+// 유닛: H0B5 (|c00F3B001해군대장 노란 원숭이|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0키자루|r - |cff00fa9a초월|r
+}
+
+STRING 2247
+// 유닛: H0B4 (|c00F3B001신세대의 이단아|r), Name (이름 (unam))
+{
+|c00F3B001신세대의 이단아|r
+}
+
+STRING 2248
+// 유닛: H0B4 (|c00F3B001신세대의 이단아|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0유스타스 키드|r - |cff00fa9a초월|r
+}
+
+STRING 2249
+// 유닛: H0B3 (|c00F3B001다섯번째 황제|r), Name (이름 (unam))
+{
+|c00F3B001다섯번째 황제|r
+}
+
+STRING 2250
+// 유닛: H0B3 (|c00F3B001다섯번째 황제|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0루피-블랙맘바|r - |cff00fa9a초월|r
+}
+
+STRING 2251
+// 유닛: H0B2 (|c00F3B001다섯번째 황제|r), Name (이름 (unam))
+{
+|c00F3B001다섯번째 황제|r
+}
+
+STRING 2252
+// 유닛: H0B2 (|c00F3B001다섯번째 황제|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0스네이크맨|r - |cff00fa9a초월|r
+}
+
+STRING 2253
+// 유닛: H0B1 (|c00F3B001전 해군대장 푸른 꿩|r), Name (이름 (unam))
+{
+|c00F3B001전 해군대장 푸른 꿩|r
+}
+
+STRING 2254
+// 유닛: H0B1 (|c00F3B001전 해군대장 푸른 꿩|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0아오키지|r - |cff00fa9a초월|r
+}
+
+STRING 2255
+// 유닛: H0B0 (고급 유닛 생성), Hotkey (단축키 (uhot))
+{
+Q
+}
+
+STRING 2256
+// 유닛: H0B0 (고급 유닛 생성), Name (이름 (unam))
+{
+고급 유닛 생성
+}
+
+STRING 2257
+// 유닛: H0B0 (고급 유닛 생성), Tip (도구 도움말 - 기본 (utip))
+{
+고급 유닛 생성(|cffffcc00Q|r)
+}
+
+STRING 2258
+// 유닛: H0B0 (고급 유닛 생성), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffffdead◈|r 무작위 |cffff00ff희귀|r 유닛을 1기 소환합니다. (1회)
+}
+
+STRING 2259
+// 유닛: H0AZ (돈도박 고급), Hotkey (단축키 (uhot))
+{
+E
+}
+
+STRING 2260
+// 유닛: H0AZ (돈도박 고급), Name (이름 (unam))
+{
+돈도박 고급
+}
+
+STRING 2261
+// 유닛: H0AZ (돈도박 고급), Tip (도구 도움말 - 기본 (utip))
+{
+돈 도박 고급(|cffffcc00E|r)
+}
+
+STRING 2262
+// 유닛: H0AZ (돈도박 고급), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffffdead◈|r |cffff69b470% 확률|r로 500~4500 골드를 얻습니다.
+}
+
+STRING 2263
+// 유닛: H0AY (|c00F3B001사메하다|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(프리미엄)
+}
+
+STRING 2264
+// 유닛: H0AY (|c00F3B001사메하다|r), Name (이름 (unam))
+{
+|c00F3B001사메하다|r
+}
+
+STRING 2265
+// 유닛: H0AY (|c00F3B001사메하다|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0호시가키 키사메|r - |cff00fa9a초월|r
+}
+
+STRING 2266
+// 유닛: H0AW (유닛도박 이세계), Name (이름 (unam))
+{
+유닛도박 이세계
+}
+
+STRING 2267
+// 유닛: H0AW (유닛도박 이세계), Tip (도구 도움말 - 기본 (utip))
+{
+유닛도박 이세계
+}
+
+STRING 2268
+// 유닛: H0AW (유닛도박 이세계), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffffdead◈|r |cffff69b415% 확률|r로 |cff51ddf5랜덤전용|r 유닛을 얻습니다.
+
+|cff1e90ff획득 방법|r
+|cffffdead[8] 마린포드 ~ [13] 와노쿠니 파괴시마다 
+|cffffdead해왕류 격파시 
+|cffffdead3단계 크립 처치시 
+
+|cffff8200한 게임에서 최대 8회 (카지노 항법시 16회) 충전됩니다.|r
+}
+
+STRING 2269
+// 유닛: H0AU (|cffFF8200미션 - 깅 제압|r), Name (이름 (unam))
+{
+|cffFF8200미션 - 깅 제압|r
+}
+
+STRING 2270
+// 유닛: H0AU (|cffFF8200미션 - 깅 제압|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200미션 - 깅 제압|r
+}
+
+STRING 2271
+// 유닛: H0AU (|cffFF8200미션 - 깅 제압|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cff1e90ff미션 목표 : 플레이어 라인존에 소환된 깅을 제압하세요.|r
+
+|cffffdead◈|r 보상 : |cffffd7001500 골드|r + |cff7ad8232 목재|r
+|cffffdead◈|r 제한시간 : 60초
+
+|cffFF0000[단발미션]|r
+|cffffdead◈|r 이 미션은 한번만 수행할 수 있습니다.
+|cffffdead◈|r 이 미션은 신세계 전 라운드에만 수행할 수 있습니다.
+}
+
+STRING 2272
+// 유닛: H0AT (|cffFF8200미션 - 클리크 제압|r), Name (이름 (unam))
+{
+|cffFF8200미션 - 클리크 제압|r
+}
+
+STRING 2273
+// 유닛: H0AT (|cffFF8200미션 - 클리크 제압|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200미션 - 클리크 제압|r
+}
+
+STRING 2274
+// 유닛: H0AT (|cffFF8200미션 - 클리크 제압|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cff1e90ff미션 목표 : 플레이어 라인존에 소환된 클리크를 제압하세요.|r
+
+|cffffdead◈|r 보상 : |cffffd7003000 골드|r + |cff7ad8234 목재|r
+|cffffdead◈|r 제한시간 : 60초
+
+|cffFF0000[단발미션]|r
+|cffffdead◈|r 이 미션은 한번만 수행할 수 있습니다.
+|cffffdead◈|r 이 미션은 신세계 전 라운드에만 수행할 수 있습니다.
+}
+
+STRING 2275
+// 유닛: H0AS (|cffFF8200미션 - 그림자를 흡수한 모리아 처치|r), Name (이름 (unam))
+{
+|cffFF8200미션 - 그림자를 흡수한 모리아 처치|r
+}
+
+STRING 2276
+// 유닛: H0AS (|cffFF8200미션 - 그림자를 흡수한 모리아 처치|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200미션 - 그림자를 흡수한 모리아 처치|r
+}
+
+STRING 2277
+// 유닛: H0AS (|cffFF8200미션 - 그림자를 흡수한 모리아 처치|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cff1e90ff미션 목표 : 플레이어 라인존에 소환된 모리아를 처치하세요.|r
+
+|cffffdead◈|r 보상 : |cffffd7003000 골드|r + |cff7ad8233 목재|r + |cff0080ff특별위습|r 1기
+|cffffdead◈|r 제한시간 : 60초
+
+|cffFF0000[단발미션]|r
+|cffffdead◈|r 이 미션은 한번만 수행할 수 있습니다.
+|cffffdead◈|r 이 미션은 신세계 전 라운드에만 수행할 수 있습니다.
+}
+
+STRING 2278
+// 유닛: H0AR (|cffFF8200미션 - 피카 처치|r), Name (이름 (unam))
+{
+|cffFF8200미션 - 피카 처치|r
+}
+
+STRING 2279
+// 유닛: H0AR (|cffFF8200미션 - 피카 처치|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200미션 - 피카 처치|r
+}
+
+STRING 2280
+// 유닛: h0C6 (|cffc0c0c0붉은갸라도스|r - |cff00fa9a초월|r), Name (이름 (unam))
+{
+|cffc0c0c0붉은갸라도스|r - |cff00fa9a초월|r
+}
+
+STRING 2281
+// 유닛: H0AQ (|cffFF8200미션 - 폭군 와포루 처치|r), Name (이름 (unam))
+{
+|cffFF8200미션 - 폭군 와포루 처치|r
+}
+
+STRING 2282
+// 유닛: H0AQ (|cffFF8200미션 - 폭군 와포루 처치|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200미션 - 폭군 와포루 처치|r
+}
+
+STRING 2283
+// 유닛: e0PS (!0712_turtle), Name (이름 (unam))
+{
+!0712_turtle
+}
+
+STRING 2284
+// 유닛: H0AP (|cffFF8200미션 - 거프 저지|r), Name (이름 (unam))
+{
+|cffFF8200미션 - 거프 저지|r
+}
+
+STRING 2285
+// 유닛: H0AP (|cffFF8200미션 - 거프 저지|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200미션 - 거프 저지|r
+}
+
+STRING 2286
+// 유닛: H0AP (|cffFF8200미션 - 거프 저지|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cff1e90ff미션 목표 : 플레이어 라인존에 소환된 거프를 저지하세요.|r
+
+|cffffdead◈|r 보상 : |cffffd700랜덤위습|r 1기 + |cffA6A6A6아이템 발굴|r 1회
+|cffffdead◈|r 제한시간 : 60초
+
+|cffFF0000[단발미션]|r
+|cffffdead◈|r 이 미션은 한번만 수행할 수 있습니다.
+|cffffdead◈|r 이 미션은 신세계 전 라운드에만 수행할 수 있습니다.
+}
+
+STRING 2287
+// 유닛: H0AO (|cffFF8200미션 - 바제스 처치|r), Name (이름 (unam))
+{
+|cffFF8200미션 - 바제스 처치|r
+}
+
+STRING 2288
+// 유닛: H0AO (|cffFF8200미션 - 바제스 처치|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200미션 - 바제스 처치|r
+}
+
+STRING 2289
+// 유닛: H0AO (|cffFF8200미션 - 바제스 처치|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cff1e90ff미션 목표 : 플레이어 라인존에 소환된 바제스를 처치하세요.|r
+
+|cffffdead◈|r 보상 : |cffffd7003000 골드|r + |cff7ad8233 목재|r + |cffff8200선택위습|r 1기
+|cffffdead◈|r 제한시간 : 60초
+|cffff0000◈ 주의사항|r : 체력회복률이 매우 높습니다. 205만 이상의 데미지를 가해야 처치 가능합니다.
+
+|cffFF0000[단발미션]|r
+|cffffdead◈|r 이 미션은 한번만 수행할 수 있습니다.
+|cffffdead◈|r 이 미션은 31 ~ 40 라운드에만 수행할 수 있습니다.
+}
+
+STRING 2290
+// 유닛: H0AM (|c00F3B001PUNK - 06|r), Name (이름 (unam))
+{
+|c00F3B001PUNK - 06|r
+}
+
+STRING 2291
+// 유닛: H0AM (|c00F3B001PUNK - 06|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0요크|r - |cff00fa9a초월|r
+}
+
+STRING 2292
+// 유닛: H0AE (|c00F3B001PUNK - 05|r), Name (이름 (unam))
+{
+|c00F3B001PUNK - 05|r
+}
+
+STRING 2293
+// 유닛: H0AE (|c00F3B001PUNK - 05|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0아틀라스|r - |cff00fa9a초월|r
+}
+
+STRING 2294
+// 유닛: H0AB (|c00F3B001PUNK - 02|r), Name (이름 (unam))
+{
+|c00F3B001PUNK - 02|r
+}
+
+STRING 2295
+// 유닛: H0AB (|c00F3B001PUNK - 02|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0릴리스|r - |cff00fa9a초월|r
+}
+
+STRING 2296
+// 유닛: H0AA (|c00F3B001세계 최고의 과학자|r), Name (이름 (unam))
+{
+|c00F3B001세계 최고의 과학자|r
+}
+
+STRING 2297
+// 유닛: H0AA (|c00F3B001세계 최고의 과학자|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0닥터 베가펑크|r - |cff00fa9a초월|r
+}
+
+STRING 2298
+// 유닛: H0A5 (|c00F3B001여름휴가 타시기|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(프리미엄)
+}
+
+STRING 2299
+// 유닛: H0A5 (|c00F3B001여름휴가 타시기|r), Name (이름 (unam))
+{
+|c00F3B001여름휴가 타시기|r
+}
+
+STRING 2300
+// 유닛: H0A5 (|c00F3B001여름휴가 타시기|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0타시기 - |cff00fa9a초월|r
+}
+
+STRING 2301
+// 유닛: H09I (|c00F3B001소울 킹|r), Name (이름 (unam))
+{
+|c00F3B001소울 킹|r
+}
+
+STRING 2302
+// 유닛: H09I (|c00F3B001소울 킹|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0브룩|r - |cff00fa9a초월|r
+}
+
+STRING 2303
+// 유닛: H09H (|c00F3B001지옥에서 돌아온 자|r), Name (이름 (unam))
+{
+|c00F3B001지옥에서 돌아온 자|r
+}
+
+STRING 2304
+// 유닛: H09H (|c00F3B001지옥에서 돌아온 자|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0상디|r - |cff00fa9a초월|r
+}
+
+STRING 2305
+// 유닛: H09G (|c00F3B001지옥에서 돌아온 자|r), Name (이름 (unam))
+{
+|c00F3B001지옥에서 돌아온 자|r
+}
+
+STRING 2306
+// 유닛: H09G (|c00F3B001지옥에서 돌아온 자|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0상디|r - |cff00fa9a초월|r
+}
+
+STRING 2307
+// 유닛: H09F (|c00F3B001최강의 검사|r), Name (이름 (unam))
+{
+|c00F3B001최강의 검사|r
+}
+
+STRING 2308
+// 유닛: H09F (|c00F3B001최강의 검사|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0롤로노아 조로|r - |cff00fa9a초월|r
+}
+
+STRING 2309
+// 유닛: H09E (|c00F3B001어둠의 조커|r), Name (이름 (unam))
+{
+|c00F3B001어둠의 조커|r
+}
+
+STRING 2310
+// 유닛: H09E (|c00F3B001어둠의 조커|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0돈키호테 도플라밍고|r - |cff00fa9a초월|r
+}
+
+STRING 2311
+// 유닛: H09D (|c00F3B001어둠의 조커|r), Name (이름 (unam))
+{
+|c00F3B001어둠의 조커|r
+}
+
+STRING 2312
+// 유닛: H09D (|c00F3B001어둠의 조커|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0각성 도플라밍고|r - |cff00fa9a초월|r
+}
+
+STRING 2313
+// 유닛: H09C (|c00F3B001바다의 전사|r), Name (이름 (unam))
+{
+|c00F3B001바다의 전사|r
+}
+
+STRING 2314
+// 유닛: H09C (|c00F3B001바다의 전사|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0우솝|r - |cff00fa9a초월|r
+}
+
+STRING 2315
+// 유닛: H09B (|c00F3B001바다의 전사|r), Name (이름 (unam))
+{
+|c00F3B001바다의 전사|r
+}
+
+STRING 2316
+// 유닛: H09B (|c00F3B001바다의 전사|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0우솝|r - |cff00fa9a초월|r
+}
+
+STRING 2317
+// 유닛: H09A (|c00F3B001바다의 협객|r), Name (이름 (unam))
+{
+|c00F3B001바다의 협객|r
+}
+
+STRING 2318
+// 유닛: H09A (|c00F3B001바다의 협객|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0징베|r - |cff00fa9a초월|r
+}
+
+STRING 2319
+// 유닛: H099 (|c00F3B001해적왕이 될 사나이|r), Name (이름 (unam))
+{
+|c00F3B001해적왕이 될 사나이|r
+}
+
+STRING 2320
+// 유닛: H099 (|c00F3B001해적왕이 될 사나이|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0몽키.D.루피|r - |cff00fa9a초월|r
+}
+
+STRING 2321
+// 유닛: H098 (|c00F3B001악마의 자식|r), Name (이름 (unam))
+{
+|c00F3B001악마의 자식|r
+}
+
+STRING 2322
+// 유닛: H098 (|c00F3B001악마의 자식|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0니코 로빈|r - |cff00fa9a초월|r
+}
+
+STRING 2323
+// 유닛: H097 (|c00F3B001전 해군대장 푸른 꿩|r), Name (이름 (unam))
+{
+|c00F3B001전 해군대장 푸른 꿩|r
+}
+
+STRING 2324
+// 유닛: H097 (|c00F3B001전 해군대장 푸른 꿩|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0아오키지|r - |cff00fa9a초월|r
+}
+
+STRING 2325
+// 유닛: H096 (|c00F3B001백개의 심장을 바친 자|r), Name (이름 (unam))
+{
+|c00F3B001백개의 심장을 바친 자|r
+}
+
+STRING 2326
+// 유닛: H096 (|c00F3B001백개의 심장을 바친 자|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0트라팔가 로우|r - |cff00fa9a초월|r
+}
+
+STRING 2327
+// 유닛: H095 (|c00F3B001해군원수 붉은 개|r), Name (이름 (unam))
+{
+|c00F3B001해군원수 붉은 개|r
+}
+
+STRING 2328
+// 유닛: H095 (|c00F3B001해군원수 붉은 개|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0아카이누|r - |cff00fa9a초월|r
+}
+
+STRING 2329
+// 유닛: H094 (|c00F3B001운명의 마술사|r), Name (이름 (unam))
+{
+|c00F3B001운명의 마술사|r
+}
+
+STRING 2330
+// 유닛: H094 (|c00F3B001운명의 마술사|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0바질 호킨스|r - |cff00fa9a초월|r
+}
+
+STRING 2331
+// 유닛: H093 (|c00F3B001몬스터포인트|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(특성강화)
+}
+
+STRING 2332
+// 유닛: H093 (|c00F3B001몬스터포인트|r), Name (이름 (unam))
+{
+|c00F3B001몬스터포인트|r
+}
+
+STRING 2333
+// 유닛: H093 (|c00F3B001몬스터포인트|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0토니토니 쵸파|r - |cff00fa9a초월|r
+}
+
+STRING 2334
+// 유닛: H092 (|c00F3B001혁명군 참모총장|r), Name (이름 (unam))
+{
+|c00F3B001혁명군 참모총장|r
+}
+
+STRING 2335
+// 유닛: H092 (|c00F3B001혁명군 참모총장|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0사보|r - |cff00fa9a초월|r
+}
+
+STRING 2336
+// 유닛: H091 (|c00F3B001순록 의사|r), Name (이름 (unam))
+{
+|c00F3B001순록 의사|r
+}
+
+STRING 2337
+// 유닛: H091 (|c00F3B001순록 의사|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0토니토니 쵸파|r - |cff00fa9a초월|r
+}
+
+STRING 2338
+// 유닛: H090 (|c00F3B001치밀하고 비열한 어둠|r), Name (이름 (unam))
+{
+|c00F3B001치밀하고 비열한 어둠|r
+}
+
+STRING 2339
+// 유닛: H090 (|c00F3B001치밀하고 비열한 어둠|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0검은수염|r - |cff00fa9a초월|r
+}
+
+STRING 2340
+// 유닛: H08Z (|c00F3B001정상해전 종결자|r), Name (이름 (unam))
+{
+|c00F3B001정상해전 종결자|r
+}
+
+STRING 2341
+// 유닛: H08Z (|c00F3B001정상해전 종결자|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0샹크스|r - |cff00fa9a초월|r
+}
+
+STRING 2342
+// 유닛: H08Y (|c00F3B001무적의 아이언 파이러츠|r), Name (이름 (unam))
+{
+|c00F3B001무적의 아이언 파이러츠|r
+}
+
+STRING 2343
+// 유닛: H08Y (|c00F3B001무적의 아이언 파이러츠|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0프랑키|r - |cff00fa9a초월|r
+}
+
+STRING 2344
+// 유닛: H08X (|c00F3B001분노하는 맹호|r), Name (이름 (unam))
+{
+|c00F3B001분노하는 맹호|r
+}
+
+STRING 2345
+// 유닛: H08X (|c00F3B001분노하는 맹호|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0후지토라 잇쇼우|r - |cff00fa9a초월|r
+}
+
+STRING 2346
+// 유닛: H08W (|c00F3B001검은 정의를 좇는 하얀 새|r), Name (이름 (unam))
+{
+|c00F3B001검은 정의를 좇는 하얀 새|r
+}
+
+STRING 2347
+// 유닛: H08W (|c00F3B001검은 정의를 좇는 하얀 새|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0로브 루치|r - |cff00fa9a초월|r
+}
+
+STRING 2348
+// 유닛: H08V (|c00F3B001날씨는 맑음|r), Name (이름 (unam))
+{
+|c00F3B001날씨는 맑음|r
+}
+
+STRING 2349
+// 유닛: H08V (|c00F3B001날씨는 맑음|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0나미|r - |cff00fa9a초월|r
+}
+
+STRING 2350
+// 유닛: H08U (|c00F3B001해왕류를 다스리는 인어공주|r), Name (이름 (unam))
+{
+|c00F3B001해왕류를 다스리는 인어공주|r
+}
+
+STRING 2351
+// 유닛: H08U (|c00F3B001해왕류를 다스리는 인어공주|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0시라호시|r - |cff00fa9a초월|r
+}
+
+STRING 2352
+{
+|cff00bfff원피스랜덤디펜스R 2.323[R]
+}
+
+STRING 2353
+{
+1인 이상
+}
+
+STRING 2354
+// 유닛: H08J (|c00F3B001해군대장 노란 원숭이|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(천총운)
+}
+
+STRING 2355
+// 유닛: H08J (|c00F3B001해군대장 노란 원숭이|r), Name (이름 (unam))
+{
+|c00F3B001해군대장 노란 원숭이|r
+}
+
+STRING 2356
+// 유닛: H08J (|c00F3B001해군대장 노란 원숭이|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0키자루|r - |cff00fa9a초월|r
+}
+
+STRING 2357
+// 유닛: H08E (|c00F3B001바니걸|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(프리미엄)
+}
+
+STRING 2358
+// 유닛: H08E (|c00F3B001바니걸|r), Name (이름 (unam))
+{
+|c00F3B001바니걸|r
+}
+
+STRING 2359
+// 유닛: H08E (|c00F3B001바니걸|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0니코 로빈|r - |cff00fa9a초월|r
+}
+
+STRING 2360
+// 유닛: H08B (|c00F3B001바니걸|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(프리미엄)
+}
+
+STRING 2361
+// 유닛: H08B (|c00F3B001바니걸|r), Name (이름 (unam))
+{
+|c00F3B001바니걸|r
+}
+
+STRING 2362
+// 유닛: H08B (|c00F3B001바니걸|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0나미|r - |cff00fa9a초월|r
+}
+
+STRING 2363
+// 유닛: H05N (|c00F3B001해군의 홍일점|r), Name (이름 (unam))
+{
+|c00F3B001해군의 홍일점|r
+}
+
+STRING 2364
+// 유닛: H05N (|c00F3B001해군의 홍일점|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0타시기 - |cff00fa9a초월|r
+}
+
+STRING 2365
+// 유닛: H05M (|cffc0c0c0기록지침|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(아이템)
+}
+
+STRING 2366
+// 유닛: H05M (|cffc0c0c0기록지침|r), Name (이름 (unam))
+{
+|cffc0c0c0기록지침|r
+}
+
+STRING 2367
+// 유닛: H05M (|cffc0c0c0기록지침|r), Propernames (적합한 이름 (upro))
+{
+기록지침
+}
+
+STRING 2368
+// 아이템: I093 (|cffFF8200유니언 아르마다 :: 방어력 감소|r), Description (설명 (ides))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead◎기본효과|r : '흔함 유닛' 대상으로 아이템을 사용해 획득 가능
+|cffffdead◎확률|r : 40% 확률로 1스택, 60% 확률로 2스택 획득
+}
+
+STRING 2369
+// 아이템: I093 (|cffFF8200유니언 아르마다 :: 방어력 감소|r), Name (이름 (unam))
+{
+|cffFF8200유니언 아르마다 :: 방어력 감소|r
+}
+
+STRING 2370
+// 아이템: I093 (|cffFF8200유니언 아르마다 :: 방어력 감소|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200유니언 아르마다 :: 방어력 감소|r
+}
+
+STRING 2371
+// 아이템: I093 (|cffFF8200유니언 아르마다 :: 방어력 감소|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead◎기본효과|r : '흔함 유닛' 대상으로 아이템을 사용해 획득 가능
+|cffffdead◎확률|r : 40% 확률로 1스택, 60% 확률로 2스택 획득
+}
+
+STRING 2372
+// 아이템: I092 (|cffFF8200유니언 아르마다 :: 공격속도|r), Description (설명 (ides))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead◎기본효과|r : '흔함 유닛' 대상으로 아이템을 사용해 획득 가능
+|cffffdead◎확률|r : 40% 확률로 1스택, 60% 확률로 2스택 획득
+}
+
+STRING 2373
+// 아이템: I092 (|cffFF8200유니언 아르마다 :: 공격속도|r), Name (이름 (unam))
+{
+|cffFF8200유니언 아르마다 :: 공격속도|r
+}
+
+STRING 2374
+// 아이템: I092 (|cffFF8200유니언 아르마다 :: 공격속도|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200유니언 아르마다 :: 공격속도|r
+}
+
+STRING 2375
+// 아이템: I092 (|cffFF8200유니언 아르마다 :: 공격속도|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead◎기본효과|r : '흔함 유닛' 대상으로 아이템을 사용해 획득 가능
+|cffffdead◎확률|r : 40% 확률로 1스택, 60% 확률로 2스택 획득
+}
+
+STRING 2376
+// 아이템: I091 (|cffFF8200유니언 아르마다 :: 공격력|r), Description (설명 (ides))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead◎기본효과|r : '흔함 유닛' 대상으로 아이템을 사용해 획득 가능
+|cffffdead◎확률|r : 40% 확률로 1스택, 60% 확률로 2스택 획득
+}
+
+STRING 2377
+// 아이템: I091 (|cffFF8200유니언 아르마다 :: 공격력|r), Name (이름 (unam))
+{
+|cffFF8200유니언 아르마다 :: 공격력|r
+}
+
+STRING 2378
+// 아이템: I091 (|cffFF8200유니언 아르마다 :: 공격력|r), Tip (도구 도움말 - 기본 (utip))
+{
+|cffFF8200유니언 아르마다 :: 공격력|r
+}
+
+STRING 2379
+// 아이템: I091 (|cffFF8200유니언 아르마다 :: 공격력|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead◎기본효과|r : '흔함 유닛' 대상으로 아이템을 사용해 획득 가능
+|cffffdead◎확률|r : 40% 확률로 1스택, 60% 확률로 2스택 획득
+}
+
+STRING 2380
+// 아이템: I00G (자성물체-키드초월), Name (이름 (unam))
+{
+자성물체-키드초월
+}
+
+STRING 2381
+// 아이템: I00G (자성물체-키드초월), Tip (도구 도움말 - 기본 (utip))
+{
+자성물체
+}
+
+STRING 2382
+// 아이템: I00G (자성물체-키드초월), Ubertip (도구 도움말 - 확장 (utub))
+{
+수집된 자성물체입니다
+}
+
+STRING 2383
+// 아이템: I00B (포식한 영혼), Name (이름 (unam))
+{
+포식한 영혼
+}
+
+STRING 2384
+// 아이템: I00B (포식한 영혼), Tip (도구 도움말 - 기본 (utip))
+{
+포식한 영혼
+}
+
+STRING 2385
+// 아이템: I00B (포식한 영혼), Ubertip (도구 도움말 - 확장 (utub))
+{
+포식한 영혼입니다.
+}
+
+STRING 2386
+// 아이템: I008 (|cffFF8200유니언 아르마다 :: 방어력 감소 Lv.Max|r), Description (설명 (ides))
+{
+|cffFAED7D '찰강찰강 열매'의 힘으로 변형시킨 물체|r
+
+|cffffdead　▶|r 최대 강화 수치에 도달 했습니다.
+}

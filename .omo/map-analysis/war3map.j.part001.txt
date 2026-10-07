@@ -1,0 +1,1800 @@
+globals
+hashtable v=null
+hashtable R=null
+hashtable s=null
+hashtable P=null
+multiboard array p
+hashtable r=null
+integer array W
+hashtable i=null
+trigger m=null
+trigger Y=null
+trigger d=null
+trigger G=null
+trigger q=null
+trigger Z=null
+trigger y=null
+trigger l=null
+trigger N=null
+trigger w=null
+trigger D=null
+trigger S=null
+trigger V=null
+trigger h=null
+trigger c=null
+player k=null
+trigger Q=null
+player U=null
+trigger B=null
+player H=null
+trigger o=null
+player j=null
+trigger K=null
+player E=null
+trigger J=null
+player e=null
+trigger t=null
+integer x=0
+trigger b=null
+integer M=0
+trigger g=null
+integer u=0
+trigger A=null
+integer I=0
+trigger X=null
+trigger n=null
+hashtable T=null
+trigger O=null
+integer a=0
+boolean array f
+real array C
+real array L
+timer F=null
+boolean vv=false
+integer Rv=$100000
+real sv=0.
+hashtable Pv=null
+hashtable pv=null
+integer rv=0
+hashtable Wv=null
+hashtable iv=null
+hashtable mv=null
+hashtable Yv=null
+hashtable dv=null
+integer Gv=0
+rect array qv
+rect array Zv
+rect array yv
+rect array lv
+boolean Nv=false
+string array wv
+string array Dv
+hashtable Sv=null
+integer array Vv
+string array hv
+hashtable cv=null
+hashtable kv=null
+hashtable Qv=null
+hashtable Uv=null
+hashtable Bv=null
+hashtable Hv=null
+hashtable ov=null
+hashtable jv=null
+integer Kv=0
+integer Ev=0
+integer Jv=0
+integer ev=0
+integer tv=0
+integer xv=0
+integer bv=0
+integer Mv=0
+integer gv=0
+integer uv=0
+integer Av=0
+integer Iv=0
+integer Xv=0
+trigger nv=null
+trigger Tv=null
+integer Ov=0
+boolean av=false
+integer array fv
+hashtable Cv=null
+trigger Lv=null
+trigger Fv=null
+trigger vR=null
+trigger RR=null
+player sR=null
+string PR=null
+hashtable pR=null
+sound rR=null
+player array WR
+real array iR
+integer array mR
+string array YR
+integer dR=0
+hashtable GR=null
+integer qR=0
+boolean ZR=false
+integer yR=0
+boolean array lR
+group array NR
+hashtable wR=null
+group DR=null
+group SR=null
+code VR=null
+integer hR=0
+integer cR=0
+boolean kR=false
+integer QR=0
+integer array UR
+integer array BR
+integer array HR
+integer array oR
+integer array jR
+real array KR
+boolean array ER
+hashtable JR=null
+hashtable eR=null
+real array tR
+real array xR
+real array bR
+real array MR
+boolean array gR
+integer uR=0
+boolean array AR
+integer IR=0
+integer array XR
+real nR=0.
+real TR=0.
+hashtable OR=null
+string array aR
+integer fR=0
+boolean array CR
+trigger LR=null
+player FR=null
+string vs=null
+integer Rs=0
+player ss=null
+unit Ps=null
+integer ps=0
+boolean rs=false
+real Ws=.0
+real is=.0
+group ms=null
+trigger Ys=null
+player ds=null
+player Gs=null
+boolean array qs
+boolean array Zs
+boolean ys=false
+integer ls=0
+string Ns=null
+string array ws
+integer Ds=0
+boolean Ss=false
+integer array Vs
+integer array hs
+integer array cs
+boolean array ks
+boolean array Qs
+string array Us
+boolean array Bs
+integer Hs=$270f
+integer array os
+integer array js
+integer array Ks
+integer array Es
+integer array Js
+integer array es
+integer array ts
+real array xs
+integer array bs
+integer array Ms
+integer array gs
+integer array us
+integer array As
+integer array Is
+integer array Xs
+boolean array ns
+boolean array Ts
+boolean array Os
+boolean array as
+integer array fs
+integer array Cs
+integer array Ls
+integer array Fs
+boolean array vP
+integer array RP
+integer array sP
+integer array PP
+integer array pP
+integer array rP
+integer array WP
+integer array iP
+integer array mP
+integer array YP
+integer array dP
+integer array GP
+integer array qP
+integer array ZP
+integer array yP
+integer array lP
+integer array NP
+integer array wP
+integer array DP
+integer array SP
+integer array VP
+integer array hP
+real array cP
+boolean array kP
+boolean array QP
+integer UP=0
+integer array BP
+integer array HP
+integer array oP
+integer jP=4
+integer KP=0
+integer EP=21
+integer array JP
+integer array eP
+integer array tP
+integer array xP
+integer array bP
+integer array MP
+rect array gP
+rect array uP
+rect array AP
+rect array IP
+rect array XP
+rect array nP
+rect array TP
+rect array OP
+rect array aP
+rect array fP
+rect array CP
+rect array LP
+rect array FP
+unit array vp
+unit Rp=null
+unit array sp
+unit array Pp
+unit array pp
+unit array rp
+unit array Wp
+boolean array ip
+integer array mp
+integer array Yp
+integer array dp
+integer array Gp
+integer array qp
+integer array Zp
+integer array yp
+integer array lp
+integer array Np
+integer array wp
+integer array Dp
+boolean Sp=false
+timer Vp=null
+timerdialog hp=null
+integer cp=35
+texttag array kp
+string array Qp
+string array Up
+string array Bp
+boolean array Hp
+integer array op
+integer array jp
+integer array Kp
+item array Ep
+unit array Jp
+integer array ep
+integer array tp
+trigger xp=null
+integer array bp
+integer Mp=0
+integer array gp
+integer array up
+boolean Ap=false
+sound Ip=null
+sound Xp=null
+hashtable np=null
+boolean Tp=false
+integer Op=0
+hashtable array ap
+hashtable fp=null
+integer array Cp
+integer array Lp
+integer array Fp
+integer array vr
+integer array Rr
+integer array sr
+integer array Pr
+integer pr=0
+integer rr=0
+integer array Wr
+integer array ir
+integer array mr
+integer array Yr
+integer array dr
+boolean array Gr
+trigger qr=null
+string array Zr
+player yr=null
+integer lr=-1
+hashtable Nr=null
+integer array wr
+boolean array Dr
+boolean array Sr
+integer array Vr
+integer array hr
+hashtable cr=null
+group kr=null
+integer Qr=0
+real array Ur
+real array Br
+effect array Hr
+unit jr=null
+trigger Kr=null
+texttag Er=null
+integer Jr=0
+boolean er=false
+integer tr=0
+integer xr=0
+integer br=0
+integer Mr=0
+integer gr=0
+integer array ur
+integer array Ar
+integer array Ir
+integer array Xr
+integer nr=0
+integer Tr=0
+integer array ar
+integer array fr
+integer array Cr
+integer array Lr
+integer array Fr
+integer array vW
+integer array RW
+sound array sW
+boolean array PW
+boolean array pW
+timer array rW
+timer array WW
+real array iW
+integer array mW
+integer YW=0
+integer array dW
+integer GW=0
+integer qW=0
+integer ZW=0
+integer yW=0
+integer lW=0
+integer NW=0
+integer wW=0
+integer DW=0
+integer SW=0
+integer VW=0
+integer hW=0
+boolean cW=false
+hashtable kW=null
+integer array QW
+integer UW=0
+integer array BW
+integer HW=0
+integer array oW
+integer array jW
+integer array KW
+integer array EW
+integer JW=0
+trigger eW=null
+unit array tW
+group array xW
+integer bW=0
+boolean array MW
+hashtable gW=null
+leaderboard array uW
+integer array AW
+boolean array IW
+integer XW=0
+boolean array nW
+hashtable TW=null
+boolexpr OW=null
+boolexpr aW=null
+boolexpr fW=null
+integer CW=0
+integer LW=0
+integer FW=0
+integer vi=0
+integer Ri=0
+integer si=0
+integer Pi=0
+integer pi=0
+integer ri=0
+integer Wi=0
+integer ii=0
+integer mi=0
+integer Yi=0
+integer di=0
+integer Gi=0
+integer qi=0
+integer Zi=0
+integer yi=0
+integer li=0
+boolean array Ni
+real wi=0.
+integer Di=0
+integer array Si
+integer array Vi
+integer hi=0
+integer array ci
+integer array ki
+integer array Qi
+integer array Ui
+integer Bi=0
+integer Hi=0
+hashtable oi=null
+hashtable ji=null
+hashtable Ki=null
+rect Ei=null
+rect Ji=null
+rect ei=null
+rect ti=null
+rect xi=null
+rect bi=null
+rect Mi=null
+rect gi=null
+rect ui=null
+rect Ai=null
+rect Ii=null
+rect Xi=null
+rect ni=null
+rect Ti=null
+rect Oi=null
+rect ai=null
+rect fi=null
+rect Ci=null
+rect Li=null
+rect Fi=null
+rect vm=null
+rect Rm=null
+rect sm=null
+rect Pm=null
+rect pm=null
+rect rm=null
+rect Wm=null
+rect im=null
+rect mm=null
+rect Ym=null
+rect dm=null
+rect Gm=null
+rect qm=null
+rect Zm=null
+rect ym=null
+rect lm=null
+rect Nm=null
+rect wm=null
+rect Dm=null
+rect Sm=null
+rect Vm=null
+rect hm=null
+rect cm=null
+rect km=null
+rect Qm=null
+rect Um=null
+rect Bm=null
+rect Hm=null
+rect om=null
+rect jm=null
+rect Km=null
+rect Em=null
+rect Jm=null
+rect em=null
+rect tm=null
+rect xm=null
+rect bm=null
+rect Mm=null
+rect gm=null
+rect um=null
+rect Am=null
+rect Im=null
+rect Xm=null
+rect nm=null
+rect Tm=null
+rect Om=null
+rect am=null
+rect fm=null
+rect Cm=null
+rect Lm=null
+rect Fm=null
+rect vY=null
+rect RY=null
+rect sY=null
+rect PY=null
+rect pY=null
+rect rY=null
+rect WY=null
+rect iY=null
+rect mY=null
+rect YY=null
+rect dY=null
+rect GY=null
+rect qY=null
+rect ZY=null
+rect yY=null
+rect lY=null
+rect NY=null
+rect wY=null
+rect DY=null
+rect SY=null
+rect VY=null
+rect hY=null
+rect cY=null
+rect kY=null
+rect QY=null
+rect UY=null
+rect BY=null
+rect HY=null
+rect oY=null
+rect jY=null
+rect KY=null
+rect EY=null
+rect JY=null
+rect eY=null
+rect tY=null
+rect xY=null
+rect bY=null
+rect MY=null
+rect gY=null
+rect uY=null
+rect AY=null
+rect IY=null
+rect XY=null
+rect nY=null
+rect TY=null
+rect OY=null
+rect aY=null
+rect fY=null
+rect CY=null
+rect LY=null
+rect FY=null
+rect vd=null
+rect Rd=null
+rect sd=null
+rect Pd=null
+rect pd=null
+rect rd=null
+rect Wd=null
+rect id=null
+rect md=null
+rect Yd=null
+rect dd=null
+rect Gd=null
+rect qd=null
+rect Zd=null
+rect yd=null
+rect ld=null
+rect Nd=null
+rect wd=null
+rect Dd=null
+rect Sd=null
+rect Vd=null
+camerasetup hd=null
+camerasetup cd=null
+trigger kd=null
+trigger Qd=null
+destructable Ud=null
+destructable Bd=null
+destructable Hd=null
+integer od=0
+trigger jd=null
+trigger Kd=null
+trigger Ed=null
+trigger Jd=null
+trigger ed=null
+trigger td=null
+trigger xd=null
+trigger bd=null
+trigger Md=null
+trigger gd=null
+trigger ud=null
+trigger Ad=null
+trigger Id=null
+trigger Xd=null
+trigger nd=null
+trigger Td=null
+trigger Od=null
+trigger ad=null
+trigger fd=null
+trigger Cd=null
+boolean array Ld
+hashtable Fd=null
+trigger vG=null
+trigger RG=null
+trigger sG=null
+trigger PG=null
+unit array pG
+trigger rG=null
+boolean array WG
+trigger iG=null
+trigger mG=null
+trigger YG=null
+trigger dG=null
+trigger GG=null
+trigger qG=null
+trigger ZG=null
+trigger yG=null
+trigger lG=null
+trigger NG=null
+trigger wG=null
+trigger DG=null
+trigger SG=null
+unit VG=null
+unit array hG
+trigger cG=null
+trigger kG=null
+unit QG=null
+unit array UG
+trigger BG=null
+unit array HG
+trigger oG=null
+trigger jG=null
+trigger KG=null
+unit array EG
+trigger JG=null
+trigger eG=null
+trigger tG=null
+trigger xG=null
+unit bG=null
+unit MG=null
+unit array gG
+trigger uG=null
+trigger AG=null
+unit array IG
+unit array XG
+trigger nG=null
+trigger TG=null
+trigger OG=null
+unit array aG
+integer fG=0
+trigger CG=null
+trigger LG=null
+trigger FG=null
+trigger vq=null
+trigger Rq=null
+unit sq=null
+unit array Pq
+trigger pq=null
+trigger rq=null
+trigger Wq=null
+unit array iq
+unit array mq
+trigger Yq=null
+unit array dq
+trigger Gq=null
+trigger qq=null
+trigger Zq=null
+unit array yq
+unit array lq
+trigger Nq=null
+trigger wq=null
+unit array Dq
+trigger Sq=null
+trigger Vq=null
+trigger hq=null
+trigger cq=null
+trigger kq=null
+trigger Qq=null
+trigger Uq=null
+unit array Bq
+unit array Hq
+trigger oq=null
+trigger jq=null
+trigger Kq=null
+unit array Eq
+trigger Jq=null
+unit array eq
+trigger tq=null
+trigger xq=null
+trigger bq=null
+trigger Mq=null
+unit gq=null
+integer array uq
+unit array Aq
+unit array Iq
+trigger Xq=null
+trigger nq=null
+trigger Tq=null
+unit array Oq
+unit array aq
+trigger fq=null
+unit array Cq
+integer array Lq
+boolean array Fq
+trigger vZ=null
+trigger RZ=null
+trigger sZ=null
+trigger PZ=null
+trigger pZ=null
+trigger rZ=null
+trigger WZ=null
+unit array iZ
+unit array mZ
+trigger YZ=null
+trigger dZ=null
+trigger GZ=null
+trigger qZ=null
+trigger ZZ=null
+trigger yZ=null
+unit array lZ
+unit array NZ
+trigger wZ=null
+trigger DZ=null
+trigger SZ=null
+unit VZ=null
+unit array hZ
+unit array cZ
+trigger kZ=null
+trigger QZ=null
+trigger UZ=null
+trigger BZ=null
+trigger HZ=null
+unit array oZ
+trigger jZ=null
+trigger KZ=null
+trigger EZ=null
+trigger JZ=null
+unit array eZ
+unit array tZ
+unit array xZ
+unit array bZ
+trigger MZ=null
+trigger gZ=null
+trigger uZ=null
+unit array AZ
+unit array IZ
+trigger XZ=null
+trigger nZ=null
+trigger TZ=null
+trigger OZ=null
+unit array aZ
+boolean array fZ
+hashtable CZ=null
+trigger LZ=null
+trigger FZ=null
+trigger vy=null
+trigger Ry=null
+integer array sy
+trigger Py=null
+trigger py=null
+trigger ry=null
+unit array Wy
+unit array iy
+boolexpr my=null
+boolexpr Yy=null
+trigger dy=null
+trigger Gy=null
+trigger qy=null
+trigger Zy=null
+unit array yy
+trigger ly=null
+trigger Ny=null
+trigger wy=null
+unit array Dy
+unit array Sy
+trigger Vy=null
+trigger hy=null
+trigger cy=null
+trigger ky=null
+trigger Qy=null
+trigger Uy=null
+unit array By
+trigger Hy=null
+trigger oy=null
+trigger jy=null
+trigger Ky=null
+trigger Ey=null
+trigger Jy=null
+trigger ey=null
+trigger ty=null
+trigger xy=null
+trigger by=null
+trigger My=null
+trigger gy=null
+trigger uy=null
+unit array Ay
+trigger Iy=null
+trigger Xy=null
+trigger ny=null
+trigger Ty=null
+unit array Oy
+trigger ay=null
+trigger fy=null
+trigger Cy=null
+trigger Ly=null
+trigger Fy=null
+trigger vl=null
+item array Rl
+unit array sl
+unit array Pl
+trigger pl=null
+trigger rl=null
+trigger Wl=null
+unit array il
+trigger ml=null
+trigger Yl=null
+trigger dl=null
+unit Gl=null
+item array ql
+unit array Zl
+unit array yl
+trigger ll=null
+trigger Nl=null
+trigger wl=null
+trigger Dl=null
+trigger Sl=null
+trigger Vl=null
+trigger hl=null
+unit cl=null
+trigger kl=null
+trigger Ql=null
+trigger Ul=null
+trigger Bl=null
+trigger Hl=null
+integer array ol
+unit array jl
+integer array Kl
+trigger El=null
+trigger Jl=null
+trigger el=null
+trigger tl=null
+integer array xl
+trigger bl=null
+trigger Ml=null
+trigger gl=null
+trigger ul=null
+unit Al=null
+unit array Il
+unit array Xl
+trigger nl=null
+trigger Tl=null
+trigger Ol=null
+trigger al=null
+sound array fl
+trigger Cl=null
+trigger Ll=null
+trigger Fl=null
+trigger vN=null
+unit RN=null
+trigger sN=null
+trigger PN=null
+trigger pN=null
+boolean rN=false
+integer array WN
+integer array iN
+trigger mN=null
+trigger YN=null
+trigger dN=null
+trigger GN=null
+boolean array qN
+integer array ZN
+trigger yN=null
+trigger lN=null
+trigger NN=null
+trigger wN=null
+boolexpr DN=null
+unit array SN
+unit array VN
+trigger hN=null
+trigger cN=null
+unit array kN
+trigger QN=null
+trigger UN=null
+trigger BN=null
+unit array HN
+trigger oN=null
+trigger jN=null
+unit array KN
+trigger EN=null
+trigger JN=null
+trigger eN=null
+trigger tN=null
+unit array xN
+unit array bN
+trigger MN=null
+trigger gN=null
+trigger uN=null
+trigger AN=null
+trigger IN=null
+trigger XN=null
+trigger nN=null
+trigger TN=null
+trigger ON=null
+trigger aN=null
+trigger fN=null
+trigger CN=null
+trigger LN=null
+trigger FN=null
+trigger vw=null
+trigger Rw=null
+trigger sw=null
+boolexpr Pw=null
+boolexpr pw=null
+unit array rw
+trigger Ww=null
+trigger iw=null
+trigger mw=null
+trigger Yw=null
+unit array dw
+boolean array Gw
+item array qw
+trigger Zw=null
+trigger yw=null
+trigger lw=null
+trigger Nw=null
+trigger ww=null
+trigger Dw=null
+unit array Sw
+unit array Vw
+dialog hw=null
+button cw=null
+button kw=null
+boolean Qw=false
+unit Uw=null
+unit Bw=null
+trigger Hw=null
+unitpool ow=null
+boolean array jw
+trigger Kw=null
+unit Ew=null
+location Jw=null
+trigger ew=null
+unit array tw
+trigger xw=null
+trigger bw=null
+trigger Mw=null
+unit array gw
+trigger uw=null
+trigger Aw=null
+trigger Iw=null
+trigger Xw=null
+trigger nw=null
+trigger Tw=null
+trigger Ow=null
+trigger aw=null
+trigger fw=null
+unit Cw=null
+trigger Lw=null
+trigger Fw=null
+trigger vD=null
+trigger RD=null
+trigger sD=null
+trigger PD=null
+trigger pD=null
+trigger rD=null
+trigger WD=null
+unit iD=null
+unit array mD
+trigger YD=null
+trigger dD=null
+trigger GD=null
+group array qD
+trigger ZD=null
+trigger yD=null
+trigger lD=null
+trigger ND=null
+trigger wD=null
+unit array DD
+trigger SD=null
+trigger VD=null
+trigger hD=null
+trigger cD=null
+unit array kD
+trigger QD=null
+trigger UD=null
+trigger BD=null
+boolean array HD
+unit array oD
+trigger jD=null
+trigger KD=null
+trigger ED=null
+trigger JD=null
+trigger eD=null
+unit array tD
+real array xD
+unit array bD
+trigger MD=null
+trigger gD=null
+trigger uD=null
+trigger AD=null
+unit ID=null
+trigger XD=null
+trigger nD=null
+trigger TD=null
+trigger OD=null
+trigger aD=null
+trigger fD=null
+trigger CD=null
+trigger LD=null
+trigger FD=null
+trigger vS=null
+trigger RS=null
+trigger sS=null
+unit array PS
+trigger pS=null
+trigger rS=null
+trigger WS=null
+trigger iS=null
+unit array mS
+unit array YS
+trigger dS=null
+trigger GS=null
+trigger qS=null
+trigger ZS=null
+unit yS=null
+unit array lS
+trigger NS=null
+trigger wS=null
+trigger DS=null
+unit SS=null
+string array VS
+item array hS
+integer array cS
+boolean array kS
+unit array QS
+trigger US=null
+trigger BS=null
+trigger HS=null
+trigger oS=null
+unit array jS
+group array KS
+texttag array ES
+boolean array JS
+timer array eS
+unit array tS
+integer xS=0
+integer array bS
+integer array MS
+integer array gS
+string array uS
+integer AS=0
+timer array IS
+unit array XS
+integer array nS
+unitpool TS=null
+unitpool OS=null
+unitpool aS=null
+unitpool fS=null
+unitpool CS=null
+unitpool LS=null
+unitpool FS=null
+boolean array vV
+boolean array RV
+trigger sV=null
+unit PV=null
+boolean array pV
+boolean rV=false
+integer array WV
+boolean array iV
+boolean mV=false
+integer array YV
+boolean array dV
+boolean GV=false
+integer array qV
+boolean array ZV
+boolean yV=false
+integer array lV
+boolean array NV
+boolean wV=false
+integer array DV
+boolean array SV
+boolean VV=false
+integer array hV
+boolean array cV
+boolean kV=false
+integer array QV
+boolean array UV
+boolean BV=false
+integer array HV
+boolean array oV
+boolean jV=false
+integer array KV
+boolean array EV
+boolean JV=false
+integer array eV
+boolean array tV
+boolean xV=false
+integer array bV
+boolean array MV
+boolean gV=false
+integer array uV
+boolean array AV
+boolean IV=false
+integer array XV
+boolean array nV
+boolean TV=false
+integer array OV
+boolean array aV
+boolean fV=false
+integer array CV
+boolean array LV
+boolean FV=false
+integer array vh
+boolean array Rh
+boolean sh=false
+integer array Ph
+boolean array ph
+boolean rh=false
+integer array Wh
+boolean ih=false
+boolean mh=false
+boolean Yh=false
+timer dh=null
+timerdialog Gh=null
+unit qh=null
+trigger Zh=null
+boolean yh=false
+boolean lh=false
+integer Nh=-1
+boolean wh=false
+boolean Dh=false
+integer Sh=-1
+boolean array Vh
+boolean hh=false
+integer ch=-1
+boolean kh=false
+boolean Qh=false
+integer Uh=-1
+boolean Bh=false
+boolean Hh=false
+integer oh=-1
+boolean jh=false
+boolean Kh=false
+integer Eh=-1
+boolean array Jh
+boolean eh=false
+integer th=-1
+boolean xh=false
+boolean bh=false
+integer Mh=-1
+boolean gh=false
+boolean uh=false
+integer Ah=-1
+boolean Ih=false
+boolean Xh=false
+integer nh=-1
+unit array Th
+integer Oh=0
+integer ah=0
+integer fh=0
+timer Ch=null
+real Lh=0.
+real Fh=0.
+real vc=0.
+real array Rc
+timer sc=null
+boolean Pc=false
+real pc=0.
+integer rc=0
+real Wc=0.
+integer ic=0
+timer mc=null
+real Yc=0.
+real dc=0.
+real Gc=0.
+real array qc
+timer Zc=null
+boolean yc=false
+real lc=0.
+integer Nc=0
+real wc=0.
+integer Dc=0
+timer Sc=null
+real Vc=0.
+real hc=0.
+real cc=0.
+real array kc
+timer Qc=null
+boolean Uc=false
+real Bc=0.
+integer Hc=0
+real oc=0.
+integer jc=0
+timer Kc=null
+real Ec=0.
+real Jc=0.
+real ec=0.
+real array tc
+timer xc=null
+boolean bc=false
+integer Mc=20
+real gc=0.
+integer uc=0
+real Ac=0.
+boolean array Ic
+integer Xc=0
+timer nc=null
+real Tc=0.
+real Oc=0.
+real ac=0.
+real array fc
+timer Cc=null
+boolean Lc=false
+integer Fc=20
+real vk=0.
+integer Rk=0
+real sk=0.
+boolean array Pk
+integer pk=0
+timer rk=null
+real Wk=0.
+real ik=0.
+real mk=0.
+real array Yk
+timer dk=null
+boolean Gk=false
+integer qk=20
+real Zk=0.
+integer yk=0
+real lk=0.
+boolean array Nk
+integer wk=0
+timer Dk=null
+real Sk=0.
+real Vk=0.
+real hk=0.
+real array ck
+timer kk=null
+boolean Qk=false
+integer Uk=20
+real Bk=0.
+integer Hk=0
+real ok=0.
+boolean array jk
+integer Kk=0
+timer Ek=null
+real Jk=0.
+real ek=0.
+real tk=0.
+real array xk
+timer bk=null
+boolean Mk=false
+integer gk=20
+real uk=0.
+integer Ak=0
+real Ik=0.
+boolean array Xk
+integer nk=0
+timer Tk=null
+real Ok=0.
+real ak=0.
+real fk=0.
+real array Ck
+timer Lk=null
+boolean Fk=false
+integer vQ=20
+real RQ=0.
+integer sQ=0
+real PQ=0.
+boolean array pQ
+integer rQ=0
+timer WQ=null
+real iQ=0.
+real mQ=0.
+real YQ=0.
+real array dQ
+timer GQ=null
+boolean qQ=false
+integer ZQ=20
+real yQ=0.
+integer lQ=0
+real NQ=0.
+boolean array wQ
+integer DQ=0
+timer SQ=null
+real VQ=0.
+real hQ=0.
+real cQ=0.
+real array kQ
+timer QQ=null
+boolean UQ=false
+integer BQ=20
+real HQ=0.
+integer oQ=0
+real jQ=0.
+boolean array KQ
+integer EQ=0
+timer JQ=null
+real eQ=0.
+real tQ=0.
+real xQ=0.
+real array bQ
+timer MQ=null
+boolean gQ=false
+integer uQ=20
+real AQ=0.
+integer IQ=0
+real XQ=0.
+boolean array nQ
+integer TQ=0
+timer OQ=null
+real aQ=0.
+real fQ=0.
+real CQ=0.
+real array LQ
+timer FQ=null
+boolean vU=false
+integer RU=20
+real sU=0.
+integer PU=0
+real pU=0.
+boolean array rU
+integer WU=0
+timer iU=null
+timer mU=null
+timerdialog YU=null
+real dU=0.
+real GU=0.
+real qU=0.
+real array ZU
+timer yU=null
+boolean lU=false
+integer NU=20
+real wU=0.
+integer DU=0
+real SU=0.
+boolean array VU
+unitpool hU=null
+effect array cU
+unit array kU
+integer array QU
+texttag array UU
+boolean array BU
+unitpool HU=null
+unitpool oU=null
+unitpool jU=null
+unitpool KU=null
+unitpool EU=null
+integer array JU
+integer eU=0
+boolean tU=false
+destructable xU=null
+destructable bU=null
+unit MU=null
+unit gU=null
+unit uU=null
+unit AU=null
+unit IU=null
+unit XU=null
+unit nU=null
+unit TU=null
+unit OU=null
+unit aU=null
+texttag fU=null
+unit CU=null
+unit LU=null
+unit FU=null
+integer vB=0
+integer RB=0
+timer sB=null
+integer array PB
+integer pB=0
+boolean rB=false
+integer array WB
+integer array iB
+integer array mB
+integer array YB
+integer array dB
+integer array GB
+integer array qB
+integer array ZB
+integer array yB
+integer array lB
+integer array NB
+integer array wB
+integer array DB
+integer array SB
+integer array VB
+integer array hB
+integer array cB
+integer array kB
+integer array QB
+integer array UB
+integer array BB
+integer array HB
+integer array oB
+unit jB=null
+trigger KB=null
+timer EB=null
+integer JB=0
+integer eB=0
+integer tB=0
+integer xB=0
+timer bB=null
+integer MB=0
+unit array gB
+integer uB=0
+unit array AB
+integer IB=0
+unit array XB
+integer nB=0
+unit array TB
+integer OB=0
+integer aB=0
+integer fB=0
+integer array CB
+integer LB=0
+integer FB=0
+integer array vH
+integer RH=0
+integer sH=0
+integer array PH
+player array pH
+integer array rH
+integer WH=0
+integer iH=0
+integer mH=0
+integer array YH
+player array dH
+integer array GH
+integer qH=0
+integer ZH=0
+integer yH=0
+integer array lH
+player array NH
+string array wH
+integer DH=0
+integer SH=0
+integer VH=0
+integer array hH
+player array cH
+integer array kH
+integer QH=0
+integer UH=0
+integer BH=0
+integer array HH
+integer array oH
+integer jH=0
+integer array KH
+integer array EH
+integer array JH
+integer eH=0
+integer tH=0
+integer array xH
+region array bH
+trigger array MH
+trigger array gH
+integer array uH
+triggeraction array AH
+integer array IH
+integer array XH
+integer array nH
+integer TH=0
+hashtable OH=null
+integer aH=0
+integer fH=0
+integer array CH
+boolean LH=false
+integer array FH
+integer array vo
+integer array Ro
+trigger array so
+eventid array Po
+timer array po
+boolean array ro
+integer array Wo
+string array io
+string array mo
+real array Yo
+real array do
+real array Go
+real array qo
+unit array Zo
+unit array yo
+unit array lo
+unit array No
+unit array wo
+unit array Do
+unit array So
+unit array Vo
+unit array ho
+unit array co
+unit array ko
+unit array Qo
+unit array Uo
+unit array Bo
+unit array Ho
+unit array oo
+unit array jo
+unit array Ko
+unit array Eo
+unit array Jo
+unit array eo
+unit array xo
+unit array bo
+unit array Mo
+unit array go
+unit array uo
+unit array Ao
+unit array Io
+unit array Xo
+unit array no
+playerstate array To
+integer array Oo
+integer array ao
+destructable array fo
+destructable array Co
+item array Lo
+item array Fo
+item array vj
+item array Rj
+integer array sj
+integer array Pj
+integer array pj
+player array rj
+player array Wj
+player array ij
+dialog array mj
+button array Yj
+timer array dj
+real array Gj
+unit array qj
+region array Zj
+timer yj=null
+trigger array lj
+integer Nj=0
+trigger wj=null
+boolean Dj=false
+hashtable Sj=null
+integer array Vj
+integer hj=0
+integer cj=0
+trigger kj=null
+hashtable Qj=null
+integer array Uj
+hashtable Bj=null
+integer array Hj
+hashtable oj=null
+integer array jj
+hashtable Kj=null
+integer array Ej
+hashtable Jj=null
+integer array ej
+hashtable tj=null
+integer array xj
+hashtable bj=null
+integer array Mj
+hashtable gj=null
+integer array uj
+hashtable Aj=null
+integer array Ij
+hashtable Xj=null
+integer array nj
+hashtable Tj=null
+integer array Oj
+hashtable aj=null
+integer array fj
+hashtable Cj=null
+integer array Lj
+hashtable Fj=null
+integer array vK
+hashtable RK=null
+integer sK=0
+integer PK=0
+integer pK=0
+integer rK=0
+integer WK=0
+integer iK=0
+integer mK=0
+integer YK=0
+integer dK=0
+integer GK=0
+integer qK=0
+integer ZK=0
+integer yK=0
+integer lK=0
+integer array NK
+integer array wK
+integer array DK
+integer array SK
+integer array VK
+integer array hK
+integer array cK
+integer array kK
+integer array QK
+integer array UK
+integer array BK
+integer array HK
+integer array oK
+integer array jK
+integer array KK
+integer array EK
+integer array JK
+integer array eK
+integer array tK
+integer array xK
+integer array bK
+integer array MK
+integer array gK
+integer array uK
+integer array AK
+integer array IK
+integer array XK
+integer array nK
+integer array TK
+integer array OK
+integer array aK
+integer array fK
+integer array CK
+integer array LK
+integer array FK
+integer array vE
+integer array RE
+integer array sE
+integer array PE
+integer array pE
+integer array rE
+integer array WE
+integer array iE
+integer array mE
+integer array YE
+integer array dE
+integer array GE
+integer array qE
+integer array ZE
+integer array yE
+integer array lE
+integer array NE
+integer array wE
+integer array DE
+integer array SE
+integer array VE
+integer array hE
+integer array cE
+integer array kE
+boolean array QE
+integer UE=0
+integer BE=0
+integer array HE
+integer oE=0
+integer jE=0
+integer array KE
+integer array EE
+integer array JE
+integer array eE
+integer array tE
+integer array xE
+integer array bE
+integer array ME
+integer array gE
+integer uE=0
+integer AE=0
+integer array IE
+integer array XE
+integer array nE
+integer array TE
+string array OE
+string array aE
+string array fE
+string array CE
+integer LE=0
+integer FE=0
+integer vJ=0
+integer RJ=0
+integer array sJ
+integer array PJ
+integer array pJ
+integer array rJ
+integer array WJ
+integer array iJ
+integer array mJ
+integer array YJ
+integer array dJ
+integer array GJ
+integer array qJ
+integer array ZJ
+integer array yJ
+integer array lJ
+integer array NJ
+integer array wJ
+integer array DJ
+integer array SJ
+integer array VJ
+integer array hJ
+integer array cJ
+integer array kJ
+integer array QJ
+integer array UJ
+integer array BJ
+integer array HJ
+integer array oJ
+integer array jJ
+integer array KJ
+integer array EJ
+integer array JJ
+integer array eJ
+integer array tJ
+integer array xJ
+integer array bJ
+integer array MJ
+integer array gJ
+integer array uJ
+integer array AJ
+integer array IJ
+integer array XJ
+integer array nJ
+integer array TJ
+integer array OJ
+integer array aJ
+integer array fJ
+integer array CJ
+trigger LJ=null
+trigger FJ=null
+trigger ve=null
+trigger Re=null
+trigger se=null
+trigger Pe=null
+trigger pe=null
+trigger re=null
+trigger We=null
+trigger ie=null
+trigger me=null
+unit Ye=null
+trigger de=null
+trigger Ge=null
+unit qe=null
+unit array Ze
+trigger ye=null
+trigger le=null
+trigger Ne=null
+trigger we=null
+trigger De=null
+trigger Se=null
+boolean Ve=false
+trigger he=null
+trigger ce=null
+trigger ke=null
+trigger Qe=null
+trigger Ue=null
+trigger Be=null
+trigger He=null
+trigger oe=null
+trigger je=null
+trigger Ke=null
+trigger Ee=null
+trigger Je=null
+integer ee=0
+integer te=0
+integer array xe
+integer array be
+unit array Me
+integer array ge
+timer array ue
+timer array Ae
+timerdialog array Ie
+boolean array Xe
+integer ne=0
+integer Te=0
+integer array Oe
+timer array ae
+timerdialog array fe
+integer Ce=0
+integer Le=0
+integer array Fe
+timer array vt
+integer array Rt
+integer array st
+timer array Pt
+trigger array pt
+trigger array rt
+trigger array Wt
+trigger mt=null
+trigger Yt=null
+trigger dt=null
+trigger Gt=null
+trigger qt=null
+trigger Zt=null
+trigger yt=null
+trigger lt=null
+trigger Nt=null
+trigger wt=null

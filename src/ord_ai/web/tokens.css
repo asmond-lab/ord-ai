@@ -1,0 +1,103 @@
+/* Design tokens. Every value traces to DESIGN.md; components use only these names. */
+:root {
+  color-scheme: dark;
+
+  /* Plum ramp (DESIGN.md §2) */
+  --plum-950: #150f23;
+  --plum-925: #120c1f;
+  --plum-900: #1f1633;
+  --plum-850: #271d40;
+  --plum-700: #362d59;
+  --plum-600: #4a3d73;
+  --plum-400: #8b7da8;
+  --plum-300: #a99bc4;
+  --plum-200: #cfc6e2;
+  --plum-50: #f5f2fa;
+  --lime-400: #c2ef4e;
+  --lime-950: #26330f;
+  --violet-400: #a89cf0;
+  --violet-600: #6a5fc1;
+  --coral-400: #ffb287;
+  --coral-950: #3a2127;
+  --pink-400: #fa7faa;
+  --wash-1: rgb(245 242 250 / 0.05);
+  --wash-2: rgb(245 242 250 / 0.08);
+  --wash-3: rgb(245 242 250 / 0.12);
+
+  /* Semantic aliases */
+  --surface-canvas: var(--plum-950);
+  --surface-well: var(--plum-925);
+  --surface-panel: var(--plum-900);
+  --surface-raised: var(--plum-850);
+  --surface-glass: rgb(21 15 35 / 0.82);
+  --line: var(--plum-700);
+  --line-strong: var(--plum-600);
+  --text-primary: var(--plum-50);
+  --text-secondary: var(--plum-200);
+  --text-muted: var(--plum-300);
+  --text-faint: var(--plum-400);
+  --accent: var(--lime-400);
+  --accent-wash: var(--lime-950);
+  --warn-wash: var(--coral-950);
+  --series-1: var(--lime-400);
+  --series-2: var(--violet-400);
+  --status-win: var(--lime-400);
+  --status-loss: var(--coral-400);
+  --status-playing: var(--violet-400);
+  --status-waiting: var(--plum-300);
+  --interactive-edge: var(--violet-600);
+  --link: var(--violet-400);
+  --focus: var(--pink-400);
+
+  /* Depth (DESIGN.md §7) */
+  --shadow-sunken: inset 0 1px 3px rgb(8 5 15 / 0.6);
+  --shadow-rim: inset 0 1px 0 var(--wash-1);
+  --shadow-ambient: 0 8px 24px rgb(8 5 15 / 0.45);
+  --scroll-shade: rgb(8 5 15 / 0.7);
+  --glow-violet: rgb(106 95 193 / 0.2);
+  --glow-lime: rgb(194 239 78 / 0.05);
+
+  /* Typography (DESIGN.md §3) */
+  --font-sans: "Pretendard", "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", "Segoe UI",
+    system-ui, sans-serif;
+  --font-mono: "Cascadia Mono", "JetBrains Mono", "D2Coding", Consolas, ui-monospace, monospace;
+  --size-kpi: 1.75rem;
+  --size-h2: 1.25rem;
+  --size-h1: 1.125rem;
+  --size-value: 1.125rem;
+  --size-h3: 0.9375rem;
+  --size-body: 0.9375rem;
+  --size-sm: 0.875rem;
+  --size-label: 0.8125rem;
+  --size-caption: 0.75rem;
+  --leading-tight: 1.1;
+  --leading-heading: 1.3;
+  --leading-body: 1.6;
+  --leading-sm: 1.5;
+  --leading-label: 1.4;
+
+  /* Spacing (DESIGN.md §4, 4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --content-max: 82rem;
+  --gutter: clamp(1rem, 3vw, 2rem);
+  --table-max: 22rem;
+  --chart-bars: 15rem;
+  --chart-line: 11rem;
+  --map-max: 28rem;
+
+  /* Shape and motion */
+  --radius-xs: 2px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-full: 999px;
+  --dur-micro: 120ms;
+  --z-topbar: 10;
+}

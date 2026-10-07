@@ -1,0 +1,1800 @@
+if wWR(1,$64)<=8 then
+call TriggerExecute(Ty)
+endif
+endif
+call RemoveLocation(RBR)
+call RemoveLocation(sBR)
+set FUR=null
+set vBR=null
+set RBR=null
+set sBR=null
+set PBR=null
+set rBR=null
+set WBR=null
+endfunction
+function iCv takes nothing returns nothing
+local unit pCv=GetTriggerUnit()
+local player rCv=GetOwningPlayer(pCv)
+local location WCv=GetSpellTargetLoc()
+if IsTerrainPathable(GetLocationX(WCv),GetLocationY(WCv),PATHING_TYPE_WALKABILITY) then
+call DisplayTimedTextToPlayer(rCv,0.,0.,5.,"|cffFF0000이동 할 수 없는 지형 입니다.|r")
+call IssueImmediateOrder(pCv,"stop")
+call UnitResetCooldown(pCv)
+set pCv=null
+set rCv=null
+set WCv=null
+return
+endif
+call UnitRemoveAbility(pCv,$42303350)
+call TriggerExecute(We)
+call RemoveLocation(WCv)
+set pCv=null
+set rCv=null
+set WCv=null
+endfunction
+function iER takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call frR(Op,0,0)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304953,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.50)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(435.,475.)*.01,1.,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304953,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.)
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$73,$73,$73,64)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303252,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.15)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+10),"stand walk")
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,$ff,$ff,$66)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303449,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.,2.,2.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),30.,.0)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304937,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+if SPs(LoadUnitHandle(gj,0,Op*$1f4+1)) then
+call rRR(Op,2,LoadUnitHandle(gj,0,Op*$1f4+1))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+2),4500.,8600.)
+else
+call rRR(Op,2,LoadUnitHandle(gj,0,Op*$1f4+1))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+2),GetUnitDefaultFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+1)),7000.)
+endif
+call UnitDamagePointLoc(LoadUnitHandle(gj,0,Op*$1f4),.0,475.,LoadLocationHandle(Aj,0,Op*$1f4+1),1250000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call hSv(Op,.08,1)
+elseif vo[Op]==1 then
+call frR(Op,0,LoadInteger(Tj,0,Op*$1f4)+1)
+if LoadInteger(Tj,0,Op*$1f4)==2 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304953,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.50)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(435.,475.)*.01,1.,1.)
+if SPs(LoadUnitHandle(gj,0,Op*$1f4+1)) then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+2),1.50*GetUnitStateSwap(UNIT_STATE_MAX_LIFE,LoadUnitHandle(gj,0,Op*$1f4+2)),1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+else
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+2),.0,4800.)
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+2),.02*GetUnitStateSwap(UNIT_STATE_MAX_LIFE,LoadUnitHandle(gj,0,Op*$1f4+2)),1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+endif
+if LoadInteger(Tj,0,Op*$1f4)==6 then
+call AWR(Op,.05,2)
+else
+call AWR(Op,.10,1)
+endif
+elseif vo[Op]==2 then
+call qjR(Op)
+endif
+endfunction
+function iGR takes nothing returns nothing
+local unit rGR=GetTriggerUnit()
+local unit WGR=GetSpellTargetUnit()
+call wVv(WGR,10)
+if GetUnitAbilityLevel(WGR,$41393032)<=0 and GetUnitAbilityLevel(WGR,$41393131)<=0 and GetUnitAbilityLevel(WGR,$41393033)<=0 and GetUnitAbilityLevel(WGR,$41393034)<=0 then
+call yDs(rGR,WGR,GetUnitState(WGR,UNIT_STATE_MAX_LIFE)*.15,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+set rGR=null
+set WGR=null
+endfunction
+function iGs takes nothing returns boolean
+return true
+endfunction
+function iLs takes nothing returns nothing
+local hashtable WLs=Pv
+local framehandle rLs=BlzGetTriggerFrame()
+local integer pLs
+call SaveFrameHandle(pv,0,GetHandleId(rLs),rLs)
+set pLs=LoadInteger(WLs,0,GetHandleId(rLs))
+call vAv(AJ[pLs],150.,50.)
+set rLs=null
+set WLs=null
+endfunction
+function iNR takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call dSs(Op,0,GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),D0v(0.,15.),GetRandomReal(0.,360.)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303456,LoadLocationHandle(Aj,0,Op*$1f4+1),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.5,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),30.,10000.)
+if SPs(LoadUnitHandle(gj,0,Op*$1f4+1)) then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),GetUnitStateSwap(UNIT_STATE_LIFE,LoadUnitHandle(gj,0,Op*$1f4+1))*.01*10.5*(.79+.01*I2R(GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41313153))),1.,1.,ATTACK_TYPE_PIERCE,DAMAGE_TYPE_UNIVERSAL)
+endif
+call Ehs(Op,.08)
+elseif vo[Op]==1 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303456,LoadLocationHandle(Aj,0,Op*$1f4+2),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.5,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),30.,10000.)
+if SPs(LoadUnitHandle(gj,0,Op*$1f4+1)) then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),GetUnitStateSwap(UNIT_STATE_LIFE,LoadUnitHandle(gj,0,Op*$1f4+1))*.01*10.5*(.79+.01*I2R(GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41313153))),1.,1.,ATTACK_TYPE_PIERCE,DAMAGE_TYPE_UNIVERSAL)
+endif
+call Ehs(Op,.08)
+elseif vo[Op]==2 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303457,LoadLocationHandle(Aj,0,Op*$1f4+1),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),4.,1.,1.)
+call YIs(LoadUnitHandle(gj,0,Op*$1f4),.0,333.,LoadLocationHandle(Aj,0,Op*$1f4+1),210000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call qjR(Op)
+endif
+endfunction
+function iPs takes nothing returns nothing
+local trigger WPs
+set gh=true
+set Ah=lr
+call g9s(Ah,"ReplaceableTextures\\CommandButtons\\BTNManaStone.blp","영혼 해방")
+call rhs(nK[Ah],true)
+call XQR(Ah,"ReplaceableTextures\\CommandButtons\\BTNManaStone.blp","|cffFF8200미션 :: 영혼 해방|r","|cffF361A61시 지역 룸바 해적단의 영혼을 해방하세요.|r"," + |cffffd7003000 골드|r\n + |cff7ad8231 목재|r\n + |cffA6A6A6아이템 발굴|r 1회|r","|cff04ffc4모든 플레이어가 공유하는 미션입니다.|r")
+if not uh then
+set uh=true
+set WPs=CreateTrigger()
+call TriggerRegisterDeathEvent(WPs,Bd)
+call TriggerAddAction(WPs,r2)
+endif
+set WPs=null
+endfunction
+function iQs takes nothing returns boolean
+return GetEventDamageSource()==LoadUnitHandle(gj,0,Op*$1f4)
+endfunction
+function PkR takes nothing returns nothing
+local integer skR=0
+loop
+exitwhen skR>=4
+if ks[skR]then
+call DisplayTimedTextToPlayer(Player(skR),0.,0.,10.,"스토리 보상으로 |cffffd700"+GetObjectName($65304958)+"|r 1개 추가 획득!")
+call yRR(Player(skR),1)
+endif
+set skR=skR+1
+endloop
+endfunction
+function J2s takes nothing returns nothing
+local string k2s=""
+local unitstate H2s=UNIT_STATE_MAX_LIFE
+local unit o2s=GetTriggerUnit()
+local real Q2s=GetUnitState(o2s,H2s)
+local integer B2s=0
+local real U2s
+local integer j2s
+local integer K2s
+local player E2s
+loop
+exitwhen B2s>=4
+if as[B2s]then
+call wIs(B2s)
+else
+call Yms(B2s)
+endif
+set B2s=B2s+1
+endloop
+call PauseTimer(Zc)
+set yc=false
+set j2s=0
+loop
+exitwhen j2s>=4
+set j2s=j2s+1
+endloop
+set B2s=0
+loop
+exitwhen B2s>=4
+if ks[B2s]then
+set U2s=100.*(qc[B2s]/Q2s)
+set K2s=R2I(($12c-mR[1])*U2s*5./100.)
+call DisplayTimedTextToPlayer(Player(B2s),0.,0.,5.,"|cffffd700자신이 가한데미지는 "+R2SW(U2s,0,2)+"% 입니다.")
+if K2s>0 then
+call DisplayTimedTextToPlayer(Player(B2s),0.,0.,10.,"|cffdc143c[클리어점수]|r 스토리 파괴 : |cffffd700"+I2S(K2s)+"점|r")
+call Nss(B2s,K2s)
+endif
+if lc<=qc[B2s]then
+set lc=qc[B2s]
+set Nc=B2s
+set wc=U2s
+endif
+endif
+set B2s=B2s+1
+endloop
+set JP[Nc]=JP[Nc]+1
+set WR[1]=Player(Nc)
+set iR[1]=wc*1.
+set B2s=0
+loop
+exitwhen B2s>=4
+if ks[B2s]then
+set E2s=Player(B2s)
+call SetPlayerState(E2s,PLAYER_STATE_RESOURCE_GOLD,GetPlayerState(E2s,PLAYER_STATE_RESOURCE_GOLD)+$320)
+call FqR(Player(B2s),3)
+endif
+set B2s=B2s+1
+endloop
+call PkR()
+call rcs(Player(Nc),$5dc)
+call yRR(Player(Nc),1)
+set k2s=k2s+"|cffFF0000"+GetObjectName($6e303032)+"|r 스토리 진행 완료! 모든 플레이어에게 보상을 지급합니다.\n"
+set k2s=k2s+"|cffffdead◎|r 재화 : |cffffd700800 골드|r\n"
+set k2s=k2s+"|cffffdead◎|r 유닛 : |cffff8200"+GetObjectName($65303138)+"|r 3개\n"
+set k2s=k2s+"|cffffdead◎|r MVP : "+GetPlayerName(Player(Nc))+" (기여도 : |cffFF0000"+R2SW(wc,0,2)+"%|r)\n"
+set k2s=k2s+"|cffffdead　▶|r 해당 플레이어에게 |cffffd700"+GetObjectName($65304958)+"|r 1개를 추가 지급합니다!"
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,k2s)
+set H2s=null
+set o2s=null
+set E2s=null
+endfunction
+function iQv takes nothing returns nothing
+call hjR(mc)
+set mR[1]=ic
+call J2s()
+call TriggerEvaluate(h)
+call TriggerEvaluate(LoadTriggerHandle(T,8,2))
+endfunction
+function iRR takes nothing returns nothing
+set nk=nk+1
+endfunction
+function iTv takes nothing returns nothing
+local player pTv
+local real rTv
+local real WTv
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$59593233
+set pTv=GetTriggerPlayer()
+set rTv=GetStartLocationX(GetPlayerStartLocation(pTv))
+set pTv=GetTriggerPlayer()
+set WTv=GetStartLocationY(GetPlayerStartLocation(pTv))
+set Ws=rTv
+set is=WTv
+set rs=true
+if not ODv() then
+set pTv=null
+return
+endif
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000킬러 : |r|cffFA8072...죽인다!|r")
+if GetLocalPlayer()==GetTriggerPlayer() then
+call StartSound(Ip)
+endif
+set pTv=null
+endfunction
+function iXR takes nothing returns nothing
+call yDs(GetAttacker(),GetEnumUnit(),6000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endfunction
+function iYR takes nothing returns nothing
+local unit PYR=GetAttacker()
+local unit rYR=GetTriggerUnit()
+local location WYR=GetUnitLoc(rYR)
+local integer sYR
+local unit pYR
+if GetUnitState(PYR,UNIT_STATE_MANA)==150. then
+call SetUnitState(PYR,UNIT_STATE_MANA,.0)
+call CreateUnitAtLoc(ds,$65303350,WYR,GetUnitFacing(PYR))
+set sYR=XbR()
+call dEv(sYR,800.,WYR,Condition(mX),YX)
+call Vbv(sYR)
+call IssuePointOrderById(pG[GetPlayerId(GetOwningPlayer(PYR))],OrderId("dreadlordinferno"),GetLocationX(WYR),GetLocationY(WYR))
+else
+call SetUnitState(PYR,UNIT_STATE_MANA,(GetUnitState(PYR,UNIT_STATE_MANA)+1.)*1.)
+endif
+if wWR(1,$64)<=14 then
+set pYR=CreateUnitAtLoc(ds,$65303031,WYR,GetUnitFacing(PYR))
+call SetUnitAnimation(pYR,"birth")
+call CreateUnitAtLoc(ds,$65303351,WYR,GetUnitFacing(PYR))
+set sYR=XbR()
+call dEv(sYR,600.,WYR,Condition(mX),dX)
+call Vbv(sYR)
+endif
+call RemoveLocation(WYR)
+set PYR=null
+set pYR=null
+set rYR=null
+set WYR=null
+endfunction
+function iav takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call bTs(Op,0,.02)
+call frR(Op,0,1)
+call frR(Op,1,0)
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,4,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call AWR(Op,LoadReal(aj,0,Op*$1f4),LoadInteger(Tj,0,Op*$1f4))
+elseif vo[Op]==1 then
+call bTs(Op,0,.02)
+call frR(Op,0,2)
+call frR(Op,1,0)
+call frR(Op,10,GetUnitCurrentOrder(LoadUnitHandle(gj,0,Op*$1f4)))
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),true)
+call SetUnitState(LoadUnitHandle(gj,0,Op*$1f4),UNIT_STATE_MANA,.0)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"spell slam")
+call AWR(Op,LoadReal(aj,0,Op*$1f4),LoadInteger(Tj,0,Op*$1f4))
+elseif vo[Op]==2 then
+if LoadInteger(Tj,0,Op*$1f4+1)<7 then
+call bTs(Op,0,.075)
+call frR(Op,0,2)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303353,LoadLocationHandle(Aj,0,Op*$1f4),bj_UNIT_FACING))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),0.,0.)
+if ModuloInteger(LoadInteger(Tj,0,Op*$1f4+1),2)==0 then
+call mUs("E_SuperShinyThingyPurple.mdx",LoadUnitHandle(gj,0,Op*$1f4),"left hand")
+else
+call mUs("E_SuperShinyThingyPurple.mdx",LoadUnitHandle(gj,0,Op*$1f4),"right hand")
+endif
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4),D0v(80.,110.),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))+D0v(-50.,50.)))
+call rRR(Op,2,CreateUnitAtLoc(ds,$65303442,LoadLocationHandle(Aj,0,Op*$1f4+2),AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+2))))
+call WQs(Op,3,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+2),2000.,GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4+2))))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+2),4200.,2000.)
+call EqR(LoadUnitHandle(gj,0,Op*$1f4+2),LoadLocationHandle(Aj,0,Op*$1f4+3),1.50,.03)
+call frR(Op,1,LoadInteger(Tj,0,Op*$1f4+1)+1)
+else
+call bTs(Op,0,.24)
+call frR(Op,0,3)
+call frR(Op,1,0)
+endif
+call AWR(Op,LoadReal(aj,0,Op*$1f4),LoadInteger(Tj,0,Op*$1f4))
+elseif vo[Op]==3 then
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"stand ready")
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),false)
+call g9R(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),LoadInteger(Tj,0,Op*$1f4+10))
+call AWR(Op,.7,4)
+elseif vo[Op]==4 then
+if LoadInteger(Tj,0,Op*$1f4+1)<6+GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4),$41304847) then
+if GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4),$41304847)==1 then
+call WQs(Op,1,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+4),D0v(-700.,700.),GetRandomReal(0.,360.)))
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),1000.,GetRandomReal(0.,360.)))
+call rRR(Op,2,CreateUnitAtLoc(ds,$65303444,LoadLocationHandle(Aj,0,Op*$1f4+2),AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4+2),LoadLocationHandle(Aj,0,Op*$1f4+1))))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+2),100.,1500.)
+call EqR(LoadUnitHandle(gj,0,Op*$1f4+2),LoadLocationHandle(Aj,0,Op*$1f4+1),.70,.03)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+2),$42487765,1.07)
+call frR(Op,1,LoadInteger(Tj,0,Op*$1f4+1)+1)
+set aZ[0]=LoadUnitHandle(gj,0,Op*$1f4+2)
+set aZ[1]=LoadUnitHandle(gj,0,Op*$1f4+1)
+set aZ[2]=LoadUnitHandle(gj,0,Op*$1f4)
+call TriggerExecute(nZ)
+call AWR(Op,.1,4)
+else
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+4),1000.,GetRandomReal(0.,360.)))
+call rRR(Op,2,CreateUnitAtLoc(ds,$65303444,LoadLocationHandle(Aj,0,Op*$1f4+2),AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4+2),LoadLocationHandle(Aj,0,Op*$1f4+1))))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+2),100.,1500.)
+call EqR(LoadUnitHandle(gj,0,Op*$1f4+2),LoadLocationHandle(Aj,0,Op*$1f4+4),.70,.03)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+2),$42487765,1.07)
+call frR(Op,1,LoadInteger(Tj,0,Op*$1f4+1)+1)
+set aZ[0]=LoadUnitHandle(gj,0,Op*$1f4+2)
+set aZ[1]=LoadUnitHandle(gj,0,Op*$1f4+1)
+set aZ[2]=LoadUnitHandle(gj,0,Op*$1f4)
+call TriggerExecute(nZ)
+call AWR(Op,.1,4)
+endif
+else
+call qjR(Op)
+endif
+endif
+endfunction
+function ibv takes nothing returns nothing
+local unit Wbv=GetAttacker()
+call SetUnitUserData(Wbv,GetUnitUserData(Wbv)+1)
+if GetUnitUserData(GetAttacker())>=13 then
+call SetUnitAnimation(GetAttacker(),"spell")
+call TriggerExecute(ZG)
+call SetUnitUserData(GetAttacker(),0)
+else
+call TriggerExecute(yG)
+endif
+set Wbv=null
+endfunction
+function idR takes nothing returns nothing
+local integer RdR
+local unit sdR
+local location PdR
+local player pdR
+local real rdR
+local real WdR
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$54523232
+set pdR=GetTriggerPlayer()
+set rdR=GetStartLocationX(GetPlayerStartLocation(pdR))
+set pdR=GetTriggerPlayer()
+set WdR=GetStartLocationY(GetPlayerStartLocation(pdR))
+set Ws=rdR
+set is=WdR
+set rs=true
+if not ODv() then
+set sdR=null
+set PdR=null
+set pdR=null
+return
+endif
+set sdR=FirstOfGroup(ms)
+set RdR=GetPlayerId(GetOwningPlayer(sdR))
+set PdR=GetStartLocationLoc(RdR)
+if Ay[RdR]==null then
+set Ay[RdR]=CreateUnitAtLoc(Player(RdR),$68303456,PdR,bj_UNIT_FACING)
+call UnitAddAbility(Ay[RdR],$41313649)
+call UnitAddAbility(Ay[RdR],$41304d30)
+call UnitAddAbility(Ay[RdR],$41313155)
+endif
+call G7s(sdR)
+call StartSound(vPR("SE\\jinbe.mp3",null,$7f,1.,false,0.,0.))
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffc0c0c0징베 : |r|cff00fa9a미래의 해적왕의 선원이 될 남자가 사황 따위에게 겁먹을 것 같으냐!|r")
+call RemoveLocation(PdR)
+set sdR=null
+set PdR=null
+set pdR=null
+endfunction
+function ies takes nothing returns nothing
+local unit Wes=GetTriggerUnit()
+if Wes==qh then
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffF15F5F[시스템]|r 포네그리프 해독 중 유닛이 사망하여 해독에 실패했습니다.")
+if Zh!=null then
+call DestroyTrigger(Zh)
+set Zh=null
+endif
+if Gh!=null then
+call DestroyTimerDialog(Gh)
+set Gh=null
+endif
+if dh!=null then
+call hjR(dh)
+set dh=null
+endif
+set mh=false
+set qh=null
+set Yh=false
+endif
+set Wes=null
+endfunction
+function ifR takes nothing returns nothing
+local unitstate PfR
+local unit pfR
+local unit rfR
+local unit WfR
+if SPs(GetEnumUnit()) then
+set rfR=LoadUnitHandle(gj,0,Op*$1f4)
+set WfR=GetEnumUnit()
+set PfR=UNIT_STATE_MAX_LIFE
+set pfR=GetEnumUnit()
+call yDs(rfR,WfR,GetUnitState(pfR,PfR)*.01*.1*(.79+.01*I2R(GetUnitAbilityLevel(GetEnumUnit(),$41313153))),1.,1.,ATTACK_TYPE_HERO,DAMAGE_TYPE_UNIVERSAL)
+endif
+set PfR=null
+set pfR=null
+set rfR=null
+set WfR=null
+endfunction
+function ifs takes nothing returns nothing
+local integer Pfs=GetPlayerId(GetTriggerPlayer())
+local player pfs
+local real rfs
+local real Wfs
+call L2R()
+set ss=GetTriggerPlayer()
+set Rs=$59593135
+set pfs=GetTriggerPlayer()
+set rfs=GetStartLocationX(GetPlayerStartLocation(pfs))
+set pfs=GetTriggerPlayer()
+set Wfs=GetStartLocationY(GetPlayerStartLocation(pfs))
+set Ws=rfs
+set is=Wfs
+set rs=true
+if not ODv() then
+set pfs=null
+return
+endif
+set Ld[Pfs]=false
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000아카이누 : |r|cffFA8072네놈들의 핏줄은 이미 대죄다.|r")
+if GetLocalPlayer()==GetTriggerPlayer() then
+call StartSound(Ip)
+endif
+set pfs=null
+endfunction
+function ifv takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(GetAttacker()))
+endfunction
+function ihR takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call dSs(Op,0,GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call CUv(Op,LoadUnitHandle(gj,0,Op*$1f4+1),EVENT_UNIT_DAMAGED,Condition(Mn),2)
+call hSv(Op,.64,1)
+elseif vo[Op]==1 then
+call OPR(Op)
+call qjR(Op)
+elseif vo[Op]==2 then
+call rRR(Op,3,rp[GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))])
+call bTs(Op,3,GetEventDamage())
+call UnitDamagePointLoc(LoadUnitHandle(gj,0,Op*$1f4+3),0.,375.,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4+3),ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if wWR(1,10)==1 then
+call hSv(Op,.05,3)
+else
+call qjR(Op)
+endif
+elseif vo[Op]==3 then
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4),250.,LoadReal(aj,0,Op*$1f4)))
+call WQs(Op,3,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),D0v(20.,75.),GetRandomReal(0.,360.)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303455,LoadLocationHandle(Aj,0,Op*$1f4+3),LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303455,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.5,1.,1.)
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,$ff,$ff,$7f)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303459,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,$ff,$ff,$7f)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303544,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,$ff,$ff,$7f)
+if SPs(LoadUnitHandle(gj,0,Op*$1f4+1)) then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4+3),LoadUnitHandle(gj,0,Op*$1f4+1),GetUnitStateSwap(UNIT_STATE_LIFE,LoadUnitHandle(gj,0,Op*$1f4+1))*.20*(.79+.01*I2R(GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41313153))),1.,1.,ATTACK_TYPE_PIERCE,DAMAGE_TYPE_UNIVERSAL)
+else
+call yDs(LoadUnitHandle(gj,0,Op*$1f4+3),LoadUnitHandle(gj,0,Op*$1f4+1),200000.,1.,1.5,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+call qjR(Op)
+endif
+endfunction
+function ihv takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(GetAttacker()))
+endfunction
+function ijs takes nothing returns nothing
+local unit rjs=GetAttacker()
+local unitstate Wjs=UNIT_STATE_LIFE
+if GetUnitState(rjs,Wjs)>=15. then
+if wWR(1,$190)<=57 then
+call SetUnitState(rjs,UNIT_STATE_LIFE,GetUnitState(rjs,UNIT_STATE_LIFE)-7.)
+call TriggerExecute(Gq)
+endif
+endif
+call TriggerExecute(qq)
+set rjs=null
+set Wjs=null
+endfunction
+function ikR takes nothing returns nothing
+local hashtable WkR=Pv
+local framehandle rkR=BlzGetTriggerFrame()
+local integer pkR
+call SaveFrameHandle(pv,0,GetHandleId(rkR),rkR)
+set pkR=LoadInteger(WkR,0,GetHandleId(rkR))
+call vAv(MJ[pkR],155.,55.)
+set rkR=null
+set WkR=null
+endfunction
+function ilv takes nothing returns nothing
+local integer Wlv=0
+local integer rlv
+if Av>50 and Av!=65 then
+loop
+exitwhen Wlv>=4
+if ks[Wlv]then
+set rlv=(Hs-js[Wlv])*10
+call DisplayTimedTextToPlayer(Player(Wlv),0.,0.,10.,"|cffdc143c[클리어점수]|r 라운드 유닛 점수 : |cffffd700"+I2S(rlv)+"점|r")
+call Nss(Wlv,rlv)
+endif
+set Wlv=Wlv+1
+endloop
+endif
+endfunction
+function imR takes nothing returns nothing
+local integer rmR=GetPlayerId(ss)
+local integer WmR=bV[rmR]
+if (not tV[rmR])or(not wfv($51303130,rmR,bV[rmR])) then
+return
+endif
+if GetUnitAbilityLevel(FirstOfGroup(ms),$41393036)>0 then
+set tV[rmR]=false
+set Sr[rmR*3+WmR]=true
+call DisplayTimedTextToPlayer(Player(rmR),0.,0.,10.,"|cffF361A6[퀘스트]|r '유닛조합(영원)' 완료")
+call DisplayTimedTextToPlayer(Player(rmR),0.,0.,10.,"|cffff8200보상|r : |cffff8200"+GetObjectName($65303138)+"|r 2개 획득!")
+if GetLocalPlayer()==Player(rmR) then
+call Jjs(WmR+1)
+endif
+call FqR(Player(rmR),2)
+endif
+endfunction
+function ims takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call rRR(Op,3,rp[GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))])
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call CUv(Op,LoadUnitHandle(gj,0,Op*$1f4+1),EVENT_UNIT_DAMAGED,Condition(RF),3)
+call Ehs(Op,.5)
+elseif vo[Op]==1 then
+call OPR(Op)
+call qjR(Op)
+elseif vo[Op]==3 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303447,LoadLocationHandle(Aj,0,Op*$1f4+1),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call yDs(LoadUnitHandle(gj,0,Op*$1f4+3),LoadUnitHandle(gj,0,Op*$1f4+1),500000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call qjR(Op)
+endif
+endfunction
+function tQs takes integer UQs,integer BQs,integer HQs,code oQs returns integer
+local group jQs
+local code KQs
+local integer EQs
+local integer JQs
+local integer eQs
+if not HaveSavedHandle(wR,UQs,BQs) then
+set jQs=null
+return 0
+endif
+set jQs=SR
+set KQs=VR
+set EQs=hR
+set JQs=cR
+set SR=LoadGroupHandle(wR,UQs,BQs)
+set VR=oQs
+set hR=0
+set cR=HQs
+call ForGroup(SR,Ux)
+call SaveGroupHandle(wR,UQs,BQs,DR)
+set DR=SR
+call GroupClear(DR)
+set eQs=hR
+set SR=jQs
+set VR=KQs
+set hR=EQs
+set cR=JQs
+set jQs=null
+return eQs
+endfunction
+function inR takes nothing returns nothing
+local player PnR=Player(Jv)
+local integer pnR=tv
+local integer rnR=xv
+local integer WnR=Vs[GetPlayerId(PnR)]
+if Ps!=null and pnR==ps then
+if IsUnitType(GetEnumUnit(),UNIT_TYPE_HERO) then
+call RemoveUnit(Ps)
+else
+call Tjs(Ps)
+endif
+set rnR=rnR-1
+endif
+set rnR=rnR-tQs(WnR,pnR,rnR,G4)
+call tQs(WnR,pnR,rnR,q4)
+set PnR=null
+endfunction
+function ipR takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+endfunction
+function iqs takes nothing returns boolean
+local integer Wqs=PK
+set Wj[Wqs]=Wj[sK]
+set Zo[Wqs]=Zo[sK]
+set No[Wqs]=No[sK]
+return false
+endfunction
+function irs takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call frR(Op,0,1)
+call hSv(Op,.1,1)
+elseif vo[Op]==1 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.5,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),100.,10000.)
+call u0v(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),1)
+call UnitAddAbility(LoadUnitHandle(gj,0,Op*$1f4+10),$4130554f)
+call mUs("SuperBigExplosion.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call IssueTargetOrder(LoadUnitHandle(gj,0,Op*$1f4+10),"firebolt",LoadUnitHandle(gj,0,Op*$1f4+1))
+call rRR(Op,2,CreateUnitAtLoc(ds,$65304142,LoadLocationHandle(Aj,0,Op*$1f4),LoadReal(aj,0,Op*$1f4)))
+call PauseUnit(LoadUnitHandle(gj,0,Op*$1f4+2),true)
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+2),3.)
+if GetUnitAbilityLevelSwapped($41304854,LoadUnitHandle(gj,0,Op*$1f4))==2 then
+call UnitDamagePointLoc(LoadUnitHandle(gj,0,Op*$1f4),0.,750.,LoadLocationHandle(Aj,0,Op*$1f4+1),1200000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+call UnitDamagePointLoc(LoadUnitHandle(gj,0,Op*$1f4),0.,750.,LoadLocationHandle(Aj,0,Op*$1f4+1),1150000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call hSv(Op,.1,1)
+elseif vo[Op]==2 then
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4),340.*I2R(LoadInteger(Tj,0,Op*$1f4)),LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)))
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),3.25,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),150.,10000.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,2.)
+call mUs("flamestrike3.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+if LoadInteger(Tj,0,Op*$1f4)==3 then
+call hSv(Op,.03,1)
+else
+call frR(Op,0,LoadInteger(Tj,0,Op*$1f4)+1)
+call AWR(Op,.1,2)
+endif
+elseif vo[Op]==3 then
+call PauseUnit(LoadUnitHandle(gj,0,Op*$1f4+2),false)
+call qjR(Op)
+endif
+endfunction
+function isR takes nothing returns boolean
+local integer WsR=PK
+set Wj[WsR]=Wj[sK]
+set Zo[WsR]=Zo[sK]
+set Do[WsR]=Do[sK]
+return false
+endfunction
+function itR takes nothing returns nothing
+local integer PtR=0
+local real ptR
+local integer rtR
+local integer WtR
+if fQ<=0. then
+return
+endif
+set rtR=0
+set WtR=0
+loop
+exitwhen rtR>=4
+if ks[rtR] and GetPlayerSlotState(Player(rtR))==PLAYER_SLOT_STATE_PLAYING and GetPlayerController(Player(rtR))==MAP_CONTROL_USER then
+set WtR=WtR+1
+endif
+set rtR=rtR+1
+endloop
+if WtR==2 then
+set RU=30
+elseif WtR==3 then
+set RU=25
+else
+set RU=20
+endif
+loop
+exitwhen PtR>=4
+if as[PtR]then
+call Jav(PtR,GetObjectName($6e303042))
+set rtR=0
+loop
+exitwhen rtR>=4
+if ks[rtR]then
+set ptR=100.*LQ[rtR]/fQ
+if ptR>=I2R(RU) then
+call LeaderboardAddItem(uW[PtR],GetPlayerName(Player(rtR))+Us[rtR]+" [|cff00ff22"+R2SW(ptR,1,2)+"%|r"+Us[rtR]+" / |cff00ced1"+I2S(RU)+"%|r"+Us[rtR]+"]|r",0,Player(rtR))
+else
+call LeaderboardAddItem(uW[PtR],GetPlayerName(Player(rtR))+Us[rtR]+" ["+R2SW(ptR,1,2)+"% / |cff00ced1"+I2S(RU)+"%|r"+Us[rtR]+"]|r",0,Player(rtR))
+endif
+endif
+set rtR=rtR+1
+endloop
+call oqs(PtR)
+else
+call Yms(PtR)
+endif
+set PtR=PtR+1
+endloop
+endfunction
+function itv takes nothing returns nothing
+call mxv(GetEnumUnit(),2)
+endfunction
+function ius takes nothing returns boolean
+call RemoveUnit(GetFilterUnit())
+return false
+endfunction
+function iuv takes nothing returns nothing
+call AddHeroXP(GetEnumUnit(),$12c,true)
+endfunction
+function ixR takes nothing returns nothing
+local integer WxR
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call frR(Op,10,GetUnitCurrentOrder(LoadUnitHandle(gj,0,Op*$1f4)))
+call frR(Op,8,GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4))))
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),true)
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4),1.74)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"spell")
+call Ehs(Op,.04)
+elseif vo[Op]==1 then
+call Ehs(Op,.32)
+elseif vo[Op]==2 then
+set bj_lastPlayedSound=vPR("SE\\edward.wav",null,$6e,1.,true,1000.,2000.)
+call StopSound(bj_lastPlayedSound,false,false)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call Ehs(Op,.06)
+elseif vo[Op]==3 then
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4),200.,LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.4,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),30.,10000.)
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.60)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),1)
+call mUs("Cleave.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303543,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304b47,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303131,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.5,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),30.,10000.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),1)
+set WxR=XbR()
+call dEv(WxR,625.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(fX),CX)
+call Vbv(WxR)
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),1250000.+GetUnitStateSwap(UNIT_STATE_MAX_LIFE,LoadUnitHandle(gj,0,Op*$1f4+1))*2.*.01,.50,.50,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+call IssuePointOrderById(HG[LoadInteger(Tj,0,Op*$1f4+8)],OrderId("dreadlordinferno"),GetLocationX(LoadLocationHandle(Aj,0,Op*$1f4+1)),GetLocationY(LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call Ehs(Op,.25)
+elseif vo[Op]==4 then
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4),1.)
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),false)
+call g9R(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),LoadInteger(Tj,0,Op*$1f4+10))
+call qjR(Op)
+endif
+endfunction
+function iyR takes nothing returns nothing
+local unit ryR=GetTriggerUnit()
+local player WyR=GetOwningPlayer(ryR)
+if GetPlayerState(WyR,PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(WyR,0.,0.,6.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call IssueImmediateOrder(ryR,"stop")
+set ryR=null
+set WyR=null
+return
+endif
+call SetUnitAbilityLevel(ryR,$41304432,2)
+call SetUnitAbilityLevel(ryR,$41304433,2)
+call SetPlayerAbilityAvailable(GetOwningPlayer(ryR),$4131344d,false)
+call SetPlayerStateBJ(WyR,PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(WyR,PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+set ryR=null
+set WyR=null
+endfunction
+function j0v takes nothing returns nothing
+local integer o0v
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call ias(Op,3,CreateGroup())
+call frR(Op,6,0)
+call frR(Op,10,GetUnitCurrentOrder(LoadUnitHandle(gj,0,Op*$1f4)))
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),true)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"spell one")
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4),200.,LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,2,CreateUnitAtLoc(ds,$65304d4c,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)))
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+2),"stand")
+call SetUnitTimeScale(LoadUnitHandle(gj,0,Op*$1f4+2),1.2)
+call hSv(Op,.24,1)
+elseif vo[Op]==1 then
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+2),"spell one")
+set bj_lastPlayedSound=vPR("SE\\franky_beamsound.wav",null,$7f,1.,true,1000.,2200.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call hSv(Op,.01,1)
+elseif vo[Op]==2 then
+call frR(Op,6,LoadInteger(Tj,0,Op*$1f4+6)+1)
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4),200.+110.*I2R(LoadInteger(Tj,0,Op*$1f4+6)-1),LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304137,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),(50.+2.5*I2R(LoadInteger(Tj,0,Op*$1f4+6)))*.01,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),180.,0.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,.5)
+if LoadInteger(Tj,0,Op*$1f4+6)==4 then
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+2),"spell two")
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call UnitAddAbility(LoadUnitHandle(gj,0,Op*$1f4+10),$41313431)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,4.)
+set o0v=XbR()
+call dEv(o0v,725.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(lF),NF)
+call Vbv(o0v)
+if igR(LoadUnitHandle(gj,0,Op*$1f4+1)) then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),GetUnitState(LoadUnitHandle(gj,0,Op*$1f4+1),UNIT_STATE_MAX_LIFE)*.05,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+elseif GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41393033)>0 then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),GetUnitState(LoadUnitHandle(gj,0,Op*$1f4+1),UNIT_STATE_MAX_LIFE)*.30,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+endif
+if LoadInteger(Tj,0,Op*$1f4+6)==8 then
+call AWR(Op,.10,3)
+else
+call AWR(Op,.05,2)
+endif
+elseif vo[Op]==3 then
+call KillUnit(LoadUnitHandle(gj,0,Op*$1f4+2))
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),false)
+call g9R(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),LoadInteger(Tj,0,Op*$1f4+10))
+call qjR(Op)
+endif
+endfunction
+function j3v takes nothing returns nothing
+local real H3v=GetRectCenterX(Jm)
+local real o3v=GetRectCenterY(Jm)
+call IssuePointOrder(GetTriggerUnit(),"move",H3v,o3v)
+endfunction
+function j4s takes nothing returns nothing
+local integer B4s=GetPlayerId(GetTriggerPlayer())
+local unit H4s=GetTriggerUnit()
+local player o4s
+call ShowUnit(H4s,false)
+call KillUnit(H4s)
+if wWR(1,$64)<=50 then
+call DisplayTimedTextToPlayer(Player(B4s),0.,0.,5.,"|cffFF8200안흔함 판매|r 성공! |cffffd700랜덤위습 1개|r 획득!")
+call yRR(Player(B4s),1)
+else
+call DisplayTimedTextToPlayer(Player(B4s),0.,0.,5.,"|cffFF0000안흔함 판매 실패!|r")
+endif
+if wWR(1,$64)<=20 then
+call DisplayTimedTextToPlayer(Player(B4s),0.,0.,5.,"안흔함 유닛을 판매하여 |cff7ad823목재 1개|r 획득!")
+set o4s=Player(B4s)
+call SetPlayerState(o4s,PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(o4s,PLAYER_STATE_RESOURCE_LUMBER)+1)
+endif
+set H4s=null
+set o4s=null
+endfunction
+function j5s takes nothing returns nothing
+call IssueTargetOrderById(aG[LoadInteger(Tj,0,Op*$1f4+8)],OrderId("slow"),GetEnumUnit())
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),GetEnumUnit(),I2R($c3500+$7530*GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4),$41305441)),1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+endfunction
+function j8R takes nothing returns nothing
+local unit H8R=LoadUnitHandle(gj,0,Op*$1f4+4)
+local unit o8R=GetEnumUnit()
+local unitstate U8R=UNIT_STATE_MAX_LIFE
+local unit B8R=GetEnumUnit()
+call yDs(H8R,o8R,GetUnitState(B8R,U8R)*.01,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+set U8R=null
+set B8R=null
+set H8R=null
+set o8R=null
+endfunction
+function j8s takes nothing returns nothing
+local unit w8s=GetAttacker()
+local unit D8s=GetTriggerUnit()
+local location V8s=GetUnitLoc(w8s)
+local location h8s=GetUnitLoc(D8s)
+local unit S8s
+local integer c8s
+local location k8s
+local integer Q8s
+local boolexpr U8s
+local code B8s
+local boolean H8s
+local real o8s
+if GetUnitAbilityLevel(w8s,$42303845)<=0 then
+set S8s=CreateUnitAtLoc(ds,$68304335,V8s,GetUnitFacing(w8s))
+call UnitAddAbility(S8s,$41303739)
+call IssueTargetOrder(S8s,"bloodlust",w8s)
+set D8s=GetTriggerUnit()
+set k8s=GetUnitLoc(D8s)
+call CreateUnitAtLoc(ds,$6530344e,k8s,bj_UNIT_FACING)
+call CreateUnitAtLoc(ds,$6530344c,k8s,bj_UNIT_FACING)
+set D8s=CreateUnitAtLoc(ds,$65303450,k8s,bj_UNIT_FACING)
+call IssuePointOrderById(D8s,OrderId("dreadlordinferno"),GetLocationX(k8s),GetLocationY(k8s))
+set c8s=XbR()
+set Q8s=c8s
+set U8s=Condition(wF)
+set B8s=DF
+call GroupEnumUnitsInRangeOfLoc(xW[Q8s],k8s,600.,U8s)
+call ForGroup(xW[Q8s],B8s)
+call GroupClear(xW[c8s])
+set H8s=false
+if c8s==0 then
+set H8s=true
+elseif HE[c8s]!=-1 then
+set H8s=true
+endif
+if not H8s then
+set HE[c8s]=UE
+endif
+if not H8s then
+set UE=c8s
+endif
+call RemoveLocation(k8s)
+elseif GetUnitUserData(w8s)>=11 then
+call SetUnitUserData(w8s,0)
+set D8s=GetTriggerUnit()
+set k8s=GetUnitLoc(D8s)
+call CreateUnitAtLoc(ds,$6530344e,k8s,bj_UNIT_FACING)
+call CreateUnitAtLoc(ds,$6530344c,k8s,bj_UNIT_FACING)
+set D8s=CreateUnitAtLoc(ds,$65303450,k8s,bj_UNIT_FACING)
+call IssuePointOrderById(D8s,OrderId("dreadlordinferno"),GetLocationX(k8s),GetLocationY(k8s))
+set c8s=XbR()
+set Q8s=c8s
+set U8s=Condition(wF)
+set B8s=DF
+call GroupEnumUnitsInRangeOfLoc(xW[Q8s],k8s,600.,U8s)
+call ForGroup(xW[Q8s],B8s)
+call GroupClear(xW[c8s])
+set H8s=false
+if c8s==0 then
+set H8s=true
+elseif HE[c8s]!=-1 then
+set H8s=true
+endif
+if not H8s then
+set HE[c8s]=UE
+endif
+if not H8s then
+set UE=c8s
+endif
+call RemoveLocation(k8s)
+else
+if wWR(1,8)==1 then
+call SetUnitUserData(w8s,GetUnitUserData(w8s)+1)
+set S8s=CreateUnitAtLoc(ds,$65303447,h8s,GetUnitFacing(w8s)+180.)
+call SetUnitFlyHeight(S8s,100.,0.)
+set o8s=100.*I2R($ff)*.01
+set Q8s=MathRound(o8s)
+if Q8s<0 then
+set Q8s=0
+elseif Q8s>$ff then
+set Q8s=$ff
+endif
+call SetUnitVertexColor(S8s,0,0,0,Q8s)
+call CreateUnitAtLoc(ds,$6530344f,h8s,bj_UNIT_FACING)
+call CreateUnitAtLoc(ds,$6530344c,h8s,bj_UNIT_FACING)
+set S8s=CreateUnitAtLoc(ds,$6530344d,h8s,GetUnitFacing(w8s))
+call SetUnitTimeScale(S8s,1.15)
+set c8s=XbR()
+call dEv(c8s,500.,h8s,Condition(wF),SF)
+call Vbv(c8s)
+endif
+if GetUnitAbilityLevel(w8s,$42303831)<=0 then
+set S8s=CreateUnitAtLoc(ds,$68304335,V8s,GetUnitFacing(w8s))
+call UnitAddAbility(S8s,$41313434)
+call IssueTargetOrder(S8s,"frostarmor",w8s)
+call TriggerExecute(YD)
+endif
+endif
+call RemoveLocation(V8s)
+call RemoveLocation(h8s)
+set w8s=null
+set D8s=null
+set S8s=null
+set V8s=null
+set h8s=null
+set k8s=null
+set U8s=null
+endfunction
+function jCR takes nothing returns nothing
+local player QCR=GetOwningPlayer(GetAttacker())
+local unit UCR=rp[GetPlayerId(QCR)]
+local unitstate HCR=UNIT_STATE_LIFE
+local unit oCR=GetEnumUnit()
+local real BCR=GetUnitState(oCR,HCR)*.01
+call yDs(UCR,GetEnumUnit(),150000.+BCR,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call yDs(UCR,GetEnumUnit(),400000.,1.,1.50,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+call IssueTargetOrder(yy[GetPlayerId(QCR)],"slow",GetEnumUnit())
+set QCR=null
+set UCR=null
+set HCR=null
+set oCR=null
+endfunction
+function jDR takes nothing returns nothing
+local integer oDR
+call ZQv(1)
+if vo[Op]==1 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,9,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,9,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+9)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+9)))
+call frR(Op,1,0)
+set bj_lastPlayedSound=vPR("SE\\KujoJotaroE1.wav",null,$64,1.,true,1000.,3000.)
+call IuR(LoadUnitHandle(gj,0,Op*$1f4),bj_lastPlayedSound)
+call frR(Op,10,GetUnitCurrentOrder(LoadUnitHandle(gj,0,Op*$1f4)))
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),true)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e4a,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.25,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303352,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.25,1.,1.)
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,$ff,$ff,$7f)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$6830345a,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.25,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call Ehs(Op,.05)
+elseif vo[Op]==2 then
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"spell gold")
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+9),-300.,LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,1,CreateUnitAtLoc(ds,$68303953,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)))
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+1),"spell four")
+call mUs("Abilities\\Spells\\Human\\Invisibility\\InvisibilityTarget.mdl",LoadUnitHandle(gj,0,Op*$1f4+1),"hand right")
+call mUs("Abilities\\Spells\\Human\\Invisibility\\InvisibilityTarget.mdl",LoadUnitHandle(gj,0,Op*$1f4+1),"hand left")
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e4b,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.25,1.,1.)
+call Ehs(Op,.1)
+elseif vo[Op]==3 then
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"pose one")
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+1),"spell six")
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304644,LoadLocationHandle(Aj,0,Op*$1f4+2),bj_UNIT_FACING))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),150.,.0)
+call Ehs(Op,.02)
+elseif vo[Op]<=7 then
+call WQs(Op,2,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$68303953,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)+D0v(-5.,5.)))
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+10),100.,100.,100.,50.)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+10),"spell six")
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.45)
+call Ehs(Op,.02)
+elseif vo[Op]==8 then
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+1),"spell four")
+call rRR(Op,2,CreateUnitAtLoc(ds,$68303953,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+2),100.,100.,100.,50.)
+call SetUnitTimeScalePercent(LoadUnitHandle(gj,0,Op*$1f4+2),115.)
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+2),"spell six")
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),125.,LoadReal(aj,0,Op*$1f4)))
+call Ehs(Op,.02)
+elseif vo[Op]<=36 then
+if ModuloInteger(vo[Op],3)==0 then
+set oDR=XbR()
+call dEv(oDR,460.,LoadLocationHandle(Aj,0,Op*$1f4+9),Condition(QF),BF)
+call Vbv(oDR)
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+9),1000000.*(1.+(GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+9),$4130344d)-1)*.0125),1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303133,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)+D0v(-15.,15.)))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),145.,.0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(115.,165.)*.01,1.,1.)
+endif
+call WQs(Op,3,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+2),D0v(10.,75.),GetRandomReal(0.,360.)))
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),D0v(150.,200.),LoadReal(aj,0,Op*$1f4)+D0v(-50.,50.)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$68303754,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)+D0v(-15.,15.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(120.,160.)*.01,1.,1.)
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+10),100.,100.,100.,84.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(100.,245.),.0)
+if ModuloInteger(vo[Op],2)==0 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303342,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)+D0v(-15.,15.)))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,.0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(125.,150.)*.01,1.,1.)
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,$ff,$ff,55)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303131,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)+D0v(-15.,15.)))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,.0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(125.,150.)*.01,1.,1.)
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$ff,$ff,$ff,55)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$68303533,LoadLocationHandle(Aj,0,Op*$1f4+2),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(75.,125.)*.01,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,.0)
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+10),100.,100.,100.,50.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$68303742,LoadLocationHandle(Aj,0,Op*$1f4+2),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(75.,125.)*.01,1.,1.)
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+10),100.,100.,100.,50.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$68303754,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)+D0v(-15.,15.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(120.,160.)*.01,1.,1.)
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+10),100.,100.,100.,84.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),D0v(100.,245.),.0)
+endif
+call Ehs(Op,.045)
+elseif vo[Op]==37 then
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4),"spell six")
+call SetUnitAnimation(LoadUnitHandle(gj,0,Op*$1f4+1),"spell five")
+call SetUnitTimeScalePercent(LoadUnitHandle(gj,0,Op*$1f4+1),75.)
+call KillUnit(LoadUnitHandle(gj,0,Op*$1f4+2))
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+1),100.,100.,100.,(I2R(vo[Op])-65.)*10.)
+call KillUnit(LoadUnitHandle(gj,0,Op*$1f4+1))
+call SetUnitLifeBJ(LoadUnitHandle(gj,0,Op*$1f4),1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e31,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),200.,.0)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.5,1.,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304e48,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call Ehs(Op,.03)
+elseif vo[Op]==38 then
+call BlzPauseUnitEx(LoadUnitHandle(gj,0,Op*$1f4),false)
+call g9R(LoadUnitHandle(gj,0,Op*$1f4),LoadUnitHandle(gj,0,Op*$1f4+1),LoadInteger(Tj,0,Op*$1f4+10))
+call SetUnitTimeScalePercent(LoadUnitHandle(gj,0,Op*$1f4),100.)
+call qjR(Op)
+endif
+endfunction
+function jFs takes nothing returns boolean
+return GetEventDamageSource()==LoadUnitHandle(gj,0,Op*$1f4) and GetEventDamage()>0.
+endfunction
+function jIR takes nothing returns nothing
+call IssueTargetOrderById(gG[LoadInteger(Tj,0,Op*$1f4+8)],OrderId("slow"),GetEnumUnit())
+endfunction
+function jJR takes nothing returns boolean
+local integer oJR=hj
+set Wj[oJR]=GetTriggerPlayer()
+set Zo[oJR]=GetTriggerUnit()
+set Gj[oJR]=GetEventDamage()
+set qj[oJR]=GetEventDamageSource()
+return false
+endfunction
+function jJv takes nothing returns nothing
+local unit cJv=GetAttacker()
+local real QJv=GetUnitFacing(cJv)
+local player UJv=GetOwningPlayer(cJv)
+local location kJv
+local unitstate BJv
+local unit HJv
+local unitstate oJv
+if wWR(1,$64)<=14 then
+call TriggerExecute(Yl)
+endif
+if wWR(1,$64)<=10 then
+set kJv=GetUnitLoc(cJv)
+set oJv=UNIT_STATE_MANA
+set BJv=UNIT_STATE_MANA
+call SetUnitState(cJv,oJv,GetUnitState(cJv,BJv)+5.)
+set HJv=CreateUnitAtLoc(ds,$65304545,kJv,GetRandomReal(0.,360.))
+call UnitApplyTimedLife(HJv,$42487765,1.)
+set HJv=CreateUnitAtLoc(ds,$65304546,kJv,GetRandomReal(0.,360.))
+call UnitApplyTimedLife(HJv,$42487765,1.)
+set bj_forLoopBIndex=1
+set bj_forLoopBIndexEnd=4
+loop
+exitwhen bj_forLoopBIndex>bj_forLoopBIndexEnd
+set HJv=CreateUnitAtLoc(ds,$65303339,kJv,QJv+(D0v(-25.,25.)+I2R(bj_forLoopBIndex)*90.))
+call SetUnitVertexColor(HJv,$7d,$ff,$7d,$ff)
+call SetUnitScale(HJv,6.25,1.,1.)
+call UnitApplyTimedLife(HJv,$42487765,1.)
+set bj_forLoopBIndex=bj_forLoopBIndex+1
+endloop
+set HJv=CreateUnitAtLoc(ds,$65304b55,kJv,GetRandomReal(0.,360.))
+call UnitApplyTimedLife(HJv,$42487765,3.)
+call YIs(cJv,.0,925.,kJv,1.25*(750000.+I2R(GetItemCharges(ql[GetPlayerId(UJv)]))*1825.),1.,1.50,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+call RemoveLocation(kJv)
+if wWR(1,$64)<=10 then
+if GetItemCharges(ql[GetPlayerId(UJv)])<80 then
+call SetItemCharges(ql[GetPlayerId(UJv)],GetItemCharges(ql[GetPlayerId(UJv)])+1)
+call MER(GetPlayerId(UJv))
+endif
+endif
+endif
+set cJv=null
+set kJv=null
+set UJv=null
+set BJv=null
+set HJv=null
+set oJv=null
+endfunction
+function jKR takes nothing returns nothing
+local integer UKR=GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+local unit BKR=GetEnumUnit()
+local unitstate HKR
+local unit oKR
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),BKR,31250.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+if GetUnitTurnSpeed(BKR)!=.49 then
+call SetUnitTurnSpeed(BKR,.49)
+set oKR=LoadUnitHandle(gj,0,Op*$1f4)
+set HKR=UNIT_STATE_MAX_LIFE
+call yDs(oKR,BKR,GetUnitState(BKR,HKR)*.03,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call IssueTargetOrder(hG[UKR],"firebolt",BKR)
+endif
+set BKR=null
+set HKR=null
+set oKR=null
+endfunction
+function jKs takes nothing returns nothing
+local integer QKs=GetPlayerId(GetOwningPlayer(GetTriggerUnit()))
+local player HKs=Player(QKs)
+local real UKs=GetStartLocationX(GetPlayerStartLocation(HKs))
+local real BKs
+local unit oKs
+set HKs=Player(QKs)
+set BKs=GetStartLocationY(GetPlayerStartLocation(HKs))
+if GetPlayerState(Player(QKs),PLAYER_STATE_RESOURCE_LUMBER)<7 then
+call DisplayTimedTextToPlayer(Player(QKs),0.,0.,5.,"목재가 부족합니다. |cff7ad8237 목재|r 필요")
+set HKs=null
+set oKs=null
+return
+endif
+set oKs=GetTriggerUnit()
+call ShowUnit(oKs,false)
+call KillUnit(oKs)
+call SetPlayerState(Player(QKs),PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(Player(QKs),PLAYER_STATE_RESOURCE_LUMBER)-7)
+if wWR(1,$64)<=28 then
+set bj_lastCreatedUnit=CreateUnit(Player(QKs),$68303558,UKs,BKs,bj_UNIT_FACING)
+call IssueImmediateOrder(bj_lastCreatedUnit,"holdposition")
+call DisplayTextToForce(bj_FORCE_ALL_PLAYERS,GetPlayerName(Player(QKs))+"|r 님이 |cffFF8200[고대의 배]|r 도박으로 "+GetUnitName(bj_lastCreatedUnit)+" 를 획득하셨습니다.|r")
+else
+call DisplayTextToForce(bj_FORCE_ALL_PLAYERS,GetPlayerName(Player(QKs))+"|r 님이 |cffFF8200[고대의 배]|r '레일리' 도박에 |cffff0000실패|r하셨습니다.")
+endif
+set HKs=null
+set oKs=null
+endfunction
+function jLs takes nothing returns nothing
+local unit oLs=GetEnumUnit()
+call SetUnitTimeScale(oLs,100.*.01)
+call PauseUnit(GetEnumUnit(),false)
+set oLs=null
+endfunction
+function kNv takes integer VNv returns nothing
+local integer hNv=GetPlayerId(GetTriggerPlayer())
+local integer cNv
+if GetLocalPlayer()==Player(hNv) then
+set cNv=BK[VNv]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,cNv),false)
+set cNv=yW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,cNv),false)
+endif
+endfunction
+function jUR takes nothing returns nothing
+local hashtable oUR=Pv
+local framehandle HUR=BlzGetTriggerFrame()
+local integer BUR
+call SaveFrameHandle(pv,0,GetHandleId(HUR),HUR)
+set BUR=LoadInteger(oUR,0,GetHandleId(HUR))
+call kNv(BUR)
+set HUR=null
+set oUR=null
+endfunction
+function jUs takes nothing returns nothing
+local integer HUs=0
+local integer oUs
+if not gh then
+return
+endif
+set gh=false
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|CFFC15AF4[도전과제]|r 룸바 해적단의 영혼 해방 완료")
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffff8200보상|r : |cffffd7003000 골드|r, |cff7ad8231 목재|r 획득!")
+call rhs(OK[Ah],true)
+set bj_lastPlayedSound=vPR("Sound\\Interface\\QuestCompleted.wav",null,$7f,1.,false,1.,1.)
+call StartSound(bj_lastPlayedSound)
+set oUs=0
+loop
+exitwhen oUs>=4
+if ks[oUs]then
+call SetPlayerState(Player(oUs),PLAYER_STATE_RESOURCE_GOLD,GetPlayerState(Player(oUs),PLAYER_STATE_RESOURCE_GOLD)+$bb8)
+call SetPlayerState(Player(oUs),PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(Player(oUs),PLAYER_STATE_RESOURCE_LUMBER)+1)
+call bjv(Player(oUs),1,0)
+endif
+set oUs=oUs+1
+endloop
+loop
+exitwhen HUs>=4
+if ks[HUs]then
+set gp[HUs]=gp[HUs]+1
+if gp[HUs]<0 then
+call AddHeroXP(tZ[HUs],$10e,true)
+endif
+endif
+set HUs=HUs+1
+endloop
+if Mp>=7 then
+set Mp=Mp+1
+call mZs()
+else
+set Mp=Mp+1
+endif
+endfunction
+function jUv takes nothing returns nothing
+local unit BUv=GetAttacker()
+local location oUv=GetUnitLoc(BUv)
+local unit HUv
+if GetUnitAbilityLevel(BUv,$42303141)>0 then
+call SetUnitUserData(BUv,GetUnitUserData(BUv)+1)
+call TriggerExecute(vD)
+call SetUnitAnimation(BUv,"spell one")
+set bj_lastPlayedSound=vPR("SE\\kiss.wav",null,$6e,.9,true,1500.,2250.)
+call StopSound(bj_lastPlayedSound,false,false)
+call IuR(BUv,bj_lastPlayedSound)
+endif
+if GetUnitAbilityLevel(BUv,$42303141)<=0 and GetUnitUserData(BUv)>=6 then
+call SetUnitUserData(BUv,0)
+call TriggerExecute(sD)
+endif
+if wWR(1,$64)<=10 then
+call TriggerExecute(RD)
+endif
+if wWR(1,$64)<=8 then
+set HUv=CreateUnitAtLoc(ds,$68304335,oUv,bj_UNIT_FACING)
+call UnitAddAbility(HUv,$41303936)
+call UnitApplyTimedLife(HUv,$42487765,.4)
+call IssueTargetOrder(HUv,"bloodlust",BUv)
+endif
+call RemoveLocation(oUv)
+set BUv=null
+set HUv=null
+set oUv=null
+endfunction
+function jWR takes nothing returns nothing
+local integer HWR=GetPlayerId(GetTriggerPlayer())
+local unit oWR=GetTriggerUnit()
+call ShowUnit(oWR,false)
+call KillUnit(oWR)
+call FqR(GetOwningPlayer(oWR),1)
+call DisplayTimedTextToPlayer(Player(HWR),0.,0.,5.,"|cffdb7093'사랑의 도시락'|r을 판매하여 |cffff8200선택위습 1개|r 획득!")
+set oWR=null
+endfunction
+function jZs takes nothing returns nothing
+local unit BZs=GetTriggerUnit()
+local integer HZs=GetHeroXP(BZs)
+local player oZs=GetOwningPlayer(BZs)
+if GetPlayerState(oZs,PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(oZs,0.,0.,6.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call IssueImmediateOrder(BZs,"stop")
+set BZs=null
+set oZs=null
+return
+endif
+set HZs=HZs+$bb8
+call SetHeroXP(BZs,HZs,false)
+call IncUnitAbilityLevel(BZs,$41304a47)
+call IncUnitAbilityLevel(BZs,$41304338)
+call UnitRemoveAbility(BZs,GetSpellAbilityId())
+call SetPlayerState(oZs,PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(oZs,PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+set BZs=null
+set oZs=null
+endfunction
+function jav takes nothing returns nothing
+local integer Hav=GetPlayerId(ss)
+local integer oav=OV[Hav]
+if (not nV[Hav])or(not wfv($51303133,Hav,OV[Hav])) then
+return
+endif
+if GetUnitTypeId(FirstOfGroup(ms))==$68303637 or GetUnitTypeId(FirstOfGroup(ms))==$6830384f or GetUnitTypeId(FirstOfGroup(ms))==$4830424b then
+set nV[Hav]=false
+set Sr[Hav*3+oav]=true
+call DisplayTimedTextToPlayer(Player(Hav),0.,0.,10.,"|cffF361A6[퀘스트]|r '유닛조합(아이템)' 완료")
+call DisplayTimedTextToPlayer(Player(Hav),0.,0.,10.,"|cffff8200보상|r : |cffff8200"+GetObjectName($65303138)+"|r 3개 획득!")
+if GetLocalPlayer()==Player(Hav) then
+call Jjs(oav+1)
+endif
+call FqR(Player(Hav),3)
+endif
+endfunction
+function jbs takes nothing returns boolean
+return true
+endfunction
+function jcR takes nothing returns nothing
+local unit ocR
+if GetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(GetOwningPlayer(GetTriggerUnit()),0.,0.,6.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call IssueImmediateOrder(GetTriggerUnit(),"stop")
+set ocR=null
+return
+endif
+set ocR=GetTriggerUnit()
+call IncUnitAbilityLevel(ocR,$41305541)
+call UnitRemoveAbility(GetTriggerUnit(),GetSpellAbilityId())
+call SetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+set ocR=null
+endfunction
+function jcs takes nothing returns nothing
+if GetUnitTypeId(GetEnumUnit())==$68303841 or GetUnitTypeId(GetEnumUnit())==$68303839 then
+return
+endif
+if IsUnitEnemy(GetEnumUnit(),GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4))) then
+call GroupAddUnitSimple(GetEnumUnit(),LoadGroupHandle(Kj,0,Op*$1f4+1))
+else
+call GroupAddUnitSimple(GetEnumUnit(),LoadGroupHandle(Kj,0,Op*$1f4))
+endif
+endfunction
+function jeR takes nothing returns nothing
+local integer HeR=GetPlayerId(ss)
+local sound oeR
+if Jh[HeR]then
+set oeR=null
+return
+endif
+if GetUnitAbilityLevel(FirstOfGroup(ms),$41304239)>0 and Av<8 then
+set Jh[HeR]=true
+set oeR=vPR("Sound\\Interface\\QuestCompleted.wav",null,$7f,1.,false,1.,1.)
+call DisplayTimedTextToPlayer(Player(HeR),0.,0.,10.,"|cffc15af4[도전과제]|r 패스트 유니크 완료")
+call DisplayTimedTextToPlayer(Player(HeR),0.,0.,10.,"|cffff8200보상|r : |cffff8200"+GetObjectName($65303138)+"|r 1개 획득!")
+if GetLocalPlayer()==Player(HeR) then
+call rhs(OK[th],true)
+call StartSound(oeR)
+endif
+call FqR(Player(HeR),1)
+set gp[HeR]=gp[HeR]+1
+elseif Av>=8 then
+set Jh[HeR]=true
+endif
+set oeR=null
+endfunction
+function jfR takes nothing returns nothing
+local integer ofR
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call rRR(Op,2,rp[GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))])
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call CUv(Op,LoadUnitHandle(gj,0,Op*$1f4+1),EVENT_UNIT_DAMAGED,pw,2)
+call AWR(Op,.64,1)
+elseif vo[Op]==1 then
+call OPR(Op)
+call qjR(Op)
+elseif vo[Op]==2 then
+call OPR(Op)
+call ols(LoadUnitHandle(gj,0,Op*$1f4),1)
+call bTs(Op,1,GetEventDamage()*.1)
+call AWR(Op,.01,3)
+elseif vo[Op]==3 or vo[Op]==4 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65304133,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),.95,1.,1.)
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+10),100.,25.,25.,30.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),20.,0.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303550,LoadLocationHandle(Aj,0,Op*$1f4+1),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.6,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),80.,10000.)
+if vo[Op]==3 then
+call D6s(LoadUnitHandle(gj,0,Op*$1f4+1),1)
+endif
+set ofR=XbR()
+call dEv(ofR,500.,LoadLocationHandle(Aj,0,Op*$1f4+1),Pw,YL)
+call Vbv(ofR)
+call Ehs(Op,.6)
+elseif vo[Op]==5 then
+call qjR(Op)
+endif
+endfunction
+function jfs takes nothing returns nothing
+local unit ofs
+if GetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(GetOwningPlayer(GetTriggerUnit()),0.,0.,5.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call IssueImmediateOrder(GetTriggerUnit(),"stop")
+set ofs=null
+return
+endif
+call AddSpecialEffectTarget("chargeflame2.mdx",GetTriggerUnit(),"origin")
+set ofs=GetTriggerUnit()
+call IncUnitAbilityLevel(ofs,$41304854)
+call UnitRemoveAbility(GetTriggerUnit(),GetSpellAbilityId())
+call SetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+set ofs=null
+endfunction
+function jkR takes nothing returns nothing
+local unit okR=GetEnumUnit()
+call mxv(okR,3)
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),okR,500000.+I2R(GetUnitAbilityLevel(okR,$4130344d)-1)*5000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),okR,750000.+I2R(GetUnitAbilityLevel(okR,$4130344d)-1)*7500.,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+call IssueTargetOrder(Ay[LoadInteger(Tj,0,Op*$1f4+8)],"slow",okR)
+if GetUnitAbilityLevel(okR,$4130344d)-1>=75 and SPs(okR) then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),okR,GetUnitState(okR,UNIT_STATE_MAX_LIFE)*.01*2.*(1.+I2R(GetUnitAbilityLevel(okR,$4130344d)-1)*.01),1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_UNIVERSAL)
+endif
+set okR=null
+endfunction
+function jks takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(GetAttacker()))
+endfunction
+function jlR takes nothing returns boolean
+local integer olR=PK
+set Wj[olR]=Wj[sK]
+set Zo[olR]=Zo[sK]
+set Lo[olR]=Lo[sK]
+set co[olR]=co[sK]
+return false
+endfunction
+function jls takes nothing returns nothing
+call SaveBoolean(TW,StringHash("똑똑한망치#322657"),80,true)
+call SaveBoolean(TW,StringHash("연화#31383"),80,true)
+call SaveBoolean(TW,StringHash("테라키온#3329"),80,true)
+call SaveBoolean(TW,StringHash("Bestia#31124"),80,true)
+call SaveBoolean(TW,StringHash("사람맞음#3521"),80,true)
+call SaveBoolean(TW,StringHash("eveooline#3131"),80,true)
+call SaveBoolean(TW,StringHash("세인#31532"),80,true)
+call SaveBoolean(TW,StringHash("NoNe#31833"),80,true)
+call SaveBoolean(TW,StringHash("오석균#3312"),80,true)
+call SaveBoolean(TW,StringHash("션이#31284"),80,true)
+call SaveBoolean(TW,StringHash("Gory1#3341"),80,true)
+call SaveBoolean(TW,StringHash("행복해지세요#3487"),80,true)
+call SaveBoolean(TW,StringHash("Naeco#31292"),80,true)
+call SaveBoolean(TW,StringHash("JJeonSeung#3311"),80,true)
+call SaveBoolean(TW,StringHash("eveooline#3131"),81,true)
+call SaveBoolean(TW,StringHash("테라키온#3329"),81,true)
+call SaveBoolean(TW,StringHash("오석균#3312"),81,true)
+call SaveBoolean(TW,StringHash("요란한박하지룡#31690"),81,true)
+call SaveBoolean(TW,StringHash("IceAngel#31600"),81,true)
+call SaveBoolean(TW,StringHash("ooo#31681"),81,true)
+call SaveBoolean(TW,StringHash("다이아전닉변않함#3694"),81,true)
+call SaveBoolean(TW,StringHash("비매왕#3356"),81,true)
+call SaveBoolean(TW,StringHash("권시혁#31832"),81,true)
+call SaveBoolean(TW,StringHash("밤가이#31125"),81,true)
+call SaveBoolean(TW,StringHash("BabMuRa#3773"),82,true)
+call SaveBoolean(TW,StringHash("eveooline#3131"),82,true)
+call SaveBoolean(TW,StringHash("유효승#31386"),82,true)
+call SaveBoolean(TW,StringHash("테라키온#3329"),82,true)
+call SaveBoolean(TW,StringHash("buga#31676"),82,true)
+call SaveBoolean(TW,StringHash("아배아배#3677"),82,true)
+call SaveBoolean(TW,StringHash("HeartShaker#3340"),82,true)
+call SaveBoolean(TW,StringHash("GamSungNam#3707"),82,true)
+call SaveBoolean(TW,StringHash("EXIA#31717"),82,true)
+call SaveBoolean(TW,StringHash("엎드려뻗쳐#3309"),82,true)
+call SaveBoolean(TW,StringHash("김봉식#31765"),80,true)
+call SaveBoolean(TW,StringHash("김또#31590"),80,true)
+call SaveBoolean(TW,StringHash("꽈당#3482"),80,true)
+call SaveBoolean(TW,StringHash("신세경#31682"),80,true)
+call SaveBoolean(TW,StringHash("성기사이즈리얼킹#3767"),80,true)
+call SaveBoolean(TW,StringHash("Skull#31896"),80,true)
+call SaveBoolean(TW,StringHash("이대웅#31581"),80,true)
+call SaveBoolean(TW,StringHash("eggbread#31720"),80,true)
+call SaveBoolean(TW,StringHash("플랑#3430"),80,true)
+call SaveBoolean(TW,StringHash("하비#31666"),80,true)
+call SaveBoolean(TW,StringHash("omo5641#3890"),80,true)
+call SaveBoolean(TW,StringHash("소리없는폭풍#319988"),80,true)
+call SaveBoolean(TW,StringHash("Violet#33160"),81,true)
+call SaveBoolean(TW,StringHash("Lize#31842"),81,true)
+call SaveBoolean(TW,StringHash("MCREE#3561"),81,true)
+call SaveBoolean(TW,StringHash("근사한바지#319314"),81,true)
+call SaveBoolean(TW,StringHash("엎드려뻗쳐#3309"),81,true)
+call SaveBoolean(TW,StringHash("박쌉#3195"),81,true)
+call SaveBoolean(TW,StringHash("뚱이#35906"),81,true)
+call SaveBoolean(TW,StringHash("루치#31546"),81,true)
+call SaveBoolean(TW,StringHash("안태기#3624"),81,true)
+call SaveBoolean(TW,StringHash("초코우유#31168"),82,true)
+call SaveBoolean(TW,StringHash("권시혁#31832"),82,true)
+call SaveBoolean(TW,StringHash("털보#3431"),82,true)
+call SaveBoolean(TW,StringHash("akasaka#31942"),82,true)
+endfunction
+function jrs takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call dSs(Op,0,GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call rRR(Op,3,rp[GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))])
+call CUv(Op,LoadUnitHandle(gj,0,Op*$1f4+1),EVENT_UNIT_DAMAGED,Condition(xX),4)
+call AWR(Op,.45,3)
+elseif vo[Op]==3 then
+call OPR(Op)
+call qjR(Op)
+elseif vo[Op]==4 then
+call YIs(LoadUnitHandle(gj,0,Op*$1f4+3),.0,345.,LoadLocationHandle(Aj,0,Op*$1f4+1),GetEventDamage()*1.25+85000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),D0v(15.,55.),D0v(0.,360.)))
+call WQs(Op,3,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),D0v(15.,55.),D0v(0.,360.)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303451,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+3),LoadReal(aj,0,Op*$1f4)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.,1.,1.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),120.,0.)
+call mUs("ZHeart.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+if (not igR(LoadUnitHandle(gj,0,Op*$1f4+1)))and GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41393033)<=0 and GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41393034)<=0 then
+call yDs(LoadUnitHandle(gj,0,Op*$1f4+3),LoadUnitHandle(gj,0,Op*$1f4+1),GetUnitStateSwap(UNIT_STATE_MAX_LIFE,LoadUnitHandle(gj,0,Op*$1f4+1))*.07*(.79+.01*I2R(GetUnitAbilityLevel(LoadUnitHandle(gj,0,Op*$1f4+1),$41313153))),1.,1.,ATTACK_TYPE_HERO,DAMAGE_TYPE_UNIVERSAL)
+else
+call yDs(LoadUnitHandle(gj,0,Op*$1f4+3),LoadUnitHandle(gj,0,Op*$1f4+1),150000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+call qjR(Op)
+endif
+endfunction
+function jtR takes nothing returns boolean
+return GetEventDamageSource()==LoadUnitHandle(gj,0,Op*$1f4) and GetEventDamage()>0.
+endfunction
+function jtv takes nothing returns nothing
+local real Htv=GetRectCenterX(om)
+local real otv=GetRectCenterY(om)
+call IssuePointOrder(GetTriggerUnit(),"move",Htv,otv)
+endfunction
+function k0R takes nothing returns boolean
+local integer c0R=Yx
+call TriggerRemoveAction(MH[c0R],AH[c0R])
+if bH[c0R]!=null then
+call RemoveRegion(bH[c0R])
+endif
+call RemoveSavedInteger(OH,0,GetHandleId(MH[c0R]))
+call DestroyTrigger(MH[c0R])
+call DestroyTrigger(gH[c0R])
+set nH[XH[c0R]]=nH[c0R]
+set XH[nH[c0R]]=XH[c0R]
+set XH[c0R]=0
+set nH[c0R]=0
+return true
+endfunction
+function k4v takes nothing returns nothing
+local integer c4v
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call CUv(Op,LoadUnitHandle(gj,0,Op*$1f4+1),EVENT_UNIT_DAMAGED,Condition(vn),4)
+call AWR(Op,.7,3)
+elseif vo[Op]==3 then
+call OPR(Op)
+call qjR(Op)
+elseif vo[Op]==4 then
+call rRR(Op,3,rp[GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))])
+call bTs(Op,0,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call SetUnitState(LoadUnitHandle(gj,0,Op*$1f4),UNIT_STATE_LIFE,GetUnitStateSwap(UNIT_STATE_LIFE,LoadUnitHandle(gj,0,Op*$1f4))+1.)
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4),150.,LoadReal(aj,0,Op*$1f4)))
+call bTs(Op,3,GetEventDamage())
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303546,LoadLocationHandle(Aj,0,Op*$1f4+2),LoadReal(aj,0,Op*$1f4)))
+call YIs(LoadUnitHandle(gj,0,Op*$1f4+3),.0,275.,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4+3)*.33,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+if GetUnitStateSwap(UNIT_STATE_LIFE,LoadUnitHandle(gj,0,Op*$1f4))==35. then
+call SetUnitState(LoadUnitHandle(gj,0,Op*$1f4),UNIT_STATE_LIFE,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303547,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303548,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+set c4v=XbR()
+call dEv(c4v,450.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(Rn),sn)
+call Vbv(c4v)
+elseif wWR(1,$64)<=15 then
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303547,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.9,1.,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303548,LoadLocationHandle(Aj,0,Op*$1f4+1),LoadReal(aj,0,Op*$1f4)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),.95,1.,1.)
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303132,LoadLocationHandle(Aj,0,Op*$1f4+1),bj_UNIT_FACING))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),2.12,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),170.,0.)
+call SetUnitVertexColor(LoadUnitHandle(gj,0,Op*$1f4+10),$7d,$7d,$ff,$ff)
+set c4v=XbR()
+call dEv(c4v,400.,LoadLocationHandle(Aj,0,Op*$1f4+1),Condition(Rn),Pn)
+call Vbv(c4v)
+endif
+call Ehs(Op,.03)
+elseif vo[Op]==5 then
+call qjR(Op)
+endif
+endfunction
+function k6R takes nothing returns boolean
+local unit h6R=GetFilterUnit()
+local boolean c6R
+if IsUnitEnemy(h6R,GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4))) then
+set c6R=GetUnitAbilityLevel(h6R,$41393032)<=0 and GetUnitAbilityLevel(h6R,$41393131)<=0
+else
+set c6R=false
+endif
+set c6R=c6R and GetUnitAbilityLevel(h6R,$41393034)<=0
+set h6R=null
+return c6R
+endfunction
+function k7R takes nothing returns nothing
+local integer N7R
+local unit w7R
+local location D7R
+local player S7R
+local unit V7R
+local real h7R
+local real c7R
+call L2R()
+set ss=GetOwningPlayer(GetSpellAbilityUnit())
+set S7R=GetOwningPlayer(GetSpellAbilityUnit())
+set h7R=GetStartLocationX(GetPlayerStartLocation(S7R))
+set S7R=GetOwningPlayer(GetSpellAbilityUnit())
+set c7R=GetStartLocationY(GetPlayerStartLocation(S7R))
+set Ws=h7R
+set is=c7R
+set rs=true
+set Rs=GetSpellAbilityId()
+set V7R=GetSpellAbilityUnit()
+set Ps=V7R
+set ps=GetUnitTypeId(V7R)
+if not ODv() then
+set w7R=null
+set D7R=null
+set S7R=null
+set V7R=null
+return
+endif
+set w7R=FirstOfGroup(ms)
+set N7R=GetPlayerId(GetOwningPlayer(w7R))
+set D7R=GetStartLocationLoc(N7R)
+if YS[N7R]==null then
+set YS[N7R]=CreateUnitAtLoc(Player(N7R),$68303456,D7R,bj_UNIT_FACING)
+call UnitAddAbility(YS[N7R],$41313756)
+call UnitAddAbility(YS[N7R],$41313043)
+endif
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffdc143c고죠 사토루 : |r|cff4FC9DE영역전개 :: 무량공처|r")
+call StartSound(vPR("SE\\Satoru.mp3",null,$7f,1.,false,0.,0.))
+call RemoveLocation(D7R)
+set w7R=null
+set D7R=null
+set S7R=null
+set V7R=null
+endfunction
+function k7v takes nothing returns nothing

@@ -1,0 +1,1800 @@
+}
+
+STRING 10611
+// 능력: A06B (!0531_무장색::제파), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D제트의 무장색의 패기는 달인의 경지까지 도달했습니다.|r|r
+
+|cffffdead◎기본효과|r : 공격시 30% 확률 단일 적 |cffF15F5F15만 물리데미지|r
+|cffffdead◎추가효과|r : 단일 적 0.8초 스턴 (저항무시)
+}
+
+STRING 10612
+// 능력: A0D0 (!0711_흔들흔들열매 ver 검은수염), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D흰수염에게 빼앗은 흔들흔들 열매의 능력으로 지진을 일으킵니다.|r
+
+|cffffdead◎기본효과|r : 공격시 10% 확률
+|cffffdead◎범위|r : 자신 주변 650
+|cffffdead◎데미지|r : |cff4374D940만 마법데미지|r
+|cffffdead◎추가효과|r : 스킬에 적중당한 적들의 이동속도를 3초간 75% 감소
+|cffffdead◎여진|r : 스킬 발동 후 해당 범위 2초간 이동속도 10% 감소
+
+|cffc68a12강진|r
+|cffffdead◎기본효과|r : 흔들흔들 열매 발동시 33% 확률
+|cffffdead◎범위|r : 자신 주변 700범위
+|cffffdead◎데미지|r : |cff4374D965만 + 힘 x 5000 마법데미지|r
+|cffffdead◎추가효과|r : 스킬에 적중당한 적들의 이동속도를 3초간 75% 감소
+|cffffdead◎여진|r : 스킬 발동 후 해당 범위 2초간 이동속도 10% 감소
+}
+
+STRING 10613
+// 유닛: e0O8 (!1206_Effect AZ_Firering Pink), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10614
+// 유닛: H0C9 (|c00F3B001펑크아트|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(프리미엄)
+}
+
+STRING 10615
+// 능력: A046 (W_0509_불사조불사조열매), Name (이름 (anam))
+{
+W_0509_불사조불사조열매
+}
+
+STRING 10616
+// 능력: A06J (!1401_피스톨키스::스네이크), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff피스톨 키스 :: 스네이크|r
+}
+
+STRING 10617
+// 능력: A06J (!1401_피스톨키스::스네이크), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D매료매료 열매의 능력에 패기를 담아 총처럼 쏴서 피해를 입힙니다.|r
+
+|cffffdead◎기본효과|r : 공격시 8% 확률로 0.4초간 ‘피스톨 키스’ 버프
+|cffffdead◎범위|r : 425
+|cffffdead◎데미지|r : 버프 중 공격시 |cff4374D915만(x1~2) 마법데미지|r
+|cffffdead　▶|r 공격 대상이 라인 몬스터일 경우 단일 적 |cff66cdaa전체체력 7% 추가 폭발형 데미지|r
+|cffffdead　▶|r 보스, 광폭화, 스토리에게는 |cff4374D930만(x1~2) 마법데미지|r
+|cffffdead◎추가효과|r : 버프 지속시간 동안 자신의 공격속도 45% 증가
+}
+
+STRING 10618
+// 능력: A0ZG (!0713_아이스에이지), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff아이스 에이지 :: Lv.1|r
+}
+
+STRING 10619
+// 능력: A0ZG (!0713_아이스에이지), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff아이스 에이지 :: Lv.2|r
+}
+
+STRING 10620
+// 능력: A0ZG (!0713_아이스에이지), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D주변을 거대한 얼음의 땅으로 변하게 얼려버립니다.|r
+
+|cffffdead◎발동조건|r : 공격시 12.5% 확률
+|cffffdead◎발동조건2|r : 마나 50 이상일 때 마나 40 소모
+|cffffdead◎시전시간|r : 0.5초
+|cffffdead◎범위|r : 적 중심 700범위
+|cffffdead◎데미지|r : |cff4374D9225만 마법데미지|r
+|cffffdead◎추가효과|r : 해당 범위 3초 스턴
+}
+
+STRING 10621
+// 능력: A09T (!0516_피스톨키스), EditorSuffix (에디터 접미사 (ansf))
+{
+(스킬이름)
+}
+
+STRING 10622
+// 능력: A0SU (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D지면을 얼려 자유롭게 이동할 수 있게 됩니다.|r
+
+|cffffdead◎기본효과|r : 바다 및 공중이동 가능 및 자신의 초당 마나회복 0.33 추가|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'아이스타임'|r 강화|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'아이스에이지'|r 강화|r
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+}
+
+STRING 10623
+// 능력: A0FR (!0713_아이스타임), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D얼음얼음 열매의 힘으로 주변 유닛의 이동속도를 저하시킵니다.|r
+
+|cffffdead◎기본효과|r : 800범위 적 이동속도 80% 감소|r
+|cffffdead◎추가효과|r : 자신의 라인존 적 유닛의 |cff66cdaa폭발형 데미지 10% 증폭|r
+}
+
+STRING 10624
+// 능력: A04Y (F_0713_아이스글러브), Name (이름 (anam))
+{
+F_0713_아이스글러브
+}
+
+STRING 10625
+// 마법/효과: B02Z (!0801_불주먹), EditorSuffix (에디터 접미사 (fnsf))
+{
+(절대쿨타임)
+}
+
+STRING 10626
+// 마법/효과: B08J (!0713_아이스글러브), Bufftip (도구 도움말 (ftip))
+{
+아이스 글러브
+}
+
+STRING 10627
+// 마법/효과: B08J (!0713_아이스글러브), Buffubertip (도구 도움말 - 확장 (fube))
+{
+아이스 글러브의 효과를 받고 있습니다.
+}
+
+STRING 10628
+// 마법/효과: B08J (!0713_아이스글러브), EditorName (이름 (오직 에디터) (fnam))
+{
+!0713_아이스글러브
+}
+
+STRING 10629
+// 능력: A09T (!0516_피스톨키스), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff피스톨 키스|r
+}
+
+STRING 10630
+// 능력: A0ID (C_0604_도약), Name (이름 (anam))
+{
+C_0604_도약
+}
+
+STRING 10631
+// 능력: A0ID (C_0604_도약), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D더 먼 거리를 도약합니다.|r
+
+|cffffdead◎기본효과|r : 2000범위 순간이동
+|cffffdead◎쿨타임|r : 5초
+}
+
+STRING 10632
+// 능력: A05C (C_0205_수술수술열매'워프'), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D수술수술 열매의 능력으로 단거리를 순간이동 할 수 있습니다.|r
+
+|cffffdead◎기본효과|r : 1500범위 순간이동
+|cffffdead◎쿨타임|r : 5초
+}
+
+STRING 10633
+// 능력: A04U (!0701_디아블 잠브 :: 무통 샷), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D디아블 잠브 상태로 강력한 발차기를 날립니다.|r
+|cffffdead◎발동조건|r : 공격시 5.5% 확률
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cff4374D980만 마법데미지|r
+|cffffdead◎현기증|r : 스킬에 적중당한 적들의 이동속도를 3.5초간 50% 감소
+}
+
+STRING 10634
+// 능력: A04C (!0705_고무고무열매), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D고무고무 열매의 능력으로 적에게 강력한 공격을 합니다.|r
+
+|cffffdead◎기본효과|r : 공격시 345범위 기본 공격 피해량의 80% + |cffF15F5F2만 5000 추가 물리데미지|r
+|cffffdead◎추가효과|r : 공격시 18% 확률로 5배 크리티컬 발동
+
+|cffc68a12제트 피스톨 2연타|r
+|cffffdead◎발동조건|r : 공격시 17.5% 확률
+|cffffdead◎범위|r : 425
+|cffffdead◎데미지|r : |cff4374D93만 2500 마법데미지|r + |cffF15F5F(기본 공격 피해량의 250% + 3만 2500 물리데미지)|r
+|cffffdead　▶|r 단일 적 |cffA566FF기본 공격 피해량의 250% + 3만 2500의 추가 고정데미지|r
+|cffffdead◎현기증|r : 스킬에 적중당한 적들의 이동속도를 2초간 33% 감소 (저항무시)
+}
+
+STRING 10635
+// 능력: A0OQ (B_1212_로이드), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10636
+// 능력: A0NP (B_1210_단령검), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10637
+// 능력: A0N0 (B_1114_할퀴기), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10638
+// 능력: A0MT (B_0904_해진), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10639
+// 능력: A0MH (B_0901_고대병기), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10640
+// 능력: A0MC (B_0802_쿠사의패기), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10641
+// 능력: A0M7 (B_0727_숲가꾸기), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10642
+// 능력: A0M0 (B_0723_해류한판업어치기), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10643
+// 능력: A0LX (B_0718_화권), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10644
+// 능력: A0L5 (B_0717_실실열매,해원백사), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10645
+// 능력: A0L4 (B_0716_인젝션샷), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10646
+// 능력: A0KJ (B_0711_지진), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10647
+// 능력: A0JF (B_0705_제트피스톨2연타), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10648
+// 능력: A0I3 (B_0701_무통샷), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10649
+// 능력: A0HZ (B_0603_분쇄), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10650
+// 능력: A0HH (B_0601_방전), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10651
+// 능력: A0HF (B_0529_흔들흔들열매), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10652
+// 능력: A0HA (B_0424_방주맥심), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10653
+// 능력: A0GT (B_0000_복사용), EditorSuffix (에디터 접미사 (ansf))
+{
+(현기증)
+}
+
+STRING 10654
+// 능력: A09T (!0516_피스톨키스), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D매료매료 열매의 능력에 패기를 담아 총처럼 쏴서 피해를 입힙니다.|r
+
+|cffffdead◎발동조건|r : 공격시 8% 확률
+|cffffdead◎데미지|r : 지속시간 동안 자신의 공격속도 45% 증가
+|cffffdead　▶|r 지속시간 0.4초
+|cffffdead◎추가효과|r : 매 공격시마다 345범위 |cff4374D9기본 공격 피해량의 125% + 8만 5000 추가 마법데미지|r
+}
+
+STRING 10655
+// 업그레이드: R002 (구울 프렌지), Hotkey (단축키 (ghk1))
+{
+F
+}
+
+STRING 10656
+// 능력: A038 (C_0217,0230_도약), Name (이름 (anam))
+{
+C_0217,0230_도약
+}
+
+STRING 10657
+// 능력: A038 (C_0217,0230_도약), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D거리를 도약합니다.|r
+
+|cffffdead◎기본효과|r : 1500범위 순간이동
+|cffffdead◎쿨타임|r : 5초
+}
+
+STRING 10658
+// 능력: A1AD ([신비] 아냐), Name (이름 (anam))
+{
+[신비] 아냐
+}
+
+STRING 10659
+// 능력: A0LV (!0000_삭제용3), Name (이름 (anam))
+{
+!0000_삭제용3
+}
+
+STRING 10660
+// 능력: A0ZG (!0713_아이스에이지), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D주변을 거대한 얼음의 땅으로 변하게 얼려버립니다.|r
+
+|cffffdead◎발동조건|r : 공격시 12.5% 확률
+|cffffdead◎발동조건2|r : 마나 50 이상일 때 마나 40 소모
+|cffffdead◎시전시간|r : 0.5초
+|cffffdead◎범위|r : 적 중심 700범위
+|cffffdead◎데미지|r : |cff66cdaa225만 폭발형 데미지|r
+|cffffdead◎추가효과|r : 해당 범위 3초 스턴|r 및 |cff66cdaa폭발형 데미지 5% 증폭|r
+|cffffdead◎추가효과2|r : 자기 자신에게 2초간 ‘아이스 글러브’ 버프
+
+|cffc68a12아이스 글러브|r
+|cffffdead◎발동조건|r : ‘아이스 글러브’ 버프 중 공격시
+|cffffdead◎범위|r : 475
+|cffffdead◎데미지|r : |cff66cdaa4만 7500 폭발형 데미지|r
+}
+
+STRING 10661
+// 능력: A207 (!0912_한계돌파), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff한계 돌파|r|cffffcc00(T)|r
+}
+
+STRING 10662
+// 능력: A0AU (!0709_프렐류드), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff프렐류드|r
+}
+
+STRING 10663
+// 능력: A1A6 ([제한] 레드필드), Name (이름 (anam))
+{
+[제한] 레드필드
+}
+
+STRING 10664
+// 유닛: e0MD (!0709_brockmis), Name (이름 (unam))
+{
+!0709_brockmis
+}
+
+STRING 10665
+// 능력: A0AU (!0709_프렐류드), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D연속 찌르기를 시전합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 4.2% 확률
+|cffffdead◎지속시간|r : 0.85초|r
+|cffffdead◎기본효과|r : 지속시간 동안 자신의 공격속도 100% 증가 + 기본 공격에 |cffF15F5F80만 추가 물리데미지|r
+|cffffdead◎추가효과|r : 매 공격시마다 단일 적에게 |cff66cdaa전체체력 6% 폭발형 데미지|r (보스, 스토리에는 |cff4374D97만5000 마법데미지|r)
+}
+
+STRING 10666
+// 능력: A1A5 ([제한] 에넬), Name (이름 (anam))
+{
+[제한] 에넬
+}
+
+STRING 10667
+// 능력: A19W ([신비] 고죠 사토루), Name (이름 (anam))
+{
+[신비] 고죠 사토루
+}
+
+STRING 10668
+// 능력: A19V ([신비] 콘파쿠 요우무), Name (이름 (anam))
+{
+[신비] 콘파쿠 요우무
+}
+
+STRING 10669
+// 능력: A19U ([신비] 히그마), Name (이름 (anam))
+{
+[신비] 히그마
+}
+
+STRING 10670
+// 능력: A19T ([신비] 뱌쿠야), Name (이름 (anam))
+{
+[신비] 뱌쿠야
+}
+
+STRING 10671
+// 능력: A19S ([신비] 야쿠모 유카리), Name (이름 (anam))
+{
+[신비] 야쿠모 유카리
+}
+
+STRING 10672
+// 능력: A18P ([제한] 알비다), Name (이름 (anam))
+{
+[제한] 알비다
+}
+
+STRING 10673
+// 능력: A12C ([신비] 타츠마키), Name (이름 (anam))
+{
+[신비] 타츠마키
+}
+
+STRING 10674
+// 능력: A10V ([신비] 샌즈), Name (이름 (anam))
+{
+[신비] 샌즈
+}
+
+STRING 10675
+// 능력: A10A ([제한] 킹), Name (이름 (anam))
+{
+[제한] 킹
+}
+
+STRING 10676
+// 능력: A0YK ([신비] 네즈코), Name (이름 (anam))
+{
+[신비] 네즈코
+}
+
+STRING 10677
+// 능력: A0Y9 ([신비] 료우기), Name (이름 (anam))
+{
+[신비] 료우기
+}
+
+STRING 10678
+// 능력: A0Y6 ([신비] 죠타로), Name (이름 (anam))
+{
+[신비] 죠타로
+}
+
+STRING 10679
+// 능력: A0Y3 ([신비] 미나토), Name (이름 (anam))
+{
+[신비] 미나토
+}
+
+STRING 10680
+// 능력: A0XT ([신비] 부릉냐), Name (이름 (anam))
+{
+[신비] 부릉냐
+}
+
+STRING 10681
+// 능력: A0UH ([제한] 시노부), Name (이름 (anam))
+{
+[제한] 시노부
+}
+
+STRING 10682
+// 능력: A0UG ([전설] 시노부), Name (이름 (anam))
+{
+[전설] 시노부
+}
+
+STRING 10683
+// 능력: A0S0 ([제한] 카타쿠리), Name (이름 (anam))
+{
+[제한] 카타쿠리
+}
+
+STRING 10684
+// 능력: A0RP ([제한] 아인), Name (이름 (anam))
+{
+[제한] 아인
+}
+
+STRING 10685
+// 능력: A0N9 ([전설] 핸콕), Name (이름 (anam))
+{
+[전설] 핸콕
+}
+
+STRING 10686
+// 능력: A02Q ([전설] 토키), Name (이름 (anam))
+{
+[전설] 토키
+}
+
+STRING 10687
+// 능력: A02O ([제한] 크로커다일), Name (이름 (anam))
+{
+[제한] 크로커다일
+}
+
+STRING 10688
+// 능력: A025 ([전설] 샹크스), Name (이름 (anam))
+{
+[전설] 샹크스
+}
+
+STRING 10689
+// 능력: A011 ([제한] 마르코), Name (이름 (anam))
+{
+[제한] 마르코
+}
+
+STRING 10690
+// 능력: A00O ([전설] 나미), Name (이름 (anam))
+{
+[전설] 나미
+}
+
+STRING 10691
+// 능력: A007 ([제한] 레베카), Name (이름 (anam))
+{
+[제한] 레베카
+}
+
+STRING 10692
+// 유닛: e0N4 (!1202_Effect Charge A Blue Light Short), Name (이름 (unam))
+{
+!1202_Effect Charge A Blue Light Short
+}
+
+STRING 10693
+// 유닛: e0N9 (!1202_Effect Ryoul Laser Particle Blue WIde), Name (이름 (unam))
+{
+!1202_Effect Ryoul Laser Particle Blue WIde
+}
+
+STRING 10694
+// 유닛: e0NA (!1202_Effect DT Blue Minimalist), Name (이름 (unam))
+{
+!1202_Effect DT Blue Minimalist
+}
+
+STRING 10695
+// 능력: A10L (D_0725_펑크바이스,댐드펑크), Name (이름 (anam))
+{
+D_0725_펑크바이스,댐드펑크
+}
+
+STRING 10696
+// 유닛: e0NF (!1203_Effect Blue-Zhendi-Ghost-Big), Name (이름 (unam))
+{
+!1203_Effect Blue-Zhendi-Ghost-Big
+}
+
+STRING 10697
+// 유닛: e0NG (!1203_Effect Blue-Hourglass-Mofa), Name (이름 (unam))
+{
+!1203_Effect Blue-Hourglass-Mofa
+}
+
+STRING 10698
+// 능력: A0NU (A_1202_더월드), Name (이름 (anam))
+{
+A_1202_더월드
+}
+
+STRING 10699
+// 능력: A11I (!0811_곤인페르노), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffffdead◎발동조건|r : 1.5초마다 발동
+|cffffdead◎범위|r : 325
+|cffffdead◎데미지|r : |cff4374D916만(x1~1.5) 마법데미지|r
+|cffffdead　▶|r 공격 대상이 라인 몬스터일 경우 단일 적 |cff66cdaa전체체력 14% 추가 폭발형 데미지|r
+|cffffdead　▶|r 보스, 광폭화, 스토리 : 단일 적 |cffA566FF40만 추가 고정데미지|r 
+
+|cffc68a12곤 칼페시타레|r
+|cffffdead◎발동조건|r :  스킬 |cffff69b4'곤 인페르노'|r 2회 발동시
+|cffffdead◎범위|r : 425
+|cffffdead◎데미지|r : |cff4374D940만(x1~1.5) 마법데미지|r
+|cffffdead　▶|r 자신의 골드 보유량에 따라 |cff66cdaa최대 잃은체력 4.5% 추가 폭발형 데미지|r 
+|cffffdead　▶|r 골드 보유량이 많을수록 데미지 증가 폭 상승 (최대 25만 골드)
+|cffffdead　▶|r 공격 대상이 라인 몬스터일 경우 단일 적 |cff66cdaa전체체력 18% 추가 폭발형 데미지|r
+}
+
+STRING 10700
+// 능력: A0DB (환전소_선택위습), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff선택위습|r
+}
+
+STRING 10701
+// 유닛: e0NH (!1203_Effect Canying), Name (이름 (unam))
+{
+!1203_Effect Canying
+}
+
+STRING 10702
+// 능력: A11F (!0811_골드골드열매), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D주변의 황금을 조종해 자유자재로 다루는 능력. 가진 금이 많을수록 더욱 강력한 기술을 사용할 수 있다.|r
+
+|cffffdead◎기본효과|r : 스킬 발동시 자신의 골드 보유량에 따라 |cff66cdaa최대 37만 5000 추가 폭발형 데미지|r
+|cffffdead　▶|r 골드 보유량이 많을수록 데미지 증가 폭 상승 (최대 25만 골드)
+|cffffdead◎추가효과|r : 800범위 공격속도 25% 증가
+}
+
+STRING 10703
+// 능력: A0EZ (환전소_목재), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff목재|r
+}
+
+STRING 10704
+// 유닛: e0O9 (!1207_Effect AZ_Meteor Explosion Green), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10705
+// 능력: A0XA (!1213_가스터 블래스터), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D샌즈가 블래스터를 이용해 강력한 레이저를 발사합니다.|r
+|cffa0a0a0- "왜 다들 처음부터 강한 공격을 쓰지 않는지 모르겠다니까..."|r
+
+|cffffdead◎발동조건|r : 마나 100
+|cffffdead◎범위|r : 800 
+|cffffdead◎데미지|r : |cff4374D935만 마법데미지|r * 24회
+}
+
+STRING 10706
+// 능력: A0IY (환전소_해적선), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff해적선|r
+}
+
+STRING 10707
+// 능력: A0XA (!1213_가스터 블래스터), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D샌즈가 블래스터를 이용해 강력한 레이저를 발사합니다.|r
+|cffa0a0a0- "왜 다들 처음부터 강한 공격을 쓰지 않는지 모르겠다니까..."|r
+
+|cffffdead◎발동조건|r : 마나 100
+|cffffdead◎범위|r : 800 
+|cffffdead◎데미지|r : |cff4374D935만 마법데미지|r * 24회
+|cffffdead　▶|r 각 타수당 |cffF15F5F999999(x0.5~1) 추가 물리데미지|r
+|cffffdead◎독약|r : 스킬에 적중 당한 적 5초 동안 0.5초당 |cff4374D95만 추가 마법데미지|r + |cffff69b4방어력 25 감소|r 
+|cffffdead　▶|r 다른 독약 스킬과 중복 불가능
+}
+
+STRING 10708
+// 능력: A203 (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(불멸 불릿)
+}
+
+STRING 10709
+// 유닛: e0NI (!1203_Effect Blue-Texiao-Xuanzhuan), Name (이름 (unam))
+{
+!1203_Effect Blue-Texiao-Xuanzhuan
+}
+
+STRING 10710
+// 유닛: e0NJ (!1203_Effect Sprint_Cast_Base), Name (이름 (unam))
+{
+!1203_Effect Sprint_Cast_Base
+}
+
+STRING 10711
+// 유닛: e0NW (!1205_Effect AZ_Magina[2]_B), Name (이름 (unam))
+{
+!1205_Effect AZ_Magina[2]_B
+}
+
+STRING 10712
+// 능력: A0XF (!1203_더월드), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D시간을 멈춥니다. 시간이 다시 움직일때 적은 기묘하게 분쇄됩니다.|r
+
+|cffffdead◎발동조건|r : 마나 145 (기본회복 1 / 공격시 +1)
+|cffffdead◎시전시간|r : 1.3 초
+|cffffdead◎범위|r : 자신 주변 850범위
+|cffffdead◎데미지|r : 스킬 시전 4초 뒤 |cffF15F5F925만(x1~1.5) 물리데미지|r + |cffF15F5F잃은체력 2%(x1~1.5) 물리데미지|r
+|cffffdead◎추가효과|r : 4초간 범위내에 들어온 적들 스턴 및 |cffff8c0015의 아머브레이크|r
+|cffffdead◎추가효과2|r : 발동시 체력 5 회복
+}
+
+STRING 10713
+// 유닛: e03R (!0425,!0710,!1203_Effect Devil Slam), Name (이름 (unam))
+{
+!0425,!0710,!1203_Effect Devil Slam
+}
+
+STRING 10714
+// 유닛: e0NK (!1203_Effect [Sepll]Linasun _T2_Blast Blue), Name (이름 (unam))
+{
+!1203_Effect [Sepll]Linasun _T2_Blast Blue
+}
+
+STRING 10715
+// 유닛: e0OA (!1207_Effect DT Green), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10716
+// 능력: A0OC (!0726_인수화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff인수화|r
+}
+
+STRING 10717
+// 유닛: e084 (!0539,!0606,!1203_Effect White-Qiquan-Special), Name (이름 (unam))
+{
+!0539,!0606,!1203_Effect White-Qiquan-Special
+}
+
+STRING 10718
+// 유닛: h07T (!1203_Effect AZ-Slash-White), Name (이름 (unam))
+{
+!1203_Effect AZ-Slash-White
+}
+
+STRING 10719
+// 유닛: h07B (!1203_Effect Ora Ora Font), Name (이름 (unam))
+{
+!1203_Effect Ora Ora Font
+}
+
+STRING 10720
+// 유닛: e0H7 (!0901_Effect Hit Wave__30), Name (이름 (unam))
+{
+!0901_Effect Hit Wave__30
+}
+
+STRING 10721
+// 유닛: e0FO (!0805_Effect Hit Wave__90), Name (이름 (unam))
+{
+!0805_Effect Hit Wave__90
+}
+
+STRING 10722
+// 유닛: e0O6 (!1206_Effect AZ_Shockwave Light), Name (이름 (unam))
+{
+!1206_Effect AZ_Shockwave Light
+}
+
+STRING 10723
+// 유닛: e03B (!0413,!0417,!0421,!0610_Effect Hit Wave), Name (이름 (unam))
+{
+!0413,!0417,!0421,!0610_Effect Hit Wave
+}
+
+STRING 10724
+// 유닛: e011 (!0205,!0529,!0719,!1203_ThunderClapCaster), Name (이름 (unam))
+{
+!0205,!0529,!0719,!1203_ThunderClapCaster
+}
+
+STRING 10725
+// 유닛: e0N1 (!1202,!1203_Effect TX_Shunshenzhishu), Name (이름 (unam))
+{
+!1202,!1203_Effect TX_Shunshenzhishu
+}
+
+STRING 10726
+// 유닛: h05T (!1203,!1204_Effect Fuzzy Stomp), Name (이름 (unam))
+{
+!1203,!1204_Effect Fuzzy Stomp
+}
+
+STRING 10727
+// 유닛: h04Z (!1203,!1204_Effect CharmTarget), Name (이름 (unam))
+{
+!1203,!1204_Effect CharmTarget
+}
+
+STRING 10728
+// 유닛: e08P (!1203_Effect Devil Slam__90), Name (이름 (unam))
+{
+!1203_Effect Devil Slam__90
+}
+
+STRING 10729
+// 유닛: e0NL (!1203_Conflagrate Blue__90), Name (이름 (unam))
+{
+!1203_Conflagrate Blue__90
+}
+
+STRING 10730
+// 유닛: e0OB (!1207_Effect AZ_Warstormp), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10731
+// 유닛: e0NM (!1203_Effect Shinratensei Blue), Name (이름 (unam))
+{
+!1203_Effect Shinratensei Blue
+}
+
+STRING 10732
+// 유닛: e0NN (!1203_Effect Air Cannon), Name (이름 (unam))
+{
+!1203_Effect Air Cannon
+}
+
+STRING 10733
+// 유닛: e0OC (!1207_Effect Dust Tail Thic), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10734
+// 유닛: e0OD (!1207_Effect Dota2 Impale Target Ground), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10735
+// 유닛: e0NP (!1203_Effect Dust Wave Rune__90), Name (이름 (unam))
+{
+!1203_Effect Dust Wave Rune__90
+}
+
+STRING 10736
+// 유닛: e0NQ (!1203_Effect Dota2 War Stomp Caster Green__90), Name (이름 (unam))
+{
+!1203_Effect Dota2 War Stomp Caster Green__90
+}
+
+STRING 10737
+// 유닛: e0NR (!1203_Effect Hit Wave__90), Name (이름 (unam))
+{
+!1203_Effect Hit Wave__90
+}
+
+STRING 10738
+// 유닛: e0OE (!1208_Effect Purification Caster Yellow), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10739
+// 유닛: e0NY (!1205_Effect GameBABY_mdx_lingzifengbao_001 Blue), Name (이름 (unam))
+{
+!1205_Effect GameBABY_mdx_lingzifengbao_001 Blue
+}
+
+STRING 10740
+// 유닛: e0OF (!1208_Effect BY_Wood_Eff_Ord_DanGe_Dus_Kuosan_1_1_1), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10741
+// 능력: A0W1 (!1205_은폐나이프), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D숨긴 나이프를 던지고 가공할 민첩성으로 던진 나이프를 앞질러 회수하며 공격하기도 합니다. |r
+
+|cffffdead◎기본효과|r : 공격시 50% 확률로 단일 적 1.25초 스턴 (저항무시)
+
+|cffc68a12흔들리는 도의 소매|r
+|cffffdead◎발동조건|r : 공격시 25% 확률
+|cffffdead◎데미지|r : 단일 적 |cffF15F5F400만(x1~1.5) 물리데미지|r
+|cffffdead◎추가효과|r : 해당 적 |cffF15F5F최대체력 15% 추가 물리데미지|r (보스 / 스토리 1.5%)
+|cffffdead　▶|r 50% 확률로 385범위 랜덤한 적에게 스킬 1회 추가 발동
+|cffffdead　▶|r 스킬 추가 발동시 50% 확률로 80% 데미지의 스킬 1회 추가 발동
+}
+
+STRING 10742
+// 능력: A035 (D_0000_복사용), Name (이름 (anam))
+{
+D_0000_복사용
+}
+
+STRING 10743
+// 유닛: e0NX (!1205_Effect Ryoul ShootGB1), Name (이름 (unam))
+{
+!1205_Effect Ryoul ShootGB1
+}
+
+STRING 10744
+// 능력: A0XU (!1208_총알세례), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D총알을 퍼붓습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 8% 확률로 1.25초간 ‘총알세례’ 버프
+|cffffdead◎범위|r : 400
+|cffffdead◎데미지|r : 버프 중 공격시 |cff4374D935만 마법데미지|r
+|cffffdead◎추가효과|r : 버프 지속 동안 공격속도 최대
+}
+
+STRING 10745
+// 유닛: e0LP (!1206_chunbon6), Name (이름 (unam))
+{
+!1206_chunbon6
+}
+
+STRING 10746
+// 유닛: e0O7 (!1206_Effect Ancientexplode Pink), Name (이름 (unam))
+{
+!1206_Effect Ancientexplode Pink
+}
+
+STRING 10747
+// 유닛: e0OG (!1209_Effect CharmTarget Purple), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10748
+// 유닛: e0O8 (!1206_Effect AZ_Firering Pink), Name (이름 (unam))
+{
+!1206_Effect AZ_Firering Pink
+}
+
+STRING 10749
+// 유닛: e0OI (!1209_Effect AZ_F095_1), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10750
+// 능력: A0XQ (!1208_권총던지기), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잠금이 풀린 자동권총을 던져 적을 벌집으로 만들어놓습니다.|r
+
+|cffffdead◎발동조건|r : 공격시 6.25%
+|cffffdead◎범위|r : 525
+|cffffdead◎데미지|r : 매 타격당 |cff4374D925만 마법데미지|r
+|cffffdead◎타격횟수|r : 10회
+}
+
+STRING 10751
+// 유닛: e0NZ (!1206_Effect Blink New Pink), Name (이름 (unam))
+{
+!1206_Effect Blink New Pink
+}
+
+STRING 10752
+// 유닛: e0O9 (!1207_Effect AZ_Meteor Explosion Green), Name (이름 (unam))
+{
+!1207_Effect AZ_Meteor Explosion Green
+}
+
+STRING 10753
+// 유닛: e0OJ (!1209_Effect Yukari Train), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10754
+// 유닛: e0OA (!1207_Effect DT Green), Name (이름 (unam))
+{
+!1207_Effect DT Green
+}
+
+STRING 10755
+// 유닛: e0OK (!1209_Effect Yukari Train__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10756
+// 유닛: e0OB (!1207_Effect AZ_Warstormp), Name (이름 (unam))
+{
+!1207_Effect AZ_Warstormp
+}
+
+STRING 10757
+// 유닛: e0OL (!1209_Effect Explosion), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10758
+// 유닛: e0OC (!1207_Effect Dust Tail Thic), Name (이름 (unam))
+{
+!1207_Effect Dust Tail Thic
+}
+
+STRING 10759
+// 유닛: e0OM (!1209_Effect AZ_D020_1 Purple), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10760
+// 유닛: e0OD (!1207_Effect Dota2 Impale Target Ground), Name (이름 (unam))
+{
+!1207_Effect Dota2 Impale Target Ground
+}
+
+STRING 10761
+// 유닛: e0ON (!1209_Effect Slam Purple), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10762
+// 능력: A0WE (!0000_삭제용), Name (이름 (anam))
+{
+!0000_삭제용
+}
+
+STRING 10763
+// 능력: A0OC (!0726_인수화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff인수화《강화》|r
+}
+
+STRING 10764
+// 유닛: e0P4 (!1211_Aka160%), Name (이름 (unam))
+{
+!1211_Aka160%
+}
+
+STRING 10765
+// 유닛: e0OO (!1209_Effect AZ_Dimen), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10766
+// 유닛: e0OI (!1209_Effect AZ_F095_1), Name (이름 (unam))
+{
+!1209_Effect AZ_F095_1
+}
+
+STRING 10767
+// 유닛: e0OJ (!1209_Effect Yukari Train), Name (이름 (unam))
+{
+!1209_Effect Yukari Train
+}
+
+STRING 10768
+// 유닛: e0OP (!1209_Effect AZ_Sorceresspf_T2 Purple), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10769
+// 유닛: e0OK (!1209_Effect Yukari Train__90), Name (이름 (unam))
+{
+!1209_Effect Yukari Train__90
+}
+
+STRING 10770
+// 유닛: e0OQ (!1209_Effect AerialExplosionV3 Purple), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10771
+// 유닛: e0OL (!1209_Effect Explosion), Name (이름 (unam))
+{
+!1209_Effect Explosion
+}
+
+STRING 10772
+// 유닛: e0OR (!1209_Effect Mythic_Void Teleport Target__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10773
+// 유닛: e0OM (!1209_Effect AZ_D020_1 Purple), Name (이름 (unam))
+{
+!1209_Effect AZ_D020_1 Purple
+}
+
+STRING 10774
+// 유닛: e0OS (!1209_Effect Mythic_Heal Purple__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10775
+// 유닛: e0ON (!1209_Effect Slam Purple), Name (이름 (unam))
+{
+!1209_Effect Slam Purple
+}
+
+STRING 10776
+// 유닛: e0OU (!1209_Effect Attack Wood Purple), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10777
+// 유닛: e0OO (!1209_Effect AZ_Dimen), Name (이름 (unam))
+{
+!1209_Effect AZ_Dimen
+}
+
+STRING 10778
+// 유닛: e0OV (!1209_Effect Spring Burst Purple), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10779
+// 유닛: e0OP (!1209_Effect AZ_Sorceresspf_T2 Purple), Name (이름 (unam))
+{
+!1209_Effect AZ_Sorceresspf_T2 Purple
+}
+
+STRING 10780
+// 유닛: e0OW (!1209_Effect Laser Purple__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10781
+// 유닛: e0OQ (!1209_Effect AerialExplosionV3 Purple), Name (이름 (unam))
+{
+!1209_Effect AerialExplosionV3 Purple
+}
+
+STRING 10782
+// 유닛: e0OX (!1210_AZ_CMpink_F_OriginMage), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10783
+// 유닛: e0OY (!1210_Culling Slash Pink), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10784
+// 유닛: e0OZ (!1210_55), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10785
+// 유닛: e0OR (!1209_Effect Mythic_Void Teleport Target__90), Name (이름 (unam))
+{
+!1209_Effect Mythic_Void Teleport Target__90
+}
+
+STRING 10786
+// 유닛: e0OS (!1209_Effect Mythic_Heal Purple__90), Name (이름 (unam))
+{
+!1209_Effect Mythic_Heal Purple__90
+}
+
+STRING 10787
+// 유닛: e0P0 (!1211_Vinz Nova Arcane), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10788
+// 유닛: e0P5 (!1211_AZ_BHSickle_J_right1), Name (이름 (unam))
+{
+!1211_AZ_BHSickle_J_right1
+}
+
+STRING 10789
+// 유닛: e0P1 (!1211_BlackHole), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10790
+// 유닛: e0OU (!1209_Effect Attack Wood Purple), Name (이름 (unam))
+{
+!1209_Effect Attack Wood Purple
+}
+
+STRING 10791
+// 유닛: e0OV (!1209_Effect Spring Burst Purple), Name (이름 (unam))
+{
+!1209_Effect Spring Burst Purple
+}
+
+STRING 10792
+// 유닛: e0P2 (!1211_Ao160%), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10793
+// 유닛: e0P3 (!1211_FortressDeathx2), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10794
+// 유닛: e0P4 (!1211_Aka160%), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10795
+// 유닛: e0OW (!1209_Effect Laser Purple__90), Name (이름 (unam))
+{
+!1209_Effect Laser Purple__90
+}
+
+STRING 10796
+// 유닛: e0GB (!0808,!1210_Effect AZ_Dust Rush 02), Name (이름 (unam))
+{
+!0808,!1210_Effect AZ_Dust Rush 02
+}
+
+STRING 10797
+// 유닛: e0C2 (!0719,!1210_E_RoundSlashblue), Name (이름 (unam))
+{
+!0719,!1210_E_RoundSlashblue
+}
+
+STRING 10798
+// 유닛: e0BP (!0717,!1210_Dimension SlashOriginal), Name (이름 (unam))
+{
+!0717,!1210_Dimension SlashOriginal
+}
+
+STRING 10799
+// 유닛: e09Q (!0707,!1210_AZ_27hd1), Name (이름 (unam))
+{
+!0707,!1210_AZ_27hd1
+}
+
+STRING 10800
+// 유닛: e090 (!0702,!1210_White SlashB), Name (이름 (unam))
+{
+!0702,!1210_White SlashB
+}
+
+STRING 10801
+// 유닛: e00I (!0607,!0702,!1210_animeslashfinal), Name (이름 (unam))
+{
+!0607,!0702,!1210_animeslashfinal
+}
+
+STRING 10802
+// 유닛: e0NO (!1203,!1210_Effect Dust Wave Rune), Name (이름 (unam))
+{
+!1203,!1210_Effect Dust Wave Rune
+}
+
+STRING 10803
+// 유닛: e0OX (!1210_AZ_CMpink_F_OriginMage), Name (이름 (unam))
+{
+!1210_AZ_CMpink_F_OriginMage
+}
+
+STRING 10804
+// 유닛: e0P5 (!1211_AZ_BHSickle_J_right1), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10805
+// 유닛: e0OY (!1210_Culling Slash Pink), Name (이름 (unam))
+{
+!1210_Culling Slash Pink
+}
+
+STRING 10806
+// 유닛: e0P6 (!1211_Mr.War3_JSSXL), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10807
+// 유닛: e0OZ (!1210_55), Name (이름 (unam))
+{
+!1210_55
+}
+
+STRING 10808
+// 유닛: e0P7 (!1211_pong2SS), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10809
+// 능력: A0ZA (!1209_편도행), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D편도행 천국 열차를 보내드리고 있습니다.|r
+
+|cffffdead◎발동조건|r : 공격시 6.25% 확률
+|cffffdead◎범위|r : 800
+|cffffdead◎데미지|r : |cff4374D980만 마법데미지|r x 3회
+}
+
+STRING 10810
+// 유닛: e0P6 (!1211_Mr.War3_JSSXL), Name (이름 (unam))
+{
+!1211_Mr.War3_JSSXL
+}
+
+STRING 10811
+// 유닛: e0P8 (!1211_Murasaki300%), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10812
+// 능력: A0OC (!0726_인수화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D열매의 능력으로 인수화합니다.|r
+
+|cffffdead◎발동조건|r : 체력 95 (기본회복 0.33 / 공격시 +1)
+|cffffdead　▶|r 공격력 75000 증가|r
+|cffffdead　▶|r 기본 공격 쿨타임 0.07초 감소|r
+|cffffdead　▶|r 패황색 휘감기 발동 확률 25%로 증가|r
+|cffffdead　▶|r 매 타격시마다 마환인 발동|r
+|cffffdead　▶|r 지속시간 3.5초|r
+
+|cffc68a12무시빙아|r
+|cffffdead◎발동조건|r : 인수화 첫 공격시 무시빙아 시전
+|cffffdead◎범위|r : 적 중심 800
+|cffffdead◎첫타 데미지|r : |cff4374D9215만(x0.8~1.5) 마법데미지|r
+|cffffdead◎후속타 데미지|r : |cffF15F5F70만(x0.8~1.5) x 9 물리데미지|r
+|cffffdead◎추가효과|r : 해당 범위 2.25초 스턴 (저항무시)
+|cffffdead◎시전시간|r : 0.9초
+}
+
+STRING 10813
+// 유닛: e0P9 (!1211_BY_Wood_Effect_Order_MoBai_Dev_DiLieQuan_diliequan), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10814
+// 능력: A109 (!1211_아카더미), Name (이름 (anam))
+{
+!1211_아카더미
+}
+
+STRING 10815
+// 능력: A0OC (!0726_인수화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D열매의 능력으로 인수화합니다.|r
+
+|cffffdead◎발동조건|r : 체력 95 (기본회복 0.33 / 공격시 +1)
+|cffffdead　▶|r 공격력 75000 증가|r
+|cffffdead　▶|r 기본 공격 쿨타임 0.07초 감소|r
+|cffffdead　▶|r 패황색 휘감기 발동 확률 25%로 증가|r
+|cffffdead　▶|r 매 타격시마다 마환인 발동|r
+|cffffdead　▶|r 지속시간 3.5초|r
+
+|cffc68a12신족 백사구|r
+|cffffdead◎발동조건|r : 인수화 첫 공격시 신족 백사구 시전
+|cffffdead◎범위|r : 적 중심 800범위
+|cffffdead◎첫타 데미지|r : |cff4374D9250만(x1~2) 마법데미지|r
+|cffffdead◎후속타 데미지|r : |cffF15F5F80만(x1~2) x 9 물리데미지|r
+|cffffdead◎추가효과|r : 해당 범위 2.25초 스턴 (저항무시)
+|cffffdead◎시전시간|r : 0.8초
+}
+
+STRING 10816
+// 마법/효과: B00B (!0726_인수화), EditorName (이름 (오직 에디터) (fnam))
+{
+!0726_인수화
+}
+
+STRING 10817
+// 능력: A095 (!0000_삭제용2), Name (이름 (anam))
+{
+!0000_삭제용2
+}
+
+STRING 10818
+// 마법/효과: B07D (!1211_아카), Bufftip (도구 도움말 (ftip))
+{
+아카
+}
+
+STRING 10819
+// 마법/효과: B07D (!1211_아카), Buffubertip (도구 도움말 - 확장 (fube))
+{
+이 유닛은 아카의 영향을 받고 있습니다. 이동 속도가 감소합니다.
+}
+
+STRING 10820
+// 마법/효과: B07D (!1211_아카), EditorName (이름 (오직 에디터) (fnam))
+{
+!1211_아카
+}
+
+STRING 10821
+// 유닛: e0P7 (!1211_pong2SS), Name (이름 (unam))
+{
+!1211_pong2SS
+}
+
+STRING 10822
+// 유닛: e0P8 (!1211_Murasaki300%), Name (이름 (unam))
+{
+!1211_Murasaki300%
+}
+
+STRING 10823
+// 유닛: e0PA (!1212_tx-shqy10-E), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10824
+// 유닛: e0P9 (!1211_BY_Wood_Effect_Order_MoBai_Dev_DiLieQuan_diliequan), Name (이름 (unam))
+{
+!1211_BY_Wood_Effect_Order_MoBai_Dev_DiLieQuan_diliequan
+}
+
+STRING 10825
+// 유닛: e0PB (!1212_Smoke_Guni), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10826
+// 유닛: e0FD (!0803,!0912,!1203,!1205,!1212_Effect Black Blink), Name (이름 (unam))
+{
+!0803,!0912,!1203,!1205,!1212_Effect Black Blink
+}
+
+STRING 10827
+// 유닛: e09U (!0707,!0728,!1212_hit-white-guangxiao), Name (이름 (unam))
+{
+!0707,!0728,!1212_hit-white-guangxiao
+}
+
+STRING 10828
+// 유닛: e09F (!0704,!1212_!shot09), Name (이름 (unam))
+{
+!0704,!1212_!shot09
+}
+
+STRING 10829
+// 유닛: e03A (!0412,!0807,!1212_az-slash-red), Name (이름 (unam))
+{
+!0412,!0807,!1212_az-slash-red
+}
+
+STRING 10830
+// 유닛: e0PA (!1212_tx-shqy10-E), Name (이름 (unam))
+{
+!1212_tx-shqy10-E
+}
+
+STRING 10831
+// 유닛: e0PC (!1212_snipe_sj), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10832
+// 유닛: e0PB (!1212_Smoke_Guni), Name (이름 (unam))
+{
+!1212_Smoke_Guni
+}
+
+STRING 10833
+// 유닛: e0PD (!1212_AZ_EarthShaker_E1szup), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10834
+// 유닛: e0PC (!1212_snipe_sj), Name (이름 (unam))
+{
+!1212_snipe_sj
+}
+
+STRING 10835
+// 유닛: e0PE (!1212_Air), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10836
+// 유닛: e0PD (!1212_AZ_EarthShaker_E1szup), Name (이름 (unam))
+{
+!1212_AZ_EarthShaker_E1szup
+}
+
+STRING 10837
+// 유닛: e0PF (!1212_AZ_Sniper(2)_R), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10838
+// 유닛: e0PE (!1212_Air), Name (이름 (unam))
+{
+!1212_Air
+}
+
+STRING 10839
+// 유닛: e0PG (!1212_bullet), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10840
+// 유닛: e0PF (!1212_AZ_Sniper(2)_R), Name (이름 (unam))
+{
+!1212_AZ_Sniper(2)_R
+}
+
+STRING 10841
+// 유닛: e0PH (!1212_BY_Wood_Eff_Buf_Int_Diz_1__90), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10842
+// 유닛: e0PG (!1212_bullet), Name (이름 (unam))
+{
+!1212_bullet
+}
+
+STRING 10843
+// 유닛: e0PI (!1211_BlackPlane), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10844
+// 유닛: e0PH (!1212_BY_Wood_Eff_Buf_Int_Diz_1__90), Name (이름 (unam))
+{
+!1212_BY_Wood_Eff_Buf_Int_Diz_1__90
+}
+
+STRING 10845
+// 유닛: e0PJ (!1213_Sans999), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10846
+// 유닛: e0PI (!1211_BlackPlane), Name (이름 (unam))
+{
+!1211_BlackPlane
+}
+
+STRING 10847
+// 유닛: e0PK (!1213_Sans99999), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10848
+// 능력: A0ZW (!1211_아오), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D위상, 황혼, 지혜의 눈동자|r
+
+|cffffdead◎발동조건|r : 공격시 10% 확률
+|cffffdead◎범위|r : 적 중심 600범위
+|cffffdead◎데미지|r : |cff4374D930만 마법데미지|r
+|cffffdead　▶|r 2초간 0.1초당 |cff4374D915만 마법데미지|r
+|cffffdead◎추가효과|r : 해당 범위 2초 스턴 (저항무시)
+}
+
+STRING 10849
+// 능력: A0ZV (!1211_아카), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D위상, 바라밀, 빛의 기둥|r
+
+|cffffdead◎발동조건|r : 공격시 10% 확률
+|cffffdead◎범위|r : 적 중심 800범위
+|cffffdead◎데미지|r : |cff4374D9150만 마법데미지|r
+|cffffdead◎여진|r : 해당 범위 2초간 이동속도 20% 감소
+
+|cffc68a12무라사키|r
+|cffa0a0a0- "구강, 편광, 까마귀와 성명, 표리의 틈새"|r
+|cffffdead◎발동조건|r : 절대쿨타임이 아닌 상태에서 술식 반전 '혁' 발동시
+|cffffdead◎범위|r : 적 중심 800범위 
+|cffffdead◎데미지|r : |cff4374D9450만 + 전체체력 4% 마법데미지|r
+|cffffdead◎여진|r : 해당 범위 2초간 이동속도 20% 감소
+|cffffdead◎절대쿨타임|r : 15초
+}
+
+STRING 10850
+// 마법/효과: B08K (!0726_인수화), Buffubertip (도구 도움말 - 확장 (fube))
+{
+인수화
+}
+
+STRING 10851
+// 유닛: e0PJ (!1213_Sans999), Name (이름 (unam))
+{
+!1213_Sans999
+}
+
+STRING 10852
+// 유닛: e0PL (!1213_SansK), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10853
+// 유닛: e0PK (!1213_Sans99999), Name (이름 (unam))
+{
+!1213_Sans99999
+}
+
+STRING 10854
+// 유닛: e0PM (!1213_Rimuru-17), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10855
+// 유닛: e0PL (!1213_SansK), Name (이름 (unam))
+{
+!1213_SansK
+}
+
+STRING 10856
+// 유닛: e0PN (!1213_EV-qilangKsblue), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10857
+// 유닛: e0PM (!1213_Rimuru-17), Name (이름 (unam))
+{
+!1213_Rimuru-17
+}
+
+STRING 10858
+// 유닛: e0PO (!1213_ZK_BM_Red knife shine4-Blue-1__45), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10859
+// 유닛: e0PN (!1213_EV-qilangKsblue), Name (이름 (unam))
+{
+!1213_EV-qilangKsblue
+}
+
+STRING 10860
+// 유닛: e0PP (!1213_ZK_BM_Red knife shine4-Blue-1), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10861
+// 유닛: e0PO (!1213_ZK_BM_Red knife shine4-Blue-1__45), Name (이름 (unam))
+{
+!1213_ZK_BM_Red knife shine4-Blue-1__45
+}
+
+STRING 10862
+// 유닛: e0PQ (!1213_BlusFlashz), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10863
+// 유닛: e0PP (!1213_ZK_BM_Red knife shine4-Blue-1), Name (이름 (unam))
+{
+!1213_ZK_BM_Red knife shine4-Blue-1
+}
+
+STRING 10864
+// 유닛: e0PR (!0808_16PF_4), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10865
+// 유닛: e0PQ (!1213_BlusFlashz), Name (이름 (unam))
+{
+!1213_BlusFlashz
+}
+
+STRING 10866
+// 유닛: e0PS (!0712_turtle), Tip (도구 도움말 - 기본 (utip))
+{
+더미유닛
+}
+
+STRING 10867
+// 마법/효과: B08M (!0910_인수화), Buffubertip (도구 도움말 - 확장 (fube))
+{
+열매를 각성하여 강력한 변신을 합니다
+}
+
+STRING 10868
+// 능력: A0WB (!1206_천본앵), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D검을 꽃잎처럼 흩날리는 형태로 바꾸어 적을 제압합니다.|r
+
+|cffffdead◎기본효과|r : 자신의 공격속도 25% 감소 및 950범위 적 이동속도 20% 감소
+|cffffdead◎추가효과|r : 스킬 발동시마다 천본앵 발동 (최대 2회까지 중첩)
+|cffffdead◎범위|r : 자신 주변 750
+|cffffdead◎데미지|r : 0.16초마다 |cff4374D918만 마법데미지|r 
+|cffffdead　▶|r 범위 내 랜덤한 단일 적에게 |cffA566FF42만 5000 + 전체체력 1.75% 고정데미지|r (보스/ 광폭화 / 스토리 60만)
+|cffffdead◎지속시간|r : 4초
+}
+
+STRING 10869
+// 마법/효과: B08M (!0910_인수화), Bufftip (도구 도움말 (ftip))
+{
+인수화
+}
+
+STRING 10870
+// 마법/효과: B08K (!0726_인수화), EditorName (이름 (오직 에디터) (fnam))
+{
+!0726_인수화
+}
+
+STRING 10871
+// 마법/효과: B08K (!0726_인수화), EditorSuffix (에디터 접미사 (fnsf))
+{
+(메타몰) (프리미엄)
+}
+
+STRING 10872
+// 능력: A0ZS (!1211_영역전개), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D고죠 사토루를 제외한 모든 대상이 행하는 정신 활동을 무한한 반복작업으로 만든다.|r
+
+|cffffdead◎시전시간|r : 0.7초
+|cffffdead◎범위|r : 자기 중심 1600
+|cffffdead◎데미지|r : 0.1초당 |cffA566FF45만 + 전체체력 0.45% 고정데미지|r
+|cffffdead◎지속시간|r : 5초
+|cffffdead◎추가효과|r : 영역에 발을 내디딘 유닛은 영역 전개 종료까지 정지
+|cffffdead◎페널티|r : 스토리 공격시 발동하지 않음
+}
+
+STRING 10874
+// 마법/효과: B08M (!0910_인수화), EditorName (이름 (오직 에디터) (fnam))
+{
+!0910_인수화
+}
+
+STRING 10875
+// 마법/효과: B08M (!0910_인수화), EditorSuffix (에디터 접미사 (fnsf))
+{
+(메타몰)
+}
+
+STRING 10876
+// 능력: A0T3 (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D해적함대 오야붕이란 이름에 걸맞는 능력을 구사합니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'함선포식자'|r 추가
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'해적 대함대'|r 추가
+|cffffdead◎코스트|r : 특성포인트 4 필요|r

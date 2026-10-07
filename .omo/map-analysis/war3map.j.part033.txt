@@ -1,0 +1,1800 @@
+set p1s=vE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff일석이조|r")
+set p1s=RE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead항법 기본효과 발동시 '랜덤위습' 추가 지급\n이미 조합한 전설·히든·변화 이상 유닛에도 1개씩 소급 지급|r")
+set P1s=sE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"")
+set p1s=wW
+set FK[2]=q6R(p1s,"GUILogPose__firstnavigationbutton icon")
+call vAv(FK[2],30.,30.)
+call Nlv(FK[2],p1s,40.,360.)
+set vE[2]=ZpR(FK[2],"GUILogPose__firstnavigationbutton text1")
+set p1s=vE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(vE[2],3,FK[2],3,40.,0.)
+set p1s=vE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set RE[2]=ZpR(FK[2],"GUILogPose__firstnavigationbutton text2")
+set p1s=RE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(RE[2],FK[2],15.,40.)
+set p1s=RE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set sE[2]=ZpR(FK[2],"GUILogPose__firstnavigationbutton text2")
+set p1s=sE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(sE[2],FK[2],15.,90.)
+set p1s=sE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set PE[2]=Gns(FK[2],"GUILogPose__firstnavigationbutton button")
+call vAv(PE[2],550.,140.)
+call Nlv(PE[2],FK[2],0.,0.)
+call SaveInteger(Pv,0,PE[2],2)
+call pus(PE[2],xu)
+set p1s=FK[2]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNHornOfFog.blp",0,true)
+set p1s=vE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff긴급소집|r")
+set p1s=RE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead'특별' 등급의 유닛을 선택할 수 있는 와일드카드 3개 지급\n(기록지침에서 사용 가능)|r")
+set P1s=sE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cffff0000페널티|r|cffffdead\n항법 기본효과 비활성화|r")
+set p1s=wW
+set FK[3]=q6R(p1s,"GUILogPose__firstnavigationbutton icon")
+call vAv(FK[3],30.,30.)
+call Nlv(FK[3],p1s,40.,520.)
+set vE[3]=ZpR(FK[3],"GUILogPose__firstnavigationbutton text1")
+set p1s=vE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(vE[3],3,FK[3],3,40.,0.)
+set p1s=vE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set RE[3]=ZpR(FK[3],"GUILogPose__firstnavigationbutton text2")
+set p1s=RE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(RE[3],FK[3],15.,40.)
+set p1s=RE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set sE[3]=ZpR(FK[3],"GUILogPose__firstnavigationbutton text2")
+set p1s=sE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(sE[3],FK[3],15.,90.)
+set p1s=sE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set PE[3]=Gns(FK[3],"GUILogPose__firstnavigationbutton button")
+call vAv(PE[3],550.,140.)
+call Nlv(PE[3],FK[3],0.,0.)
+call SaveInteger(Pv,0,PE[3],3)
+call pus(PE[3],xu)
+set p1s=FK[3]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNArcaneVault.blp",0,true)
+set p1s=vE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff특성공학|r")
+set p1s=RE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead기록지침에 특성공학 스킬 추가\n특성포인트 1 지급, 변화가능 횟수 1개 추가\n|r")
+set P1s=sE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cffff0000페널티|r|cffffdead\n도움소 선택위습 획득 불가|r")
+set p1s=DW
+set CK[2]=q6R(p1s,"GUILogPose__navigationIcon icon")
+call vAv(CK[2],60.,60.)
+call Hjv(CK[2],1,p1s,1,0.,80.)
+set LK[2]=ZpR(CK[2],"GUILogPose__navigationIcon text1")
+set p1s=LK[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Hjv(LK[2],1,CK[2],1,0.,70.)
+set P1s=LK[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,P1s),false)
+set p1s=CK[2]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNIceCrownObelisk.blp",0,true)
+set P1s=LK[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cff1e90ff패왕의길|r")
+set p1s=DW
+set pE[1]=q6R(p1s,"GUILogPose__secondnavigationbutton icon")
+call vAv(pE[1],30.,30.)
+call Nlv(pE[1],p1s,40.,200.)
+set rE[1]=ZpR(pE[1],"GUILogPose__secondnavigationbutton text1")
+set p1s=rE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(rE[1],3,pE[1],3,40.,0.)
+set p1s=rE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set WE[1]=ZpR(pE[1],"GUILogPose__secondnavigationbutton text2")
+set p1s=WE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(WE[1],pE[1],15.,40.)
+set p1s=WE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set iE[1]=ZpR(pE[1],"GUILogPose__secondnavigationbutton text2")
+set p1s=iE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(iE[1],pE[1],15.,90.)
+set p1s=iE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set mE[1]=Gns(pE[1],"GUILogPose__secondnavigationbutton button")
+call vAv(mE[1],550.,140.)
+call Nlv(mE[1],pE[1],0.,0.)
+call SaveInteger(Pv,0,mE[1],1)
+call pus(mE[1],bu)
+set p1s=pE[1]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNCancel.blp",0,true)
+set p1s=rE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff계엄령|r")
+set p1s=WE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead레오의 능력이 강화됩니다.\n ▶ 라인딜 및 이동속도 감소효과 증가, 스턴 능력 추가|r\n|cffc0c0c0- \"내가 왕이 될 상인가\"|r")
+set P1s=iE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cffff0000페널티|r|cffffdead\n최상위 유닛(초월,불멸,영원,제한,신비)을 조합할 수 없습니다.|r")
+set p1s=DW
+set pE[2]=q6R(p1s,"GUILogPose__secondnavigationbutton icon")
+call vAv(pE[2],30.,30.)
+call Nlv(pE[2],p1s,40.,360.)
+set rE[2]=ZpR(pE[2],"GUILogPose__secondnavigationbutton text1")
+set p1s=rE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(rE[2],3,pE[2],3,40.,0.)
+set p1s=rE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set WE[2]=ZpR(pE[2],"GUILogPose__secondnavigationbutton text2")
+set p1s=WE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(WE[2],pE[2],15.,40.)
+set p1s=WE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set iE[2]=ZpR(pE[2],"GUILogPose__secondnavigationbutton text2")
+set p1s=iE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(iE[2],pE[2],15.,90.)
+set p1s=iE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set mE[2]=Gns(pE[2],"GUILogPose__secondnavigationbutton button")
+call vAv(mE[2],550.,140.)
+call Nlv(mE[2],pE[2],0.,0.)
+call SaveInteger(Pv,0,mE[2],2)
+call pus(mE[2],bu)
+set p1s=pE[2]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNCharm.blp",0,true)
+set p1s=rE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff바운티헌터|r")
+set p1s=WE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead라인 몬스터 처치시 낮은 확률로 보물상자 발견\n보물상자에서는 여러가지 재화를 획득할 수 있습니다.|r")
+set P1s=iE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cffc0c0c0- \"어쩌면 미지의 보물을 발견할 수 있을지도...\"|r")
+set p1s=DW
+set pE[3]=q6R(p1s,"GUILogPose__secondnavigationbutton icon")
+call vAv(pE[3],30.,30.)
+call Nlv(pE[3],p1s,40.,520.)
+set rE[3]=ZpR(pE[3],"GUILogPose__secondnavigationbutton text1")
+set p1s=rE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(rE[3],3,pE[3],3,40.,0.)
+set p1s=rE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set WE[3]=ZpR(pE[3],"GUILogPose__secondnavigationbutton text2")
+set p1s=WE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(WE[3],pE[3],15.,40.)
+set p1s=WE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set iE[3]=ZpR(pE[3],"GUILogPose__secondnavigationbutton text2")
+set p1s=iE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(iE[3],pE[3],15.,90.)
+set p1s=iE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set mE[3]=Gns(pE[3],"GUILogPose__secondnavigationbutton button")
+call vAv(mE[3],550.,140.)
+call Nlv(mE[3],pE[3],0.,0.)
+call SaveInteger(Pv,0,mE[3],3)
+call pus(mE[3],bu)
+set p1s=pE[3]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp",0,true)
+set p1s=rE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff로얄로더|r")
+set p1s=WE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead최상위 유닛 조합시 해당 유닛에 추가 능력치 부여\n ▶ 공격속도 25%, 공격력 25000 증가\n ▶ 공격시 8% 확률로 400범위 25만 5000 고정데미지\n(유닛의 기본 공격속도가 느릴수록 데미지 증가)|r")
+set P1s=iE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"")
+set p1s=SW
+set CK[3]=q6R(p1s,"GUILogPose__navigationIcon icon")
+call vAv(CK[3],60.,60.)
+call Hjv(CK[3],1,p1s,1,0.,80.)
+set LK[3]=ZpR(CK[3],"GUILogPose__navigationIcon text1")
+set p1s=LK[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Hjv(LK[3],1,CK[3],1,0.,70.)
+set P1s=LK[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,P1s),false)
+set p1s=CK[3]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNGlyph.blp",0,true)
+set P1s=LK[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cff1e90ff도박광 |r")
+set p1s=SW
+set YE[1]=q6R(p1s,"GUILogPose__thirdnavigationbutton icon")
+call vAv(YE[1],30.,30.)
+call Nlv(YE[1],p1s,40.,200.)
+set dE[1]=ZpR(YE[1],"GUILogPose__thirdnavigationbutton text1")
+set p1s=dE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(dE[1],3,YE[1],3,40.,0.)
+set p1s=dE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set GE[1]=ZpR(YE[1],"GUILogPose__thirdnavigationbutton text2")
+set p1s=GE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(GE[1],YE[1],15.,40.)
+set p1s=GE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set qE[1]=ZpR(YE[1],"GUILogPose__thirdnavigationbutton text2")
+set p1s=qE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(qE[1],YE[1],15.,90.)
+set p1s=qE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set ZE[1]=Gns(YE[1],"GUILogPose__thirdnavigationbutton button")
+call vAv(ZE[1],550.,140.)
+call Nlv(ZE[1],YE[1],0.,0.)
+call SaveInteger(Pv,0,ZE[1],1)
+call pus(ZE[1],Mu)
+set p1s=YE[1]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNBlood&GhostKey.blp",0,true)
+set p1s=dE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff카지노|r")
+set p1s=GE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead'유닛도박 :: 고급' 성공시 무조건 희귀 유닛 획득|r\n|cff4FC9DE[이세계모드] 이세계 도박 횟수 2배 증가\n이세계 도박 실패시 50% 확률로 희귀 유닛 획득|r")
+set P1s=qE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cffff0000페널티|r|cffffdead\n하급, 중급 유닛도박 비활성화\n도박에서 '실버즈 레일리 - 희귀' 획득 불가|r")
+set p1s=SW
+set YE[2]=q6R(p1s,"GUILogPose__thirdnavigationbutton icon")
+call vAv(YE[2],30.,30.)
+call Nlv(YE[2],p1s,40.,360.)
+set dE[2]=ZpR(YE[2],"GUILogPose__thirdnavigationbutton text1")
+set p1s=dE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(dE[2],3,YE[2],3,40.,0.)
+set p1s=dE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set GE[2]=ZpR(YE[2],"GUILogPose__thirdnavigationbutton text2")
+set p1s=GE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(GE[2],YE[2],15.,40.)
+set p1s=GE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set qE[2]=ZpR(YE[2],"GUILogPose__thirdnavigationbutton text2")
+set p1s=qE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(qE[2],YE[2],15.,90.)
+set p1s=qE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set ZE[2]=Gns(YE[2],"GUILogPose__thirdnavigationbutton button")
+call vAv(ZE[2],550.,140.)
+call Nlv(ZE[2],YE[2],0.,0.)
+call SaveInteger(Pv,0,ZE[2],2)
+call pus(ZE[2],Mu)
+set p1s=YE[2]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp",0,true)
+set p1s=dE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff리스크헷지|r")
+set p1s=GE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead'유닛도박 :: 고급' 실패시 행운의 토큰 1개, 목재 1개 추가 지급\n희귀 유닛 리롤 코스트 제거 및 리롤 횟수 +1|r\n|cff4FC9DE[이세계모드] 이세계 도박 실패시 확률 15% 증가\n|cff4FC9DE이세계 유닛 리롤 코스트 제거|r")
+set P1s=qE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"\n|cffc0c0c0- \"겁쟁이들을 위한 놀이터는 존재하지 않는다.\"|r")
+set p1s=SW
+set YE[3]=q6R(p1s,"GUILogPose__thirdnavigationbutton icon")
+call vAv(YE[3],30.,30.)
+call Nlv(YE[3],p1s,40.,520.)
+set dE[3]=ZpR(YE[3],"GUILogPose__thirdnavigationbutton text1")
+set p1s=dE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(dE[3],3,YE[3],3,40.,0.)
+set p1s=dE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set GE[3]=ZpR(YE[3],"GUILogPose__thirdnavigationbutton text2")
+set p1s=GE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(GE[3],YE[3],15.,40.)
+set p1s=GE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set qE[3]=ZpR(YE[3],"GUILogPose__thirdnavigationbutton text2")
+set p1s=qE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(qE[3],YE[3],15.,90.)
+set p1s=qE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set ZE[3]=Gns(YE[3],"GUILogPose__thirdnavigationbutton button")
+call vAv(ZE[3],550.,140.)
+call Nlv(ZE[3],YE[3],0.,0.)
+call SaveInteger(Pv,0,ZE[3],3)
+call pus(ZE[3],Mu)
+set p1s=YE[3]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNBreathOfFire.blp",0,true)
+set p1s=dE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff환전소|r")
+set p1s=GE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead'유닛도박 :: 중급' 시도시 다양한 재화로 교환할 수 있는 콤푸 획득\n|cffc0c0c0- \"그래서 내가 뭐를 해? 깡을 해.\"|r\n|cff4FC9DE[이세계모드] 환전소에 랜덤전용 유닛 추가|r")
+set P1s=qE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cffff0000페널티|r|cffffdead\n항법 기본효과와 유닛도박 고급 비활성화|r")
+set p1s=VW
+set CK[4]=q6R(p1s,"GUILogPose__navigationIcon icon")
+call vAv(CK[4],60.,60.)
+call Hjv(CK[4],1,p1s,1,0.,80.)
+set LK[4]=ZpR(CK[4],"GUILogPose__navigationIcon text1")
+set p1s=LK[4]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Hjv(LK[4],1,CK[4],1,0.,70.)
+set P1s=LK[4]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,P1s),false)
+set p1s=CK[4]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp",0,true)
+set P1s=LK[4]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cff1e90ff최고의도움 |r")
+set p1s=VW
+set yE[1]=q6R(p1s,"GUILogPose__fourthnavigationbutton icon")
+call vAv(yE[1],30.,30.)
+call Nlv(yE[1],p1s,40.,200.)
+set lE[1]=ZpR(yE[1],"GUILogPose__fourthnavigationbutton text1")
+set p1s=lE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(lE[1],3,yE[1],3,40.,0.)
+set p1s=lE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set NE[1]=ZpR(yE[1],"GUILogPose__fourthnavigationbutton text2")
+set p1s=NE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(NE[1],yE[1],15.,40.)
+set p1s=NE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set wE[1]=ZpR(yE[1],"GUILogPose__fourthnavigationbutton text2")
+set p1s=wE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(wE[1],yE[1],15.,90.)
+set p1s=wE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set DE[1]=Gns(yE[1],"GUILogPose__fourthnavigationbutton button")
+call vAv(DE[1],550.,140.)
+call Nlv(DE[1],yE[1],0.,0.)
+call SaveInteger(Pv,0,DE[1],1)
+call pus(DE[1],gu)
+set p1s=yE[1]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNFlakCannons.blp",0,true)
+set p1s=lE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff최대출력|r")
+set p1s=NE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead버스터콜, 해루석, 대지진, 낙뢰, 독약 스킬 강화|r\n|cffffdead도움소에 '마나포션' 스킬 추가 (사용시 마나회복)|r")
+set P1s=wE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"")
+set p1s=VW
+set yE[2]=q6R(p1s,"GUILogPose__fourthnavigationbutton icon")
+call vAv(yE[2],30.,30.)
+call Nlv(yE[2],p1s,40.,360.)
+set lE[2]=ZpR(yE[2],"GUILogPose__fourthnavigationbutton text1")
+set p1s=lE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(lE[2],3,yE[2],3,40.,0.)
+set p1s=lE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set NE[2]=ZpR(yE[2],"GUILogPose__fourthnavigationbutton text2")
+set p1s=NE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(NE[2],yE[2],15.,40.)
+set p1s=NE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set wE[2]=ZpR(yE[2],"GUILogPose__fourthnavigationbutton text2")
+set p1s=wE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(wE[2],yE[2],15.,90.)
+set p1s=wE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set DE[2]=Gns(yE[2],"GUILogPose__fourthnavigationbutton button")
+call vAv(DE[2],550.,140.)
+call Nlv(DE[2],yE[2],0.,0.)
+call SaveInteger(Pv,0,DE[2],2)
+call pus(DE[2],gu)
+set p1s=yE[2]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNGreaterInvisibility.blp",0,true)
+set p1s=lE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff연금술|r")
+set p1s=NE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead도움소에 '연금술' 스킬 추가\n연금술은 마나를 소비해 유닛을 분해합니다.|r")
+set P1s=wE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cffc0c0c0- \"등가교환의 법칙. 연금술의 기본 아닌가?\"|r")
+set p1s=VW
+set yE[3]=q6R(p1s,"GUILogPose__fourthnavigationbutton icon")
+call vAv(yE[3],30.,30.)
+call Nlv(yE[3],p1s,40.,520.)
+set lE[3]=ZpR(yE[3],"GUILogPose__fourthnavigationbutton text1")
+set p1s=lE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(lE[3],3,yE[3],3,40.,0.)
+set p1s=lE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set NE[3]=ZpR(yE[3],"GUILogPose__fourthnavigationbutton text2")
+set p1s=NE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(NE[3],yE[3],15.,40.)
+set p1s=NE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set wE[3]=ZpR(yE[3],"GUILogPose__fourthnavigationbutton text2")
+set p1s=wE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(wE[3],yE[3],15.,90.)
+set p1s=wE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set DE[3]=Gns(yE[3],"GUILogPose__fourthnavigationbutton button")
+call vAv(DE[3],550.,140.)
+call Nlv(DE[3],yE[3],0.,0.)
+call SaveInteger(Pv,0,DE[3],3)
+call pus(DE[3],gu)
+set p1s=yE[3]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNManaDrain.blp",0,true)
+set p1s=lE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff역발상|r")
+set p1s=NE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead'실버즈 레일리 - 희귀' 즉시 획득\n유니크 아이템 발굴 스택 1 획득|r")
+set P1s=wE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cffff0000페널티|r|cffffdead\n항법 기본효과 비활성화\n마나 소모량이 150이하인 스킬만 사용 가능")
+set p1s=hW
+set CK[5]=q6R(p1s,"GUILogPose__navigationIcon icon")
+call vAv(CK[5],60.,60.)
+call Hjv(CK[5],1,p1s,1,0.,80.)
+set LK[5]=ZpR(CK[5],"GUILogPose__navigationIcon text1")
+set p1s=LK[5]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Hjv(LK[5],1,CK[5],1,0.,70.)
+set P1s=LK[5]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,P1s),false)
+set p1s=CK[5]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp",0,true)
+set P1s=LK[5]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cff1e90ff랜덤선택 |r")
+set p1s=hW
+set SE[1]=q6R(p1s,"GUILogPose__fifthnavigationbutton icon")
+call vAv(SE[1],30.,30.)
+call Nlv(SE[1],p1s,40.,200.)
+set VE[1]=ZpR(SE[1],"GUILogPose__fifthnavigationbutton text1")
+set p1s=VE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(VE[1],3,SE[1],3,40.,0.)
+set p1s=VE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set hE[1]=ZpR(SE[1],"GUILogPose__fifthnavigationbutton text2")
+set p1s=hE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(hE[1],SE[1],15.,40.)
+set p1s=hE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set cE[1]=ZpR(SE[1],"GUILogPose__fifthnavigationbutton text2")
+set p1s=cE[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(cE[1],SE[1],15.,90.)
+set p1s=cE[1]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set kE[1]=Gns(SE[1],"GUILogPose__fifthnavigationbutton button")
+call vAv(kE[1],550.,140.)
+call Nlv(kE[1],SE[1],0.,0.)
+call SaveInteger(Pv,0,kE[1],1)
+call pus(kE[1],uu)
+set p1s=SE[1]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"BTN\\BTNRandomBlue.blp",0,true)
+set p1s=VE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff파란색맛|r")
+set p1s=hE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead랜덤으로 항법을 선택합니다.\n랜덤위습 1기 추가 획득|r")
+set P1s=cE[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"")
+set p1s=hW
+set SE[2]=q6R(p1s,"GUILogPose__fifthnavigationbutton icon")
+call vAv(SE[2],30.,30.)
+call Nlv(SE[2],p1s,40.,360.)
+set VE[2]=ZpR(SE[2],"GUILogPose__fifthnavigationbutton text1")
+set p1s=VE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(VE[2],3,SE[2],3,40.,0.)
+set p1s=VE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set hE[2]=ZpR(SE[2],"GUILogPose__fifthnavigationbutton text2")
+set p1s=hE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(hE[2],SE[2],15.,40.)
+set p1s=hE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set cE[2]=ZpR(SE[2],"GUILogPose__fifthnavigationbutton text2")
+set p1s=cE[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(cE[2],SE[2],15.,90.)
+set p1s=cE[2]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set kE[2]=Gns(SE[2],"GUILogPose__fifthnavigationbutton button")
+call vAv(kE[2],550.,140.)
+call Nlv(kE[2],SE[2],0.,0.)
+call SaveInteger(Pv,0,kE[2],2)
+call pus(kE[2],uu)
+set p1s=SE[2]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"BTN\\BTNRandomGreen.blp",0,true)
+set p1s=VE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff초록색맛|r")
+set p1s=hE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead랜덤으로 항법을 선택합니다.\n1 목재 추가 획득|r")
+set P1s=cE[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"")
+set p1s=hW
+set SE[3]=q6R(p1s,"GUILogPose__fifthnavigationbutton icon")
+call vAv(SE[3],30.,30.)
+call Nlv(SE[3],p1s,40.,520.)
+set VE[3]=ZpR(SE[3],"GUILogPose__fifthnavigationbutton text1")
+set p1s=VE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(VE[3],3,SE[3],3,40.,0.)
+set p1s=VE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set hE[3]=ZpR(SE[3],"GUILogPose__fifthnavigationbutton text2")
+set p1s=hE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(hE[3],SE[3],15.,40.)
+set p1s=hE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set cE[3]=ZpR(SE[3],"GUILogPose__fifthnavigationbutton text2")
+set p1s=cE[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(cE[3],SE[3],15.,90.)
+set p1s=cE[3]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,p1s),false)
+set kE[3]=Gns(SE[3],"GUILogPose__fifthnavigationbutton button")
+call vAv(kE[3],550.,140.)
+call Nlv(kE[3],SE[3],0.,0.)
+call SaveInteger(Pv,0,kE[3],3)
+call pus(kE[3],uu)
+set p1s=SE[3]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"BTN\\BTNRandomYellow.blp",0,true)
+set p1s=VE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff노란색맛|r")
+set p1s=hE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffffdead랜덤으로 항법을 선택합니다.\n압살롬 1기 추가 획득|r")
+set P1s=cE[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"")
+set yW=q6R(GW,"GUISubInterface")
+set P1s=yW
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,P1s),"Interface\\LogPoseSubGround.tga",0,true)
+call Hjv(yW,6,GW,8,30.,0.)
+call vAv(yW,620.,220.)
+set P1s=yW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,P1s),false)
+set p1s=yW
+set NK[1]=q6R(p1s,"GUILogPose__questsub icon")
+call vAv(NK[1],75.,75.)
+call Nlv(NK[1],p1s,30.,30.)
+set wK[1]=ZpR(NK[1],"GUILogPose__questsub text1")
+set p1s=wK[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Nlv(wK[1],NK[1],90.,0.)
+set DK[1]=ZpR(NK[1],"GUILogPose__questsub text2")
+set p1s=DK[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(DK[1],NK[1],90.,50.)
+set SK[1]=ZpR(NK[1],"GUILogPose__questsub text3")
+set p1s=SK[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(SK[1],NK[1],0.,100.)
+set VK[1]=ZpR(NK[1],"GUILogPose__questsub text4")
+set p1s=VK[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(VK[1],NK[1],0.,150.)
+call yuv(1,"ReplaceableTextures\\CommandButtons\\BTNScrollOfProtection.blp","|cffffdead퀘스트 :: 퀘스트 1번|r","|cffF361A6퀘스트 내용이 들어갑니다.|r","◎ 내용 : 추가설명이 들어갈 공간입니다.\n◎ 보상 : 보상이 들어갈 공간입니다.","|cff04ffc4조건 충족시 자동으로 퀘스트가 완료됩니다.|r")
+set P1s=NK[1]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,P1s),false)
+set p1s=yW
+set NK[2]=q6R(p1s,"GUILogPose__questsub icon")
+call vAv(NK[2],75.,75.)
+call Nlv(NK[2],p1s,30.,30.)
+set wK[2]=ZpR(NK[2],"GUILogPose__questsub text1")
+set p1s=wK[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Nlv(wK[2],NK[2],90.,0.)
+set DK[2]=ZpR(NK[2],"GUILogPose__questsub text2")
+set p1s=DK[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(DK[2],NK[2],90.,50.)
+set SK[2]=ZpR(NK[2],"GUILogPose__questsub text3")
+set p1s=SK[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(SK[2],NK[2],0.,100.)
+set VK[2]=ZpR(NK[2],"GUILogPose__questsub text4")
+set p1s=VK[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(VK[2],NK[2],0.,150.)
+call yuv(2,"ReplaceableTextures\\CommandButtons\\BTNScrollOfProtection.blp","|cffffdead퀘스트 :: 퀘스트 2번|r","|cffF361A6퀘스트 내용이 들어갑니다.|r","◎ 내용 : 추가설명이 들어갈 공간입니다.\n◎ 보상 : 보상이 들어갈 공간입니다.","|cff04ffc4조건 충족시 자동으로 퀘스트가 완료됩니다.|r")
+set P1s=NK[2]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,P1s),false)
+set p1s=yW
+set NK[3]=q6R(p1s,"GUILogPose__questsub icon")
+call vAv(NK[3],75.,75.)
+call Nlv(NK[3],p1s,30.,30.)
+set wK[3]=ZpR(NK[3],"GUILogPose__questsub text1")
+set p1s=wK[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Nlv(wK[3],NK[3],90.,0.)
+set DK[3]=ZpR(NK[3],"GUILogPose__questsub text2")
+set p1s=DK[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(DK[3],NK[3],90.,50.)
+set SK[3]=ZpR(NK[3],"GUILogPose__questsub text3")
+set p1s=SK[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(SK[3],NK[3],0.,100.)
+set VK[3]=ZpR(NK[3],"GUILogPose__questsub text4")
+set p1s=VK[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(VK[3],NK[3],0.,150.)
+call yuv(3,"ReplaceableTextures\\CommandButtons\\BTNScrollOfProtection.blp","|cffffdead퀘스트 :: 퀘스트 3번|r","|cffF361A6퀘스트 내용이 들어갑니다.|r","◎ 내용 : 추가설명이 들어갈 공간입니다.\n◎ 보상 : 보상이 들어갈 공간입니다.","|cff04ffc4조건 충족시 자동으로 퀘스트가 완료됩니다.|r")
+set P1s=NK[3]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,P1s),false)
+set p1s=yW
+set hK[1]=q6R(p1s,"GUILogPose__navigationsub icon")
+call vAv(hK[1],75.,75.)
+call Nlv(hK[1],p1s,30.,30.)
+set cK[1]=ZpR(hK[1],"GUILogPose__navigationsub text1")
+set p1s=cK[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Nlv(cK[1],hK[1],90.,0.)
+set kK[1]=ZpR(hK[1],"GUILogPose__navigationsub text2")
+set p1s=kK[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(kK[1],hK[1],90.,50.)
+set QK[1]=ZpR(hK[1],"GUILogPose__navigationsub text3")
+set p1s=QK[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(QK[1],hK[1],0.,100.)
+set UK[1]=ZpR(hK[1],"GUILogPose__navigationsub text4")
+set p1s=UK[1]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(UK[1],hK[1],0.,150.)
+set p1s=hK[1]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNNightElfCaptureFlag.blp",0,true)
+set p1s=cK[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff항법 :: 연합세력|r")
+set p1s=kK[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffF361A6자신의 세력을 불리기 쉬워집니다.|r")
+set p1s=QK[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"◎ 기본효과 : 전설, 히든 이상 유닛 조합시 랜덤위습 1개 획득")
+set P1s=UK[1]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cff04ffc4아이콘 클릭시 항법 선택창으로 이동합니다.|r")
+set P1s=hK[1]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,P1s),false)
+set p1s=yW
+set hK[2]=q6R(p1s,"GUILogPose__navigationsub icon")
+call vAv(hK[2],75.,75.)
+call Nlv(hK[2],p1s,30.,30.)
+set cK[2]=ZpR(hK[2],"GUILogPose__navigationsub text1")
+set p1s=cK[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Nlv(cK[2],hK[2],90.,0.)
+set kK[2]=ZpR(hK[2],"GUILogPose__navigationsub text2")
+set p1s=kK[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(kK[2],hK[2],90.,50.)
+set QK[2]=ZpR(hK[2],"GUILogPose__navigationsub text3")
+set p1s=QK[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(QK[2],hK[2],0.,100.)
+set UK[2]=ZpR(hK[2],"GUILogPose__navigationsub text4")
+set p1s=UK[2]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(UK[2],hK[2],0.,150.)
+set p1s=hK[2]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNIceCrownObelisk.blp",0,true)
+set p1s=cK[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff항법 :: 패왕의길|r")
+set p1s=kK[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffF361A6강력한 서포터를 소환합니다.|r")
+set p1s=QK[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"◎ 기본효과 : '전설' 등급 유닛 레오 소환\n|cffff0000※ 페널티|r : 최상위 유닛 |cffff00001기|r만 조합 가능")
+set P1s=UK[2]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cff04ffc4아이콘 클릭시 항법 선택창으로 이동합니다.|r")
+set P1s=hK[2]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,P1s),false)
+set p1s=yW
+set hK[3]=q6R(p1s,"GUILogPose__navigationsub icon")
+call vAv(hK[3],75.,75.)
+call Nlv(hK[3],p1s,30.,30.)
+set cK[3]=ZpR(hK[3],"GUILogPose__navigationsub text1")
+set p1s=cK[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Nlv(cK[3],hK[3],90.,0.)
+set kK[3]=ZpR(hK[3],"GUILogPose__navigationsub text2")
+set p1s=kK[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(kK[3],hK[3],90.,50.)
+set QK[3]=ZpR(hK[3],"GUILogPose__navigationsub text3")
+set p1s=QK[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(QK[3],hK[3],0.,100.)
+set UK[3]=ZpR(hK[3],"GUILogPose__navigationsub text4")
+set p1s=UK[3]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(UK[3],hK[3],0.,150.)
+set p1s=hK[3]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNGlyph.blp",0,true)
+set p1s=cK[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff항법 :: 도박광|r")
+set p1s=kK[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffF361A6도박시 효과가 상승합니다.|r")
+set p1s=QK[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"◎ 기본효과 : 희귀 리롤 횟수 +1")
+set P1s=UK[3]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cff04ffc4아이콘 클릭시 항법 선택창으로 이동합니다.|r")
+set P1s=hK[3]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,P1s),false)
+set p1s=yW
+set hK[4]=q6R(p1s,"GUILogPose__navigationsub icon")
+call vAv(hK[4],75.,75.)
+call Nlv(hK[4],p1s,30.,30.)
+set cK[4]=ZpR(hK[4],"GUILogPose__navigationsub text1")
+set p1s=cK[4]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Nlv(cK[4],hK[4],90.,0.)
+set kK[4]=ZpR(hK[4],"GUILogPose__navigationsub text2")
+set p1s=kK[4]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(kK[4],hK[4],90.,50.)
+set QK[4]=ZpR(hK[4],"GUILogPose__navigationsub text3")
+set p1s=QK[4]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(QK[4],hK[4],0.,100.)
+set UK[4]=ZpR(hK[4],"GUILogPose__navigationsub text4")
+set p1s=UK[4]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(UK[4],hK[4],0.,150.)
+set p1s=hK[4]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp",0,true)
+set p1s=cK[4]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff항법 :: 최고의도움|r")
+set p1s=kK[4]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffF361A6도움소 효과가 크게 상승합니다.|r")
+set p1s=QK[4]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"◎ 기본효과 : 도움소 마나회복 초당 0.7 증가")
+set P1s=UK[4]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cff04ffc4아이콘 클릭시 항법 선택창으로 이동합니다.|r")
+set P1s=hK[4]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,P1s),false)
+set p1s=yW
+set hK[5]=q6R(p1s,"GUILogPose__navigationsub icon")
+call vAv(hK[5],75.,75.)
+call Nlv(hK[5],p1s,30.,30.)
+set cK[5]=ZpR(hK[5],"GUILogPose__navigationsub text1")
+set p1s=cK[5]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Nlv(cK[5],hK[5],90.,0.)
+set kK[5]=ZpR(hK[5],"GUILogPose__navigationsub text2")
+set p1s=kK[5]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(kK[5],hK[5],90.,50.)
+set QK[5]=ZpR(hK[5],"GUILogPose__navigationsub text3")
+set p1s=QK[5]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(QK[5],hK[5],0.,100.)
+set UK[5]=ZpR(hK[5],"GUILogPose__navigationsub text4")
+set p1s=UK[5]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(UK[5],hK[5],0.,150.)
+set p1s=hK[5]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,p1s),"ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp",0,true)
+set p1s=cK[5]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cff1e90ff항법 :: 랜덤선택|r")
+set p1s=kK[5]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"|cffF361A6결정장애를 가진 당신을 위한 최고의 선택|r")
+set p1s=QK[5]
+call BlzFrameSetText(LoadFrameHandle(pv,0,p1s),"◎ 기본효과 : 무작위 항법을 선택합니다.")
+set P1s=UK[5]
+call BlzFrameSetText(LoadFrameHandle(pv,0,P1s),"|cff04ffc4아이콘 클릭시 항법 선택창으로 이동합니다.|r")
+set P1s=hK[5]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,P1s),false)
+set L2s=0
+loop
+exitwhen L2s>=2
+set v1s=1
+loop
+exitwhen v1s>5
+set P1s=v1s+L2s*5
+set p1s=yW
+set BK[P1s]=q6R(p1s,"MissionQuestsub icon")
+call vAv(BK[P1s],75.,75.)
+call Nlv(BK[P1s],p1s,30.,30.)
+set HK[P1s]=ZpR(BK[P1s],"MissionQuestsub text1")
+set p1s=HK[P1s]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruMedium.ttf",30.*sv,0)
+call Nlv(HK[P1s],BK[P1s],90.,0.)
+set oK[P1s]=ZpR(BK[P1s],"MissionQuestsub text2")
+set p1s=oK[P1s]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(oK[P1s],BK[P1s],90.,50.)
+set jK[P1s]=ZpR(BK[P1s],"MissionQuestsub text3")
+set p1s=jK[P1s]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",15.*sv,0)
+call Nlv(jK[P1s],BK[P1s],0.,100.)
+set KK[P1s]=ZpR(BK[P1s],"MissionQuestsub text4")
+set p1s=KK[P1s]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,p1s),"Fonts\\esamanruLight.ttf",20.*sv,0)
+call Nlv(KK[P1s],BK[P1s],0.,150.)
+set P1s=BK[v1s+L2s*5]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,P1s),false)
+set v1s=v1s+1
+endloop
+set L2s=L2s+1
+endloop
+set F2s=null
+endfunction
+function ehv takes integer Khv returns nothing
+local integer Ehv=GetPlayerId(GetTriggerPlayer())
+local integer Jhv
+if GetLocalPlayer()==Player(Ehv) then
+set Jhv=yW
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Jhv),true)
+set Jhv=hK[Khv]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,Jhv),true)
+endif
+endfunction
+function r2R takes nothing returns nothing
+local hashtable p2R=Pv
+local framehandle P2R=BlzGetTriggerFrame()
+local integer s2R
+call SaveFrameHandle(pv,0,GetHandleId(P2R),P2R)
+set s2R=LoadInteger(p2R,0,GetHandleId(P2R))
+call ehv(s2R)
+set P2R=null
+set p2R=null
+endfunction
+function r3v takes nothing returns nothing
+call i2v(GetPlayerId(GetTriggerPlayer()))
+endfunction
+function r4s takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call CUv(Op,LoadUnitHandle(gj,0,Op*$1f4+1),EVENT_UNIT_DAMAGED,Condition(FT),4)
+call AWR(Op,.45,3)
+elseif vo[Op]==3 then
+call OPR(Op)
+call qjR(Op)
+elseif vo[Op]==4 then
+call rRR(Op,3,rp[GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))])
+call YIs(LoadUnitHandle(gj,0,Op*$1f4+3),.0,400.,LoadLocationHandle(Aj,0,Op*$1f4+1),GetEventDamage()*1.05+105000.,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+call qjR(Op)
+endif
+endfunction
+function JGR takes nothing returns nothing
+local integer EGR=0
+loop
+exitwhen EGR>=4
+if ks[EGR] and Pk[EGR]then
+call DisplayTimedTextToPlayer(Player(EGR),0.,0.,10.,"기여도 "+I2S(Fc)+"% 이상으로 |cffffd700"+GetObjectName($65304958)+"|r 1개 추가 획득!")
+call yRR(Player(EGR),1)
+endif
+set EGR=EGR+1
+endloop
+endfunction
+function usR takes nothing returns nothing
+local integer JsR=0
+local player esR
+local integer tsR
+local real xsR
+local real bsR
+local boolean MsR
+local boolean gsR
+loop
+exitwhen JsR>=4
+if ks[JsR]then
+set esR=Player(JsR)
+call SetPlayerState(esR,PLAYER_STATE_RESOURCE_GOLD,GetPlayerState(esR,PLAYER_STATE_RESOURCE_GOLD)+$bb8)
+set esR=Player(JsR)
+call SetPlayerState(esR,PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(esR,PLAYER_STATE_RESOURCE_LUMBER)+1)
+call mAR(Player(JsR),2)
+set esR=Player(JsR)
+set xsR=GetRectCenterX(VY)
+set bsR=GetRectCenterY(VY)
+call u2R(esR,$65303136,2,xsR,bsR,bj_UNIT_FACING)
+call SetPlayerTechResearched(Player(JsR),$5230314e,1)
+if wWR(1,$64)<=5 then
+set esR=Player(JsR)
+set MsR=false
+if not HaveSavedBoolean(kW,GetPlayerId(esR),$41493033) then
+set gsR=false
+set MsR=true
+endif
+if not MsR then
+set gsR=LoadBoolean(kW,GetPlayerId(esR),$41493033)
+set MsR=true
+endif
+if not MsR then
+set gsR=false
+endif
+if not gsR then
+set tsR=Bos(Player(JsR),$41493033)
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,GetPlayerName(Player(JsR))+"|r 님이 "+GetObjectName($6e303035)+" 를 파괴하여 "+GetObjectName(tsR)+" 획득!")
+endif
+endif
+endif
+set JsR=JsR+1
+endloop
+set esR=null
+endfunction
+function rjR takes nothing returns nothing
+local string CoR=""
+local unitstate RjR=UNIT_STATE_MAX_LIFE
+local unit sjR=GetTriggerUnit()
+local real LoR=GetUnitState(sjR,RjR)
+local integer vjR=0
+local real FoR
+local integer PjR
+local integer pjR
+loop
+exitwhen vjR>=4
+if as[vjR]then
+call wIs(vjR)
+else
+call Yms(vjR)
+endif
+set vjR=vjR+1
+endloop
+call PauseTimer(Cc)
+set Lc=false
+set PjR=0
+set pjR=0
+loop
+exitwhen PjR>=4
+if ks[PjR] and GetPlayerSlotState(Player(PjR))==PLAYER_SLOT_STATE_PLAYING and GetPlayerController(Player(PjR))==MAP_CONTROL_USER then
+set pjR=pjR+1
+endif
+set PjR=PjR+1
+endloop
+if pjR==2 then
+set Fc=30
+elseif pjR==3 then
+set Fc=25
+else
+set Fc=20
+endif
+set vjR=0
+loop
+exitwhen vjR>=4
+if ks[vjR]then
+set FoR=100.*(fc[vjR]/LoR)
+set Pk[vjR]=FoR>=I2R(Fc)
+set pjR=R2I(($12c-mR[4])*FoR*5./100.)
+call DisplayTimedTextToPlayer(Player(vjR),0.,0.,5.,"|cffffd700자신이 가한데미지는 "+R2SW(FoR,0,2)+"% 입니다.")
+if pjR>0 then
+call DisplayTimedTextToPlayer(Player(vjR),0.,0.,10.,"|cffdc143c[클리어점수]|r 스토리 파괴 : |cffffd700"+I2S(pjR)+"점|r")
+call Nss(vjR,pjR)
+endif
+if vk<=fc[vjR]then
+set vk=fc[vjR]
+set Rk=vjR
+set sk=FoR
+endif
+endif
+set vjR=vjR+1
+endloop
+set JP[Rk]=JP[Rk]+1
+set WR[4]=Player(Rk)
+set iR[4]=sk*1.
+call usR()
+call JGR()
+call rcs(Player(Rk),$1388)
+call yRR(Player(Rk),1)
+set CoR=CoR+"|cffFF0000"+GetObjectName($6e303035)+"|r 스토리 진행 완료! 모든 플레이어에게 보상을 지급합니다.\n"
+set CoR=CoR+"|cffffdead◎|r 재화 : |cffffd7003000 골드|r, |cff7ad8231 목재|r\n"
+set CoR=CoR+"|cffffdead◎|r 유닛 : |cff0080ff"+GetObjectName($65303136)+"|r 2개, |cff9553ec"+GetObjectName($65303137)+"|r 2개\n"
+set CoR=CoR+"|cffffdead◎|r MVP : "+GetPlayerName(Player(Rk))+" (기여도 : |cffFF0000"+R2SW(sk,0,2)+"%|r)\n"
+set CoR=CoR+"|cffffdead　▶|r 해당 플레이어에게 |cffffd700"+GetObjectName($65304958)+"|r 1개를 추가 지급합니다!"
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,CoR)
+set RjR=null
+set sjR=null
+endfunction
+function r5v takes nothing returns nothing
+call hjR(nc)
+set mR[4]=Xc
+call rjR()
+call TriggerEvaluate(h)
+call TriggerEvaluate(LoadTriggerHandle(T,8,5))
+endfunction
+function r7R takes nothing returns nothing
+local unit R7R=GetAttacker()
+local unit s7R=GetTriggerUnit()
+local location P7R=GetUnitLoc(s7R)
+local unitstate p7R
+if wWR(1,$64)<=10 then
+call CreateUnitAtLoc(ds,$6530314b,P7R,GetRandomReal(0.,360.))
+if GetUnitAbilityLevel(s7R,$41393032)<=0 and GetUnitAbilityLevel(s7R,$41393131)<=0 and GetUnitAbilityLevel(s7R,$41393033)<=0 and GetUnitAbilityLevel(s7R,$41393034)<=0 then
+set p7R=UNIT_STATE_LIFE
+call yDs(R7R,s7R,GetUnitState(s7R,p7R)*.10*(.79+.01*I2R(GetUnitAbilityLevel(s7R,$41313153))),1.,1.,ATTACK_TYPE_PIERCE,DAMAGE_TYPE_UNIVERSAL)
+else
+call yDs(R7R,s7R,12500.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+endif
+call RemoveLocation(P7R)
+set R7R=null
+set s7R=null
+set P7R=null
+set p7R=null
+endfunction
+function r7s takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call rRR(Op,3,rp[GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))])
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call WQs(Op,2,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),-700.,AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4),LoadLocationHandle(Aj,0,Op*$1f4+1))+D0v(-40.,40.)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303754,LoadLocationHandle(Aj,0,Op*$1f4+2),AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4+2),LoadLocationHandle(Aj,0,Op*$1f4+1))))
+call rRR(Op,10,CreateUnitAtLoc(ds,$68304335,LoadLocationHandle(Aj,0,Op*$1f4+2),AngleBetweenPoints(LoadLocationHandle(Aj,0,Op*$1f4+2),LoadLocationHandle(Aj,0,Op*$1f4+1))))
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),.0,5200.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.55,1.,1.)
+call SetUnitAnimationByIndex(LoadUnitHandle(gj,0,Op*$1f4+10),45)
+call mUs("!cftx2.mdx",LoadUnitHandle(gj,0,Op*$1f4+10),"origin")
+call Ehs(Op,.19)
+elseif vo[Op]==1 then
+call SetUnitX(LoadUnitHandle(gj,0,Op*$1f4+10),GetLocationX(LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call SetUnitY(LoadUnitHandle(gj,0,Op*$1f4+10),GetLocationY(LoadLocationHandle(Aj,0,Op*$1f4+1)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303756,LoadLocationHandle(Aj,0,Op*$1f4+1),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303757,LoadLocationHandle(Aj,0,Op*$1f4+1),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call UnitDamagePointLoc(LoadUnitHandle(gj,0,Op*$1f4+3),.0,500.,LoadLocationHandle(Aj,0,Op*$1f4+1),375000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+call qjR(Op)
+endif
+endfunction
+function r8R takes nothing returns boolean
+return GetEventDamageSource()==LoadUnitHandle(gj,0,Op*$1f4) and GetEventDamage()>0.
+endfunction
+function r9R takes nothing returns boolean
+return true
+endfunction
+function r9v takes nothing returns nothing
+local integer p9v
+if GetUnitAbilityLevel(GetTriggerUnit(),$41303952)>=1 then
+set p9v=1
+elseif GetUnitAbilityLevel(GetTriggerUnit(),$41305437)>=1 then
+set p9v=2
+elseif GetUnitAbilityLevel(GetTriggerUnit(),$41305436)>=1 then
+set p9v=3
+endif
+if p9v==1 then
+call UnitRemoveAbility(GetTriggerUnit(),$41303952)
+call UnitAddAbility(GetTriggerUnit(),$41305437)
+call DisplayTimedTextToPlayer(GetTriggerPlayer(),0.,0.,5.,"|cffCDA4DE(블랙마리아)|r '멈춰서란 마리아' 로 변경")
+elseif p9v==2 then
+call UnitRemoveAbility(GetTriggerUnit(),$41305437)
+call UnitAddAbility(GetTriggerUnit(),$41305436)
+call DisplayTimedTextToPlayer(GetTriggerPlayer(),0.,0.,5.,"|cffCDA4DE(블랙마리아)|r '타오르란 마리아' 로 변경")
+elseif p9v==3 then
+call UnitRemoveAbility(GetTriggerUnit(),$41305436)
+call UnitAddAbility(GetTriggerUnit(),$41303952)
+call DisplayTimedTextToPlayer(GetTriggerPlayer(),0.,0.,5.,"|cffCDA4DE(블랙마리아)|r '꼼짝말란 마리아' 로 변경")
+endif
+endfunction
+function rAs takes nothing returns nothing
+local integer vAs=GetPlayerId(GetTriggerPlayer())
+local unit RAs=GetTriggerUnit()
+local player sAs=GetOwningPlayer(RAs)
+local unit PAs=GetSpellTargetUnit()
+local location pAs=GetUnitLoc(RAs)
+if GetUnitTypeId(PAs)==$6830434d then
+call IssueImmediateOrder(RAs,"stop")
+call DisplayTimedTextToPlayer(Player(vAs),0.,0.,5.,"|cffdb7093히바리 전설에는 사용이 불가능합니다.|r")
+set RAs=null
+set sAs=null
+set PAs=null
+set pAs=null
+return
+endif
+if GetUnitPointValue(PAs)<$65 then
+call IssueImmediateOrder(RAs,"stop")
+call DisplayTimedTextToPlayer(Player(vAs),0.,0.,5.,"|cffdb7093전설 이상 유닛에게만 사용 가능합니다.|r")
+set RAs=null
+set sAs=null
+set PAs=null
+set pAs=null
+return
+endif
+call ShowUnit(RAs,false)
+call KillUnit(RAs)
+set RAs=CreateUnitAtLoc(sAs,$68304335,pAs,0.)
+call UnitApplyTimedLife(RAs,$42487765,1.)
+call UnitAddAbility(RAs,$4130484f)
+if GetUnitTypeId(PAs)==$4830434f then
+call SetUnitAbilityLevel(RAs,$4130484f,2)
+call AddSpecialEffectTarget("HeartBurst.mdx",PAs,"overhead")
+endif
+call IssueTargetOrderById(RAs,OrderId("cripple"),PAs)
+call RemoveLocation(pAs)
+set RAs=null
+set sAs=null
+set PAs=null
+set pAs=null
+endfunction
+function rAv takes nothing returns nothing
+local integer pAv
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call WQs(Op,0,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4)))
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call frR(Op,0,0)
+call CUv(Op,LoadUnitHandle(gj,0,Op*$1f4+1),EVENT_UNIT_DAMAGED,pw,2)
+call AWR(Op,.64,1)
+elseif vo[Op]==1 then
+call OPR(Op)
+call qjR(Op)
+elseif vo[Op]==2 then
+call OPR(Op)
+call ols(LoadUnitHandle(gj,0,Op*$1f4),2)
+call rRR(Op,2,rp[GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))])
+call bTs(Op,0,GetEventDamage())
+call AWR(Op,.01,3)
+elseif vo[Op]==3 then
+if LoadInteger(Tj,0,Op*$1f4)==0 then
+call frR(Op,0,LoadInteger(Tj,0,Op*$1f4)+1)
+call WQs(Op,4,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),D0v(70.,315.),GetRandomReal(0.,360.)))
+call rRR(Op,4,CreateUnitAtLoc(ds,$65304258,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+4),2.,2.,2.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+4),$42544c46,.37)
+call EqR(LoadUnitHandle(gj,0,Op*$1f4+4),LoadLocationHandle(Aj,0,Op*$1f4+4),.21,.03)
+call AWR(Op,.15,3)
+else
+call frR(Op,0,0)
+call WQs(Op,5,PolarProjectionBJ(LoadLocationHandle(Aj,0,Op*$1f4+1),D0v(70.,315.),GetRandomReal(0.,360.)))
+call rRR(Op,5,CreateUnitAtLoc(ds,$65304258,LoadLocationHandle(Aj,0,Op*$1f4),GetRandomReal(0.,360.)))
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+5),2.,2.,2.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+5),$42544c46,.35)
+call EqR(LoadUnitHandle(gj,0,Op*$1f4+5),LoadLocationHandle(Aj,0,Op*$1f4+5),.21,.03)
+call AWR(Op,.2,4)
+endif
+elseif vo[Op]==4 then
+if LoadInteger(Tj,0,Op*$1f4)==0 then
+call frR(Op,0,LoadInteger(Tj,0,Op*$1f4)+1)
+call WQs(Op,3,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+4)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$6530494f,LoadLocationHandle(Aj,0,Op*$1f4+3),bj_UNIT_FACING))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303550,LoadLocationHandle(Aj,0,Op*$1f4+3),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+10),100.,25.,25.,30.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.6,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),80.,10000.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+if wWR(1,$64)<=40 then
+call bTs(Op,1,LoadReal(aj,0,Op*$1f4)*.1+400000.)
+call bTs(Op,1,LoadReal(aj,0,Op*$1f4+1)*1.5)
+call QSR(LoadUnitHandle(gj,0,Op*$1f4),R2I(LoadReal(aj,0,Op*$1f4+1)),"X",100.,10.,10.,135.,300.,true)
+else
+call bTs(Op,1,LoadReal(aj,0,Op*$1f4)*.1+400000.)
+endif
+set pAv=XbR()
+call dEv(pAv,500.,LoadLocationHandle(Aj,0,Op*$1f4+3),Pw,rL)
+call Vbv(pAv)
+call D6s(LoadUnitHandle(gj,0,Op*$1f4+1),1)
+call AWR(Op,.09,4)
+else
+call WQs(Op,3,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+5)))
+call rRR(Op,10,CreateUnitAtLoc(ds,$6530494f,LoadLocationHandle(Aj,0,Op*$1f4+3),bj_UNIT_FACING))
+call rRR(Op,10,CreateUnitAtLoc(ds,$65303550,LoadLocationHandle(Aj,0,Op*$1f4+3),GetUnitFacing(LoadUnitHandle(gj,0,Op*$1f4))))
+call SetUnitVertexColorBJ(LoadUnitHandle(gj,0,Op*$1f4+10),100.,25.,25.,30.)
+call SetUnitScale(LoadUnitHandle(gj,0,Op*$1f4+10),1.6,1.,1.)
+call SetUnitFlyHeight(LoadUnitHandle(gj,0,Op*$1f4+10),80.,10000.)
+call UnitApplyTimedLife(LoadUnitHandle(gj,0,Op*$1f4+10),$42487765,1.)
+if wWR(1,$64)<=40 then
+call bTs(Op,1,LoadReal(aj,0,Op*$1f4)*.1+400000.)
+call bTs(Op,1,LoadReal(aj,0,Op*$1f4+1)*1.5)
+call QSR(LoadUnitHandle(gj,0,Op*$1f4),R2I(LoadReal(aj,0,Op*$1f4+1)),"X",100.,10.,10.,135.,300.,true)
+else
+call bTs(Op,1,LoadReal(aj,0,Op*$1f4)*.1+400000.)
+endif
+set pAv=XbR()
+call dEv(pAv,500.,LoadLocationHandle(Aj,0,Op*$1f4+3),Pw,rL)
+call Vbv(pAv)
+call D6s(LoadUnitHandle(gj,0,Op*$1f4+1),1)
+call qjR(Op)
+endif
+endif
+endfunction
+function rBs takes nothing returns nothing
+local framehandle PBs=BlzGetOriginFrame(ORIGIN_FRAME_GAME_UI,0)
+local integer sBs
+local integer pBs
+call SaveFrameHandle(pv,0,GetHandleId(PBs),PBs)
+set sBs=GetHandleId(PBs)
+set KH[0]=q6R(sBs,"DiscordButton__DiscordButton icon")
+call vAv(KH[0],80.,60.)
+call Hjv(KH[0],0,sBs,0,180.,48.)
+set EH[0]=ZpR(KH[0],"DiscordButton__DiscordButton text1")
+set sBs=EH[0]
+call BlzFrameSetFont(LoadFrameHandle(pv,0,sBs),"Fonts\\esamanruMedium.ttf",20.*sv,0)
+call Hjv(EH[0],4,KH[0],4,0.,0.)
+set sBs=EH[0]
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,sBs),false)
+set JH[0]=biR(KH[0],"DiscordButton__DiscordButton button")
+call vAv(JH[0],80.,60.)
+call Hjv(JH[0],4,KH[0],4,0.,0.)
+call SaveInteger(Pv,0,JH[0],0)
+call pus(JH[0],Bx)
+call VQv(JH[0],Hx)
+call hVv(JH[0],ox)
+if "Interface\\DiscordButtonOff.tga"!="" then
+set pBs=KH[0]
+call BlzFrameSetTexture(LoadFrameHandle(pv,0,pBs),"Interface\\DiscordButtonOff.tga",0,true)
+endif
+set sBs=EH[0]
+call BlzFrameSetText(LoadFrameHandle(pv,0,sBs),"")
+set sBs=KH[0]
+call BlzFrameSetVisible(LoadFrameHandle(pv,0,sBs),false)
+set PBs=null
+endfunction
+function rBv takes nothing returns nothing
+local real sBv
+local real PBv
+local unit pBv
+call L2R()
+set ss=GetOwningPlayer(GetSpellAbilityUnit())
+set sBv=GetUnitX(GetSpellAbilityUnit())
+set PBv=GetUnitY(GetSpellAbilityUnit())
+set Ws=sBv
+set is=PBv
+set rs=true
+set Rs=GetSpellAbilityId()
+set pBv=GetSpellAbilityUnit()
+set Ps=pBv
+set ps=GetUnitTypeId(pBv)
+if not ODv() then
+set pBv=null
+return
+endif
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cffFF0000샹크스 : |r|cffFA8072누구도 막을 수 없게 된다. 폭주하는 이 시대를...|r")
+set pBv=null
+endfunction
+function rCR takes nothing returns nothing
+local unit CfR=GetAttacker()
+local unit LfR=GetTriggerUnit()
+local location vCR=GetUnitLoc(CfR)
+local location RCR=GetUnitLoc(LfR)
+local real sCR=GetUnitFacing(CfR)
+local unitstate pCR=UNIT_STATE_MANA
+local unitstate PCR=UNIT_STATE_MANA
+local unit FfR
+call SetUnitState(CfR,pCR,GetUnitState(CfR,PCR)+1.)
+set pCR=UNIT_STATE_MANA
+if GetUnitState(CfR,pCR)==160. then
+call SetUnitState(CfR,UNIT_STATE_MANA,0.)
+call TriggerExecute(fN)
+endif
+if GetUnitAbilityLevel(CfR,$42303345)<=0 then
+set FfR=CreateUnitAtLoc(ds,$65304c30,RCR,AngleBetweenPoints(RCR,vCR))
+call UnitApplyTimedLife(FfR,$42487765,1.)
+call IssueTargetOrderById(FfR,OrderId("frostarmor"),CfR)
+if GetUnitAbilityLevel(CfR,$41304b46)==2 then
+call TriggerExecute(CN)
+else
+call yDs(CfR,LfR,1000000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+set FfR=CreateUnitAtLoc(ds,$65303252,RCR,GetUnitFacing(LfR))
+call SetUnitTimeScale(FfR,3.)
+call SetUnitAnimation(FfR,"stand walk")
+call SetUnitVertexColor(FfR,$ff,$ff,$ff,$66)
+call CreateUnitAtLoc(ds,$65304937,RCR,sCR)
+set FfR=CreateUnitAtLoc(ds,$65303449,RCR,sCR)
+call SetUnitScale(FfR,2.,2.,2.)
+call SetUnitVertexColor(FfR,$ff,$ff,$ff,$7f)
+call UnitDamagePointLoc(CfR,.0,475.,RCR,1000000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+call TriggerExecute(LN)
+endif
+if wWR(1,$64)<=10 then
+set FfR=CreateUnitAtLoc(ds,$68303848,RCR,sCR)
+call SetUnitUserData(FfR,GetPlayerId(GetOwningPlayer(CfR)))
+call UnitApplyTimedLife(FfR,$42487765,1.)
+call g9R(FfR,LfR,GetUnitCurrentOrder(CfR))
+set FfR=CreateUnitAtLoc(ds,$65303846,RCR,GetRandomReal(0.,360.))
+call SetUnitScale(FfR,1.2,1.2,1.2)
+call UnitApplyTimedLife(FfR,$42487765,1.)
+call SetUnitFlyHeight(FfR,120.,.0)
+call SetUnitVertexColor(FfR,$76,$91,$91,$ff)
+call IssuePointOrderById(FfR,OrderId("dreadlordinferno"),GetLocationX(RCR),GetLocationY(RCR))
+call UnitDamagePointLoc(CfR,.0,525.,RCR,250000.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+set bj_lastPlayedSound=vPR("SE\\windcut.wav",null,$7f,1.,false,1000.,1500.)
+call StopSound(bj_lastPlayedSound,false,false)
+call IuR(CfR,bj_lastPlayedSound)
+endif
+call RemoveLocation(vCR)
+call RemoveLocation(RCR)
+set CfR=null
+set LfR=null
+set FfR=null
+set vCR=null
+set RCR=null
+set PCR=null
+set pCR=null
+endfunction
+function rDs takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+endfunction
+function rFR takes nothing returns nothing
+call ZQv(0)
+if vo[Op]==0 then
+call rRR(Op,0,GetAttacker())
+call rRR(Op,1,GetTriggerUnit())
+call CUv(Op,LoadUnitHandle(gj,0,Op*$1f4+1),EVENT_UNIT_DAMAGED,Condition(tC),2)
+call AWR(Op,.45,1)
+elseif vo[Op]==1 then
+call OPR(Op)
+call qjR(Op)
+elseif vo[Op]==2 then
+call WQs(Op,1,GetUnitLoc(LoadUnitHandle(gj,0,Op*$1f4+1)))
+call rRR(Op,3,rp[GetPlayerId(GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))])
+if GetUnitAbilityLevelSwapped($41305a37,LoadUnitHandle(gj,0,Op*$1f4))==4 then
+call UnitDamagePointLoc(LoadUnitHandle(gj,0,Op*$1f4+3),0.,400.,LoadLocationHandle(Aj,0,Op*$1f4+1),GetEventDamage()*.70,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+elseif GetUnitAbilityLevelSwapped($41305a37,LoadUnitHandle(gj,0,Op*$1f4))==3 then
+call UnitDamagePointLoc(LoadUnitHandle(gj,0,Op*$1f4+3),0.,400.,LoadLocationHandle(Aj,0,Op*$1f4+1),GetEventDamage()*.80,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+elseif GetUnitAbilityLevelSwapped($41305a37,LoadUnitHandle(gj,0,Op*$1f4))==2 then
+call UnitDamagePointLoc(LoadUnitHandle(gj,0,Op*$1f4+3),0.,400.,LoadLocationHandle(Aj,0,Op*$1f4+1),GetEventDamage()*1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+else
+call UnitDamagePointLoc(LoadUnitHandle(gj,0,Op*$1f4+3),0.,400.,LoadLocationHandle(Aj,0,Op*$1f4+1),GetEventDamage()*.80,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+endif
+call qjR(Op)
+endif
+endfunction
+function rHs takes nothing returns nothing
+local integer RHs=0
+local real sHs
+local integer PHs
+local integer pHs
+if Vk<=0. then
+return
+endif
+set PHs=0
+set pHs=0
+loop
+exitwhen PHs>=4
+if ks[PHs] and GetPlayerSlotState(Player(PHs))==PLAYER_SLOT_STATE_PLAYING and GetPlayerController(Player(PHs))==MAP_CONTROL_USER then
+set pHs=pHs+1
+endif
+set PHs=PHs+1
+endloop
+if pHs==2 then
+set Uk=30
+elseif pHs==3 then
+set Uk=25
+else
+set Uk=20
+endif
+loop
+exitwhen RHs>=4
+if as[RHs]then
+call Jav(RHs,GetObjectName($6e303037))
+set PHs=0
+loop
+exitwhen PHs>=4
+if ks[PHs]then
+set sHs=100.*ck[PHs]/Vk
+if sHs>=I2R(Uk) then
+call LeaderboardAddItem(uW[RHs],GetPlayerName(Player(PHs))+Us[PHs]+" [|cff00ff22"+R2SW(sHs,1,2)+"%|r"+Us[PHs]+" / |cff00ced1"+I2S(Uk)+"%|r"+Us[PHs]+"]|r",0,Player(PHs))
+else
+call LeaderboardAddItem(uW[RHs],GetPlayerName(Player(PHs))+Us[PHs]+" ["+R2SW(sHs,1,2)+"% / |cff00ced1"+I2S(Uk)+"%|r"+Us[PHs]+"]|r",0,Player(PHs))
+endif
+endif
+set PHs=PHs+1
+endloop
+call oqs(RHs)
+else
+call Yms(RHs)
+endif
+set RHs=RHs+1
+endloop
+endfunction
+function rHv takes nothing returns nothing
+local integer CBv=GetPlayerId(GetTriggerPlayer())
+local unit LBv=GetTriggerUnit()
+local unit FBv=GetSpellTargetUnit()
+local integer vHv=GetUnitTypeId(FBv)
+local integer RHv=0
+local player pHv=Player(CBv)
+local real sHv=GetStartLocationX(GetPlayerStartLocation(pHv))
+local real PHv
+set pHv=Player(CBv)
+set PHv=GetStartLocationY(GetPlayerStartLocation(pHv))
+if GetOwningPlayer(FBv)!=Player(7) then
+call DisplayTimedTextToPlayer(Player(CBv),0.,0.,5.,"|cffff0000[오류]|r 조합식 유닛에게만 사용할 수 있습니다.")
+set LBv=null
+set FBv=null
+set pHv=null
+return
+endif
+if vHv!=$68303630 and vHv!=$68303350 and vHv!=$68303351 and vHv!=$68303358 and vHv!=$6830334c and vHv!=$68303355 then
+call DisplayTimedTextToPlayer(Player(CBv),0.,0.,5.,"|cffff0000[오류]|r "+GetUnitName(LBv)+"가 건조할 수 있는 선박 유닛이 아닙니다.")
+call IssueImmediateOrder(LBv,"stop")
+set LBv=null
+set FBv=null
+set pHv=null
+return
+endif
+if vHv==$68303630 then
+set RHv=2
+elseif vHv==$68303350 then
+set RHv=10
+elseif vHv==$68303351 then
+set RHv=10
+elseif vHv==$68303358 then
+set RHv=15
+elseif vHv==$6830334c then
+set RHv=15
+elseif vHv==$68303355 then
+set RHv=20
+endif
+if RHv>0 then
+if GetPlayerState(Player(CBv),PLAYER_STATE_RESOURCE_LUMBER)<RHv then
+call DisplayTimedTextToPlayer(Player(CBv),0.,0.,10.,"|cffff0000[오류]|r |cff20b2aa"+GetUnitName(FBv)+"|r을 건조하려면 |cff7ad823"+I2S(RHv)+"목재|r가 필요합니다.")
+call IssueImmediateOrder(LBv,"stop")
+set LBv=null
+set FBv=null
+set pHv=null
+return
+endif
+call SetPlayerState(Player(CBv),PLAYER_STATE_RESOURCE_LUMBER,GetPlayerState(Player(CBv),PLAYER_STATE_RESOURCE_LUMBER)-RHv)
+call CreateUnit(Player(CBv),vHv,sHv,PHv,bj_UNIT_FACING)
+call DisplayTimedTextToPlayer(Player(CBv),0.,0.,10.,"|cff04ffc4[알림]|r "+GetUnitName(LBv)+"가 |cff20b2aa"+GetUnitName(FBv)+"|r을 건조했습니다!")
+call UnitRemoveAbility(LBv,$41304449)
+set LBv=null
+set FBv=null
+set pHv=null
+return
+endif
+set LBv=null
+set FBv=null
+set pHv=null
+endfunction
+function rIR takes nothing returns nothing
+local unit pIR=GetTriggerUnit()
+call IssueImmediateOrder(pIR,"stop")
+call BlzPauseUnitEx(pIR,false)
+set pIR=null
+endfunction
+function rKv takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+endfunction
+function rMR takes nothing returns nothing
+if wWR(1,$64)<=50 then
+call TriggerExecute(nd)
+endif
+if wWR(1,$64)<=50 then
+call TriggerExecute(Td)
+endif
+endfunction
+function rMs takes nothing returns nothing
+local unit PMs=LoadUnitHandle(gj,0,Op*$1f4)
+local unit pMs=GetEnumUnit()
+local unitstate RMs=UNIT_STATE_MAX_LIFE
+local unit sMs=GetEnumUnit()
+call yDs(PMs,pMs,1850000.+GetUnitState(sMs,RMs)*.03,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+set RMs=null
+set sMs=null
+set PMs=null
+set pMs=null
+endfunction
+function rMv takes nothing returns nothing
+local unit vMv=GetEventDamageSource()
+local unit RMv=GetTriggerUnit()
+local player sMv=GetOwningPlayer(vMv)
+local unitstate pMv=UNIT_STATE_MAX_LIFE
+local real PMv=GetUnitState(RMv,pMv)
+if not Gk then
+set Gk=true
+call TimerStart(dk,.25,true,Q2)
+endif
+if Wk!=PMv then
+set Wk=PMv
+if ik<PMv then
+else
+set mk=mk*(PMv/ik)
+endif
+set ik=PMv
+endif
+set mk=mk+GetEventDamage()
+set pMv=UNIT_STATE_MAX_LIFE
+if GetUnitState(RMv,pMv)>=mk then
+if GetPlayerController(sMv)==MAP_CONTROL_USER then
+set Yk[GetPlayerId(sMv)]=Yk[GetPlayerId(sMv)]+GetEventDamage()
+else
+set Yk[GetUnitUserData(vMv)]=Yk[GetUnitUserData(vMv)]+GetEventDamage()
+endif
+else
+set PMv=mk-PMv
+set PMv=GetEventDamage()-PMv
+if GetPlayerController(sMv)==MAP_CONTROL_USER then
+set Yk[GetPlayerId(sMv)]=Yk[GetPlayerId(sMv)]+PMv
+else
+set Yk[GetUnitUserData(vMv)]=Yk[GetUnitUserData(vMv)]+PMv
+endif
+endif
+set vMv=null
+set RMv=null
+set sMv=null
+set pMv=null
+endfunction
+function rOs takes nothing returns boolean
+return GetUnitCurrentOrder(LoadUnitHandle(gj,0,Op*$1f4))!=String2OrderIdBJ("sprite fifth")
+endfunction
+function rPs takes nothing returns nothing
+call mxv(GetEnumUnit(),10)
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),GetEnumUnit(),3000000.,1.,1.,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+call yDs(LoadUnitHandle(gj,0,Op*$1f4),GetEnumUnit(),250000.,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endfunction
+function rTR takes nothing returns nothing
+local hashtable pTR=Pv
+local framehandle sTR=BlzGetTriggerFrame()
+local integer RTR
+local integer PTR
+call SaveFrameHandle(pv,0,GetHandleId(sTR),sTR)
+set RTR=LoadInteger(pTR,0,GetHandleId(sTR))
+set sTR=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(sTR),sTR)
+set PTR=GetHandleId(sTR)
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,PTR),false)
+set sTR=BlzGetTriggerFrame()
+call SaveFrameHandle(pv,0,GetHandleId(sTR),sTR)
+set PTR=GetHandleId(sTR)
+call BlzFrameSetEnable(LoadFrameHandle(pv,0,PTR),true)
+set Bi=RTR
+set Hi=0
+call lFs(GetPlayerId(GetTriggerPlayer()))
+set sTR=null
+set pTR=null
+endfunction
+function rTs takes nothing returns boolean
+return GetUnitRace(GetTriggerUnit())==RACE_ORC and GetUnitAbilityLevel(GetTriggerUnit(),$41393033)>0 or GetUnitAbilityLevel(GetTriggerUnit(),$41304946)>0
+endfunction
+function rUv takes nothing returns nothing
+local unit sUv=GetAttacker()
+local location PUv=GetUnitLoc(sUv)
+local unit pUv
+if wWR(1,$64)<=10 then
+set pUv=CreateUnitAtLoc(ds,$65304b45,PUv,bj_UNIT_FACING)
+call UnitApplyTimedLife(pUv,$42487765,1.)
+call IssueTargetOrder(pUv,"bloodlust",sUv)
+endif
+call RemoveLocation(PUv)
+set sUv=null
+set PUv=null
+set pUv=null
+endfunction
+function rVR takes nothing returns nothing
+local integer FSR
+local unit vVR
+local location RVR
+local real sVR
+local real PVR
+local unit pVR
+call L2R()
+set ss=GetOwningPlayer(GetSpellAbilityUnit())
+set sVR=GetUnitX(GetSpellAbilityUnit())
+set PVR=GetUnitY(GetSpellAbilityUnit())
+set Ws=sVR
+set is=PVR
+set rs=true
+set Rs=GetSpellAbilityId()
+set pVR=GetSpellAbilityUnit()
+set Ps=pVR
+set ps=GetUnitTypeId(pVR)
+if not ODv() then
+set vVR=null
+set RVR=null
+set pVR=null
+return
+endif
+set vVR=FirstOfGroup(ms)
+set FSR=GetPlayerId(GetOwningPlayer(vVR))
+set RVR=GetStartLocationLoc(FSR)
+call UnitAddItemToSlotById(vVR,$49303032,0)
+if yq[FSR]==null then
+set yq[FSR]=CreateUnitAtLoc(Player(FSR),$68304635,RVR,bj_UNIT_FACING)
+call UnitAddAbility(yq[FSR],$41313737)
+call UnitAddAbility(yq[FSR],$41313736)
+endif
+call StartSound(vPR("SE\\Marco.mp3",null,$7f,1.,false,0.,0.))
+call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,10.,"|cff5997c9마르코 : |r|cffdf9d30불사조의 불꽃은 특별하거든.|r")
+set vVR=null
+set RVR=null
+set pVR=null
+endfunction
+function rVs takes nothing returns nothing
+local unit CSs=GetTriggerUnit()
+local integer LSs=GetHeroXP(CSs)
+local integer FSs=GetHeroStatBJ(bj_HEROSTAT_STR,CSs,false)
+local integer vVs=GetHeroStatBJ(bj_HEROSTAT_AGI,CSs,false)
+local integer RVs=GetHeroStatBJ(bj_HEROSTAT_INT,CSs,false)
+local integer sVs=GetPlayerId(GetOwningPlayer(CSs))
+local location PVs=GetUnitLoc(CSs)
+local player pVs=GetOwningPlayer(CSs)
+if GetPlayerState(pVs,PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(pVs,0.,0.,5.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call IssueImmediateOrder(CSs,"stop")
+set CSs=null
+set PVs=null
+set pVs=null
+return
+endif
+call RemoveUnit(CSs)
+set CSs=CreateUnitAtLoc(GetOwningPlayer(CSs),$4830384a,PVs,bj_UNIT_FACING)
+call SetHeroXP(CSs,LSs,false)
+call GroupAddUnit(xW[bp[sVs]],CSs)
+call ModifyHeroStat(bj_HEROSTAT_STR,CSs,bj_MODIFYMETHOD_SET,FSs)
+call ModifyHeroStat(bj_HEROSTAT_AGI,CSs,bj_MODIFYMETHOD_SET,vVs)
+call ModifyHeroStat(bj_HEROSTAT_INT,CSs,bj_MODIFYMETHOD_SET,RVs)
+call uSs(CSs)
+call SetUnitAnimation(CSs,"morph")
+call QueueUnitAnimation(CSs,"stand")
+call SetUnitAbilityLevel(CSs,$41304d44,2)
+call DisplayTimedTextToPlayer(pVs,0.,0.,5.,"|cffFF0000분신|r : "+I2S(sy[sVs])+"|r")
+call SetPlayerState(pVs,PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(pVs,PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+call RemoveLocation(PVs)
+set CSs=null
+set PVs=null
+set pVs=null
+endfunction
+function rXs takes nothing returns nothing
+local integer sXs=GetPlayerId(GetTriggerPlayer())
+local unit pXs=GetSoldUnit()
+local integer PXs
+call ShowUnit(pXs,false)
+call KillUnit(pXs)
+if wWR(1,$64)>25 then
+set PXs=wWR(10,50)
+call rcs(Player(sXs),PXs)
+call DisplayTimedTextToPlayer(Player(sXs),0.,0.,5.,"|cffffd700"+I2S(PXs)+" 골드 획득!|r")
+else
+set PXs=wWR(3,5)
+call rcs(Player(sXs),PXs)
+call DisplayTimedTextToPlayer(Player(sXs),0.,0.,5.,"|cffff8200돈 도박에 실패하여 "+I2S(PXs)+" 골드를 되돌려받습니다.|r")
+endif
+set pXs=null
+endfunction
+function rav takes nothing returns boolean
+return IsUnitEnemy(GetFilterUnit(),GetOwningPlayer(LoadUnitHandle(gj,0,Op*$1f4)))
+endfunction
+function rbs takes nothing returns nothing
+local integer Pbs
+local unit pbs
+if GetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED)<4 then
+call DisplayTimedTextToPlayer(GetOwningPlayer(GetTriggerUnit()),0.,0.,5.,"|cffff0000[오류]|r|cff1e90ff특성포인트|r가 부족합니다!")
+call IssueImmediateOrder(GetTriggerUnit(),"stop")
+set pbs=null
+return
+endif
+call IncUnitAbilityLevel(GetTriggerUnit(),$41314356)
+set Pbs=GetSpellAbilityId()
+set pbs=GetTriggerUnit()
+call UnitRemoveAbility(pbs,Pbs)
+call SetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED,GetPlayerState(GetOwningPlayer(GetTriggerUnit()),PLAYER_STATE_RESOURCE_FOOD_USED)-4)
+set pbs=null
+endfunction
+function rcv takes nothing returns boolean
+local integer pcv=hj
+set Wj[pcv]=GetTriggerPlayer()
+set Zo[pcv]=GetTriggerUnit()
+set Do[pcv]=GetConstructingStructure()
+return false
+endfunction
+function rds takes nothing returns nothing
+local unit Rds=GetAttacker()
+local unit sds=GetTriggerUnit()
+local real Pds
+local unitstate pds
+if wWR(1,$64)<=10 then
+call yDs(Rds,sds,85000.,1.,3.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+if wWR(1,$64)<=40 then
+if GetUnitAbilityLevel(sds,$41393032)>0 or GetUnitAbilityLevel(sds,$41393131)>0 then
+set pds=UNIT_STATE_LIFE
+set Pds=GetUnitState(sds,pds)*.9*.01
+call yDs(Rds,sds,Pds,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+elseif GetUnitAbilityLevel(sds,$41393033)>0 then
+set pds=UNIT_STATE_MAX_LIFE
+set Pds=GetUnitState(sds,pds)*5.75*.01
+call yDs(Rds,sds,Pds,1.,1.,ATTACK_TYPE_NORMAL,DAMAGE_TYPE_UNIVERSAL)
+endif
+endif
+set Rds=null
+set sds=null
+set pds=null
+endfunction
+function res takes nothing returns nothing
+local location FJs=GetUnitLoc(GetEnumUnit())
+local unitstate ves
+local unit Res
+local real ses
+local unit Pes
+local unit pes
+call mxv(GetEnumUnit(),15)
+set Pes=LoadUnitHandle(gj,0,Op*$1f4)
+set pes=GetEnumUnit()
+set ves=UNIT_STATE_MAX_LIFE
+set Res=GetEnumUnit()
+set ses=GetUnitState(Res,ves)
+set ves=UNIT_STATE_LIFE
+set Res=GetEnumUnit()
+call yDs(Pes,pes,9250000.+(ses-GetUnitState(Res,ves))*.02,1.,1.50,ATTACK_TYPE_CHAOS,DAMAGE_TYPE_NORMAL)
+set pes=CreateUnitAtLoc(ds,$65303133,FJs,GetRandomReal(0.,360.))
+call SetUnitFlyHeight(pes,150.,.0)
+call SetUnitVertexColorBJ(pes,100.,100.,100.,100.)
+call RemoveLocation(FJs)
+set FJs=null
+set ves=null
+set Res=null
+set Pes=null
+set pes=null
+endfunction
+function rgR takes nothing returns boolean
+local unit PgR
+local boolean pgR
+if GetUnitTypeId(GetFilterUnit())==$65304958 then
+set PgR=GetFilterUnit()
+set pgR=(not IsUnitType(PgR,UNIT_TYPE_DEAD))and GetWidgetLife(PgR)>.405
+else
+set pgR=false
+endif
+set PgR=null
+return pgR
+endfunction
+function UCs takes nothing returns nothing
+local integer QCs=0
+loop
+exitwhen QCs>=4
+if ks[QCs]then
+call DisplayTimedTextToPlayer(Player(QCs),0.,0.,10.,"스토리 보상으로 |cffffd700"+GetObjectName($65304958)+"|r 1개 추가 획득!")
+call yRR(Player(QCs),1)
+endif
+set QCs=QCs+1
+endloop
+endfunction
+function Exs takes nothing returns nothing
+local string cxs=""
+local unitstate Bxs=UNIT_STATE_MAX_LIFE
+local unit Hxs=GetTriggerUnit()
+local real kxs=GetUnitState(Hxs,Bxs)
+local integer Uxs=0
+local real Qxs
+local integer oxs
+local integer jxs
+local player Kxs
+loop
+exitwhen Uxs>=4
+if as[Uxs]then
+call wIs(Uxs)
+else
+call Yms(Uxs)
+endif
+set Uxs=Uxs+1
+endloop
+call PauseTimer(Qc)
+set Uc=false
+set oxs=0
+loop
+exitwhen oxs>=4
+set oxs=oxs+1
+endloop
+set Uxs=0
+loop
+exitwhen Uxs>=4
+if ks[Uxs]then
+set Qxs=100.*(kc[Uxs]/kxs)
+set jxs=R2I(($12c-mR[2])*Qxs*5./100.)
+call DisplayTimedTextToPlayer(Player(Uxs),0.,0.,5.,"|cffffd700자신이 가한데미지는 "+R2SW(Qxs,0,2)+"% 입니다.")
+if jxs>0 then
+call DisplayTimedTextToPlayer(Player(Uxs),0.,0.,10.,"|cffdc143c[클리어점수]|r 스토리 파괴 : |cffffd700"+I2S(jxs)+"점|r")
+call Nss(Uxs,jxs)
+endif
+if Bc<=kc[Uxs]then
+set Bc=kc[Uxs]
+set Hc=Uxs
+set oc=Qxs
+endif
+endif
+set Uxs=Uxs+1
+endloop
+set JP[Hc]=JP[Hc]+1
+set WR[2]=Player(Hc)
+set iR[2]=oc*1.

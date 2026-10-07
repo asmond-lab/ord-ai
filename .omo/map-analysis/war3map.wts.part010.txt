@@ -1,0 +1,1800 @@
+
+STRING 2656
+// 능력: AG06 (일반아이템 탐색 (6번)), Name (이름 (anam))
+{
+일반아이템 탐색 (6번)
+}
+
+STRING 2657
+// 능력: AG06 (일반아이템 탐색 (6번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2658
+// 능력: AG06 (일반아이템 탐색 (6번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2659
+// 능력: AG05 (일반아이템 탐색 (5번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2660
+// 능력: AG05 (일반아이템 탐색 (5번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2661
+// 능력: AG05 (일반아이템 탐색 (5번)), Name (이름 (anam))
+{
+일반아이템 탐색 (5번)
+}
+
+STRING 2662
+// 능력: AG05 (일반아이템 탐색 (5번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2663
+// 능력: AG05 (일반아이템 탐색 (5번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2664
+// 능력: AG04 (일반아이템 탐색 (4번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2665
+// 능력: AG04 (일반아이템 탐색 (4번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2666
+// 능력: AG04 (일반아이템 탐색 (4번)), Name (이름 (anam))
+{
+일반아이템 탐색 (4번)
+}
+
+STRING 2667
+// 능력: AG04 (일반아이템 탐색 (4번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2668
+// 능력: AG04 (일반아이템 탐색 (4번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2669
+// 능력: AG03 (일반아이템 탐색 (3번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2670
+// 능력: AG03 (일반아이템 탐색 (3번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2671
+// 능력: AG03 (일반아이템 탐색 (3번)), Name (이름 (anam))
+{
+일반아이템 탐색 (3번)
+}
+
+STRING 2672
+// 능력: AG03 (일반아이템 탐색 (3번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2673
+// 능력: AG03 (일반아이템 탐색 (3번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2674
+// 능력: AG02 (일반아이템 탐색 (2번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2675
+// 능력: AG02 (일반아이템 탐색 (2번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2676
+// 능력: AG02 (일반아이템 탐색 (2번)), Name (이름 (anam))
+{
+일반아이템 탐색 (2번)
+}
+
+STRING 2677
+// 능력: AG02 (일반아이템 탐색 (2번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2678
+// 능력: AG02 (일반아이템 탐색 (2번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2679
+// 능력: AG01 (일반아이템 탐색 (1번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2680
+// 능력: AG01 (일반아이템 탐색 (1번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2681
+// 능력: AG01 (일반아이템 탐색 (1번)), Name (이름 (anam))
+{
+일반아이템 탐색 (1번)
+}
+
+STRING 2682
+// 능력: AG01 (일반아이템 탐색 (1번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2683
+// 능력: AG01 (일반아이템 탐색 (1번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2684
+// 능력: AG00 (일반아이템 탐색 (0번)), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2685
+// 능력: AG00 (일반아이템 탐색 (0번)), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2686
+// 능력: AG00 (일반아이템 탐색 (0번)), Name (이름 (anam))
+{
+일반아이템 탐색 (0번)
+}
+
+STRING 2687
+// 능력: AG00 (일반아이템 탐색 (0번)), Tip (도구 도움말 - 보통 (atp1))
+{
+|cffA6A6A6아이템 발굴|cffffcc00(W)|r
+}
+
+STRING 2688
+// 능력: AG00 (일반아이템 탐색 (0번)), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D항해 중 쓸만한 아이템을 발굴합니다.|r
+
+|cffffdead◎사용효과|r : 무작위 아이템을 획득합니다.
+|cffffdead　▶|r |cffA6A6A6노멀 아이템|r 확률 : 90%
+|cffffdead　▶|r |cffFF8200유니크 아이템|r 확률 : 10%
+
+|cffffdead◈|r 아이템 발굴 스택은 미션을 통해 획득할 수 있습니다.
+}
+
+STRING 2689
+// 능력: A912 (#전설유닛), Name (이름 (anam))
+{
+#전설유닛
+}
+
+STRING 2690
+// 능력: A911 (#미션유닛), Name (이름 (anam))
+{
+#미션유닛
+}
+
+STRING 2691
+// 능력: A910 (#왜곡유닛), Name (이름 (anam))
+{
+#왜곡유닛
+}
+
+STRING 2692
+// 능력: A90A (#크립유닛), Name (이름 (anam))
+{
+#크립유닛
+}
+
+STRING 2693
+// 능력: A909 (#신비유닛), Name (이름 (anam))
+{
+#신비유닛
+}
+
+STRING 2694
+// 능력: A908 (#밴유닛), Name (이름 (anam))
+{
+#밴유닛
+}
+
+STRING 2695
+// 능력: A907 (#제한유닛), Name (이름 (anam))
+{
+#제한유닛
+}
+
+STRING 2696
+// 능력: A906 (#영원유닛), Name (이름 (anam))
+{
+#영원유닛
+}
+
+STRING 2697
+// 능력: A905 (#불멸유닛), Name (이름 (anam))
+{
+#불멸유닛
+}
+
+STRING 2698
+// 능력: A904 (#스토리유닛), Name (이름 (anam))
+{
+#스토리유닛
+}
+
+STRING 2699
+// 능력: A903 (#광폭화유닛), Name (이름 (anam))
+{
+#광폭화유닛
+}
+
+STRING 2700
+// 능력: A902 (#보스유닛), Name (이름 (anam))
+{
+#보스유닛
+}
+
+STRING 2701
+// 능력: A901 (#라이프점유), Name (이름 (anam))
+{
+#라이프점유
+}
+
+STRING 2702
+// 능력: A900 (#인터페이스유닛), Name (이름 (anam))
+{
+#인터페이스유닛
+}
+
+STRING 2703
+// 능력: A801 (#특수유닛), Name (이름 (anam))
+{
+#특수유닛
+}
+
+STRING 2704
+// 능력: A800 (#랜덤유닛), Name (이름 (anam))
+{
+#랜덤유닛
+}
+
+STRING 2705
+// 능력: A700 (기록지침 On/Off), EditorSuffix (에디터 접미사 (ansf))
+{
+(기록지침)
+}
+
+STRING 2706
+// 능력: A700 (기록지침 On/Off), Hotkey (단축키 - 보통 (ahky))
+{
+F
+}
+
+STRING 2707
+// 능력: A700 (기록지침 On/Off), Name (이름 (anam))
+{
+기록지침 On/Off
+}
+
+STRING 2708
+// 능력: A700 (기록지침 On/Off), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff기록지침 조작|r|cffffcc00(F)|r
+}
+
+STRING 2709
+// 능력: A700 (기록지침 On/Off), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D기록지침 UI를 조작합니다|r
+
+|cffffdead◎사용효과|r : 기록지침 UI 활성화/비활성화
+|cffffdead◎추가효과|r : 켜져있는 상태에서 'ESC' 키를 누를경우 Off
+}
+
+STRING 2710
+// 능력: A202 (D_0901_카무사리), Hotkey (단축키 - 보통 (ahky))
+{
+Q
+}
+
+STRING 2711
+// 능력: A202 (D_0901_카무사리), Name (이름 (anam))
+{
+D_0901_카무사리
+}
+
+STRING 2712
+// 능력: A202 (D_0901_카무사리), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff카무사리|r|cffffcc00(Q)|r
+}
+
+STRING 2713
+// 능력: A202 (D_0901_카무사리), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D로져가 강력한 패왕색 패기를 휘감은 참격을 날립니다.|r
+
+|cffffdead◎사용조건|r : 보스/스토리에만 사용 가능
+|cffffdead◎시전시간|r : 2.7초
+|cffffdead◎범위|r : 사용 지점 800 범위
+|cffffdead◎데미지|r : |cffF15F5F400만(x1~2) 물리데미지|r
+|cffffdead　▶|r 보스 : |cffA566FF현재체력 40% 추가 고정데미지|r
+|cffffdead　▶|r 스토리 : |cffA566FF전체체력 25% 추가 고정데미지|r
+|cffffdead◎여진|r : 해당 범위 3초간 이동속도 99% 감소
+|cffffdead◎추가효과|r : 해당 범위 2초스턴 (저항 50% 무시)
+|cffffdead◎쿨타임|r : 150초
+}
+
+STRING 2714
+// 능력: A201 (D_0710_카무사리), Hotkey (단축키 - 보통 (ahky))
+{
+Q
+}
+
+STRING 2715
+// 능력: A201 (D_0710_카무사리), Name (이름 (anam))
+{
+D_0710_카무사리
+}
+
+STRING 2716
+// 능력: A201 (D_0710_카무사리), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff카무사리|r|cffffcc00(Q)|r
+}
+
+STRING 2717
+// 능력: A0Q0 (P_0712_포세이돈(갸라도스)), Name (이름 (anam))
+{
+P_0712_포세이돈(갸라도스)
+}
+
+STRING 2718
+// 능력: A1CX (@0729_코비초), EditorSuffix (에디터 접미사 (ansf))
+{
+(분신오라)
+}
+
+STRING 2719
+// 능력: A1CX (@0729_코비초), Name (이름 (anam))
+{
+@0729_코비초
+}
+
+STRING 2720
+// 능력: A1CW (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(초월 코비)
+}
+
+STRING 2721
+// 능력: A1BK (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 2722
+// 능력: A1CW (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 영웅의 제자|r
+}
+
+STRING 2723
+// 능력: A1CW (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D더욱 강력한 일격을 날립니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'어니스티 임팩트'|r 강화
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+}
+
+STRING 2724
+// 능력: A1CV (!0729_어니스티임팩트), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 2725
+// 능력: A1CV (!0729_어니스티임팩트), Name (이름 (anam))
+{
+!0729_어니스티임팩트
+}
+
+STRING 2726
+// 능력: A1CV (!0729_어니스티임팩트), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff어니스티 임팩트|r
+}
+
+STRING 2727
+// 능력: A1CV (!0729_어니스티임팩트), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff어니스티 임팩트 《강화》|r
+}
+
+STRING 2728
+// 능력: A1CV (!0729_어니스티임팩트), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D무장색 패기를 두른 강력한 충격파를 날려 적을 박살냅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 700
+|cffffdead◎데미지|r : |cff4374D9355만 마법데미지|r
+}
+
+STRING 2729
+// 능력: A1CV (!0729_어니스티임팩트), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D무장색 패기를 두른 강력한 충격파를 날려 적을 박살냅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 700
+|cffffdead◎데미지|r : |cff4374D9355만 마법데미지|r
+|cffffdead　▶|r  |cff4374D9전체체력 0.4% x 버프 수 추가 마법데미지|r 
+}
+
+STRING 2730
+// 능력: A1CU (!0729_군함백), EditorSuffix (에디터 접미사 (ansf))
+{
+(공속오라)
+}
+
+STRING 2731
+// 능력: A1CU (!0729_군함백), Name (이름 (anam))
+{
+!0729_군함백
+}
+
+STRING 2732
+// 능력: A1CU (!0729_군함백), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff군함 백 :: Lv.1|r
+}
+
+STRING 2733
+// 능력: A1CU (!0729_군함백), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff군함 백 :: Lv.2|r
+}
+
+STRING 2734
+// 능력: A1CU (!0729_군함백), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff군함 백 :: Lv.3|r
+}
+
+STRING 2735
+// 능력: A1CU (!0729_군함백), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff군함 백 :: Lv.4|r
+}
+
+STRING 2736
+// 능력: A1CU (!0729_군함백), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff군함 백 :: Lv.5|r
+}
+
+STRING 2737
+// 능력: A1CU (!0729_군함백), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff군함 백 :: Lv.6|r
+}
+
+STRING 2738
+// 능력: A1CU (!0729_군함백), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D최강의 수련인 군함 백을 끊임없이 수련합니다.|r
+
+|cffffdead◎기본효과|r : 매 5라운드마다 코비의 공격속도 상승
+|cffffdead　▶|r  레벨 x 7% 증가
+|cffffdead　▶|r  최대 6레벨까지 성장합니다.
+}
+
+STRING 2739
+// 능력: A1CU (!0729_군함백), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D최강의 수련인 군함 백을 끊임없이 수련합니다.|r
+
+|cffffdead◎기본효과|r : 매 5라운드마다 코비의 공격속도 상승
+|cffffdead　▶|r  레벨 x 7% 증가
+|cffffdead　▶|r  최대 6레벨까지 성장합니다.
+}
+
+STRING 2740
+// 능력: A1CU (!0729_군함백), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D최강의 수련인 군함 백을 끊임없이 수련합니다.|r
+
+|cffffdead◎기본효과|r : 매 5라운드마다 코비의 공격속도 상승
+|cffffdead　▶|r  레벨 x 7% 증가
+|cffffdead　▶|r  최대 6레벨까지 성장합니다.
+}
+
+STRING 2741
+// 능력: A1CT (!0729_영웅의후계자), EditorSuffix (에디터 접미사 (ansf))
+{
+(공속오라)
+}
+
+STRING 2742
+// 능력: A1CT (!0729_영웅의후계자), Name (이름 (anam))
+{
+!0729_영웅의후계자
+}
+
+STRING 2743
+// 능력: A1CT (!0729_영웅의후계자), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff영웅의 후계자|r
+}
+
+STRING 2744
+// 능력: A1CT (!0729_영웅의후계자), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D해군 영웅 거프의 후계자입니다.|r
+
+|cffffdead◎기본효과|r : 공격시마다 325범위 버프 수 x |cffA566FF1만 고정데미지|r 
+|cffffdead　▶|r  단일 적 0.1초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 버프 수 비례 스킬 효과 증가
+|cffffdead　▶|r  육식 Type. 코비 : 데미지 버프 수 x 23% 증가|r
+|cffffdead　▶|r  콤비네이션 어택 : 발동 확률 버프 수 x 0.23% 증가|r
+|cffffdead　▶|r  어니스티 임팩트 : 데미지 버프 수 x 2.3% 증가|r
+
+|cffc68a12육식 Type. 코비|r
+|cffffdead◎발동조건|r : 공격시 17% 확률
+|cffffdead◎범위|r : 450
+|cffffdead◎데미지|r : |cff4374D920만 마법데미지|r
+}
+
+STRING 2745
+// 능력: A1CS (!0729_해군의영웅), EditorSuffix (에디터 접미사 (ansf))
+{
+(배쉬)
+}
+
+STRING 2746
+// 능력: A1CS (!0729_해군의영웅), Name (이름 (anam))
+{
+!0729_해군의영웅
+}
+
+STRING 2747
+// 능력: A1CS (!0729_해군의영웅), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff해군의 영웅|r
+}
+
+STRING 2748
+// 능력: A1CS (!0729_해군의영웅), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D해군 본부의 새로운 영웅이라 불릴 정도의 지휘력을 가졌습니다. 하지만 아직 미숙한 점도 있습니다.|r
+
+|cffffdead◎기본효과|r : 자신을 제외한 550범위 아군 유닛 공격속도 10% 증가
+|cffffdead◎추가효과|r : 초월 업그레이드시 공격력 증가폭이 |cff1e90ff6000으로 상승▲|r
+|cffffdead　▶|r 기본 공격속도 증가량이 |cffb2222275%로 감소▼|r , 공격속도 증가폭이 |cff1e90ff7%로 상승▲|r
+
+|cffc68a12무모함|r
+|cffffdead◎페널티|r : 자신의 라인존 폭발형 데미지 10% 감소
+}
+
+STRING 2749
+// 능력: A1CR (!0729_콤비네이션어택), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 2750
+// 능력: A1CR (!0729_콤비네이션어택), Name (이름 (anam))
+{
+!0729_콤비네이션어택
+}
+
+STRING 2751
+// 능력: A1CR (!0729_콤비네이션어택), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff콤비네이션 어택|r
+}
+
+STRING 2752
+// 능력: A14R (!0730_펑크레코드), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffffdead◎기본효과|r : 스킬 사용시 새틀라이트 |cffff69b4'아틀라스'|r 소환 
+|cffffdead　▶|r 공격력 비례 폭발형 데미지 / 고정데미지 능력 보유
+|cffffdead◎코스트|r : |cff1e90ff특성포인트 2|r + |cff7ad823목재 7|r
+|cffffdead　▶|r 릴리스가 이미 존재하는 경우 재화 소모량이 2배가 됩니다.
+}
+
+STRING 2753
+// 능력: A1CQ (C_0729_월보), EditorSuffix (에디터 접미사 (ansf))
+{
+(블링크)
+}
+
+STRING 2754
+// 능력: A1CQ (C_0729_월보), Hotkey (단축키 - 보통 (ahky))
+{
+Q
+}
+
+STRING 2755
+// 능력: A1CQ (C_0729_월보), Name (이름 (anam))
+{
+C_0729_월보
+}
+
+STRING 2756
+// 능력: A1CQ (C_0729_월보), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff월보|r|cffffcc00(Q)|r
+}
+
+STRING 2757
+// 능력: A1CQ (C_0729_월보), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D매우 능숙한 월보를 사용하여 허공을 날아 다닐 수 있습니다.|r
+
+|cffffdead◎기본효과|r : 600범위 순간이동
+|cffffdead　▶|r  공중이동 가능
+}
+
+STRING 2758
+// 능력: A1CG (!0721_수건), EditorSuffix (에디터 접미사 (ansf))
+{
+(스킬이름)
+}
+
+STRING 2759
+// 능력: A1CG (!0721_수건), Name (이름 (anam))
+{
+!0721_수건
+}
+
+STRING 2760
+// 능력: A1CG (!0721_수건), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff수건|r
+}
+
+STRING 2761
+// 능력: A1CG (!0721_수건), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D손 전체를 하나의 지건처럼 상대방에게 찔러넣어 관통한다.|r
+
+|cffffdead◎발동조건|r : 공격시 20% 확률
+|cffffdead◎데미지|r : 단일 적 |cff4374D950만 + 현재체력 25% 마법데미지|r
+|cffffdead　▶|r 보스, 스토리는 현재체력 비례 대신 |cff4374D950만 추가 마법데미지|r
+
+|cffc68a12수건 - 황련|r
+|cffffdead◎발동조건|r : 공격시 6.25% 확률
+|cffffdead◎지속시간|r : 0.45초 
+|cffffdead◎기본효과|r : 매 공격시 공격 대상에게 수건 시전|r
+}
+
+STRING 2762
+// 능력: A1CF (G_0721_수건 황련), EditorSuffix (에디터 접미사 (ansf))
+{
+(블러드러스트)
+}
+
+STRING 2763
+// 능력: A1CF (G_0721_수건 황련), Name (이름 (anam))
+{
+G_0721_수건 황련
+}
+
+STRING 2764
+// 능력: A1CE (!0721_각성), EditorSuffix (에디터 접미사 (ansf))
+{
+(메타몰)
+}
+
+STRING 2765
+// 능력: A1CE (!0721_각성), Hotkey (단축키 - 보통 (ahky))
+{
+F
+}
+
+STRING 2766
+// 능력: A1CE (!0721_각성), Name (이름 (anam))
+{
+!0721_각성
+}
+
+STRING 2767
+// 능력: A1CE (!0721_각성), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff각성|r|cffffcc00(F)|r
+}
+
+STRING 2768
+// 능력: A1CE (!0721_각성), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D열매를 각성하여 강력한 변신을 합니다.|r
+
+|cffffdead◎발동조건|r : F키를 눌러서 사용 (쿨타임 50초)
+|cffffdead　▶|r 람각 스킬 삭제
+|cffffdead　▶|r 지건(비) → 수건으로 스킬 변경
+|cffffdead　▶|r 수건 - 황련 스킬 추가
+|cffffdead　▶|r 지속시간 15초
+}
+
+STRING 2769
+// 능력: A1CC ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(Z 히바리 전설적인)
+}
+
+STRING 2770
+// 능력: A1CC ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 2771
+// 능력: A1CC ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 2772
+// 능력: A1CC ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 2773
+// 능력: A1CC ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffffd700히바리|r - |cffFF0000전설|r
+
+|c00e7b879베이비5|r - |cffff00ff희귀|r
+|c00e7b879아카이누|r - |cffff00ff희귀|r
+|c00e7b879브룩 음악가|r - |cffff00ff희귀|r
+|cff7ad823목재 3|r
+}
+
+STRING 2774
+// 능력: A1BK (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(영원 류마)
+}
+
+STRING 2775
+// 능력: A1B0 (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 2776
+// 능력: A1BK (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 그림자 베기|r
+}
+
+STRING 2777
+// 능력: A1BK (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D류마의 검술이 더욱 강력해집니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'그림자 검술'|r 강화|r
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+}
+
+STRING 2778
+// 능력: A1BJ (!0810_전최강의검사), EditorSuffix (에디터 접미사 (ansf))
+{
+(배쉬)
+}
+
+STRING 2779
+// 능력: A1BJ (!0810_전최강의검사), Name (이름 (anam))
+{
+!0810_전최강의검사
+}
+
+STRING 2780
+// 능력: A1BJ (!0810_전최강의검사), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전 최강의 검사|r
+}
+
+STRING 2781
+// 능력: A1BJ (!0810_전최강의검사), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전 최강의 검사|r
+}
+
+STRING 2782
+// 능력: A1BJ (!0810_전최강의검사), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D어떤 상대든 일격에 쓰러트려 한번도 진적이 없는 최강의 검사입니다.|r
+
+|cffffdead◎발동조건|r : 공격시 15% 확률
+|cffffdead◎범위|r :  500
+|cffffdead◎데미지|r : |cff4374D940만 + (450 x '사무라이의 혼' 스택) 마법데미지|r
+|cffffdead◎추가효과|r : 스킬 발동시 20% 확률로 '사무라이의 혼' 스택 2 증가 (절대쿨타임 5초)
+}
+
+STRING 2783
+// 능력: A1BJ (!0810_전최강의검사), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D어떤 상대든 일격에 쓰러트려 한번도 진적이 없는 최강의 검사입니다.|r
+
+|cffffdead◎발동조건|r : 공격시 15% 확률
+|cffffdead◎범위|r :  500
+|cffffdead◎데미지|r : |cff4374D940만 + (450 x '사무라이의 혼' 스택) 마법데미지|r
+|cffffdead◎추가효과|r : 스킬 발동시 20% 확률로 '사무라이의 혼' 스택 2 증가 (절대쿨타임 5초)
+
+|cff997000참룡도|r
+|cffffdead◎기본효과|r : 기본 공격시 8.5% 확률로 12배 크리티컬
+|cffffdead◎추가효과|r : 3초 스턴 (저항무시)
+}
+
+STRING 2784
+// 능력: A1BI (!0810_일도양단), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 2785
+// 능력: A1BI (!0810_일도양단), Name (이름 (anam))
+{
+!0810_일도양단
+}
+
+STRING 2786
+// 능력: A1BI (!0810_일도양단), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff일도양단|r
+}
+
+STRING 2787
+// 능력: A1BI (!0810_일도양단), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff일백삼정비룡시극|r
+}
+
+STRING 2788
+// 능력: A1BI (!0810_일도양단), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D용마저 단칼에 베어버리는 강력한 일격을 가합니다.|r
+
+|cffffdead◎발동조건|r : 마나 150
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cff4374D9250만 마법데미지 + 전체체력 (스택 x 0.005%) 마법데미지|r
+}
+
+STRING 2789
+// 능력: A1BI (!0810_일도양단), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D용마저 단칼에 베어버리는 강력한 일격을 가합니다.|r
+
+|cffffdead◎발동조건|r : 마나 150
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cff4374D9350만 마법데미지 + 전체체력 (스택 x 0.008%) 마법데미지|r
+}
+
+STRING 2790
+// 능력: A1BH (!0810_그림자검술), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 2791
+// 능력: A1BH (!0810_그림자검술), Name (이름 (anam))
+{
+!0810_그림자검술
+}
+
+STRING 2792
+// 능력: A1BH (!0810_그림자검술), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff그림자 검술|r
+}
+
+STRING 2793
+// 능력: A1BH (!0810_그림자검술), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff그림자 검술 《강화》|r
+}
+
+STRING 2794
+// 능력: A1BH (!0810_그림자검술), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D그림자를 베듯이 치명적이고 은밀하게 공격하는 검술|r
+
+|cffffdead◎발동조건|r : 공격시 12% 확률
+|cffffdead◎범위|r : 400
+|cffffdead◎데미지|r : |cff4374D925만 + (250 x '사무라이의 혼' 스택) 마법데미지|r
+|cffffdead　▶|r 공격 대상이 일반 몬스터일 경우 그 몬스터에게 |cff66cdaa잃은체력 9% 추가 폭발형 데미지|r
+}
+
+STRING 2795
+// 능력: A1BH (!0810_그림자검술), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D그림자를 베듯이 치명적이고 은밀하게 공격하는 검술|r
+
+|cffffdead◎발동조건|r : 공격시 12% 확률
+|cffffdead◎범위|r : 400
+|cffffdead◎데미지|r : |cff4374D925만 + (250 x '사무라이의 혼' 스택) 마법데미지|r
+|cffffdead　▶|r 공격 대상이 일반 몬스터일 경우 그 몬스터에게 |cff66cdaa잃은체력 12% 추가 폭발형 데미지|r
+|cffffdead　▶|r 보스,스토리에게는 |cff66cdaa잃은체력 3% 추가 폭발형 데미지|r
+}
+
+STRING 2796
+// 능력: A1BG (F_0810_전최강의검사), EditorSuffix (에디터 접미사 (ansf))
+{
+(절대쿨타임)
+}
+
+STRING 2797
+// 능력: A1BG (F_0810_전최강의검사), Name (이름 (anam))
+{
+F_0810_전최강의검사
+}
+
+STRING 2798
+// 능력: A1BF (!0305_카쿠람각선), EditorSuffix (에디터 접미사 (ansf))
+{
+(배쉬)
+}
+
+STRING 2799
+// 능력: A1BF (!0305_카쿠람각선), Name (이름 (anam))
+{
+!0305_카쿠람각선
+}
+
+STRING 2800
+// 능력: A1BF (!0305_카쿠람각선), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff람각 :: 선|r
+}
+
+STRING 2801
+// 능력: A1BF (!0305_카쿠람각선), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D람각으로 강력한 폭풍을 일으켜 적을 공격합니다.|r
+
+|cffffdead◎기본효과|r : 자신의 공격속도 33% 증가
+|cffffdead◎발동조건|r : 공격시 15% 확률
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cff4374D930만 마법데미지 |r
+|cffffdead　▶|r 라인 몬스터일 경우 단일 적 |cff66cdaa전체체력 5% 추가 폭발형 데미지|r
+}
+
+STRING 2802
+// 능력: A1BE (!0724_고강도탄력), EditorSuffix (에디터 접미사 (ansf))
+{
+(공속오라)
+}
+
+STRING 2803
+// 능력: A1BE (!0724_고강도탄력), Name (이름 (anam))
+{
+!0724_고강도탄력
+}
+
+STRING 2804
+// 능력: A1BE (!0724_고강도탄력), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff고강도 탄력|r
+}
+
+STRING 2805
+// 능력: A1BE (!0724_고강도탄력), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D탄성이 매우 강화되고 빠른 적에게 더욱 유효한 상태입니다.|r
+
+|cffffdead◎기본효과|r : 공중이동 가능|r
+|cffffdead◎기본효과2|r : 자신의 공격속도 15% 증가 오라|r
+|cffffdead◎추가효과|r : 적 유닛의 이동속도가 높을수록 스킬 데미지 증가|r
+|cffffdead　▶|r 고무고무 열매 폭발형 데미지 : 최대 100% 증가|r
+|cffffdead　▶|r 무장색의 패기 추가 데미지 : 최대 150% 증가|r
+|cffffdead　▶|r 컬버린 : 최대 200% 증가|r
+|cffffdead　▶|r 킹 코브라 : 최대 50% 증가|r
+}
+
+STRING 2806
+// 능력: A1BD (!0810_사무라이의길), EditorSuffix (에디터 접미사 (ansf))
+{
+(버서커)
+}
+
+STRING 2807
+// 능력: A1BD (!0810_사무라이의길), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 2808
+// 능력: A1BD (!0810_사무라이의길), Name (이름 (anam))
+{
+!0810_사무라이의길
+}
+
+STRING 2809
+// 능력: A1BD (!0810_사무라이의길), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff사무라이의 길|r|cffffcc00(W)|r
+}
+
+STRING 2810
+// 능력: A1BD (!0810_사무라이의길), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D과거 수많은 전설을 남긴 사무라이입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 10% 확률로 '사무라이의 혼' 스택을 얻습니다.
+|cffffdead　▶|r 100 이상일 시 '참룡도' 스킬 획득
+|cffffdead　▶|r 400 이상일 시 공격속도 50% 증가
+|cffffdead　▶|r 700 이상일 시 공격력 10만 증가
+|cffffdead◎사용효과|r : 스킬 사용시 현재 스택을 보여줍니다.
+
+|cffc68a12일섬|r
+|cffffdead◎발동조건|r : 공격시 25% 확률로 발동
+|cffffdead◎범위|r : 300
+|cffffdead◎데미지|r : |cffA566FF160 x '사무라이의 혼' 스택 + 16만 고정데미지|r
+
+|cffc68a12오니 가르기|r
+|cffffdead◎발동조건|r : 기본 공격으로 입힌 피해량이 10만 이상일 경우
+|cffffdead◎범위|r : 600
+|cffffdead◎데미지|r : |cff4374D920만 마법데미지|r
+}
+
+STRING 2811
+// 능력: A1BC (!0810_와노쿠니의혼::토키), EditorSuffix (에디터 접미사 (ansf))
+{
+(공속오라)
+}
+
+STRING 2812
+// 능력: A1BC (!0810_와노쿠니의혼::토키), Name (이름 (anam))
+{
+!0810_와노쿠니의혼::토키
+}
+
+STRING 2813
+// 능력: A1BC (!0810_와노쿠니의혼::토키), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff와노쿠니의 혼 :: 토키|r
+}
+
+STRING 2814
+// 능력: A1BC (!0810_와노쿠니의혼::토키), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffc68a12능력치 증가|r
+|cffffdead◈|r 자신의 공격속도 20% 증가
+}
+
+STRING 2815
+// 능력: A1BB (!0810_와노쿠니의혼::오뎅), EditorSuffix (에디터 접미사 (ansf))
+{
+(커맨드오라)
+}
+
+STRING 2816
+// 능력: A1BB (!0810_와노쿠니의혼::오뎅), Name (이름 (anam))
+{
+!0810_와노쿠니의혼::오뎅
+}
+
+STRING 2817
+// 능력: A1BB (!0810_와노쿠니의혼::오뎅), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff와노쿠니의 혼 :: 오뎅|r
+}
+
+STRING 2818
+// 능력: A1BB (!0810_와노쿠니의혼::오뎅), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffc68a12능력치 증가|r
+|cffffdead◈|r '사무라이의 혼 스택' 200 증가
+|cffffdead◈|r 자신의 공격력 50% 증가
+}
+
+STRING 2819
+// 능력: A1BA (!0810_와노쿠니의혼::시노부), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 2820
+// 능력: A1BA (!0810_와노쿠니의혼::시노부), Name (이름 (anam))
+{
+!0810_와노쿠니의혼::시노부
+}
+
+STRING 2821
+// 능력: A1BA (!0810_와노쿠니의혼::시노부), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff와노쿠니의 혼 :: 시노부|r
+}
+
+STRING 2822
+// 능력: A1BA (!0810_와노쿠니의혼::시노부), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffc68a12스킬 추가|r
+|cffffdead◈|r 공격시 5% 확률로 단일 적 |cff66cdaa현재체력 10% 추가 폭팔형 데미지|r
+}
+
+STRING 2823
+// 능력: A1B9 (!0810_와노쿠니의혼), Hotkey (단축키 - 보통 (ahky))
+{
+D
+}
+
+STRING 2824
+// 능력: A1B9 (!0810_와노쿠니의혼), Name (이름 (anam))
+{
+!0810_와노쿠니의혼
+}
+
+STRING 2825
+// 능력: A1B9 (!0810_와노쿠니의혼), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff와노쿠니의 혼|r|cffffcc00(D)
+}
+
+STRING 2826
+// 능력: A1B9 (!0810_와노쿠니의혼), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D와노쿠니 사무라이들의 신앙의 대상이 된 도신 류마 입니다.|r
+
+|cffffdead◎기본효과|r : 와노쿠니의 사무라이 조합시 시너지 스킬 발동
+}
+
+STRING 2827
+// 능력: A1B0 (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(제한 마르코)
+}
+
+STRING 2828
+// 능력: A1AV (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 2829
+// 능력: A1B0 (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 꺼지지 않는 불꽃|r
+}
+
+STRING 2830
+// 능력: A1B0 (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D불사조의 불꽃 능력을 강화시킵니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'봉리력'|r, |cffff69b4'풍압'|r 강화
+|cffffdead◎코스트|r : 특성포인트 4 필요
+}
+
+STRING 2831
+// 능력: A1AW (!0608_핏빛폭연), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 2832
+// 능력: A1AW (!0608_핏빛폭연), Name (이름 (anam))
+{
+!0608_핏빛폭연
+}
+
+STRING 2833
+// 능력: A1AW (!0608_핏빛폭연), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff핏빛 폭연|r
+}
+
+STRING 2834
+// 능력: A1AW (!0608_핏빛폭연), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D흡수한 피를 응축하여 폭발적인 붉은 꽃으로 피워냅니다. 폭발은 넓은 범위에 걸쳐 적들을 몰살합니다.|r
+
+|cffffdead◎발동조건|r : 체력 55 (공격시 +1)
+|cffffdead◎범위|r : 900
+|cffffdead◎데미지|r : |cffA566FF잃은체력 3% 고정데미지|r
+}
+
+STRING 2835
+// 능력: A1AV (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(제한 레드필드)
+}
+
+STRING 2836
+// 능력: A1AQ (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 2837
+// 능력: A1AV (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 핏빛 폭연|r
+}
+
+STRING 2838
+// 능력: A1AV (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D피를 응축시켜 적을 공격합니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'핏빛 폭연'|r 추가
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+}
+
+STRING 2839
+// 능력: A1AQ (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(제한 카타쿠리)
+}
+
+STRING 2840
+// 능력: A19R (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 2841
+// 능력: A1AQ (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 견문색의 패기|r
+}
+
+STRING 2842
+// 능력: A1AQ (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D카타쿠리가 적을 더 효율적으로 공격합니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'견문색의 패기'|r, |cffff69b4'무쌍도넛'|r 강화
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+}
+
+STRING 2843
+// 능력: A1AG (D_0608_단신최강), EditorSuffix (에디터 접미사 (ansf))
+{
+(파이어볼트)
+}
+
+STRING 2844
+// 능력: A1AG (D_0608_단신최강), Name (이름 (anam))
+{
+D_0608_단신최강
+}
+
+STRING 2845
+// 능력: A1AD ([신비] 아냐), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 2846
+// 능력: A0DQ (!1002_고무), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D아군의 기력을 단숨에 회복시켜 즉시 전투에 돌입할 수 있게 만듭니다.|r
+
+|cffffdead◎재생|r : 선택한 아군 유닛의 체력, 마나를 3초간 90 회복
+|cffffdead　▶|r 다른 재생 스킬과 중복 불가능
+|cffffdead◎쿨타임|r : 100초
+}
+
+STRING 2847
+// 능력: A1AD ([신비] 아냐), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 2848
+// 능력: A1AD ([신비] 아냐), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffdc143c아냐 포저|r - |cff51ddf5신비|r
+
+|cffdc143c엘리자베스|r - |cff51ddf5랜덤전용|r
+|cffffd700슈가|r - |cffFF0000전설|r
+|c00c6fbfb스튜시|r - |c004d57fe히든|r
+|cffff00ff행운의 토큰 1개|r
+|cffffd70010000 골드|r
+|cff7ad823목재 7|r
+}
+
+STRING 2849
+// 능력: A1A6 ([제한] 레드필드), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 2850
+// 유닛: h0BU (|cffc0c0c0환전소|r), Propernames (적합한 이름 (upro))
+{
+기록지침
+}
+
+STRING 2851
+// 능력: A1A6 ([제한] 레드필드), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 2852
+// 능력: A1A6 ([제한] 레드필드), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cff5997c9패트릭 레드필드|r - |cffdf9d30제한|r
+
+|cffffd700쵸파 유력강화|r - |cffFF0000전설|r
+|cffffd700바르토로메오|r - |cffFF0000전설|r
+|c00c6fbfb봉쿠레|r - |c004d57fe히든|r
+|cffffd7005000 골드|r
+|cff7ad823목재 5|r
+(|cffff000040라운드|r 까지만 조합가능)
+}
+
+STRING 2853
+// 능력: A1A5 ([제한] 에넬), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 2854
+// 능력: A0JR (환전소_아이템발굴), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff아이템 발굴|r
+}
+
+STRING 2855
+// 능력: A1A5 ([제한] 에넬), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 2856
+// 능력: A1A5 ([제한] 에넬), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cff5997c9갓 에넬|r - |cffdf9d30제한|r
+
+|c00c6fbfb방주맥심|r - |c004d57fe히든|r
+|cffffd700시저 크라운|r - |cffFF0000전설|r
+|c00b7b7f7나미 크리마텍트|r - |cff0080ff특별|r
+|cff20b2aa해적선|r
+|cffffd7005000 골드|r
+|cff7ad823목재 5|r
+}
+
+STRING 2857
+// 능력: A1A1 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(C 스쿼드 특별함)
+}
+
+STRING 2858
+// 능력: A1A1 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+C
+}
+
+STRING 2859
+// 능력: A1A1 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 2860
+// 능력: A1A1 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(C)|r
+}
+
+STRING 2861
+// 능력: A1A1 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7스쿼드|r - |cff0080ff특별|r
+
+|cff7b68ee쵸파 럼블볼강화|r - |cff9553ec안흔함|r
+|cff7b68ee프랑키|r - |cff9553ec안흔함|r
+|cff20b2aa나미|r - |cff00ff00흔함|r
+}
+
+STRING 2862
+// 능력: A1A0 ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(C 브룩 희귀함)
+}
+
+STRING 2863
+// 능력: A1A0 ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+C
+}
+
+STRING 2864
+// 능력: A1A0 ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 2865
+// 능력: A1A0 ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(C)|r
+}
+
+STRING 2866
+// 능력: A1A0 ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00e7b879브룩 음악가|r - |cffff00ff희귀|r
+
+|cff7b68ee브룩|r - |cff9553ec안흔함|r
+|c00b7b7f7겟코 모리아|r - |cff0080ff특별|r
+|c00b7b7f7로브 루치|r - |cff0080ff특별|r
+}
+
+STRING 2867
+// 능력: A19Z ([조합]), EditorSuffix (에디터 접미사 (ansf))
+{
+(C 스모커 특별함)
+}
+
+STRING 2868
+// 능력: A19Z ([조합]), Hotkey (단축키 - 보통 (ahky))
+{
+C
+}
+
+STRING 2869
+// 능력: A19Z ([조합]), Name (이름 (anam))
+{
+[조합]
+}
+
+STRING 2870
+// 능력: A19Z ([조합]), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(C)|r
+}
+
+STRING 2871
+// 능력: A19Z ([조합]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |c00b7b7f7스모커|r - |cff0080ff특별|r
+
+|cff20b2aa해군 총병|r - |cff00ff00흔함|r
+|cff7b68ee타시기|r - |cff9553ec안흔함|r
+|cff20b2aa해군 칼병|r - |cff00ff00흔함|r
+}
+
+STRING 2872
+// 능력: A19W ([신비] 고죠 사토루), EditorSuffix (에디터 접미사 (ansf))
+{
+(타겟팅)
+}
+
+STRING 2873
+// 능력: A19W ([신비] 고죠 사토루), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 2874
+// 능력: A06U (E_0000_복사용2), Name (이름 (anam))
+{
+E_0000_복사용2
+}
+
+STRING 2875
+// 능력: A19W ([신비] 고죠 사토루), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 2876
+// 능력: A19W ([신비] 고죠 사토루), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffdc143c고죠 사토루|r - |cff51ddf5신비|r
+
+|cffFF0000랜덤전용유닛 1기|r (다른 랜덤전용 유닛에 Z 사용)
+|cffdc143cK|r - |cff51ddf5랜덤전용|r
+|c00d19be7코알라|r - |cff9fefd1왜곡|r 
+|c00c6fbfb아카이누|r - |c004d57fe히든|r
+|c00e7b879슈가|r - |cffff00ff희귀|r
+|cff20b2aa해적선|r
+|cffff00ff행운의 토큰 1개|r
+|cffffd70010000 골드|r
+|cff7ad823목재 7|r
+}
+
+STRING 2877
+// 능력: A19V ([신비] 콘파쿠 요우무), EditorSuffix (에디터 접미사 (ansf))
+{
+(타겟팅)
+}
+
+STRING 2878
+// 능력: A19V ([신비] 콘파쿠 요우무), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 2879
+// 유닛: H0AR (|cffFF8200미션 - 피카 처치|r), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cff1e90ff미션 목표 : 플레이어 라인존에 소환된 피카를 처치하세요.|r
+
+|cffffdead◈|r 보상 : |cffffd7003000 골드|r + |cff7ad8233 목재|r + |cff1e90ff특성포인트|r 1개
+|cffffdead◈|r 제한시간 : 60초
+
+|cffFF0000[단발미션]|r
+|cffffdead◈|r 이 미션은 한번만 수행할 수 있습니다.
+|cffffdead◈|r 이 미션은 신세계 전 라운드에만 수행할 수 있습니다.
+}
+
+STRING 2880
+// 능력: A19V ([신비] 콘파쿠 요우무), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 2881
+// 능력: A19V ([신비] 콘파쿠 요우무), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffdc143c콘파쿠 요우무|r - |cff51ddf5신비|r
+
+|cffFF0000랜덤전용유닛 1기|r (다른 랜덤전용 유닛에 Z 사용)
+|cffdc143c옌|r - |cff51ddf5랜덤전용|r
+|cffffd700제파|r - |cffFF0000전설|r
+|c00ffff00네펠타리 비비|r - |c00ff7039변화|r
+|cffff00ff행운의 토큰 1개|r
+|cffffd70010000 골드|r
+|cff7ad823목재 7|r
+}
+
+STRING 2882
+// 능력: A19U ([신비] 히그마), EditorSuffix (에디터 접미사 (ansf))
+{
+(타겟팅)
+}
+
+STRING 2883
+// 능력: A19U ([신비] 히그마), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 2884
+// 능력: A0BV (환전소_유니크아이템발굴), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff유니크 아이템 발굴|r
+}
+
+STRING 2885
+// 능력: A19U ([신비] 히그마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 2886
+// 능력: A19U ([신비] 히그마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffdc143c히그마|r - |cff51ddf5신비|r
+
+|cffFF0000랜덤전용유닛 1기|r (다른 랜덤전용 유닛에 Z 사용)
+|cffdc143c센토 이스즈|r - |cff51ddf5랜덤전용|r
+|cffffd700네코마무시|r - |cffFF0000전설|r
+|c00e7b879샹크스|r - |cffff00ff희귀|r
+|cffff00ff행운의 토큰 1개|r
+|cffffd70010000 골드|r
+|cff7ad823목재 7|r
+}
+
+STRING 2887
+// 능력: A19T ([신비] 뱌쿠야), EditorSuffix (에디터 접미사 (ansf))
+{
+(타겟팅)
+}
+
+STRING 2888
+// 능력: A19T ([신비] 뱌쿠야), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 2889
+// 능력: A10F (!0725_펑크깁슨), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D거대한 강철 손을 만들어 적을 붙잡아 뭉갭니다.|r
+
+|cffffdead◎발동조건|r : 체력 40 (기본회복 0.2 / 공격시 + 1)
+|cffffdead◎시전시간|r : 0.5초
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cff4374D9444만 마법데미지|r
+|cffffdead　▶|r 중심 250범위의 적은 |cff4374D950% 추가 마법데미지|r
+|cffffdead　▶|r 힘 1당 데미지 5만 증가
+|cffffdead◎추가효과|r : 해당 범위 2.2초 스턴
+}
+
+STRING 2890
+// 능력: A19T ([신비] 뱌쿠야), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 2891
+// 능력: A19T ([신비] 뱌쿠야), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffdc143c쿠치키 뱌쿠야|r - |cff51ddf5신비|r
+
+|cffFF0000랜덤전용유닛 1기|r (다른 랜덤전용 유닛에 Z 사용)
+|cffdc143c쿠로사키 이치고|r - |cff51ddf5랜덤전용|r
+|c00d19be7에이스|r - |cff9fefd1왜곡|r 
+|c00e7b879쥬라클 미호크|r - |cffff00ff희귀|r
+|cffff00ff행운의 토큰 1개|r
+|cffffd70010000 골드|r
+|cff7ad823목재 7|r
+}
+
+STRING 2892
+// 능력: A19S ([신비] 야쿠모 유카리), EditorSuffix (에디터 접미사 (ansf))
+{
+(타겟팅)
+}
+
+STRING 2893
+// 능력: A19S ([신비] 야쿠모 유카리), Hotkey (단축키 - 보통 (ahky))
+{
+Z
+}
+
+STRING 2894
+// 능력: A0DQ (!1002_고무), EditorSuffix (에디터 접미사 (ansf))
+{
+(리쥬버네이션)
+}
+
+STRING 2895
+// 능력: A19S ([신비] 야쿠모 유카리), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff조합|cffffcc00(Z)|r
+}
+
+STRING 2896
+// 능력: A19S ([신비] 야쿠모 유카리), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+▶ |cffdc143c야쿠모 유카리|r - |cff51ddf5신비|r
+
+|cffFF0000랜덤전용유닛 1기|r (다른 랜덤전용 유닛에 Z 사용)
+|cffdc143c야가미 라이토|r - |cff51ddf5랜덤전용|r
+|c00d19be7페로나|r - |cff9fefd1왜곡|r 
+|c00b7b7f7바솔로뮤 쿠마|r - |cff0080ff특별|r
+|cffff00ff행운의 토큰 1개|r
+|cffffd70010000 골드|r
+|cff7ad823목재 7|r
+}
+
+STRING 2897
+// 능력: A19R (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(제한 에넬)
+}
+
+STRING 2898
+// 능력: A19C (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 2899
+// 능력: A19R (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 신의 심판|r
+}
+
+STRING 2900
+// 능력: A19R (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D신의 위엄을 드러냅니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'방전'|r 강화
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+}
+
+STRING 2901
+// 능력: A19Q (!0601_방전), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 2902
+// 능력: A19Q (!0601_방전), Name (이름 (anam))
+{
+!0601_방전
+}
+
+STRING 2903
+// 능력: A19Q (!0601_방전), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff방전|r
+}
+
+STRING 2904
+// 능력: A19Q (!0601_방전), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff방전 《강화》|r
+}

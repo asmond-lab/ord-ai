@@ -1,0 +1,1783 @@
+}
+
+STRING 10877
+// 능력: A0RS (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잠들어 있던 힘이 깨어나 고대병기 포세이돈의 권능을 드러냅니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'해왕류의 지배자'|r 획득
+|cffffdead◎추가효과|r : 클리어한 '항해목표' 1개당 경험치 270 획득
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+}
+
+STRING 10878
+// 능력: A0SG (!1214_배면귀), Name (이름 (anam))
+{
+!1214_배면귀
+}
+
+STRING 10879
+// 능력: A143 (!1404_파시피스타레이저::베어), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D빛빛 열매의 능력을 재현한 고출력 레이저가 적들을 관통하며 막대한 피해를 입힙니다.|r
+
+|cffffdead◎발동조건|r : 공격시 발동
+|cffffdead◎시전시간|r : 0.7초
+|cffffdead◎범위|r : 725
+|cffffdead◎데미지|r : |cff4374D950만 마법데미지|r
+|cffffdead　▶|r 보스 : 단일 적 |cff4374D9전체체력 5% 추가 마법데미지|r
+|cffffdead　▶|r 광폭화 : 단일 적 |cff4374D9전체체력 30% 추가 마법데미지|r  
+|cffffdead◎추가효과|r : 해당 범위 적 |cff87cefa마법데미지 3% 증폭|r
+|cffffdead◎여진|r : 해당 범위 4초간 이동속도 30% 감소
+|cffffdead◎절대쿨타임|r : 5초 
+}
+
+STRING 10880
+// 유닛: H0C0 (|c00F3B001펑크아트|r), Name (이름 (unam))
+{
+|c00F3B001펑크아트|r
+}
+
+STRING 10881
+// 유닛: H0C9 (|c00F3B001펑크아트|r), Name (이름 (unam))
+{
+|c00F3B001펑크아트|r
+}
+
+STRING 10882
+// 능력: A13H (오로성), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D각 오로성에 따라 아래의 효과가 적용됩니다.|r
+
+|cffc68a12오로성 :: 나스쥬로|r
+|cffffdead◎기본효과|r : 모든 적 유닛들의 이동속도 10% 증가, 모든 아군 유닛들의 공격속도 10% 감소, 라인몹 체력 1000만 증가
+
+|cffc68a12오로성 :: 워큐리|r
+|cffffdead◎기본효과|r : 모든 적 유닛들의 방어력 10, 마법방어력 10%, 보스 몬스터 체력 1000만 증가
+
+|cffc68a12오로성 :: 새턴|r
+|cffffdead◎기본효과|r : 모든 아군 유닛들의 공격력 20%, 폭발형 데미지 7% 감소, 모든 적 유닛들의 체력재생 22만 5000 증가|n|n|cffffdead◈|r |cffffd700신|r |cffffdead추가효과 (공통)|r : 모든 적 유닛들의 체력 500만, 체력재생 25만 증가
+}
+
+STRING 10883
+// 능력: A13H (오로성), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D각 오로성에 따라 아래의 효과가 적용됩니다.|r
+
+|cffc68a12오로성 :: 나스쥬로|r
+|cffffdead◎기본효과|r : 모든 적 유닛들의 이동속도 15% 증가, 모든 아군 유닛들의 공격속도 15% 감소, 라인 몬스터 체력 1500만 증가
+
+|cffc68a12오로성 :: 워큐리|r
+|cffffdead◎기본효과|r : 모든 적 유닛들의 방어력 15, 마법방어력 15%, 보스 몬스터 체력 1500만 증가
+
+|cffc68a12오로성 :: 새턴|r
+|cffffdead◎기본효과|r : 모든 아군 유닛들의 공격력 30%, 폭발형 데미지 10% 감소, 모든 적 유닛들의 체력재생 35만 증가|n|n|cffffdead◈|r |c00cc3337악몽|r |cffffdead추가효과 (공통)|r : 모든 적 유닛들의 체력 1000만, 체력재생 50만 증가
+}
+
+STRING 10884
+// 유닛: H0C1 (|c00F3B001순백의 공주|r), Name (이름 (unam))
+{
+|c00F3B001순백의 공주|r
+}
+
+STRING 10885
+// 유닛: H0C1 (|c00F3B001순백의 공주|r), Propernames (적합한 이름 (upro))
+{
+|cffc0c0c0시라호시|r - |cff00fa9a초월|r
+}
+
+STRING 10886
+// 능력: A046 (W_0509_불사조불사조열매), EditorSuffix (에디터 접미사 (ansf))
+{
+(프리미엄)
+}
+
+STRING 10887
+// 업그레이드: R002 (구울 프렌지), Hotkey (단축키 (ghk1))
+{
+F
+}
+
+STRING 10888
+// 유닛: h0A8 (|cffffd700진짜 시노부|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700진짜 시노부|r - |cffFF0000전설|r
+}
+
+STRING 10889
+// 능력: A0PN (G_1214_오거모드), Name (이름 (anam))
+{
+G_1214_오거모드
+}
+
+STRING 10890
+// 능력: A0QN (!1214_배면귀), Name (이름 (anam))
+{
+!1214_배면귀
+}
+
+STRING 10891
+// 유닛: h07Z (|CFFFFFA78고성의 백작|r - |CFFC15AF4영원|r), Name (이름 (unam))
+{
+|CFFFFFA78고성의 백작|r - |CFFC15AF4영원|r
+}
+
+STRING 10892
+// 능력: A0IR (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 팔천효수|r
+}
+
+STRING 10893
+// 능력: A0IR (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D양 손에 든 도끼를 휘둘러 전방의 모든 것을 베어버립니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'팔십효사'|r → |cffff69b4'팔천효사'|r 변경 
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'견문색패기 :: 미래 예지'|r 강화 
+|cffffdead◎코스트|r : 특성포인트 4 필요
+}
+
+STRING 10894
+// 능력: A0IP (!0903_팔십효수), Name (이름 (anam))
+{
+!0903_팔십효수
+}
+
+STRING 10895
+// 능력: A0IP (!0903_팔십효수), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff팔십효수|r
+}
+
+STRING 10896
+// 능력: A0IP (!0903_팔십효수), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff팔천효수|r
+}
+
+STRING 10897
+// 마법/효과: B009 (!0701_요리사의길), EditorSuffix (에디터 접미사 (fnsf))
+{
+(공격속도 증가)
+}
+
+STRING 10898
+// 능력: A0OT (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D어디선가 본 듯한 식물들이 좀비를 막 듯 적을 막아섭니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'수상한 씨앗 상자'|r 획득
+|cffffdead◎코스트|r : 특성포인트 4 필요
+}
+
+STRING 10899
+// 능력: A0PL (!0910_불멸의육체), Name (이름 (anam))
+{
+!0910_불멸의육체
+}
+
+STRING 10900
+// 능력: A0PL (!0910_불멸의육체), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff불멸의 육체 :: 반인반수|r
+}
+
+STRING 10901
+// 능력: A0NS (!0802_슬레이브애로우), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D매료매료 열매의 능력으로 적을 돌로 만들어 으깨버립니다.|r
+
+|cffffdead◎발동조건|r : 공격시 7.5% 확률
+|cffffdead◎데미지|r : 0.7초간 매 공격시 직선 범위 |cff4374D940만 마법데미지|r
+|cffffdead　▶|r 단일 적에게는 |cff4374D930만(x1~1.5) 마법데미지|r
+|cffffdead　▶|r 지속시간 동안 공격속도 15% 감소|r
+}
+
+STRING 10902
+// 능력: A0NS (!0802_슬레이브애로우), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D매료매료 열매의 능력으로 적을 돌로 만들어 으깨버립니다.|r
+
+|cffffdead◎발동조건|r : 공격시 7.5% 확률
+|cffffdead◎데미지|r : 0.7초간 매 공격시 직선 범위 |cff4374D940만 마법데미지|r
+|cffffdead　▶|r 단일 적에게는 |cff4374D930만(x1~1.5) 마법데미지|r
+|cffffdead　▶|r 지속시간 동안 공격속도 15% 감소|r
+|cffffdead◎추가효과|r : 450범위 라인 몬스터 대상 |cff66cdaa전체체력 0.1% 폭발형 데미지|r
+}
+
+STRING 10903
+// 능력: A0NQ (!0802_파퓸페뮤르), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D매료매료 열매의 능력과 체술을 응용한 기술로 적을 타격과 동시에 돌로만들어 으깨버립니다.|r
+
+|cffffdead◎발동조건|r : 마나 175
+|cffffdead◎범위|r : 자기 중심 750범위
+|cffffdead◎데미지|r : |cffF15F5F36만 물리데미지|r + |cff4374D95만 마법데미지|r
+|cffffdead　▶|r 첫 타격과 마지막 타격에는 해당 범위 2.5초 스턴 (저항무시)
+|cffffdead　▶|r 타격시마다 단일 적 |cff4374D9전체체력 16% 마법데미지|r (스토리 / 보스 |cff4374D930만 마법데미지|r)
+|cffffdead◎타격횟수|r : 25회 타격
+}
+
+STRING 10904
+// 능력: A0PS (!0910_물고기물고기열매), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff물고기물고기 열매 :: 청룡|r|cffffcc00(F)|r
+}
+
+STRING 10905
+// 능력: A0PS (!0910_물고기물고기열매), Untip (도구 도움말 - 끄기 (aut1))
+{
+|cff1e90ff물고기물고기 열매 :: 청룡|r|cffffcc00(F)|r
+}
+
+STRING 10906
+// 능력: A0OG (!0910_인수화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff물고기물고기 열매 :: 청룡 : 인수화|r|cffffcc00(F)|r
+}
+
+STRING 10907
+// 능력: A203 (T특성강화), Hotkey (단축키 - 보통 (ahky))
+{
+T
+}
+
+STRING 10908
+// 능력: A0P0 (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 인수화|r
+}
+
+STRING 10909
+// 능력: A0NO (!0802_쿠사의패기), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D체술과 패기를 능숙하게 조화하여 사용합니다.|r
+
+|cffffdead◎기본효과|r : 공격시 15% 확률로 8배의 크리티컬과 |cffF15F5F50만 추가 물리데미지 및 단일 적 3초 스턴
+|cffffdead◎추가효과|r : 공격시 7.5% 확률로 적 중심 460 범위 |cffF15F5F85만 물리 데미지|r
+|cffffdead　▶|r 추가로 600 범위 |cff4374D915만 마법데미지|r 
+|cffffdead◎현기증|r : 스킬에 적중당한 적들의 이동속도 2.5초간 60% 감소
+}
+
+STRING 10910
+// 능력: A0PL (!0910_불멸의육체), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D스스로도 죽을 수 없는 불멸의 육체는 육탄전 최강의 경도를 보입니다.|r
+
+|cffffdead◎기본효과|r : 매 공격시 500범위 |cff4374D9기본 공격 피해량의 25% + 25만 마법데미지|r
+|cffffdead　▶|r 단일 적 |cffF15F5F50만 추가 물리데미지|r
+
+|cffc68a12우는 술주정|r
+|cffffdead◎발동조건|r : 공격시 15% 확률
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cffA566FF기본 공격 피해량의 30% + 35만 고정데미지|r 
+|cffffdead　▶|r 단일 적 |cffF15F5F50만 추가 물리데미지|r
+|cffffdead　▶|r 50% 확률로 2배 크리티컬 데미지
+}
+
+STRING 10911
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 10912
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 10913
+// 능력: A0KV (원피스), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D해적왕 골.D.로져 가 남긴 보물|r
+
+|cffffdead◎기본효과|r : 자신의 라인존에 추가 능력치 제공
+|cffffdead　▶|r 공격력 30% 증가
+|cffffdead　▶|r 공격속도 30% 증가
+|cffffdead　▶|r 적 이동속도 30% 감소
+|cffffdead　▶|r 적 |cffff69b4방어력 30 감소|r
+|cffffdead　▶|r 적 |cff87cefa마법방어력 10% 감소|r
+|cffffdead　▶|r 적 |cff66cdaa폭발형 데미지 10% 증폭|r
+}
+
+STRING 10914
+// 능력: A0K7 ([변화]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D사용시 유닛을 변화시켜 새로운 유닛으로 변경됩니다.|r
+
+|cffffdead◎변화 유닛|r : |c00ffff00캐럿 스론|r - |c00ff7039변화|r
+|cffffdead◎시전시간|r : 10초
+|cffffdead◎코스트|r : |cff7ad823목재 10|r + |c00ff0080변화가능 횟수 1회|r
+}
+
+STRING 10915
+// 능력: A0K6 ([변화]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D사용시 유닛을 변화시켜 새로운 유닛으로 변경됩니다.|r
+
+|cffffdead◎변화 유닛|r : |c00ffff00카쿠|r - |c00ff7039변화|r
+|cffffdead◎시전시간|r : 10초
+|cffffdead◎코스트|r : |cff7ad823목재 10|r + |c00ff0080변화가능 횟수 1회|r
+}
+
+STRING 10916
+// 능력: A0K4 ([변화]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D사용시 유닛을 변화시켜 새로운 유닛으로 변경됩니다.|r
+
+|cffffdead◎변화 유닛|r : |c00ffff00네펠타리 비비|r - |c00ff7039변화|r
+|cffffdead◎시전시간|r : 10초
+|cffffdead◎코스트|r : |cff7ad823목재 10|r + |c00ff0080변화가능 횟수 1회|r
+}
+
+STRING 10917
+// 능력: A0K3 ([변화]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D사용시 유닛을 변화시켜 새로운 유닛으로 변경됩니다.|r
+
+|cffffdead◎변화 유닛|r : |c00ffff00베이비5|r - |c00ff7039변화|r
+|cffffdead◎시전시간|r : 10초
+|cffffdead◎코스트|r : |cff7ad823목재 10|r + |c00ff0080변화가능 횟수 1회|r
+}
+
+STRING 10918
+// 능력: A0K2 ([변화]), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D사용시 유닛을 변화시켜 새로운 유닛으로 변경됩니다.|r
+
+|cffffdead◎변화 유닛|r : |c00ffff00돈키호테 도플라밍고|r - |c00ff7039변화|r
+|cffffdead◎시전시간|r : 10초
+|cffffdead◎코스트|r : |cff7ad823목재 10|r + |c00ff0080변화가능 횟수 1회|r
+}
+
+STRING 10919
+// 능력: A0IV (!0717_흉탄), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D스스로 신의 무기라 칭하는 최강의 실로 적을 꿰뚫습니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 400범위 적들에게 |cffF15F5F기본 공격 피해량의 105% + 10만 5000 물리데미지|r
+|cffffdead◎추가효과|r : 기본 공격시 30% 확률 3배 크리티컬 
+}
+
+STRING 10920
+// 능력: A0I6 (!0703_웨더리아), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D웨더리아의의 기술로 개조한 크리마 텍트를 이용해 비구름을 생성합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 4.15% 확률
+|cffffdead◎범위|r : 525 |r
+|cffffdead◎데미지|r : 낙뢰당 |cff4374D930만 + (지능 x 3500) 마법데미지 |r
+|cffffdead◎낙뢰횟수|r : 8회
+|cffffdead　▶|r 지속시간 2.2초~5초
+|cffffdead◎여진|r : 800범위 5초간 이동속도 45% 감소
+|cffffdead　▶|r 스킬 |cffff69b4'웨더리아의 날씨조작술'|r 과 중첩되지 않습니다.
+}
+
+STRING 10921
+// 능력: A0I0 (!0710_하늘을찢는패기), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D하늘을 찢어버릴 정도의 패기를 사용합니다.|r
+
+|cffffdead◎발동조건|r : 기본 공격시 9% 확률
+|cffffdead◎범위|r : 적 주변 800범위
+|cffffdead◎데미지|r : |cff4374D942만 5000 마법데미지|r
+|cffffdead◎추가효과|r : 해당 범위 2초 스턴 (저항 50% 무시)
+}
+
+STRING 10922
+// 능력: A0HJ (!0538_저격수), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D해군 기밀특수부대 'SWORD'의 저격수입니다.|r
+
+|cffffdead◎기본효과|r : 높은 기본 공격력을 지녔으나 공격속도가 고정됩니다.
+|cffffdead　▶|r 공격속도 초당 0.9로 고정
+|cffffdead　▶|r 모든 공격속도 증가 효과에 영향을 받지 않습니다.
+}
+
+STRING 10923
+// 능력: A0GA (!0906_사람사람열매), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D자연계만큼 희귀하다고 하는 조온계 환수종 사람사람 열매 모델 대불입니다.|r
+
+|cffffdead◎발동조건|r : 기본 공격시
+|cffffdead◎범위|r : 400
+|cffffdead◎데미지|r : |cff66cdaa현재 공격력의 50% 폭발형 데미지|r
+
+|cffc68a12여래신장|r
+|cffffdead◎발동조건|r : 공격시 10% 확률
+|cffffdead◎범위|r : 525
+|cffffdead◎데미지|r : |cff4374D942만 7500 마법데미지|r
+|cffffdead◎추가효과|r : 해당 범위 2.85초 스턴
+}
+
+STRING 10924
+// 능력: A0FK (!0730_(아틀라스)베가펀치), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D새틀라이트 최강의 전투력을 자랑하는 아틀라스의 펀치는 상당히 매콤합니다.|r
+
+|cffffdead◎기본효과|r : 초월 업그레이드가 아래와 같이 변경됩니다.
+|cffffdead　▶|r 공격력 증가폭이 |cff1e90ff6000으로 상승▲|r
+|cffffdead　▶|r 기본 공격속도 증가량이 |cffb2222275%로 감소▼|r , 공격속도 증가폭이 |cff1e90ff7%로 상승▲|r
+|cffffdead◎발동조건|r : 기본 공격시
+|cffffdead◎범위|r : 400
+|cffffdead◎데미지|r : |cff66cdaa현재 공격력의 45% 폭발형 데미지|r
+|cffffdead◎추가효과2|r : 공격시 25%의 확률로 2.5배 크리티컬 및 1초 스턴
+}
+
+STRING 10925
+// 능력: A0DU (!0512_오이란너클), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D강철 너클을 낀 주먹으로 적을 타격해 강한 충격을 줍니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 375범위 적들에게 |cff66cdaa현재 공격력의 50% 폭발형 데미지|r
+
+|cffc68a12왼손은 수면제|r
+|cffffdead◎발동조건|r : 공격시 30% 확률
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cff4374D945만 마법데미지|r
+
+|cffc68a12오른손은 황천길|r
+|cffffdead◎발동조건|r : 매 13번째 공격시
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cff66cdaa현재 공격력의 5배 + 전체체력 0.9% 추가 폭발형 데미지|r (스토리는 75%만 적용)
+}
+
+STRING 10926
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.0|r
+}
+
+STRING 10927
+// 능력: A203 (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 10928
+// 아이템: I009 (콤푸), Name (이름 (unam))
+{
+콤푸
+}
+
+STRING 10929
+// 아이템: I009 (콤푸), Tip (도구 도움말 - 기본 (utip))
+{
+콤푸
+}
+
+STRING 10930
+// 아이템: I009 (콤푸), Ubertip (도구 도움말 - 확장 (utub))
+{
+각종재화로 교환할 수 있는 콤푸입니다.
+}
+
+STRING 10931
+// 능력: A0CI (환전소_랜덤박스), Name (이름 (anam))
+{
+환전소_랜덤박스
+}
+
+STRING 10932
+// 능력: A0SH (F_0912_얼티밋파우스트), Name (이름 (anam))
+{
+F_0912_얼티밋파우스트
+}
+
+STRING 10933
+// 능력: A0DB (환전소_선택위습), Name (이름 (anam))
+{
+환전소_선택위습
+}
+
+STRING 10934
+// 능력: A203 (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D합체 능력을 극대화하여 더욱 강력한 힘을 발휘합니다.|r|n|n|cffffdead◎기본효과|r : 스킬 |cffff69b4'유니언 아르마다 강화 선택'|r 획득|n|cffffdead◎코스트|r : 특성포인트 4 필요
+}
+
+STRING 10935
+// 능력: A0EZ (환전소_목재), Name (이름 (anam))
+{
+환전소_목재
+}
+
+STRING 10936
+// 능력: A204 (!0912_한계돌파), Name (이름 (anam))
+{
+!0912_한계돌파
+}
+
+STRING 10937
+// 능력: A0IY (환전소_해적선), Name (이름 (anam))
+{
+환전소_해적선
+}
+
+STRING 10938
+// 능력: A204 (!0912_한계돌파), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff공격력 강화|r|cffffcc00(Q)|r
+}
+
+STRING 10939
+// 능력: A0JR (환전소_아이템발굴), Name (이름 (anam))
+{
+환전소_아이템발굴
+}
+
+STRING 10941
+// 능력: A0BV (환전소_유니크아이템발굴), Name (이름 (anam))
+{
+환전소_유니크아이템발굴
+}
+
+STRING 10942
+// 능력: A204 (!0912_한계돌파), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff공격력 강화|r|cffffcc00(Q)|r
+}
+
+STRING 10943
+// 능력: A0MA (환전소_랜덤유닛), Name (이름 (anam))
+{
+환전소_랜덤유닛
+}
+
+STRING 10944
+// 능력: A204 (!0912_한계돌파), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니언 아르마다의 공격력 증가 효과를 강화합니다.|r|n|n|cffffdead◎강화효과|r : 공격력 증가량 40% → 48%|n|cffffdead◎현재등급|r : 유니크|n|cffffdead◎필요조건|r : 해당 항목 레전더리 등급|n|n세 항목 중 하나만 선택할 수 있습니다.|n|cffff8200레전더리 등급 달성 후 강화할 수 있습니다.|r
+}
+
+STRING 10945
+// 유닛: h0BU (|cffc0c0c0환전소|r), Name (이름 (unam))
+{
+|cffc0c0c0환전소|r
+}
+
+STRING 10946
+// 능력: A204 (!0912_한계돌파), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff공격력 강화|r|cffffcc00(Q)|r
+}
+
+STRING 10947
+// 능력: A204 (!0912_한계돌파), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니언 아르마다의 공격력 증가 효과를 강화합니다.|r|n|n|cffffdead◎강화효과|r : 공격력 증가량 40% → 48%|n|cffffdead◎현재등급|r : 레전더리|n|cffffdead◎필요조건|r : 해당 항목 레전더리 등급|n|n세 항목 중 하나만 선택할 수 있습니다.|n|cffffcc00선택 즉시 강화가 확정됩니다.|r
+}
+
+STRING 10948
+// 능력: A205 (!0912_한계돌파), Name (이름 (anam))
+{
+!0912_한계돌파
+}
+
+STRING 10949
+// 능력: A205 (!0912_한계돌파), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff공격속도 강화|r|cffffcc00(W)|r
+}
+
+STRING 10950
+// 능력: A0DH (!1008_가이몬의꿈), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D20년 동안 빈 상자 속에 갇혀 섬을 지키면서도 언젠가 진짜 보물을 찾고야 말겠다는 가이몬의 간절한 꿈입니다.|r
+
+|cffffdead◎기본효과|r : 탐색 범위 15% 증가 및 보물 탐색 성공시 2배의 보상 획득
+|cffffdead◎추가효과|r : 보물에서 발견한 '|cffffd700랜덤위습|r' 을 '|cffff8200선택위습|r' 으로 변경
+|cffffdead　▶|r 신세계 진입 전까지 적용됩니다.
+}
+
+STRING 10951
+// 능력: A0D6 (!0806_가상베기), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D미호크의 사정거리 내의 적은 실제로 흑도에 베인 것과 같은 상처를 받습니다.|r
+
+|cffffdead◎발동조건|r : 18초마다 자동 발동
+|cffffdead◎범위|r : 자기 중심 750범위
+|cffffdead◎데미지|r : 범위 내 랜덤한 적 5명에게 |cff66cdaa전체체력 10% 폭발형 데미지|r (라인 몬스터만 적용)
+|cffffdead　▶|r 대상들의 |cff66cdaa폭발형 데미지 증폭|r이 높을수록 쿨타임이 감소합니다.
+|cffffdead　▶|r 스킬 대상들 |cff66cdaa폭발형 데미지 증폭의 합|r 1%당 쿨타임이 0.1초 감소 (최대 12.5초 감소)
+}
+
+STRING 10953
+// 능력: A082 (선택위습제조), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D선택위습 1기를 제조합니다.|r
+
+|cffffdead◎기본효과|r : |cffff8200선택위습|r 1기 획득
+|cffffdead◎조건|r : 특성포인트 1 소모
+|cffffdead◎쿨타임|r : 30초|r
+}
+
+STRING 10954
+// 능력: A06K (!0730_마더플레임), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D무한한 동력원 '마더 플레임'의 에너지를 해방하여 적들을 섬멸합니다.|r
+
+|cffffdead◎발동조건|r : 마나 200
+|cffffdead◎범위|r : 575
+|cffffdead◎데미지|r : |cffF15F5F425만 물리데미지|r + |cffA566FF425만 고정데미지|r
+|cffffdead◎기본효과|r : 해당 범위 2.75초간 스턴
+|cffffdead◎재생|r : 3초간 자신의 '새틀라이트'들의 마나 90 회복
+|cffffdead　▶|r 다른 재생 스킬과 중복 불가능
+}
+
+STRING 10955
+// 능력: A06H (!0529_흔들흔들열매-보스), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D흔들흔들 열매의 능력으로 적을 효율적으로 공격합니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격 350범위 스플래시
+|cffffdead◎발동조건|r : 공격시 11% 확률
+|cffffdead◎범위|r : 600
+|cffffdead◎데미지|r : |cff4374D920만 마법데미지|r
+|cffffdead◎현기증|r : 스킬에 적중당한 적들의 이동속도 3초간 25% 감소
+|cffffdead◎여진|r : 해당 범위 2초간 이동속도 10% 감소
+}
+
+STRING 10956
+// 능력: A0OG (!0910_인수화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D열매를 각성하여 강력한 변신을 합니다.|r
+
+|cffffdead◎발동조건|r : F키를 눌러서 사용
+|cffffdead◎사용효과|r : 스킬 사용시 인수형 변신이 가능합니다.
+|cffffdead　▶|r 자신의 공격속도 최대로 증가 및 기본 공격시 범위 마법데미지 증가
+|cffffdead　▶|r 스킬 |cffff69b4'뇌명팔괘'|r, |cffff69b4'우는 술주정'|r 의 크리티컬 확률과 데미지 증가
+|cffffdead　▶|r 스킬 |cffff69b4'꺼지지 않는 공포'|r 의 방어력 감소 수치 증가
+|cffffdead◎지속시간|r : 15초
+|cffffdead◎쿨타임|r : 50초
+}
+
+STRING 10957
+// 능력: A0WQ (!0912_유니언아르마다), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff유니언 아르마다 :: 공격력 [한계돌파]|r
+}
+
+STRING 10958
+// 능력: A0PC (!0910_뇌명팔괘), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D강력한 위력의 패기를 두른 일격을 가합니다.|r
+
+|cffffdead◎발동조건|r : 기본 공격시 8% 확률
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cffF15F5F기본 공격 피해량의 50% + 50만 물리데미지|r
+|cffffdead◎추가효과|r : 단일 적 |cffA566FF85만 추가 고정데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead　▶|r 50% 확률로 2배 크리티컬 데미지
+
+|cffc68a12라그나라크|r
+|cffffdead◎발동조건|r : 매 10번째 공격시 (스킬은 공격 2회로 판정)
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cffF15F5F기본 공격 피해량의 400% + 200만 물리데미지|r
+|cffffdead◎추가효과|r : 단일 적 |cffA566FF150% 추가 고정데미지|r 및 2.5초 스턴 (저항무시)
+}
+
+STRING 10960
+// 능력: A205 (!0912_한계돌파), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff공격속도 강화|r|cffffcc00(W)|r
+}
+
+STRING 10961
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 10962
+// 능력: A0EZ (환전소_목재), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffffdead◎기본효과|r : 환전시 |cff7ad8231 목재|r 획득
+|cffffdead　▶|r 50% 확률로 |cff7ad8231 목재|r 추가 획득
+|cffffdead◎코스트|r : |cffD0FC5C3 콤푸|r 
+}
+
+STRING 10963
+// 능력: A0IY (환전소_해적선), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffffdead◎기본효과|r : 환전시 |cff20b2aa해적선|r 획득
+|cffffdead◎코스트|r : |cffD0FC5C5 콤푸|r 
+}
+
+STRING 10964
+// 능력: A0JR (환전소_아이템발굴), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffffdead◎기본효과|r : 환전시 |cffA6A6A6아이템 발굴|r 횟수 1 추가
+|cffffdead◎코스트|r : |cffD0FC5C2 콤푸|r 
+|cffffdead◎제한사항|r : 한번만 구매 가능합니다.
+}
+
+STRING 10965
+// 능력: A0BV (환전소_유니크아이템발굴), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffffdead◎기본효과|r : 환전시 |cffFF8200유니크 아이템 발굴|r 횟수 1 추가
+|cffffdead◎코스트|r : |cffD0FC5C6 콤푸|r 
+|cffffdead◎제한사항|r : 한번만 구매 가능합니다.
+}
+
+STRING 10966
+// 능력: A0MA (환전소_랜덤유닛), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffffdead◎기본효과|r : 환전시 |cffFF0000랜덤전용유닛 1기|r + |cffff00ff행운의 토큰 1개|r 획득
+|cffffdead◎코스트|r : |cffD0FC5C20 콤푸|r 
+}
+
+STRING 10967
+// 능력: A0WZ (!1207_협회수당), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D히어로는 협회의 수당을 받습니다.|r
+
+|cffffdead◎사용효과|r : 스킬 사용시 |cffffd700랜덤위습 2개|r 획득
+|cffffdead◎추가효과|r : 낮은 확률로 더 높은 등급의 위습을 1개 획득합니다.
+|cffffdead　▶|r '안흔함' 20%
+|cffffdead　▶|r '특별' 5%
+|cffffdead　▶|r '희귀' 3%
+|cffffdead　▶|r '전설' 2%
+|cffffdead◎쿨타임|r : 90초
+}
+
+STRING 10968
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 10969
+// 능력: A205 (!0912_한계돌파), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니언 아르마다의 공격속도 증가 효과를 강화합니다.|r|n|n|cffffdead◎강화효과|r : 공격속도 증가량 40% → 48%|n|cffffdead◎현재등급|r : 유니크|n|cffffdead◎필요조건|r : 해당 항목 레전더리 등급|n|n세 항목 중 하나만 선택할 수 있습니다.|n|cffff8200레전더리 등급 달성 후 강화할 수 있습니다.|r
+}
+
+STRING 10970
+// 능력: A205 (!0912_한계돌파), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff공격속도 강화|r|cffffcc00(W)|r
+}
+
+STRING 10971
+// 능력: A205 (!0912_한계돌파), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니언 아르마다의 공격속도 증가 효과를 강화합니다.|r|n|n|cffffdead◎강화효과|r : 공격속도 증가량 40% → 48%|n|cffffdead◎현재등급|r : 레전더리|n|cffffdead◎필요조건|r : 해당 항목 레전더리 등급|n|n세 항목 중 하나만 선택할 수 있습니다.|n|cffffcc00선택 즉시 강화가 확정됩니다.|r
+}
+
+STRING 10972
+// 능력: A206 (!0912_한계돌파), Name (이름 (anam))
+{
+!0912_한계돌파
+}
+
+STRING 10973
+// 능력: A206 (!0912_한계돌파), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff방어력 감소 강화|r|cffffcc00(E)|r
+}
+
+STRING 10975
+// 능력: A206 (!0912_한계돌파), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff방어력 감소 강화|r|cffffcc00(E)|r
+}
+
+STRING 10976
+// 능력: A206 (!0912_한계돌파), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니언 아르마다의 방어력 감소 효과를 강화합니다.|r|n|n|cffffdead◎강화효과|r : 적 방어력 감소량 40 → 48|n|cffffdead◎현재등급|r : 유니크|n|cffffdead◎필요조건|r : 해당 항목 레전더리 등급|n|n세 항목 중 하나만 선택할 수 있습니다.|n|cffff8200레전더리 등급 달성 후 강화할 수 있습니다.|r
+}
+
+STRING 10977
+// 능력: A206 (!0912_한계돌파), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff방어력 감소 강화|r|cffffcc00(E)|r
+}
+
+STRING 10978
+// 능력: A206 (!0912_한계돌파), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D유니언 아르마다의 방어력 감소 효과를 강화합니다.|r|n|n|cffffdead◎강화효과|r : 적 방어력 감소량 40 → 48|n|cffffdead◎현재등급|r : 레전더리|n|cffffdead◎필요조건|r : 해당 항목 레전더리 등급|n|n세 항목 중 하나만 선택할 수 있습니다.|n|cffffcc00선택 즉시 강화가 확정됩니다.|r
+}
+
+STRING 10979
+// 능력: A0WQ (!0912_유니언아르마다), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff유니언 아르마다 :: 공격력 Lv.3|r
+}
+
+STRING 10980
+// 능력: A207 (!0912_한계돌파), Name (이름 (anam))
+{
+!0912_한계돌파
+}
+
+STRING 10981
+// 능력: A0SJ (!0912_얼티밋파우스트), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 10982
+// 능력: A0SJ (!0912_얼티밋파우스트), Name (이름 (anam))
+{
+!0912_얼티밋파우스트
+}
+
+STRING 10983
+// 능력: A207 (!0912_한계돌파), Hotkey (단축키 - 보통 (ahky))
+{
+T
+}
+
+STRING 10984
+// 마법/효과: B00I (!0534_용기의 외침), EditorSuffix (에디터 접미사 (fnsf))
+{
+(공격력 증가)
+}
+
+STRING 10985
+// 마법/효과: B00A (!1213_골때리는개그), EditorSuffix (에디터 접미사 (fnsf))
+{
+(방어력 감소)
+}
+
+STRING 10986
+// 마법/효과: B08N (!1214_오거모드), EditorSuffix (에디터 접미사 (fnsf))
+{
+(공격속도 증가)
+}
+
+STRING 10987
+// 업그레이드: R00F (구울 프렌지), Hotkey (단축키 (ghk1))
+{
+Q
+}
+
+STRING 10988
+// 업그레이드: R00E (구울 프렌지), Hotkey (단축키 (ghk1))
+{
+W
+}
+
+STRING 10989
+// 업그레이드: R008 (구울 프렌지), Hotkey (단축키 (ghk1))
+{
+E
+}
+
+STRING 10990
+// 유닛: H08T (|c00F3B001해적왕이 될 사나이|r / |c00F3B001다섯번째 황제|r), Name (이름 (unam))
+{
+|c00F3B001해적왕이 될 사나이|r / |c00F3B001다섯번째 황제|r
+}
+
+STRING 10991
+// 능력: A0IP (!0903_팔십효수), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D무장색 참격을 날려 여러 적들을 산산조각냅니다.|r
+
+|cffffdead◎발동조건|r : 기본 공격시 발동 
+|cffffdead◎데미지|r : 단일 적 |cffF15F5F875만(x1~1.5) 물리데미지|r
+|cffffdead　▶|r 라인 몬스터 |cffF15F5F전체체력 20% 추가 물리데미지|r
+|cffffdead◎추가효과|r : 750범위 내 랜덤한 라인 몬스터 1명에게 |cffF15F5F스킬 데미지의 100% 물리데미지|r
+|cffffdead◎절대쿨타임|r : 2.5초
+}
+
+STRING 10992
+// 능력: A0WL (!0912_패왕색의패기), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D국가 전력에 필적하는 강대함을 가진자의 패기|r
+
+|cffffdead◎발동조건|r : 공격시 5% 확률
+|cffffdead◎범위|r : 불릿 기준 400범위
+|cffffdead◎데미지|r : |cffF15F5F25만 + 현재체력 2% 물리데미지|r
+|cffffdead◎추가효과|r : (아르마다 :: 공격력 레벨 x 10%) 최종데미지 증가
+|cffffdead◎페널티|r : 보스 / 스토리 데미지 없음
+
+|cffffe100유니크 추가효과|r (공격력 아이템)
+|cffffdead◎기본효과|r : 보스 / 스토리 데미지 추가
+|cffffdead　▶|r 25만 + 현재체력 1% 물리데미지
+|cffffdead　▶|r (아르마다 :: 공격력 레벨 x 20%) 기본 데미지 증가 (체력 비례 데미지 영향X)
+}
+
+STRING 10993
+// 능력: A0WL (!0912_패왕색의패기), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D국가 전력에 필적하는 강대함을 가진자의 패기|r
+
+|cffffdead◎발동조건|r : 공격시 5% 확률
+|cffffdead◎범위|r : 불릿 기준 400범위
+|cffffdead◎데미지|r : |cffF15F5F25만 + 현재체력 2% 물리데미지|r
+|cffffdead◎추가효과|r : (아르마다 :: 공격력 레벨 x 10%) 최종데미지 증가
+|cffffdead◎페널티|r : 보스 / 스토리 데미지 없음
+
+|cffffe100유니크 추가효과|r (공격력 아이템)
+|cffffdead◎기본효과|r : 보스 / 스토리 데미지 추가
+|cffffdead　▶|r 25만 + 현재체력 1% 물리데미지
+|cffffdead　▶|r (아르마다 :: 공격력 레벨 x 20%) 기본 데미지 증가 (체력 비례 데미지 영향X)
+
+|cff5eff00레전더리 추가효과|r (공격력 아이템)
+|cffffdead◎기본효과|r : 스킬 발동시 50% 확률로 한번 더 발동
+}
+
+STRING 10994
+// 마법/효과: B08I (!0724_블랙맘바), EditorSuffix (에디터 접미사 (fnsf))
+{
+(절대쿨타임)
+}
+
+STRING 10995
+// 마법/효과: B08R (!0912_얼티밋파우스트), Bufftip (도구 도움말 (ftip))
+{
+절대쿨타임
+}
+
+STRING 10996
+// 능력: A207 (!0912_한계돌파), EditorSuffix (에디터 접미사 (ansf))
+{
+(마법책)
+}
+
+STRING 10997
+// 능력: A0WO (!0912_유니언아르마다), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff유니언 아르마다 :: 공격속도 Lv.3|r
+}
+
+STRING 10998
+// 능력: A0WN (!0912_유니언아르마다), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff유니언 아르마다 :: 방어력 감소 Lv.3|r
+}
+
+STRING 10999
+// 능력: A0WL (!0912_패왕색의패기), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D국가 전력에 필적하는 강대함을 가진자의 패기|r
+
+|cffffdead◎발동조건|r : 공격시 5% 확률
+|cffffdead◎범위|r : 불릿 기준 400범위
+|cffffdead◎데미지|r : |cffF15F5F25만 + 현재체력 2% 물리데미지|r
+|cffffdead◎추가효과|r : (아르마다 :: 공격력 레벨 x 10%) 최종데미지 증가
+|cffffdead◎페널티|r : 보스 / 스토리 데미지 없음
+}
+
+STRING 11000
+// 능력: A0P0 (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D카이도가 열매의 능력을 전부 끌어내 최강의 형태로 변신합니다.
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'물고기물고기 열매 :: 청룡'|r → |cffff69b4'물고기물고기 열매 :: 청룡《인수화》'|r 변경|r
+|cffffdead◎패널티|r : 공격력 감소 디버프 60%로 상승, 이동속도 감소 오라 30%로 감소
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+|c00cc3337※주의사항|r : 특성강화시 공중이동 능력이 사라지며 시전 시간이 10초로 증가합니다.|r
+}
+
+STRING 11001
+// 능력: A0QF (패왕의길::레오_톤타타), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D레오는 톤타타족 최강의 전사로 늘 최전선에서 싸웁니다.|r
+
+|cffffdead◎기본효과|r : 레오의 공격속도가 고정됩니다.
+|cffffdead　▶|r 공격속도 초당 1 고정
+|cffffdead　▶|r 모든 공격속도 증가, 감소 효과에 영향을 받지 않습니다.
+|cffffdead◎추가효과|r : 공중이동 가능 
+}
+
+STRING 11002
+// 능력: A0QU (!1214_지진멈추기), Name (이름 (anam))
+{
+!1214_지진멈추기
+}
+
+STRING 11003
+// 능력: A0WQ (!0912_유니언아르마다), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D자신의 공격력이 증가합니다.|r
+
+|cffffdead◎기본효과|r : 자신의 공격력 50% 증가
+}
+
+STRING 11004
+// 능력: A0WO (!0912_유니언아르마다), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff유니언 아르마다 :: 공격속도 [한계돌파]|r
+}
+
+STRING 11005
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 11006
+// 마법/효과: B07I (!1214_지진멈추기), EditorName (이름 (오직 에디터) (fnam))
+{
+!1214_지진멈추기
+}
+
+STRING 11007
+// 마법/효과: B001 (!0129_!0238_!0602_모래모래열매), EditorSuffix (에디터 접미사 (fnsf))
+{
+(이동속도 감소)
+}
+
+STRING 11008
+// 마법/효과: B08N (!1214_오거모드), EditorName (이름 (오직 에디터) (fnam))
+{
+!1214_오거모드
+}
+
+STRING 11009
+// 마법/효과: B08P (!1214_배면귀), Bufftip (도구 도움말 (ftip))
+{
+배면귀
+}
+
+STRING 11010
+// 능력: A0WO (!0912_유니언아르마다), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D자신의 공격속도가 증가합니다|r
+
+|cffffdead◎기본효과|r : 자신의 공격속도 50%증가
+}
+
+STRING 11011
+// 마법/효과: B08P (!1214_배면귀), EditorName (이름 (오직 에디터) (fnam))
+{
+!1214_배면귀
+}
+
+STRING 11012
+// 마법/효과: B08O (!1214_지상최강의생물), EditorSuffix (에디터 접미사 (fnsf))
+{
+(이동속도 감소)
+}
+
+STRING 11013
+// 능력: A0WN (!0912_유니언아르마다), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff유니언 아르마다 :: 방어력 감소 [한계돌파]|r
+}
+
+STRING 11014
+// 능력: A0SG (!1214_배면귀), EditorSuffix (에디터 접미사 (ansf))
+{
+(더미스킬)
+}
+
+STRING 11015
+// 능력: A0IJ (!1214_오거모드), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff오거모드|r
+}
+
+STRING 11016
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 11017
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 11018
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 11019
+// 능력: A0WN (!0912_유니언아르마다), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D방어력을 감소시킨다|r
+
+|cffffdead◎기본효과|r : 800범위 적 방어력 50 감소
+}
+
+STRING 11021
+// 능력: A0WU (!0912_데어스크라이크), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D전신을 경화한 불릿의 주먹 난타|r
+
+|cffffdead◎발동조건|r : 마나 150
+|cffffdead◎범위|r : 600
+|cffffdead◎데미지|r : 첫타 |cffF15F5F150만 x (아르마다 :: 공격력 레벨 x 50%) 물리데미지|r
+|cffffdead◎추가데미지|r : 연타 |cffF15F5F10만 x (아르마다 :: 공격력 레벨 x 10%) * 12회 물리데미지|r
+|cffffdead◎추가효과|r : 해당 범위 2초 스턴
+}
+
+STRING 11022
+// 능력: A0WU (!0912_데어스크라이크), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D전신을 경화한 불릿의 주먹 난타|r
+
+|cffffdead◎발동조건|r : 마나 150
+|cffffdead◎범위|r : 600
+|cffffdead◎데미지|r : 첫타 |cffF15F5F150만 x (아르마다 :: 공격력 레벨 x 50%) 물리데미지|r
+|cffffdead◎추가데미지|r : 연타 |cffF15F5F10만 x (아르마다 :: 공격력 레벨 x 10%) * 12회 물리데미지|r
+|cffffdead◎추가효과|r : 해당 범위 2초 스턴
+
+|cffffe100유니크 추가효과|r (중형 불릿)
+|cffffdead◎기본효과|r : 지면을 불태워 0.1초 마다 |cff4374D95만 마법데미지|r (3초 지속)
+
+|cff5eff00레전더리 추가효과|r (대형 불릿)
+|cffffdead◎기본효과|r : 마지막 타격 이후 |cffF15F5F전체체력 10% 물리 추가데미지|r
+|cffffdead◎추가효과|r : 해당 범위 2초 스턴
+}
+
+STRING 11023
+// 마법/효과: B08R (!0912_얼티밋파우스트), Buffubertip (도구 도움말 - 확장 (fube))
+{
+절대쿨타임 입니다.
+}
+
+STRING 11024
+// 마법/효과: B08R (!0912_얼티밋파우스트), EditorName (이름 (오직 에디터) (fnam))
+{
+!0912_얼티밋파우스트
+}
+
+STRING 11025
+// 마법/효과: B08R (!0912_얼티밋파우스트), EditorSuffix (에디터 접미사 (fnsf))
+{
+(절대쿨타임)
+}
+
+STRING 11026
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 11027
+// 능력: A0QN (!1214_배면귀), EditorSuffix (에디터 접미사 (ansf))
+{
+(타겟팅)
+}
+
+STRING 11028
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 11029
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.1|r
+}
+
+STRING 11030
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.2|r
+}
+
+STRING 11031
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.3|r
+}
+
+STRING 11032
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.4|r
+}
+
+STRING 11033
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.5|r
+}
+
+STRING 11034
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.6|r
+}
+
+STRING 11035
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.7|r
+}
+
+STRING 11036
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.8|r
+}
+
+STRING 11037
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.9|r
+}
+
+STRING 11038
+// 능력: A0QJ (!1214_지상최강의생물), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지상 최강의 생물 :: Lv.10|r
+}
+
+STRING 11039
+// 능력: A0S1 (!1214_죽여주마), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D대상을 살해하겠다는 의지 하나로 전력을 담아 주먹을 휘두릅니다.|r
+
+|cffffdead◎발동조건|r : 체력 150 (공격시 +1)
+|cffffdead◎범위|r : 1050
+|cffffdead◎데미지|r : |cffF15F5F375만 물리데미지|r + |cffA566FF375만 고정데미지|r
+|cffffdead◎추가효과|r : 대상의 방어력이 0 미만 일때, |cffff8c0020의 아머브레이크|r
+|cffffdead◎시전시간|r : 1초
+|cffffdead　▶|r 발동시 '지진 멈추기' 스킬에 절대쿨타임 8초가 적용됩니다.
+}
+
+STRING 11040
+// 능력: A0SJ (!0912_얼티밋파우스트), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff얼티밋 파우스트 :: 공격력|r
+}
+
+STRING 11041
+// 능력: A0IP (!0903_팔십효수), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D양 손에 든 도끼를 휘둘러 수 많은 적들을 한번에 도륙합니다.|r
+
+|cffffdead◎발동조건|r : 기본 공격시 발동 
+|cffffdead◎데미지|r : 단일 적 |cffF15F5F875만(x1~1.5) 물리데미지|r
+|cffffdead　▶|r 라인 몬스터 |cffF15F5F전체체력 20% 추가 물리데미지|r
+|cffffdead◎추가효과|r : 750범위 내 랜덤한 적들에게 |cffF15F5F스킬 데미지의 80% 물리데미지|r
+|cffffdead　▶|r 공격 피해량 30만(300K) 당 발동 대상이 1명 추가됩니다. 
+|cffffdead◎절대쿨타임|r : 2.5초
+}
+
+STRING 11042
+// 마법/효과: B000 (!0602_모래모래열매), EditorSuffix (에디터 접미사 (fnsf))
+{
+(방어력 감소)
+}
+
+STRING 11043
+// 마법/효과: B08O (!1214_지상최강의생물), Bufftip (도구 도움말 (ftip))
+{
+지상 최강의 생물
+}
+
+STRING 11044
+// 마법/효과: B08O (!1214_지상최강의생물), Buffubertip (도구 도움말 - 확장 (fube))
+{
+이 유닛은 지상 최강의 생물의 영향을 받고 있습니다. 이동속도가 감소합니다.
+}
+
+STRING 11045
+// 마법/효과: B08O (!1214_지상최강의생물), EditorName (이름 (오직 에디터) (fnam))
+{
+!1214_지상최강의생물
+}
+
+STRING 11046
+// 마법/효과: B08P (!1214_배면귀), EditorSuffix (에디터 접미사 (fnsf))
+{
+(배니쉬)
+}
+
+STRING 11047
+// 마법/효과: B08P (!1214_배면귀), Buffubertip (도구 도움말 - 확장 (fube))
+{
+이 유닛은 공포에 휩싸여 전의를 상실했습니다.
+}
+
+STRING 11048
+// 마법/효과: B08Q (!1214_지상최강의생물), Bufftip (도구 도움말 (ftip))
+{
+지상 최강의 생물
+}
+
+STRING 11049
+// 마법/효과: B08Q (!1214_지상최강의생물), Buffubertip (도구 도움말 - 확장 (fube))
+{
+이 유닛은 지상 최강의 생물의 영향을 받고 있습니다. 방어력이 감소합니다.
+}
+
+STRING 11050
+// 마법/효과: B08Q (!1214_지상최강의생물), EditorName (이름 (오직 에디터) (fnam))
+{
+!1214_지상최강의생물
+}
+
+STRING 11051
+// 마법/효과: B08Q (!1214_지상최강의생물), EditorSuffix (에디터 접미사 (fnsf))
+{
+(방어력 감소)
+}
+
+STRING 11052
+// 능력: A0IL (!0903_산먹깨비), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D가반은 병상의 해적왕을 지키는 격렬한 전투로 산 전체를 파괴해 '산먹깨비'라는 별명을 얻었습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 45% 확률로 단일 적 |cffF15F5F100만(x1~3) 물리데미지|r 및 3초 스턴
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'산먹깨비'|r 25회 발동시 스킬 |cffff69b4'부천락'|r 추가 발동
+}
+
+STRING 11053
+// 능력: A0CI (환전소_랜덤박스), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffffdead◎기본효과|r : 환전시 무작위 재화 획득
+|cffffdead　▶|r 50% 확률 : |cffffd7005000 골드|r
+|cffffdead　▶|r 40% 확률 : |cffffd700랜덤위습 1개|r
+|cffffdead　▶|r 10% 확률 : |cffff8200선택위습 1개|r
+|cffffdead◎코스트|r : |cffD0FC5C1 콤푸|r 
+}
+
+STRING 11054
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11055
+// 능력: A0C9 (!0804_옥졸수::미노코알라), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D미노코알라의 정권은 상대의 급소를 공략합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 45% 확률
+|cffffdead◎데미지|r : |cff4374D910만 마법데미지|r
+|cffffdead   ▶|r 공격 대상이 보스일 경우  |cff4374D9전체체력 0.9% 추가 마법데미지|r
+|cffffdead　▶|r 공격 대상이 광폭화일 경우 |cff4374D9전체체력 4% 추가 마법데미지|r
+}
+
+STRING 11056
+// 능력: A0BU (!0804_옥졸수::미노지브라), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D미노지브라는 본능적으로 상대의 약점을 파악합니다.|r
+
+|cffffdead◎기본효과|r : 550범위 적 방어력 5 감소
+}
+
+STRING 11057
+// 업그레이드: R014 (구울 프렌지), Hotkey (단축키 (ghk1))
+{
+Z
+}
+
+STRING 11058
+// 능력: A10U (F_1214_지진멈추기), Name (이름 (anam))
+{
+F_1214_지진멈추기
+}
+
+STRING 11059
+// 능력: A0QU (!1214_지진멈추기), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff지진 멈추기|r
+}
+
+STRING 11061
+// 능력: A0S1 (!1214_죽여주마), Name (이름 (anam))
+{
+!1214_죽여주마
+}
+
+STRING 11062
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11063
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11064
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11065
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11066
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11067
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11068
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11069
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11070
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11071
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11072
+// 능력: A0S1 (!1214_죽여주마), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff죽여 주마|r
+}
+
+STRING 11074
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 875 범위 적 이동속도 5% 감소 및 방어력 5 감소
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11075
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 875 범위 적 이동속도 10% 감소 및 방어력 10 감소
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11076
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 875 범위 적 이동속도 15% 감소 및 방어력 15 감소
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11077
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 875 범위 적 이동속도 20% 감소 및 방어력 20 감소
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11078
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 875 범위 적 이동속도 25% 감소 및 방어력 25 감소
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11079
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 875 범위 적 이동속도 30% 감소 및 방어력 30 감소
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11080
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 875 범위 적 이동속도 35% 감소 및 방어력 35 감소
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11081
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 875 범위 적 이동속도 40% 감소 및 방어력 40 감소
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11082
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 875 범위 적 이동속도 45% 감소 및 방어력 45 감소
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11083
+// 능력: A0QJ (!1214_지상최강의생물), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로를 상대할 수 있는 생명체는 존재하지 않습니다.|r
+
+|cffffdead◎기본효과|r : 공격시 25% 확률로 단일 적 |cff4374D925만 마법데미지|r 및 1.5초 스턴 (저항무시)
+|cffffdead◎추가효과|r : 875 범위 적 이동속도 50% 감소 및 방어력 50 감소
+
+|cffc68a12번개 잡이|r
+|cffffdead◎발동조건|r : 공격시 33% 확률
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F25만 물리데미지|r + |cffA566FF25만 고정데미지|r
+|cffffdead◎추가효과|r : 스킬 |cffff69b4'지상 최강의 생물'|r 의 레벨당 스킬데미지 증가
+|cffffdead　▶|r |cffF15F5F2.5만 물리데미지|r + |cffA566FF2.5만 고정데미지|r 증가
+}
+
+STRING 11084
+// 능력: A0SJ (!0912_얼티밋파우스트), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D무장색을 두른 대형 불릿의 주먹으로 섬 전체를 쪼개버릴 정도의 피해를 줍니다.|r
+
+|cffffdead◎발동조건|r : 기본 공격시 
+|cffffdead◎범위|r : 600
+|cffffdead◎데미지|r : |cffF15F5F 250만 물리데미지|r
+|cffffdead　▶|r |cffF15F5F공격력 레벨 x 50만 물리데미지|r 추가
+|cffffdead　▶|r |cffff8c00공격속도 레벨 x 5의 아머브레이크|r (최대 75까지 중첩)
+|cffffdead　▶|r |cffA566FF방어력감소 레벨 x 잃은체력 1% 고정데미지|r 추가
+|cffffdead◎추가효과|r : 범위 내 보스, 광폭화에게 |cffA566FF전체체력 20% 고정데미지|r
+|cffffdead◎절대쿨타임|r : 15초
+}
+
+STRING 11085
+// 마법/효과: B02X (!1208_총알세례), EditorName (이름 (오직 에디터) (fnam))
+{
+!1208_총알세례
+}
+
+STRING 11086
+// 능력: A0SJ (!0912_얼티밋파우스트), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D무장색을 두른 대형 불릿의 주먹으로 섬 전체를 쪼개버릴 정도의 피해를 줍니다.|r
+
+|cffffdead◎발동조건|r : 기본 공격시 
+|cffffdead◎범위|r : 600
+|cffffdead◎데미지|r : |cffF15F5F 250만 물리데미지|r
+|cffffdead　▶|r |cffF15F5F공격력 레벨 x 50만 물리데미지|r 추가
+|cffffdead　▶|r |cffff8c00공격속도 레벨 x 5의 아머브레이크|r (최대 75까지 중첩)
+|cffffdead　▶|r |cffA566FF방어력감소 레벨 x 잃은체력 1% 고정데미지|r 추가
+|cffffdead◎추가효과|r : 30회 공격 시 마다 스킬 '얼티밋 파우스트' 추가 발동
+|cffffdead◎절대쿨타임|r : 15초
+}
+
+STRING 11087
+// 능력: A0SJ (!0912_얼티밋파우스트), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D무장색을 두른 대형 불릿의 주먹으로 섬 전체를 쪼개버릴 정도의 피해를 줍니다.|r
+
+|cffffdead◎발동조건|r : 기본 공격시 
+|cffffdead◎범위|r : 600
+|cffffdead◎데미지|r : |cffF15F5F 250만 물리데미지|r
+|cffffdead　▶|r |cffF15F5F공격력 레벨 x 50만 물리데미지|r 추가
+|cffffdead　▶|r |cffff8c00공격속도 레벨 x 5의 아머브레이크|r (최대 75까지 중첩)
+|cffffdead　▶|r |cffA566FF방어력감소 레벨 x 잃은체력 1% 고정데미지|r 추가
+|cffffdead◎추가효과|r : 범위 내 라인몬스터에게 |cffA566FF스킬데미지의 75% 추가 고정데미지|r
+|cffffdead◎절대쿨타임|r : 15초
+}
+
+STRING 11088
+// 능력: A0SJ (!0912_얼티밋파우스트), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff얼티밋 파우스트 :: 공격속도|r
+}
+
+STRING 11089
+// 능력: A0SJ (!0912_얼티밋파우스트), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff얼티밋 파우스트 :: 방어력감소|r
+}
+
+STRING 11090
+// 능력: A0DB (환전소_선택위습), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffffdead◎기본효과|r : 환전시 |cffff8200선택위습 1개|r 획득
+|cffffdead　▶|r 35% 확률로 |cffff8200선택위습 1개|r 추가 획득
+|cffffdead◎코스트|r : |cffD0FC5C3 콤푸|r 
+}
+
+STRING 11100
+// 능력: A0QN (!1214_배면귀), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D한마 유지로의 악마를 마주한 자는 적아 구분없이 모두 공포에 휩싸입니다.|r
+
+|cffffdead◎기본효과|r : 대상의 방어력이 0 미만 일때, 대상에게 적용되는 스킬데미지가 추가로 증가합니다.
+|cffffdead　▶|r 두개골 부수기 : 대상의 방어력 -1 당 스킬데미지 5% 증가
+|cffffdead　▶|r 지진 멈추기 : 대상의 방어력 -1 당 스킬데미지 4% 증가
+|cffffdead　▶|r 번개 잡이 : 대상의 방어력 -1 당 스킬데미지 3% 증가
+
+|cffc68a12약자멸시|r
+|cffffdead◎사용효과|r : 전설,히든,왜곡,변화 등급 유닛에게 사용시 스킬 |cffff69b4'지상 최강의 생물'|r 레벨 증가
+|cffffdead　▶|r 대상이 된 유닛은 공포에 휩싸여 전의를 상실합니다.
+|cffffdead　▶|r 대상 유닛의 공격 능력 삭제 및 이동속도 20% 감소
+|cffffdead◎제한사항|r : 자신의 유닛에게만 사용 가능 
+}
+

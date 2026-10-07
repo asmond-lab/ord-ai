@@ -1,0 +1,1800 @@
+
+STRING 4453
+// 능력: A0TO (!0803_듀란달), Name (이름 (anam))
+{
+!0803_듀란달
+}
+
+STRING 4454
+// 능력: A0TO (!0803_듀란달), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff명검 듀랜달|r
+}
+
+STRING 4455
+// 능력: A0TO (!0803_듀란달), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D엄청난 강도를 가진 명검 듀랜달입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격 325범위 25% 스플래쉬
+|cffffdead◎추가효과|r : 미검 스킬 발동시 해당 스킬 물리데미지의 |cffA566FF300% 단일 고정데미지 추가|r
+|cffffdead◎추가효과2|r : 공격시 20% 확률로 단일 적 3초 스턴 및 10배 크리티컬 + |cffF15F5F40만 물리데미지|r
+|cffffdead　▶|r 325범위 적들에게는 |cffF15F5F10만 물리데미지|r
+}
+
+STRING 4456
+// 능력: A0TN (!0803_미공자), EditorSuffix (에디터 접미사 (ansf))
+{
+(방어력 감소)
+}
+
+STRING 4457
+// 능력: A0TN (!0803_미공자), Name (이름 (anam))
+{
+!0803_미공자
+}
+
+STRING 4458
+// 능력: A0TN (!0803_미공자), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff미공자|r
+}
+
+STRING 4459
+// 능력: A0TN (!0803_미공자), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D카벤딧슈는 웬만한 남자도 착각할 정도로 아름다워 존재만으로도 집중력을 흩트려놓습니다.|r
+
+|cffffdead◎기본효과|r : 900범위 적 방어력 35감소
+}
+
+STRING 4460
+// 능력: A0TI (!0803_기면증), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4461
+// 능력: A0TM (!0803_블루버드), Name (이름 (anam))
+{
+!0803_블루버드
+}
+
+STRING 4462
+// 능력: A0TM (!0803_블루버드), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff미검 :: 블루버드|r
+}
+
+STRING 4463
+// 능력: A0TM (!0803_블루버드), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D강력한 찌르기를 구사합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 11% 확률 
+|cffffdead◎범위|r : 450
+|cffffdead◎데미지|r : |cffF15F5F85만 5000 물리데미지|r
+|cffffdead◎추가효과|r : 단일 적에게 |cffff8c005의 아머브레이크|r (최대 75까지 중첩)
+}
+
+STRING 4464
+// 능력: A0T8 (!1304_거미거미열매), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4465
+// 능력: A0TK (!0803_백조의호수), Name (이름 (anam))
+{
+!0803_백조의호수
+}
+
+STRING 4466
+// 능력: A0TK (!0803_백조의호수), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff미검 :: 백조의호수|r
+}
+
+STRING 4467
+// 능력: A0TK (!0803_백조의호수), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D주변을 한번에 휩쓸어버리는 검술을 구사합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 10% 확률 
+|cffffdead◎범위|r : 550
+|cffffdead◎데미지|r : |cffF15F5F45만 물리데미지|r + |cff4374D955만 마법데미지|r 
+|cffffdead◎추가효과|r : 해당 범위 2.3초 스턴
+}
+
+STRING 4468
+// 능력: A0TJ (창고 나가기), EditorSuffix (에디터 접미사 (ansf))
+{
+(흔함)
+}
+
+STRING 4469
+// 능력: A0TJ (창고 나가기), Name (이름 (anam))
+{
+창고 나가기
+}
+
+STRING 4470
+// 능력: A0TJ (창고 나가기), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff창고 나가기|r|cffffcc00(G)|r
+}
+
+STRING 4471
+// 능력: A0TJ (창고 나가기), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D사용시 흔함 유닛을 창고에서 밖으로 이동시킵니다.|r
+
+|cffffdead◈|r 이동 후 |cff1e90ff'홀드(H)'|r 상태로 변경
+}
+
+STRING 4472
+// 능력: A0T6 (!1304_타오르란마리아), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4473
+// 능력: A0TI (!0803_기면증), Name (이름 (anam))
+{
+!0803_기면증
+}
+
+STRING 4474
+// 능력: A0TI (!0803_기면증), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff기면증|r
+}
+
+STRING 4475
+// 능력: A0TI (!0803_기면증), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff기면증《강화》|r
+}
+
+STRING 4476
+// 능력: A0TI (!0803_기면증), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D때때로 자기도 모르게 잠에 빠져버립니다.|r
+
+|cffffdead◎발동조건|r : 마나 100
+|cffffdead◎범위|r : 자신 주변 800범위
+|cffffdead◎데미지|r : |cffF15F5F235만 + 현재체력 1% 물리데미지|r
+|cffffdead　▶|r 단일 적에게 |cff4374D9110만 마법데미지|r
+|cffffdead◎추가효과|r : 기면증 발동시 20% 확률로 3초간 잠에 빠지며 하쿠바 인격 등장
+|cffffdead◎추가효과|r : 기면증 발동시 500범위 3초 스턴
+
+|cffc68a12하쿠바 인격|r
+|cffffdead◎기본정보|r : 공격력 : 60만 / 공격속도 : 0.11초마다 공격
+|cffffdead　▶|r 단일 적에게 |cffA566FF35만 고정데미지|r
+|cffffdead◎추가효과|r : 하쿠바 인격이 공격시 20% 확률로 500범위 3초 스턴
+|cffffdead◎추가효과|r : 하쿠바 인격이 사라질 때 |cffA566FF150만 고정데미지|r + |cffF15F5F현재체력 2% 추가 물리데미지|r
+}
+
+STRING 4477
+// 능력: A0TI (!0803_기면증), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D때때로 자기도 모르게 잠에 빠져버립니다.|r
+
+|cffffdead◎발동조건|r : 마나 100
+|cffffdead◎범위|r : 자신 주변 800
+|cffffdead◎데미지|r : |cffF15F5F235만 + 현재체력 1% 물리데미지|r
+|cffffdead　▶|r 단일 적에게 |cff4374D9110만 마법데미지|r
+|cffffdead◎추가효과|r : 기면증 발동 시 20%의 확률로 2초간 잠에 빠지며 하쿠바 인격 등장
+|cffffdead◎추가효과|r : 기면증 발동 시 500범위 3초 스턴
+
+|cffc68a12하쿠바 인격|r
+|cffffdead◎기본정보|r : 공격력 : 60만 / 공격속도 : 0.11초 마다 공격
+|cffffdead　▶|r 단일 적에게 |cffA566FF35만 고정데미지|r
+|cffffdead◎추가효과|r : 하쿠바 인격이 공격 시 20% 확률로 500범위 3초 스턴
+|cffffdead◎추가효과|r : 하쿠바 인격이 사라질 때 |cffA566FF150만 고정데미지|r + |cffF15F5F현재체력 2% 추가 물리데미지|r
+}
+
+STRING 4478
+// 능력: A0TH (!0603_배수의 검무), EditorSuffix (에디터 접미사 (ansf))
+{
+(배쉬)
+}
+
+STRING 4479
+// 능력: A0TH (!0603_배수의 검무), Name (이름 (anam))
+{
+!0603_배수의 검무
+}
+
+STRING 4480
+// 능력: A0TH (!0603_배수의 검무), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff배수의 검무|r
+}
+
+STRING 4481
+// 능력: A0TH (!0603_배수의 검무), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D견문색의 패기를 활용한 검술입니다.|r
+
+|cffffdead◎기본효과|r : 제한 업그레이드시 공격력 증가폭이 |cff1e90ff6000으로 상승▲|r
+|cffffdead　▶|r 기본 공격속도 증가량이 |cffb2222260%로 감소▼|r , 공격속도 증가폭이 |cffb222224%로 감소▼|r
+|cffffdead◎추가효과|r : 16% 확률로 2.5배 크리티컬 + 단일 적 2초 스턴
+
+|cffc68a12분쇄|r
+|cffffdead◎발동조건|r : 공격시 8% 확률
+|cffffdead◎범위|r : 자신 주변 850범위
+|cffffdead◎데미지|r : |cffF15F5F80만 + 전설의 후예 레벨 x 3만 물리데미지|r
+|cffffdead◎현기증|r : 스킬에 적중당한 적들의 이동 속도를 2.5초간 60% 감소
+}
+
+STRING 4482
+// 능력: A0TG (!0603_트루에노 바스타드), EditorSuffix (에디터 접미사 (ansf))
+{
+(배쉬)
+}
+
+STRING 4483
+// 능력: A0TG (!0603_트루에노 바스타드), Name (이름 (anam))
+{
+!0603_트루에노 바스타드
+}
+
+STRING 4484
+// 능력: A0TG (!0603_트루에노 바스타드), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff트루에노 바스타드|r
+}
+
+STRING 4485
+// 능력: A0TG (!0603_트루에노 바스타드), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D적의 신체와 무기까지 한꺼번에 파괴해버리는 강력한 일격입니다.|r
+
+|cffffdead◎발동조건|r : 공격시 10% 확률
+|cffffdead◎범위|r : 450
+|cffffdead◎데미지|r : |cffF15F5F60만 + 전설의 후예 레벨 x 2만 5000 추가 물리데미지|r
+|cffffdead　▶|r 단일 적에게는 |cff4374D9350% 추가 마법데미지|r
+|cffffdead　▶|r 보스, 광폭화에게는 발동 확률이 20%로 증가
+}
+
+STRING 4486
+// 능력: A0TF (!0603_급소분석), EditorSuffix (에디터 접미사 (ansf))
+{
+(방어력 감소)
+}
+
+STRING 4487
+// 능력: A0TF (!0603_급소분석), Name (이름 (anam))
+{
+!0603_급소분석
+}
+
+STRING 4488
+// 능력: A0TF (!0603_급소분석), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff견문색의 패기 : 급소 분석 :: Lv.2|r
+}
+
+STRING 4489
+// 능력: A0TF (!0603_급소분석), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D견문색의 패기를 활용해 적의 약점을 분석합니다.|r
+
+|cffffdead◎기본효과|r : 750범위 적 방어력 38 감소
+|cffffdead◎추가효과|r : 공격시 33% 확률로 단일 적 3초 스턴
+}
+
+STRING 4490
+// 능력: A0TE (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(제한 레베카)
+}
+
+STRING 4491
+// 능력: A0T3 (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 4492
+// 능력: A0TE (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 콜로세움의 여전사|r
+}
+
+STRING 4493
+// 능력: A0TE (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D레베카가 진정한 여전사로 거듭납니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'전설의 후예'|r의 레벨을 최대로 변경 
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+}
+
+STRING 4494
+// 능력: A0TD (!0603_반복수련), EditorSuffix (에디터 접미사 (ansf))
+{
+(배쉬)
+}
+
+STRING 4495
+// 능력: A0TD (!0603_반복수련), Name (이름 (anam))
+{
+!0603_반복수련
+}
+
+STRING 4496
+// 능력: A0TD (!0603_반복수련), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff반복수련|r
+}
+
+STRING 4497
+// 능력: A0TD (!0603_반복수련), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff트루에노 센텐시아|r
+}
+
+STRING 4498
+// 능력: A0TD (!0603_반복수련), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffffdead◎발동조건|r : 마나 120
+|cffffdead◎기본효과|r : |cffc68a12분쇄|r 스킬 발동
+|cffffdead　▶|r 전설의 후예 20레벨 달성 후 레벨업 조건 충족시 |cff1e90ff트루에노 센텐시아|r 스킬로 변경
+}
+
+STRING 4499
+// 능력: A0TD (!0603_반복수련), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D저주에서 해방된 퀴로스와 함께 적에게 돌진하여 강력한 협공을 펼칩니다.|r
+
+|cffffdead◎발동조건|r : 마나 120
+|cffffdead◎시전시간|r : 0.7초
+|cffffdead◎범위|r : 850
+|cffffdead◎데미지|r : |cffF15F5F350만 물리데미지|r
+|cffffdead　▶|r 단일 적에게는 |cff4374D9350% 추가 마법데미지|r
+}
+
+STRING 4500
+// 능력: A0TC (#0603_레베카 공격력 보너스), EditorSuffix (에디터 접미사 (ansf))
+{
+(데미지증가)
+}
+
+STRING 4501
+// 능력: A0TC (#0603_레베카 공격력 보너스), Name (이름 (anam))
+{
+#0603_레베카 공격력 보너스
+}
+
+STRING 4502
+// 능력: A0TB (!0527_패기수련), EditorSuffix (에디터 접미사 (ansf))
+{
+(커맨드오라)
+}
+
+STRING 4503
+// 능력: A0TB (!0527_패기수련), Name (이름 (anam))
+{
+!0527_패기수련
+}
+
+STRING 4504
+// 능력: A0TB (!0527_패기수련), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff패기수련|r
+}
+
+STRING 4505
+// 능력: A0TB (!0527_패기수련), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D레일리가 아군 유닛들에게 패기수련을 통해 효율성을 증대시킵니다.|r
+
+|cffffdead◎기본효과|r : 800범위 아군 유닛 공격력 25% 증가
+}
+
+STRING 4506
+// 능력: A0TA (!0603_전설의 후예), EditorSuffix (에디터 접미사 (ansf))
+{
+(배쉬)
+}
+
+STRING 4507
+// 능력: A0TA (!0603_전설의 후예), Name (이름 (anam))
+{
+!0603_전설의 후예
+}
+
+STRING 4508
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.1|r
+}
+
+STRING 4509
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.2|r
+}
+
+STRING 4510
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.3|r
+}
+
+STRING 4511
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.4|r
+}
+
+STRING 4512
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.5|r
+}
+
+STRING 4513
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.6|r
+}
+
+STRING 4514
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.7|r
+}
+
+STRING 4515
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.8|r
+}
+
+STRING 4516
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.9|r
+}
+
+STRING 4517
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.10|r
+}
+
+STRING 4518
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.11|r
+}
+
+STRING 4519
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.12|r
+}
+
+STRING 4520
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.13|r
+}
+
+STRING 4521
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.14|r
+}
+
+STRING 4522
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.15|r
+}
+
+STRING 4523
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.16|r
+}
+
+STRING 4524
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.17|r
+}
+
+STRING 4525
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.18|r
+}
+
+STRING 4526
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.19|r
+}
+
+STRING 4527
+// 능력: A0TA (!0603_전설의 후예), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff전설의 후예 :: Lv.20|r
+}
+
+STRING 4528
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 3000
+}
+
+STRING 4529
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 6000
+}
+
+STRING 4530
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 9000
+}
+
+STRING 4531
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 12000
+}
+
+STRING 4532
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 15000
+}
+
+STRING 4533
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 18000
+}
+
+STRING 4534
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 21000
+}
+
+STRING 4535
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 24000
+}
+
+STRING 4536
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 27000
+}
+
+STRING 4537
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 30000
+}
+
+STRING 4538
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 33000
+}
+
+STRING 4539
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 36000
+}
+
+STRING 4540
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 39000
+}
+
+STRING 4541
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 42000
+}
+
+STRING 4542
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 45000
+}
+
+STRING 4543
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 48000
+}
+
+STRING 4544
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 51000
+}
+
+STRING 4545
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 54000
+}
+
+STRING 4546
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 57000
+}
+
+STRING 4547
+// 능력: A0TA (!0603_전설의 후예), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잊혀진 콜로세움 검투사 전설의 후예입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 325범위 스플래시
+|cffffdead◎추가효과|r : 전설의 후예 스킬 레벨만큼 공격력 3000 증가 및 스킬 데미지 증가
+|cffffdead　▶|r 스킬 발동시마다 확률적으로 스킬 레벨 증가 (최대 20레벨)
+|cffffdead◎현재 공격력 증가량|r : 60000
+}
+
+STRING 4548
+// 능력: A0T9 (!1304_환무), EditorSuffix (에디터 접미사 (ansf))
+{
+(방어력 감소)
+}
+
+STRING 4549
+// 능력: A0T9 (!1304_환무), Name (이름 (anam))
+{
+!1304_환무
+}
+
+STRING 4550
+// 능력: A0T9 (!1304_환무), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff환무|r
+}
+
+STRING 4551
+// 능력: A0T9 (!1304_환무), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D환각을 보게 만드는 안개를 흩뿌려 적을 혼란시킵니다.|r
+
+|cffffdead◎기본효과|r : 900범위 적 방어력 15 감소
+}
+
+STRING 4552
+// 능력: A0T4 (!0907_해적대함대), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4553
+// 능력: A0T8 (!1304_거미거미열매), Name (이름 (anam))
+{
+!1304_거미거미열매
+}
+
+STRING 4554
+// 능력: A0T8 (!1304_거미거미열매), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff거미거미 열매 :: 로사미갈레 그라보겔리|r
+}
+
+STRING 4555
+// 능력: A0T8 (!1304_거미거미열매), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D거미거미 열매 로사미갈레 그라보겔리의 능력을 사용합니다.|r
+
+|cffffdead◎기본효과|r : 왜곡 업그레이드시 공격력 증가폭이 |cff1e90ff4000으로 상승▲|r
+|cffffdead　▶|r 기본 공격속도 증가량이 |cffb2222240%로 감소▼|r , 공격속도 증가폭이 |cffb222222%로 감소▼|r
+|cffffdead◎추가효과|r : 공격시 15% 확률로 단일 적 2초 스턴 
+}
+
+STRING 4556
+// 능력: A0T7 (!1304_멈춰서란마리아), EditorSuffix (에디터 접미사 (ansf))
+{
+(이동속도 감소)
+}
+
+STRING 4557
+// 능력: A0T7 (!1304_멈춰서란마리아), Name (이름 (anam))
+{
+!1304_멈춰서란마리아
+}
+
+STRING 4558
+// 능력: A0T7 (!1304_멈춰서란마리아), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff멈춰서란 마리아|r
+}
+
+STRING 4559
+// 능력: A0T7 (!1304_멈춰서란마리아), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D자신의 몸 주변에 거미줄을 펼치는 기술|r
+
+|cffffdead◎기본효과|r : 900범위 적 이동속도 40% 감소
+|cffffdead　▶|r 다음 마리아네트 효과 전환시간 6초
+}
+
+STRING 4560
+// 능력: A0T1 (!0907_바닷물가두기), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4561
+// 능력: A0T6 (!1304_타오르란마리아), Name (이름 (anam))
+{
+!1304_타오르란마리아
+}
+
+STRING 4562
+// 능력: A0T6 (!1304_타오르란마리아), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff타오르란 마리아|r
+}
+
+STRING 4563
+// 능력: A0T6 (!1304_타오르란마리아), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D주변에 거미줄을 퍼트린 상태에서 불을 붙이는 기술|r
+
+|cffffdead◎발동조건|r : 5초마다 발동
+|cffffdead◎범위|r : 900
+|cffffdead◎데미지|r : |cff4374D920만 마법데미지|r
+|cffffdead　▶|r 라인 몬스터, 광폭화 유닛에게는 |cffF15F5F잃은체력 5% 추가 물리데미지|r
+}
+
+STRING 4564
+// 능력: A0T5 (!1304_마리아네트), EditorSuffix (에디터 접미사 (ansf))
+{
+(썬더클랩)
+}
+
+STRING 4565
+// 능력: A0KA (꾸러미상자_자원), Hotkey (단축키 - 보통 (ahky))
+{
+W
+}
+
+STRING 4566
+// 능력: A0T5 (!1304_마리아네트), Name (이름 (anam))
+{
+!1304_마리아네트
+}
+
+STRING 4567
+// 능력: A0T5 (!1304_마리아네트), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff마리아네트|r|cffffcc00(W)|r
+}
+
+STRING 4568
+// 능력: A0T5 (!1304_마리아네트), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D마리아네트를 사용해 거미줄을 조작합니다.|r
+
+|cffffdead◎사용효과|r : 마리아네트 스킬 효과 변경
+|cffffdead　▶|r '꼼짝말란 마리아' → '멈춰서란 마리아' → '타오르란 마리아' 순으로 변경
+|cffffdead　▶|r 현재 사용중인 마리아네트의 효과가 끝나야 다음 효과 발동
+|cffffdead◎시전시간|r : 2초
+|cffffdead◎쿨타임|r : 30초
+}
+
+STRING 4569
+// 능력: A0SY (!0727_삼림화), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4570
+// 능력: A0T4 (!0907_해적대함대), Name (이름 (anam))
+{
+!0907_해적대함대
+}
+
+STRING 4571
+// 능력: A0T4 (!0907_해적대함대), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff해적 대함대 Lv.1 :: 분대|r
+}
+
+STRING 4572
+// 능력: A0T4 (!0907_해적대함대), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff해적 대함대 Lv.2 :: 편대|r
+}
+
+STRING 4573
+// 능력: A0T4 (!0907_해적대함대), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff해적 대함대 Lv.3 :: 전대|r
+}
+
+STRING 4574
+// 능력: A0T4 (!0907_해적대함대), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff해적 대함대 Lv.4 :: 함대|r
+}
+
+STRING 4575
+// 능력: A0T4 (!0907_해적대함대), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D시키의 해적 분대를 호출합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 3% 확률
+|cffffdead◎추가효과|r : 시키의 70%의 공격속도를 가지고 400범위 기본 공격 피해량의 80% 물리데미지를 주는 함대 2기를 소환
+|cffffdead　▶|r 함대 공격력 : 18만 5000
+|cffffdead　▶|r 함대 데미지 범위 : 400
+|cffffdead　▶|r 함대는 불멸 업그레이드 효과를 받으며 다른 버프의 영향을 받습니다.
+|cffffdead◎지속시간|r : 2.25초
+
+|cffc68a12폐함대선|r
+|cffffdead◎발동조건|r : 공격시 3% 확률
+|cffffdead◎범위|r : 450
+|cffffdead◎데미지|r : |cff4374D945만 마법데미지|r
+|cffffdead　▶|r 피해를 입은 적들은 |cff87cefa마법데미지 1% 증폭|r 
+|cffffdead◎함선개수|r : 2개|r
+|cffffdead◎여진|r : 해당 범위 4초간 이동속도 35% 감소
+}
+
+STRING 4576
+// 능력: A0T4 (!0907_해적대함대), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D시키의 해적 편대를 호출합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 3.2% 확률
+|cffffdead◎추가효과|r : 시키의 70%의 공격속도를 가지고 400범위 기본 공격 피해량의 100% 물리데미지를 주는 함대 2기를 소환
+|cffffdead　▶|r 함대 공격력 : 18만 5000
+|cffffdead　▶|r 함대 데미지 범위 : 400
+|cffffdead　▶|r 함대는 불멸 업그레이드 효과를 받으며 다른 버프의 영향을 받습니다.
+|cffffdead◎지속시간|r : 2.25초
+
+|cffc68a12폐함대선|r
+|cffffdead◎발동조건|r : 공격시 3.4% 확률
+|cffffdead◎범위|r : 450
+|cffffdead◎데미지|r : |cff4374D945만 마법데미지|r
+|cffffdead　▶|r 피해를 입은 적들은 |cff87cefa마법데미지 1% 증폭|r 
+|cffffdead◎함선개수|r : 3개|r
+|cffffdead◎여진|r : 해당 범위 4초간 이동속도 35% 감소
+}
+
+STRING 4577
+// 능력: A0T4 (!0907_해적대함대), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D시키의 해적 전대를 호출합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 3.4% 확률
+|cffffdead◎추가효과|r : 시키의 70%의 공격속도를 가지고 400범위 기본 공격 피해량의 80% 물리데미지를 주는 함대 3기를 소환
+|cffffdead　▶|r 함대 공격력 : 18만 5000
+|cffffdead　▶|r 함대 데미지 범위 : 400
+|cffffdead　▶|r 함대는 불멸 업그레이드 효과를 받으며 다른 버프의 영향을 받습니다.
+|cffffdead◎지속시간|r : 2.25초
+
+|cffc68a12폐함대선|r
+|cffffdead◎발동조건|r : 공격시 3.8% 확률
+|cffffdead◎범위|r : 450
+|cffffdead◎데미지|r : |cff4374D945만 마법데미지|r
+|cffffdead　▶|r 피해를 입은 적들은 |cff87cefa마법데미지 1% 증폭|r 
+|cffffdead◎함선개수|r : 4개|r
+|cffffdead◎여진|r : 해당 범위 4초간 이동속도 35% 감소
+}
+
+STRING 4578
+// 능력: A0T4 (!0907_해적대함대), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D시키의 해적 함대를 호출합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 3.6% 확률
+|cffffdead◎추가효과|r : 시키의 70%의 공격속도를 가지고 400범위 기본 공격 피해량의 70% 물리데미지를 주는 함대 4기를 소환
+|cffffdead　▶|r 함대 공격력 : 18만 5000
+|cffffdead　▶|r 함대 데미지 범위 : 400
+|cffffdead　▶|r 함대는 불멸 업그레이드 효과를 받으며 다른 버프의 영향을 받습니다.
+|cffffdead◎지속시간|r : 2.25초
+
+|cffc68a12폐함대선|r
+|cffffdead◎발동조건|r : 공격시 4.2% 확률
+|cffffdead◎범위|r : 450
+|cffffdead◎데미지|r : |cff4374D945만의 마법데미지|r
+|cffffdead　▶|r 피해를 입은 적들은 |cff87cefa마법데미지 1% 증폭|r 
+|cffffdead◎함선개수|r : 5개|r
+|cffffdead◎여진|r : 해당 범위 4초간 이동속도 35% 감소
+}
+
+STRING 4579
+// 능력: A0T3 (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(불멸 시키)
+}
+
+STRING 4580
+// 능력: A0SU (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 4581
+// 능력: A0T3 (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 대함대|r
+}
+
+STRING 4582
+// 능력: A0Q6 (A_!0001_오트쿠튀르패치워크), Name (이름 (anam))
+{
+A_!0001_오트쿠튀르패치워크
+}
+
+STRING 4583
+// 능력: A0SS (!0905_무장색의패기), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4584
+// 능력: A0T1 (!0907_바닷물가두기), Name (이름 (anam))
+{
+!0907_바닷물가두기
+}
+
+STRING 4585
+// 능력: A0T1 (!0907_바닷물가두기), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff바닷물 가두기 :: Lv.2|r
+}
+
+STRING 4586
+// 능력: A0T1 (!0907_바닷물가두기), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D바닷물로 적을 가둬 무력화시킵니다.|r
+
+|cffffdead◎발동조건|r : 공격시 10% 확률
+|cffffdead◎범위|r : 600
+|cffffdead◎데미지|r : |cff4374D940만 마법데미지|r
+|cffffdead◎추가효과|r : 해당 범위 3초 스턴 및 |cffff8c001의 아머브레이크|r (최대 75까지 중첩)
+}
+
+STRING 4587
+// 능력: A0SZ (!0727_초록소발동깍), EditorSuffix (에디터 접미사 (ansf))
+{
+(방어력 감소)
+}
+
+STRING 4588
+// 능력: A0SZ (!0727_초록소발동깍), Name (이름 (anam))
+{
+!0727_초록소발동깍
+}
+
+STRING 4589
+// 능력: A0SZ (!0727_초록소발동깍), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff숲숲열매 :: Lv.1|r
+}
+
+STRING 4590
+// 능력: A0SZ (!0727_초록소발동깍), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D숲숲열매의 능력으로 지반을 변형시켜 적의 태세를 무너뜨립니다.|r
+
+|cffffdead◎기본효과|r : 850범위 적 방어력 25감소
+|cffffdead◎여진|r : 스킬 발동시 500범위 3초간 이동속도 20% 감소
+}
+
+STRING 4591
+// 능력: A0SP (!0905_육식-체), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4592
+// 능력: A0SY (!0727_삼림화), Name (이름 (anam))
+{
+!0727_삼림화
+}
+
+STRING 4593
+// 능력: A0SY (!0727_삼림화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff삼림화|r
+}
+
+STRING 4594
+// 능력: A0SY (!0727_삼림화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D자신의 주위 환경을 삼림화시켜 점점 거대한 숲의 형태를 띄우고 강력해집니다.|r
+
+|cffffdead◎기본효과|r : |cffff69b4양분 스택|r이 쌓일수록 자신의 크기 및 스킬 데미지 증가|r
+|cffffdead　▶|r 10스택당 숲인간 형태의 공격력이 7000씩 (최대 56000) 증가|r
+|cffffdead　▶|r 10스택당 숲인간 형태의 크기가 커지며 공격속도가 7% (최대 56%) 증가|r
+|cffffdead　▶|r 최대 80스택|r
+}
+
+STRING 4595
+// 능력: A0SX (G_0905_육식-체), EditorSuffix (에디터 접미사 (ansf))
+{
+(블러드러스트)
+}
+
+STRING 4596
+// 능력: A0SX (G_0905_육식-체), Name (이름 (anam))
+{
+G_0905_육식-체
+}
+
+STRING 4597
+// 능력: A0RJ (D_0717_새장), EditorSuffix (에디터 접미사 (ansf))
+{
+(파이어볼트)
+}
+
+STRING 4598
+// 능력: A0SW (D_0905_포탄), Name (이름 (anam))
+{
+D_0905_포탄
+}
+
+STRING 4599
+// 능력: A0SU (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(초월 아오키지)
+}
+
+STRING 4600
+// 능력: A0SO (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 4601
+// 능력: A0SU (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 서리걸음|r
+}
+
+STRING 4602
+// 능력: A0D2 (!0808_라이브), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D신시대의 라이브를 계속합니다.|r
+
+|cffffdead◎발동조건|r : 마나 100 (기본회복 1.25 / 스킬 발동시 + 2)
+|cffffdead◎범위|r : 800
+|cffffdead◎데미지|r : |cff4374D9250만(x1~1.5) 마법데미지|r
+|cffffdead　▶|r |cff87cefa10% 마법방어력 감소|r
+|cffffdead　▶|r |cff66cdaa10% 폭발형 피해량 증폭|r
+|cffffdead◎추가효과|r : 우타의 체력 10 회복
+
+|cffc68a12토트 무지카|r
+|cffffdead◎발동조건|r : 라이브 발동 시 18% 확률
+|cffffdead◎기본효과|r : 직선 450범위 |cff4374D9450만 마법데미지|r
+}
+
+STRING 4603
+// 능력: A0SN (!0905_특제 대포환,갤럭시임팩트), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4604
+// 능력: A0SS (!0905_무장색의패기), Name (이름 (anam))
+{
+!0905_무장색의패기
+}
+
+STRING 4605
+// 능력: A0SS (!0905_무장색의패기), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff무장색의 패기 :: 주먹의 거프|r
+}
+
+STRING 4606
+// 능력: A0SS (!0905_무장색의패기), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D악마의 열매나 별다른 능력없이 주먹만으로 영웅이 된 극강의 무장색의 패기를 보유했습니다.|r
+
+|cffffdead◎발동조건|r : 공격시 10% 확률
+|cffffdead◎범위|r : 500
+|cffffdead◎데미지|r : |cffF15F5F기본 공격 피해량의 95% + 61만 5000 물리데미지|r
+|cffffdead◎추가효과|r : 해당 범위 2.5초 스턴
+}
+
+STRING 4607
+// 능력: A0SR (!0709_오바드꾸드로와), EditorSuffix (에디터 접미사 (ansf))
+{
+(이동속도 감소)
+}
+
+STRING 4608
+// 능력: A0SR (!0709_오바드꾸드로와), Name (이름 (anam))
+{
+!0709_오바드꾸드로와
+}
+
+STRING 4609
+// 능력: A0SR (!0709_오바드꾸드로와), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff오바드 꾸 드로와|r
+}
+
+STRING 4610
+// 능력: A0SR (!0709_오바드꾸드로와), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D강력한 찌르기로 발생하는 검풍을 날려보냅니다.|r
+
+|cffffdead◎발동조건|r : 공격시 14% 확률
+|cffffdead◎범위|r : 적 중심 360범위
+|cffffdead◎데미지|r : |cff4374D935만(x1~1.5) 마법데미지 |r
+|cffffdead◎추가효과|r : 스킬 발동시 40% 확률로 추가 발동
+}
+
+STRING 4611
+// 능력: A0SQ (!0905_패기의주먹), EditorSuffix (에디터 접미사 (ansf))
+{
+(배쉬)
+}
+
+STRING 4612
+// 능력: A0SQ (!0905_패기의주먹), Name (이름 (anam))
+{
+!0905_패기의주먹
+}
+
+STRING 4613
+// 능력: A0SQ (!0905_패기의주먹), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff패기의 주먹 :: Lv.2|r
+}
+
+STRING 4614
+// 능력: A0SQ (!0905_패기의주먹), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D주먹에 패기를 실어 적에게 강력한 공격을 가합니다.|r
+
+|cffffdead◎기본효과|r : 공격시 325범위 |cffF15F5F기본 공격 피해량의 95% 추가 물리데미지|r
+
+|cffc68a12강타|r
+|cffffdead◎발동조건|r : 공격시 20% 확률
+|cffffdead◎기본효과|r : 단일 적 크리티컬 5배 + |cffF15F5F25만 물리데미지|r 및 3초 스턴
+}
+
+STRING 4615
+// 능력: A0SE (!0904_해진), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4616
+// 능력: A0SP (!0905_육식-체), Name (이름 (anam))
+{
+!0905_육식-체
+}
+
+STRING 4617
+// 능력: A0SP (!0905_육식-체), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff육식-체 Type. 거프|r
+}
+
+STRING 4618
+// 능력: A0SP (!0905_육식-체), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D강력한 주먹에 속도를 더하여 막강한 위력의 펀치를 가합니다.|r
+
+|cffffdead◎발동조건|r : 공격시 7% 확률로 3.25초 동안 가속 상태
+|cffffdead◎데미지|r : 단일 적 |cffF15F5F현재체력 5% 물리데미지|r (보스 / 스토리에게는 현재체력 0.5%)
+|cffffdead　▶|r 공격시 단일 적 |cffA566FF25만 고정데미지|r
+|cffffdead　▶|r 공격 범위와 범위 데미지 10% 증가
+|cffffdead　▶|r 공격속도 45% 증가
+}
+
+STRING 4619
+// 능력: A0SO (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(초월 나미)
+}
+
+STRING 4620
+// 능력: A0SM (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 4621
+// 능력: A0SO (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 제우스|r
+}
+
+STRING 4622
+// 능력: A0SO (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D제우스를 회유합니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'제우스'|r 추가|r 
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+
+}
+
+STRING 4623
+// 능력: A0SD (!0904_격진), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4624
+// 능력: A0SN (!0905_특제 대포환,갤럭시임팩트), Name (이름 (anam))
+{
+!0905_특제 대포환,갤럭시임팩트
+}
+
+STRING 4625
+// 능력: A0SN (!0905_특제 대포환,갤럭시임팩트), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특제 대포환|r
+}
+
+STRING 4626
+// 능력: A0SN (!0905_특제 대포환,갤럭시임팩트), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff갤럭시임팩트|r
+}
+
+STRING 4627
+// 능력: A0SN (!0905_특제 대포환,갤럭시임팩트), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D거프가 거대한 특제 대포탄을 던집니다.|r
+
+|cffffdead◎발동조건|r : 마나 160
+|cffffdead◎범위|r : 650
+|cffffdead◎데미지|r : |cffF15F5F600만 + 전체체력 5% 물리데미지|r
+|cffffdead◎추가효과|r : 해당 범위 2.5초 스턴
+}
+
+STRING 4628
+// 유닛: h0BQ (|cffffd700펄스건 마르코|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700펄스건 마르코|r - |cffFF0000전설|r
+}
+
+STRING 4629
+// 능력: A0SM (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(불멸 거프)
+}
+
+STRING 4630
+// 능력: A0SF (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 4631
+// 능력: A0SM (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 갤럭시임팩트|r
+}
+
+STRING 4632
+// 능력: A0SM (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D일격에 적들을 초토화시키는 갤럭시 임팩트를 사용합니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'초대형 특제포탄'|r → |cffff69b4'갤럭시 임팩트'|r로 변경
+|cffffdead　▶|r 데미지 100% 증가
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+}
+
+STRING 4633
+// 능력: A0SL (E_0705_호크개틀링), EditorSuffix (에디터 접미사 (ansf))
+{
+(배틀로어)
+}
+
+STRING 4634
+// 능력: A0SL (E_0705_호크개틀링), Name (이름 (anam))
+{
+E_0705_호크개틀링
+}
+
+STRING 4635
+// 능력: A0SK (!0904_해진), EditorSuffix (에디터 접미사 (ansf))
+{
+(이동속도 감소)
+}
+
+STRING 4636
+// 능력: A0SK (!0904_해진), Name (이름 (anam))
+{
+!0904_해진
+}
+
+STRING 4637
+// 능력: A0SI (S_0904_해진), EditorSuffix (에디터 접미사 (ansf))
+{
+(캐리언 스웜)
+}
+
+STRING 4638
+// 능력: A0SI (S_0904_해진), Name (이름 (anam))
+{
+S_0904_해진
+}
+
+STRING 4639
+// 능력: A0SF (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(불멸 흰수염)
+}
+
+STRING 4640
+// 능력: A0SA (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 4641
+// 능력: A0SF (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 진원의 일격|r
+}
+
+STRING 4642
+// 능력: A0SF (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D하늘을 무너뜨리는 지진의 힘을 사용합니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'격진'|r → |cffff69b4'괴천'|r 변경|r 
+|cffffdead◎코스트|r : 특성포인트 4 필요|r
+}
+
+STRING 4643
+// 능력: A0SC (!0904_대지진), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4644
+// 능력: A0SE (!0904_해진), Name (이름 (anam))
+{
+!0904_해진
+}
+
+STRING 4645
+// 능력: A0SE (!0904_해진), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff흔들흔들 열매 :: Lv.2|r
+}
+
+STRING 4646
+// 능력: A0SE (!0904_해진), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D흔들흔들 열매의 능력으로 적을 효율적으로 공격합니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격 400범위 스플래시
+
+|cffc68a12공간균열 :: 해진|r
+|cffffdead◎발동조건|r : 공격시 12.5% 확률
+|cffffdead◎범위|r : 600
+|cffffdead◎데미지|r : |cff4374D990만 마법데미지|r 
+|cffffdead◎현기증|r : 스킬에 적중당한 적들의 이동속도를 3.5초간 45% 감소
+|cffffdead◎여진|r : 해당 범위 2초간 이동속도 10% 감소
+}
+
+STRING 4647
+// 능력: A0S5 (!0607_잔혹한검술), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4648
+// 능력: A0SD (!0904_격진), Name (이름 (anam))
+{
+!0904_격진
+}
+
+STRING 4649
+// 능력: A0SD (!0904_격진), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff격진|r
+}
+
+STRING 4650
+// 능력: A0SD (!0904_격진), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff괴천|r
+}
+
+STRING 4651
+// 마법/효과: B03N (!0712_절대쿨타임), Buffubertip (도구 도움말 - 확장 (fube))
+{
+해왕류 파도 대습격 절대쿨타임입니다.
+}
+
+STRING 4652
+// 능력: A0PV (F_0910_카이도우), EditorSuffix (에디터 접미사 (ansf))
+{
+(절대쿨타임)
+}
+
+STRING 4653
+// 능력: A0S4 (!0607_처형), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4654
+// 능력: A0SC (!0904_대지진), Name (이름 (anam))
+{
+!0904_대지진
+}
+
+STRING 4655
+// 능력: A0SC (!0904_대지진), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff흔들흔들 열매 :: 대지진|r
+}
+
+STRING 4656
+// 능력: A0SC (!0904_대지진), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D흔들흔들 열매의 능력으로 대지진을 일으킵니다.|r
+
+|cffffdead◎발동조건|r : 체력 115 (기본회복 0.5 / 공격시 +1)
+|cffffdead◎범위|r : 700
+|cffffdead◎데미지|r : |cff4374D950만 마법데미지 1회|r + |cffF15F5F275만(x1 ~ 1.5) 물리데미지 2회|r
+|cffffdead◎추가효과|r : 해당 범위 3초 스턴 (저항 50% 무시)
+}
+
+STRING 4657
+// 능력: A0SB (!0904_대해적의위압감), EditorSuffix (에디터 접미사 (ansf))
+{
+(방어력 감소)
+}
+
+STRING 4658
+// 능력: A0SB (!0904_대해적의위압감), Name (이름 (anam))
+{
+!0904_대해적의위압감
+}
+
+STRING 4659
+// 능력: A0SB (!0904_대해적의위압감), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff대해적의 위압감|r
+}
+
+STRING 4660
+// 능력: A0SB (!0904_대해적의위압감), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D원피스에 가장 가까웠던 남자, 적조차 인정하는 대해적 에드워드 뉴게이트가 위압감을 풍깁니다.|r
+
+|cffffdead◎기본효과|r : 850범위 적 방어력 45 감소
+}
+
+STRING 4661
+// 능력: A0SA (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(제한 킹)
+}
+
+STRING 4662
+// 능력: A0S2 (T특성강화), Name (이름 (anam))
+{
+T특성강화
+}
+
+STRING 4663
+// 능력: A0SA (T특성강화), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff특성강화 :: 카류우돈|r
+}
+
+STRING 4664
+// 능력: A0SA (T특성강화), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D루나리아족의 발화 능력을 극대화시킵니다.|r
+
+|cffffdead◎기본효과|r : 스킬 |cffff69b4'화재'|r → |cffff69b4'카류우돈'|r 변경
+|cffffdead◎추가효과|r : 외형 변경
+|cffffdead◎코스트|r : 특성포인트 4 필요
+}
+
+STRING 4665
+// 능력: A0S9 (G_0607_처형), EditorSuffix (에디터 접미사 (ansf))
+{
+(블러드러스트)
+}
+
+STRING 4666
+// 능력: A0S9 (G_0607_처형), Name (이름 (anam))
+{
+G_0607_처형
+}
+
+STRING 4667
+// 능력: A0S8 (!0607_카류우돈), EditorSuffix (에디터 접미사 (ansf))
+{
+(리퀴드파이어)
+}
+
+STRING 4668
+// 능력: A0S8 (!0607_카류우돈), Name (이름 (anam))
+{
+!0607_카류우돈
+}
+
+STRING 4669
+// 능력: A0S8 (!0607_카류우돈), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff카류우돈|r
+}
+
+STRING 4670
+// 능력: A0S8 (!0607_카류우돈), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D용의 형상을 가진 불꽃을 만들어 상대방을 녹여버리는 공격|r
+
+|cffffdead◎발동조건|r : 공격시 14.25% 확률
+|cffffdead◎범위|r : 450
+|cffffdead◎데미지|r : |cffA566FF20만 고정데미지 + 아머브레이크 x 10000 고정데미지|r
+|cffffdead◎독약|r : 스킬 적중당한 적 2.7초 동안 0.27초당 |cff4374D98만 추가 마법데미지|r + |cffff69b4방어력 25 감소|r 
+|cffffdead　▶|r 다른 독약 스킬과 중복 불가능
+|cffffdead　▶|r 스킬 발동 시 해당 범위에 약 2초간 10의 방어력을 추가로 감소
+}
+
+STRING 4671
+// 능력: A0S7 (N_0607_카류우돈), EditorSuffix (에디터 접미사 (ansf))
+{
+(에시드붐)
+}
+
+STRING 4672
+// 능력: A0S7 (N_0607_카류우돈), Name (이름 (anam))
+{
+N_0607_카류우돈
+}
+
+STRING 4673
+// 능력: A0S6 (!0607_용용열매), EditorSuffix (에디터 접미사 (ansf))
+{
+(스킬이름)
+}
+
+STRING 4674
+// 능력: A0S6 (!0607_용용열매), Name (이름 (anam))
+{
+!0607_용용열매
+}
+
+STRING 4675
+// 능력: A0S6 (!0607_용용열매), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff용용 열매 :: 프테라노돈|r
+}
+
+STRING 4676
+// 능력: A0S6 (!0607_용용열매), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D용용 열매 :: 프테라노돈 보유자입니다.|r
+
+|cffffdead◎기본효과|r : 기본 공격시 275 범위 스플래시 및 공중이동
+|cffffdead◎추가효과|r : 공격시 단일 적 3초간 이동속도 45% 감소 + 초당 |cff4374D930만 마법데미지|r
+|cffffdead◎추가효과2|r : 제한 업그레이드 시 공격력 증가폭이 |cff1e90ff3000으로 상승▲|r
+|cffffdead　▶|r 기본 공격속도 증가량이 |cffb2222270%로 감소▼|r , 공격속도 증가폭이 |cff1e90ff7%로 상승▲|r
+}
+
+STRING 4677
+// 능력: A0RZ (!0911_영혼포식), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4678
+// 능력: A0S5 (!0607_잔혹한검술), Name (이름 (anam))
+{
+!0607_잔혹한검술
+}
+
+STRING 4679
+// 능력: A0S5 (!0607_잔혹한검술), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff잔혹한 검술|r
+}
+
+STRING 4680
+// 능력: A0S5 (!0607_잔혹한검술), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D잔혹한 검술을 지녔습니다.|r
+
+|cffffdead◎발동조건|r : 공격시 10% 확률
+|cffffdead◎범위|r : 450
+|cffffdead◎데미지|r : |cffF15F5F75만 물리데미지|r
+|cffffdead◎추가효과|r : 단일 적 |cffff8c004의 아머브레이크|r (최대 75까지 감소)
+}
+
+STRING 4681
+// 능력: A0RX (!0911_프로메테우스), EditorSuffix (에디터 접미사 (ansf))
+{
+(보팔블레이드)
+}
+
+STRING 4682
+// 능력: A0S4 (!0607_처형), Name (이름 (anam))
+{
+!0607_처형
+}
+
+STRING 4683
+// 능력: A0S4 (!0607_처형), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff처형|r
+}
+
+STRING 4684
+// 능력: A0S4 (!0607_처형), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D적을 처형할 준비를 합니다.|r
+
+|cffffdead◎발동조건|r : 적의 |cffff8c00아머브레이크|r 50 이상 + 마나 35 이상
+|cffffdead◎기본효과|r : 33의 마나를 소모하고 1.25초간 처형자 상태
+|cffffdead　▶|r 처형자 상태시 공격속도 25% 증가
+|cffffdead　▶|r 이미 처형자 상태일시 발동하지 않습니다.
+
+|cffc68a12참수|r
+|cffffdead◎발동조건|r : 처형자 상태
+|cffffdead◎기본효과|r : '잔혹한 검술' 스킬이 강화되어 100% 확률로 발동
+|cffffdead　▶|r 범위 및 데미지가 1.5배로 늘어나며 주변 적에게 |cffff8c001의 아머브레이크|r (최대 75까지 감소)
+|cffffdead　▶|r 단일 적에게 |cffA566FF1000만 고정데미지|r (보스, 스토리, 광폭화에게는 |cffA566FF10만 고정데미지|r)
+}
+
+STRING 4685
+// 능력: A0S3 (!0607_화재), EditorSuffix (에디터 접미사 (ansf))
+{
+(리퀴드파이어)
+}
+
+STRING 4686
+// 능력: A0S3 (!0607_화재), Name (이름 (anam))
+{
+!0607_화재
+}
+
+STRING 4687
+// 능력: A0S3 (!0607_화재), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff화재|r
+}
+
+STRING 4688
+// 능력: A0S3 (!0607_화재), Ubertip (도구 도움말 - 보통 - 확장 (aub1))
+{
+|cffFAED7D삼재해중 화재로 화마를 일으킵니다.|r
+
+|cffffdead◎발동조건|r : 공격시 14.25% 확률
+|cffffdead◎범위|r : 450
+|cffffdead◎데미지|r : |cff4374D920만 마법데미지|r + 2.7초 동안 0.27초당 |cff4374D94만 2500 마법데미지|r
+|cffffdead◎독약|r : 스킬에 맞은 적 |cffff69b4방어력 20 감소|r
+|cffffdead　▶|r 다른 독약 스킬과 중복 불가능
+|cffffdead　▶|r 스킬 발동시 해당 범위에 약 2초간 방어력 10 감소
+}
+
+STRING 4689
+// 능력: A0S2 (T특성강화), EditorSuffix (에디터 접미사 (ansf))
+{
+(초월 샹크스)
+}
+
+STRING 4690
+// 능력: A0RS (T특성강화), Name (이름 (anam))
+{

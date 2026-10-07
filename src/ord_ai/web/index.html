@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ORD AI 학습 대시보드</title>
+  <meta name="description" content="ORD Picker AI가 실제 게임에서 모은 전이 기록과 학습 진행 상황을 5초마다 갱신해 보여 주는 로컬 대시보드입니다.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#150f23">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" href="/data.css">
+  <link rel="modulepreload" href="/dom.js">
+  <link rel="modulepreload" href="/format.js">
+  <link rel="modulepreload" href="/charts.js">
+  <link rel="modulepreload" href="/sections.js">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">ORD AI</span>
+        <h1 class="brand__title">학습 대시보드</h1>
+      </div>
+      <p id="connection" class="conn" role="status" data-state="loading">
+        <span class="conn__dot" aria-hidden="true"></span>
+        <span id="connection-text">연결 중</span>
+      </p>
+      <label class="field">
+        <span class="field__label">실행</span>
+        <select id="run-select" class="select" disabled>
+          <option>불러오는 중</option>
+        </select>
+      </label>
+      <p class="refresh">마지막 갱신 <time id="refreshed">-</time></p>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="section" aria-labelledby="collected-title">
+      <div class="section__head">
+        <h2 id="collected-title">수집 데이터</h2>
+        <p class="section__note" id="collected-note">요약을 불러오는 중입니다.</p>
+      </div>
+      <dl class="kpis" id="kpis"></dl>
+      <div class="fields">
+        <p class="fields__label" id="fields-label">텔레메트리 필드별 행 수</p>
+        <ul class="chips" id="fields" aria-labelledby="fields-label"></ul>
+      </div>
+      <div class="panel panel--flush">
+        <div class="table-scroll" tabindex="0" role="region" aria-labelledby="runs-caption">
+          <table class="table">
+            <caption id="runs-caption" class="table__caption">실행별 수집 현황</caption>
+            <thead>
+              <tr>
+                <th scope="col">실행</th>
+                <th scope="col" class="num">전이</th>
+                <th scope="col" class="num">에피소드</th>
+                <th scope="col" class="num">텔레메트리</th>
+                <th scope="col" class="num">체크포인트 step</th>
+                <th scope="col">마지막 저장</th>
+                <th scope="col">마지막 기록</th>
+              </tr>
+            </thead>
+            <tbody id="runs-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="episodes-title">
+      <div class="section__head">
+        <h2 id="episodes-title">에피소드</h2>
+        <p class="section__note" id="episodes-note"></p>
+      </div>
+      <div class="split split--episodes">
+        <figure class="panel chart">
+          <figcaption class="panel__head">
+            <h3>에피소드별 최고 라운드</h3>
+            <p class="panel__meta" id="episode-meta"></p>
+          </figcaption>
+          <p class="empty" id="episode-empty" hidden></p>
+          <div class="well well--bars" id="episode-well"></div>
+          <ul class="legend" aria-label="막대 색">
+            <li><span class="legend__swatch tone-loss" aria-hidden="true"></span>패배</li>
+            <li><span class="legend__swatch tone-win" aria-hidden="true"></span>승리</li>
+            <li><span class="legend__swatch tone-playing" aria-hidden="true"></span>진행 중</li>
+          </ul>
+        </figure>
+        <div class="panel panel--flush">
+          <div class="table-scroll table-scroll--tall" tabindex="0" role="region" aria-labelledby="episodes-caption">
+            <table class="table">
+              <caption id="episodes-caption" class="table__caption">에피소드 기록 (최신 순)</caption>
+              <thead>
+                <tr>
+                  <th scope="col" class="num">에피소드</th>
+                  <th scope="col" class="num">최고 라운드</th>
+                  <th scope="col" class="num">보상 합</th>
+                  <th scope="col">결과</th>
+                  <th scope="col" class="num">수락률</th>
+                  <th scope="col" class="num">스텝</th>
+                  <th scope="col" class="num">종료 게임 시간</th>
+                </tr>
+              </thead>
+              <tbody id="episodes-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="split split--pair">
+      <section class="section" aria-labelledby="learning-title">
+        <div class="section__head">
+          <h2 id="learning-title">학습 곡선</h2>
+          <p class="section__note" id="learning-note"></p>
+        </div>
+        <p class="empty" id="learning-empty" hidden></p>
+        <div class="stack" id="learning-charts" hidden>
+          <figure class="panel chart">
+            <figcaption class="panel__head">
+              <h3>정책 손실 <span class="h3-code">policy_loss</span></h3>
+              <p class="panel__meta" id="policy-meta"></p>
+            </figcaption>
+            <div class="well well--line" id="policy-well"></div>
+          </figure>
+          <figure class="panel chart">
+            <figcaption class="panel__head">
+              <h3>가치 손실 <span class="h3-code">value_loss</span></h3>
+              <p class="panel__meta" id="value-meta"></p>
+            </figcaption>
+            <div class="well well--line" id="value-well"></div>
+          </figure>
+          <ul class="legend" aria-label="표시">
+            <li><span class="legend__swatch legend__swatch--dot tone-loss" aria-hidden="true"></span>에피소드를 끝낸 업데이트</li>
+            <li><span class="legend__swatch legend__swatch--clip tone-loss" aria-hidden="true"></span>축 밖 값, 가장자리에 표시</li>
+          </ul>
+          <details class="alt">
+            <summary>손실 값 표</summary>
+            <div class="table-scroll table-scroll--tall" tabindex="0" role="region" aria-label="손실 값 표">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="num">step</th>
+                    <th scope="col" class="num">라운드</th>
+                    <th scope="col" class="num">보상</th>
+                    <th scope="col" class="num">정책 손실</th>
+                    <th scope="col" class="num">가치 손실</th>
+                    <th scope="col">에피소드 종료</th>
+                  </tr>
+                </thead>
+                <tbody id="losses-body"></tbody>
+              </table>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="actions-title">
+        <div class="section__head">
+          <h2 id="actions-title">행동 분포</h2>
+          <p class="section__note" id="actions-note"></p>
+        </div>
+        <div class="panel panel--flush">
+          <div class="table-scroll" tabindex="0" role="region" aria-labelledby="actions-caption">
+            <table class="table table--actions">
+              <caption id="actions-caption" class="table__caption">가장 많이 고른 행동 15개</caption>
+              <thead>
+                <tr>
+                  <th scope="col">행동</th>
+                  <th scope="col">선택 횟수</th>
+                  <th scope="col" class="num">수락률</th>
+                </tr>
+              </thead>
+              <tbody id="actions-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section" aria-labelledby="live-title">
+      <div class="section__head">
+        <h2 id="live-title">실시간 상태</h2>
+        <p class="section__note" id="live-note"></p>
+      </div>
+      <div class="split split--live">
+        <div class="panel">
+          <h3 class="panel__title">마지막 기록</h3>
+          <dl class="facts" id="live-facts"></dl>
+        </div>
+        <figure class="panel chart">
+          <figcaption class="panel__head">
+            <h3>유닛 위치</h3>
+            <p class="panel__meta" id="map-meta"></p>
+          </figcaption>
+          <p class="empty" id="map-empty" hidden></p>
+          <div class="well well--map" id="map-well"></div>
+          <details class="alt" id="map-alt">
+            <summary>유닛 목록</summary>
+            <div class="table-scroll table-scroll--tall" tabindex="0" role="region" aria-label="유닛 목록 표">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">유닛</th>
+                    <th scope="col" class="num">x</th>
+                    <th scope="col" class="num">y</th>
+                  </tr>
+                </thead>
+                <tbody id="map-body"></tbody>
+              </table>
+            </div>
+          </details>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>데이터 폴더 <code id="runs-dir">runs</code>. 이 페이지는 127.0.0.1에서만 열리며 인증이 없습니다. 5초마다 자동으로 갱신합니다.</p>
+  </footer>
+</body>
+</html>

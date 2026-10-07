@@ -1,0 +1,1800 @@
+
+STRING 300
+// 유닛: e0NB (!1202_부릉냐), Name (이름 (unam))
+{
+!1202_부릉냐
+}
+
+STRING 301
+// 유닛: h07A (미션), Name (이름 (unam))
+{
+미션
+}
+
+STRING 302
+// 유닛: h079 (|cffc0c0c0거인족|r - |cff00fa9a초월|r), Name (이름 (unam))
+{
+|cffc0c0c0거인족|r - |cff00fa9a초월|r
+}
+
+STRING 303
+// 유닛: h078 (|cffffd700해적 총병|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700해적 총병|r - |cffFF0000전설|r
+}
+
+STRING 304
+// 유닛: h077 (|c00ffff00광대 해적|r - |c00ff7039변화|r), Name (이름 (unam))
+{
+|c00ffff00광대 해적|r - |c00ff7039변화|r
+}
+
+STRING 305
+// 유닛: h076 (|c00c6fbfb엠포리오 이완코브|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb엠포리오 이완코브|r - |c004d57fe히든|r
+}
+
+STRING 306
+// 유닛: h075 (|cff00ced1보물상자|r - |cffc0c0c0바운티헌터|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(바운티헌터)
+}
+
+STRING 307
+// 유닛: h075 (|cff00ced1보물상자|r - |cffc0c0c0바운티헌터|r), Name (이름 (unam))
+{
+|cff00ced1보물상자|r - |cffc0c0c0바운티헌터|r
+}
+
+STRING 308
+// 유닛: h074 (!1205_Effect AZ_Slash Splash Sky_birth), Name (이름 (unam))
+{
+!1205_Effect AZ_Slash Splash Sky_birth
+}
+
+STRING 309
+// 유닛: h073 (|cffdc143c야가미 라이토|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c야가미 라이토|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 310
+// 유닛: h072 (|cffdc143c하네카와 츠바사|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c하네카와 츠바사|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 311
+// 유닛: h071 (|cffdc143c쿠로사키 이치고|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c쿠로사키 이치고|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 312
+// 유닛: h070 (|cffdc143c이사야마 요미|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c이사야마 요미|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 313
+// 유닛: h06Z (|cffdc143c엘리자베스|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c엘리자베스|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 314
+// 유닛: h06Y (|cffdc143c카미조 토우마|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c카미조 토우마|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 315
+// 유닛: h06X (|cffdc143c센토 이스즈|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c센토 이스즈|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 316
+// 유닛: h06W (|cffdc143c요츠바!|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c요츠바!|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 317
+// 유닛: h06V (|cffdc143c우즈마키 나루토|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c우즈마키 나루토|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 318
+// 유닛: h06U (|cffdc143cK|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143cK|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 319
+// 유닛: h06T (|cffdc143c페이몬|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c페이몬|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 320
+// 유닛: h06S (연구소), Name (이름 (unam))
+{
+연구소
+}
+
+STRING 321
+// 유닛: h06R (강화소 2), Name (이름 (unam))
+{
+강화소 2
+}
+
+STRING 322
+// 유닛: h06Q (강화소 1), Name (이름 (unam))
+{
+강화소 1
+}
+
+STRING 323
+// 유닛: h06P (|cffffd700장난감|r - |cffFF0000전설|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(슈가전설_소환)
+}
+
+STRING 324
+// 유닛: h06P (|cffffd700장난감|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700장난감|r - |cffFF0000전설|r
+}
+
+STRING 325
+// 유닛: h06O (|c00e7b879장난감|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879장난감|r - |cffff00ff희귀|r
+}
+
+STRING 326
+// 유닛: h06N (|cffffd700No.31|r - |cffFF0000전설|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(슈가전설_소환)
+}
+
+STRING 327
+// 유닛: h06N (|cffffd700No.31|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700No.31|r - |cffFF0000전설|r
+}
+
+STRING 328
+// 유닛: h06M (!1204_Effect TX_Shanguang5z), Name (이름 (unam))
+{
+!1204_Effect TX_Shanguang5z
+}
+
+STRING 329
+// 유닛: h06L (|cffff0000랜덤전용유닛|r), Name (이름 (unam))
+{
+|cffff0000랜덤전용유닛|r
+}
+
+STRING 330
+// 유닛: h06K (|cffff0000아이템|r), Name (이름 (unam))
+{
+|cffff0000아이템|r
+}
+
+STRING 331
+// 유닛: h06J (!모델출력확인용), Name (이름 (unam))
+{
+!모델출력확인용
+}
+
+STRING 332
+// 유닛: h06I (|cffffd700라운드 제한|r), Name (이름 (unam))
+{
+|cffffd700라운드 제한|r
+}
+
+STRING 333
+// 유닛: h06H (|CFFFFFA78카벤딧슈 하쿠바|r - |CFFC15AF4영원|r), Name (이름 (unam))
+{
+|CFFFFFA78카벤딧슈 하쿠바|r - |CFFC15AF4영원|r
+}
+
+STRING 334
+// 유닛: h06G (|cffff00ff행운의 토큰|r), Name (이름 (unam))
+{
+|cffff00ff행운의 토큰|r
+}
+
+STRING 335
+// 유닛: h06F (돈도박 하급), Hotkey (단축키 (uhot))
+{
+Q
+}
+
+STRING 336
+// 유닛: h06F (돈도박 하급), Name (이름 (unam))
+{
+돈도박 하급
+}
+
+STRING 337
+// 유닛: h06F (돈도박 하급), Tip (도구 도움말 - 기본 (utip))
+{
+돈 도박 하급(|cffffcc00Q|r)
+}
+
+STRING 338
+// 유닛: h06F (돈도박 하급), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffffdead◈|r |cffff69b475% 확률|r로 10~50 골드를 얻습니다.
+}
+
+STRING 339
+// 유닛: h06E (!0528_toki), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(애니메이션출력용)
+}
+
+STRING 340
+// 유닛: h06E (!0528_toki), Name (이름 (unam))
+{
+!0528_toki
+}
+
+STRING 341
+// 유닛: h06D (유닛도박), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(고급도박)
+}
+
+STRING 342
+// 유닛: h06D (유닛도박), Hotkey (단축키 (uhot))
+{
+D
+}
+
+STRING 343
+// 유닛: h06D (유닛도박), Name (이름 (unam))
+{
+유닛도박
+}
+
+STRING 344
+// 유닛: h06D (유닛도박), Tip (도구 도움말 - 기본 (utip))
+{
+유닛도박 고급(|cffffcc00D|r)
+}
+
+STRING 345
+// 유닛: h06D (유닛도박), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffffdead◈|r |cffff69b470% 확률|r로 특별~희귀 사이의 유닛을 얻습니다.
+|cffffdead◈|r |cffff69b44% 확률|r로 |c00e7b879실버즈 레일리|r - |cffff00ff희귀|r 를 획득합니다.
+
+|cffff8200압살롬은 등장하지 않습니다.|r
+}
+
+STRING 346
+// 유닛: h06C (유닛도박), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(중급도박)
+}
+
+STRING 347
+// 능력: A0BY (해루석), Hotkey (단축키 - 보통 (ahky))
+{
+S
+}
+
+STRING 348
+// 유닛: h06C (유닛도박), Name (이름 (unam))
+{
+유닛도박
+}
+
+STRING 349
+// 유닛: h06C (유닛도박), Tip (도구 도움말 - 기본 (utip))
+{
+유닛도박 중급(|cffffcc00S|r)
+}
+
+STRING 350
+// 유닛: h06C (유닛도박), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffffdead◈|r |cffff69b470% 확률|r로 특별 유닛을 얻습니다.
+|cffffdead◈|r |cffff69b44.5% 확률|r로 |cff20b2aa해적선|r 을 획득합니다.
+
+|cffff8200압살롬은 등장하지 않습니다.|r
+}
+
+STRING 351
+// 유닛: h06B (유닛도박), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(하급도박)
+}
+
+STRING 352
+// 유닛: h06B (유닛도박), Hotkey (단축키 (uhot))
+{
+A
+}
+
+STRING 353
+// 유닛: h06B (유닛도박), Name (이름 (unam))
+{
+유닛도박
+}
+
+STRING 354
+// 유닛: h06B (유닛도박), Tip (도구 도움말 - 기본 (utip))
+{
+유닛도박 하급(|cffffcc00A|r)
+}
+
+STRING 355
+// 유닛: h06B (유닛도박), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffffdead◈|r |cffff69b485% 확률|r로 흔함~안흔함 사이의 유닛을 얻습니다.
+|cffffdead◈|r |cffff69b42% 확률|r로 |cff20b2aa해적선|r 을 획득합니다.
+}
+
+STRING 356
+// 유닛: h06A (|CFFFFFA78길드 테조로|r - |CFFC15AF4영원|r), Name (이름 (unam))
+{
+|CFFFFFA78길드 테조로|r - |CFFC15AF4영원|r
+}
+
+STRING 357
+// 유닛: h069 (유닛도박), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(압살롬)
+}
+
+STRING 358
+// 유닛: h069 (유닛도박), Hotkey (단축키 (uhot))
+{
+Z
+}
+
+STRING 359
+// 유닛: h069 (유닛도박), Name (이름 (unam))
+{
+유닛도박
+}
+
+STRING 360
+// 유닛: h069 (유닛도박), Tip (도구 도움말 - 기본 (utip))
+{
+압살롬 도박(|cffffcc00Z|r)
+}
+
+STRING 361
+// 유닛: h069 (유닛도박), Ubertip (도구 도움말 - 확장 (utub))
+{
+|cffffdead◈|r |cffff69b445% 확률|r로 압살롬을 얻습니다.
+
+|cffff8200구세주 압살롬|r
+
+}
+
+STRING 362
+// 유닛: h068 (|cffc0c0c0나미|r |cffb8860b미라쥬템포 분신|r - |cff00fa9a초월|r), Name (이름 (unam))
+{
+|cffc0c0c0나미|r |cffb8860b미라쥬템포 분신|r - |cff00fa9a초월|r
+}
+
+STRING 363
+// 유닛: h067 (|CFFFFFA78우타|r - |CFFC15AF4영원|r), Name (이름 (unam))
+{
+|CFFFFFA78우타|r - |CFFC15AF4영원|r
+}
+
+STRING 364
+// 유닛: e0O1 (!1206_Effect JDP White Flash), Name (이름 (unam))
+{
+!1206_Effect JDP White Flash
+}
+
+STRING 365
+// 유닛: h065 (|cffdc143c메구밍|r - |cff51ddf5랜덤전용|r), Name (이름 (unam))
+{
+|cffdc143c메구밍|r - |cff51ddf5랜덤전용|r
+}
+
+STRING 366
+// 유닛: h064 (!1204_az_jugg_e3), Name (이름 (unam))
+{
+!1204_az_jugg_e3
+}
+
+STRING 367
+// 유닛: h063 (공격시 7.5% 확률로 발동), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(!0724_블랙맘바요구조건)
+}
+
+STRING 368
+// 유닛: h063 (공격시 7.5% 확률로 발동), Name (이름 (unam))
+{
+공격시 7.5% 확률로 발동
+}
+
+STRING 369
+// 유닛: h062 (도박소 1), Name (이름 (unam))
+{
+도박소 1
+}
+
+STRING 370
+// 유닛: h061 (|cff7ad823목재|r), Name (이름 (unam))
+{
+|cff7ad823목재|r
+}
+
+STRING 371
+// 유닛: h060 (|cff20b2aa해적선|r), Name (이름 (unam))
+{
+|cff20b2aa해적선|r
+}
+
+STRING 372
+// 유닛: h05Z (체력 95 필요), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(!0726_메타몰조건)
+}
+
+STRING 373
+// 유닛: h05Z (체력 95 필요), Name (이름 (unam))
+{
+체력 95 필요
+}
+
+STRING 374
+// 유닛: h05Y (|c00e7b879고대의 배|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879고대의 배|r - |cffff00ff희귀|r
+}
+
+STRING 375
+// 유닛: h05X (|c00e7b879실버즈 레일리|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879실버즈 레일리|r - |cffff00ff희귀|r
+}
+
+STRING 376
+// 유닛: h05W (|c00ffff00네펠타리 비비|r - |c00ff7039변화|r), Name (이름 (unam))
+{
+|c00ffff00네펠타리 비비|r - |c00ff7039변화|r
+}
+
+STRING 377
+// 유닛: h05V (|c00d19be7포트거스.D.에이스|r - |cff9fefd1왜곡|r ), Name (이름 (unam))
+{
+|c00d19be7포트거스.D.에이스|r - |cff9fefd1왜곡|r 
+}
+
+STRING 378
+// 유닛: h05U (!#연구소 효과), Name (이름 (unam))
+{
+!#연구소 효과
+}
+
+STRING 379
+// 유닛: e0BF (!1204_Effect BY_Wood_Eff_Ord_Bh3_Int_Imp), Name (이름 (unam))
+{
+!1204_Effect BY_Wood_Eff_Ord_Bh3_Int_Imp
+}
+
+STRING 380
+// 유닛: h05S (|c00ffff00돈키호테 도플라밍고|r - |c00ff7039변화|r), Name (이름 (unam))
+{
+|c00ffff00돈키호테 도플라밍고|r - |c00ff7039변화|r
+}
+
+STRING 381
+// 유닛: h05R (|cffff0080페루|r - |cffb70fff특수|r), Name (이름 (unam))
+{
+|cffff0080페루|r - |cffb70fff특수|r
+}
+
+STRING 382
+// 유닛: h05Q (|cffff0080블고리|r - |cffb70fff특수|r), Name (이름 (unam))
+{
+|cffff0080블고리|r - |cffb70fff특수|r
+}
+
+STRING 383
+// 유닛: h05P (|cffff0080오타마|r - |cffb70fff특수|r), Name (이름 (unam))
+{
+|cffff0080오타마|r - |cffb70fff특수|r
+}
+
+STRING 384
+// 유닛: h05O (|cffff0080아이스버그|r - |cffb70fff특수|r), Name (이름 (unam))
+{
+|cffff0080아이스버그|r - |cffb70fff특수|r
+}
+
+STRING 385
+// 유닛: h05L (|c00e7b879사보|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879사보|r - |cffff00ff희귀|r
+}
+
+STRING 386
+// 유닛: h05K (|c00e7b879페로나|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879페로나|r - |cffff00ff희귀|r
+}
+
+STRING 387
+// 유닛: h05J (|c003e5582실버즈 레일리|r |c00e8be17명왕|r - |c00bc4346불멸|r 소환�), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(레일리불멸_분신)
+}
+
+STRING 388
+// 유닛: h05J (|c003e5582실버즈 레일리|r |c00e8be17명왕|r - |c00bc4346불멸|r 소환�), Name (이름 (unam))
+{
+|c003e5582실버즈 레일리|r |c00e8be17명왕|r - |c00bc4346불멸|r 소환됨
+}
+
+STRING 389
+// 유닛: h05I (|cff5997c9레베카|r - |cffdf9d30제한|r), Name (이름 (unam))
+{
+|cff5997c9레베카|r - |cffdf9d30제한|r
+}
+
+STRING 390
+// 유닛: h05H (|cffff0080모건|r - |cffb70fff특수|r), Name (이름 (unam))
+{
+|cffff0080모건|r - |cffb70fff특수|r
+}
+
+STRING 391
+// 유닛: h05G (|cff5997c9패트릭 레드필드|r - |cffdf9d30제한|r), Name (이름 (unam))
+{
+|cff5997c9패트릭 레드필드|r - |cffdf9d30제한|r
+}
+
+STRING 392
+// 유닛: h05F (|cff5997c9크로커다일|r - |cffdf9d30제한|r), Name (이름 (unam))
+{
+|cff5997c9크로커다일|r - |cffdf9d30제한|r
+}
+
+STRING 393
+// 유닛: h05E (|cff5997c9갓 에넬|r - |cffdf9d30제한|r), Name (이름 (unam))
+{
+|cff5997c9갓 에넬|r - |cffdf9d30제한|r
+}
+
+STRING 394
+// 유닛: h05D (|cffffd700장군좀비|r |cff000080그림자|r - |cffFF0000전설|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(모리아전설_소환)
+}
+
+STRING 395
+// 유닛: h05D (|cffffd700장군좀비|r |cff000080그림자|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700장군좀비|r |cff000080그림자|r - |cffFF0000전설|r
+}
+
+STRING 396
+// 유닛: h05C (|CFFFFFA78보아 핸콕|r - |CFFC15AF4영원|r), Name (이름 (unam))
+{
+|CFFFFFA78보아 핸콕|r - |CFFC15AF4영원|r
+}
+
+STRING 397
+// 유닛: h05B (|CFFFFFA78카벤딧슈|r - |CFFC15AF4영원|r), Name (이름 (unam))
+{
+|CFFFFFA78카벤딧슈|r - |CFFC15AF4영원|r
+}
+
+STRING 398
+// 유닛: h05A (|CFFFFFA78버기|r - |CFFC15AF4영원|r), Name (이름 (unam))
+{
+|CFFFFFA78버기|r - |CFFC15AF4영원|r
+}
+
+STRING 399
+// 유닛: h059 (|CFFFFFA78포트거스.D.에이스|r - |CFFC15AF4영원|r), Name (이름 (unam))
+{
+|CFFFFFA78포트거스.D.에이스|r - |CFFC15AF4영원|r
+}
+
+STRING 400
+// 능력: A13G ([오로성]새턴), Tip (도구 도움말 - 보통 (atp1))
+{
+|cff1e90ff꺼지지 않는 공포|r
+}
+
+STRING 401
+// 유닛: h057 (|CFFFFFA78네펠타리 비비|r - |CFFC15AF4영원|r), Name (이름 (unam))
+{
+|CFFFFFA78네펠타리 비비|r - |CFFC15AF4영원|r
+}
+
+STRING 402
+// 유닛: h056 (|cffc0c0c0노획물품|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(레일리불멸)
+}
+
+STRING 403
+// 유닛: h056 (|cffc0c0c0노획물품|r), Name (이름 (unam))
+{
+|cffc0c0c0노획물품|r
+}
+
+STRING 404
+// 유닛: h055 (|c00c6fbfb스튜시|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb스튜시|r - |c004d57fe히든|r
+}
+
+STRING 405
+// 유닛: h054 (!0411,!0727_tree_oak_lv1), Name (이름 (unam))
+{
+!0411,!0727_tree_oak_lv1
+}
+
+STRING 406
+// 유닛: h07Y (!1202,!1205_Effect Blue--Zhendi), Name (이름 (unam))
+{
+!1202,!1205_Effect Blue--Zhendi
+}
+
+STRING 407
+// 유닛: e0BC (!0715,!0728,!1204_Effect Yellow Flash 1), Name (이름 (unam))
+{
+!0715,!0728,!1204_Effect Yellow Flash 1
+}
+
+STRING 408
+// 유닛: h051 (|c00ff0080변화가능횟수|r), Name (이름 (unam))
+{
+|c00ff0080변화가능횟수|r
+}
+
+STRING 409
+// 유닛: h050 (!1204_Effect NECancelDeath), Name (이름 (unam))
+{
+!1204_Effect NECancelDeath
+}
+
+STRING 410
+// 유닛: e0NS (!1204_Effect DT), Name (이름 (unam))
+{
+!1204_Effect DT
+}
+
+STRING 411
+// 유닛: h04Y (|c003e5582미저리|r |c00e8be17강철 풍선|r - |c00bc4346불멸|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(모델출력용 더미)
+}
+
+STRING 412
+// 유닛: h04Y (|c003e5582미저리|r |c00e8be17강철 풍선|r - |c00bc4346불멸|r), Name (이름 (unam))
+{
+|c003e5582미저리|r |c00e8be17강철 풍선|r - |c00bc4346불멸|r
+}
+
+STRING 413
+// 유닛: h04X (!1204_Effect Dead Spirit by Deckai2), Name (이름 (unam))
+{
+!1204_Effect Dead Spirit by Deckai2
+}
+
+STRING 414
+// 유닛: h04W (!1204_Effect Almagest), Name (이름 (unam))
+{
+!1204_Effect Almagest
+}
+
+STRING 415
+// 유닛: h04V (!동동주식만능더미), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(죽지않음)
+}
+
+STRING 416
+// 유닛: h04V (!동동주식만능더미), Name (이름 (unam))
+{
+!동동주식만능더미
+}
+
+STRING 417
+// 유닛: h04U (|c00d19be7블랙마리아|r - |cff9fefd1왜곡|r ), Name (이름 (unam))
+{
+|c00d19be7블랙마리아|r - |cff9fefd1왜곡|r 
+}
+
+STRING 418
+// 유닛: h04T (|cffc0c0c0f로우|r |cffb8860b감마나이프 분신|r - |cff00fa9a초월|r), Name (이름 (unam))
+{
+|cffc0c0c0f로우|r |cffb8860b감마나이프 분신|r - |cff00fa9a초월|r
+}
+
+STRING 419
+// 유닛: h04S (|cffc0c0c0바솔로뮤 쿠마|r - |cff00fa9a초월|r), Name (이름 (unam))
+{
+|cffc0c0c0바솔로뮤 쿠마|r - |cff00fa9a초월|r
+}
+
+STRING 420
+// 아이템: I004 (흡수한 양분), Name (이름 (unam))
+{
+흡수한 양분
+}
+
+STRING 421
+// 유닛: h04R (마나 150 필요), Name (이름 (unam))
+{
+마나 150 필요
+}
+
+STRING 422
+// 유닛: h04Q (|c00ff8f79빅 맘|r - |c00cc3337불멸|r ), Name (이름 (unam))
+{
+|c00ff8f79빅 맘|r - |c00cc3337불멸|r 
+}
+
+STRING 423
+// 유닛: h04P (!1204_Minato_rasengan3), Name (이름 (unam))
+{
+!1204_Minato_rasengan3
+}
+
+STRING 424
+// 유닛: h04O (!0808_UtaSoldier), Name (이름 (unam))
+{
+!0808_UtaSoldier
+}
+
+STRING 425
+// 유닛: h04N (!1205_Effect BY_Wood_DanGe_ZhanJi_DaoGuang_6_12_birth), Name (이름 (unam))
+{
+!1205_Effect BY_Wood_DanGe_ZhanJi_DaoGuang_6_12_birth
+}
+
+STRING 426
+// 유닛: h04M (!0902_레일리), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(애니메이션출력용)
+}
+
+STRING 427
+// 유닛: h04M (!0902_레일리), Name (이름 (unam))
+{
+!0902_레일리
+}
+
+STRING 428
+// 유닛: h04L (!1204_Effect Canying Yellow), Name (이름 (unam))
+{
+!1204_Effect Canying Yellow
+}
+
+STRING 429
+// 유닛: h04K (!1204_Effect AZ_Slash Splash Yellow), Name (이름 (unam))
+{
+!1204_Effect AZ_Slash Splash Yellow
+}
+
+STRING 430
+// 유닛: h04J (|c00ff8f79골.D.로져|r - |c00cc3337불멸|r ), Name (이름 (unam))
+{
+|c00ff8f79골.D.로져|r - |c00cc3337불멸|r 
+}
+
+STRING 431
+// 유닛: h04I (|cffc0c0c0아기 라분|r - |cff00fa9a초월|r), Name (이름 (unam))
+{
+|cffc0c0c0아기 라분|r - |cff00fa9a초월|r
+}
+
+STRING 432
+// 유닛: h04H (|c00e7b879쥬라클 미호크|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879쥬라클 미호크|r - |cffff00ff희귀|r
+}
+
+STRING 433
+// 유닛: h04G (|c00ff8f79제트|r - |c00cc3337불멸|r ), Name (이름 (unam))
+{
+|c00ff8f79제트|r - |c00cc3337불멸|r 
+}
+
+STRING 434
+// 유닛: h04F (|c00ff8f79스코퍼 가반|r - |c00cc3337불멸|r ), Name (이름 (unam))
+{
+|c00ff8f79스코퍼 가반|r - |c00cc3337불멸|r 
+}
+
+STRING 435
+// 유닛: h04E (|c00ff8f79센고쿠|r - |c00cc3337불멸|r ), Name (이름 (unam))
+{
+|c00ff8f79센고쿠|r - |c00cc3337불멸|r 
+}
+
+STRING 436
+// 유닛: h04D (|c00ff8f79몽키.D.드래곤|r - |c00cc3337불멸|r ), Name (이름 (unam))
+{
+|c00ff8f79몽키.D.드래곤|r - |c00cc3337불멸|r 
+}
+
+STRING 437
+// 유닛: h04C (|c00ff8f79몽키.D.거프|r - |c00cc3337불멸|r ), Name (이름 (unam))
+{
+|c00ff8f79몽키.D.거프|r - |c00cc3337불멸|r 
+}
+
+STRING 438
+// 유닛: h04B (|c00ff8f79금사자 시키|r - |c00cc3337불멸|r ), Name (이름 (unam))
+{
+|c00ff8f79금사자 시키|r - |c00cc3337불멸|r 
+}
+
+STRING 439
+// 유닛: h04A (|c00ff8f79흰수염|r - |c00cc3337불멸|r ), Name (이름 (unam))
+{
+|c00ff8f79흰수염|r - |c00cc3337불멸|r 
+}
+
+STRING 440
+// 유닛: h049 (|c00ff8f79실버즈 레일리|r - |c00cc3337불멸|r ), Name (이름 (unam))
+{
+|c00ff8f79실버즈 레일리|r - |c00cc3337불멸|r 
+}
+
+STRING 441
+// 유닛: h000 (|c00d19be7페로나|r - |cff9fefd1왜곡|r ), Name (이름 (unam))
+{
+|c00d19be7페로나|r - |cff9fefd1왜곡|r 
+}
+
+STRING 442
+// 유닛: h047 (|c00c6fbfb피셔 타이거|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb피셔 타이거|r - |c004d57fe히든|r
+}
+
+STRING 443
+// 유닛: h046 (|c00c6fbfb키쿠노죠|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb키쿠노죠|r - |c004d57fe히든|r
+}
+
+STRING 444
+// 유닛: h045 (|c00c6fbfb킬러|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb킬러|r - |c004d57fe히든|r
+}
+
+STRING 445
+// 유닛: h044 (|c00c6fbfb류마|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb류마|r - |c004d57fe히든|r
+}
+
+STRING 446
+// 유닛: h043 (|c00c6fbfb쥬라클 미호크|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb쥬라클 미호크|r - |c004d57fe히든|r
+}
+
+STRING 447
+// 유닛: H08T (|c00F3B001해적왕이 될 사나이|r / |c00F3B001다섯번째 황제|r), Propernames (적합한 이름 (upro))
+{
+|cff00fa9a몽키.D.루피|r
+}
+
+STRING 448
+// 유닛: h041 (|c00c6fbfb아오키지|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb아오키지|r - |c004d57fe히든|r
+}
+
+STRING 449
+// 유닛: h040 (|cff5997c9아인|r - |cffdf9d30제한|r), Name (이름 (unam))
+{
+|cff5997c9아인|r - |cffdf9d30제한|r
+}
+
+STRING 450
+// 유닛: h03Z (|c00c6fbfb아카이누|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb아카이누|r - |c004d57fe히든|r
+}
+
+STRING 451
+// 유닛: h03Y (|c00c6fbfb엠포리오 이완코브|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb엠포리오 이완코브|r - |c004d57fe히든|r
+}
+
+STRING 452
+// 유닛: h03X (|c00c6fbfb방주맥심|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb방주맥심|r - |c004d57fe히든|r
+}
+
+STRING 453
+// 유닛: h03W (|c00c6fbfb베르고|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb베르고|r - |c004d57fe히든|r
+}
+
+STRING 454
+// 유닛: h03V (|c00d19be7코알라|r - |cff9fefd1왜곡|r ), Name (이름 (unam))
+{
+|c00d19be7코알라|r - |cff9fefd1왜곡|r 
+}
+
+STRING 455
+// 유닛: h03U (|c00c6fbfb레드포스호|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb레드포스호|r - |c004d57fe히든|r
+}
+
+STRING 456
+// 유닛: h03T (|c00c6fbfb레베카|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb레베카|r - |c004d57fe히든|r
+}
+
+STRING 457
+// 유닛: h03S (|cffffd700울티|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700울티|r - |cffFF0000전설|r
+}
+
+STRING 458
+// 유닛: h03R (|c00c6fbfb반 더 데켄|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb반 더 데켄|r - |c004d57fe히든|r
+}
+
+STRING 459
+// 유닛: h03Q (|c00c6fbfb모비딕호|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb모비딕호|r - |c004d57fe히든|r
+}
+
+STRING 460
+// 유닛: h03P (|c00c6fbfb발라티에|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb발라티에|r - |c004d57fe히든|r
+}
+
+STRING 461
+// 유닛: h03O (|c00c6fbfb봉쿠레|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb봉쿠레|r - |c004d57fe히든|r
+}
+
+STRING 462
+// 유닛: h03N (|c00c6fbfb료쿠규|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb료쿠규|r - |c004d57fe히든|r
+}
+
+STRING 463
+// 유닛: h03M (|c00c6fbfb사보 용조권|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb사보 용조권|r - |c004d57fe히든|r
+}
+
+STRING 464
+// 유닛: h03L (|c00c6fbfb사우전드 써니호|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb사우전드 써니호|r - |c004d57fe히든|r
+}
+
+STRING 465
+// 유닛: h03K (|cffffd700쵸파 유력강화|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700쵸파 유력강화|r - |cffFF0000전설|r
+}
+
+STRING 466
+// 유닛: h03J (|c00c6fbfb비의 시류|r - |c004d57fe히든|r), Name (이름 (unam))
+{
+|c00c6fbfb비의 시류|r - |c004d57fe히든|r
+}
+
+STRING 467
+// 유닛: h03I (|cffffd700제파|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700제파|r - |cffFF0000전설|r
+}
+
+STRING 468
+// 유닛: h03H (|cffffd700샬롯 크래커|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700샬롯 크래커|r - |cffFF0000전설|r
+}
+
+STRING 469
+// 유닛: h03G (|cffffd700징베|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700징베|r - |cffFF0000전설|r
+}
+
+STRING 470
+// 유닛: h03F (|cffffd700카르가라|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700카르가라|r - |cffFF0000전설|r
+}
+
+STRING 471
+// 유닛: h03E (|cffffd700코비|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700코비|r - |cffFF0000전설|r
+}
+
+STRING 472
+// 유닛: h03D (마나 130 필요), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(!0714_금증숲숲조건)
+}
+
+STRING 473
+// 능력: A17Q (A_0912_데어스트라이크), Name (이름 (anam))
+{
+A_0912_데어스트라이크
+}
+
+STRING 474
+// 유닛: h03C (|cffffd700트라팔가 로우|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700트라팔가 로우|r - |cffFF0000전설|r
+}
+
+STRING 475
+// 유닛: h03B (|cffffd700흰수염|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700흰수염|r - |cffFF0000전설|r
+}
+
+STRING 476
+// 유닛: h03A (|cffffd700실버즈 레일리|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700실버즈 레일리|r - |cffFF0000전설|r
+}
+
+STRING 477
+// 유닛: h039 (|cffffd700금사자 시키|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700금사자 시키|r - |cffFF0000전설|r
+}
+
+STRING 478
+// 유닛: h038 (|cffffd700시저 크라운|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700시저 크라운|r - |cffFF0000전설|r
+}
+
+STRING 479
+// 유닛: h037 (|cffffd700슈가|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700슈가|r - |cffFF0000전설|r
+}
+
+STRING 480
+// 유닛: h036 (|cffffd700센고쿠|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700센고쿠|r - |cffFF0000전설|r
+}
+
+STRING 481
+// 유닛: h035 (|cffffd700샹크스|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700샹크스|r - |cffFF0000전설|r
+}
+
+STRING 482
+// 유닛: h034 (|cffffd700상디 슈트코스|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700상디 슈트코스|r - |cffFF0000전설|r
+}
+
+STRING 483
+// 유닛: h033 (|cffffd700빈스모크 레이쥬|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700빈스모크 레이쥬|r - |cffFF0000전설|r
+}
+
+STRING 484
+// 유닛: h032 (|cffffd700보아 핸콕|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700보아 핸콕|r - |cffFF0000전설|r
+}
+
+STRING 485
+// 유닛: h031 (|cffffd700후지토라 잇쇼우|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700후지토라 잇쇼우|r - |cffFF0000전설|r
+}
+
+STRING 486
+// 유닛: h030 (|cffffd700바솔로뮤 쿠마|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700바솔로뮤 쿠마|r - |cffFF0000전설|r
+}
+
+STRING 487
+// 유닛: h02Z (|cffffd700바르토로메오|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700바르토로메오|r - |cffFF0000전설|r
+}
+
+STRING 488
+// 유닛: h02Y (|cffffd700루피 나이트메어|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700루피 나이트메어|r - |cffFF0000전설|r
+}
+
+STRING 489
+// 유닛: h02X (|cffffd700블랙마리아|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700블랙마리아|r - |cffFF0000전설|r
+}
+
+STRING 490
+// 유닛: h02W (|cffffd700몽키.D.드래곤|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700몽키.D.드래곤|r - |cffFF0000전설|r
+}
+
+STRING 491
+// 유닛: h02V (|cffffd700스모커|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700스모커|r - |cffFF0000전설|r
+}
+
+STRING 492
+// 유닛: h02U (|cffffd700검은수염|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700검은수염|r - |cffFF0000전설|r
+}
+
+STRING 493
+// 유닛: h02T (|cffffd700마르코 환수종|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700마르코 환수종|r - |cffFF0000전설|r
+}
+
+STRING 494
+// 유닛: h02S (|cffffd700조로 죽음의경지|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700조로 죽음의경지|r - |cffFF0000전설|r
+}
+
+STRING 495
+// 유닛: h02R (|cffffd700로브 루치|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700로브 루치|r - |cffFF0000전설|r
+}
+
+STRING 496
+// 유닛: h02Q (|cffffd700라분|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700라분|r - |cffFF0000전설|r
+}
+
+STRING 497
+// 유닛: h02P (|cffffd700나미 도둑고양이|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700나미 도둑고양이|r - |cffFF0000전설|r
+}
+
+STRING 498
+// 유닛: h02O (|cffffd700포트거스.D.에이스|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700포트거스.D.에이스|r - |cffFF0000전설|r
+}
+
+STRING 499
+// 유닛: h02N (|cffffd700겟코 모리아|r - |cffFF0000전설|r), Name (이름 (unam))
+{
+|cffffd700겟코 모리아|r - |cffFF0000전설|r
+}
+
+STRING 500
+// 유닛: h02M (|c00e7b879베이비5|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879베이비5|r - |cffff00ff희귀|r
+}
+
+STRING 501
+// 유닛: h02L (|c00e7b879트라팔가 로우|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879트라팔가 로우|r - |cffff00ff희귀|r
+}
+
+STRING 502
+// 유닛: h02K (|c00e7b879쵸파 혼포인트|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879쵸파 혼포인트|r - |cffff00ff희귀|r
+}
+
+STRING 503
+// 유닛: h02J (|c00e7b879킨에몬|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879킨에몬|r - |cffff00ff희귀|r
+}
+
+STRING 504
+// 유닛: h02I (|c00e7b879상디 디아블잠브|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879상디 디아블잠브|r - |cffff00ff희귀|r
+}
+
+STRING 505
+// 유닛: h02H (|c00e7b879크로커다일 Mr.0|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879크로커다일 Mr.0|r - |cffff00ff희귀|r
+}
+
+STRING 506
+// 유닛: h02G (|c00e7b879제프|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879제프|r - |cffff00ff희귀|r
+}
+
+STRING 507
+// 유닛: h02F (|c00e7b879조로 현상금사냥꾼|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879조로 현상금사냥꾼|r - |cffff00ff희귀|r
+}
+
+STRING 508
+// 유닛: h02E (|c00e7b879다이아몬드 죠즈|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879다이아몬드 죠즈|r - |cffff00ff희귀|r
+}
+
+STRING 509
+// 유닛: h02D (|c00e7b879유스타스 키드|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879유스타스 키드|r - |cffff00ff희귀|r
+}
+
+STRING 510
+// 유닛: h02C (|c00e7b879우솝 보잉열도|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879우솝 보잉열도|r - |cffff00ff희귀|r
+}
+
+STRING 511
+// 유닛: h02B (|c00e7b879아오키지|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879아오키지|r - |cffff00ff희귀|r
+}
+
+STRING 512
+// 유닛: h02A (|c00e7b879엠포리오 이완코브|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879엠포리오 이완코브|r - |cffff00ff희귀|r
+}
+
+STRING 513
+// 유닛: h029 (|c00e7b879샹크스|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879샹크스|r - |cffff00ff희귀|r
+}
+
+STRING 514
+// 유닛: h028 (|c00e7b879센토마루|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879센토마루|r - |cffff00ff희귀|r
+}
+
+STRING 515
+// 유닛: h027 (|c00e7b879슈가|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879슈가|r - |cffff00ff희귀|r
+}
+
+STRING 516
+// 유닛: h026 (|c00e7b879시류|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879시류|r - |cffff00ff희귀|r
+}
+
+STRING 517
+// 유닛: h025 (|c00e7b879류마|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879류마|r - |cffff00ff희귀|r
+}
+
+STRING 518
+// 유닛: h024 (|c00e7b879와이퍼|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879와이퍼|r - |cffff00ff희귀|r
+}
+
+STRING 519
+// 유닛: h023 (|c00e7b879카쿠|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879카쿠|r - |cffff00ff희귀|r
+}
+
+STRING 520
+// 유닛: h022 (|c00e7b879마르코 불사조|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879마르코 불사조|r - |cffff00ff희귀|r
+}
+
+STRING 521
+// 유닛: h021 (|c00e7b879검은수염|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879검은수염|r - |cffff00ff희귀|r
+}
+
+STRING 522
+// 유닛: h020 (|c00e7b879마인 오즈|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879마인 오즈|r - |cffff00ff희귀|r
+}
+
+STRING 523
+// 유닛: h01Z (|c00e7b879마젤란|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879마젤란|r - |cffff00ff희귀|r
+}
+
+STRING 524
+// 유닛: h01Y (|c00e7b879모몬가|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879모몬가|r - |cffff00ff희귀|r
+}
+
+STRING 525
+// 유닛: h01X (|c00e7b879루피 기어서드|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879루피 기어서드|r - |cffff00ff희귀|r
+}
+
+STRING 526
+// 유닛: h01W (|c00e7b879바르토로메오|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879바르토로메오|r - |cffff00ff희귀|r
+}
+
+STRING 527
+// 유닛: h01V (|c00e7b879바제스|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879바제스|r - |cffff00ff희귀|r
+}
+
+STRING 528
+// 유닛: h01U (|c00e7b879바질 호킨스|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879바질 호킨스|r - |cffff00ff희귀|r
+}
+
+STRING 529
+// 유닛: h01T (|c00e7b879반 더 데켄|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879반 더 데켄|r - |cffff00ff희귀|r
+}
+
+STRING 530
+// 유닛: h01S (|c00e7b879벤 베크만|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879벤 베크만|r - |cffff00ff희귀|r
+}
+
+STRING 531
+// 유닛: h01R (|c00e7b879키자루|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879키자루|r - |cffff00ff희귀|r
+}
+
+STRING 532
+// 유닛: h01Q (|c00e7b879몽키.D.거프|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879몽키.D.거프|r - |cffff00ff희귀|r
+}
+
+STRING 533
+// 유닛: h01P (|c00e7b879아카이누|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879아카이누|r - |cffff00ff희귀|r
+}
+
+STRING 534
+// 유닛: h01O (|c00e7b879네펠타리 비비|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879네펠타리 비비|r - |cffff00ff희귀|r
+}
+
+STRING 535
+// 유닛: h01N (|c00e7b879브룩 음악가|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879브룩 음악가|r - |cffff00ff희귀|r
+}
+
+STRING 536
+// 유닛: h01M (|c00e7b879보아 핸콕|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879보아 핸콕|r - |cffff00ff희귀|r
+}
+
+STRING 537
+// 유닛: h01L (|c00e7b879돈키호테 도플라밍고|r - |cffff00ff희귀|r), Name (이름 (unam))
+{
+|c00e7b879돈키호테 도플라밍고|r - |cffff00ff희귀|r
+}
+
+STRING 538
+// 유닛: h01K (|c00b7b7f7X-드레이크|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7X-드레이크|r - |cff0080ff특별|r
+}
+
+STRING 539
+// 유닛: h01J (|c00b7b7f7포트거스.D.에이스|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7포트거스.D.에이스|r - |cff0080ff특별|r
+}
+
+STRING 540
+// 유닛: h01I (|c00b7b7f7헤르메포|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7헤르메포|r - |cff0080ff특별|r
+}
+
+STRING 541
+// 유닛: h01H (|c00b7b7f7트라팔가 로우|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7트라팔가 로우|r - |cff0080ff특별|r
+}
+
+STRING 542
+// 유닛: h01G (|c00b7b7f7파이러츠 도킹5|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7파이러츠 도킹5|r - |cff0080ff특별|r
+}
+
+STRING 543
+// 유닛: h01F (|c00b7b7f7스모커|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7스모커|r - |cff0080ff특별|r
+}
+
+STRING 544
+// 유닛: h01E (|c00b7b7f7쵸파 두뇌강화|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7쵸파 두뇌강화|r - |cff0080ff특별|r
+}
+
+STRING 545
+// 유닛: h01D (|c00b7b7f7쵸파 가드포인트|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7쵸파 가드포인트|r - |cff0080ff특별|r
+}
+
+STRING 546
+// 유닛: h01C (|c00b7b7f7카포네 갱 벳지|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7카포네 갱 벳지|r - |cff0080ff특별|r
+}
+
+STRING 547
+// 유닛: h01B (|c00b7b7f7킬러|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7킬러|r - |cff0080ff특별|r
+}
+
+STRING 548
+// 유닛: h01A (|c00b7b7f7크로커다일|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7크로커다일|r - |cff0080ff특별|r
+}
+
+STRING 549
+// 유닛: h019 (|c00b7b7f7챠카|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7챠카|r - |cff0080ff특별|r
+}
+
+STRING 550
+// 유닛: h018 (|c00b7b7f7징베|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7징베|r - |cff0080ff특별|r
+}
+
+STRING 551
+// 유닛: h017 (|c00b7b7f7바솔로뮤 쿠마|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7바솔로뮤 쿠마|r - |cff0080ff특별|r
+}
+
+STRING 552
+// 유닛: h016 (|c00b7b7f7바질 호킨스|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7바질 호킨스|r - |cff0080ff특별|r
+}
+
+STRING 553
+// 유닛: h015 (|c00b7b7f7버기 마기탄|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7버기 마기탄|r - |cff0080ff특별|r
+}
+
+STRING 554
+// 유닛: h014 (|c00b7b7f7봉쿠레|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7봉쿠레|r - |cff0080ff특별|r
+}
+
+STRING 555
+// 유닛: h013 (|c00b7b7f7상디 검은다리|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7상디 검은다리|r - |cff0080ff특별|r
+}
+
+STRING 556
+// 유닛: h012 (|c00b7b7f7스쿼드|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7스쿼드|r - |cff0080ff특별|r
+}
+
+STRING 557
+// 유닛: h011 (|c00b7b7f7아론|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7아론|r - |cff0080ff특별|r
+}
+
+STRING 558
+// 유닛: h010 (|c00b7b7f7압살롬|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7압살롬|r - |cff0080ff특별|r
+}
+
+STRING 559
+// 유닛: h00Z (|c00b7b7f7우솝 화염탄|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7우솝 화염탄|r - |cff0080ff특별|r
+}
+
+STRING 560
+// 유닛: h00Y (|c00b7b7f7유스타스 키드|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7유스타스 키드|r - |cff0080ff특별|r
+}
+
+STRING 561
+// 유닛: h00X (|c00b7b7f7이나즈마 혁명군|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7이나즈마 혁명군|r - |cff0080ff특별|r
+}
+
+STRING 562
+// 유닛: h00W (|c00b7b7f7조로 귀기|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7조로 귀기|r - |cff0080ff특별|r
+}
+
+STRING 563
+// 유닛: h00V (|c00b7b7f7캡틴 크로|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7캡틴 크로|r - |cff0080ff특별|r
+}
+
+STRING 564
+// 유닛: h00U (|c00b7b7f7루피 기어세컨드|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7루피 기어세컨드|r - |cff0080ff특별|r
+}
+
+STRING 565
+// 유닛: h00T (|c00b7b7f7마르코|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7마르코|r - |cff0080ff특별|r
+}
+
+STRING 566
+// 유닛: h00S (|c00b7b7f7로빈 오하라|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7로빈 오하라|r - |cff0080ff특별|r
+}
+
+STRING 567
+// 유닛: h00R (|c00b7b7f7로브 루치|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7로브 루치|r - |cff0080ff특별|r
+}
+
+STRING 568
+// 유닛: h00Q (|c00b7b7f7에넬|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7에넬|r - |cff0080ff특별|r
+}
+
+STRING 569
+// 유닛: h00P (|c00b7b7f7나미 크리마텍트|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7나미 크리마텍트|r - |cff0080ff특별|r
+}
+
+STRING 570
+// 유닛: h00O (|cff7b68ee니코 로빈|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee니코 로빈|r - |cff9553ec안흔함|r
+}
+
+STRING 571
+// 유닛: h00N (|cff7b68ee우솝 저격왕|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee우솝 저격왕|r - |cff9553ec안흔함|r
+}
+
+STRING 572
+// 유닛: h00M (|cff7b68ee블루노|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee블루노|r - |cff9553ec안흔함|r
+}
+
+STRING 573
+// 유닛: h00L (|cff7b68ee프랑키|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee프랑키|r - |cff9553ec안흔함|r
+}
+
+STRING 574
+// 유닛: h00K (|cff7b68ee포트거스.D.에이스|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee포트거스.D.에이스|r - |cff9553ec안흔함|r
+}
+
+STRING 575
+// 유닛: h00J (|cff7b68ee페로나|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee페로나|r - |cff9553ec안흔함|r
+}
+
+STRING 576
+// 유닛: h00I (|cff7b68ee이나즈마|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee이나즈마|r - |cff9553ec안흔함|r
+}
+
+STRING 577
+// 유닛: h00H (|cff7b68ee좀비|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee좀비|r - |cff9553ec안흔함|r
+}
+
+STRING 578
+// 유닛: h00G (|cff7b68ee쵸파 럼블볼강화|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee쵸파 럼블볼강화|r - |cff9553ec안흔함|r
+}
+
+STRING 579
+// 유닛: h00F (|cff7b68ee하찌|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee하찌|r - |cff9553ec안흔함|r
+}
+
+STRING 580
+// 유닛: h00E (|cff7b68ee타시기|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee타시기|r - |cff9553ec안흔함|r
+}
+
+STRING 581
+// 유닛: h00D (|cff7b68ee브룩|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee브룩|r - |cff9553ec안흔함|r
+}
+
+STRING 582
+// 유닛: h00C (|cff7b68ee베포|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee베포|r - |cff9553ec안흔함|r
+}
+
+STRING 583
+// 유닛: h00B (|c00b7b7f7겟코 모리아|r - |cff0080ff특별|r), Name (이름 (unam))
+{
+|c00b7b7f7겟코 모리아|r - |cff0080ff특별|r
+}
+
+STRING 584
+// 유닛: h00A (|cff7b68ee후쿠로|r - |cff9553ec안흔함|r), Name (이름 (unam))
+{
+|cff7b68ee후쿠로|r - |cff9553ec안흔함|r
+}
+
+STRING 585
+// 유닛: h009 (|cff20b2aa해군 총병|r - |cff00ff00흔함|r), Name (이름 (unam))
+{
+|cff20b2aa해군 총병|r - |cff00ff00흔함|r
+}
+
+STRING 586
+// 유닛: h008 (|cff20b2aa토니토니 쵸파|r - |cff00ff00흔함|r), Name (이름 (unam))
+{
+|cff20b2aa토니토니 쵸파|r - |cff00ff00흔함|r
+}
+
+STRING 587
+// 유닛: h007 (|cff20b2aa우솝|r - |cff00ff00흔함|r), Name (이름 (unam))
+{
+|cff20b2aa우솝|r - |cff00ff00흔함|r
+}
+
+STRING 588
+// 유닛: h006 (|cff20b2aa해군 칼병|r - |cff00ff00흔함|r), Name (이름 (unam))
+{
+|cff20b2aa해군 칼병|r - |cff00ff00흔함|r
+}
+
+STRING 589
+// 유닛: h005 (|cff20b2aa버기|r - |cff00ff00흔함|r), Name (이름 (unam))
+{
+|cff20b2aa버기|r - |cff00ff00흔함|r
+}
+
+STRING 590
+// 유닛: h004 (|cff20b2aa상디|r - |cff00ff00흔함|r), Name (이름 (unam))
+{
+|cff20b2aa상디|r - |cff00ff00흔함|r
+}
+
+STRING 591
+// 유닛: h003 (|cff20b2aa몽키.D.루피|r - |cff00ff00흔함|r), Name (이름 (unam))
+{
+|cff20b2aa몽키.D.루피|r - |cff00ff00흔함|r
+}
+
+STRING 592
+// 유닛: h002 (|cff20b2aa롤로노아 조로|r - |cff00ff00흔함|r), Name (이름 (unam))
+{
+|cff20b2aa롤로노아 조로|r - |cff00ff00흔함|r
+}
+
+STRING 593
+// 유닛: h001 (|cff20b2aa나미|r - |cff00ff00흔함|r), Name (이름 (unam))
+{
+|cff20b2aa나미|r - |cff00ff00흔함|r
+}
+
+STRING 594
+// 유닛: h000 (|c00d19be7페로나|r - |cff9fefd1왜곡|r ), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(프리미엄 분신)
+}
+
+STRING 595
+// 유닛: h0C6 (|cffc0c0c0붉은갸라도스|r - |cff00fa9a초월|r), EditorSuffix (이름 - 에디터 접미사 (unsf))
+{
+(모델출력용 더미)
+}
+
+STRING 596
+// 유닛: eBS3 (!0901_Roger), Name (이름 (unam))
+{
+!0901_Roger
+}
+
+STRING 597
+// 유닛: eBS3 (!0901_Roger), Tip (도구 도움말 - 기본 (utip))
+{
+흔함선택위습
+}
+
+STRING 598
